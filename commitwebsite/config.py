@@ -3,7 +3,9 @@
 import os
 cwd = os.getcwd()
 
-DIR="/afs/csail.mit.edu/group/commit/www/data"
+# edwardw: we might be able to just get away with cwd here?
+#DIR="/afs/csail.mit.edu/group/commit/www/data"
+DIR=cwd
 URL="http://groups.csail.mit.edu/commit/"
 
 #BABELTRANSLATORTOOL="http://simile.mit.edu/babel/translator?reader=bibtex&writer=exhibit-json"
