@@ -6,7 +6,9 @@ cwd = os.getcwd()
 # edwardw: we might be able to just get away with cwd here?
 #DIR="/afs/csail.mit.edu/group/commit/www/data"
 DIR=cwd
-URL="http://groups.csail.mit.edu/commit/"
+# Use the real Host header if possible
+HTTP_HOST=os.environ.get("HTTP_HOST", "groups.csail.mit.edu")
+URL="http://" + HTTP_HOST + "/commit/"
 
 #BABELTRANSLATORTOOL="http://simile.mit.edu/babel/translator?reader=bibtex&writer=exhibit-json"
 ##BABELTRANSLATORTOOL="http://service.simile-widgets.org/babel/translator?reader=bibtex&writer=exhibit-json"
