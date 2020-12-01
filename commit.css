@@ -1,0 +1,201 @@
+body {
+  background-color: #e2e2e2; 
+  text-align: center;
+  font-family: "bitstream vera sans", arial, sans-serif; 
+  font-size: 90%;
+  padding: 10px;
+}
+
+a:link, a:visited, a:active, a:hover {
+  text-decoration: none;
+  color: #1010b5;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.pagewidth {
+  margin: auto;  
+  width: 780px;
+}
+.main {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.imagediv {
+  padding-bottom: 1px;
+}
+
+.menuitem {
+  float: left; 
+  margin-bottom: 20px; 
+  /* border-top: 1px solid #525252;  */
+  border-bottom: 1px solid #525252;
+}
+
+.menuitemlink {
+  width: 175px;  
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  color: #000000;
+}
+
+.menuitemlink:hover {
+  background-color: #dfdfdf;
+}
+
+.menuitemlink:active {
+  background-color: #afafaf;
+}
+
+.inner, .tl, .tr, .br, .bl, .outer {
+  width: 100%;
+}
+
+.outer { 
+  background-color: #ffffff;
+}
+
+/*
+.tl {background: url(images/roundrect1.png) 0    0     no-repeat}
+.tr {background: url(images/roundrect2.png) 100% 0     no-repeat}
+.br {background: url(images/roundrect3.png) 100% 100%  no-repeat}
+.bl {background: url(images/roundrect4.png) 0    100%  no-repeat}
+*/
+
+.sectitle, .secbody {
+  text-align: justify;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.secend {
+  clear: left;
+  padding: 3px;
+}
+
+.sectitle {
+  border-bottom: 1px solid #525252;
+}
+
+.beforesec {
+  clear: left;
+  height: 0px;
+  width: 100%;
+}
+
+.aftersec {
+  clear: left;
+  height: 0px;
+  width: 100%;
+}
+
+ul.person {
+  float: left;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+li.person {
+  float: left;
+  width: 325px;
+  margin: 0;
+  padding-right: 10px;
+  padding-bottom: 1px;
+}
+
+ul.project{
+  text-align: left;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.project{
+  float: left;
+  width: 335px;
+  height: 73px;
+  overflow: auto;
+  margin: 0;
+  padding-right: 10px;
+  padding-bottom: 1px;
+}
+
+h1, h2, h3 {
+  clear: left;
+  padding: 0;
+  margin: 0;
+}
+  
+h1.sectiontitle { font-size: 120%; }
+h2 { font-size: 100%; }
+h3 { font-size: 100%; }
+
+table.facetbox {
+  width: 100%;
+}
+
+td.facetbox {
+  width: 30%;
+  vertical-align: top;
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.readmore {
+  margin-top: 10px;
+  clear: left;
+}
+
+.publication {
+  /* font-size: 1em; */
+  font-size: 14px;
+  text-indent: 0em;
+  padding-bottom: 10px;
+}
+  
+li.minipub {
+  margin-left: -1em;
+  text-indent: 0em;
+  padding-bottom: 10px;
+}
+
+.switchversion {
+  margin-top:5px;
+  margin-bottom:5px;
+  font-size: 90%;
+}
+
+.exhibit-collectionView-group { 
+  font-size: 11px;
+}
+
+.exhibit-tileView-body {
+  margin-left: -1em;
+}
+
+span.exhibit-collectionSummaryWidget-count {
+  font-size: 129%;  
+  font-weight: bold;
+}
+
+.credits {
+  font-size: 80%;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+
+

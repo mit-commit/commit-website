@@ -1,0 +1,14 @@
+RewriteEngine on
+RewriteBase /commit/
+RewriteRule ^new/(.*)$              $1                 [R=301,L,NC]
+RewriteRule ^old/(.*)$              $1                 [R=301,L,NC]
+RewriteRule ^cgi-bin/(.*)$          $1                 [R=301,L,NC]
+RewriteRule ^_vti_[a-z]*/(.*)$      $1                 [R=301,L,NC]
+RewriteRule ^(.*)/_vti_[a-z]*/(.*)$ $1/$2              [R=301,L,NC]
+RewriteRule ^index\.cgi(.*)$        $1                 [R=301,L,NC]
+RewriteRule ^index\.html?$          ?page=home         [R=301,L,NC]
+RewriteRule ^projects\.html?$       ?page=projects     [R=301,L,NC]
+RewriteRule ^software\.html?$       ?page=projects     [R=301,L,NC]
+RewriteRule ^people\.html?$         ?page=people       [R=301,L,NC]
+RewriteRule ^papers\.html?$         ?page=publications [R=301,L,NC]
+

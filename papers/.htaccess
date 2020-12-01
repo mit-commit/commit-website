@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /commit/papers/
+RewriteRule ^(.*)/_vti_[a-z]*/(.*)$ $1/$2    [R=301,L,NC]
+RewriteRule ^([8-9][0-9])/?$        19$1/    [R=301,L]
+RewriteRule ^([8-9][0-9])/(.*)$     19$1/$2  [L]
+RewriteRule ^([0-7][0-9])/?$        20$1/    [R=301,L]
+RewriteRule ^([0-7][0-9])/(.*)$     20$1/$2  [L]
+

@@ -1,0 +1,9 @@
+*~
+.*.swp
+*.bak
+*.pyc
+dev
+cache
+new
+papers
+software

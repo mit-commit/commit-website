@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Commit Wiki</title>
+    <meta name="generator" content="Jekyll v3.7.4" />
+    <meta name="author" content="Riyadh Baghdadi and Ajay Brahmakshatriya" />
+    <meta property="og:locale" content="en_US" />
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+
+        <h1 style="text-align: left;" id="workshop-on-DSLs">Commit Admins Guide</h1>
+        <p>	
+	<ul>
+        	<h2 style="text-align: left;" id="workshop-on-DSLs">Add a User to dgx0</h2>
+		<ul>
+			<li> CSAIL users cannot access dgx0 directly. A new dgx0 username has to be create separately. To do so:
+			<br>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <i>sudo adduser &lt;username&gt; </i> </li>
+			<li> When asked for a kerberos password leave it empty (so that the user can use their original kerberos password).</li>
+			<li> The uid/gid for the newly created user needs to be matched with their CSAIL kerberos uid/gid for the user to be able to access their files on the NFS. First obtain the kerberos uid for the user running the command on the lanka login node (not the dgx0) - 	
+			<br>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <i>id &lt;username&gt;</i> 
+			<br>
+			Now assign the same uid/gid to the newly created user on the dgx0 with the commands - 
+			<br>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <i>sudo usermod -u &lt;id&gt; &lt;username&gt;</i>
+			<br>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <i>sudo usermod -g &lt;id&gt; &lt;username&gt;</i> 
+			<br>
+			Verify the user has the correct uid/gid by running the command on the dgx0 - 
+			<br>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <i>id &lt;username&gt;</i> </li>
+			
+		</ul>
+        	<h2 style="text-align: left;" id="workshop-on-DSLs">Enable a User to User Slurm on Lanka</h2>
+		<ul>
+			<li> To enable a user to use Slurm
+			<br>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <i>sudo sacctmgr add user name=&lt;username&gt; account=root </i> </li>
+		</ul>
+	</ul>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

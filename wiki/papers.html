@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to Add a Paper to the Commit Website?</title>
+    <meta name="generator" content="Jekyll v3.7.4" />
+    <meta name="author" content="Riyadh Baghdadi and Fredrik Kjolstad" />
+    <meta property="og:locale" content="en_US" />
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+
+        <h1 style="text-align: left;" id="workshop-on-DSLs">How to Add a Paper to the Commit Website?</h1>
+        <p>
+	We use Git to manage updates to the whole commit website. The website files are in <u>/afs/csail.mit.edu/group/commit/www/data</u>
+
+	<br> <br>
+
+	To modify any file in the commit website, you need to have the right permissions.
+	The entire commit group has read-write access on the website.  If a user is in the commit Kerberos group,
+	they should be able to edit the previous folder. If you don't have access, please send an email to
+	   <SCRIPT TYPE="text/javascript">
+	    emailE = 'lists.csail.mit.edu'
+	    emailE = ('commit-sysadmin' + '@' + emailE)
+  	    document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
+	   </script>
+
+
+	To add a paper:
+	<ul>
+		<li> Add the PDF file of your paper to <u>/afs/csail.mit.edu/group/commit/www/data/papers/</u>
+		     Make sure you add it in the right year (for example papers of 2020 should be in the
+		     folder <u>/afs/csail.mit.edu/group/commit/www/data/papers/2020/</u>). If the folder does not
+  		     exist feel free to create it. </li>
+
+		<li> Add an bibtex entry for the paper in papers.bib
+		     Make sure you add link to your paper for example using url. For example:
+
+		     <u>url="http://groups.csail.mit.edu/commit/papers/2018/tiramisu_paper.pdf"</u> </li>
+
+		<li> Run `add_paper.sh'. </li>
+
+		<li> Please commit your changes to git. </li>
+
+		<li> You are done. Open <a href="http://groups.csail.mit.edu/commit/?page=publications ">http://groups.csail.mit.edu/commit/?page=publications </a>
+		     and make sure your paper entry, the bibtex and the PDF link are all good.</li>
+
+		<li> Please keep in mind that the script used to extract information from the file papers.bib
+		     expects the bibtext to be in certain format. For example, the bibtex entries have to be
+		     between " ". This is why, it might be a good idea to copy another similar entry and modify it.</li>
+
+
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
