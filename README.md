@@ -6,7 +6,35 @@ The website (for now) runs on Python 2.7. We plan to upgrade it to 3.6 soon.
 
 ## Testing
 
-TODO: write instruction on how to test-deploy the website.
+Tested on Ubuntu 20.04.
+
+```bash
+sudo apt-get -y install apache2 python python3
+sudo a2enmod cgi
+sudo systemctl restart apache2
+```
+
+Then to emulate the actual URL (`http://groups.csail.mit.edu/commit/`):
+
+```bash
+cd /var/www/html
+sudo ln -s ~/commit-website commit
+```
+
+We need to enable CGI for the `commit` folder. Edit `/etc/apache2/sites-enabled/000-default.conf` and add the following before the `</VirtualHost>`.
+
+```
+<Directory /var/www/html/commit>
+        Options +ExecCGI
+        AddHandler cgi-script .py .cgi
+</Directory>
+```
+
+Restart and enjoy!
+
+```bash
+sudo systemctl restart apache2
+```
 
 ## Notes
 
