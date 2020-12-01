@@ -65,6 +65,73 @@
       />
 
     <person
+      url="https://yunmingzhang.wordpress.com"
+      name="Yunming Zhang"
+      title="Graduate Student"
+      />
+
+    <person
+      url="http://ars.me"
+      name="Ariya Shajii"
+      title="Graduate Student"
+      />
+
+    <person
+      nourl="http://people.csail.mit.edu/charitm"
+      name="Jessica Ray"
+      title="Graduate Student"
+      />
+
+    <person
+      url="http://people.csail.mit.edu/s3chou"
+      name="Stephen Chou"
+      title="Graduate Student"
+      />
+
+    <person
+      name="Ajay Brahmakshatriya"
+      url="https://intimeand.space"
+      title="Graduate Student"
+      />
+
+    <person
+      name="Logan Weber"
+      url="http://weberlo.github.io/"
+      title="Graduate Student"
+      />
+
+    <person
+      name="Daniel Donenfeld"
+      title="Graduate Student"
+      />
+
+    <person
+      name="Jaeyeon Won"
+      title="Graduate Student"
+      />
+
+    <person
+      name="Amadou Ngom"
+      title="Graduate Student"
+      />
+
+    <person
+      name="Teodoro Collin"
+      title="Graduate Student"
+      />
+
+    <person
+      url="http://rsenapps.com"
+      name="Ryan Senanayake"
+      title="MEng"
+      />
+
+    <person
+      name="Amirhossein Mirhosseini"
+      title="Visiting"
+      />
+
+    <person
 	nourl="http://hoiwai.net"
 	name="Hoi Wai Yu"
 	title="UROP"
@@ -99,50 +166,6 @@
 	title="UROP"
 	year="2019"
 	/>
-
-
-
-    <person
-      url="https://yunmingzhang.wordpress.com"
-      name="Yunming Zhang"
-      title="Graduate Student"
-      />
-
-
-    <person
-      name="Ariya Shajii"
-      title="Graduate Student"
-      />
-
-    <person
-      nourl="http://people.csail.mit.edu/charitm"
-      name="Jessica Ray"
-      title="Graduate Student"
-      />
-
-    <person
-      url="http://people.csail.mit.edu/s3chou"
-      name="Stephen Chou"
-      title="Graduate Student"
-      />
-
-    <person
-      name="Ajay Brahmakshatriya"
-      url="https://intimeand.space"
-      title="Graduate Student"
-      />
-
-    <person
-      url="http://rsenapps.com"
-      name="Ryan Senanayake"
-      title="MEng"
-      />
-
-
-    <person
-      name="Amirhossein Mirhosseini"
-      title="Visiting"
-      />
 
     <person
       name="Suzy Mueller"
