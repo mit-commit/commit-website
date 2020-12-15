@@ -59,18 +59,6 @@
       />
 
     <person
-      url="http://web.mit.edu/charithm/www"
-      name="Charith Mendis"
-      title="Graduate Student"
-      />
-
-    <person
-      url="https://yunmingzhang.wordpress.com"
-      name="Yunming Zhang"
-      title="Graduate Student"
-      />
-
-    <person
       url="http://ars.me"
       name="Ariya Shajii"
       title="Graduate Student"
@@ -121,12 +109,6 @@
       />
 
     <person
-      url="http://rsenapps.com"
-      name="Ryan Senanayake"
-      title="MEng"
-      />
-
-    <person
       name="Amirhossein Mirhosseini"
       title="Visiting"
       />
@@ -138,24 +120,12 @@
       />
 
     <person
-	name="Rawn Henry"
-	title="MEng"
-	year="2019"
-	/>
-
-    <person
 	name="Zachary Holbrook"
 	title="UROP"
 	year="2019"
 	/>
 
     <person
-	name="Tugsbayasgalan Manlaibaatar"
-	title="UROP"
-	year="2019"
-	/>
-
-        <person
 	name="Ziheng Wang"
 	title="UROP"
 	year="2019"
@@ -163,25 +133,62 @@
 
     <person
 	name="Claire C Hsu"
-	title="UROP"
-	year="2019"
+      url="http://www.linkedin.com/in/claire-hsu-2441a4132/"
+	title="MEng"
+	year="2020"
 	/>
-
-    <person
-      name="Suzy Mueller"
-      title="MEng"
-      year = "2019"
-      />
 
   </current>
 
   <alumni>
+    <person
+      url="http://charithmendis.com/"
+      name="Charith Mendis"
+      title="PhD"
+      year="2020"
+      />
+
     <person
       url="http://people.csail.mit.edu/fred"
       name="Fredrik Kjolstad"
       title="PhD"
       year="2020"
       />
+
+    <person
+      url="http://yunmingzhang.wordpress.com"
+      name="Yunming Zhang"
+      title="PhD"
+      year="2020"
+      />
+
+    <person
+      name="Suzy Mueller"
+      url="http://www.linkedin.com/in/suzy-mueller-2a014a8a/"
+      title="MEng"
+      year="2020"
+      />
+
+    <person
+	name="Rawn Henry"
+      url="http://www.linkedin.com/in/rawn-henry-415661135/"
+	title="MEng"
+	year="2020"
+	/>
+
+    <person
+      url="http://rsenapps.com"
+      name="Ryan Senanayake"
+      title="MEng"
+      year="2020"
+      />
+
+    <person
+	name="Tugsbayasgalan Manlaibaatar"
+      url="http://www.linkedin.com/in/tugsbayasgalan-manlaibaatar-a7b819102/"
+	title="UROP"
+	year="2020"
+	/>
 
     <person
       name="Hadjer Benmeziane"
