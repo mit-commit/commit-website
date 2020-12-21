@@ -20,15 +20,9 @@
   <current>
 
     <person
-      url="http://people.csail.mit.edu/saman"
+      url="http://people.csail.mit.edu/saman/"
       name="Saman Amarasinghe"
       title="Professor"
-      />
-
-    <person
-      url="http://people.csail.mit.edu/baghdadi//"
-      name="Riyadh Baghdadi"
-      title="Postdoc"
       />
 
     <person
@@ -46,7 +40,6 @@
       name="Tom Chen"
       title="Graduate Student"
       />
-
 
     <person
       name="Peter James Ahrens"
@@ -109,11 +102,6 @@
       />
 
     <person
-      name="Amirhossein Mirhosseini"
-      title="Visiting"
-      />
-
-    <person
 	nourl="http://hoiwai.net"
 	name="Hoi Wai Yu"
 	title="UROP"
@@ -141,6 +129,20 @@
   </current>
 
   <alumni>
+    <person
+      url="http://people.csail.mit.edu/baghdadi/"
+      name="Riyadh Baghdadi"
+      title="Postdoc"
+      year="2020"
+      />
+
+    <person
+      name="Amirhossein Mirhosseini"
+      url="http://www.miramir.me/"
+      title="Visiting"
+      year="2020"
+      />
+
     <person
       url="http://charithmendis.com/"
       name="Charith Mendis"
