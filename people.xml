@@ -42,6 +42,7 @@
       />
 
     <person
+      url="http://peter.earth"
       name="Peter James Ahrens"
       title="Graduate Student"
       />
@@ -97,8 +98,9 @@
       />
 
     <person
-      name="Teodoro Collin"
-      title="Graduate Student"
+	name="Teodoro Collin"
+	url="http://people.csail.mit.edu/teoc"
+        title="Graduate Student"
       />
 
     <person
