@@ -135,6 +135,7 @@ try {
 var pageTracker = _gat._getTracker("UA-7325135-1");
 pageTracker._trackPageview();
 } catch(err) {}</script>
+<small style="font-size: 8px"><a href="http://accessibility.mit.edu/">Accessibility</a></small>
 </body>
 </html>
 '''
