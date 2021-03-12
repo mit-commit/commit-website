@@ -114,6 +114,8 @@ def generatePubHtml(item):
     str += ' <a href="%s">Slides</a>.' % field("slides")
   if item.has_key("key"):
     str += ' <a href="bibtex.cgi?key=%s">Bibtex</a>.' % field("key")
+  if item.has_key("video") > 0:
+    str += " <a target=\"_blank\" href=\"" + field("video") + "\">Video</a>."
   if len(field("price"))>0:
     str += "<br> <mark>" + field("price") + "</mark>. "
   str+= "<br>"
