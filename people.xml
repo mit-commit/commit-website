@@ -37,6 +37,12 @@
       />
 
     <person
+      url="http://people.csail.mit.edu/baghdadi/"
+      name="Riyadh Baghdadi"
+      title="Affiliate Researcher"
+      />
+
+    <person
       name="Tom Chen"
       title="Graduate Student"
       />
@@ -131,13 +137,6 @@
   </current>
 
   <alumni>
-    <person
-      url="http://people.csail.mit.edu/baghdadi/"
-      name="Riyadh Baghdadi"
-      title="Postdoc"
-      year="2020"
-      />
-
     <person
       name="Amirhossein Mirhosseini"
       url="http://www.miramir.me/"

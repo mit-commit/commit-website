@@ -1,4 +1,5 @@
 # A list of bibtex keys, one per line:
+tiramisu-auto
 chou-pldi20-taco-conversion
 goslp
 graphit
