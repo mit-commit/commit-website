@@ -44,6 +44,7 @@ people.xml
 papers.bib
 * Important: month has to be "June" NOT June
 * Scripts are somewhere (paperdata.cgi?)
+* Run `./add_paper.sh` to update `pp.json`
 
 projects.xml
 * featured="1" vs featured="0"
