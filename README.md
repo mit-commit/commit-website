@@ -43,6 +43,7 @@ people.xml
 
 papers.bib
 * Important: month has to be "June" NOT June
+* The parser cannot handle nested braces properly. e.g. instead of `booktitle = {Proceedings of the 43rd {ACM} {SIGPLAN} {International} {Conference} on {Programming} {Language} {Design} and {Implementation}}` (bad), use `booktitle = "Proceedings of the 43rd ACM SIGPLAN International Conference on Programming Language Design and Implementation"` (good).
 * Scripts are somewhere (paperdata.cgi?)
 * Run `./add_paper.sh` to update `pp.json`
 
