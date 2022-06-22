@@ -2847,6 +2847,22 @@
  "publisher": "ACM New York, NY, USA",
  "video": "https://www.youtube.com/watch?v=0wJsGWA5pTU",
  "key": "senanayake2020sparse",
- "type0": "article" }
+ "type0": "article" },
+{ "address": "New York, NY, USA",
+ "series": "{PLDI} 2022",
+ "title": "Autoscheduling for sparse tensor algebra with an asymptotic cost model",
+ "isbn": "978-1-4503-9265-5",
+ "url": "http://groups.csail.mit.edu/commit/papers/2022/3519939.3523442.pdf",
+ "slides": "http://groups.csail.mit.edu/commit/papers/2022/PLDI_Pigeon.pptx",
+ "doi": "10.1145/3519939.3523442",
+ "booktitle": "Proceedings of the 43rd {ACM} {SIGPLAN} {International} {Conference} on {Programming} {Language} {Design} and {Implementation}",
+ "publisher": "Association for Computing Machinery",
+ "author0": "Ahrens, Peter and Kjolstad, Fredrik and Amarasinghe, Saman",
+ "month": "Jun",
+ "year": "2022",
+ "keywords": "Asymptotic Analysis, Automatic Scheduling, Compilers, Conjunctive Query Containment, Query Optimization, Sparse Tensors",
+ "pages": "269--285",
+ "key": "ahrens_autoscheduling_2022",
+ "type0": "inproceedings" }
 ]
 }
