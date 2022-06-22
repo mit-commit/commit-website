@@ -59,12 +59,6 @@
       />
 
     <person
-      url="http://ars.me"
-      name="Ariya Shajii"
-      title="Graduate Student"
-      />
-
-    <person
       nourl="http://people.csail.mit.edu/charitm"
       name="Jessica Ray"
       title="Graduate Student"
@@ -99,11 +93,6 @@
       />
 
     <person
-      name="Amadou Ngom"
-      title="Graduate Student"
-      />
-
-    <person
 	name="Teodoro Collin"
 	url="http://people.csail.mit.edu/teoc"
         title="Graduate Student"
@@ -116,6 +105,27 @@
       />
 
     <person
+	name="Alexandra Dima"
+	title="Meng"
+	year="2022"
+	/>
+    <person
+	name="Richard Sollee"
+	url="https://www.richardsollee.com/"
+	title="UROP"
+	year="2022"
+	/>
+
+    <person
+	name="Tamara Mitrovska"
+	title="UROP"
+	year="2022"
+	/>	  
+
+  </current>
+
+  <alumni>
+        <person
 	name="Zachary Holbrook"
 	title="UROP"
 	year="2019"
@@ -134,9 +144,21 @@
 	year="2020"
 	/>
 
-  </current>
+     <person
+      url="http://ars.me"
+      name="Ariya Shajii"
+      title="Graduate Student"
+      year="2021"
+      />
 
-  <alumni>
+
+    <person
+      name="Amadou Ngom"
+      title="Graduate Student"
+      year="2021"
+      />
+
+
     <person
       name="Amirhossein Mirhosseini"
       url="http://www.miramir.me/"
@@ -722,6 +744,7 @@
       title="MEng"
       year="2007"
       />
+
 
   </alumni>
 

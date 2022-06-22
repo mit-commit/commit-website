@@ -66,8 +66,9 @@
       $(document).ready(function () {
         $.ajax({
 							    <!-- url: "http://s3.amazonaws.com/mit-lanka-status/status.json", -->
-							    url: "https://people.csail.mit.edu/teoc/slurm/status.json",
-          data: null,
+							    <!-- url: "https://people.csail.mit.edu/teoc/slurm/status.json", -->
+							    url: "https://wraith1995.github.io/crappyLankaStatus/status.json",
+          data: "GET",
           crossDomain: true,
           dataType: "jsonp",
           jsonpCallback: "callback"

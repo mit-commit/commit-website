@@ -198,4 +198,28 @@ span.exhibit-collectionSummaryWidget-count {
 }
 
 
+#image_window {
+	width: 700px;
+	height: 158px;
+	overflow: hidden;
+	position: relative;
+}
+.people_image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	animation-name: people_image;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes people_image {
+0% {opacity: 1;}
+45% {opacity: 1;}
+50% {opacity: 0;}
+95% {opacity: 0;}
+100% {opacity: 1;}
+}
+
 

@@ -115,7 +115,7 @@ def header(title=defaultTitle, exhibit=False):
  #     print '<script src="http://api.simile-widgets.org/exhibit/3.0.0/exhibit-api.js" type="text/javascript"></script>'
       print '<link rel="exhibit/data" href="paperdata.cgi" type="application/json">'
       print '<link rel="exhibit/data" href="paperdataschema.js" type="application/json">'
-    print '<link rel="stylesheet" type="text/css" href="commit.css">'
+    print '<link rel="stylesheet" type="text/css" href="commit.css?v=06-01-2021-18-51">'
     if isCrappyBrowser():
       print '<link rel="stylesheet" type="text/css" href="commit-ie6-hacks.css">'
     print '</head>'

@@ -75,7 +75,7 @@ def generate(full):
   if full:
     alumniPeople = peoplexml.getElementsByTagName("alumni")[0] \
                                  .getElementsByTagName("person")
-    groupimg='<img src="images/commit_group-12-19.jpg" alt="The COMMIT Group Members" width=700>'
+    groupimg='<div id="image_window"><img class="people_image" src="images/commit_group-12-19.jpg" alt="The COMMIT Group Members" width=700><img style="animation-delay: -10s;" class="people_image" src="images/commit_group-06-21.jpg" alt="The COMMIT Group Members" width=700></div>'
     commitgroup=layout.imgblock(groupimg)
     return layout.cat(
       layout.section("Current Members", formatPeople(groupByType, currentPeople)),
