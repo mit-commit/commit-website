@@ -1,5 +1,4 @@
-source /afs/csail.mit.edu/group/commit/www/data/commitwebsite/conv/racket/setenv.sh
-cd commitwebsite/conv/bib2sx
+export PATH="$PWD/obj:$PATH"
+cd bibconv
 ./create.sh
-cp pp.json ../../..
-cd ../../..
+cp pp.json ..

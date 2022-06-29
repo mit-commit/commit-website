@@ -4,6 +4,20 @@
 
 The website (for now) runs on Python 2.7. We plan to upgrade it to 3.6 soon.
 
+The bibtex updating script requires Racket and bib2sx.
+
+For Racket: run the following in `obj/`:
+
+```bash
+wget https://download.racket-lang.org/releases/8.5/installers/racket-8.5-x86_64-linux-cs.sh
+bash racket-*.sh
+# No unix-style distribution, install into ./racket (option 4)
+# Once "Installation complete"
+rm -f racket-*.sh
+```
+
+For bib2sx: run `./build_bib2sx.sh` in the root.
+
 ## Testing
 
 Tested on Ubuntu 20.04.
@@ -45,7 +59,7 @@ papers.bib
 * Important: month has to be "June" NOT June
 * The parser cannot handle nested braces properly. e.g. instead of `booktitle = {Proceedings of the 43rd {ACM} {SIGPLAN} {International} {Conference} on {Programming} {Language} {Design} and {Implementation}}` (bad), use `booktitle = "Proceedings of the 43rd ACM SIGPLAN International Conference on Programming Language Design and Implementation"` (good).
 * Scripts are somewhere (paperdata.cgi?)
-* Run `./add_paper.sh` to update `pp.json`
+* Run `./add_paper.sh` to update `pp.json` (make sure the pre-reqs in `obj/` are there; see above)
 
 projects.xml
 * featured="1" vs featured="0"
