@@ -1,6 +1,17 @@
 {
     "items":
 [
+{ "title": "Unified Compilation for Lossless Compression and Sparse Computing",
+ "author0": "Daniel Donenfeld",
+ "month": "Feb",
+ "year": "2023",
+ "url": "http://groups.csail.mit.edu/commit/papers/2023/donenfeld-sm-thesis.pdf",
+ "keywords": "TACO",
+ "type": "S.M. Thesis",
+ "address": "Cambridge, MA",
+ "school": "Massachusetts Institute of Technology",
+ "bibtexKey": "danielbd:sm-thesis:2023",
+ "itemType": "sciencethesis" },
 { "title": "Format Abstractions for the Compilation of Sparse Tensor Algebra",
  "author0": "Stephen Chou",
  "month": "Aug",
