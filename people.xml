@@ -54,23 +54,6 @@
       />
 
     <person
-      name="Edward Wang"
-      title="Graduate Student"
-      />
-
-    <person
-      nourl="http://people.csail.mit.edu/charitm"
-      name="Jessica Ray"
-      title="Graduate Student"
-      />
-
-    <person
-      url="http://people.csail.mit.edu/s3chou"
-      name="Stephen Chou"
-      title="Graduate Student"
-      />
-
-    <person
       name="Ajay Brahmakshatriya"
       url="https://intimeand.space"
       title="Graduate Student"
@@ -83,13 +66,28 @@
       />
 
     <person
-      name="Daniel Donenfeld"
+      name="Mit Kotak"
+      url="https://www.linkedin.com/in/mit-kotak/"
+      title="Graduate Student"
+      />
+
+        <person
+      name="Manya Bansal"
+      url="https://manya-bansal.github.io/"
+      title="Graduate Student"
+      />
+
+
+    <person
+	name="Daniel Donenfeld"
+	url="https://www.linkedin.com/in/danieldonenfeld"
       title="Graduate Student"
       />
 
     <person
       name="Jaeyeon Won"
       title="Graduate Student"
+      url="https://www.linkedin.com/in/jaeyeon-won-9385a811a/"
       />
 
     <person
@@ -102,29 +100,86 @@
 	nourl="http://hoiwai.net"
 	name="Hoi Wai Yu"
 	title="UROP"
-      />
-
-    <person
-	name="Alexandra Dima"
-	title="Meng"
-	year="2022"
 	/>
+    <person
+	url="https://tarushii.vercel.app"
+	name="Tarushii N. Goel"
+	title="UROP"
+	/>
+
+
     <person
 	name="Richard Sollee"
 	url="https://www.richardsollee.com/"
-	title="UROP"
+	title="MEng"
+	year="2022"
+	/>
+
+
+    <person
+        name="Katherine Mohr"
+	url="https://www.linkedin.com/in/katherinemohr/"
+	title="MEng"
 	year="2022"
 	/>
 
     <person
-	name="Tamara Mitrovska"
+        name="Radha Patel"
 	title="UROP"
+	year="2023"
+	/>
+
+
+        <person
+            name="Kaustubh Dighe"
+	    url="https://www.linkedin.com/in/kaustubh-dighe/"
+	title="MEng"
 	year="2022"
-	/>	  
+	/>
+
+        <person
+            name="Francesco Peverelli"
+	title="Visting Graduate Student"
+	year="2023"
+	/>
 
   </current>
 
   <alumni>
+
+    <person name="Tamara Mitrovska"
+	    title="UROP"
+	    year="2023"/>
+
+        <person
+      nourl="http://people.csail.mit.edu/charitm"
+      name="Jessica Ray"
+      title="Graduate Student"
+      year="2023"
+      />
+
+	    <person
+	name="Alexandra Dima"
+	title="MEng"
+	year="2022"
+	/>
+
+	
+    <person
+      url="http://people.csail.mit.edu/s3chou"
+      name="Stephen Chou"
+      title="Graduate Student"
+      year="2022"
+      />
+
+
+   <person
+      name="Edward Wang"
+      title="Graduate Student"
+      year="2022"
+      />
+
+
         <person
 	name="Zachary Holbrook"
 	title="UROP"

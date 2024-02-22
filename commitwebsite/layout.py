@@ -111,7 +111,8 @@ def header(title=defaultTitle, exhibit=False):
     print '<title>'+title+'</title>'
     print '<meta name="verify-v1" content="5yWrybXN9Cv43YSAgkUp85DcD+zwHvM5EKohkLwBxxg=" />'
     if exhibit:
-      print '<script src="http://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js" type="text/javascript"></script>'
+      #print '<script src="https://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js" type="text/javascript"></script>'
+      print '<script src="common/exhibit-api.js" type="text/javascript"></script>'
  #     print '<script src="http://api.simile-widgets.org/exhibit/3.0.0/exhibit-api.js" type="text/javascript"></script>'
       print '<link rel="exhibit/data" href="paperdata.cgi" type="application/json">'
       print '<link rel="exhibit/data" href="paperdataschema.js" type="application/json">'

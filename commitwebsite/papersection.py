@@ -238,12 +238,13 @@ def generateFeatured(keys):
     keymap = dict()
     for i in xrange(len(keys)):
       keymap[keys[i]]=i
-    papers=filter(lambda x: keymap.has_key(x['key']), papers)
-    papers.sort(lambda x,y: cmp(keymap[x['key']], keymap[y['key']]))
+    papers=filter(lambda x: keymap.has_key(x['bibtexKey']), papers)
+    papers.sort(lambda x,y: cmp(keymap[x['bibtexKey']], keymap[y['bibtexKey']]))
     return layout.section("Featured Publications",
                           paperListToSection(papers),
                           layout.morelink('Show all %d publications' % n, "?page=publications"))
-  except:
+  except Exception as e:
+    raise e
     return layout.section("Featured Publications",
                           'internal-error')
 
