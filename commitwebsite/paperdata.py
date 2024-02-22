@@ -112,8 +112,8 @@ def generatePubHtml(item):
     str += field("year") + "."
   if len(field("slides"))>0:
     str += ' <a href="%s">Slides</a>.' % field("slides")
-  if item.has_key("key"):
-    str += ' <a href="bibtex.cgi?key=%s">Bibtex</a>.' % field("key")
+  if item.has_key("bibtexKey"):
+    str += ' <a href="bibtex.cgi?key=%s">Bibtex</a>.' % field("bibtexKey")
   if item.has_key("video") > 0:
     str += " <a target=\"_blank\" href=\"" + field("video") + "\">Video</a>."
   if len(field("price"))>0:
@@ -144,7 +144,7 @@ def patchJsonItem(item):
 #  item['type']=["tmp1","tmp2","tmp3"]
   item['type']=["tmp1","tmp2","tmp3"]
   item['type'][0]="Publication"
-  item['type'][1]=item['type0']
+  item['type'][1]=item['itemType']
 
   item['label']=item['title']
 

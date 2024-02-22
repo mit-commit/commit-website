@@ -1,0 +1,172 @@
+<!-- 
+-
+- The order in this file controls order displayed. 
+-
+- Fields are:
+-   url      = URL to link to.
+-   name     = Project name.
+-   desc     = A 1 sentence description of the project.
+-   featured = If set to 1, project will show on front page.
+-
+-->
+<projects>
+
+  <project
+    url="http://seq-lang.org"
+    name="Seq"
+    desc="A Language for Bioinformatics"
+    featured="1"
+    />
+
+
+    <project
+    url="https://github.com/ithemal/Ithemal"
+    name="Learnt Compiler Optimizations"
+    desc="End-to-end learning of compiler components"
+    featured="1"
+    />
+
+
+  <project
+    url="https://www.nextgenvec.org"
+    name="Next Generation Auto-vectorization"
+    desc="Auto-vectorization research for the next generation of processors"
+    featured="1"
+    />
+
+  <project
+    url="http://graphit-lang.org"
+    name="GraphIt"
+    desc="A high-performance language for graph analytics."
+    featured="1"
+    />
+
+  <project
+    url="http://tiramisu-compiler.org"
+    name="The Tiramisu Compiler"
+    desc="A compiler for expressing fast, portable and composable data parallel computations."
+    featured="1"
+    />
+
+  <project
+    url="http://tensor-compiler.org"
+    name="The Tensor Compiler"
+    desc="A compiler for sparse tensor algebra expressions."
+    featured="1"
+    />
+
+  <project
+    url="http://simit-lang.org"
+    name="Simit"
+    desc="A language for computing on sparse systems."
+    featured="0"
+    />
+
+  <project
+    url="http://halide-lang.org"
+    name="Halide"
+    desc="A language for image processing and computational photography."
+    featured="1"
+    />
+
+  <project
+    url="http://people.csail.mit.edu/tyler/distributedhalide.html"
+    name="Distributed Halide"
+    desc="Extensions for Halide to execute on distributed memory"
+    featured="0"
+    />
+
+  <project
+      url="http://projects.csail.mit.edu/helium/"
+      name="Helium"
+      desc="Lifting stencil code from stripped x86 binaries to Halide DSL code"
+      featured="1"
+      />
+  
+  
+  <project
+    url="http:///opentuner.org/"
+    name="OpenTuner"
+    desc="An extensible framework for program autotuning."
+    featured="1"
+    />
+
+  <project
+    url="http://projects.csail.mit.edu/petabricks/"
+    name="PetaBricks"
+    desc="A language that exposes algorithmic choices to the compiler."
+    featured="0"
+    />
+
+  <project
+    url="http://projects.csail.mit.edu/kendo/"
+    name="Kendo"
+    desc="A Deterministic Multithreading library for commodity hardware."
+    featured="0"
+    />
+
+  <project
+    url="http://groups.csail.mit.edu/cag/streamit"
+    name="StreamIt"
+    desc="A high-performance language and compiler for streaming applications."
+    featured="1"
+    />
+
+  <project
+    url="http://www.dynamorio.org/"
+    name="DynamoRIO"
+    desc="An efficient runtime code manipulation system."
+    featured="1"
+    />
+
+  <project
+    url="http://people.csail.mit.edu/qin_zhao/umbra/"
+    name="Umbra"
+    desc="An Efficient and Scalable Memory Shadowing Framework"
+    featured="0"
+    />
+
+  <project
+    url="http://groups.csail.mit.edu/cag/micado/"
+    name="Micado"
+    desc="An AutoCAD plug-in for programmable microfluidic chips."
+    />
+
+  <project
+    url="http://groups.csail.mit.edu/cag/raw"
+    name="Raw Compiler"
+    desc="Exploring compiler issues in next-generation architectures."
+    />
+
+  <project
+    url="http://groups.csail.mit.edu/cag/bitwise"
+    name="Bitwise"
+    desc="Automatic detection of operands which are smaller than their declared type."
+    />
+
+  <project
+    url="http://groups.csail.mit.edu/cag/rio"
+    name="RIO"
+    desc="Runtime Introspection and Optimization."
+    />
+
+  <project
+    url="http://groups.csail.mit.edu/cag/softspec"
+    name="Softspec"
+    desc="Speculative parallelism in software based on stride prediction."
+    />
+
+  <project
+    url="http://groups.csail.mit.edu/cag/slp"
+    name="Superword Level Parallelism"
+    desc="Automatic compilation for multimedia instruction sets."
+    />
+
+  <project
+    url="http://groups.csail.mit.edu/cag/msmo/"
+    name="Memory System Micro Optimizations"
+    desc="Exposing underlying hardware mechanisms to application specific configurations/optimizations."
+    />
+  
+</projects>
+

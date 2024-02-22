@@ -1,0 +1,179 @@
+diff --git a/projects.xml b/projects.xml
+index e0d0d89..394289e 100644
+--- a/projects.xml
++++ b/projects.xml
+@@ -11,29 +11,22 @@
+ -->
+ <projects>
+ 
+-  <project
+-    url="http://seq-lang.org"
+-    name="Seq"
+-    desc="A Language for Bioinformatics"
+-    featured="1"
+-    />
+-
+-
+-    <project
+-    url="https://github.com/ithemal/Ithemal"
+-    name="Learnt Compiler Optimizations"
+-    desc="End-to-end learning of compiler components"
++  <project 
++    url="https://buildit.so"
++    name="BuildIt"
++    desc="A framework for rapidly developing high-performance DSLs with little to no compiler knowledge."
+     featured="1"
+     />
+ 
+ 
+   <project
+-    url="https://www.nextgenvec.org"
+-    name="Next Generation Auto-vectorization"
+-    desc="Auto-vectorization research for the next generation of processors"
++    url="http://tensor-compiler.org"
++    name="The Tensor Compiler"
++    desc="A compiler for sparse tensor algebra expressions."
+     featured="1"
+     />
+ 
++
+   <project
+     url="http://graphit-lang.org"
+     name="GraphIt"
+@@ -42,24 +35,24 @@
+     />
+ 
+   <project
+-    url="http://tiramisu-compiler.org"
+-    name="The Tiramisu Compiler"
+-    desc="A compiler for expressing fast, portable and composable data parallel computations."
++    url="https://www.nextgenvec.org"
++    name="Next Generation Auto-vectorization"
++    desc="Auto-vectorization research for the next generation of processors"
+     featured="1"
+     />
+ 
+   <project
+-    url="http://tensor-compiler.org"
+-    name="The Tensor Compiler"
+-    desc="A compiler for sparse tensor algebra expressions."
++    url="http://seq-lang.org"
++    name="Seq"
++    desc="A Language for Bioinformatics"
+     featured="1"
+     />
+ 
+   <project
+-    url="http://simit-lang.org"
+-    name="Simit"
+-    desc="A language for computing on sparse systems."
+-    featured="0"
++    url="http:///opentuner.org/"
++    name="OpenTuner"
++    desc="An extensible framework for program autotuning."
++    featured="1"
+     />
+ 
+   <project
+@@ -70,41 +63,12 @@
+     />
+ 
+   <project
+-    url="http://people.csail.mit.edu/tyler/distributedhalide.html"
+-    name="Distributed Halide"
+-    desc="Extensions for Halide to execute on distributed memory"
+-    featured="0"
+-    />
+-
+-  <project
+-      url="http://projects.csail.mit.edu/helium/"
+-      name="Helium"
+-      desc="Lifting stencil code from stripped x86 binaries to Halide DSL code"
+-      featured="1"
+-      />
+-  
+-  
+-  <project
+-    url="http:///opentuner.org/"
+-    name="OpenTuner"
+-    desc="An extensible framework for program autotuning."
++    url="http://tiramisu-compiler.org"
++    name="The Tiramisu Compiler"
++    desc="A compiler for expressing fast, portable and composable data parallel computations."
+     featured="1"
+     />
+ 
+-  <project
+-    url="http://projects.csail.mit.edu/petabricks/"
+-    name="PetaBricks"
+-    desc="A language that exposes algorithmic choices to the compiler."
+-    featured="0"
+-    />
+-
+-  <project
+-    url="http://projects.csail.mit.edu/kendo/"
+-    name="Kendo"
+-    desc="A Deterministic Multithreading library for commodity hardware."
+-    featured="0"
+-    />
+-
+   <project
+     url="http://groups.csail.mit.edu/cag/streamit"
+     name="StreamIt"
+@@ -119,54 +83,5 @@
+     featured="1"
+     />
+ 
+-  <project
+-    url="http://people.csail.mit.edu/qin_zhao/umbra/"
+-    name="Umbra"
+-    desc="An Efficient and Scalable Memory Shadowing Framework"
+-    featured="0"
+-    />
+-
+-  <project
+-    url="http://groups.csail.mit.edu/cag/micado/"
+-    name="Micado"
+-    desc="An AutoCAD plug-in for programmable microfluidic chips."
+-    />
+-
+-  <project
+-    url="http://groups.csail.mit.edu/cag/raw"
+-    name="Raw Compiler"
+-    desc="Exploring compiler issues in next-generation architectures."
+-    />
+-
+-  <project
+-    url="http://groups.csail.mit.edu/cag/bitwise"
+-    name="Bitwise"
+-    desc="Automatic detection of operands which are smaller than their declared type."
+-    />
+-
+-  <project
+-    url="http://groups.csail.mit.edu/cag/rio"
+-    name="RIO"
+-    desc="Runtime Introspection and Optimization."
+-    />
+-
+-  <project
+-    url="http://groups.csail.mit.edu/cag/softspec"
+-    name="Softspec"
+-    desc="Speculative parallelism in software based on stride prediction."
+-    />
+-
+-  <project
+-    url="http://groups.csail.mit.edu/cag/slp"
+-    name="Superword Level Parallelism"
+-    desc="Automatic compilation for multimedia instruction sets."
+-    />
+-
+-  <project
+-    url="http://groups.csail.mit.edu/cag/msmo/"
+-    name="Memory System Micro Optimizations"
+-    desc="Exposing underlying hardware mechanisms to application specific configurations/optimizations."
+-    />
+-  
+ </projects>
+ 
+-- 
+

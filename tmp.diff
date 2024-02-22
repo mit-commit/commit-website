@@ -1,0 +1,9 @@
+diff --git a/add_paper.sh b/add_paper.sh
+index b6599a2..a1ba550 100755
+--- a/add_paper.sh
++++ b/add_paper.sh
+@@ -1,3 +1,4 @@
++#source /afs/csail.mit.edu/group/commit/www/data_pre_dec_2020/commitwebsite/conv/racket/setenv.sh
+ source /afs/csail.mit.edu/group/commit/www/data/commitwebsite/conv/racket/setenv.sh
+ cd commitwebsite/conv/bib2sx
+ ./create.sh

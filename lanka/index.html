@@ -3,78 +3,78 @@
     <link href='bootstrap.min.css' rel='stylesheet' type='text/css'>
     <link href='bootstrap-responsive.min.css' rel='stylesheet' type='text/css'>
     <link href='opentip.css' rel='stylesheet' type='text/css'>
-    <script src='raphael-min.js' type='text/javascript'></script>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js' type='text/javascript'></script>
-    <script src='http://code.jquery.com/jquery-1.8.2.min.js' type='text/javascript'></script>
-    <script src='opentip-jquery.min.js' type='text/javascript'></script>
-    <script type='text/javascript'>
-      // function to draw a rectangle representing utilization
-      function draw_utilization(paper, x, y, used, down) {
-        var used_rect = paper.rect(x, y, 2*used, 40).attr({fill:'#00DD00'});
-        var down_rect = paper.rect(x+2*used, y, 2*down, 40).attr({fill:'#FF0000'});
-        var idle_rect = paper.rect(x+2*used+2*down, y, 200-2*down-2*used, 40).attr({fill:'#AAA'});
-        new Opentip(used_rect.node, used.toFixed(2) + "%", {target: true, tipJoint: "bottom"});
-        new Opentip(down_rect.node, down.toFixed(2) + "%", {target: true, tipJoint: "bottom"});
-        new Opentip(idle_rect.node, (100-down-used).toFixed(2) + "%", {target: true, tipJoint: "left"});
+    <!-- <script src='raphael-min.js' type='text/javascript'></script> -->
+    <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js' type='text/javascript'></script> -->
+    <!-- <script src='http://code.jquery.com/jquery-1.8.2.min.js' type='text/javascript'></script> -->
+    <!-- <script src='opentip-jquery.min.js' type='text/javascript'></script> -->
+    <!-- <script type='text/javascript'> -->
+    <!--   // function to draw a rectangle representing utilization -->
+    <!--   function draw_utilization(paper, x, y, used, down) { -->
+    <!--     var used_rect = paper.rect(x, y, 2*used, 40).attr({fill:'#00DD00'}); -->
+    <!--     var down_rect = paper.rect(x+2*used, y, 2*down, 40).attr({fill:'#FF0000'}); -->
+    <!--     var idle_rect = paper.rect(x+2*used+2*down, y, 200-2*down-2*used, 40).attr({fill:'#AAA'}); -->
+    <!--     new Opentip(used_rect.node, used.toFixed(2) + "%", {target: true, tipJoint: "bottom"}); -->
+    <!--     new Opentip(down_rect.node, down.toFixed(2) + "%", {target: true, tipJoint: "bottom"}); -->
+    <!--     new Opentip(idle_rect.node, (100-down-used).toFixed(2) + "%", {target: true, tipJoint: "left"}); -->
       
-      }
+    <!--   } -->
       
-      // function to draw average wait times
-      function draw_wait_time(paper, x, y, yesterday, lastweek) {
-      var attr_titles = {"font-family":"Helvetica, Arial, sans-serif", "font-weight":"bold", "font-size":14, "text-anchor":"start"};
-      var attr_data = {"font-family":"Helvetica, Arial, sans-serif", "font-weight":"bold", "font-size":14, fill:'#00DD00', "text-anchor":"start"};
+    <!--   // function to draw average wait times -->
+    <!--   function draw_wait_time(paper, x, y, yesterday, lastweek) { -->
+    <!--   var attr_titles = {"font-family":"Helvetica, Arial, sans-serif", "font-weight":"bold", "font-size":14, "text-anchor":"start"}; -->
+    <!--   var attr_data = {"font-family":"Helvetica, Arial, sans-serif", "font-weight":"bold", "font-size":14, fill:'#00DD00', "text-anchor":"start"}; -->
       
-      paper.text(x, y, "Average wait time (last 24 hrs) ").attr(attr_titles);
-      paper.text(x, y+20, yesterday.toFixed(2) + " seconds").attr(attr_data);
-      paper.text(x, y+40, "Average wait time (last week) ").attr(attr_titles);
-      paper.text(x, y+60, lastweek.toFixed(2) + " seconds").attr(attr_data);
+    <!--   paper.text(x, y, "Average wait time (last 24 hrs) ").attr(attr_titles); -->
+    <!--   paper.text(x, y+20, yesterday.toFixed(2) + " seconds").attr(attr_data); -->
+    <!--   paper.text(x, y+40, "Average wait time (last week) ").attr(attr_titles); -->
+    <!--   paper.text(x, y+60, lastweek.toFixed(2) + " seconds").attr(attr_data); -->
       
-      }
+    <!--   } -->
       
-      function callback(data) {
-        var offset = 14*data["top_users_last_day"].length;
-        var offset2 = 14*data["top_users_last_week"].length;
-        var paper = Raphael(document.getElementById("status"), 300, 320+offset+offset2);
-        var base_attr = {"font-family":"Helvetica, Arial, sans-serif", "font-weight":"bold", "font-size":12 };
-        var attr_titles = {"font-weight":"bold", "text-anchor":"start", "font-family":"Helvetica, Arial, sans-serif",  "font-size":14};
-        paper.text(240, 60, "used").attr($.extend({}, base_attr, {fill:'#00DD00'}));
-        paper.text(240, 75, "down").attr($.extend({}, base_attr, {fill:'#FF0000'}));
-        paper.text(240, 90, "idle").attr($.extend({}, base_attr, {fill:'#AAA'}));
-        paper.text(2, 10, "Utilization (last 24 hrs)").attr(attr_titles);
-        paper.text(2, 80, "Utilization (last week)").attr(attr_titles);
-        draw_utilization(paper, 2, 20, data["alloc_last_day"], data["down_last_day"]);
-        draw_utilization(paper, 2, 90, data["alloc_last_week"], data["down_last_week"]);
+    <!--   function callback(data) { -->
+    <!--     var offset = 14*data["top_users_last_day"].length; -->
+    <!--     var offset2 = 14*data["top_users_last_week"].length; -->
+    <!--     var paper = Raphael(document.getElementById("status"), 300, 320+offset+offset2); -->
+    <!--     var base_attr = {"font-family":"Helvetica, Arial, sans-serif", "font-weight":"bold", "font-size":12 }; -->
+    <!--     var attr_titles = {"font-weight":"bold", "text-anchor":"start", "font-family":"Helvetica, Arial, sans-serif",  "font-size":14}; -->
+    <!--     paper.text(240, 60, "used").attr($.extend({}, base_attr, {fill:'#00DD00'})); -->
+    <!--     paper.text(240, 75, "down").attr($.extend({}, base_attr, {fill:'#FF0000'})); -->
+    <!--     paper.text(240, 90, "idle").attr($.extend({}, base_attr, {fill:'#AAA'})); -->
+    <!--     paper.text(2, 10, "Utilization (last 24 hrs)").attr(attr_titles); -->
+    <!--     paper.text(2, 80, "Utilization (last week)").attr(attr_titles); -->
+    <!--     draw_utilization(paper, 2, 20, data["alloc_last_day"], data["down_last_day"]); -->
+    <!--     draw_utilization(paper, 2, 90, data["alloc_last_week"], data["down_last_week"]); -->
       
-        draw_wait_time(paper, 2, 150, data["avgwait_yesterday"], data["avgwait_last_week"]);
+    <!--     draw_wait_time(paper, 2, 150, data["avgwait_yesterday"], data["avgwait_last_week"]); -->
       
       
-        paper.text(2, 240, "Top Users (last 24 hrs)").attr(attr_titles);
-      //  paper.text(2, 260, data["top_users_last_day"].join("\n")).attr($.extend({}, base_attr, {"text-anchor":"start", "font-weight":"normal"}));
-        for (var i=0; i<data["top_users_last_day"].length; i++) {
-          paper.text(2, 260+14*i, data["top_users_last_day"][i]).attr($.extend({}, base_attr, {"text-anchor":"start", "font-weight":"normal"}));
-        }
-        paper.text(2, 300+offset, "Top Users (last week)").attr(attr_titles);
-      //  paper.text(2, 300+offset, data["top_users_last_week"].join("\n")).attr($.extend({}, base_attr, {"text-anchor":"start", "font-weight":"normal"}));
-        for (var i=0; i<data["top_users_last_week"].length; i++) {
-          paper.text(2, 320+offset+14*i, data["top_users_last_week"][i]).attr($.extend({}, base_attr, {"text-anchor":"start", "font-weight":"normal"}));
-        }
+    <!--     paper.text(2, 240, "Top Users (last 24 hrs)").attr(attr_titles); -->
+    <!--   //  paper.text(2, 260, data["top_users_last_day"].join("\n")).attr($.extend({}, base_attr, {"text-anchor":"start", "font-weight":"normal"})); -->
+    <!--     for (var i=0; i<data["top_users_last_day"].length; i++) { -->
+    <!--       paper.text(2, 260+14*i, data["top_users_last_day"][i]).attr($.extend({}, base_attr, {"text-anchor":"start", "font-weight":"normal"})); -->
+    <!--     } -->
+    <!--     paper.text(2, 300+offset, "Top Users (last week)").attr(attr_titles); -->
+    <!--   //  paper.text(2, 300+offset, data["top_users_last_week"].join("\n")).attr($.extend({}, base_attr, {"text-anchor":"start", "font-weight":"normal"})); -->
+    <!--     for (var i=0; i<data["top_users_last_week"].length; i++) { -->
+    <!--       paper.text(2, 320+offset+14*i, data["top_users_last_week"][i]).attr($.extend({}, base_attr, {"text-anchor":"start", "font-weight":"normal"})); -->
+    <!--     } -->
       
-        $("#last-update").text("Last Updated: " +  moment(data["last_updated"]).calendar());
+    <!--     $("#last-update").text("Last Updated: " +  moment(data["last_updated"]).calendar()); -->
       
-      }
+    <!--   } -->
       
-      $(document).ready(function () {
-        $.ajax({
-							    <!-- url: "http://s3.amazonaws.com/mit-lanka-status/status.json", -->
-							    <!-- url: "https://people.csail.mit.edu/teoc/slurm/status.json", -->
-							    url: "https://wraith1995.github.io/crappyLankaStatus/status.json",
-          data: "GET",
-          crossDomain: true,
-          dataType: "jsonp",
-          jsonpCallback: "callback"
-          });
-        });
-    </script>
+    <!--   $(document).ready(function () { -->
+    <!--     $.ajax({ -->
+    <!-- 							    <\!-- url: "http://s3.amazonaws.com/mit-lanka-status/status.json", -\-> -->
+    <!-- 							    <\!-- url: "https://people.csail.mit.edu/teoc/slurm/status.json", -\-> -->
+    <!-- 							    url: "https://wraith1995.github.io/crappyLankaStatus/status.json", -->
+    <!--       data: "GET", -->
+    <!--       crossDomain: true, -->
+    <!--       dataType: "jsonp", -->
+    <!--       jsonpCallback: "callback" -->
+    <!--       }); -->
+    <!--     }); -->
+    <!-- </script> -->
     <style>
           #table-of-contents li { list-style: none; }
           #table-of-contents li.h2 { margin-left: 2em; }
@@ -92,7 +92,7 @@
       and a theoretical peak computational rate of 11059 GFlop/s. Each node
       has 128GB of memory, of which ~120GB is safely usable.</p>
       
-      <p>To access the frontend node, ssh to <code>lanka.csail.mit.edu</code>.  DO NOT ssh
+      <p>To access the frontend node, ssh to <code>lanka.csail.mit.edu</code> and then to <code> slurm-login </code>.  DO NOT ssh
       into any of the compute nodes.</p>
       
       <p><strong>Important</strong>: The cluster's compute nodes do not have access to afs.
@@ -102,10 +102,10 @@
       
       <p>Email commit-sysadmin@lists.csail.mit.edu for an account.</p>
       
-      <h2 id="lanka-status">Lanka Status</h2>
-      <p><span id="last-update"></span></p>
+      <!-- <h2 id="lanka-status">Lanka Status</h2> -->
+      <!-- <p><span id="last-update"></span></p> -->
       
-      <div id="status"></div>
+      <!-- <div id="status"></div> -->
       
       <h2 id="compiling-for-lanka">Compiling for Lanka</h2>
       
@@ -121,7 +121,17 @@
       
       <p>We use the <a href="http://slurm.schedmd.com">SLURM</a> workload manager for the batch system. If you're
       familiar with another batch system, the <a href="http://slurm.schedmd.com/rosetta.pdf">rosetta stone</a> of workload
-      managers may be helpful.</p>
+	managers may be helpful.</p> Our SLURM system is managed by csail, so we need to supply several flags whenever we use it:
+      <ul>
+	<li> We must specificy a partition via <code> --patition lanka-v2 </code> or <code> --patition lanka-v3 </code>.</li>
+	<li> We must specificy that we are using the commit-main qos, via <code> --qos commit-main </code>. </li>
+	<li> We must specificy a time limit in minutes via <code> --time </code> </li>
+      </ul>
+      Thus a typical command might look like: <code> srun -N 1 -n 1 --qos commit-main --time=60 --partition lanka-v3 --exclusive cmd </code> 
+
+      <h3 id="running-interactive-jobs">Running interactive jobs</h3>
+      
+      <p>Use <code> srun -N 1 -n 1 --qos commit-main --time=60 --partition lanka-v3 --exclusive --pty bash -i </code>   You should no longer need to use <code>ssh</code> or <code>salloc</code>.</p>
       
       <h3 id="important-commands">Important commands</h3>
       
@@ -146,6 +156,8 @@
       #SBATCH --cpu_bind=verbose,cores
       #SBATCH --exclusive
       #SBATCH -t 10
+      #SBATCH --partition lanka-v2
+      #SBATCH --qos commit-main
       cd $SLURM_SUBMIT_DIR
       srun --cpu_bind=verbose,cores ./hellompi
       </code></pre>
@@ -162,9 +174,6 @@
       to repeat any of the batch system directives.  Note that you do not need
       to use <code>mpirun</code> or <code>mpiexec</code> or equivalent for MPI programs; use <code>srun</code>.</p>
       
-      <h3 id="running-interactive-jobs">Running interactive jobs</h3>
-      
-      <p>Use <code>srun -N 1 -n 1 --pty bash -i</code>.  You should no longer need to use <code>ssh</code> or <code>salloc</code>.</p>
       
       <h3 id="turbo-boost">Turbo Boost</h3>
       
