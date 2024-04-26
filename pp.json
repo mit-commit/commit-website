@@ -1,6 +1,14 @@
 {
     "items":
 [
+{ "title": "Finch: Sparse and Structured Array Programming with Control Flow",
+ "author0": "Ahrens, Willow and Collin, Teodoro Fields and Patel, Radha and Deeds, Kyle and Hong, Changwan and Amarasinghe, Saman",
+ "month": "Apr",
+ "year": "2024",
+ "url": "http://arxiv.org/abs/2404.16730",
+ "keywords": "Sparse Array, Structured Array, Control Flow, Programming Language",
+ "bibtexKey": "ahrens:arxiv:2024",
+ "itemType": "misc" },
 { "title": "A Universal Tensor Abstraction and its Application to and Implementation within Block-Based Compression",
  "author0": "Jessica Ray",
  "month": "Sep",
