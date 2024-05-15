@@ -1,8 +1,14 @@
 # COMMIT Group Website
 
+Do not edit directly on AFS - make a pull request to https://github.com/mit-commit/commit-website, and then ask one of the website admins to pull on the server.
+
+For instructions on adding papers, see the [commit wiki](https://mit-commit.github.io/commit-wiki/papers/).
+
+# Admin Stuff
+
 ## Requirements
 
-The website (for now) runs on Python 2.7. We plan to upgrade it to 3.6 soon.
+The website runs on Python 2.7.
 
 The bibtex updating script requires Racket and bib2sx.
 
@@ -67,5 +73,3 @@ projects.xml
 ## Deployment
 
 Location on AFS: `/afs/csail.mit.edu/group/commit/www/data`
-
-Do not edit directly on AFS - commit/PR here, and then ask one of the website admins to pull on the server.
