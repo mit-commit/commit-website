@@ -2017,7 +2017,6 @@
  "title": "Adapting Convergent Scheduling Using Machine Learning",
  "url": "http://groups.csail.mit.edu/commit/papers/03/puppin-lcpc.pdf",
  "keywords": "ML4C,AutoSchedule",
- "slides": "http://groups.csail.mit.edu/commit/papers/03/puppin-lcpc.ppt",
  "month": "Oct",
  "year": "2003",
  "booktitle": "Languages and Compilers for Parallel Computing",
