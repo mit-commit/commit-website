@@ -60,12 +60,6 @@
       />
 
     <person
-      name="Logan Weber"
-      url="http://weberlo.github.io/"
-      title="Graduate Student"
-      />
-
-    <person
       name="Mit Kotak"
       url="https://www.linkedin.com/in/mit-kotak/"
       title="Graduate Student"
@@ -108,28 +102,6 @@
 	/>
 
 
-    <person
-	name="Richard Sollee"
-	url="https://www.richardsollee.com/"
-	title="MEng"
-	year="2022"
-	/>
-
-
-    <person
-        name="Katherine Mohr"
-	url="https://www.linkedin.com/in/katherinemohr/"
-	title="MEng"
-	year="2022"
-	/>
-
-    <person
-        name="Radha Patel"
-	title="UROP"
-	year="2023"
-	/>
-
-
         <person
             name="Kaustubh Dighe"
 	    url="https://www.linkedin.com/in/kaustubh-dighe/"
@@ -146,6 +118,33 @@
   </current>
 
   <alumni>
+    <person
+	name="Richard Sollee"
+	url="https://www.richardsollee.com/"
+	title="MEng"
+	year="2024"
+	/>
+
+
+    <person
+        name="Katherine Mohr"
+	url="https://www.linkedin.com/in/katherinemohr/"
+	title="MEng"
+	year="2024"
+	/>
+
+    <person
+        name="Radha Patel"
+	title="UROP"
+	year="2024"
+	/>
+
+    <person
+      name="Logan Weber"
+      url="http://weberlo.github.io/"
+      title="Graduate Student"
+      year="2024"/>
+
 
     <person name="Tamara Mitrovska"
 	    title="UROP"
