@@ -3,9 +3,11 @@
 import urllib
 import simplejson as json
 import re
-import caching
-import config
+from commitwebsite import caching
+from commitwebsite import config
 
+from functools import reduce
+from functools import cmp_to_key
 
 
 #convertUrl=config.BABELTRANSLATORTOOL
@@ -20,7 +22,7 @@ import config
 #addBibtexSource(config.URL + "papers.bib")
 
 def p(x):
-  print x
+  print (x)
 
 def getJsonSrc():
   name="paperDataRaw%x" % abs(hash(convertUrl))
@@ -34,12 +36,12 @@ def getJsonSrc():
 
 def getJsonSrc0():
   src=["papers.json"]
-  print src
+  print (src)
   return src
 
 def simplifyPubType(types):
   ltypes=map(lambda x: x.lower(), types)
-  soundsLike = lambda term: reduce(lambda a,b: a or b, map(lambda x: term.lower() in x, ltypes))
+  soundsLike = lambda term: reduce(lambda a,b: a or b, list(map(lambda x: term.lower() in x, ltypes)), False)
   if soundsLike("techreport"):
     return "Technical Report"
   if soundsLike("proceedings"):
@@ -68,7 +70,7 @@ def fixAuthorName(name):
 def collapseAuthors(authors):
   if type(authors) is not type([]):
     return fixAuthorName(authors)
-  authors = map(fixAuthorName, authors)
+  authors = list(map(fixAuthorName, authors))
   if len(authors) == 1:
     return authors[0]
   return reduce(lambda a,b: a +", "+ b, authors)
@@ -106,15 +108,15 @@ def generatePubHtml(item):
 
   if len(field("address"))>0:
     str += field("address") + ". "
-  if item.has_key("month"):
+  if 'month' in item:
     str += field("month") + ", "
-  if item.has_key("year"):
+  if 'year' in item:
     str += field("year") + "."
   if len(field("slides"))>0:
     str += ' <a href="%s">Slides</a>.' % field("slides")
-  if item.has_key("bibtexKey"):
+  if 'bibtexKey' in item:
     str += ' <a href="bibtex.cgi?key=%s">Bibtex</a>.' % field("bibtexKey")
-  if item.has_key("video") > 0:
+  if 'video' in item:
     str += " <a target=\"_blank\" href=\"" + field("video") + "\">Video</a>."
   if len(field("price"))>0:
     str += "<br> <mark>" + field("price") + "</mark>. "
@@ -139,7 +141,7 @@ def patchJsonItem(item):
 #  item['author0']=item['author0'].replace(" and","and")
 #  item['author0']=item['author0'].replace("and ","and")
   item['author']=item['author0'].split(' and ')
-  item['author']=map(fixAuthorName, item['author'])
+  item['author']=list(map(fixAuthorName, item['author']))
 
 #  item['type']=["tmp1","tmp2","tmp3"]
   item['type']=["tmp1","tmp2","tmp3"]
@@ -163,10 +165,10 @@ def patchJsonItem(item):
     item['type']="Publication"
   if item['type'] == "Publication":
     item['html']=generatePubHtml(item)
-  if item.has_key('keywords') and type(item['keywords']) is not type([]):
-    item['keywords']=filter(lambda x: len(x)>0, 
+  if 'keywords' in item and type(item['keywords']) is not type([]):
+    item['keywords']=list(filter(lambda x: len(x)>0, 
                           map(lambda x: x.strip(),
-                            item['keywords'].split(',')))
+                            item['keywords'].split(','))))
   return item
 
 def patchJsonItem_mod(item):
@@ -184,10 +186,10 @@ def patchJsonItem_mod(item):
 #  if item['type'] == "inproceedings" or item['type'] == "article":
   if item['type'] == "inproceedings" or item['type'] == "article" or item['type'] == "incollection":
     item['html']=generatePubHtml(item)
-  if item.has_key('keywords') and type(item['keywords']) is not type([]):
-    item['keywords']=filter(lambda x: len(x)>0, 
+  if 'keywords' in item and type(item['keywords']) is not type([]):
+    item['keywords']=list(filter(lambda x: len(x)>0, 
                           map(lambda x: x.strip(),
-                            item['keywords'].split(',')))
+                            item['keywords'].split(','))))
   return item
 
 
@@ -201,18 +203,22 @@ def patchJsonItem0(item):
     item['type']="Publication"
   if item['type'] == "Publication":
     item['html']=generatePubHtml(item)
-  if item.has_key('keywords') and type(item['keywords']) is not type([]):
-    item['keywords']=filter(lambda x: len(x)>0, 
+  if 'keywords' in item and type(item['keywords']) is not type([]):
+    item['keywords']=list(filter(lambda x: len(x)>0, 
                           map(lambda x: x.strip(),
-                            item['keywords'].split(',')))
+                            item['keywords'].split(','))))
   return item
+
+
+def cmp(a, b):
+    return (a > b) - (a < b) 
 
 def itemSorter(a,b):
   aa=""
   bb=""
-  if a.has_key("date"):
+  if 'date' in a:
     aa=a['date']
-  if b.has_key("date"):
+  if 'date' in b:
     bb=b['date']
   return cmp(bb,aa)
 
@@ -233,8 +239,8 @@ def patchJsonFile_bak(src):
     return data
   else:
     # edwardw 2020-02-19 testing
-    print "TESTING"
-    print repr(src)
+    print ("TESTING")
+    print (repr(src))
     return {}
 
 def patchJsonFile(data):
@@ -242,13 +248,13 @@ def patchJsonFile(data):
   # edwardw 2020-02-19 testing
   if True:
     #update the items
-    data['items']=map(patchJsonItem, data['items'])
-    data['items'].sort(itemSorter)
+    data['items']=list(map(patchJsonItem, list(data['items'])))
+    data['items'].sort(key=cmp_to_key(itemSorter))
     return data
   else:
     # edwardw 2020-02-19 testing
-    print "TESTING"
-    print repr(src)
+    print ("TESTING")
+    print (repr(src))
     return {}
 
 

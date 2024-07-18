@@ -2,7 +2,8 @@
 
 import os
 import re
-import config
+from commitwebsite import config
+from functools import reduce
 
 def isCrappyBrowser():
   a=os.environ.get("HTTP_USER_AGENT", "N/A")
@@ -23,7 +24,7 @@ def gen(x):
   if type(x) is FUNCTIONTYPE:
     x()
   else:
-    print x # fallback for other types
+    print (x) # fallback for other types
 
 # *PageGenerator -> PageGenerator
 cat=lambda *gens: reduce(lambda x,y: lambda: gen(x) is gen(y), gens, lambda: None)
@@ -103,27 +104,27 @@ morelink = lambda t, u: readmorebox(link(t,u))
 
 def header(title=defaultTitle, exhibit=False):
   def _headergen():
-    print '<?xml version="1.0"?>'
-    print '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"'
-    print '   "http://www.w3.org/TR/html4/strict.dtd">'
-    print '<html lang="en">'
-    print '<head>'
-    print '<title>'+title+'</title>'
-    print '<meta name="verify-v1" content="5yWrybXN9Cv43YSAgkUp85DcD+zwHvM5EKohkLwBxxg=" />'
+    print ('<?xml version="1.0"?>')
+    print ('<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"')
+    print ('   "http://www.w3.org/TR/html4/strict.dtd">')
+    print ('<html lang="en">')
+    print ('<head>')
+    print ('<title>'+title+'</title>')
+    print ('<meta name="verify-v1" content="5yWrybXN9Cv43YSAgkUp85DcD+zwHvM5EKohkLwBxxg=" />')
     if exhibit:
       #print '<script src="https://api.simile-widgets.org/exhibit/2.2.0/exhibit-api.js" type="text/javascript"></script>'
-      print '<script src="common/exhibit-api.js" type="text/javascript"></script>'
+      print ('<script src="common/exhibit-api.js" type="text/javascript"></script>')
  #     print '<script src="http://api.simile-widgets.org/exhibit/3.0.0/exhibit-api.js" type="text/javascript"></script>'
-      print '<link rel="exhibit/data" href="paperdata.cgi" type="application/json">'
-      print '<link rel="exhibit/data" href="paperdataschema.js" type="application/json">'
-    print '<link rel="stylesheet" type="text/css" href="commit.css?v=06-01-2021-18-51">'
+      print ('<link rel="exhibit/data" href="paperdata.cgi" type="application/json">')
+      print ('<link rel="exhibit/data" href="paperdataschema.js" type="application/json">')
+    print ('<link rel="stylesheet" type="text/css" href="commit.css?v=06-01-2021-18-51">')
     if isCrappyBrowser():
-      print '<link rel="stylesheet" type="text/css" href="commit-ie6-hacks.css">'
-    print '</head>'
+      print ('<link rel="stylesheet" type="text/css" href="commit-ie6-hacks.css">')
+    print ('</head>')
     if exhibit:
-      print '''<body onload="Exhibit.create(null, 'Publication');" ex:exporters="Bibtex">'''
+      print ('''<body onload="Exhibit.create(null, 'Publication');" ex:exporters="Bibtex">''')
     else:
-      print '<body>'
+      print ('<body>')
   return _headergen
 
 footer='''

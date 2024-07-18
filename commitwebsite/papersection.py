@@ -1,9 +1,12 @@
 #!/usr/bin/env python
 import os
-import layout
-import paperdata
-import config
+from commitwebsite import layout
+from commitwebsite import paperdata
+from commitwebsite import config
 from pprint import pprint
+from functools import cmp_to_key
+def cmp(a, b):
+    return (a > b) - (a < b) 
 
 def isGoogleBot():
   a=os.environ.get("HTTP_USER_AGENT", "N/A")
@@ -140,7 +143,7 @@ EE
 
 
 def switchBackText(args):
-  if args.has_key('keyword'):
+  if 'keyword' in args:
     return '''
     <div class="switchversion">
     <a href="?page=publications&keyword='''+args['keyword'].value+'''">Switch to interactive version</a></div>
@@ -152,7 +155,7 @@ def switchBackText(args):
     '''
 
 def generateInteractive(args=dict()):
-  if args.has_key("keyword"):
+  if 'keyword' in args:
     keyword=args['keyword'].value
   else:
     keyword=None
@@ -176,17 +179,17 @@ def generateInteractive_bak(args=dict()):
 def sortByPaperDate(a,b):
   y1=0
   y2=0
-  if a.has_key('date'):
+  if 'date' in a:
     y1=a['date']
-  if b.has_key('date'):
+  if 'date' in b:
     y2=b['date']
   return cmp(y2, y1)
 
 #CW: original commented
 #getPaperItems=lambda: filter(lambda x: x['type']=="Publication", 
 #                             paperdata.getJsonObject['items'])
-getPaperItems=lambda: filter(lambda x: x['type']=="Publication", 
-                             paperdata.getJsonObject['items'])
+getPaperItems=lambda: list(filter(lambda x: x['type']=="Publication", 
+                             paperdata.getJsonObject['items']))
 
 
 
@@ -211,7 +214,7 @@ def generateNonInteractive(title, count, args=dict()):
   n = len(papers)
   papers.sort(sortByPaperDate)
   showall=""
-  if args.has_key("keyword"):
+  if 'keyword' in args:
     keyword=args['keyword'].value
     def f(x):
       try:
@@ -234,12 +237,12 @@ def generateFeatured(keys):
     papers=getPaperItems()
     n = len(papers)
 #    papers.sort(sortByPaperDate)
-    keys=filter(lambda x: len(x)>0 and x[0]!="#", map(lambda x: x.strip(), keys))
+    keys=list(filter(lambda x: len(x)>0 and x[0]!="#", map(lambda x: x.strip(), keys)))
     keymap = dict()
-    for i in xrange(len(keys)):
+    for i in range(len(keys)):
       keymap[keys[i]]=i
-    papers=filter(lambda x: keymap.has_key(x['bibtexKey']), papers)
-    papers.sort(lambda x,y: cmp(keymap[x['bibtexKey']], keymap[y['bibtexKey']]))
+    papers=list(filter(lambda x: x['bibtexKey'] in keymap, papers))
+    papers.sort(key=cmp_to_key(lambda x,y: cmp(keymap[x['bibtexKey']], keymap[y['bibtexKey']])))
     return layout.section("Featured Publications",
                           paperListToSection(papers),
                           layout.morelink('Show all %d publications' % n, "?page=publications"))

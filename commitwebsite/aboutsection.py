@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import layout
+from commitwebsite import layout
 
 title="About Us"
 

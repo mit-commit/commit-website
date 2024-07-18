@@ -1,7 +1,7 @@
 #/usr/bin/env python
 import sys
 import os
-import config
+from commitwebsite import config
 mtime=lambda f: os.path.getmtime(f)
 
 SOURCES=config.SOURCEFILES
@@ -22,7 +22,7 @@ def isUpToDate(file, sources):
   try:
     t=mtime(file)
     return len(filter(lambda x: x>=t, map(mtime, sources))) == 0
-  except OSError, e:
+  except OSError:
     return False
 
 def openCached(name, generator, sources=ALL):
@@ -31,8 +31,8 @@ def openCached(name, generator, sources=ALL):
     try:
       pushOutput(open(cache, "w"))
     except e:
-      print "ERROR: failed to write new cache file "+cache
-      print e
+      print ("ERROR: failed to write new cache file "+cache)
+      print (e)
       return
     generator()
     popOutput()
@@ -42,5 +42,5 @@ def getCached(name, generator, sources=ALL):
   return openCached(name,generator,sources).read()
 
 def printCached(name, generator, sources=ALL):
-  print openCached(name,generator,sources).read()
+  print (openCached(name,generator,sources).read())
 

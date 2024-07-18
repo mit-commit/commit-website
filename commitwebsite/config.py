@@ -7,8 +7,12 @@ cwd = os.getcwd()
 #DIR="/afs/csail.mit.edu/group/commit/www/data"
 DIR=cwd
 # Use the real Host header if possible
-HTTP_HOST=os.environ.get("HTTP_HOST", "groups.csail.mit.edu")
-URL="http://" + HTTP_HOST + "/commit/"
+#HTTP_HOST=os.environ.get("HTTP_HOST", "groups.csail.mit.edu")
+#URL="http://" + HTTP_HOST + "/commit/"
+
+# CHange because website is migrated to commit.csail.mit.edu 
+HTTP_HOST=os.environ.get("HTTP_HOST", "commit.csail.mit.edu")
+URL="http://" + HTTP_HOST + "/"
 
 #BABELTRANSLATORTOOL="http://simile.mit.edu/babel/translator?reader=bibtex&writer=exhibit-json"
 ##BABELTRANSLATORTOOL="http://service.simile-widgets.org/babel/translator?reader=bibtex&writer=exhibit-json"
@@ -22,7 +26,7 @@ MODULEDIR=DIR+"/commitwebsite"
 DATADIR=DIR
 WEBDIR=DIR
 
-SOURCEFILES=map(lambda x: MODULEDIR+"/"+x, [
+SOURCEFILES=list(map(lambda x: MODULEDIR+"/"+x, [
        "aboutsection.py",
        "caching.py",
        "config.py",
@@ -32,18 +36,18 @@ SOURCEFILES=map(lambda x: MODULEDIR+"/"+x, [
        "papersection.py",
        "peoplesection.py",
        "projectsection.py"
-    ])+map(lambda x: WEBDIR+"/"+x, [
+    ]))+list(map(lambda x: WEBDIR+"/"+x, [
         "bibtex.cgi",
         "index.cgi",
         "paperdata.cgi",
-    ])
+    ]))
 
-DATAFILES=map(lambda x: DATADIR+"/"+x, [
+DATAFILES=list(map(lambda x: DATADIR+"/"+x, [
    "papers.bib",
    "people.xml",
    "projects.xml",
    "featuredpapers.txt"
-  ])
+  ]))
 
 ALLFILES=SOURCEFILES+DATAFILES
 

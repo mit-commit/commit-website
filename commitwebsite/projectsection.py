@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-import layout
+from commitwebsite import layout
 from xml.dom.minidom import parse
-import config
+from commitwebsite import config
 
 # def projectSorter(a,b):
 #   aOrd=a.getAttribute("order")

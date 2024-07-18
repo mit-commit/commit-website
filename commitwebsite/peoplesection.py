@@ -1,17 +1,19 @@
 #!/usr/bin/env python
-import layout
+from commitwebsite import layout
 from xml.dom.minidom import parse
-import config
-
+from commitwebsite import config
+from functools import cmp_to_key
+def cmp(a, b):
+    return (a > b) - (a < b) 
 def groupBy(groupExtractor, list):
   groups=dict()
   for v in list:
     k = groupExtractor(v)
-    if not groups.has_key(k):
+    if not k in groups:
       groups[k]=[v]
     else:
       groups[k].append(v)
-  return [x for x in groups.iteritems()]
+  return [x for x in groups.items()]
 
 def generate(full):
   #person printers
@@ -30,7 +32,7 @@ def generate(full):
   #format a group for printing
   def personGroupPrinter(groupAndMembers):
     ((sortRank, groupName, printer), people) = groupAndMembers
-    people.sort(lastNameCmp)
+    people.sort(key=cmp_to_key(lastNameCmp))
     return layout.cat(
         layout.h3(groupName),
         layout.personlist(*map(printer, people)))

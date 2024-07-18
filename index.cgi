@@ -1,16 +1,21 @@
-#!/usr/bin/env python
-print "Content-Type: text/html\n"
+#!/usr/bin/env python3
+print ("Content-Type: text/html\n")
 
-# enable debugging
+#enable debugging
 import cgitb; cgitb.enable()
 
 import cgi
+
+#print ("Welcome to commit")
+
 import commitwebsite
 
 form=cgi.FieldStorage()
 page = "home"
-if form.has_key('page'):
+if 'page' in form:
   page = form['page'].value
 
 commitwebsite.generate(page, form)
+
+
 
