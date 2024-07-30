@@ -40,7 +40,7 @@ def getJsonSrc0():
   return src
 
 def simplifyPubType(types):
-  ltypes=map(lambda x: x.lower(), types)
+  ltypes=list(map(lambda x: x.lower(), types))
   soundsLike = lambda term: reduce(lambda a,b: a or b, list(map(lambda x: term.lower() in x, ltypes)), False)
   if soundsLike("techreport"):
     return "Technical Report"
