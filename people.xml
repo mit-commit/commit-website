@@ -94,12 +94,17 @@
         title="Graduate Student"
       />
 
+              <person
+	name="Filippo Carloni"
+	url="https://www.linkedin.com/in/filippo-carloni/"
+        title="Visiting PhD student"
+      />
+
     <person
 	nourl="http://hoiwai.net"
 	name="Hoi Wai Yu"
 	title="UROP"
 	/>
-
 
     <person
 	name="Steven Raphael"
