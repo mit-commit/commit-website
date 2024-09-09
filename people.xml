@@ -43,6 +43,11 @@
       />
 
     <person
+      name="Katsumi Okuda"
+      title="Visiting Researcher"
+      />
+
+    <person
       name="Tom Chen"
       title="Graduate Student"
       />
@@ -50,7 +55,7 @@
     <person
       url="https://willowahrens.io"
       name="Willow Ahrens"
-      title="Graduate Student"
+      title="Postdoctoral Researcher"
       />
 
     <person
@@ -71,13 +76,6 @@
       title="Graduate Student"
       />
 
-
-    <person
-	name="Daniel Donenfeld"
-	url="https://www.linkedin.com/in/danieldonenfeld"
-      title="Graduate Student"
-      />
-
     <person
       name="Jaeyeon Won"
       title="Graduate Student"
@@ -90,16 +88,18 @@
         title="Graduate Student"
       />
 
+          <person
+	name="Caleb Kim"
+	url="https://calebmkim.github.io/"
+        title="Graduate Student"
+      />
+
     <person
 	nourl="http://hoiwai.net"
 	name="Hoi Wai Yu"
 	title="UROP"
 	/>
-    <person
-	url="https://tarushii.vercel.app"
-	name="Tarushii N. Goel"
-	title="UROP"
-	/>
+
 
 
         <person
@@ -109,16 +109,29 @@
 	year="2022"
 	/>
 
-        <person
-            name="Francesco Peverelli"
-	title="Visting Graduate Student"
-	year="2023"
-	/>
+
 
   </current>
 
   
   <alumni>
+          <person
+            name="Francesco Peverelli"
+	title="Visting Graduate Student"
+	year="2023"
+	/>
+      <person
+	url="https://tarushii.vercel.app"
+	name="Tarushii N. Goel"
+	title="UROP"
+	/>
+
+    <person
+	name="Daniel Donenfeld"
+	url="https://www.linkedin.com/in/danieldonenfeld"
+      title="Graduate Student"
+      />
+
     <person
 	name="Richard Sollee"
 	url="https://www.richardsollee.com/"
