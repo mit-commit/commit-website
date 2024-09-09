@@ -102,19 +102,17 @@
 
 
 
-        <person
+  </current>
+
+  
+  <alumni>
+          <person
             name="Kaustubh Dighe"
 	    url="https://www.linkedin.com/in/kaustubh-dighe/"
 	title="MEng"
 	year="2022"
 	/>
 
-
-
-  </current>
-
-  
-  <alumni>
           <person
             name="Francesco Peverelli"
 	title="Visting Graduate Student"
