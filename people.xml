@@ -100,11 +100,6 @@
         title="Visiting PhD student"
       />
 
-    <person
-	nourl="http://hoiwai.net"
-	name="Hoi Wai Yu"
-	title="UROP"
-	/>
 
     <person
 	name="Steven Raphael"
@@ -122,6 +117,20 @@
 	title="UROP"
 	/>
 
+      <person
+	name="Jonathan Zhou"
+	title="UROP"
+	/>
+          <person
+	name="Ethan H Zhou"
+	title="UROP"
+	/>
+        <person
+	name="Gabriela Miranda"
+	title="UROP"
+	/>
+
+
 
 
   </current>
@@ -134,6 +143,17 @@
 	title="MEng"
 	year="2023"
 	/>
+        <person
+	name="Declan King"
+	title="UROP"
+	/>
+
+    <person
+	nourl="http://hoiwai.net"
+	name="Hoi Wai Yu"
+	title="UROP"
+	/>
+
 
           <person
             name="Francesco Peverelli"
