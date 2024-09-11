@@ -130,6 +130,20 @@
 	title="UROP"
 	/>
 
+        <person
+	name="Tasmeem Reza"
+	title="UROP"
+	/>
+
+        <person
+	name="Nicholas Dow"
+	title="UROP"
+	/>
+
+        <person
+	name="Aryan Kumar"
+	title="UROP"
+	/>
 
 
 
@@ -143,6 +157,13 @@
 	title="MEng"
 	year="2023"
 	/>
+
+	<person
+	name="Dhruv Saraff"
+	title="MEng"
+	year="2024"
+	/>
+
         <person
 	name="Declan King"
 	title="UROP"
@@ -218,7 +239,7 @@
 
 
     <person name="Tamara Mitrovska"
-	    title="UROP"
+	    title="MEng"
 	    year="2023"/>
 
         <person
