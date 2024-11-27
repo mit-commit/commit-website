@@ -176,7 +176,7 @@ def generateInteractive_bak(args=dict()):
     layout.section("Publications", viewerHtml))
  
 
-def sortByPaperDate(a,b):
+def sortByPaperDate_bak(a,b):
   y1=0
   y2=0
   if 'date' in a:
@@ -184,6 +184,9 @@ def sortByPaperDate(a,b):
   if 'date' in b:
     y2=b['date']
   return cmp(y2, y1)
+
+def sortByPaperDate(paper):
+    return paper.get('date', '')
 
 #CW: original commented
 #getPaperItems=lambda: filter(lambda x: x['type']=="Publication", 
@@ -211,8 +214,11 @@ def generateNonInteractive(title, count, args=dict()):
 #  print "args: "
 #  print args
   papers=getPaperItems()
+
+  unique_papers = {paper['bibtexKey']: paper for paper in papers}.values()
+  papers = list(unique_papers)
   n = len(papers)
-  papers.sort(sortByPaperDate)
+  papers.sort(key=sortByPaperDate, reverse=True)
   showall=""
   if 'keyword' in args:
     keyword=args['keyword'].value
