@@ -1,9 +1,22 @@
 /* Publications page controller — ES5, dynamic counts, compact UI */
 /* === BibTeX generation (local, ES5) === */
 // --- Safe URL localizer shim (works even if pubs.js isn't loaded) ---
+// var localizeURL = (window.PUBS && typeof PUBS.localizeAssetURL === 'function')
+//   ? function(u){ try { return PUBS.localizeAssetURL(u); } catch (e) { return u || ''; } }
+//     : function(u){ return u || ''; };
+
+// Localize commit links to site-relative (papers/... presentations/...)
 var localizeURL = (window.PUBS && typeof PUBS.localizeAssetURL === 'function')
-  ? function(u){ try { return PUBS.localizeAssetURL(u); } catch (e) { return u || ''; } }
-    : function(u){ return u || ''; };
+  ? function(u){ try { return PUBS.localizeAssetURL(u||''); } catch(e){ return u||''; } }
+  : function(u){
+      u = u || '';
+      // handle https://commit.csail.mit.edu/(papers|presentations)/...
+      // and https://groups.csail.mit.edu/commit/(papers|presentations)/...
+      var m = u.match(/^https?:\/\/[^/]+\/(?:commit\/)?(papers|presentations)\/(.+)$/i);
+      if (m) return (m[1].toLowerCase() + '/' + m[2]);
+      return u;
+    };
+
 
 function bibtexKeyOf(it){
   if (it.bibtexKey) return it.bibtexKey;
@@ -111,6 +124,33 @@ function typeLabel(k){
   return TYPE_LABELS[k] || (k.charAt(0).toUpperCase() + k.slice(1));
 }
 
+function monthNum(s){
+  if(!s) return 0;
+  var m = String(s).slice(0,3).toLowerCase();
+  var map = {jan:1,feb:2,mar:3,apr:4,may:5,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12};
+  return map[m] || 0;
+}
+
+  function splitKeywords(s){
+    if(!s) return [];
+    var parts = s.split(/[,;]+/), out=[], i, p;
+    for(i=0;i<parts.length;i++){ p = parts[i].trim(); if(p) out.push(p); }
+    return out;
+  }
+
+
+// Key extractors (for sorting within groups)
+function keyFor(it, which){
+  if (which==='year')     return it.year ? parseInt(it.year,10) : 0; // numeric
+  if (which==='type')     return typeLabel(it.itemType || 'misc');   // pretty label
+  if (which==='authors')  { var a = listNormalizedAuthors(it); return a.length?a[0]:'zzz'; } // first author
+  if (which==='keywords') { 
+    var ks = splitKeywords(it.keywords || ''); 
+    if (ks.length) { ks.sort(function(a,b){ return a.localeCompare(b); }); return ks[0]; }
+    return 'zzz';
+  }
+  return '';
+}
 
 
 function venueOf(it){ return firstDefined(it.journal, it.booktitle, it.series, it.type, it.publisher); }
@@ -205,6 +245,7 @@ function createBibLink(it){
     },
       sortKey: 'none',   // 'none' | 'title' | 'venue' | 'firstAuthor' | 'type' | 'month'
       sortDesc: false,
+      sortOrder: ['year','type','authors','none']  // default
 
   };
 
@@ -218,8 +259,12 @@ function createBibLink(it){
     kwBox: document.getElementById('facet-keywords'),
     auBox: document.getElementById('facet-authors'),
       tyBox: document.getElementById('facet-types'),
-      sortKey: document.getElementById('sort-key'),
-      sortDesc: document.getElementById('sort-desc')
+      // els:
+      sort1: document.getElementById('sort-1'),
+      sort2: document.getElementById('sort-2'),
+      sort3: document.getElementById('sort-3'),
+      sort4: document.getElementById('sort-4'),
+      sortReset: document.getElementById('sort-reset'),
 
   };
 
@@ -375,44 +420,90 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
     return li;
   }
 
+
 function renderList(mount, items){
-  // Group items by year (string), with 0/unknown at end as "Other"
-  var groups = {};
-  for (var i=0;i<items.length;i++){
-    var y = items[i].year ? String(items[i].year) : 'Other';
-    if (!groups[y]) groups[y] = [];
-    groups[y].push(items[i]);
-  }
+  var order = state.sortOrder.slice();                  // e.g. ['none','authors','none','year']
+  var active = order.filter(function(k){ return k !== 'none'; });
 
-  // Sort year buckets: numeric desc, "Other" last
-  var years = Object.keys(groups).sort(function(a,b){
-    if (a==='Other' && b!=='Other') return 1;
-    if (b==='Other' && a!=='Other') return -1;
-    var ai = parseInt(a,10)||0, bi = parseInt(b,10)||0;
-    return bi - ai;
-  });
+  // Case 1: no primary (order[0] === 'none') → flat list
+  if (!active.length || order[0] === 'none') {
+    var flat = items.slice();
 
-  // Sort within each year by selected key (optional)
-  var sorter = makeSorter(state.sortKey);
-  var dir = state.sortDesc ? -1 : 1;
-
-  var container = document.createElement('div');
-  for (var yi=0; yi<years.length; yi++){
-    var y = years[yi];
-    var section = document.createElement('div');
-
-    var h = document.createElement('h3');
-    h.textContent = y;
-    section.appendChild(h);
-
-    var arr = groups[y].slice();
-    if (sorter) arr.sort(function(a,b){ return dir * sorter(a,b); });
+    // Apply remaining sort keys (skip initial 'none')
+    for (var r = order.length - 1; r >= 0; r--){
+      (function(which){
+        if (which === 'none') return;
+        flat.sort(function(a,b){
+          if (which==='year') return (keyFor(b,'year') - keyFor(a,'year')); // year desc
+          return cmp(String(keyFor(a,which)).toLowerCase(), String(keyFor(b,which)).toLowerCase());
+        });
+      })(order[r]);
+    }
 
     var ul = document.createElement('ul'); ul.className = 'pub-list';
-    for (var j=0; j<arr.length; j++) ul.appendChild(renderItem(arr[j]));
-    section.appendChild(ul);
+    for (var i=0;i<flat.length;i++) ul.appendChild(renderItem(flat[i]));
+    mount.innerHTML = '';
+    mount.appendChild(ul);
+    return;
+  }
 
-    container.appendChild(section);
+  // Case 2: group by the first active key
+  var primary = active[0];
+  var rest = [];
+  // take the remaining keys in their original positions, skipping 'none' and the primary
+  for (var i=0;i<order.length;i++){
+    var k = order[i];
+    if (k !== 'none' && k !== primary) rest.push(k);
+  }
+
+  var groups = {}; // label -> items
+  function add(label, it){ if (!groups[label]) groups[label]=[]; groups[label].push(it); }
+
+  for (var i2=0;i2<items.length;i2++){
+    var it = items[i2];
+    if (primary==='year'){
+      add(it.year ? String(it.year) : 'Other', it);
+    } else if (primary==='type'){
+      add(typeLabel(it.itemType || 'misc'), it);
+    } else if (primary==='authors'){
+      var as = listNormalizedAuthors(it); if (as.length){ for (var a=0;a<as.length;a++) add(as[a], it); } else add('Other', it);
+    } else if (primary==='keywords'){
+      var ks = splitKeywords(it.keywords || ''); if (ks.length){ for (var k2=0;k2<ks.length;k2++) add(ks[k2], it); } else add('Other', it);
+    }
+  }
+
+  var headers = Object.keys(groups);
+  headers.sort(function(A,B){
+    if (primary==='year'){
+      if (A==='Other' && B!=='Other') return 1;
+      if (B==='Other' && A!=='Other') return -1;
+      return (parseInt(B,10)||0) - (parseInt(A,10)||0); // desc
+    }
+    return A.toLowerCase().localeCompare(B.toLowerCase());
+  });
+
+  var container = document.createElement('div');
+  for (var h=0; h<headers.length; h++){
+    var label = headers[h];
+    var arr = groups[label].slice();
+
+    // multi-key within group
+    for (var r2 = rest.length - 1; r2 >= 0; r2--){
+      (function(which){
+        arr.sort(function(a,b){
+          if (which==='year') return (keyFor(b,'year') - keyFor(a,'year'));
+          return cmp(String(keyFor(a,which)).toLowerCase(), String(keyFor(b,which)).toLowerCase());
+        });
+      })(rest[r2]);
+    }
+
+    var sec = document.createElement('div');
+    var h3 = document.createElement('h3'); h3.textContent = label;
+    sec.appendChild(h3);
+    var ul = document.createElement('ul'); ul.className = 'pub-list';
+    for (var j=0;j<arr.length;j++) ul.appendChild(renderItem(arr[j]));
+    sec.appendChild(ul);
+    container.appendChild(sec);
   }
 
   mount.innerHTML = '';
@@ -657,16 +748,74 @@ downloadText('commit-publications.bib', out.join(''));
   };
 }
 
-      // Sort controls
-if (els.sortKey) els.sortKey.onchange = function(){
-  state.sortKey = els.sortKey.value || 'none';
-  applyFilters();
-};
-if (els.sortDesc) els.sortDesc.onchange = function(){
-  state.sortDesc = !!els.sortDesc.checked;
+function uniqueOrder(arr){
+  // Keep order, remove duplicates except 'none' (allowed multiple),
+  // then append any missing real keys to complete 4 slots.
+  var seen = {}, out = [], ALL = ['year','keywords','authors','type'], i, k;
+  for (i=0;i<arr.length;i++){
+    k = arr[i] || 'none';
+    if (k === 'none') { out.push('none'); continue; }
+    if (!seen[k]) { seen[k]=1; out.push(k); }
+  }
+  // pad to 4 with 'none'
+  while (out.length < 4) out.push('none');
+  return out.slice(0,4);
+}
+function applySortUIToState(){
+  state.sortOrder = uniqueOrder([
+    (els.sort1 && els.sort1.value) || 'none',
+    (els.sort2 && els.sort2.value) || 'none',
+    (els.sort3 && els.sort3.value) || 'none',
+    (els.sort4 && els.sort4.value) || 'none'
+  ]);
+}
+function refreshSortUI(){
+  var so = state.sortOrder;
+  if (els.sort1) els.sort1.value = so[0];
+  if (els.sort2) els.sort2.value = so[1];
+  if (els.sort3) els.sort3.value = so[2];
+  if (els.sort4) els.sort4.value = so[3];
+
+  // Disable chosen non-'none' values in other selects to avoid duplicates
+  var picks = [so[0], so[1], so[2], so[3]];
+  var selects = [els.sort1, els.sort2, els.sort3, els.sort4];
+  for (var i=0;i<selects.length;i++){
+    var s = selects[i]; if (!s) continue;
+    for (var j=0;j<s.options.length;j++){
+      var v = s.options[j].value;
+      s.options[j].disabled = false;
+      if (v !== 'none') {
+        // if v is selected elsewhere (not this select), disable it here
+        var selectedElsewhere = (v===picks[0] && s!==els.sort1) ||
+                                (v===picks[1] && s!==els.sort2) ||
+                                (v===picks[2] && s!==els.sort3) ||
+                                (v===picks[3] && s!==els.sort4);
+        if (selectedElsewhere) s.options[j].disabled = true;
+      }
+    }
+  }
+}
+
+
+function onSortChange(){
+  applySortUIToState();
+  refreshSortUI();
+  applyFilters(); // re-render with new grouping/sort
+}
+
+      // hook up
+      if (els.sort1) els.sort1.onchange = onSortChange;
+      if (els.sort2) els.sort2.onchange = onSortChange;
+      if (els.sort3) els.sort3.onchange = onSortChange;
+      if (els.sort4) els.sort4.onchange = onSortChange;
+if (els.sortReset) els.sortReset.onclick = function(){
+  state.sortOrder = ['none','none','none','none']; // <— all none on reset
+  refreshSortUI();
   applyFilters();
 };
 
+      // initialize UI
+      refreshSortUI();
 
 
     // Load JSON

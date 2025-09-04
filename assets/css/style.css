@@ -342,3 +342,7 @@ span.exhibit-collectionSummaryWidget-count { font-size: 129%;  font-weight: bold
 .facet-item input { flex: 0 0 auto; margin-right: 6px; }
 .facet-text { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 .facet-item.disabled { opacity: 0.45; }
+
+.sort-multilevel { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.sort-label { font-weight:600; margin-right:2px; }
+.sort-multilevel select { padding:2px 4px; }
