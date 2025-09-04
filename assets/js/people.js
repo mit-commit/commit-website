@@ -1,3 +1,4 @@
+// Data source: data/people.xml; edit that file to update members.
 function logDebug(...args){
   console.log(...args);
   const log = document.getElementById('debug-log');

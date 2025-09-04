@@ -1,20 +1,21 @@
-<!-- 
--
-- The order in this file does not matter.  Current people are sorted by title,
-- lastname.  Alumni are sorted by year, lastname.  When someone graduates,
+<!--
+- The order in this file does not matter. Current people are sorted by title,
+- lastname. Alumni are sorted by year, lastname. When someone graduates,
 - change their title from "Graduate Student" to "PhD" and set the year.
+-
+- To add a person:
+-   * Insert a <person> element under <current> with attributes name and title.
+-   * Optionally include a url attribute.
+- To update or graduate someone:
+-   * Edit their existing <person> entry.
+-   * When they graduate move the entry under <alumni>, change the title to
+-     "PhD", and add a year attribute.
 -
 - Structure is:
 -
 -   people
--     |
--     |- current
--     |     \- list of people with fields: url, name, title
--     |
--     \- alumni
--            \- list of people with fields: url, name, title, year
--
--   
+-     |- current   -> list of people with fields: url, name, title
+-     |- alumni    -> list of people with fields: url, name, title, year
 -->
 <people>
   <current>

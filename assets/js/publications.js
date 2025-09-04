@@ -1,4 +1,5 @@
 /* Publications page controller — ES5, dynamic counts, compact UI */
+// Data source: data/publications.json; edit that file to add publications.
 /* === BibTeX generation (local, ES5) === */
 // --- Safe URL localizer shim (works even if pubs.js isn't loaded) ---
 // var localizeURL = (window.PUBS && typeof PUBS.localizeAssetURL === 'function')
