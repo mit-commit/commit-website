@@ -1,6 +1,6 @@
 # Commit Group Website
 
-This repository contains the static files for the COMMIT @ CSAIL website.
+This repository contains the static site files for the COMMIT @ CSAIL website.
 
 ## Updating Content
 
@@ -9,14 +9,14 @@ This repository contains the static files for the COMMIT @ CSAIL website.
 - Each `<person>` element lists a member with `name`, `title`, and optional `url`.
 - Current members live under the `<current>` section.
 - Alumni live under `<alumni>` and include a `year` attribute.
-- When someone graduates, move their entry to `<alumni>`, change the title to `PhD`, and set the graduation year.
+- When someone graduates, move their entry to `<alumni>` and set the graduation year.
 
 ### Add a publication
 - Edit `data/publications.json` and append a new object to the list.
-- Each publication object should include fields such as `title`, `author0`, `year`, and a unique `bibtexKey`.
+- Each publication object should include fields such as `title`, `author0`, `year`, and a unique `bibtexKey`. See existing JSON to further configure the entry.
 - The site reads this JSON directly, so keep the file valid JSON.
 
 ### Feature a paper
-- Edit `data/featuredpapers.txt`.
-- Add the publication's `bibtexKey` (from `publications.json`) on a new line to feature it.
-- Remove a key from this list to unfeature the paper.
+- Add `"featured" : true` to the json for a publication
+- OR add a `"price" : "Award"` to the json for a publication.
+- Featured publications are ordered by date.
