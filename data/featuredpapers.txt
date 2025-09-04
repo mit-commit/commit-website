@@ -1,0 +1,23 @@
+# A list of bibtex keys, one per line:
+tiramisu-auto
+chou-pldi20-taco-conversion
+goslp
+graphit
+tiramisu
+kjolstad:oopsla:2017
+kjolstad:tog:2016
+ansel:pact:2014
+halide:pldi:2013
+zhao:cgo:2010
+ansel:pldi:2009
+olszewski:asplos:2009
+thies:micro:2007
+gordon:asplos:2006
+agrawal:cases:2005
+urbanski:loc:2006
+larsen:micro:2005
+stephenson:pldi:2003
+bruening:cgo:2003
+kiriansky:lcs-tm:2002
+taylor:isca:2004
+kotkar:hci4cid:2008
