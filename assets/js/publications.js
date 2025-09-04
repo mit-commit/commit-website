@@ -291,7 +291,7 @@ function createBibLink(it){
   }
 
   // If pubs.js is loaded, reuse its localizer and bib link; else graceful fallback
-  var localizeURL = (window.PUBS && PUBS.localizeAssetURL) ? function(u){ try{return PUBS.localizeAssetURL(u);}catch(_){return u;} } : function(u){ return u; };
+    //  var localizeURL = (window.PUBS && PUBS.localizeAssetURL) ? function(u){ try{return PUBS.localizeAssetURL(u);}catch(_){return u;} } : function(u){ return u; };
   var makeBibLink = (window.PUBS && PUBS.makeBibDownloadLink) ? PUBS.makeBibDownloadLink : function(){ var a=document.createElement('span'); return a; };
 
   /* ---------- Build static UI shells (kept; content dynamic) ---------- */
