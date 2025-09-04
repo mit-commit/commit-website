@@ -118,6 +118,7 @@ var TYPE_LABELS = {
   incollection: 'Book Chapter',
     misc: 'Other',
     'sciencethesis': "SM Thesis",
+    sbthesis: "SB Thesis",
 };
 function typeLabel(k){
   k = (k || 'misc').toLowerCase().trim();
