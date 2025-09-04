@@ -12,9 +12,9 @@ This repository contains the static site files for the COMMIT @ CSAIL website.
 - When someone graduates, move their entry to `<alumni>` and set the graduation year.
 
 ### Add a publication
-- Edit `data/publications.json` and append a new object to the list.
-- Each publication object should include fields such as `title`, `author0`, `year`, and a unique `bibtexKey`. See existing JSON to further configure the entry.
-- The site reads this JSON directly, so keep the file valid JSON.
+- Edit `data/publications.json` and append a new object to the list. See existing JSON to further configure the entry.
+- Add a new paper/presentation to the files in the correct year
+- In the JSON entry, add a link to pdf/presentation. Note that existing links to the old site are converted to links to the new site, but links to the new site are preferable. 
 
 ### Feature a paper
 - Add `"featured" : true` to the json for a publication
