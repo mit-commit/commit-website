@@ -9,12 +9,12 @@ body {
 a:link, a:visited, a:active, a:hover { text-decoration: none; color: #1010b5; }
 a:hover { text-decoration: underline; }
 
-.pagewidth { margin: auto; width: 780px; }
+.pagewidth { margin: auto; width: 940px; }
 .main { padding-left: 40px; padding-right: 40px; padding-top: 25px; padding-bottom: 30px; background-color: #ffffff; }
 
 .imagediv { padding-bottom: 1px; }
 
-.menuitem { float: left; margin-bottom: 20px; border-bottom: 1px solid #525252; }
+.menuitem { float: center; margin-bottom: 20px; border-bottom: 1px solid #525252; }
 .menuitemlink { width: 140px; padding-top: 3px; padding-bottom: 3px; background-color: #ffffff; cursor: pointer; font-weight: bold; color: #000000; display: inline-block; }
 .menuitemlink:hover { background-color: #dfdfdf; }
 .menuitemlink:active { background-color: #afafaf; }
@@ -61,7 +61,7 @@ span.exhibit-collectionSummaryWidget-count { font-size: 129%;  font-weight: bold
 .sticky { position: sticky; top: 10px; }
 
 /* Mobile: stack width */
-@media (max-width: 820px) {
+@media (max-width: 940px) {
   .pagewidth { width: auto; }
   #image_window, .people_image { width: 100%; height: auto; }
   li.person, li.project { width: 100%; height: auto; }
