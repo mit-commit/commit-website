@@ -175,6 +175,9 @@ function makeSorter(key){
 
 
 function buildBibtex(it, localizeURLFn){
+  if (it.oldBibtex && /^\s*@/m.test(String(it.oldBibtex))) {
+    return String(it.oldBibtex);
+  }
   var typ = it.itemType || 'misc';
   var key = bibtexKeyOf(it);
   var out = [];
