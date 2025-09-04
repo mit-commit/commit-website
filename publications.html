@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Commit @ CSAIL — Publications</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <div class="pagewidth">
+    <div class="outer">
+      <div class="main">
+
+        <!-- HEADER / NAV -->
+        <div class="menuitem nav">
+          <a class="menuitemlink" href="index.html">Home</a>
+          <a class="menuitemlink" href="projects.html">Projects</a>
+          <a class="menuitemlink" href="people.html">People</a>
+          <a class="menuitemlink" href="publications.html">Publications</a>
+        </div>
+        <div style="clear:both"></div>
+
+        <div class="secbody" id="pubs-secbody">
+
+          <!-- FILTERS -->
+          <h2 class="grouphead">Filters</h2>
+
+          <div id="pubs-filters" class="pubs-filters">
+            <div class="filter-row">
+<label><input type="radio" name="mode" value="noninteractive" > Non-interactive</label>
+<label><input type="radio" name="mode" value="interactive" checked> Interactive</label>
+              &nbsp;&nbsp;
+              <button id="btn-clear" type="button" class="btn">Clear filters</button>
+	      &nbsp;&nbsp;
+	      <button id="btn-export-bib" type="button" class="btn">Export .bib</button>
+	      <label class="sort-inline">
+		Sort within year:
+		<select id="sort-key">
+		  <option value="none" selected>Default</option>
+		  <option value="title">Title</option>
+		  <option value="venue">Venue/Journal</option>
+		  <option value="firstAuthor">First author</option>
+		  <option value="type">Type</option>
+		  <option value="month">Month</option>
+		</select>
+	      </label>
+	      <label class="sort-inline">
+		<input id="sort-desc" type="checkbox"> Desc
+	      </label>
+
+
+            </div>
+
+            <div id="filters-interactive" class="filters-interactive hidden">
+              <div class="filter-block">
+                <div class="filter-label">Years</div>
+                <div id="facet-years" class="year-grid"></div>
+              </div>
+
+              <div class="filter-block">
+                <div class="filter-label">Title search</div>
+                <input id="facet-title" type="text" class="text-input" placeholder="Search title…">
+              </div>
+
+              <div class="filter-grid">
+                <div class="filter-block">
+                  <div class="filter-label">Keywords</div>
+                  <div id="facet-keywords" class="facet-list"></div>
+                </div>
+                <div class="filter-block">
+                  <div class="filter-label">Authors</div>
+                  <div id="facet-authors" class="facet-list"></div>
+                </div>
+                <div class="filter-block">
+                  <div class="filter-label">Type</div>
+                  <div id="facet-types" class="facet-list"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PUBLICATIONS -->
+          <h2 class="grouphead">Publications</h2>
+          <div id="pubs-errors" class="switchversion" style="color:#b00;"></div>
+          <div id="pubs-results"></div>
+
+        </div>
+
+        <div class="credits">© Commit Group — Massachusetts Institute of Technology — CSAIL</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/pubs.js"></script>             <!-- for BibTeX + local URL logic -->
+  <script src="assets/js/publications.js"></script>     <!-- the filters controller -->
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!-- 
+-
+- The order in this file controls order displayed. 
+-
+- Fields are:
+-   url      = URL to link to.
+-   name     = Project name.
+-   desc     = A 1 sentence description of the project.
+-   featured = If set to 1, project will show on front page.
+-
+-->
+<projects>
+
+  <project 
+    url="https://buildit.so"
+    name="BuildIt"
+    desc="A framework for rapidly developing high-performance DSLs with little to no compiler knowledge."
+    featured="1"
+    />
+
+
+  <project
+    url="http://tensor-compiler.org"
+    name="The Tensor Compiler"
+    desc="A compiler for sparse tensor algebra expressions."
+    featured="1"
+    />
+
+  <project
+      url="https://github.com/willow-ahrens/Finch.jl"
+      name="Finch"
+      desc="A compiler for next generation array programming."
+      featured="1"
+      />
+
+
+  <project
+    url="http://graphit-lang.org"
+    name="GraphIt"
+    desc="A high-performance language for graph analytics."
+    featured="1"
+    />
+
+  <project
+    url="https://www.nextgenvec.org"
+    name="Next Generation Auto-vectorization"
+    desc="Auto-vectorization research for the next generation of processors"
+    featured="1"
+    />
+
+  <project
+    url="http://seq-lang.org"
+    name="Seq"
+    desc="A Language for Bioinformatics"
+    featured="1"
+    />
+
+  <project
+    url="http:/opentuner.org/"
+    name="OpenTuner"
+    desc="An extensible framework for program autotuning."
+    featured="1"
+    />
+
+  <project
+    url="http://halide-lang.org"
+    name="Halide"
+    desc="A language for image processing and computational photography."
+    featured="1"
+    />
+
+  <project
+    url="http://tiramisu-compiler.org"
+    name="The Tiramisu Compiler"
+    desc="A compiler for expressing fast, portable and composable data parallel computations."
+    featured="1"
+    />
+
+  <project
+    url="http://groups.csail.mit.edu/cag/streamit"
+    name="StreamIt"
+    desc="A high-performance language and compiler for streaming applications."
+    featured="1"
+    />
+
+  <project
+    url="http://www.dynamorio.org/"
+    name="DynamoRIO"
+    desc="An efficient runtime code manipulation system."
+    featured="1"
+    />
+
+</projects>
