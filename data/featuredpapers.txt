@@ -1,4 +1,5 @@
-# A list of bibtex keys, one per line:
+# A list of bibtex keys, one per line. Add a publication's `bibtexKey` from
+# data/publications.json to feature it on the site:
 tiramisu-auto
 chou-pldi20-taco-conversion
 goslp
