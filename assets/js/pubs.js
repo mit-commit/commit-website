@@ -1,3 +1,7 @@
+    function toYear(val) {
+  return typeof val === "string" ? parseInt(val, 10) : val;
+}
+
 /* assets/js/pubs.js — ES5, generates BibTeX + localizes PDFs/slides */
 (function (global) {
   'use strict';
@@ -211,6 +215,7 @@ function localizeAssetURL(url) {
     mount.appendChild(ul);
   }
 
+
   /* ---------- Public API ---------- */
   PUBS.loadAndRender = function (opts) {
     var path = (opts && opts.jsonPath) || JSON_PATH_DEFAULT;
@@ -219,9 +224,13 @@ function localizeAssetURL(url) {
       var all = [];
       for (var i = 0; i < arr.length; i++) {
         var it = arr[i];
-        all.push(it);
-        if (it.price) featured.push(it); // feature rule: has price
+          all.push(it);
+	  console.log(it);
+        if (it.price || it.featured) featured.push(it); // feature rule: has price
       }
+	featured.sort((a, b) => toYear(b.year) - toYear(a.year));
+	console.log(featured);
+	console.log("hi")
       if (opts && opts.filterFn) all = opts.filterFn(all) || all;
       if (opts && opts.mountAll)      renderList(opts.mountAll, all);
       if (opts && opts.mountFeatured) renderList(opts.mountFeatured, featured);
