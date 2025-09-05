@@ -1,4 +1,16 @@
-[
+[  {
+    "title": "WACO: Learning workload-aware co-optimization of the format and  schedule of a sparse tensor program",
+      "author0": "Won, Jaeyeon",
+    "month": "Aug",
+    "year": "2023",
+    "url": "https://commit.csail.mit.edu/papers/2023/Jaeyon_SM.pdf",
+    "keywords": "Sparse",
+    "type": "S.M. Thesis",
+    "address": "Cambridge, MA",
+    "school": "Massachusetts Institute of Technology",
+    "bibtexKey": "jaeyeon:sm-thesis:2023",
+    "itemType": "sciencethesis"
+  },
   {
     "title": "Automated Finite Elements",
       "author0": "Collin, Teodoro Fields",
@@ -172,6 +184,22 @@
     "bibtexKey": "ahrens_finch_2025",
     "itemType": "inproceedings",
     "oldbibtex": "@inproceedings{ahrens_finch_2025,\n  abstract = {From FORTRAN to NumPy, tensors have revolutionized how we express computation. However, tensors in these, and almost all prominent systems, can only handle dense rectilinear integer grids. Real world tensors often contain underlying structure, such as sparsity, runs of repeated values, or symmetry. Support for structured data is fragmented and incomplete. Existing frameworks limit the tensor structures and program control flow they support to better simplify the problem. In this work, we propose a new programming language, Finch, which supports both flexible control flow and diverse data structures. Finch facilitates a programming model which resolves the challenges of computing over structured tensors by combining control flow and data structures into a common representation where they can be co-optimized. Finch automatically specializes control flow to data so that performance engineers can focus on experimenting with many algorithms. Finch supports a familiar programming language of loops, statements, ifs, breaks, etc., over a wide variety of tensor structures, such as sparsity, run-length-encoding, symmetry, triangles, padding, or blocks. Finch reliably utilizes the key properties of structure, such as structural zeros, repeated values, or clustered non-zeros. We show that this leads to dramatic speedups in operations such as SpMV and SpGEMM, image processing, and graph analytics.},\n  address = {Singapore},\n  author = {Ahrens, Willow and Collin, Teodoro Fields and Patel, Radha and Deeds, Kyle and Hong, Changwan and Amarasinghe, Saman},\n  doi = {10.1145/3720473},\n  journal = {Proceedings of the ACM on Programming Languages (OOPSLA)},\n  keywords = {Control Flow, Programming Language, Sparse Tensor, Structured Tensor},\n  month = {Oct},\n  number = {OOPSLA1},\n  series = {OOPSLA '25},\n  title = {Finch: Sparse and Structured Tensor Programming with Control Flow},\n  url = {http://commit.csail.mit.edu/papers/2025/Finch-OOPSLA-2025.pdf},\n  year = {2025}\n}\n"
+  },
+    {
+    "series": "OOPSLA '25",
+    "title": "The Continuous Tensor Abstraction: Where Indices Are Real",
+    "url": "http://commit.csail.mit.edu/papers/2025/Continuous-OOPSLA-2025.pdf",
+    "doi": "10.1145/3763146",
+    "abstract": "This paper introduces the continuous tensor abstraction, allowing indices to take real-number values (e.g., A[3.14]). It also presents continuous tensor algebra expressions, such as Cx,y = Ax,y * Bx,y, where indices are defined over a continuous domain. Our implementation supports piecewise-constant tensors, enabling infinite domains to be processed in finite time. We introduce new tensor formats for efficient storage and code generation techniques for automatic kernel generation. For the first time, domains such as computational geometry and computer graphics are expressed in the language of tensor programming. Our compiler demonstrates competitive or better performance compared to hand-optimized kernels across diverse applications, with significant speedups and reduced lines of code in tasks such as radius search, genomic interval queries, and trilinear interpolation in Neural Radiance Fields.",
+    "number": "OOPSLA1",
+    "author0": "Won, Jaeyeon and Ahrens, Willow and Collin, Teodoro Fields and Emer, Joel S. and Amarasinghe, Saman",
+    "month": "Oct",
+    "year": "2025",
+    "journal": "Proceedings of the ACM on Programming Languages (OOPSLA)",
+    "address": "Singapore",
+    "keywords": "Tensor Programming, Continuous Tensor, Domain-Specific Language, Sparse Tensor Compiler",
+    "bibtexKey": "won_continuous_2025",
+    "itemType": "inproceedings"
   },
   {
     "address": "New York, NY, USA",

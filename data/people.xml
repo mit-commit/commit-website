@@ -28,7 +28,7 @@
 
     <person
       name="Changwan Hong"
-      title="Research Scientist"
+      title="Affiliate Researcher"
       />
 
     <person
@@ -43,21 +43,13 @@
       title="Affiliate Researcher"
       />
 
-    <person
-      name="Katsumi Okuda"
-      title="Visiting Researcher"
-      />
 
     <person
       name="Tom Chen"
       title="Graduate Student"
       />
 
-    <person
-      url="https://willowahrens.io"
-      name="Willow Ahrens"
-      title="Postdoctoral Researcher"
-      />
+
 
     <person
       name="Ajay Brahmakshatriya"
@@ -95,11 +87,18 @@
         title="Graduate Student"
       />
 
-              <person
-	name="Filippo Carloni"
-	url="https://www.linkedin.com/in/filippo-carloni/"
-        title="Visiting PhD student"
+          <person
+	name="Runsheng Bai"
+        title="Graduate Student"
       />
+
+                <person
+	name="Juni C. Kim"
+	url="https://junic.kim/en/"
+        title="Visting Graduate Student"
+      />
+
+
 
 
     <person
@@ -108,10 +107,29 @@
 	/>
 
       <person
-	name="Chaitanya Ravuri"
+	name="Shreya Chaudhary"
 	title="MEng"
 	/>
-	  
+
+        <person
+	name="Daniel Quach"
+	title="UROP"
+	/>
+
+
+      <person
+	name="Gordon Lichtstein"
+	title="UROP"
+	/>
+
+
+      <person
+	name="Prompt Kerdphoksup"
+	title="UROP"
+	/>
+
+
+
     <person
 	name="Paramuth (Namo) Samuthrsindh"
 	title="UROP"
@@ -122,40 +140,81 @@
 	title="UROP"
 	/>
 
-      <person
-	name="Jonathan Zhou"
-	title="UROP"
-	/>
-          <person
-	name="Ethan H Zhou"
-	title="UROP"
-	/>
+
+
+
         <person
 	name="Gabriela Miranda"
 	title="UROP"
 	/>
 
-        <person
-	name="Tasmeem Reza"
-	title="UROP"
-	/>
-
-        <person
-	name="Nicholas Dow"
-	title="UROP"
-	/>
-
-        <person
-	name="Aryan Kumar"
-	title="UROP"
-	/>
 
 
 
   </current>
 
-  
+
   <alumni>
+
+      <person
+      name="Katsumi Okuda"
+      title="Visiting Researcher"
+      />
+
+                <person
+	name="Filippo Carloni"
+	url="https://www.linkedin.com/in/filippo-carloni/"
+        title="Visiting PhD student"
+      />
+
+
+          <person
+	name="Ethan H Zhou"
+	title="UROP"
+  	/>
+          <person
+	name="Tasmeem Reza"
+	title="UROP"
+	/>
+
+      <person
+	name="Muhender Rajvee"
+	title="MEng"
+	/>
+	  
+      <person
+	name="Chaitanya Ravuri"
+	title="MEng"
+	/>
+	  
+        <person
+	name="Jonathan Zhou"
+	title="MEng"
+	/>
+            <person
+	name="Ricardo Ruiz"
+	title="MEng"
+	/>
+
+
+          <person
+	name="Nicholas Dow"
+	title="MEng"
+	/>
+
+        <person
+	name="Aryan Kumar"
+	title="MEng"
+	/>
+
+
+
+      <person
+      url="https://willowahrens.io"
+      name="Willow Ahrens"
+      title="PhD"
+      year="2024"
+      />
           <person
             name="Kaustubh Dighe"
 	    url="https://www.linkedin.com/in/kaustubh-dighe/"
