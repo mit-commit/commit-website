@@ -112,7 +112,7 @@ function firstAuthorFirstName(it){
     var n = firstAuthorOf(it);
   if (!n) return '';
     var parts = n.split(/\s+/);
-  return parts[parts.length - 1];
+  return parts[0];
 }
 
 // First author's last name
@@ -123,7 +123,7 @@ function firstAuthorLastName(it){
   if (!n) return '';
     var parts = n.split(/\s+/);
 
-  return parts[0];
+  return parts[parts.length - 1];
 }
 
 
