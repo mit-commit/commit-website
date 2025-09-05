@@ -43,10 +43,6 @@
       title="Affiliate Researcher"
       />
 
-    <person
-      name="Katsumi Okuda"
-      title="Visiting Researcher"
-      />
 
     <person
       name="Tom Chen"
@@ -91,11 +87,18 @@
         title="Graduate Student"
       />
 
-              <person
-	name="Filippo Carloni"
-	url="https://www.linkedin.com/in/filippo-carloni/"
-        title="Visiting PhD student"
+          <person
+	name="Runsheng Bai"
+        title="Graduate Student"
       />
+
+                <person
+	name="Juni C. Kim"
+	url="https://junic.kim/en/"
+        title="Visting Graduate Student"
+      />
+
+
 
 
     <person
@@ -150,6 +153,18 @@
 
 
   <alumni>
+
+      <person
+      name="Katsumi Okuda"
+      title="Visiting Researcher"
+      />
+
+                <person
+	name="Filippo Carloni"
+	url="https://www.linkedin.com/in/filippo-carloni/"
+        title="Visiting PhD student"
+      />
+
 
           <person
 	name="Ethan H Zhou"
