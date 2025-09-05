@@ -109,12 +109,9 @@ function firstAuthorOf(it){
 
 // First author's first name
 function firstAuthorFirstName(it){
-  console.log(it);
     var n = firstAuthorOf(it);
-    console.log(n);
   if (!n) return '';
     var parts = n.split(/\s+/);
-    console.log(parts);
   return parts[parts.length - 1];
 }
 
