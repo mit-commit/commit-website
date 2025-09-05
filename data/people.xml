@@ -28,7 +28,7 @@
 
     <person
       name="Changwan Hong"
-      title="Research Scientist"
+      title="Affiliate Researcher"
       />
 
     <person
@@ -53,11 +53,7 @@
       title="Graduate Student"
       />
 
-    <person
-      url="https://willowahrens.io"
-      name="Willow Ahrens"
-      title="Postdoctoral Researcher"
-      />
+
 
     <person
       name="Ajay Brahmakshatriya"
@@ -108,6 +104,12 @@
 	/>
 
       <person
+	name="Shreya Chaudhary"
+	title="MEng"
+	/>
+
+
+      <person
 	name="Chaitanya Ravuri"
 	title="MEng"
 	/>
@@ -154,8 +156,14 @@
 
   </current>
 
-  
+
   <alumni>
+
+      <person
+      url="https://willowahrens.io"
+      name="Willow Ahrens"
+      title="PhD"
+      />
           <person
             name="Kaustubh Dighe"
 	    url="https://www.linkedin.com/in/kaustubh-dighe/"
