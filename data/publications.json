@@ -226,7 +226,7 @@
   },
   {
     "title": "An Intermediate Representation for Expressing and Optimizing Computations in Lattice Quantum Chromodynamics",
-    "author0": "Richard P. Sollee III",
+    "author0": "Sollee III, Richard P.",
     "month": "May",
     "year": "2024",
     "url": "https://commit.csail.mit.edu/papers/2024/sollee-MEng-Thesis.pdf",
@@ -259,7 +259,7 @@
   },
   {
     "title": "Fast Multistage Compilation of Machine Learning Computation Graphs",
-    "author0": "Kaustubh Dighe",
+    "author0": "Dighe, Kaustubh",
     "month": "May",
     "year": "2024",
     "url": "https://commit.csail.mit.edu/papers/2024/Dighe_MEng_Thesis.pdf",
@@ -273,7 +273,7 @@
   },
   {
     "title": "A System To Exploit Symmetry in Common Tensor Kernels",
-    "author0": "Radha Patel",
+    "author0": "Patel, Radha",
     "month": "May",
     "year": "2024",
     "url": "https://commit.csail.mit.edu/papers/2024/Radha-MEng-Thesis.pdf",
@@ -316,7 +316,7 @@
 
   {
     "title": "Halide in Molecular Dynamics",
-    "author0": "Ricardo Gayle Jr.",
+    "author0": "Gayle Jr., Ricardo",
     "month": "May",
     "year": "2023",
     "url": "https://commit.csail.mit.edu/papers/2023/ricardo-meng-thesis.pdf",

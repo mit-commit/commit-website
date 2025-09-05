@@ -109,16 +109,24 @@ function firstAuthorOf(it){
 
 // First author's first name
 function firstAuthorFirstName(it){
-  var n = firstAuthorOf(it);
-  return n ? n.split(/\s+/)[0] : '';
+  console.log(it);
+    var n = firstAuthorOf(it);
+    console.log(n);
+  if (!n) return '';
+    var parts = n.split(/\s+/);
+    console.log(parts);
+  return parts[parts.length - 1];
 }
 
 // First author's last name
 function firstAuthorLastName(it){
-  var n = firstAuthorOf(it);
+
+    var n = firstAuthorOf(it);
+
   if (!n) return '';
-  var parts = n.split(/\s+/);
-  return parts[parts.length - 1];
+    var parts = n.split(/\s+/);
+
+  return parts[0];
 }
 
 
