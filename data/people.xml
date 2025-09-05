@@ -111,19 +111,7 @@
 	title="MEng"
 	/>
 
-
-    <person
-	name="Paramuth (Namo) Samuthrsindh"
-	title="UROP"
-	/>
-
-      <person
-	name="Maggie Liu"
-	title="UROP"
-	/>
-
-
-      <person
+        <person
 	name="Daniel Quach"
 	title="UROP"
 	/>
@@ -139,6 +127,20 @@
 	name="Prompt Kerdphoksup"
 	title="UROP"
 	/>
+
+
+
+    <person
+	name="Paramuth (Namo) Samuthrsindh"
+	title="UROP"
+	/>
+
+      <person
+	name="Maggie Liu"
+	title="UROP"
+	/>
+
+
 
 
         <person
@@ -211,6 +213,7 @@
       url="https://willowahrens.io"
       name="Willow Ahrens"
       title="PhD"
+      year="2024"
       />
           <person
             name="Kaustubh Dighe"
