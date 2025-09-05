@@ -120,19 +120,29 @@
 	/>
 
 
-          <person
-	name="Ethan H Zhou"
+      <person
+	name="Daniel Quach"
 	title="UROP"
 	/>
+
+
+      <person
+	name="Gordon Lichtstein"
+	title="UROP"
+	/>
+
+
+      <person
+	name="Prompt Kerdphoksup"
+	title="UROP"
+	/>
+
+
         <person
 	name="Gabriela Miranda"
 	title="UROP"
 	/>
 
-        <person
-	name="Tasmeem Reza"
-	title="UROP"
-	/>
 
 
 
@@ -141,6 +151,20 @@
 
   <alumni>
 
+          <person
+	name="Ethan H Zhou"
+	title="UROP"
+  	/>
+          <person
+	name="Tasmeem Reza"
+	title="UROP"
+	/>
+
+      <person
+	name="Muhender Rajvee"
+	title="MEng"
+	/>
+	  
       <person
 	name="Chaitanya Ravuri"
 	title="MEng"
@@ -150,6 +174,11 @@
 	name="Jonathan Zhou"
 	title="MEng"
 	/>
+            <person
+	name="Ricardo Ruiz"
+	title="MEng"
+	/>
+
 
           <person
 	name="Nicholas Dow"
