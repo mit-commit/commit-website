@@ -338,7 +338,7 @@ span.exhibit-collectionSummaryWidget-count { font-size: 129%;  font-weight: bold
 .facet-list { border: 1px solid #ddd; border-radius: 6px; padding: 6px; max-width: 100%; overflow: hidden; }
 .facet-scroll { max-height: 7.5em; overflow: auto; }
 .facet-items { display: block; }
-.facet-item { display: flex; align-items: center; gap: 6px; font-size: 90%; line-height: 1.5; margin: 0; white-space: nowrap; overflow: hidden; }
+.facet-item { display: flex; align-items: center; gap: 6px; font-size: 120%; line-height: 1.5; margin: 0; white-space: nowrap; overflow: hidden; }
 .facet-item input { flex: 0 0 auto; margin-right: 6px; }
 .facet-text { flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 .facet-item.disabled { opacity: 0.45; }
