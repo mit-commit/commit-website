@@ -109,11 +109,6 @@
 	/>
 
 
-      <person
-	name="Chaitanya Ravuri"
-	title="MEng"
-	/>
-	  
     <person
 	name="Paramuth (Namo) Samuthrsindh"
 	title="UROP"
@@ -124,10 +119,7 @@
 	title="UROP"
 	/>
 
-      <person
-	name="Jonathan Zhou"
-	title="UROP"
-	/>
+
           <person
 	name="Ethan H Zhou"
 	title="UROP"
@@ -142,22 +134,34 @@
 	title="UROP"
 	/>
 
-        <person
-	name="Nicholas Dow"
-	title="UROP"
-	/>
-
-        <person
-	name="Aryan Kumar"
-	title="UROP"
-	/>
-
 
 
   </current>
 
 
   <alumni>
+
+      <person
+	name="Chaitanya Ravuri"
+	title="MEng"
+	/>
+	  
+        <person
+	name="Jonathan Zhou"
+	title="MEng"
+	/>
+
+          <person
+	name="Nicholas Dow"
+	title="MEng"
+	/>
+
+        <person
+	name="Aryan Kumar"
+	title="MEng"
+	/>
+
+
 
       <person
       url="https://willowahrens.io"
