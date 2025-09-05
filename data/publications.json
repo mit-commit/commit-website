@@ -1,4 +1,16 @@
-[
+[  {
+    "title": "Automated Finite Elements",
+      "author0": "Won, Jaeyeon",
+    "month": "Aug",
+    "year": "2023",
+    "url": "https://commit.csail.mit.edu/papers/2023/Jaeyon_SM.pdf",
+    "keywords": "Sparse",
+    "type": "S.M. Thesis",
+    "address": "Cambridge, MA",
+    "school": "Massachusetts Institute of Technology",
+    "bibtexKey": "jaeyeon:sm-thesis:2023",
+    "itemType": "sciencethesis"
+  },
   {
     "title": "Automated Finite Elements",
       "author0": "Collin, Teodoro Fields",
