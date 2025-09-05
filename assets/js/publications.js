@@ -107,6 +107,20 @@ function firstAuthorOf(it){
   return arr.length ? arr[0] : '';
 }
 
+// First author's first name
+function firstAuthorFirstName(it){
+  var n = firstAuthorOf(it);
+  return n ? n.split(/\s+/)[0] : '';
+}
+
+// First author's last name
+function firstAuthorLastName(it){
+  var n = firstAuthorOf(it);
+  if (!n) return '';
+  var parts = n.split(/\s+/);
+  return parts[parts.length - 1];
+}
+
 
 // Human-friendly labels for itemType keys
 var TYPE_LABELS = {
@@ -146,8 +160,10 @@ function keyFor(it, which){
   if (which==='year')     return it.year ? parseInt(it.year,10) : 0; // numeric
   if (which==='type')     return typeLabel(it.itemType || 'misc');   // pretty label
   if (which==='authors')  { var a = listNormalizedAuthors(it); return a.length?a[0]:'zzz'; } // first author
-  if (which==='keywords') { 
-    var ks = splitKeywords(it.keywords || ''); 
+  if (which==='authorFirst') { var f = firstAuthorFirstName(it); return f ? f : 'zzz'; }
+  if (which==='authorLast')  { var l = firstAuthorLastName(it); return l ? l : 'zzz'; }
+  if (which==='keywords') {
+    var ks = splitKeywords(it.keywords || '');
     if (ks.length) { ks.sort(function(a,b){ return a.localeCompare(b); }); return ks[0]; }
     return 'zzz';
   }
@@ -250,7 +266,7 @@ function createBibLink(it){
     },
       sortKey: 'none',   // 'none' | 'title' | 'venue' | 'firstAuthor' | 'type' | 'month'
       sortDesc: false,
-      sortOrder: ['year','type','authors','none']  // default
+      sortOrder: ['year','type','authorLast','none']  // default
 
   };
 
@@ -472,6 +488,10 @@ function renderList(mount, items){
       add(typeLabel(it.itemType || 'misc'), it);
     } else if (primary==='authors'){
       var as = listNormalizedAuthors(it); if (as.length){ for (var a=0;a<as.length;a++) add(as[a], it); } else add('Other', it);
+    } else if (primary==='authorFirst'){
+      var fn = firstAuthorFirstName(it); add(fn || 'Other', it);
+    } else if (primary==='authorLast'){
+      var ln = firstAuthorLastName(it); add(ln || 'Other', it);
     } else if (primary==='keywords'){
       var ks = splitKeywords(it.keywords || ''); if (ks.length){ for (var k2=0;k2<ks.length;k2++) add(ks[k2], it); } else add('Other', it);
     }
