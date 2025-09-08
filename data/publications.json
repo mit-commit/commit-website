@@ -1,4 +1,18 @@
-[  {
+[  
+  {
+    "title": "Democratizing High-Performance DSL Development with the BuildIt Framework",
+    "author0": "Ajay Brahmakshatriya",
+    "month": "Aug",
+    "year": "2025",
+    "url": "https://commit.csail.mit.edu/papers/2025/ajay-phd-thesis.pdf",
+    "keywords": "BuildIt",
+    "type": "Ph.D. Thesis",
+    "address": "Cambridge, MA",
+    "school": "Massachusetts Institute of Technology",
+    "bibtexKey": "ajay:phd-thesis:2025",
+    "itemType": "phdthesis"
+  },
+  {
     "title": "WACO: Learning workload-aware co-optimization of the format and  schedule of a sparse tensor program",
       "author0": "Won, Jaeyeon",
     "month": "Aug",
