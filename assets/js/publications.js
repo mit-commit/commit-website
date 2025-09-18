@@ -271,7 +271,8 @@ function createBibLink(it){
     },
       sortKey: 'none',   // 'none' | 'title' | 'venue' | 'firstAuthor' | 'type' | 'month'
       sortDesc: false,
-      sortOrder: ['year','type','authorLast','none']  // default
+      sortOrder: ['year','type','authorLast','none'],  // default
+      authorSort: 'first'
 
   };
 
@@ -285,6 +286,7 @@ function createBibLink(it){
     kwBox: document.getElementById('facet-keywords'),
     auBox: document.getElementById('facet-authors'),
       tyBox: document.getElementById('facet-types'),
+      authorSort: document.getElementById('author-sort'),
       // els:
       sort1: document.getElementById('sort-1'),
       sort2: document.getElementById('sort-2'),
@@ -295,6 +297,7 @@ function createBibLink(it){
   };
 
   var DATA = [];  // raw array
+  var ALL_AUTHORS = [];  // unique normalized author names
 
   /* ---------- Small helpers ---------- */
   function text(s){ return document.createTextNode(s || ''); }
@@ -399,6 +402,52 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
   // Stash references for dynamic count updates
   mount._facet = { listEl: listEl, itemMap: itemMap, scrollWrap: scrollWrap, key: facetKey, labelFor: labelFor || null };
 }
+
+
+  function authorNameParts(name) {
+    var parts = String(name || '').trim().split(/\s+/).filter(Boolean);
+    if (!parts.length) {
+      return { first: '', last: '' };
+    }
+    return {
+      first: parts[0].toLowerCase(),
+      last: parts[parts.length - 1].toLowerCase()
+    };
+  }
+
+  function compareAuthors(a, b, mode) {
+    var ap = authorNameParts(a);
+    var bp = authorNameParts(b);
+    var primaryA = (mode === 'last') ? ap.last : ap.first;
+    var primaryB = (mode === 'last') ? bp.last : bp.first;
+    var cmpPrimary = primaryA.localeCompare(primaryB);
+    if (cmpPrimary !== 0) return cmpPrimary;
+
+    var fullA = String(a || '').toLowerCase();
+    var fullB = String(b || '').toLowerCase();
+    var cmpFull = fullA.localeCompare(fullB);
+    if (cmpFull !== 0) return cmpFull;
+    return 0;
+  }
+
+  function sortAuthorValues(values, mode) {
+    var arr = values.slice();
+    arr.sort(function (a, b) { return compareAuthors(a, b, mode); });
+    return arr;
+  }
+
+  function rebuildAuthorFacet() {
+    if (!els.auBox) return;
+    var prevScroll = 0;
+    if (els.auBox._facet && els.auBox._facet.scrollWrap) {
+      prevScroll = els.auBox._facet.scrollWrap.scrollTop;
+    }
+    var sorted = sortAuthorValues(ALL_AUTHORS, state.authorSort || 'first');
+    buildFacetBox(sorted, els.auBox, 'authors', state.authors);
+    if (els.auBox._facet && els.auBox._facet.scrollWrap) {
+      els.auBox._facet.scrollWrap.scrollTop = prevScroll;
+    }
+  }
 
 
   /* ---------- Rendering one publication (same look as index) ---------- */
@@ -715,6 +764,15 @@ function updateFacetCounts(mount, facetKey, countsMap, stateMap) {
     // Clear
       els.btnClear.onclick = function(){ clearAll(); };
 
+    if (els.authorSort) {
+      els.authorSort.value = state.authorSort;
+      els.authorSort.onchange = function(){
+        state.authorSort = this.value || 'first';
+        rebuildAuthorFacet();
+        applyFilters();
+      };
+    }
+
 function downloadText(filename, text){
   var blob = new Blob([text], {type:'text/plain'});
   var a = document.createElement('a');
@@ -930,11 +988,11 @@ if (els.sortReset) els.sortReset.onclick = function(){
 	    buildFacetBox(tyVals, els.tyBox, 'types', state.types, typeLabel);
 
           var kwVals = Object.keys(kwSet).sort(function(a,b){ return a.localeCompare(b); });
-          var auVals = Object.keys(auSet).sort(function(a,b){ return a.localeCompare(b); });
+          ALL_AUTHORS = Object.keys(auSet);
 
 
           buildFacetBox(kwVals, els.kwBox, 'keywords', state.keywords);
-          buildFacetBox(auVals, els.auBox, 'authors', state.authors);
+          rebuildAuthorFacet();
 
           applyFilters(); // initial render and dynamic counts
         } catch (e) {
