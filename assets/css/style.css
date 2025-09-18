@@ -240,6 +240,19 @@ span.exhibit-collectionSummaryWidget-count { font-size: 129%;  font-weight: bold
 .filters-interactive.hidden { display: none !important; }
 .filter-block { margin-bottom: 10px; }
 .filter-label { font-weight: bold; margin-bottom: 6px; }
+.facet-sort-control {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 90%;
+  margin-bottom: 6px;
+}
+.facet-sort-control select {
+  padding: 4px 6px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background: #fff;
+}
 
 /* YEAR GRID: 4 columns, compact; cap height ~10 rows then scroll */
 .year-grid {
