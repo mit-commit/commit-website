@@ -1,4 +1,17 @@
-[ {
+[  {
+    "title": "Vectorizing Complex Programs for Modern Architectures",
+    "author0": "Willow AhrensYishen Chen",
+    "month": "Feb",
+    "year": "2026",
+    "url": "https://commit.csail.mit.edu/papers/2026/2026_Yishen_chen_PhD_thesis.pdf",
+    "keywords": "SLP,Vector",
+    "type": "Ph.D. Thesis",
+    "address": "Cambridge, MA",
+    "school": "Massachusetts Institute of Technology",
+    "bibtexKey": "Yishen:phd-thesis:2026",
+    "itemType": "phdthesis"
+  },
+    {
     "author0": "Won, Jaeyeon and Ahrens, Willow and Emer, Joel and Amarasinghe, Saman",
     "title": "Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums",
     "month": "Mar",
