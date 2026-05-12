@@ -44,10 +44,6 @@
       />
 
 
-    <person
-      name="Tom Chen"
-      title="Graduate Student"
-      />
 
 
 
@@ -150,6 +146,12 @@
 
 
   <alumni>
+
+
+    <person
+      name="Tom Chen"
+      title="Graduate Student"
+      />
         <person
 	name="Gordon Lichtstein"
 	title="UROP"
