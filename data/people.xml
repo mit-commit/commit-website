@@ -88,15 +88,6 @@
         title="UROP"
       />
 
-    <person
-	name="Steven Raphael"
-	title="MEng"
-	/>
-
-      <person
-	name="Shreya Chaudhary"
-	title="MEng"
-	/>
 
         <person
 	name="Daniel Quach"
@@ -146,6 +137,15 @@
 
 
   <alumni>
+    <person
+	name="Steven Raphael"
+	title="MEng"
+	/>
+
+      <person
+	name="Shreya Chaudhary"
+	title="MEng"
+	/>
 
 
     <person
