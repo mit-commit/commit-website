@@ -1,6 +1,33 @@
-[  {
+[  
+{
+  "title": "Specifying, Tiling, and Fusing Complex Reductions",
+  "author0": "Steven N. Raphael",
+  "month": "May",
+  "year": "2026",
+  "url": "https://commit.csail.mit.edu/papers/2026/2026_steven_n_raphael_meng_thesis.pdf",
+  "keywords": "Halide,Tiling,FlashAttention,DSLs,Loop Fusion",
+  "type": "M.Eng. Thesis",
+  "address": "Cambridge, MA",
+  "school": "Massachusetts Institute of Technology",
+  "bibtexKey": "Raphael:meng-thesis:2026",
+  "itemType": "mastersthesis"
+},
+{
+  "title": "Towards a Flexible Python Framework for Developing Domain-Specific Languages",
+  "author0": "Shreya Chaudhary",
+  "month": "May",
+  "year": "2026",
+  "url": "https://commit.csail.mit.edu/papers/2026/2026_shreya_chaudhary_meng_thesis.pdf",
+  "keywords": "DSLs,Python,Compilers,Codon,MLIR,CFG,SSA",
+  "type": "M.Eng. Thesis",
+  "address": "Cambridge, MA",
+  "school": "Massachusetts Institute of Technology",
+  "bibtexKey": "Chaudhary:meng-thesis:2026",
+  "itemType": "mastersthesis"
+},  
+{
     "title": "Vectorizing Complex Programs for Modern Architectures",
-    "author0": "Willow AhrensYishen Chen",
+    "author0": "Yishen Chen",
     "month": "Feb",
     "year": "2026",
     "url": "https://commit.csail.mit.edu/papers/2026/2026_Yishen_chen_PhD_thesis.pdf",
@@ -95,7 +122,7 @@
     "author0": "Mohr, Katherine",
     "month": "Sep",
     "year": "2024",
-    "url": "https://commit.csail.mit.edu/papers/2024/mohr-kmohr-meng-eecs-2024-thesis.pdf",
+    "url": "https://mit-commit.github.io/commit-website/papers/papers/2024/mohr-kmohr-meng-eecs-2024-thesis.pdf",
     "type": "M.Eng. Thesis",
     "address": "Cambridge, MA",
     "school": "Massachusetts Institute of Technology",
