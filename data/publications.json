@@ -958,8 +958,8 @@
     "keywords": "SLP,ML4C",
     "url": "https://commit.csail.mit.edu/papers/2019/vemal-nips.pdf",
     "bibtexKey": "vemal-neurips",
-    "itemType": "incollection",
-    "oldbibtex": "@incollection{vemal-neurips,\n  author = {Mendis, Charith and Yang, Cambridge and Pu, Yewen and Amarasinghe, Saman and Carbin, Michael},\n  booktitle = {Conference on Neural Information Processing Systems (NeurIPS)},\n  editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\\textquotesingle Alch\\'{e}-Buc and E. Fox and R. Garnett},\n  keywords = {SLP,ML4C},\n  month = {Dec},\n  pages = {14598--14609},\n  publisher = {Curran Associates, Inc.},\n  title = {Compiler Auto-Vectorization with Imitation Learning},\n  url = {https://commit.csail.mit.edu/papers/19/vemal-nips.pdf},\n  year = {2019}\n}\n"
+    "itemType": "inproceedings",
+    "oldbibtex": "@inproceedings{vemal-neurips,\n  author = {Mendis, Charith and Yang, Cambridge and Pu, Yewen and Amarasinghe, Saman and Carbin, Michael},\n  booktitle = {Conference on Neural Information Processing Systems (NeurIPS)},\n  editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\\textquotesingle Alch\\'{e}-Buc and E. Fox and R. Garnett},\n  keywords = {SLP,ML4C},\n  month = {Dec},\n  pages = {14598--14609},\n  publisher = {Curran Associates, Inc.},\n  title = {Compiler Auto-Vectorization with Imitation Learning},\n  url = {https://commit.csail.mit.edu/papers/19/vemal-nips.pdf},\n  year = {2019}\n}\n"
   },
   {
     "title": "BHive: A Benchmark Suite and Measurement Framework for Validating x86-64 Basic Block Performance Models",
@@ -1109,16 +1109,6 @@
     "oldbibtex": "@inproceedings{mueller_sparse_2020,\n  address = {Virtual Event, USA},\n  author = {Mueller, Suzanne and Ahrens, Willow and Chou, Stephen and Kjolstad, Fredrik and Amarasinghe, Saman},\n  booktitle = {ACM Symposium on Parallelism in Algorithms and Architectures (SPAA)},\n  doi = {10.1145/3350755.3400245},\n  isbn = {978-1-4503-6935-0},\n  keywords = {TACO},\n  month = {Jul},\n  pages = {559--561},\n  publisher = {Association for Computing Machinery},\n  series = {SPAA '20},\n  title = {Sparse Tensor Transpositions},\n  url = {https://commit.csail.mit.edu/papers/2020/mueller-transpositions-spaa.pdf},\n  year = {2020}\n}\n"
   },
   {
-    "title": "Sparse Tensor Transpositions",
-    "url": "https://commit.csail.mit.edu/papers/2020/mueller-transpositions-arxiv.pdf",
-    "journal": "arXiv preprint arXiv:2005.10427",
-    "author0": "Mueller, Suzanne and Ahrens, Willow and Chou, Stephen and Kjolstad, Fredrik and Amarasinghe, Saman",
-    "month": "May",
-    "year": "2020",
-    "bibtexKey": "mueller_sparse_2020_full",
-    "itemType": "article"
-  },
-  {
     "author0": "Vladimir Kiriansky and Ilia Lebedev and Saman Amarasinghe and Srinivas Devadas and Joel Emer",
     "title": "DAWG: A Defense Against Cache Timing Attacks in Speculative Execution Processors",
     "year": "2018",
@@ -1178,23 +1168,6 @@
     "bibtexKey": "shajii:oopsla:2019",
     "itemType": "article",
     "oldbibtex": "@article{shajii:oopsla:2019,\n  acmid = {3360551},\n  address = {New York, NY, USA},\n  articleno = {125},\n  author = {Shajii, Ariya and Numanagic, Ibrahim and Baghdadi, Riyadh and Berger, Bonnie and Amarasinghe, Saman},\n  doi = {10.1145/3360551},\n  issn = {2475-1421},\n  issue_date = {October 2019},\n  journal = {ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)},\n  keywords = {Python, DSL},\n  month = {Oct},\n  number = {OOPSLA},\n  numpages = {29},\n  pages = {125:1--125:29},\n  publisher = {ACM},\n  title = {Seq: A High-performance Language for Bioinformatics},\n  url = {https://commit.csail.mit.edu/papers/2019/oopsla-seq.pdf},\n  volume = {3},\n  year = {2019}\n}\n"
-  },
-  {
-    "author0": "Mendis, Charith and Amarasinghe, Saman and Carbin, Michael",
-    "title": "Ithemal: Accurate, Portable and Fast Basic Block Throughput Estimation using Deep Neural Networks",
-    "journal": "arXiv preprint arXiv:1808.07412",
-    "archiveprefix": "arXiv",
-    "eprint": "1808.07412",
-    "primaryclass": "cs.DC",
-    "keywords": "ML4C",
-    "year": "2018",
-    "month": "Aug",
-    "url": "https://arxiv.org/pdf/1808.07412.pdf",
-    "adsurl": "http://adsabs.harvard.edu/abs/2018arXiv180807412M",
-    "adsnote": "Provided by the SAO/NASA Astrophysics Data System",
-    "bibtexKey": "ithemal",
-    "itemType": "article",
-    "oldbibtex": "@article{ithemal,\n  adsnote = {Provided by the SAO/NASA Astrophysics Data System},\n  adsurl = {http://adsabs.harvard.edu/abs/2018arXiv180807412M},\n  archiveprefix = {arXiv},\n  author = {Mendis, Charith and Amarasinghe, Saman and Carbin, Michael},\n  eprint = {1808.07412},\n  journal = {arXiv preprint arXiv:1808.07412},\n  keywords = {ML4C},\n  month = {Aug},\n  primaryclass = {cs.DC},\n  title = {Ithemal: Accurate, Portable and Fast Basic Block Throughput Estimation using Deep Neural Networks},\n  url = {https://arxiv.org/pdf/1808.07412.pdf},\n  year = {2018}\n}\n"
   },
   {
     "author0": "Kjolstad, Fredrik and Kamil, Shoaib and Amarasinghe, Saman",
@@ -4060,21 +4033,6 @@
     "bibtexKey": "del2018",
     "itemType": "inproceedings",
     "oldbibtex": "@inproceedings{del2018,\n  author = {Del Sozzo, Emanuele and Baghdadi, Riyadh and Amarasinghe, Saman and Santambrogio, Marco D.},\n  booktitle = {IEEE International Conference on Application-specific Systems, Architectures and Processors (ASAP)},\n  doi = {10.1109/ASAP.2018.8445108},\n  keywords = {Tiramisu},\n  number = {},\n  pages = {1-8},\n  title = {A Unified Backend for Targeting FPGAs from DSLs},\n  url = {https://commit.csail.mit.edu/papers/2018/frost_ASAP.pdf},\n  volume = {},\n  year = {2018}\n}\n"
-  },
-  {
-    "title": "Tiramisu: a Three-Layered Abstraction for Hiding Hardware Complexity from DSL Compilers",
-    "author0": "Baghdadi, Riyadh and Ray, Jessica and Ben Romdhane, Malek and Del Sozzo, Emanuele and Suriana, Patricia and Kamil, Shoaib and Amarasinghe, Saman",
-    "journal": "arXiv preprint arXiv:1803.00419",
-    "archiveprefix": "arXiv",
-    "eprint": "1803.00419",
-    "month": "Feb",
-    "primaryclass": "cs.MS",
-    "year": "2018",
-    "url": "https://commit.csail.mit.edu/papers/2018/tiramisu_techreport.pdf",
-    "keywords": "Tiramisu",
-    "bibtexKey": "tiramisu_techreport",
-    "itemType": "article",
-    "oldbibtex": "@article{tiramisu_techreport,\n  archiveprefix = {arXiv},\n  author = {Baghdadi, Riyadh and Ray, Jessica and Ben Romdhane, Malek and Del Sozzo, Emanuele and Suriana, Patricia and Kamil, Shoaib and Amarasinghe, Saman},\n  eprint = {1803.00419},\n  journal = {arXiv preprint arXiv:1803.00419},\n  keywords = {Tiramisu},\n  month = {Feb},\n  primaryclass = {cs.MS},\n  title = {Tiramisu: a Three-Layered Abstraction for Hiding Hardware Complexity from DSL Compilers},\n  url = {https://commit.csail.mit.edu/papers/2018/tiramisu_techreport.pdf},\n  year = {2018}\n}\n"
   },
   {
     "title": "Gloss: Seamless Live Reconfiguration and Reoptimization of Stream Programs",
