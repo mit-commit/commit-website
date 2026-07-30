@@ -675,20 +675,6 @@
     "oldbibtex": "@inproceedings{randomwalk-iiswc21,\n  author = {Talathi, Nishil and Jin, Di and Ye, Haojie and Brahmakshatriya, Ajay and Dasika, Ganesh and Amarasinghe, Saman and Mudge, Trevor and Koutra, Danai and Dresklinski, Ronald},\n  journal = {IEEE International Symposium on Workload Characterization (IISWC)},\n  keywords = {GraphIt},\n  month = {Apr},\n  series = {IISWC 2021},\n  title = {A Deep Dive Into Understanding The Random Walk-Based Temporal Graph Learning},\n  url = {https://commit.csail.mit.edu/papers/2021/nishil-iiswc2021.pdf},\n  year = {2021}\n}\n"
   },
   {
-    "title": "A variational study of two-nucleon systems with lattice QCD",
-    "author0": "Saman Amarasinghe and Riyadh Baghdadi and Zohreh Davoudi and William Detmold and Marc Illa and Assumpta Parreno and Andrew V. Pochinsky and Phiala E. Shanahan and Michael L. Wagman",
-    "year": "2021",
-    "month": "Aug",
-    "eprint": "2108.10835",
-    "archiveprefix": "arXiv",
-    "primaryclass": "hep-lat",
-    "url": "https://arxiv.org/abs/2108.10835",
-    "bibtexKey": "amarasinghe2021variational",
-    "itemType": "misc",
-    "oldbibtex": "@misc{amarasinghe2021variational,\n  archiveprefix = {arXiv},\n  author = {Saman Amarasinghe and Riyadh Baghdadi and Zohreh Davoudi and William Detmold and Marc Illa and Assumpta Parreno and Andrew V. Pochinsky and Phiala E. Shanahan and Michael L. Wagman},\n  eprint = {2108.10835},\n  month = {Aug},\n  primaryclass = {hep-lat},\n  title = {A variational study of two-nucleon systems with lattice QCD},\n  url = {https://arxiv.org/abs/2108.10835},\n  year = {2021}\n}\n",
-    "journal": "arXiv preprint arXiv:2108.10835"
-  },
-  {
     "author0": "Shajii, Ariya and Numanagic, Ibrahim and Leighton, Alexander T. and Greenyer, Haley and Amarasinghe, Saman and Berger, Bonnie",
     "da": "2021/07/19",
     "date-added": "2021-09-08 10:40:24 -0400",
