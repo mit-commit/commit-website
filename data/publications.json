@@ -87,7 +87,7 @@
   },
   {
     "title": "UniTe: A Universal Tensor Abstraction for Capturing Spatial Relationships",
-    "author0": "Ray, Jessica M. and Collin, Teodoro Fields and Sze, Vivienne and Reuther, Albert and Amarasinghe, Saman",
+    "author0": "Ray, Jessica and Collin, Teodoro Fields and Sze, Vivienne and Reuther, Albert and Amarasinghe, Saman",
     "month": "Dec",
     "year": "2025",
     "url": "https://commit.csail.mit.edu/papers/2025/2025_TACO_UNITE.pdf",
@@ -96,7 +96,7 @@
     "school": "Massachusetts Institute of Technology",
     "bibtexKey": "unite:2025",
     "itemType": "article",
-    "oldbibtex": "article{unite:2025,\n  title   = {UniTe: A Universal Tensor Abstraction for Capturing Spatial Relationships},\n  author  = {Ray, Jessica M. and\n             Collin, Teodoro and\n             Sze, Vivienne and\n             Reuther, Albert and\n             Amarasinghe, Saman},\n  journal = {ACM Transactions on Architecture and Code Optimization},\n  year    = {2025},\n  month   = dec,\n  address = {Cambridge, MA, USA},\n  url     = {https://commit.csail.mit.edu/papers/2025/2025_TACO_UNITE.pdf},\n  note    = {Work completed while at MIT CSAIL}\n}",
+    "oldbibtex": "article{unite:2025,\n  title   = {UniTe: A Universal Tensor Abstraction for Capturing Spatial Relationships},\n  author  = {Ray, Jessica and\n             Collin, Teodoro and\n             Sze, Vivienne and\n             Reuther, Albert and\n             Amarasinghe, Saman},\n  journal = {ACM Transactions on Architecture and Code Optimization},\n  year    = {2025},\n  month   = dec,\n  address = {Cambridge, MA, USA},\n  url     = {https://commit.csail.mit.edu/papers/2025/2025_TACO_UNITE.pdf},\n  note    = {Work completed while at MIT CSAIL}\n}",
     "journal": "ACM Transactions on Architecture and Code Optimization"
   },
   {
@@ -323,7 +323,7 @@
     "doi": "10.1145/3763146",
     "abstract": "This paper introduces the continuous tensor abstraction, allowing indices to take real-number values (e.g., A[3.14]). It also presents continuous tensor algebra expressions, such as Cx,y = Ax,y * Bx,y, where indices are defined over a continuous domain. Our implementation supports piecewise-constant tensors, enabling infinite domains to be processed in finite time. We introduce new tensor formats for efficient storage and code generation techniques for automatic kernel generation. For the first time, domains such as computational geometry and computer graphics are expressed in the language of tensor programming. Our compiler demonstrates competitive or better performance compared to hand-optimized kernels across diverse applications, with significant speedups and reduced lines of code in tasks such as radius search, genomic interval queries, and trilinear interpolation in Neural Radiance Fields.",
     "number": "OOPSLA1",
-    "author0": "Won, Jaeyeon and Ahrens, Willow and Collin, Teodoro Fields and Emer, Joel S. and Amarasinghe, Saman",
+    "author0": "Won, Jaeyeon and Ahrens, Willow and Collin, Teodoro Fields and Emer, Joel and Amarasinghe, Saman",
     "month": "Oct",
     "year": "2025",
     "journal": "ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)",
@@ -1902,7 +1902,7 @@
   },
   {
     "title": "Dynamic Cache Contention Detection in Multi-threaded Applications",
-    "author0": "Qin Zhao and David Koh and Syed Raza and Derek Bruening and Weng-Fai Wong and Saman Amarasinghe",
+    "author0": "Qin Zhao and David Koh and Syed Aunn Hasan Raza and Derek Bruening and Weng-Fai Wong and Saman Amarasinghe",
     "booktitle": "ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments (VEE)",
     "address": "Newport Beach, CA",
     "month": "Mar",
@@ -1911,7 +1911,7 @@
     "url": "https://commit.csail.mit.edu/papers/2011/zhao-vee11-cache-contention.pdf",
     "bibtexKey": "zhao:vee:2011",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{zhao:vee:2011,\n  address = {Newport Beach, CA},\n  author = {Qin Zhao and David Koh and Syed Raza and Derek Bruening and Weng-Fai Wong and Saman Amarasinghe},\n  booktitle = {ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments (VEE)},\n  keywords = {DynamoRIO},\n  month = {Mar},\n  title = {Dynamic Cache Contention Detection in Multi-threaded Applications},\n  url = {https://commit.csail.mit.edu/papers/2011/zhao-vee11-cache-contention.pdf},\n  year = {2011}\n}\n"
+    "oldbibtex": "@inproceedings{zhao:vee:2011,\n  address = {Newport Beach, CA},\n  author = {Qin Zhao and David Koh and Syed Aunn Hasan Raza and Derek Bruening and Weng-Fai Wong and Saman Amarasinghe},\n  booktitle = {ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments (VEE)},\n  keywords = {DynamoRIO},\n  month = {Mar},\n  title = {Dynamic Cache Contention Detection in Multi-threaded Applications},\n  url = {https://commit.csail.mit.edu/papers/2011/zhao-vee11-cache-contention.pdf},\n  year = {2011}\n}\n"
   },
   {
     "title": "Practical Memory Checking with Dr. Memory",
@@ -2180,7 +2180,7 @@
     "oldbibtex": "@article{amarasinghe:ijpp:2005,\n  author = {Saman Amarasinghe and Michael I. Gordon and Michal Karczmarek and Jasper Lin and David Maze and Rodric Rabbah and William Thies},\n  journal = {International Journal of Parallel Programming},\n  keywords = {StreamIt},\n  month = {Jun},\n  number = {2/3},\n  title = {Language and Compiler Design for Streaming\nApplications},\n  url = {http://dx.doi.org/10.1007/s10766-005-3590-6},\n  volume = {33},\n  year = {2005}\n}\n"
   },
   {
-    "author0": "William Thies and J.P. Urbanski and Mats Cooper and David Wentzlaff and Todd Thorsen and Saman Amarasinghe",
+    "author0": "William Thies and John Paul Urbanski and Mats Cooper and David Wentzlaff and Todd Thorsen and Saman Amarasinghe",
     "title": "Programmable Microfluidics",
     "booktitle": "ASPLOS Wild and Crazy Ideas Session (WACI)",
     "year": "2004",
@@ -2191,7 +2191,7 @@
     "keywords": "Microfluidics",
     "bibtexKey": "thies:asploswaci:2004",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{thies:asploswaci:2004,\n  address = {Boston, MA},\n  author = {William Thies and J.P. Urbanski and Mats Cooper and David Wentzlaff and Todd Thorsen and Saman Amarasinghe},\n  booktitle = {ASPLOS Wild and Crazy Ideas Session (WACI)},\n  keywords = {Microfluidics},\n  month = {Oct},\n  slides = {https://commit.csail.mit.edu/papers/2004/thies-asploswild04-slides.pdf},\n  title = {Programmable Microfluidics},\n  url = {https://commit.csail.mit.edu/papers/2004/thies-asploswild04.pdf},\n  year = {2004}\n}\n"
+    "oldbibtex": "@inproceedings{thies:asploswaci:2004,\n  address = {Boston, MA},\n  author = {William Thies and John Paul Urbanski and Mats Cooper and David Wentzlaff and Todd Thorsen and Saman Amarasinghe},\n  booktitle = {ASPLOS Wild and Crazy Ideas Session (WACI)},\n  keywords = {Microfluidics},\n  month = {Oct},\n  slides = {https://commit.csail.mit.edu/papers/2004/thies-asploswild04-slides.pdf},\n  title = {Programmable Microfluidics},\n  url = {https://commit.csail.mit.edu/papers/2004/thies-asploswild04.pdf},\n  year = {2004}\n}\n"
   },
   {
     "author0": "Amy Williams and William Thies and Michael D. Ernst",
@@ -2220,7 +2220,7 @@
   },
   {
     "title": "Tiled Microprocessors",
-    "author0": "Michael Bedford Taylor",
+    "author0": "Michael Taylor",
     "month": "Apr",
     "year": "2007",
     "url": "https://dspace.mit.edu/bitstream/handle/1721.1/38924/164887354-MIT.pdf",
@@ -2230,7 +2230,7 @@
     "school": "Massachusetts Institute of Technology",
     "bibtexKey": "miketaylor:phd-thesis:2007",
     "itemType": "phdthesis",
-    "oldbibtex": "@phdthesis{miketaylor:phd-thesis:2007,\n  address = {Cambridge, MA},\n  author = {Michael Bedford Taylor},\n  keywords = {RAW},\n  month = {Apr},\n  school = {Massachusetts Institute of Technology},\n  title = {Tiled Microprocessors},\n  type = {Ph.D. Thesis},\n  url = {https://dspace.mit.edu/bitstream/handle/1721.1/38924/164887354-MIT.pdf},\n  year = {2007}\n}\n"
+    "oldbibtex": "@phdthesis{miketaylor:phd-thesis:2007,\n  address = {Cambridge, MA},\n  author = {Michael Taylor},\n  keywords = {RAW},\n  month = {Apr},\n  school = {Massachusetts Institute of Technology},\n  title = {Tiled Microprocessors},\n  type = {Ph.D. Thesis},\n  url = {https://dspace.mit.edu/bitstream/handle/1721.1/38924/164887354-MIT.pdf},\n  year = {2007}\n}\n"
   },
   {
     "title": "Software orchestration of Instruction Level parallelism on Tiled Processor Architectures",
@@ -4002,7 +4002,7 @@
   },
   {
     "title": "A Common Backend for Hardware Acceleration on FPGA",
-    "author0": "Del Sozzo, Emanuele and Baghdadi, Riyadh and Amarasinghe, Saman and Santambrogio, Marco D",
+    "author0": "Del Sozzo, Emanuele and Baghdadi, Riyadh and Amarasinghe, Saman and Santambrogio, Marco D.",
     "booktitle": "IEEE International Conference on Computer Design (ICCD)",
     "pages": "427--430",
     "year": "2017",
@@ -4011,7 +4011,7 @@
     "organization": "IEEE",
     "bibtexKey": "del2017common",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{del2017common,\n  author = {Del Sozzo, Emanuele and Baghdadi, Riyadh and Amarasinghe, Saman and Santambrogio, Marco D},\n  booktitle = {IEEE International Conference on Computer Design (ICCD)},\n  keywords = {Tiramisu},\n  organization = {IEEE},\n  pages = {427--430},\n  title = {A Common Backend for Hardware Acceleration on FPGA},\n  url = {https://commit.csail.mit.edu/papers/2018/frost_workshop.pdf},\n  year = {2017}\n}\n"
+    "oldbibtex": "@inproceedings{del2017common,\n  author = {Del Sozzo, Emanuele and Baghdadi, Riyadh and Amarasinghe, Saman and Santambrogio, Marco D.},\n  booktitle = {IEEE International Conference on Computer Design (ICCD)},\n  keywords = {Tiramisu},\n  organization = {IEEE},\n  pages = {427--430},\n  title = {A Common Backend for Hardware Acceleration on FPGA},\n  url = {https://commit.csail.mit.edu/papers/2018/frost_workshop.pdf},\n  year = {2017}\n}\n"
   },
   {
     "author0": "Del Sozzo, Emanuele and Baghdadi, Riyadh and Amarasinghe, Saman and Santambrogio, Marco D.",
