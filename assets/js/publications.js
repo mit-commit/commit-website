@@ -353,6 +353,7 @@ function createBibLink(it){
 
   var DATA = [];  // raw array
   var ALL_AUTHORS = [];  // unique normalized author names
+  var AUTHOR_PUB_COUNTS = {};  // normalized author name -> total publication count
 
   /* ---------- Small helpers ---------- */
   function text(s){ return document.createTextNode(s || ''); }
@@ -471,6 +472,14 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
   }
 
   function compareAuthors(a, b, mode) {
+    if (mode === 'count') {
+      var countA = AUTHOR_PUB_COUNTS[a] || 0;
+      var countB = AUTHOR_PUB_COUNTS[b] || 0;
+      if (countA !== countB) return countB - countA;  // high to low
+      // tie-break by last name, then full name, for stable ordering
+      return compareAuthors(a, b, 'last');
+    }
+
     var ap = authorNameParts(a);
     var bp = authorNameParts(b);
     var primaryA = (mode === 'last') ? ap.last : ap.first;
@@ -1064,7 +1073,11 @@ if (els.sortReset) els.sortReset.onclick = function(){
 		var kws = splitKeywords(it.keywords || '');
 		for (j=0;j<kws.length;j++) kwSet[kws[j]] = 1;
 		var aus = listNormalizedAuthors(it);
-		for (j=0;j<aus.length;j++) auSet[normalizeAuthorName(aus[j])] = 1;
+		for (j=0;j<aus.length;j++) {
+		    var auKey = normalizeAuthorName(aus[j]);
+		    auSet[auKey] = 1;
+		    AUTHOR_PUB_COUNTS[auKey] = (AUTHOR_PUB_COUNTS[auKey] || 0) + 1;
+		}
             }
 	    // Types (canonical keys), values sorted by pretty label
 	    var tySet = {}, i;
