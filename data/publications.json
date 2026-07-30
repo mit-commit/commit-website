@@ -1,31 +1,31 @@
-[  
-{
-  "title": "Specifying, Tiling, and Fusing Complex Reductions",
-  "author0": "Steven N. Raphael",
-  "month": "May",
-  "year": "2026",
-  "url": "https://commit.csail.mit.edu/papers/2026/2026_steven_n_raphael_meng_thesis.pdf",
-  "keywords": "Halide,Tiling,FlashAttention,DSLs,Loop Fusion",
-  "type": "M.Eng. Thesis",
-  "address": "Cambridge, MA",
-  "school": "Massachusetts Institute of Technology",
-  "bibtexKey": "Raphael:meng-thesis:2026",
-  "itemType": "mastersthesis"
-},
-{
-  "title": "Towards a Flexible Python Framework for Developing Domain-Specific Languages",
-  "author0": "Shreya Chaudhary",
-  "month": "May",
-  "year": "2026",
-  "url": "https://commit.csail.mit.edu/papers/2026/2026_shreya_chaudhary_meng_thesis.pdf",
-  "keywords": "DSLs,Python,Compilers,Codon,MLIR,CFG,SSA",
-  "type": "M.Eng. Thesis",
-  "address": "Cambridge, MA",
-  "school": "Massachusetts Institute of Technology",
-  "bibtexKey": "Chaudhary:meng-thesis:2026",
-  "itemType": "mastersthesis"
-},  
-{
+[
+  {
+    "title": "Specifying, Tiling, and Fusing Complex Reductions",
+    "author0": "Steven N. Raphael",
+    "month": "May",
+    "year": "2026",
+    "url": "https://commit.csail.mit.edu/papers/2026/2026_steven_n_raphael_meng_thesis.pdf",
+    "keywords": "Halide,Tiling,FlashAttention,DSLs,Loop Fusion",
+    "type": "M.Eng. Thesis",
+    "address": "Cambridge, MA",
+    "school": "Massachusetts Institute of Technology",
+    "bibtexKey": "Raphael:meng-thesis:2026",
+    "itemType": "mastersthesis"
+  },
+  {
+    "title": "Towards a Flexible Python Framework for Developing Domain-Specific Languages",
+    "author0": "Shreya Chaudhary",
+    "month": "May",
+    "year": "2026",
+    "url": "https://commit.csail.mit.edu/papers/2026/2026_shreya_chaudhary_meng_thesis.pdf",
+    "keywords": "DSLs,Python,Compilers,Codon,MLIR,CFG,SSA",
+    "type": "M.Eng. Thesis",
+    "address": "Cambridge, MA",
+    "school": "Massachusetts Institute of Technology",
+    "bibtexKey": "Chaudhary:meng-thesis:2026",
+    "itemType": "mastersthesis"
+  },
+  {
     "title": "Vectorizing Complex Programs for Modern Architectures",
     "author0": "Yishen Chen",
     "month": "Feb",
@@ -38,7 +38,7 @@
     "bibtexKey": "Yishen:phd-thesis:2026",
     "itemType": "phdthesis"
   },
-    {
+  {
     "author0": "Won, Jaeyeon and Ahrens, Willow and Emer, Joel and Amarasinghe, Saman",
     "title": "Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums",
     "month": "Mar",
@@ -50,7 +50,7 @@
     "doi": "10.1145/3779212.3790176",
     "bibtexKey": "jaeyeon:asplos:2026",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{jaeyeon:asplos:2026,\n  address = {Pittsburgh, PA, USA},\n  author = {Won, Jaeyeon and Ahrens, Willow and Emer, Joel and Amarasinghe, Saman},\n  booktitle = {International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {Sparse,Tensors,Compiler,Indirect Einsum,GPU},\n  month = {Mar},\n  title = {Insum: A Compiler for Efficient Sparse Tensor Computation via Indirect Einsums},\n  url = {https://dl.acm.org/doi/10.1145/3779212.3790176},\n  year = {2026}\n}\n"
+    "oldbibtex": "@inproceedings{jaeyeon:asplos:2026,\n  address = {Pittsburgh, PA, USA},\n  author = {Won, Jaeyeon and Ahrens, Willow and Emer, Joel and Amarasinghe, Saman},\n  booktitle = {31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {Sparse,Tensors,Compiler,Indirect Einsum,GPU},\n  month = {Mar},\n  title = {Insum: A Compiler for Efficient Sparse Tensor Computation via Indirect Einsums},\n  url = {https://dl.acm.org/doi/10.1145/3779212.3790176},\n  year = {2026}\n}\n"
   },
   {
     "author0": "Li, Guoyu and Cao, Yang and Ng, Lucas H. L. and Charlton, Alexander and Wang, Qianzhou and Punter, Will and Papaphilippou, Philippos and Guo, Ce and Fan, Hongxiang and Luk, Wayne and Amarasinghe, Saman P. and Brahmakshatriya, Ajay",
@@ -83,7 +83,7 @@
     "price": "Distinguished Paper Award",
     "bibtexKey": "bansal:pldi:2026",
     "itemType": "article",
-    "oldbibtex": "@article{bansal:pldi:2026,\n  address = {New York, NY, USA},\n  articleno = {212},\n  author = {Bansal, Manya and Sainati, Daniel and Cutler, Joseph W. and Amarasinghe, Saman and Ragan-Kelley, Jonathan},\n  doi = {10.1145/3808290},\n  issue_date = {June 2026},\n  journal = {Proc. ACM Program. Lang.},\n  keywords = {GPU programming, collective operations, modularity, type systems},\n  month = jun,\n  number = {PLDI},\n  numpages = {25},\n  publisher = {Association for Computing Machinery},\n  title = {Modular GPU Programming with Typed Perspectives},\n  url = {https://doi.org/10.1145/3808290},\n  volume = {10},\n  year = {2026}\n}\n"
+    "oldbibtex": "@article{bansal:pldi:2026,\n  address = {New York, NY, USA},\n  articleno = {212},\n  author = {Bansal, Manya and Sainati, Daniel and Cutler, Joseph W. and Amarasinghe, Saman and Ragan-Kelley, Jonathan},\n  doi = {10.1145/3808290},\n  issue_date = {June 2026},\n  journal = {47th ACM SIGPLAN International Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {GPU programming, collective operations, modularity, type systems},\n  month = jun,\n  number = {PLDI},\n  numpages = {25},\n  publisher = {Association for Computing Machinery},\n  title = {Modular GPU Programming with Typed Perspectives},\n  url = {https://doi.org/10.1145/3808290},\n  volume = {10},\n  year = {2026}\n}\n"
   },
   {
     "title": "UniTe: A Universal Tensor Abstraction for Capturing Spatial Relationships",
@@ -98,7 +98,7 @@
     "bibtexKey": "unite:2025",
     "itemType": "article",
     "oldbibtex": "article{unite:2025,\n  title   = {UniTe: A Universal Tensor Abstraction for Capturing Spatial Relationships},\n  author  = {Ray, Jessica M. and\n             Collin, Teodoro and\n             Sze, Vivienne and\n             Reuther, Albert and\n             Amarasinghe, Saman},\n  journal = {ACM Transactions on Architecture and Code Optimization},\n  year    = {2025},\n  month   = dec,\n  address = {Cambridge, MA, USA},\n  url     = {https://commit.csail.mit.edu/papers/2025/2025_TACO_UNITE.pdf},\n  note    = {Work completed while at MIT CSAIL}\n}"
-  }, 
+  },
   {
     "title": "Sparse and Structured Tensor Programming",
     "author0": "Willow Ahrens",
@@ -127,7 +127,7 @@
   },
   {
     "title": "WACO: Learning workload-aware co-optimization of the format and  schedule of a sparse tensor program",
-      "author0": "Won, Jaeyeon",
+    "author0": "Won, Jaeyeon",
     "month": "Aug",
     "year": "2023",
     "url": "https://commit.csail.mit.edu/papers/2023/Jaeyeon_SM.pdf",
@@ -140,7 +140,7 @@
   },
   {
     "title": "Automated Finite Elements",
-      "author0": "Collin, Teodoro Fields",
+    "author0": "Collin, Teodoro Fields",
     "month": "Aug",
     "year": "2025",
     "url": "https://commit.csail.mit.edu/papers/2025/2025_TOG_Sybil.pdf",
@@ -293,7 +293,7 @@
     "url": "http://commit.csail.mit.edu/papers/2025/FineGrained-MICRO-2025.pdf",
     "bibtexKey": "chen2024framework",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{chen2024framework,\n  address = {Texas, USA},\n  author = {Chen, Yishen and Amarasinghe, Saman},\n  booktitle = {2024 57th IEEE/ACM International Symposium on Microarchitecture (MICRO)},\n  month = {Nov},\n  organization = {IEEE},\n  pages = {201--214},\n  title = {A Framework for Fine-Grained Program Versioning},\n  url = {http://commit.csail.mit.edu/papers/2025/FineGrained-MICRO-2025.pdf},\n  year = {2024}\n}\n"
+    "oldbibtex": "@inproceedings{chen2024framework,\n  address = {Texas, USA},\n  author = {Chen, Yishen and Amarasinghe, Saman},\n  booktitle = {57th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)},\n  month = {Nov},\n  organization = {IEEE},\n  pages = {201--214},\n  title = {A Framework for Fine-Grained Program Versioning},\n  url = {http://commit.csail.mit.edu/papers/2025/FineGrained-MICRO-2025.pdf},\n  year = {2024}\n}\n"
   },
   {
     "series": "OOPSLA '25",
@@ -312,7 +312,7 @@
     "itemType": "inproceedings",
     "oldbibtex": "@inproceedings{ahrens_finch_2025,\n  abstract = {From FORTRAN to NumPy, tensors have revolutionized how we express computation. However, tensors in these, and almost all prominent systems, can only handle dense rectilinear integer grids. Real world tensors often contain underlying structure, such as sparsity, runs of repeated values, or symmetry. Support for structured data is fragmented and incomplete. Existing frameworks limit the tensor structures and program control flow they support to better simplify the problem. In this work, we propose a new programming language, Finch, which supports both flexible control flow and diverse data structures. Finch facilitates a programming model which resolves the challenges of computing over structured tensors by combining control flow and data structures into a common representation where they can be co-optimized. Finch automatically specializes control flow to data so that performance engineers can focus on experimenting with many algorithms. Finch supports a familiar programming language of loops, statements, ifs, breaks, etc., over a wide variety of tensor structures, such as sparsity, run-length-encoding, symmetry, triangles, padding, or blocks. Finch reliably utilizes the key properties of structure, such as structural zeros, repeated values, or clustered non-zeros. We show that this leads to dramatic speedups in operations such as SpMV and SpGEMM, image processing, and graph analytics.},\n  address = {Singapore},\n  author = {Ahrens, Willow and Collin, Teodoro Fields and Patel, Radha and Deeds, Kyle and Hong, Changwan and Amarasinghe, Saman},\n  doi = {10.1145/3720473},\n  journal = {Proceedings of the ACM on Programming Languages (OOPSLA)},\n  keywords = {Control Flow, Programming Language, Sparse Tensor, Structured Tensor},\n  month = {Oct},\n  number = {OOPSLA1},\n  series = {OOPSLA '25},\n  title = {Finch: Sparse and Structured Tensor Programming with Control Flow},\n  url = {http://commit.csail.mit.edu/papers/2025/Finch-OOPSLA-2025.pdf},\n  year = {2025}\n}\n"
   },
-    {
+  {
     "series": "OOPSLA '25",
     "title": "The Continuous Tensor Abstraction: Where Indices Are Real",
     "url": "http://commit.csail.mit.edu/papers/2025/2025_OOPSLA_Continuous.pdf",
@@ -346,7 +346,7 @@
     "pages": "47--62",
     "bibtexKey": "patel_systec_2025",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{patel_systec_2025,\n  abstract = {Symmetric and sparse tensors arise naturally in many domains including linear algebra, statistics, physics, chemistry, and graph theory. Symmetric tensors are equal to their transposes, so in the n-dimensional case we can save up to a factor of n! by avoiding redundant operations. Sparse tensors, on the other hand, are mostly zero, and we can save asymptotically by processing only nonzeros. Unfortunately, specializing for both symmetry and sparsity at the same time is uniquely challenging. Optimizing for symmetry requires consideration of n! transpositions of a triangular kernel, which can be complex and error prone. Considering multiple transposed iteration orders and triangular loop bounds also complicates iteration through intricate sparse tensor formats. Additionally, since each combination of symmetry and sparse tensor formats requires a specialized implementation, this leads to a combinatorial number of cases. A compiler is needed, but existing compilers cannot take advantage of both symmetry and sparsity within the same kernel. In this paper, we describe the first compiler which can automatically generate symmetry-aware code for sparse or structured tensor kernels. We introduce a taxonomy for symmetry in tensor kernels, and show how to target each kind of symmetry. Our implementation demonstrates significant speedups ranging from 1.36x for SSYMV to 30.4x for a 5-dimensional MTTKRP over the non-symmetric state of the art.},\n  address = {New York, NY, USA},\n  author = {Patel, Radha and Ahrens, Willow and Amarasinghe, Saman},\n  booktitle = {Proceedings of the 23rd ACM/IEEE International Symposium on Code Generation and Optimization},\n  doi = {10.1145/3696443.3708919},\n  isbn = {979-8-4007-1275-3},\n  month = {Mar},\n  pages = {47--62},\n  publisher = {Association for Computing Machinery},\n  series = {CGO '25},\n  shorttitle = {SySTeC},\n  title = {SySTeC: A Symmetric Sparse Tensor Compiler},\n  url = {http://commit.csail.mit.edu/papers/2025/SySTeC-CGO-2025.pdf},\n  urldate = {2025-03-04},\n  year = {2025}\n}\n"
+    "oldbibtex": "@inproceedings{patel_systec_2025,\n  abstract = {Symmetric and sparse tensors arise naturally in many domains including linear algebra, statistics, physics, chemistry, and graph theory. Symmetric tensors are equal to their transposes, so in the n-dimensional case we can save up to a factor of n! by avoiding redundant operations. Sparse tensors, on the other hand, are mostly zero, and we can save asymptotically by processing only nonzeros. Unfortunately, specializing for both symmetry and sparsity at the same time is uniquely challenging. Optimizing for symmetry requires consideration of n! transpositions of a triangular kernel, which can be complex and error prone. Considering multiple transposed iteration orders and triangular loop bounds also complicates iteration through intricate sparse tensor formats. Additionally, since each combination of symmetry and sparse tensor formats requires a specialized implementation, this leads to a combinatorial number of cases. A compiler is needed, but existing compilers cannot take advantage of both symmetry and sparsity within the same kernel. In this paper, we describe the first compiler which can automatically generate symmetry-aware code for sparse or structured tensor kernels. We introduce a taxonomy for symmetry in tensor kernels, and show how to target each kind of symmetry. Our implementation demonstrates significant speedups ranging from 1.36x for SSYMV to 30.4x for a 5-dimensional MTTKRP over the non-symmetric state of the art.},\n  address = {New York, NY, USA},\n  author = {Patel, Radha and Ahrens, Willow and Amarasinghe, Saman},\n  booktitle = {23rd ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  doi = {10.1145/3696443.3708919},\n  isbn = {979-8-4007-1275-3},\n  month = {Mar},\n  pages = {47--62},\n  publisher = {Association for Computing Machinery},\n  series = {CGO '25},\n  shorttitle = {SySTeC},\n  title = {SySTeC: A Symmetric Sparse Tensor Compiler},\n  url = {http://commit.csail.mit.edu/papers/2025/SySTeC-CGO-2025.pdf},\n  urldate = {2025-03-04},\n  year = {2025}\n}\n"
   },
   {
     "title": "AskIt: Unified Programming Interface for Programming with Large Language Models",
@@ -362,7 +362,7 @@
     "series": "CGO 2024",
     "bibtexKey": "askit-cgo24",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{askit-cgo24,\n  author = {Okuda, Katsumi and Amarasinghe, Saman},\n  doi = {10.1109/CGO57630.2024.10444830},\n  journal = {Proceedings of the 22nd ACM/IEEE International Symposium on Code Generation and Optimization (CGO 2024)},\n  keywords = {AskIt, LLM, DSL},\n  location = {Edinburgh, UK},\n  month = {Mar},\n  pages = {41-54},\n  series = {CGO 2024},\n  title = {AskIt: Unified Programming Interface for Programming with Large Language Models},\n  url = {http://commit.csail.mit.edu/papers/2024/askit-cgo24.pdf},\n  year = {2024}\n}\n"
+    "oldbibtex": "@inproceedings{askit-cgo24,\n  author = {Okuda, Katsumi and Amarasinghe, Saman},\n  doi = {10.1109/CGO57630.2024.10444830},\n  journal = {22nd ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {AskIt, LLM, DSL},\n  location = {Edinburgh, UK},\n  month = {Mar},\n  pages = {41-54},\n  series = {CGO 2024},\n  title = {AskIt: Unified Programming Interface for Programming with Large Language Models},\n  url = {http://commit.csail.mit.edu/papers/2024/askit-cgo24.pdf},\n  year = {2024}\n}\n"
   },
   {
     "title": "Mechanised Hypersafety Proofs about Structured Data",
@@ -377,7 +377,7 @@
     "pages": "173:647--173:670",
     "bibtexKey": "gladshtein_mechanised_2024",
     "itemType": "article",
-    "oldbibtex": "@article{gladshtein_mechanised_2024,\n  author = {Gladshtein, Vladimir and Zhao, Qiyuan and Ahrens, Willow and Amarasinghe, Saman and Sergey, Ilya},\n  doi = {10.1145/3656403},\n  journal = {PLDI},\n  keywords = {Computer Science - Programming Languages, Computer Science - Logic in Computer Science},\n  month = {Jun},\n  pages = {173:647--173:670},\n  title = {Mechanised Hypersafety Proofs about Structured Data},\n  url = {http://commit.csail.mit.edu/papers/2024/gladshtein-mechanised-2024.pdf},\n  volume = {8},\n  year = {2024}\n}\n"
+    "oldbibtex": "@article{gladshtein_mechanised_2024,\n  author = {Gladshtein, Vladimir and Zhao, Qiyuan and Ahrens, Willow and Amarasinghe, Saman and Sergey, Ilya},\n  doi = {10.1145/3656403},\n  journal = {45th ACM SIGPLAN International Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {Computer Science - Programming Languages, Computer Science - Logic in Computer Science},\n  month = {Jun},\n  pages = {173:647--173:670},\n  title = {Mechanised Hypersafety Proofs about Structured Data},\n  url = {http://commit.csail.mit.edu/papers/2024/gladshtein-mechanised-2024.pdf},\n  volume = {8},\n  year = {2024}\n}\n"
   },
   {
     "title": "An Intermediate Representation for Expressing and Optimizing Computations in Lattice Quantum Chromodynamics",
@@ -452,7 +452,7 @@
     "series": "CGO 2023",
     "bibtexKey": "looplets-cgo23",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{looplets-cgo23,\n  author = {Ahrens, Willow and Donenfeld, Daniel and Kjolstad, Fredrik and Amarasinghe, Saman},\n  journal = {Proceedings of the 21st ACM/IEEE International Symposium on Code Generation and Optimization (CGO 2023)},\n  keywords = {Coiteration, Array, Tensor, Compressed, Sparse},\n  location = {Montreal, Canada},\n  month = {Mar},\n  series = {CGO 2023},\n  title = {Looplets: A Language for Structured Coiteration},\n  url = {https://commit.csail.mit.edu/papers/2023/looplets-cgo23.pdf},\n  year = {2023}\n}\n"
+    "oldbibtex": "@inproceedings{looplets-cgo23,\n  author = {Ahrens, Willow and Donenfeld, Daniel and Kjolstad, Fredrik and Amarasinghe, Saman},\n  journal = {21st ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {Coiteration, Array, Tensor, Compressed, Sparse},\n  location = {Montreal, Canada},\n  month = {Mar},\n  series = {CGO 2023},\n  title = {Looplets: A Language for Structured Coiteration},\n  url = {https://commit.csail.mit.edu/papers/2023/looplets-cgo23.pdf},\n  year = {2023}\n}\n"
   },
   {
     "author0": "Won, Jaeyeon and Hong, Changwan and Mendis, Charith and Emer, Joel and Amarasinghe, Saman",
@@ -468,7 +468,6 @@
     "itemType": "inproceedings",
     "oldbibtex": "@inproceedings{jaeyeon:mlsys:2023,\n  address = {Miami, USA},\n  author = {Won, Jaeyeon and Hong, Changwan and Mendis, Charith and Emer, Joel and Amarasinghe, Saman},\n  booktitle = {Proceedings of Machine Learning and Systems (MLSys)},\n  keywords = {TACO,ML4C},\n  month = {Jun},\n  slides = {https://commit.csail.mit.edu/presentations/2023/MLSys_UCF.pdf},\n  title = {Unified Convolution Framework: A compiler-based approach to support sparse convolutions},\n  url = {https://commit.csail.mit.edu/papers/2023/2023_MLSys_SparseConvolution_camready.pdf},\n  year = {2023}\n}\n"
   },
-
   {
     "title": "Halide in Molecular Dynamics",
     "author0": "Gayle Jr., Ricardo",
@@ -523,7 +522,7 @@
     "url": "https://commit.csail.mit.edu/papers/2023/WACO_ASPLOS23.pdf",
     "bibtexKey": "jaeyeon:asplos:2023",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{jaeyeon:asplos:2023,\n  address = {Vancouver, Canada},\n  author = {Won, Jaeyeon and Mendis, Charith and Emer, Joel and Amarasinghe, Saman},\n  booktitle = {International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {TACO,AutoSchedule},\n  month = {Apr},\n  slides = {https://commit.csail.mit.edu/presentations/2023/WACO_ASPLOS.pdf},\n  title = {WACO: Learning workload-aware co-optimization of the format and  schedule of a sparse tensor program},\n  url = {https://commit.csail.mit.edu/papers/2023/WACO_ASPLOS23.pdf},\n  video = {https://youtu.be/RO6avxVDHWg},\n  year = {2023}\n}\n"
+    "oldbibtex": "@inproceedings{jaeyeon:asplos:2023,\n  address = {Vancouver, Canada},\n  author = {Won, Jaeyeon and Mendis, Charith and Emer, Joel and Amarasinghe, Saman},\n  booktitle = {28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {TACO,AutoSchedule},\n  month = {Apr},\n  slides = {https://commit.csail.mit.edu/presentations/2023/WACO_ASPLOS.pdf},\n  title = {WACO: Learning workload-aware co-optimization of the format and  schedule of a sparse tensor program},\n  url = {https://commit.csail.mit.edu/papers/2023/WACO_ASPLOS23.pdf},\n  video = {https://youtu.be/RO6avxVDHWg},\n  year = {2023}\n}\n"
   },
   {
     "author0": "Shajii, Ariya and Ramirez, Gabriel and Smajlovic, Haris and Ray, Jessica and Berger, Bonnie and Amarasinghe, Saman and Numanagic, Ibrahim",
@@ -536,7 +535,7 @@
     "address": "Montreal, Canada",
     "bibtexKey": "ariya:cc:2002",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{ariya:cc:2002,\n  address = {Montreal, Canada},\n  author = {Shajii, Ariya and Ramirez, Gabriel and Smajlovic, Haris and Ray, Jessica and Berger, Bonnie and Amarasinghe, Saman and Numanagic, Ibrahim},\n  booktitle = {In Proceedings of the 32nd ACM SIGPLAN International Conference on Compiler Construction (CC)},\n  keywords = {Codon, DSL},\n  month = {Feb},\n  title = {Codon: A Compiler for High-Performance Pythonic Applications and DSLs},\n  url = {https://commit.csail.mit.edu/papers/2023/cc_Codon.pdf},\n  year = {2023}\n}\n"
+    "oldbibtex": "@inproceedings{ariya:cc:2002,\n  address = {Montreal, Canada},\n  author = {Shajii, Ariya and Ramirez, Gabriel and Smajlovic, Haris and Ray, Jessica and Berger, Bonnie and Amarasinghe, Saman and Numanagic, Ibrahim},\n  booktitle = {32nd ACM SIGPLAN International Conference on Compiler Construction (CC)},\n  keywords = {Codon, DSL},\n  month = {Feb},\n  title = {Codon: A Compiler for High-Performance Pythonic Applications and DSLs},\n  url = {https://commit.csail.mit.edu/papers/2023/cc_Codon.pdf},\n  year = {2023}\n}\n"
   },
   {
     "title": "A Universal Tensor Abstraction and its Application to and Implementation within Block-Based Compression",
@@ -551,20 +550,6 @@
     "bibtexKey": "ray:phd-thesis:2023",
     "itemType": "phdthesis",
     "oldbibtex": "@phdthesis{ray:phd-thesis:2023,\n  address = {Cambridge, MA},\n  author = {Jessica Ray},\n  keywords = {BuildIt, Codon},\n  month = {Sep},\n  school = {Massachusetts Institute of Technology},\n  title = {A Universal Tensor Abstraction and its Application to and Implementation within Block-Based Compression},\n  type = {Ph.D. Thesis},\n  url = {https://commit.csail.mit.edu/papers/2023/Jessica_Ray_dissertation.pdf},\n  year = {2023}\n}\n"
-  },
-  {
-    "author0": "Won, Jaeyeon and Hong, Changwan and Mendis, Charith and Emer, Joel and Amarasinghe, Saman",
-    "title": "Unified Convolution Framework: A compiler-based approach to support sparse convolutions",
-    "keywords": "TACO,ML4C",
-    "url": "https://commit.csail.mit.edu/papers/2023/2023_MLSys_SparseConvolution_camready.pdf",
-    "month": "Jun",
-    "year": "2023",
-    "address": "Miami, USA",
-    "booktitle": "Proceedings of Machine Learning and Systems (MLSys)",
-    "slides": "https://commit.csail.mit.edu/presentations/2023/MLSys_UCF.pdf",
-    "bibtexKey": "jaeyeon:mlsys:2023",
-    "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{jaeyeon:mlsys:2023,\n  address = {Miami, USA},\n  author = {Won, Jaeyeon and Hong, Changwan and Mendis, Charith and Emer, Joel and Amarasinghe, Saman},\n  booktitle = {Proceedings of Machine Learning and Systems (MLSys)},\n  keywords = {TACO,ML4C},\n  month = {Jun},\n  slides = {https://commit.csail.mit.edu/presentations/2023/MLSys_UCF.pdf},\n  title = {Unified Convolution Framework: A compiler-based approach to support sparse convolutions},\n  url = {https://commit.csail.mit.edu/papers/2023/2023_MLSys_SparseConvolution_camready.pdf},\n  year = {2023}\n}\n"
   },
   {
     "title": "GSTACO: A Generalized Sparse Tensor Algebra Compiler",
@@ -621,19 +606,6 @@
     "school": "Massachusetts Institute of Technology",
     "bibtexKey": "danielbd:sm-thesis:2023",
     "itemType": "sciencethesis"
-  },
-  {
-    "author0": "Shajii, Ariya and Ramirez, Gabriel and Smajlovic, Haris and Ray, Jessica and Berger, Bonnie and Amarasinghe, Saman and Numanagic, Ibrahim",
-    "title": "Codon: A Compiler for High-Performance Pythonic Applications and DSLs",
-    "url": "https://commit.csail.mit.edu/papers/2023/cc_Codon.pdf",
-    "keywords": "Codon, DSL",
-    "month": "Feb",
-    "year": "2023",
-    "booktitle": "32nd ACM SIGPLAN International Conference on Compiler Construction (CC)",
-    "address": "Montreal, Canada",
-    "bibtexKey": "ariya:cc:2002",
-    "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{ariya:cc:2002,\n  address = {Montreal, Canada},\n  author = {Shajii, Ariya and Ramirez, Gabriel and Smajlovic, Haris and Ray, Jessica and Berger, Bonnie and Amarasinghe, Saman and Numanagic, Ibrahim},\n  booktitle = {In Proceedings of the 32nd ACM SIGPLAN International Conference on Compiler Construction (CC)},\n  keywords = {Codon, DSL},\n  month = {Feb},\n  title = {Codon: A Compiler for High-Performance Pythonic Applications and DSLs},\n  url = {https://commit.csail.mit.edu/papers/2023/cc_Codon.pdf},\n  year = {2023}\n}\n"
   },
   {
     "title": "Format Abstractions for the Compilation of Sparse Tensor Algebra",
@@ -838,7 +810,7 @@
     "booktitle": "26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
     "bibtexKey": "chen:asplos:2021",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{chen:asplos:2021,\n  author = {Chen, Yishen and Mendis, Charith and Carbin, Michael and Amarasinghe, Saman},\n  booktitle = {International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {SLP},\n  month = {Apr},\n  title = {VeGen: A Vectorizer Generator for SIMD and Beyond},\n  url = {https://commit.csail.mit.edu/papers/2021/vegen.pdf},\n  year = {2021}\n}\n"
+    "oldbibtex": "@inproceedings{chen:asplos:2021,\n  author = {Chen, Yishen and Mendis, Charith and Carbin, Michael and Amarasinghe, Saman},\n  booktitle = {26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {SLP},\n  month = {Apr},\n  title = {VeGen: A Vectorizer Generator for SIMD and Beyond},\n  url = {https://commit.csail.mit.edu/papers/2021/vegen.pdf},\n  year = {2021}\n}\n"
   },
   {
     "title": "Taming the Zoo: A Unified Graph Compiler Framework for Novel Architectures",
@@ -852,7 +824,7 @@
     "video": "https://www.youtube.com/watch?v=3q4ZtCrKkx0",
     "bibtexKey": "ugcf-isca21",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{ugcf-isca21,\n  author = {Brahmakshatriya, Ajay and Furst, Emily and Ying, Victor and Hsu, Claire and Hong, Changwan and Ruttenberg, Max and Zhang, Yunming and Jung, Dai Cheol and Richmond, Dustin and Taylor, Michael and Shun, Julian and Oskin, Mark and Sanchez, Daniel and Amarasinghe, Saman},\n  journal = {Proceedings of the 2021 International Symposium on Computer Architecturei (ISCA)},\n  keywords = {GraphIt},\n  month = {Jun},\n  series = {ISCA 2021},\n  title = {Taming the Zoo: A Unified Graph Compiler Framework for Novel Architectures},\n  url = {https://commit.csail.mit.edu/papers/2021/ajay-isca21-ugcf.pdf},\n  video = {https://www.youtube.com/watch?v=3q4ZtCrKkx0},\n  year = {2021}\n}\n"
+    "oldbibtex": "@inproceedings{ugcf-isca21,\n  author = {Brahmakshatriya, Ajay and Furst, Emily and Ying, Victor and Hsu, Claire and Hong, Changwan and Ruttenberg, Max and Zhang, Yunming and Jung, Dai Cheol and Richmond, Dustin and Taylor, Michael and Shun, Julian and Oskin, Mark and Sanchez, Daniel and Amarasinghe, Saman},\n  journal = {48th Annual International Symposium on Computer Architecture (ISCA)},\n  keywords = {GraphIt},\n  month = {Jun},\n  series = {ISCA 2021},\n  title = {Taming the Zoo: A Unified Graph Compiler Framework for Novel Architectures},\n  url = {https://commit.csail.mit.edu/papers/2021/ajay-isca21-ugcf.pdf},\n  video = {https://www.youtube.com/watch?v=3q4ZtCrKkx0},\n  year = {2021}\n}\n"
   },
   {
     "author0": "Brahmakshatriya, Ajay and Rinard, Chris and Ghobadi, Manya and Amarasinghe, Saman",
@@ -872,7 +844,7 @@
     "keywords": "compilers, layouts, network-protocols, BuildIt",
     "bibtexKey": "netblocks-pldi24",
     "itemType": "article",
-    "oldbibtex": "@article{netblocks-pldi24,\n  address = {New York, NY, USA},\n  articleno = {166},\n  author = {Brahmakshatriya, Ajay and Rinard, Chris and Ghobadi, Manya and Amarasinghe, Saman},\n  doi = {10.1145/3656396},\n  issue_date = {June 2024},\n  journal = {Proc. ACM Program. Lang. (PLDI 2024)},\n  keywords = {compilers, layouts, network-protocols, BuildIt},\n  month = {Jun},\n  number = {PLDI},\n  numpages = {25},\n  publisher = {Association for Computing Machinery},\n  title = {NetBlocks: Staging Layouts for High-Performance Custom Host Network Stacks},\n  url = {https://commit.csail.mit.edu/papers/2024/PLDI24_NetBlocks.pdf},\n  volume = {8},\n  year = {2024}\n}\n"
+    "oldbibtex": "@article{netblocks-pldi24,\n  address = {New York, NY, USA},\n  articleno = {166},\n  author = {Brahmakshatriya, Ajay and Rinard, Chris and Ghobadi, Manya and Amarasinghe, Saman},\n  doi = {10.1145/3656396},\n  issue_date = {June 2024},\n  journal = {45th ACM SIGPLAN International Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {compilers, layouts, network-protocols, BuildIt},\n  month = {Jun},\n  number = {PLDI},\n  numpages = {25},\n  publisher = {Association for Computing Machinery},\n  title = {NetBlocks: Staging Layouts for High-Performance Custom Host Network Stacks},\n  url = {https://commit.csail.mit.edu/papers/2024/PLDI24_NetBlocks.pdf},\n  volume = {8},\n  year = {2024}\n}\n"
   },
   {
     "title": "D2X: An eXtensible conteXtual Debugger for Modern DSLs",
@@ -887,7 +859,7 @@
     "price": "Distinguished Paper Award",
     "bibtexKey": "d2x-cgo23",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{d2x-cgo23,\n  address = {Montreal, Canada},\n  author = {Brahmakshatriya, Ajay and Amarasinghe, Saman},\n  journal = {Proceedings of the 21st ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {BuildIt},\n  month = {Mar},\n  price = {Distinguished Paper Award},\n  series = {CGO 2023},\n  title = {D2X: An eXtensible conteXtual Debugger for Modern DSLs},\n  url = {https://commit.csail.mit.edu/papers/2023/ajay-cgo23-d2x.pdf},\n  year = {2023}\n}\n"
+    "oldbibtex": "@inproceedings{d2x-cgo23,\n  address = {Montreal, Canada},\n  author = {Brahmakshatriya, Ajay and Amarasinghe, Saman},\n  journal = {21st ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {BuildIt},\n  month = {Mar},\n  price = {Distinguished Paper Award},\n  series = {CGO 2023},\n  title = {D2X: An eXtensible conteXtual Debugger for Modern DSLs},\n  url = {https://commit.csail.mit.edu/papers/2023/ajay-cgo23-d2x.pdf},\n  year = {2023}\n}\n"
   },
   {
     "title": "GraphIt to CUDA compiler in 2021 LOC: A case for high-performance DSL implementation via staging with BuilDSL",
@@ -903,7 +875,7 @@
     "slides": "https://commit.csail.mit.edu/presentations/2022/CGO22_slides_session3_paper1.pdf",
     "bibtexKey": "buildsl-cgo22",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{buildsl-cgo22,\n  author = {Brahmakshatriya, Ajay and Amarasinghe, Saman},\n  journal = {Proceedings of the 20th ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {GraphIt, BuildIt},\n  location = {Republic of Korea},\n  month = {Apr},\n  series = {CGO 2022},\n  slides = {https://commit.csail.mit.edu/presentations/2022/CGO22_slides_session3_paper1.pdf},\n  title = {GraphIt to CUDA compiler in 2021 LOC: A case for high-performance DSL implementation via staging with BuilDSL},\n  url = {https://commit.csail.mit.edu/papers/2022/ajay-cgo22-buildsl.pdf},\n  video = {https://www.youtube.com/watch?v=u31NOIKlfP0},\n  year = {2022}\n}\n"
+    "oldbibtex": "@inproceedings{buildsl-cgo22,\n  author = {Brahmakshatriya, Ajay and Amarasinghe, Saman},\n  journal = {20th ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {GraphIt, BuildIt},\n  location = {Republic of Korea},\n  month = {Apr},\n  series = {CGO 2022},\n  slides = {https://commit.csail.mit.edu/presentations/2022/CGO22_slides_session3_paper1.pdf},\n  title = {GraphIt to CUDA compiler in 2021 LOC: A case for high-performance DSL implementation via staging with BuilDSL},\n  url = {https://commit.csail.mit.edu/papers/2022/ajay-cgo22-buildsl.pdf},\n  video = {https://www.youtube.com/watch?v=u31NOIKlfP0},\n  year = {2022}\n}\n"
   },
   {
     "title": "Unified Compilation for Lossless Compression and Sparse Computing",
@@ -919,7 +891,7 @@
     "video": "https://youtu.be/uU3brPcwUos",
     "bibtexKey": "taco-lossless-cgo22",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{taco-lossless-cgo22,\n  author = {Donenfeld, Daniel and Chou, Stephen and Amarasinghe, Saman},\n  journal = {Proceedings of the 20th ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {TACO},\n  location = {Republic of Korea},\n  month = {Apr},\n  series = {CGO 2022},\n  slides = {https://commit.csail.mit.edu/papers/2022/CGO22_TACO_lossless_slides.pdf},\n  title = {Unified Compilation for Lossless Compression and Sparse Computing},\n  url = {https://commit.csail.mit.edu/papers/2022/cgo22-TACO-lossless.pdf},\n  video = {https://youtu.be/uU3brPcwUos},\n  year = {2022}\n}\n"
+    "oldbibtex": "@inproceedings{taco-lossless-cgo22,\n  author = {Donenfeld, Daniel and Chou, Stephen and Amarasinghe, Saman},\n  journal = {20th ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {TACO},\n  location = {Republic of Korea},\n  month = {Apr},\n  series = {CGO 2022},\n  slides = {https://commit.csail.mit.edu/papers/2022/CGO22_TACO_lossless_slides.pdf},\n  title = {Unified Compilation for Lossless Compression and Sparse Computing},\n  url = {https://commit.csail.mit.edu/papers/2022/cgo22-TACO-lossless.pdf},\n  video = {https://youtu.be/uU3brPcwUos},\n  year = {2022}\n}\n"
   },
   {
     "title": "BuildIt: A type based multistage programming framework for code generation in C++",
@@ -934,7 +906,7 @@
     "video": "https://youtu.be/JHSCu4tzcPo",
     "bibtexKey": "buildit-cgo21",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{buildit-cgo21,\n  author = {Brahmakshatriya, Ajay and Amarasinghe, Saman},\n  journal = {Proceedings of the 19th ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {BuildIt},\n  location = {Virtual, Republic of Korea},\n  month = {Feb},\n  series = {CGO 2021},\n  title = {BuildIt: A type based multistage programming framework for code generation in C++},\n  url = {https://commit.csail.mit.edu/papers/2021/ajay-cgo21-buildit.pdf},\n  video = {https://youtu.be/JHSCu4tzcPo},\n  year = {2021}\n}\n"
+    "oldbibtex": "@inproceedings{buildit-cgo21,\n  author = {Brahmakshatriya, Ajay and Amarasinghe, Saman},\n  journal = {19th ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {BuildIt},\n  location = {Virtual, Republic of Korea},\n  month = {Feb},\n  series = {CGO 2021},\n  title = {BuildIt: A type based multistage programming framework for code generation in C++},\n  url = {https://commit.csail.mit.edu/papers/2021/ajay-cgo21-buildit.pdf},\n  video = {https://youtu.be/JHSCu4tzcPo},\n  year = {2021}\n}\n"
   },
   {
     "title": "Compiling Graph Applications for GPUs with GraphIt",
@@ -950,7 +922,7 @@
     "price": "Best Paper Award",
     "bibtexKey": "g2-cgo21",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{g2-cgo21,\n  author = {Brahmakshatriya, Ajay and Zhang, Yunming and Hong, Changwan and Kamil, Shoaib and Shun, Julian and Amarasinghe, Saman},\n  journal = {Proceedings of the 19th ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {GraphIt},\n  location = {Virtual, Republic of Korea},\n  month = {Feb},\n  price = {Best Paper Award},\n  series = {CGO 2021},\n  title = {Compiling Graph Applications for GPUs with GraphIt},\n  url = {https://commit.csail.mit.edu/papers/2021/ajay-cgo21-g2.pdf},\n  video = {https://www.youtube.com/watch?v=38_0a0GJVTs},\n  year = {2021}\n}\n"
+    "oldbibtex": "@inproceedings{g2-cgo21,\n  author = {Brahmakshatriya, Ajay and Zhang, Yunming and Hong, Changwan and Kamil, Shoaib and Shun, Julian and Amarasinghe, Saman},\n  journal = {19th ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {GraphIt},\n  location = {Virtual, Republic of Korea},\n  month = {Feb},\n  price = {Best Paper Award},\n  series = {CGO 2021},\n  title = {Compiling Graph Applications for GPUs with GraphIt},\n  url = {https://commit.csail.mit.edu/papers/2021/ajay-cgo21-g2.pdf},\n  video = {https://www.youtube.com/watch?v=38_0a0GJVTs},\n  year = {2021}\n}\n"
   },
   {
     "title": "Optimizing Ordered Graph Algorithms with GraphIt",
@@ -971,7 +943,7 @@
     "series": "CGO 2020",
     "bibtexKey": "og-cgo20",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{og-cgo20,\n  address = {New York, NY, USA},\n  author = {Zhang, Yunming and Brahmakshatriya, Ajay and Chen, Xinyi and Dhulipala, Laxman and Kamil, Shoaib and Amarasinghe, Saman and Shun, Julian},\n  doi = {10.1145/3368826.3377909},\n  isbn = {9781450370479},\n  journal = {Proceedings of the 18th ACM/IEEE International Symposium on Code Generation and Optimization (CGO 2020)},\n  keywords = {GraphIt},\n  location = {San Diego, CA, USA},\n  month = {Feb},\n  numpages = {13},\n  pages = {158–170},\n  publisher = {Association for Computing Machinery},\n  series = {CGO 2020},\n  slides = {https://yunmingzhang.files.wordpress.com/2020/06/cgo2020.pdf},\n  title = {Optimizing Ordered Graph Algorithms with GraphIt},\n  url = {https://commit.csail.mit.edu/papers/2020/yunming-cgo20.pdf},\n  year = {2020}\n}\n"
+    "oldbibtex": "@inproceedings{og-cgo20,\n  address = {New York, NY, USA},\n  author = {Zhang, Yunming and Brahmakshatriya, Ajay and Chen, Xinyi and Dhulipala, Laxman and Kamil, Shoaib and Amarasinghe, Saman and Shun, Julian},\n  doi = {10.1145/3368826.3377909},\n  isbn = {9781450370479},\n  journal = {18th ACM/IEEE International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {GraphIt},\n  location = {San Diego, CA, USA},\n  month = {Feb},\n  numpages = {13},\n  pages = {158–170},\n  publisher = {Association for Computing Machinery},\n  series = {CGO 2020},\n  slides = {https://yunmingzhang.files.wordpress.com/2020/06/cgo2020.pdf},\n  title = {Optimizing Ordered Graph Algorithms with GraphIt},\n  url = {https://commit.csail.mit.edu/papers/2020/yunming-cgo20.pdf},\n  year = {2020}\n}\n"
   },
   {
     "title": "Compiler Auto-Vectorization with Imitation Learning",
@@ -1073,7 +1045,7 @@
     "url": "https://commit.csail.mit.edu/papers/2023/Loop-Interchange-Model-CC23.pdf",
     "bibtexKey": "tiramisu-li",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{tiramisu-li,\n  address = {Montreal, Canada},\n  author = {Mezdour, Lina and Kadem, Khadidja and Merouani, Massinissa and Haichour, Amina Selma and Amarasinghe, Saman and Baghdadi, Riyadh},\n  booktitle = {In Proceedings of the 32nd ACM SIGPLAN International Conference on Compiler Construction (CC)},\n  month = {Feb},\n  series = {CC'23},\n  title = {A Deep Learning Model for Loop Interchange},\n  url = {https://commit.csail.mit.edu/papers/23/Loop-Interchange-Model-CC23.pdf},\n  year = {2023}\n}\n"
+    "oldbibtex": "@inproceedings{tiramisu-li,\n  address = {Montreal, Canada},\n  author = {Mezdour, Lina and Kadem, Khadidja and Merouani, Massinissa and Haichour, Amina Selma and Amarasinghe, Saman and Baghdadi, Riyadh},\n  booktitle = {32nd ACM SIGPLAN International Conference on Compiler Construction (CC)},\n  month = {Feb},\n  series = {CC'23},\n  title = {A Deep Learning Model for Loop Interchange},\n  url = {https://commit.csail.mit.edu/papers/23/Loop-Interchange-Model-CC23.pdf},\n  year = {2023}\n}\n"
   },
   {
     "author0": "Mendis, Charith and Jain, Ajay and Jain, Paras and Amarasinghe, Saman",
@@ -1093,7 +1065,7 @@
     "keywords": "SLP",
     "bibtexKey": "revec-cc",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{revec-cc,\n  acmid = {3307357},\n  address = {New York, NY, USA},\n  author = {Mendis, Charith and Jain, Ajay and Jain, Paras and Amarasinghe, Saman},\n  booktitle = {Proceedings of the 28th International Conference on Compiler Construction (CC)},\n  doi = {10.1145/3302516.3307357},\n  isbn = {978-1-4503-6277-1},\n  keywords = {SLP},\n  location = {Washington, DC, USA},\n  numpages = {13},\n  pages = {29--41},\n  publisher = {ACM},\n  series = {CC 2019},\n  title = {Revec: Program Rejuvenation Through Revectorization},\n  url = {https://commit.csail.mit.edu/papers/19/revec-cc.pdf},\n  year = {2019}\n}\n"
+    "oldbibtex": "@inproceedings{revec-cc,\n  acmid = {3307357},\n  address = {New York, NY, USA},\n  author = {Mendis, Charith and Jain, Ajay and Jain, Paras and Amarasinghe, Saman},\n  booktitle = {28th ACM SIGPLAN International Conference on Compiler Construction (CC)},\n  doi = {10.1145/3302516.3307357},\n  isbn = {978-1-4503-6277-1},\n  keywords = {SLP},\n  location = {Washington, DC, USA},\n  numpages = {13},\n  pages = {29--41},\n  publisher = {ACM},\n  series = {CC 2019},\n  title = {Revec: Program Rejuvenation Through Revectorization},\n  url = {https://commit.csail.mit.edu/papers/19/revec-cc.pdf},\n  year = {2019}\n}\n"
   },
   {
     "author0": "Kiriansky, Vladimir and Xu, Haoran and Rinard, Martin and Amarasinghe, Saman",
@@ -1115,7 +1087,7 @@
     "keywords": "DSL",
     "bibtexKey": "kiriansky-pact18-cimple",
     "itemType": "article",
-    "oldbibtex": "@article{kiriansky-pact18-cimple,\n  acmid = {3243185},\n  address = {New York, NY, USA},\n  articleno = {30},\n  author = {Kiriansky, Vladimir and Xu, Haoran and Rinard, Martin and Amarasinghe, Saman},\n  booktitle = {Proceedings of the 27th International Conference on Parallel Architectures and Compilation Techniques (PACT)},\n  doi = {10.1145/3243176.3243185},\n  isbn = {978-1-4503-5986-3},\n  keywords = {DSL},\n  location = {Limassol, Cyprus},\n  numpages = {16},\n  pages = {30:1--30:16},\n  publisher = {ACM},\n  series = {PACT '18},\n  slides = {https://groups.csail.mit.edu/commit/papers/2018/kiriansky18pact-cimple-slides.pdf},\n  title = {Cimple: Instruction and Memory Level Parallelism: A DSL for Uncovering ILP and MLP},\n  url = {https://commit.csail.mit.edu/papers/2018/kiriansky-pact18-cimple.pdf},\n  year = {2018}\n}\n"
+    "oldbibtex": "@article{kiriansky-pact18-cimple,\n  acmid = {3243185},\n  address = {New York, NY, USA},\n  articleno = {30},\n  author = {Kiriansky, Vladimir and Xu, Haoran and Rinard, Martin and Amarasinghe, Saman},\n  booktitle = {27th International Conference on Parallel Architectures and Compilation Techniques (PACT)},\n  doi = {10.1145/3243176.3243185},\n  isbn = {978-1-4503-5986-3},\n  keywords = {DSL},\n  location = {Limassol, Cyprus},\n  numpages = {16},\n  pages = {30:1--30:16},\n  publisher = {ACM},\n  series = {PACT '18},\n  slides = {https://groups.csail.mit.edu/commit/papers/2018/kiriansky18pact-cimple-slides.pdf},\n  title = {Cimple: Instruction and Memory Level Parallelism: A DSL for Uncovering ILP and MLP},\n  url = {https://commit.csail.mit.edu/papers/2018/kiriansky-pact18-cimple.pdf},\n  year = {2018}\n}\n"
   },
   {
     "address": "Virtual Event, USA",
@@ -1157,7 +1129,7 @@
     "month": "Oct",
     "bibtexKey": "kiriansky-micro18-dawg",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{kiriansky-micro18-dawg,\n  author = {Vladimir Kiriansky and Ilia Lebedev and Saman Amarasinghe and Srinivas Devadas and Joel Emer},\n  booktitle = {2018 51th Annual IEEE/ACM International Symposium on Microarchitecture},\n  keywords = {DSL, Security},\n  month = {Oct},\n  series = {MICRO '18},\n  slides = {https://groups.csail.mit.edu/commit/papers/2018/kiriansky18micro-dawg-slides.pdf},\n  title = {DAWG: A Defense Against Cache Timing Attacks in Speculative Execution Processors},\n  url = {https://groups.csail.mit.edu/commit/papers/2018/kiriansky-micro18-dawg.pdf},\n  year = {2018}\n}\n"
+    "oldbibtex": "@inproceedings{kiriansky-micro18-dawg,\n  author = {Vladimir Kiriansky and Ilia Lebedev and Saman Amarasinghe and Srinivas Devadas and Joel Emer},\n  booktitle = {51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)},\n  keywords = {DSL, Security},\n  month = {Oct},\n  series = {MICRO '18},\n  slides = {https://groups.csail.mit.edu/commit/papers/2018/kiriansky18micro-dawg-slides.pdf},\n  title = {DAWG: A Defense Against Cache Timing Attacks in Speculative Execution Processors},\n  url = {https://groups.csail.mit.edu/commit/papers/2018/kiriansky-micro18-dawg.pdf},\n  year = {2018}\n}\n"
   },
   {
     "author0": "Zhang, Yunming and Yang, Mengjiao and Baghdadi, Riyadh and Kamil, Shoaib and Shun, Julian and Amarasinghe, Saman",
@@ -1292,7 +1264,7 @@
     "url": "https://commit.csail.mit.edu/papers/2018/tiramisu_paper.pdf",
     "bibtexKey": "tiramisu",
     "itemType": "article",
-    "oldbibtex": "@article{tiramisu,\n  author = {Baghdadi, Riyadh and Ray, Jessica and Ben Romdhane, Malek and Del Sozzo, Emanuele and Akkas, Abdurrahman and Zhang, Yunming and Suriana, Patricia and Kamil, Shoaib and Amarasinghe, Saman},\n  journal = {Proceedings of the 2019 International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {Tiramisu},\n  location = {Washington DC, USA},\n  month = {Feb},\n  title = {Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code},\n  url = {https://commit.csail.mit.edu/papers/2018/tiramisu_paper.pdf},\n  year = {2019}\n}\n"
+    "oldbibtex": "@article{tiramisu,\n  author = {Baghdadi, Riyadh and Ray, Jessica and Ben Romdhane, Malek and Del Sozzo, Emanuele and Akkas, Abdurrahman and Zhang, Yunming and Suriana, Patricia and Kamil, Shoaib and Amarasinghe, Saman},\n  journal = {17th IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {Tiramisu},\n  location = {Washington DC, USA},\n  month = {Feb},\n  title = {Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code},\n  url = {https://commit.csail.mit.edu/papers/2018/tiramisu_paper.pdf},\n  year = {2019}\n}\n"
   },
   {
     "title": "Tensor Algebra Compilation with Workspaces",
@@ -1304,7 +1276,7 @@
     "keywords": "TACO",
     "bibtexKey": "kjolstad:2018:workspaces",
     "itemType": "article",
-    "oldbibtex": "@article{kjolstad:2018:workspaces,\n  author = {Fredrik Kjolstad and Willow Ahrens and Shoaib Kamil and Saman Amarasinghe},\n  journal = {International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {TACO},\n  month = {Feb},\n  title = {Tensor Algebra Compilation with Workspaces},\n  url = {https://commit.csail.mit.edu/papers/2018/kjolstad-18-workspaces.pdf},\n  year = {2019}\n}\n"
+    "oldbibtex": "@article{kjolstad:2018:workspaces,\n  author = {Fredrik Kjolstad and Willow Ahrens and Shoaib Kamil and Saman Amarasinghe},\n  journal = {17th IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {TACO},\n  month = {Feb},\n  title = {Tensor Algebra Compilation with Workspaces},\n  url = {https://commit.csail.mit.edu/papers/2018/kjolstad-18-workspaces.pdf},\n  year = {2019}\n}\n"
   },
   {
     "author0": "Ragan-Kelley, Jonathan and Adams, Andrew and Sharlet, Dillon and Barnes, Connelly and Paris, Sylvain and Levoy, Marc and Amarasinghe, Saman and Durand, Fredo",
@@ -1429,7 +1401,7 @@
   {
     "author0": "Kiriansky, Vladimir and Zhang, Yunming and Amarasinghe, Saman",
     "title": "Optimizing Indirect Memory References with milk",
-    "booktitle": "25th International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+    "booktitle": "25th International Conference on Parallel Architectures and Compilation (PACT)",
     "month": "Sep",
     "series": "PACT '16",
     "year": "2016",
@@ -1438,7 +1410,7 @@
     "keywords": "DSL",
     "bibtexKey": "kiriansky:pact:2016",
     "itemType": "article",
-    "oldbibtex": "@article{kiriansky:pact:2016,\n  author = {Kiriansky, Vladimir and Zhang, Yunming and Amarasinghe, Saman},\n  booktitle = {2016 International Conference on Parallel Architectures and Compilation Techniques (PACT)},\n  keywords = {DSL},\n  location = {Haifa, Israel},\n  month = {Sep},\n  series = {PACT '16},\n  title = {Optimizing Indirect Memory References with milk},\n  url = {http://doi.acm.org/10.1145/2967938.2967948},\n  year = {2016}\n}\n"
+    "oldbibtex": "@article{kiriansky:pact:2016,\n  author = {Kiriansky, Vladimir and Zhang, Yunming and Amarasinghe, Saman},\n  booktitle = {25th International Conference on Parallel Architectures and Compilation (PACT)},\n  keywords = {DSL},\n  location = {Haifa, Israel},\n  month = {Sep},\n  series = {PACT '16},\n  title = {Optimizing Indirect Memory References with milk},\n  url = {http://doi.acm.org/10.1145/2967938.2967948},\n  year = {2016}\n}\n"
   },
   {
     "title": "Linear Algebra on Lattices: Simit Language Extensions with Applications to Lattice QCD",
@@ -1605,7 +1577,7 @@
     "keywords": "Halide, Helium",
     "bibtexKey": "mendis:pldi:2015",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{mendis:pldi:2015,\n  address = {Portland, OR},\n  author = {Charith Mendis and Jeffrey Bosboom and Kevin Wu and Shoaib Kamil and Jonathan Ragan-Kelley and Sylvain Paris and Qin Zhao and Saman Amarasinghe},\n  booktitle = {ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {Halide, Helium},\n  month = {Jun},\n  title = {Helium:  Lifting High-Performance Stencil Kernels from Stripped x86 Binaries to Halide DSL Code},\n  url = {https://commit.csail.mit.edu/papers/2015/mendis-pldi15-helium.pdf},\n  year = {2015}\n}\n"
+    "oldbibtex": "@inproceedings{mendis:pldi:2015,\n  address = {Portland, OR},\n  author = {Charith Mendis and Jeffrey Bosboom and Kevin Wu and Shoaib Kamil and Jonathan Ragan-Kelley and Sylvain Paris and Qin Zhao and Saman Amarasinghe},\n  booktitle = {36th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {Halide, Helium},\n  month = {Jun},\n  title = {Helium:  Lifting High-Performance Stencil Kernels from Stripped x86 Binaries to Halide DSL Code},\n  url = {https://commit.csail.mit.edu/papers/2015/mendis-pldi15-helium.pdf},\n  year = {2015}\n}\n"
   },
   {
     "author0": "Yufei Ding and Jason Ansel and Kalyan Veeramachaneni and Xipeng Shen and Una-May O'Reilly and Saman Amarasinghe",
@@ -1618,7 +1590,7 @@
     "booktitle": "36th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
     "bibtexKey": "ding:pldi:2015",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{ding:pldi:2015,\n  address = {Portland, OR},\n  author = {Yufei Ding and Jason Ansel and Kalyan Veeramachaneni and Xipeng Shen and Una-May O'Reilly and Saman Amarasinghe},\n  booktitle = {ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {OpenTuner, ML4C},\n  month = {Jun},\n  title = {Autotuning Algorithmic Choice For Input Sensitivity},\n  url = {https://commit.csail.mit.edu/papers/2015/yding-pldi15-pbinput.pdf},\n  year = {2015}\n}\n"
+    "oldbibtex": "@inproceedings{ding:pldi:2015,\n  address = {Portland, OR},\n  author = {Yufei Ding and Jason Ansel and Kalyan Veeramachaneni and Xipeng Shen and Una-May O'Reilly and Saman Amarasinghe},\n  booktitle = {36th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {OpenTuner, ML4C},\n  month = {Jun},\n  title = {Autotuning Algorithmic Choice For Input Sensitivity},\n  url = {https://commit.csail.mit.edu/papers/2015/yding-pldi15-pbinput.pdf},\n  year = {2015}\n}\n"
   },
   {
     "title": "Helium: Lifting High-Performance Stencil Kernels from Stripped x86 Binaries to Halide DSL Code",
@@ -1657,10 +1629,10 @@
     "month": "Aug",
     "year": "2014",
     "address": "Edmonton, Canada",
-    "booktitle": "23rd International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+    "booktitle": "23rd International Conference on Parallel Architectures and Compilation (PACT)",
     "bibtexKey": "ansel:pact:2014",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{ansel:pact:2014,\n  address = {Edmonton, Canada},\n  author = {Jason Ansel and Shoaib Kamil and Kalyan Veeramachaneni and Jonathan Ragan-Kelley and Jeffrey Bosboom and Una-May O'Reilly and Saman Amarasinghe},\n  booktitle = {International Conference on Parallel Architectures and Compilation Techniques (PACT)},\n  keywords = {OpenTuner},\n  month = {Aug},\n  slides = {https://commit.csail.mit.edu/papers/2014/ansel-pact14-opentuner-slides.pdf},\n  title = {OpenTuner: An Extensible Framework for Program Autotuning},\n  url = {https://commit.csail.mit.edu/papers/2014/ansel-pact14-opentuner.pdf},\n  year = {2014}\n}\n"
+    "oldbibtex": "@inproceedings{ansel:pact:2014,\n  address = {Edmonton, Canada},\n  author = {Jason Ansel and Shoaib Kamil and Kalyan Veeramachaneni and Jonathan Ragan-Kelley and Jeffrey Bosboom and Una-May O'Reilly and Saman Amarasinghe},\n  booktitle = {23rd International Conference on Parallel Architectures and Compilation (PACT)},\n  keywords = {OpenTuner},\n  month = {Aug},\n  slides = {https://commit.csail.mit.edu/papers/2014/ansel-pact14-opentuner-slides.pdf},\n  title = {OpenTuner: An Extensible Framework for Program Autotuning},\n  url = {https://commit.csail.mit.edu/papers/2014/ansel-pact14-opentuner.pdf},\n  year = {2014}\n}\n"
   },
   {
     "title": "Decoupling Algorithms from the Organization of Computation for High Performance Image Processing",
@@ -1760,7 +1732,7 @@
     "price": "Most Influential PLDI Paper Award, PLDI 2023, Orlando, FL",
     "bibtexKey": "halide:pldi:2013",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{halide:pldi:2013,\n  address = {Seattle, WA},\n  author = {Jonathan Ragan-Kelley and Connelly Barnes and Andrew Adams and Sylvain Paris and Fredo Durand and Saman Amarasinghe},\n  booktitle = {ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {Halide},\n  month = {Jun},\n  price = {Most Influential PLDI Paper Award, PLDI 2023, Orlando, FL},\n  title = {Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines},\n  url = {https://commit.csail.mit.edu/papers/2013/halide-pldi13.pdf},\n  year = {2013}\n}\n"
+    "oldbibtex": "@inproceedings{halide:pldi:2013,\n  address = {Seattle, WA},\n  author = {Jonathan Ragan-Kelley and Connelly Barnes and Andrew Adams and Sylvain Paris and Fredo Durand and Saman Amarasinghe},\n  booktitle = {34th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {Halide},\n  month = {Jun},\n  price = {Most Influential PLDI Paper Award, PLDI 2023, Orlando, FL},\n  title = {Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines},\n  url = {https://commit.csail.mit.edu/papers/2013/halide-pldi13.pdf},\n  year = {2013}\n}\n"
   },
   {
     "title": "Dynamic Expressivity with Static Optimization for Streaming Languages",
@@ -1786,7 +1758,7 @@
     "url": "https://commit.csail.mit.edu/papers/2013/phothilimthana-asplos13-pbgpu.pdf",
     "bibtexKey": "phothilimthana:asplos:2013",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{phothilimthana:asplos:2013,\n  address = {Houston, TX},\n  author = {Phitchaya Mangpo Phothilimthana and Jason Ansel and Jonathan Ragan-Kelley and Saman Amarasinghe},\n  booktitle = {The International Conference on Architectural Support for Programming Languages and Operating Systems},\n  keywords = {PetaBricks},\n  month = {Mar},\n  title = {Portable Performance on Heterogeneous Architectures},\n  url = {https://commit.csail.mit.edu/papers/2013/phothilimthana-asplos13-pbgpu.pdf},\n  year = {2013}\n}\n"
+    "oldbibtex": "@inproceedings{phothilimthana:asplos:2013,\n  address = {Houston, TX},\n  author = {Phitchaya Mangpo Phothilimthana and Jason Ansel and Jonathan Ragan-Kelley and Saman Amarasinghe},\n  booktitle = {18th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {PetaBricks},\n  month = {Mar},\n  title = {Portable Performance on Heterogeneous Architectures},\n  url = {https://commit.csail.mit.edu/papers/2013/phothilimthana-asplos13-pbgpu.pdf},\n  year = {2013}\n}\n"
   },
   {
     "title": "SiblingRivalry: Online Autotuning Through Local Competitions",
@@ -1879,7 +1851,7 @@
     "url": "https://commit.csail.mit.edu/papers/2012/olszewski-asplos12-aikido.pdf",
     "bibtexKey": "olszewski:asplos:2012",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{olszewski:asplos:2012,\n  address = {London, UK},\n  author = {Marek Olszewski and Qin Zhao and David Koh and Jason Ansel and Saman Amarasinghe},\n  booktitle = {The International Conference on Architectural Support for Programming Languages and Operating Systems},\n  keywords = {Kendo},\n  month = {Mar},\n  title = {Aikido: Accelerating Shared Data Dynamic Analyses},\n  url = {https://commit.csail.mit.edu/papers/2012/olszewski-asplos12-aikido.pdf},\n  year = {2012}\n}\n"
+    "oldbibtex": "@inproceedings{olszewski:asplos:2012,\n  address = {London, UK},\n  author = {Marek Olszewski and Qin Zhao and David Koh and Jason Ansel and Saman Amarasinghe},\n  booktitle = {17th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {Kendo},\n  month = {Mar},\n  title = {Aikido: Accelerating Shared Data Dynamic Analyses},\n  url = {https://commit.csail.mit.edu/papers/2012/olszewski-asplos12-aikido.pdf},\n  year = {2012}\n}\n"
   },
   {
     "title": "Optimization of Naive Dynamic Binary Instrumentation Tools",
@@ -1946,7 +1918,7 @@
     "url": "https://commit.csail.mit.edu/papers/2011/ansel-pldi11-nacljit.pdf",
     "bibtexKey": "ansel:pldi:2011",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{ansel:pldi:2011,\n  address = {San Jose, CA},\n  author = {Jason Ansel and Petr Marchenko and Ulfar Erlingsson and Elijah Taylor and Brad Chen and Derek Schuff and David Sehr and Cliff Biffle and and Bennet Yee},\n  booktitle = {ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {Security},\n  month = {Jun},\n  title = {Language-Independent Sandboxing of Just-In-Time Compilation and Self-Modifying Code},\n  url = {https://commit.csail.mit.edu/papers/2011/ansel-pldi11-nacljit.pdf},\n  year = {2011}\n}\n"
+    "oldbibtex": "@inproceedings{ansel:pldi:2011,\n  address = {San Jose, CA},\n  author = {Jason Ansel and Petr Marchenko and Ulfar Erlingsson and Elijah Taylor and Brad Chen and Derek Schuff and David Sehr and Cliff Biffle and and Bennet Yee},\n  booktitle = {32nd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {Security},\n  month = {Jun},\n  title = {Language-Independent Sandboxing of Just-In-Time Compilation and Self-Modifying Code},\n  url = {https://commit.csail.mit.edu/papers/2011/ansel-pldi11-nacljit.pdf},\n  year = {2011}\n}\n"
   },
   {
     "author0": "Marek Olszewski and Jason Ansel and Saman Amarasinghe",
@@ -1984,7 +1956,7 @@
     "url": "https://commit.csail.mit.edu/papers/2011/bruening-cgo11-drmemory.pdf",
     "bibtexKey": "bruening:cgo:2011",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{bruening:cgo:2011,\n  address = {Chamonix, France},\n  author = {Derek Bruening and Qin Zhao},\n  booktitle = {The International Symposium on Code Generation and Optimization},\n  keywords = {DynamoRIO},\n  month = {Apr},\n  title = {Practical Memory Checking with Dr. Memory},\n  url = {https://commit.csail.mit.edu/papers/2011/bruening-cgo11-drmemory.pdf},\n  year = {2011}\n}\n"
+    "oldbibtex": "@inproceedings{bruening:cgo:2011,\n  address = {Chamonix, France},\n  author = {Derek Bruening and Qin Zhao},\n  booktitle = {9th International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {DynamoRIO},\n  month = {Apr},\n  title = {Practical Memory Checking with Dr. Memory},\n  url = {https://commit.csail.mit.edu/papers/2011/bruening-cgo11-drmemory.pdf},\n  year = {2011}\n}\n"
   },
   {
     "title": "Language and Compiler Support For Auto-Tuning Variable-Accuracy Algorithms",
@@ -1997,7 +1969,7 @@
     "url": "https://commit.csail.mit.edu/papers/2011/ansel-cgo11-pbaccuracy.pdf",
     "bibtexKey": "ansel:cgo:2011",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{ansel:cgo:2011,\n  address = {Chamonix, France},\n  author = {Jason Ansel and Yee Lok Won and Cy Chan and Marek Olszewski and Alan Edelman and Saman Amarasinghe},\n  booktitle = {The International Symposium on Code Generation and Optimization},\n  keywords = {PetaBricks},\n  month = {Apr},\n  title = {Language and Compiler Support For Auto-Tuning Variable-Accuracy Algorithms},\n  url = {https://commit.csail.mit.edu/papers/2011/ansel-cgo11-pbaccuracy.pdf},\n  year = {2011}\n}\n"
+    "oldbibtex": "@inproceedings{ansel:cgo:2011,\n  address = {Chamonix, France},\n  author = {Jason Ansel and Yee Lok Won and Cy Chan and Marek Olszewski and Alan Edelman and Saman Amarasinghe},\n  booktitle = {9th International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {PetaBricks},\n  month = {Apr},\n  title = {Language and Compiler Support For Auto-Tuning Variable-Accuracy Algorithms},\n  url = {https://commit.csail.mit.edu/papers/2011/ansel-cgo11-pbaccuracy.pdf},\n  year = {2011}\n}\n"
   },
   {
     "author0": "Jason Ansel and Cy Chan",
@@ -2045,7 +2017,7 @@
     "keywords": "StreamIt, Benchmarks",
     "bibtexKey": "thies:pact:2010",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{thies:pact:2010,\n  address = {Vienna, Austria},\n  author = {William Thies and Saman Amarasinghe},\n  booktitle = {International Conference on Parallel Architectures and Compilation Techniques (PACT)},\n  keywords = {StreamIt, Benchmarks},\n  month = {Sep},\n  slides = {https://commit.csail.mit.edu/papers/2010/thies-pact10-slides.pdf},\n  title = {An Empirical Characterization of Stream Programs and its Implications for Language and Compiler Design},\n  url = {https://commit.csail.mit.edu/papers/2010/thies-pact10.pdf},\n  year = {2010}\n}\n"
+    "oldbibtex": "@inproceedings{thies:pact:2010,\n  address = {Vienna, Austria},\n  author = {William Thies and Saman Amarasinghe},\n  booktitle = {19th International Conference on Parallel Architectures and Compilation Techniques (PACT)},\n  keywords = {StreamIt, Benchmarks},\n  month = {Sep},\n  slides = {https://commit.csail.mit.edu/papers/2010/thies-pact10-slides.pdf},\n  title = {An Empirical Characterization of Stream Programs and its Implications for Language and Compiler Design},\n  url = {https://commit.csail.mit.edu/papers/2010/thies-pact10.pdf},\n  year = {2010}\n}\n"
   },
   {
     "title": "Compiler Techniques for Scalable Performance of Stream Programs on Multicore Architectures",
@@ -2100,7 +2072,7 @@
     "keywords": "DynamoRIO",
     "bibtexKey": "zhao:cgo:2010",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{zhao:cgo:2010,\n  address = {Toronto, Canada},\n  author = {Qin Zhao and Derek Bruening and Saman Amarasinghe},\n  booktitle = {The International Symposium on Code Generation and Optimization},\n  keywords = {DynamoRIO},\n  month = {Apr},\n  slides = {https://commit.csail.mit.edu/papers/2010/zhao-cgo10-umbra-slides.pptx},\n  title = {Umbra: Efficient and Scalable Memory Shadowing},\n  url = {https://commit.csail.mit.edu/papers/2010/zhao-cgo10-umbra.pdf},\n  year = {2010}\n}\n"
+    "oldbibtex": "@inproceedings{zhao:cgo:2010,\n  address = {Toronto, Canada},\n  author = {Qin Zhao and Derek Bruening and Saman Amarasinghe},\n  booktitle = {8th International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {DynamoRIO},\n  month = {Apr},\n  slides = {https://commit.csail.mit.edu/papers/2010/zhao-cgo10-umbra-slides.pptx},\n  title = {Umbra: Efficient and Scalable Memory Shadowing},\n  url = {https://commit.csail.mit.edu/papers/2010/zhao-cgo10-umbra.pdf},\n  year = {2010}\n}\n"
   },
   {
     "author0": "Jason Ansel",
@@ -2182,7 +2154,7 @@
     "slides": "https://commit.csail.mit.edu/papers/2009/ansel-pldi09-slides.pdf",
     "bibtexKey": "ansel:pldi:2009",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{ansel:pldi:2009,\n  address = {Dublin, Ireland},\n  author = {Jason Ansel and Cy Chan and Yee Lok Wong and Marek Olszewski and Qin Zhao and Alan Edelman and Saman Amarasinghe},\n  booktitle = {ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {PetaBricks},\n  month = {Jun},\n  slides = {https://commit.csail.mit.edu/papers/2009/ansel-pldi09-slides.pdf},\n  title = {PetaBricks: A Language and Compiler for Algorithmic Choice},\n  url = {https://commit.csail.mit.edu/papers/2009/ansel-pldi09.pdf},\n  year = {2009}\n}\n"
+    "oldbibtex": "@inproceedings{ansel:pldi:2009,\n  address = {Dublin, Ireland},\n  author = {Jason Ansel and Cy Chan and Yee Lok Wong and Marek Olszewski and Qin Zhao and Alan Edelman and Saman Amarasinghe},\n  booktitle = {30th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {PetaBricks},\n  month = {Jun},\n  slides = {https://commit.csail.mit.edu/papers/2009/ansel-pldi09-slides.pdf},\n  title = {PetaBricks: A Language and Compiler for Algorithmic Choice},\n  url = {https://commit.csail.mit.edu/papers/2009/ansel-pldi09.pdf},\n  year = {2009}\n}\n"
   },
   {
     "author0": "Jason Ansel and Kapil Arya and Gene Cooperman",
@@ -2223,7 +2195,7 @@
     "keywords": "Kendo",
     "bibtexKey": "olszewski:asplos:2009",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{olszewski:asplos:2009,\n  address = {Washington, DC},\n  author = {Marek Olszewski and Jason Ansel and Saman Amarasinghe},\n  booktitle = {The International Conference on Architectural Support for Programming Languages and Operating Systems},\n  keywords = {Kendo},\n  month = {Mar},\n  title = {Kendo: Efficient Deterministic Multithreading in Software},\n  url = {https://commit.csail.mit.edu/papers/2009/asplos073-olszewski.pdf},\n  year = {2009}\n}\n"
+    "oldbibtex": "@inproceedings{olszewski:asplos:2009,\n  address = {Washington, DC},\n  author = {Marek Olszewski and Jason Ansel and Saman Amarasinghe},\n  booktitle = {14th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {Kendo},\n  month = {Mar},\n  title = {Kendo: Efficient Deterministic Multithreading in Software},\n  url = {https://commit.csail.mit.edu/papers/2009/asplos073-olszewski.pdf},\n  year = {2009}\n}\n"
   },
   {
     "author0": "Saman Amarasinghe and Michael I. Gordon and Michal Karczmarek and Jasper Lin and David Maze and Rodric Rabbah and William Thies",
@@ -2367,7 +2339,7 @@
     "url": "https://commit.csail.mit.edu/papers/2005/solar-pldi-2005.pdf",
     "bibtexKey": "solar-lezama:pldi:2005",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{solar-lezama:pldi:2005,\n  address = {Chicago, IL},\n  author = {Armando Solar-Lezama and Rodric Rabbah and Rastislav Bodik and Kemal Ebcioglu},\n  booktitle = {ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {StreamIt},\n  month = {Jun},\n  title = {Programming by Sketching for Bit-Streaming Programs},\n  url = {https://commit.csail.mit.edu/papers/2005/solar-pldi-2005.pdf},\n  year = {2005}\n}\n"
+    "oldbibtex": "@inproceedings{solar-lezama:pldi:2005,\n  address = {Chicago, IL},\n  author = {Armando Solar-Lezama and Rodric Rabbah and Rastislav Bodik and Kemal Ebcioglu},\n  booktitle = {26th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {StreamIt},\n  month = {Jun},\n  title = {Programming by Sketching for Bit-Streaming Programs},\n  url = {https://commit.csail.mit.edu/papers/2005/solar-pldi-2005.pdf},\n  year = {2005}\n}\n"
   },
   {
     "title": "How to do a million watchpoints: Efficient Debugging Using Dynamic Instrumentation",
@@ -2380,7 +2352,7 @@
     "url": "https://commit.csail.mit.edu/papers/2008/zhao-cc-2008.pdf",
     "bibtexKey": "zhao:cc:2008",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{zhao:cc:2008,\n  address = {Budapest, Hungary},\n  author = {Qin Zhao and Rodric Rabbah and Saman Amarasinghe and Larry Rudolph and Weng-Fai Wong},\n  booktitle = {The International Conference on Compiler Construction},\n  keywords = {DynamoRIO},\n  month = {Apr},\n  title = {How to do a million watchpoints: Efficient Debugging Using Dynamic Instrumentation},\n  url = {https://commit.csail.mit.edu/papers/2008/zhao-cc-2008.pdf},\n  year = {2008}\n}\n"
+    "oldbibtex": "@inproceedings{zhao:cc:2008,\n  address = {Budapest, Hungary},\n  author = {Qin Zhao and Rodric Rabbah and Saman Amarasinghe and Larry Rudolph and Weng-Fai Wong},\n  booktitle = {17th International Conference on Compiler Construction (CC)},\n  keywords = {DynamoRIO},\n  month = {Apr},\n  title = {How to do a million watchpoints: Efficient Debugging Using Dynamic Instrumentation},\n  url = {https://commit.csail.mit.edu/papers/2008/zhao-cc-2008.pdf},\n  year = {2008}\n}\n"
   },
   {
     "author0": "Nada Amin",
@@ -2433,7 +2405,7 @@
     "keywords": "DynamoRIO",
     "bibtexKey": "zhao:cgo:2008",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{zhao:cgo:2008,\n  address = {Boston, MA},\n  author = {Qin Zhao and Ioana Cutcutache and Weng-Fai Wong},\n  booktitle = {The International Symposium on Code Generation and Optimization},\n  keywords = {DynamoRIO},\n  month = {Apr},\n  title = {PiPA: Pipelined Profiling and Analysis on Multi-core Systems},\n  url = {https://commit.csail.mit.edu/papers/2008/zhao-cgo08-pipa.pdf},\n  year = {2008}\n}\n"
+    "oldbibtex": "@inproceedings{zhao:cgo:2008,\n  address = {Boston, MA},\n  author = {Qin Zhao and Ioana Cutcutache and Weng-Fai Wong},\n  booktitle = {6th International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {DynamoRIO},\n  month = {Apr},\n  title = {PiPA: Pipelined Profiling and Analysis on Multi-core Systems},\n  url = {https://commit.csail.mit.edu/papers/2008/zhao-cgo08-pipa.pdf},\n  year = {2008}\n}\n"
   },
   {
     "author0": "Xin David Zhang and Qiuyuan J. Li and Rodric Rabbah and Saman Amarasinghe",
@@ -2474,7 +2446,7 @@
     "address": "Chicago, IL",
     "bibtexKey": "thies:micro:2007",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{thies:micro:2007,\n  address = {Chicago, IL},\n  author = {William Thies and Vikram Chandrasekhar and Saman Amarasinghe},\n  booktitle = {International Symposium on Microarchitecture},\n  keywords = {StreamIt},\n  month = {Dec},\n  slides = {https://commit.csail.mit.edu/papers/2007/thies-micro07-slides.pdf},\n  title = {A Practical Approach to Exploiting Coarse-Grained Pipeline Parallelism in C Programs},\n  url = {https://commit.csail.mit.edu/papers/2007/thies-micro07.pdf},\n  year = {2007}\n}\n"
+    "oldbibtex": "@inproceedings{thies:micro:2007,\n  address = {Chicago, IL},\n  author = {William Thies and Vikram Chandrasekhar and Saman Amarasinghe},\n  booktitle = {40th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)},\n  keywords = {StreamIt},\n  month = {Dec},\n  slides = {https://commit.csail.mit.edu/papers/2007/thies-micro07-slides.pdf},\n  title = {A Practical Approach to Exploiting Coarse-Grained Pipeline Parallelism in C Programs},\n  url = {https://commit.csail.mit.edu/papers/2007/thies-micro07.pdf},\n  year = {2007}\n}\n"
   },
   {
     "author0": "Abdulbasier Aziz",
@@ -2525,7 +2497,7 @@
     "address": "San Jose, CA",
     "bibtexKey": "zhao:cgo:2007",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{zhao:cgo:2007,\n  address = {San Jose, CA},\n  author = {Qin Zhao and Rodric Rabbah and Saman Amarasinghe and Larry Rudolph and Weng-Fai Wong},\n  booktitle = {International Symposium on Code Generation and Optimization},\n  keywords = {DynamoRIO},\n  month = {Mar},\n  title = {Ubiquitous Memory Introspection},\n  url = {https://commit.csail.mit.edu/papers/2007/zhao-cgo07-umi.pdf},\n  year = {2007}\n}\n"
+    "oldbibtex": "@inproceedings{zhao:cgo:2007,\n  address = {San Jose, CA},\n  author = {Qin Zhao and Rodric Rabbah and Saman Amarasinghe and Larry Rudolph and Weng-Fai Wong},\n  booktitle = {5th International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {DynamoRIO},\n  month = {Mar},\n  title = {Ubiquitous Memory Introspection},\n  url = {https://commit.csail.mit.edu/papers/2007/zhao-cgo07-umi.pdf},\n  year = {2007}\n}\n"
   },
   {
     "author0": "Qin Zhao and Joon Edward Sim and Larry Rudolph and Weng-Fai Wong",
@@ -2538,7 +2510,7 @@
     "address": "Seattle, WA",
     "bibtexKey": "zhao:pact:2006",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{zhao:pact:2006,\n  address = {Seattle, WA},\n  author = {Qin Zhao and Joon Edward Sim and Larry Rudolph and Weng-Fai Wong},\n  booktitle = {International Conference on Parallel Architectures and Compilation Techniques (PACT)},\n  keywords = {DynamoRIO},\n  month = {Sep},\n  title = {DEP: Detailed Execution Profile},\n  url = {https://commit.csail.mit.edu/papers/2006/zhao-pact06-dep.pdf},\n  year = {2006}\n}\n"
+    "oldbibtex": "@inproceedings{zhao:pact:2006,\n  address = {Seattle, WA},\n  author = {Qin Zhao and Joon Edward Sim and Larry Rudolph and Weng-Fai Wong},\n  booktitle = {15th International Conference on Parallel Architectures and Compilation Techniques (PACT)},\n  keywords = {DynamoRIO},\n  month = {Sep},\n  title = {DEP: Detailed Execution Profile},\n  url = {https://commit.csail.mit.edu/papers/2006/zhao-pact06-dep.pdf},\n  year = {2006}\n}\n"
   },
   {
     "author0": "Michael I. Gordon and William Thies and Saman Amarasinghe",
@@ -2552,7 +2524,7 @@
     "address": "San Jose, CA",
     "bibtexKey": "gordon:asplos:2006",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{gordon:asplos:2006,\n  address = {San Jose, CA},\n  author = {Michael I. Gordon and William Thies and Saman Amarasinghe},\n  booktitle = {International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {StreamIt},\n  month = {Oct},\n  slides = {https://commit.csail.mit.edu/papers/./06/gordon-asplos06-slides.pdf},\n  title = {Exploiting Coarse-Grained Task, Data, and Pipeline Parallelism in Stream Programs},\n  url = {https://commit.csail.mit.edu/papers/./06/gordon-asplos06.pdf},\n  year = {2006}\n}\n"
+    "oldbibtex": "@inproceedings{gordon:asplos:2006,\n  address = {San Jose, CA},\n  author = {Michael I. Gordon and William Thies and Saman Amarasinghe},\n  booktitle = {12th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {StreamIt},\n  month = {Oct},\n  slides = {https://commit.csail.mit.edu/papers/./06/gordon-asplos06-slides.pdf},\n  title = {Exploiting Coarse-Grained Task, Data, and Pipeline Parallelism in Stream Programs},\n  url = {https://commit.csail.mit.edu/papers/./06/gordon-asplos06.pdf},\n  year = {2006}\n}\n"
   },
   {
     "author0": "Mark Stephenson",
@@ -2697,7 +2669,7 @@
     "address": "Barcelona, Spain",
     "bibtexKey": "larsen:micro:2005",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{larsen:micro:2005,\n  address = {Barcelona, Spain},\n  author = {Samuel Larsen and Rodric Rabbah and Saman Amarasinghe},\n  booktitle = {International Symposium on Microarchitecture},\n  keywords = {SLP},\n  month = {Nov},\n  title = {Exploiting Vector Parallelism in Software Pipelined Loops},\n  url = {https://commit.csail.mit.edu/papers/2005/Larsen-MICRO38.pdf},\n  year = {2005}\n}\n"
+    "oldbibtex": "@inproceedings{larsen:micro:2005,\n  address = {Barcelona, Spain},\n  author = {Samuel Larsen and Rodric Rabbah and Saman Amarasinghe},\n  booktitle = {38th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)},\n  keywords = {SLP},\n  month = {Nov},\n  title = {Exploiting Vector Parallelism in Software Pipelined Loops},\n  url = {https://commit.csail.mit.edu/papers/2005/Larsen-MICRO38.pdf},\n  year = {2005}\n}\n"
   },
   {
     "author0": "Sitij Agrawal and William Thies and Saman Amarasinghe",
@@ -2781,7 +2753,7 @@
     "address": "San Jose, California",
     "bibtexKey": "amarasinghe:cgo:2005",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{amarasinghe:cgo:2005,\n  address = {San Jose, California},\n  author = {Saman Amarasinghe},\n  booktitle = {International Symposium on Code Generation and Optimization},\n  keywords = {StreamIt, RAW},\n  month = {Mar},\n  slides = {https://commit.csail.mit.edu/papers/2005/amarasinghe-CGO-Keynote-03-05.pdf},\n  title = {Multicores from the Compiler's Perspective: A Blessing or A Curse?},\n  url = {https://commit.csail.mit.edu/papers/2005/amarasinghe-CGO-Keynote-Abstract-03-05.pdf},\n  year = {2005}\n}\n"
+    "oldbibtex": "@inproceedings{amarasinghe:cgo:2005,\n  address = {San Jose, California},\n  author = {Saman Amarasinghe},\n  booktitle = {3rd IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {StreamIt, RAW},\n  month = {Mar},\n  slides = {https://commit.csail.mit.edu/papers/2005/amarasinghe-CGO-Keynote-03-05.pdf},\n  title = {Multicores from the Compiler's Perspective: A Blessing or A Curse?},\n  url = {https://commit.csail.mit.edu/papers/2005/amarasinghe-CGO-Keynote-Abstract-03-05.pdf},\n  year = {2005}\n}\n"
   },
   {
     "author0": "Kimberly Kuo and Rodric Rabbah and Saman Amarasinghe",
@@ -2821,7 +2793,7 @@
     "address": "San Jose, California",
     "bibtexKey": "stephenson:cgo:2005",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{stephenson:cgo:2005,\n  address = {San Jose, California},\n  author = {Mark Stephenson and Saman Amarasinghe},\n  booktitle = {International Symposium on Code Generation and Optimization},\n  keywords = {ML4C},\n  month = {Mar},\n  title = {Predicting Unroll Factors Using Supervised Classification},\n  url = {https://commit.csail.mit.edu/papers/2005/stephensonm_supervised.pdf},\n  year = {2005}\n}\n"
+    "oldbibtex": "@inproceedings{stephenson:cgo:2005,\n  address = {San Jose, California},\n  author = {Mark Stephenson and Saman Amarasinghe},\n  booktitle = {3rd IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {ML4C},\n  month = {Mar},\n  title = {Predicting Unroll Factors Using Supervised Classification},\n  url = {https://commit.csail.mit.edu/papers/2005/stephensonm_supervised.pdf},\n  year = {2005}\n}\n"
   },
   {
     "author0": "Derek Bruening and Saman Amarasinghe",
@@ -2834,7 +2806,7 @@
     "address": "San Jose, California",
     "bibtexKey": "bruening:cgo:2005",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{bruening:cgo:2005,\n  address = {San Jose, California},\n  author = {Derek Bruening and Saman Amarasinghe},\n  booktitle = {International Symposium on Code Generation and Optimization},\n  keywords = {DynamoRIO},\n  month = {Mar},\n  title = {Maintaining Consistency and Bounding Capacity of Software Code Caches},\n  url = {https://commit.csail.mit.edu/papers/2005/RIO-cacheconscap.pdf},\n  year = {2005}\n}\n"
+    "oldbibtex": "@inproceedings{bruening:cgo:2005,\n  address = {San Jose, California},\n  author = {Derek Bruening and Saman Amarasinghe},\n  booktitle = {3rd IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {DynamoRIO},\n  month = {Mar},\n  title = {Maintaining Consistency and Bounding Capacity of Software Code Caches},\n  url = {https://commit.csail.mit.edu/papers/2005/RIO-cacheconscap.pdf},\n  year = {2005}\n}\n"
   },
   {
     "author0": "Juan C Reyes",
@@ -2944,7 +2916,7 @@
     "address": "Munich, Germany",
     "bibtexKey": "taylor:isca:2004",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{taylor:isca:2004,\n  address = {Munich, Germany},\n  author = {Michael Taylor and Walter Lee and Jason Miller and David Wentzlaff and Ian Bratt and Benjamin Greenwald and Henry Hoffman and Paul Johnson and Jason Kim and James Psota and Arvind Saraf and Nathan Shnidman and Volker Strumpen and Matthew Frank and Saman Amarasinghe and Anant Agarwal},\n  booktitle = {International Symposium on Computer Architecture},\n  keywords = {RAW},\n  month = {Jun},\n  title = {Evaluation of the Raw Microprocessor: An Exposed-Wire-Delay Architecture for ILP and Streams},\n  url = {https://commit.csail.mit.edu/papers/2004/raw_isca_2004.pdf},\n  year = {2004}\n}\n"
+    "oldbibtex": "@inproceedings{taylor:isca:2004,\n  address = {Munich, Germany},\n  author = {Michael Taylor and Walter Lee and Jason Miller and David Wentzlaff and Ian Bratt and Benjamin Greenwald and Henry Hoffman and Paul Johnson and Jason Kim and James Psota and Arvind Saraf and Nathan Shnidman and Volker Strumpen and Matthew Frank and Saman Amarasinghe and Anant Agarwal},\n  booktitle = {31st Annual International Symposium on Computer Architecture (ISCA)},\n  keywords = {RAW},\n  month = {Jun},\n  title = {Evaluation of the Raw Microprocessor: An Exposed-Wire-Delay Architecture for ILP and Streams},\n  url = {https://commit.csail.mit.edu/papers/2004/raw_isca_2004.pdf},\n  year = {2004}\n}\n"
   },
   {
     "author0": "Timothy Garnett",
@@ -3067,7 +3039,7 @@
     "address": "San Diego, CA",
     "bibtexKey": "stephenson:pldi:2003",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{stephenson:pldi:2003,\n  address = {San Diego, CA},\n  author = {Mark Stephenson and Saman Amarasinghe and Martin C. Martin and Una-May O'Reilly},\n  booktitle = {ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {ML4C},\n  month = {Jun},\n  title = {Meta Optimization: Improving  Compiler Heuristics with Machine Learning},\n  url = {https://commit.csail.mit.edu/papers/2003/metaopt-pldi.pdf},\n  year = {2003}\n}\n"
+    "oldbibtex": "@inproceedings{stephenson:pldi:2003,\n  address = {San Diego, CA},\n  author = {Mark Stephenson and Saman Amarasinghe and Martin C. Martin and Una-May O'Reilly},\n  booktitle = {24th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {ML4C},\n  month = {Jun},\n  title = {Meta Optimization: Improving  Compiler Heuristics with Machine Learning},\n  url = {https://commit.csail.mit.edu/papers/2003/metaopt-pldi.pdf},\n  year = {2003}\n}\n"
   },
   {
     "author0": "Andrew Lamb and William Thies and Saman Amarasinghe",
@@ -3081,7 +3053,7 @@
     "address": "San Diego, CA",
     "bibtexKey": "lamb:pldi:2003",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{lamb:pldi:2003,\n  address = {San Diego, CA},\n  author = {Andrew Lamb and William Thies and Saman Amarasinghe},\n  booktitle = {ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {StreamIt},\n  month = {Jun},\n  slides = {https://commit.csail.mit.edu/papers/2003/pldi-linear.ppt},\n  title = {Linear Analysis and Optimization of Stream Programs},\n  url = {https://commit.csail.mit.edu/papers/2003/pldi-linear.pdf},\n  year = {2003}\n}\n"
+    "oldbibtex": "@inproceedings{lamb:pldi:2003,\n  address = {San Diego, CA},\n  author = {Andrew Lamb and William Thies and Saman Amarasinghe},\n  booktitle = {24th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {StreamIt},\n  month = {Jun},\n  slides = {https://commit.csail.mit.edu/papers/2003/pldi-linear.ppt},\n  title = {Linear Analysis and Optimization of Stream Programs},\n  url = {https://commit.csail.mit.edu/papers/2003/pldi-linear.pdf},\n  year = {2003}\n}\n"
   },
   {
     "author0": "Vladimir Kiriansky",
@@ -3162,7 +3134,7 @@
     "address": "San Francisco",
     "bibtexKey": "bruening:cgo:2003",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{bruening:cgo:2003,\n  address = {San Francisco},\n  author = {Derek Bruening and Timothy Garnett and Saman Amarasinghe},\n  booktitle = {International Symposium on Code Generation and Optimization},\n  keywords = {DynamoRIO},\n  month = {Mar},\n  title = {An Infrastructure for Adaptive Dynamic Optimization},\n  url = {https://commit.csail.mit.edu/papers/2003/RIO-adaptive-CGO03.pdf},\n  year = {2003}\n}\n"
+    "oldbibtex": "@inproceedings{bruening:cgo:2003,\n  address = {San Francisco},\n  author = {Derek Bruening and Timothy Garnett and Saman Amarasinghe},\n  booktitle = {1st IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},\n  keywords = {DynamoRIO},\n  month = {Mar},\n  title = {An Infrastructure for Adaptive Dynamic Optimization},\n  url = {https://commit.csail.mit.edu/papers/2003/RIO-adaptive-CGO03.pdf},\n  year = {2003}\n}\n"
   },
   {
     "author0": "Michal Karczmarek",
@@ -3188,7 +3160,7 @@
     "address": "Istanbul, Turkey",
     "bibtexKey": "lee:micro:2002",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{lee:micro:2002,\n  address = {Istanbul, Turkey},\n  author = {Walter Lee and Diego Puppin and Shane Michael Swenson and Saman Amarasinghe},\n  booktitle = {International Symposium on Microarchitecture},\n  keywords = {ML4C, RAW},\n  month = {Nov},\n  title = {Convergent Scheduling},\n  url = {https://commit.csail.mit.edu/papers/2002/Convergence-MICRO-2002.pdf},\n  year = {2002}\n}\n"
+    "oldbibtex": "@inproceedings{lee:micro:2002,\n  address = {Istanbul, Turkey},\n  author = {Walter Lee and Diego Puppin and Shane Michael Swenson and Saman Amarasinghe},\n  booktitle = {35th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)},\n  keywords = {ML4C, RAW},\n  month = {Nov},\n  title = {Convergent Scheduling},\n  url = {https://commit.csail.mit.edu/papers/2002/Convergence-MICRO-2002.pdf},\n  year = {2002}\n}\n"
   },
   {
     "author0": "Michael I. Gordon",
@@ -3228,7 +3200,7 @@
     "address": "San Jose, CA USA",
     "bibtexKey": "gordon:asplos:2002",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{gordon:asplos:2002,\n  address = {San Jose, CA USA},\n  author = {Michael I. Gordon and William Thies and Michal Karczmarek and Jasper Lin and Ali S. Meli and Christopher Leger and Andrew Lamb and Jeremy Wong and Henry Hoffman and David Maze and Saman Amarasinghe},\n  booktitle = {International Conference on Architectural Support for Programming Languages and Operating Systems},\n  keywords = {StreamIt},\n  month = {Oct},\n  slides = {https://commit.csail.mit.edu/papers/2002/streamit-asplos.ppt},\n  title = {A Stream Compiler For Communication-Exposed Architectures},\n  url = {https://commit.csail.mit.edu/papers/2002/streamit-asplos.pdf},\n  year = {2002}\n}\n"
+    "oldbibtex": "@inproceedings{gordon:asplos:2002,\n  address = {San Jose, CA USA},\n  author = {Michael I. Gordon and William Thies and Michal Karczmarek and Jasper Lin and Ali S. Meli and Christopher Leger and Andrew Lamb and Jeremy Wong and Henry Hoffman and David Maze and Saman Amarasinghe},\n  booktitle = {10th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {StreamIt},\n  month = {Oct},\n  slides = {https://commit.csail.mit.edu/papers/2002/streamit-asplos.ppt},\n  title = {A Stream Compiler For Communication-Exposed Architectures},\n  url = {https://commit.csail.mit.edu/papers/2002/streamit-asplos.pdf},\n  year = {2002}\n}\n"
   },
   {
     "author0": "Samuel Larsen and Emmett Witchel and Saman Amarasinghe",
@@ -3241,7 +3213,7 @@
     "address": "Charlottesville, VA",
     "bibtexKey": "larsen:pact:2002",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{larsen:pact:2002,\n  address = {Charlottesville, VA},\n  author = {Samuel Larsen and Emmett Witchel and Saman Amarasinghe},\n  booktitle = {International Conference on Parallel Architectures and Compilation Techniques (PACT)},\n  keywords = {SLP},\n  month = {Sep},\n  title = {Increasing and Detecting Memory Address Congruence},\n  url = {https://commit.csail.mit.edu/papers/2002/Congruence-PACT-2002.pdf},\n  year = {2002}\n}\n"
+    "oldbibtex": "@inproceedings{larsen:pact:2002,\n  address = {Charlottesville, VA},\n  author = {Samuel Larsen and Emmett Witchel and Saman Amarasinghe},\n  booktitle = {11th International Conference on Parallel Architectures and Compilation Techniques (PACT)},\n  keywords = {SLP},\n  month = {Sep},\n  title = {Increasing and Detecting Memory Address Congruence},\n  url = {https://commit.csail.mit.edu/papers/2002/Congruence-PACT-2002.pdf},\n  year = {2002}\n}\n"
   },
   {
     "author0": "Samidh Chakrabarti",
@@ -3627,7 +3599,7 @@
     "address": "Grenoble, France",
     "bibtexKey": "thies:cc:2002",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{thies:cc:2002,\n  address = {Grenoble, France},\n  author = {William Thies and Michal Karczmarek and Saman Amarasinghe},\n  booktitle = {International Conference on Compiler Construction},\n  keywords = {StreamIt},\n  month = {Apr},\n  slides = {https://commit.csail.mit.edu/papers/2002/streamit-cc.ppt},\n  title = {StreamIt:  A Language for Streaming Applications},\n  url = {https://commit.csail.mit.edu/papers/2002/streamit-cc.pdf},\n  year = {2002}\n}\n"
+    "oldbibtex": "@inproceedings{thies:cc:2002,\n  address = {Grenoble, France},\n  author = {William Thies and Michal Karczmarek and Saman Amarasinghe},\n  booktitle = {11th International Conference on Compiler Construction (CC)},\n  keywords = {StreamIt},\n  month = {Apr},\n  slides = {https://commit.csail.mit.edu/papers/2002/streamit-cc.ppt},\n  title = {StreamIt:  A Language for Streaming Applications},\n  url = {https://commit.csail.mit.edu/papers/2002/streamit-cc.pdf},\n  year = {2002}\n}\n"
   },
   {
     "author0": "Diego Puppin and Dean Tullsen",
@@ -3653,7 +3625,7 @@
     "address": "Austin, Texas",
     "bibtexKey": "witchel:micro:2001",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{witchel:micro:2001,\n  address = {Austin, Texas},\n  author = {Emmett Witchel and Samuel Larsen and C. Scott Ananian and Krste Asanovic},\n  booktitle = {International Symposium on Microarchitecture},\n  keywords = {},\n  month = {Dec},\n  pages = {124--133},\n  title = {Direct Address Caches for Reduced Power Consumption},\n  url = {https://commit.csail.mit.edu/papers/2001/dacache-micro2001.pdf},\n  year = {2001}\n}\n"
+    "oldbibtex": "@inproceedings{witchel:micro:2001,\n  address = {Austin, Texas},\n  author = {Emmett Witchel and Samuel Larsen and C. Scott Ananian and Krste Asanovic},\n  booktitle = {34th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)},\n  keywords = {},\n  month = {Dec},\n  pages = {124--133},\n  title = {Direct Address Caches for Reduced Power Consumption},\n  url = {https://commit.csail.mit.edu/papers/2001/dacache-micro2001.pdf},\n  year = {2001}\n}\n"
   },
   {
     "author0": "Samuel Larsen and Emmett Witchel and Saman Amarasinghe",
@@ -3897,7 +3869,7 @@
     "address": "",
     "bibtexKey": "lee:asplos:1998",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{lee:asplos:1998,\n  address = {},\n  author = {Walter Lee and Rajeev Barua and Matthew Frank and Srikrishna Devabhaktuni and Johnathan Babb and Vivek Sarkar and Saman Amarasinghe},\n  booktitle = {International Conference on Architectural Support for Programming Languages and Operating Systems},\n  keywords = {RAW},\n  month = {Oct},\n  title = {Space Time Scheduling of Instruction-Level Parallelism on a Raw Machine},\n  url = {https://commit.csail.mit.edu/papers/1998/Spacetime-ASPLOS.pdf},\n  year = {1998}\n}\n"
+    "oldbibtex": "@inproceedings{lee:asplos:1998,\n  address = {},\n  author = {Walter Lee and Rajeev Barua and Matthew Frank and Srikrishna Devabhaktuni and Johnathan Babb and Vivek Sarkar and Saman Amarasinghe},\n  booktitle = {8th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {RAW},\n  month = {Oct},\n  title = {Space Time Scheduling of Instruction-Level Parallelism on a Raw Machine},\n  url = {https://commit.csail.mit.edu/papers/1998/Spacetime-ASPLOS.pdf},\n  year = {1998}\n}\n"
   },
   {
     "author0": "Rajeev Barua and Walter Lee and Saman Amarasinghe and Anant Agarwal",
@@ -3936,7 +3908,7 @@
     "address": "Atlanta, Georgia",
     "bibtexKey": "barua:isca:1999",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{barua:isca:1999,\n  address = {Atlanta, Georgia},\n  author = {Rajeev Barua and Walter Lee and Saman Amarasinghe and Anant Agarwal},\n  booktitle = {International Symposium on Computer Architecture},\n  keywords = {RAW},\n  month = {May},\n  title = {Maps: A Compiler-Managed Memory System for Raw Machines},\n  url = {https://commit.csail.mit.edu/papers/1999/Maps-ISCA.pdf},\n  year = {1999}\n}\n"
+    "oldbibtex": "@inproceedings{barua:isca:1999,\n  address = {Atlanta, Georgia},\n  author = {Rajeev Barua and Walter Lee and Saman Amarasinghe and Anant Agarwal},\n  booktitle = {26th Annual International Symposium on Computer Architecture (ISCA)},\n  keywords = {RAW},\n  month = {May},\n  title = {Maps: A Compiler-Managed Memory System for Raw Machines},\n  url = {https://commit.csail.mit.edu/papers/1999/Maps-ISCA.pdf},\n  year = {1999}\n}\n"
   },
   {
     "author0": "Mark Stephenson and Johnathan Babb and Saman Amarasinghe",
@@ -3949,7 +3921,7 @@
     "address": "Vancouver, British Columbia",
     "bibtexKey": "stephenson:pldi:2000",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{stephenson:pldi:2000,\n  address = {Vancouver, British Columbia},\n  author = {Mark Stephenson and Johnathan Babb and Saman Amarasinghe},\n  booktitle = {ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {Bitwise},\n  month = {Jun},\n  title = {Bitwidth Analysis with Application to Silicon Compilation},\n  url = {https://commit.csail.mit.edu/papers/2000/bitwise-pldi2k.pdf},\n  year = {2000}\n}\n"
+    "oldbibtex": "@inproceedings{stephenson:pldi:2000,\n  address = {Vancouver, British Columbia},\n  author = {Mark Stephenson and Johnathan Babb and Saman Amarasinghe},\n  booktitle = {21st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {Bitwise},\n  month = {Jun},\n  title = {Bitwidth Analysis with Application to Silicon Compilation},\n  url = {https://commit.csail.mit.edu/papers/2000/bitwise-pldi2k.pdf},\n  year = {2000}\n}\n"
   },
   {
     "author0": "Csaba Andras Moritz and Matthew Frank and Saman Amarasinghe",
@@ -4002,7 +3974,7 @@
     "address": "Snowbird, Utah",
     "bibtexKey": "thies:pldi:2001",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{thies:pldi:2001,\n  address = {Snowbird, Utah},\n  author = {William Thies and Frederic Vivien and Jeffrey W. Sheldon and Saman Amarasinghe},\n  booktitle = {ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {polyhedral},\n  month = {Jun},\n  slides = {https://commit.csail.mit.edu/papers/2001/framework-pldi2001-talk.pdf},\n  title = {A Unified Framework For Schedule And Storage Optimization},\n  url = {https://commit.csail.mit.edu/papers/2001/framework-pldi2001.pdf},\n  year = {2001}\n}\n"
+    "oldbibtex": "@inproceedings{thies:pldi:2001,\n  address = {Snowbird, Utah},\n  author = {William Thies and Frederic Vivien and Jeffrey W. Sheldon and Saman Amarasinghe},\n  booktitle = {22nd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {polyhedral},\n  month = {Jun},\n  slides = {https://commit.csail.mit.edu/papers/2001/framework-pldi2001-talk.pdf},\n  title = {A Unified Framework For Schedule And Storage Optimization},\n  url = {https://commit.csail.mit.edu/papers/2001/framework-pldi2001.pdf},\n  year = {2001}\n}\n"
   },
   {
     "author0": "William Thies and Frederic Vivien and Saman Amarasinghe",
@@ -4030,7 +4002,7 @@
     "address": "Vancouver, British Columbia",
     "bibtexKey": "larsen:pldi:2000",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{larsen:pldi:2000,\n  address = {Vancouver, British Columbia},\n  author = {Samuel Larsen and Saman Amarasinghe},\n  booktitle = {ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {SLP},\n  month = {Jun},\n  title = {Exploiting Superword Level Parallelism With Multimedia Instruction Sets},\n  url = {https://commit.csail.mit.edu/papers/2000/SLP-PLDI-2000.pdf},\n  year = {2000}\n}\n"
+    "oldbibtex": "@inproceedings{larsen:pldi:2000,\n  address = {Vancouver, British Columbia},\n  author = {Samuel Larsen and Saman Amarasinghe},\n  booktitle = {21st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {SLP},\n  month = {Jun},\n  title = {Exploiting Superword Level Parallelism With Multimedia Instruction Sets},\n  url = {https://commit.csail.mit.edu/papers/2000/SLP-PLDI-2000.pdf},\n  year = {2000}\n}\n"
   },
   {
     "author0": "Jeffrey W. Sheldon",
@@ -4114,7 +4086,7 @@
     "keywords": "StreamIt",
     "bibtexKey": "asplos013",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{asplos013,\n  author = {Rajadurai, Sumanaruban and Bosboom, Jeffrey and Wong, Weng-Fai and Amarasinghe, Saman },\n  booktitle = {The 23rd ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {StreamIt},\n  organization = {ACM},\n  slides = {https://commit.csail.mit.edu/papers/2018/asplos-gloss.pptx},\n  title = {Gloss: Seamless Live Reconfiguration and Reoptimization of Stream Programs},\n  url = {https://commit.csail.mit.edu/papers/2018/asplos013.pdf},\n  year = {2018}\n}\n"
+    "oldbibtex": "@inproceedings{asplos013,\n  author = {Rajadurai, Sumanaruban and Bosboom, Jeffrey and Wong, Weng-Fai and Amarasinghe, Saman },\n  booktitle = {23rd International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {StreamIt},\n  organization = {ACM},\n  slides = {https://commit.csail.mit.edu/papers/2018/asplos-gloss.pptx},\n  title = {Gloss: Seamless Live Reconfiguration and Reoptimization of Stream Programs},\n  url = {https://commit.csail.mit.edu/papers/2018/asplos013.pdf},\n  year = {2018}\n}\n"
   },
   {
     "title": "A Unified Compiler Backend for Distributed, Cooperative Heterogeneous Execution",
@@ -4173,17 +4145,6 @@
     "oldbibtex": "@phdthesis{vlk:phd-thesis:2019,\n  address = {Cambridge, MA},\n  author = {Vladimir Kiriansky},\n  keywords = {DSL, Security},\n  month = {Jun},\n  school = {Massachusetts Institute of Technology},\n  title = {Improving performance and security of indirect memory references on speculative execution machines},\n  type = {Ph.D. Thesis},\n  url = {https://groups.csail.mit.edu/commit/papers/2019/vkiriansky19phd.pdf},\n  year = {2019}\n}\n"
   },
   {
-    "author0": "Mendis, Charith and Yang, Cambridge and Pu, Yewen and Amarasinghe, Saman and Carbin, Michael",
-    "title": "Compiler Auto-Vectorization using Imitation Learning",
-    "booktitle": "Conference on Neural Information Processing Systems (NeurIPS)",
-    "year": "2019",
-    "url": "https://commit.csail.mit.edu/papers/2019/vemal-nips.pdf",
-    "keywords": "SLP, ML4C",
-    "bibtexKey": "charithautovec",
-    "itemType": "article",
-    "oldbibtex": "@article{charithautovec,\n  author = {Mendis, Charith and Yang, Cambridge and Pu, Yewen and Amarasinghe, Saman and Carbin, Michael},\n  booktitle = {Conference on Neural Information Processing Systems (NeurIPS)},\n  keywords = {SLP, ML4C},\n  title = {Compiler Auto-Vectorization using Imitation Learning},\n  url = {https://groups.csail.mit.edu/commit/papers/2019/not_yet.pdf},\n  year = {2019}\n}\n"
-  },
-  {
     "author0": "Chou, Stephen and Kjolstad, Fredrik and Amarasinghe, Saman",
     "title": "Automatic Generation of Efficient Sparse Tensor Format Conversion Routines",
     "year": "2020",
@@ -4201,7 +4162,7 @@
     "series": "PLDI 2020",
     "bibtexKey": "chou-pldi20-taco-conversion",
     "itemType": "inproceedings",
-    "oldbibtex": "@inproceedings{chou-pldi20-taco-conversion,\n  address = {New York, NY, USA},\n  author = {Chou, Stephen and Kjolstad, Fredrik and Amarasinghe, Saman},\n  booktitle = {Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  doi = {10.1145/3385412.3385963},\n  isbn = {9781450376136},\n  keywords = {TACO},\n  location = {London, UK},\n  month = {Jun},\n  numpages = {16},\n  pages = {823–-838},\n  publisher = {Association for Computing Machinery},\n  series = {PLDI 2020},\n  title = {Automatic Generation of Efficient Sparse Tensor Format Conversion Routines},\n  url = {https://doi.org/10.1145/3385412.3385963},\n  year = {2020}\n}\n"
+    "oldbibtex": "@inproceedings{chou-pldi20-taco-conversion,\n  address = {New York, NY, USA},\n  author = {Chou, Stephen and Kjolstad, Fredrik and Amarasinghe, Saman},\n  booktitle = {41st ACM SIGPLAN International Conference on Programming Language Design and Implementation (PLDI)},\n  doi = {10.1145/3385412.3385963},\n  isbn = {9781450376136},\n  keywords = {TACO},\n  location = {London, UK},\n  month = {Jun},\n  numpages = {16},\n  pages = {823–-838},\n  publisher = {Association for Computing Machinery},\n  series = {PLDI 2020},\n  title = {Automatic Generation of Efficient Sparse Tensor Format Conversion Routines},\n  url = {https://doi.org/10.1145/3385412.3385963},\n  year = {2020}\n}\n"
   },
   {
     "title": "A Unified Iteration Space Transformation Framework for Sparse and Dense Tensor Algebra",
