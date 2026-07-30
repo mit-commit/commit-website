@@ -118,7 +118,7 @@ span.exhibit-collectionSummaryWidget-count { font-size: 129%;  font-weight: bold
 .photo-rotator {
   position: relative;
   width: 100%;
-  max-width: 700px;
+  max-width: 100%;           /* scale with the available page width */
   aspect-ratio: 700 / 158;   /* keeps the same look as old banner */
   margin: 10px auto 16px;
   overflow: hidden;
