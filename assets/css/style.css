@@ -9,7 +9,7 @@ body {
 a:link, a:visited, a:active, a:hover { text-decoration: none; color: #1010b5; }
 a:hover { text-decoration: underline; }
 
-.pagewidth { margin: auto; width: 940px; }
+.pagewidth { margin: auto; width: min(1500px, 94vw); }
 .main { padding-left: 40px; padding-right: 40px; padding-top: 25px; padding-bottom: 30px; background-color: #ffffff; }
 
 .imagediv { padding-bottom: 1px; }
