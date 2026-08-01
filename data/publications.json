@@ -4332,7 +4332,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Maydan, D. E. and Amarasinghe, S. P. and Lam, M. S.",
+    "author0": "Maydan, D. E. and Amarasinghe, Saman and Lam, M. S.",
     "title": "Data Dependence and Data Flow Analysis of Arrays",
     "booktitle": "Workshop on Languages and Compilers for Parallel Computing (LCPC)",
     "address": "New Haven, CT",
@@ -4348,7 +4348,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Maydan, D. E. and Amarasinghe, S. P. and Lam, M. S.",
+    "author0": "Maydan, D. E. and Amarasinghe, Saman and Lam, M. S.",
     "title": "Array Data Flow Analysis and Its Use in Array Privatization",
     "booktitle": "Twentieth Annual ACM Symposium on Principles of Programming Languages (POPL)",
     "address": "Charleston, SC",
@@ -4363,7 +4363,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Amarasinghe, S. P. and Lam, M. S.",
+    "author0": "Amarasinghe, Saman and Lam, M. S.",
     "title": "Communication Optimization and Code Generation for Distributed Memory Machines",
     "booktitle": "ACM SIGPLAN '93 Conference on Programming Language Design and Implementation (PLDI)",
     "address": "Albuquerque, NM",
@@ -4378,7 +4378,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Amarasinghe, S. P. and Anderson, J. M. and Lam, M. S. and Lim, A. W.",
+    "author0": "Amarasinghe, Saman and Anderson, J. M. and Lam, M. S. and Lim, A. W.",
     "title": "An Overview of a Compiler for Scalable Parallel Machines",
     "booktitle": "Workshop on Languages and Compilers for Parallel Computing (LCPC)",
     "address": "Portland, OR",
@@ -4394,7 +4394,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Wilson, R. and French, A. W. and Wilson, C. and Amarasinghe, S. and Anderson, J. and Tjiang, S. and Liao, S.-W. and Tseng, C.-W. and Hall, M. and Lam, M. and Hennessy, J.",
+    "author0": "Wilson, R. P. and French, R. S. and Wilson, C. S. and Amarasinghe, Saman and Anderson, J. M. and Tjiang, S. and Liao, S.-W. and Tseng, C.-W. and Hall, M. W. and Lam, M. S. and Hennessy, J.",
     "title": "SUIF: A Parallelizing and Optimizing Research Compiler",
     "journal": "ACM SIGPLAN Notices",
     "volume": "29",
@@ -4410,7 +4410,7 @@
     "itemType": "article"
   },
   {
-    "author0": "Amarasinghe, S. P. and Anderson, J. M. and Lam, M. S. and Tseng, C. W.",
+    "author0": "Amarasinghe, Saman and Anderson, J. M. and Lam, M. S. and Tseng, C.-W.",
     "title": "An Overview of the SUIF Compiler for Scalable Parallel Machines",
     "booktitle": "Seventh SIAM Conference on Parallel Processing for Scientific Computing",
     "address": "San Francisco, CA",
@@ -4424,7 +4424,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Hall, M. W. and Murphy, B. R. and Amarasinghe, S. P.",
+    "author0": "Hall, M. W. and Murphy, B. R. and Amarasinghe, Saman",
     "title": "Interprocedural Analysis for Parallelization: Design and Experience",
     "booktitle": "Seventh SIAM Conference on Parallel Processing for Scientific Computing",
     "address": "San Francisco, CA",
@@ -4438,7 +4438,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Anderson, J. M. and Amarasinghe, S. P. and Lam, M. S.",
+    "author0": "Anderson, J. M. and Amarasinghe, Saman and Lam, M. S.",
     "title": "Data and Computation Transformations for Multiprocessors",
     "booktitle": "Fifth ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP)",
     "address": "Santa Barbara, CA",
@@ -4453,7 +4453,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Tseng, C.-W. and Anderson, J. M. and Amarasinghe, S. P. and Lam, M. S.",
+    "author0": "Tseng, C.-W. and Anderson, J. M. and Amarasinghe, Saman and Lam, M. S.",
     "title": "Unified Compilation Techniques for Shared and Distributed Address Space Machines",
     "booktitle": "International Conference on Supercomputing (ICS)",
     "address": "Barcelona, Spain",
@@ -4468,7 +4468,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Amarasinghe, S. P. and Anderson, J. M. and French, R. S. and Hall, M. W. and Lam, M. S. and Liao, S.-W. and Murphy, B. R. and Tseng, C.-W. and Wilson, C. S. and Wilson, R. P.",
+    "author0": "Amarasinghe, Saman and Anderson, J. M. and French, R. S. and Hall, M. W. and Lam, M. S. and Liao, S.-W. and Murphy, B. R. and Tseng, C.-W. and Wilson, C. S. and Wilson, R. P.",
     "title": "Hot Compilers for Future Hot Chips",
     "booktitle": "Hot Chips VII",
     "address": "Stanford, CA",
@@ -4481,7 +4481,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Hall, M. W. and Amarasinghe, S. P. and Murphy, B. R. and Liao, S. and Lam, M. S.",
+    "author0": "Hall, M. W. and Amarasinghe, Saman and Murphy, B. R. and Liao, S.-W. and Lam, M. S.",
     "title": "Detecting Coarse-Grain Parallelism Using an Interprocedural Parallelizing Compiler",
     "booktitle": "Proceedings of Supercomputing '95",
     "address": "San Diego, CA",
@@ -4496,7 +4496,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Hall, M. W. and Murphy, B. R. and Amarasinghe, S. P. and Liao, S. and Lam, M. S.",
+    "author0": "Hall, M. W. and Murphy, B. R. and Amarasinghe, Saman and Liao, S.-W. and Lam, M. S.",
     "title": "Interprocedural Analysis for Parallelization",
     "booktitle": "Workshop on Languages and Compilers for Parallel Computing (LCPC)",
     "address": "Columbus, OH",
@@ -4512,7 +4512,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Amarasinghe, S. P. and Anderson, J. M. and Wilson, C. S. and Liao, S.-W. and French, R. S. and Hall, M. W. and Murphy, B. R. and Lam, M. S.",
+    "author0": "Amarasinghe, Saman and Anderson, J. M. and Wilson, C. S. and Liao, S.-W. and French, R. S. and Hall, M. W. and Murphy, B. R. and Lam, M. S.",
     "title": "Multiprocessors from a Software Perspective",
     "journal": "IEEE Micro",
     "volume": "16",
@@ -4528,7 +4528,7 @@
     "itemType": "article"
   },
   {
-    "author0": "Hall, M. W. and Anderson, J. M. and Amarasinghe, S. P. and Murphy, B. R. and Liao, S.-W. and Bugnion, E. and Lam, M. S.",
+    "author0": "Hall, M. W. and Anderson, J. M. and Amarasinghe, Saman and Murphy, B. R. and Liao, S.-W. and Bugnion, E. and Lam, M. S.",
     "title": "Maximizing Multiprocessor Performance with the SUIF Compiler",
     "journal": "Computer",
     "volume": "29",
@@ -4544,7 +4544,7 @@
     "itemType": "article"
   },
   {
-    "author0": "Hall, M. W. and Anderson, J. M. and Amarasinghe, S. P. and Murphy, B. R. and Liao, S.-W. and Bugnion, E. and Lam, M. S.",
+    "author0": "Hall, M. W. and Anderson, J. M. and Amarasinghe, Saman and Murphy, B. R. and Liao, S.-W. and Bugnion, E. and Lam, M. S.",
     "title": "Maximizing Multiprocessor Performance with the SUIF Compiler",
     "journal": "Digital Technical Journal",
     "volume": "10",
@@ -4557,7 +4557,7 @@
     "itemType": "article"
   },
   {
-    "author0": "Taylor, M. B. and Kim, J. and Miller, J. and Wentzlaff, D. and Ghodrat, F. and Greenwald, B. and Hoffman, H. and Johnson, P. and Lee, W. and Saraf, A. and Shnidman, N. and Strumpen, V. and Amarasinghe, S. and Agarwal, A.",
+    "author0": "Taylor, Michael and Kim, J. and Miller, Jason and Wentzlaff, David and Ghodrat, Fae and Greenwald, Benjamin and Hoffman, Henry and Johnson, Paul and Lee, Walter and Saraf, Arvind and Shnidman, Nathan and Strumpen, Volker and Amarasinghe, Saman and Agarwal, Anant",
     "title": "A 16-issue multiple-program-counter microprocessor with point-to-point scalar operand network",
     "booktitle": "IEEE International Solid-State Circuits Conference (ISSCC)",
     "address": "San Francisco, CA",
@@ -4573,7 +4573,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Rabbah, R. and Thies, B. and Gordon, M. and Sermulins, J. and Amarasinghe, S.",
+    "author0": "Rabbah, Rodric and Thies, William and Gordon, Michael I. and Sermulins, Janis and Amarasinghe, Saman",
     "title": "High-Productivity Stream Programming for High-Performance Systems",
     "booktitle": "Ninth Annual High Performance Embedded Computing Workshop (HPEC)",
     "address": "Lincoln, MA",
@@ -4585,7 +4585,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Hall, M. W. and Amarasinghe, S. P. and Murphy, B. R. and Liao, S.-W. and Lam, M. S.",
+    "author0": "Hall, M. W. and Amarasinghe, Saman and Murphy, B. R. and Liao, S.-W. and Lam, M. S.",
     "title": "Interprocedural Parallelization Analysis in SUIF",
     "journal": "ACM Transactions on Programming Languages and Systems (TOPLAS)",
     "volume": "27",
@@ -4600,7 +4600,7 @@
     "itemType": "article"
   },
   {
-    "author0": "Perkins, J. H. and Kim, S. and Larsen, S. and Amarasinghe, S. and Bachrach, J. and Carbin, M. and Pacheco, C. and Sherwood, F. and Sidiroglou, S. and Sullivan, G. and Wong, W.-F. and Zibin, Y. and Ernst, M. D. and Rinard, M.",
+    "author0": "Perkins, J. H. and Kim, S. and Larsen, Samuel and Amarasinghe, Saman and Bachrach, J. and Carbin, Michael and Pacheco, C. and Sherwood, F. and Sidiroglou, S. and Sullivan, Gregory and Wong, Weng-Fai and Zibin, Y. and Ernst, Michael D. and Rinard, Martin",
     "title": "Automatically patching errors in deployed software",
     "booktitle": "ACM SIGOPS 22nd Symposium on Operating Systems Principles (SOSP)",
     "address": "Big Sky, MT",
@@ -4615,7 +4615,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Amarasinghe, S. and Campbell, D. and Carlson, W. and Chien, A. and Dally, W. and Elnohazy, E. and Hall, M. and Harrison, R. and Harrod, W. and Hill, K. and Hiller, J. and Karp, S. and Koelbel, C. and Koester, D. and Kogge, P. and Levesque, J. and Reed, D. and Sarkar, V. and Schreiber, R. and Richards, M. and Scarpelli, A. and Shalf, J. and Snavely, A. and Sterling, T.",
+    "author0": "Amarasinghe, Saman and Campbell, D. and Carlson, W. and Chien, A. and Dally, W. and Elnohazy, E. and Hall, M. W. and Harrison, R. and Harrod, W. and Hill, K. and Hiller, J. and Karp, S. and Koelbel, C. and Koester, D. and Kogge, P. and Levesque, J. and Reed, D. and Sarkar, Vivek and Schreiber, R. and Richards, M. and Scarpelli, A. and Shalf, J. and Snavely, A. and Sterling, T.",
     "title": "ExaScale Software Study: Software Challenges in Extreme Scale Systems",
     "type": "ECSS Report 101909",
     "institution": "Georgia Institute of Technology",
@@ -4627,7 +4627,7 @@
     "itemType": "techreport"
   },
   {
-    "author0": "Lerer, A. and Ward, M. and Amarasinghe, S.",
+    "author0": "Lerer, A. and Ward, M. and Amarasinghe, Saman",
     "title": "Evaluation of IVR Data Collection UIs for Untrained Rural Users",
     "booktitle": "First ACM Annual Symposium on Computing for Development (DEV)",
     "address": "London, United Kingdom",
@@ -4642,7 +4642,7 @@
     "itemType": "inproceedings"
   },
   {
-    "author0": "Palkar, S. and Thomas, J. and Narayanan, D. and Thaker, P. and Palamuttam, R. and Negi, P. and Shanbhag, A. and Schwarzkopf, M. and Pirk, H. and Amarasinghe, S. and Madden, S. and Zaharia, M.",
+    "author0": "Palkar, Shoumik and Thomas, James J. and Narayanan, Deepak and Thaker, P. and Palamuttam, R. and Negi, P. and Shanbhag, Anil and Schwarzkopf, Malte and Pirk, Holger and Amarasinghe, Saman and Madden, S. and Zaharia, Matei",
     "title": "Evaluating End-to-End Optimization for Data Analytics Applications in Weld",
     "journal": "Proceedings of the VLDB Endowment (PVLDB)",
     "volume": "11",
@@ -4657,7 +4657,7 @@
     "itemType": "article"
   },
   {
-    "author0": "Lugato, D. and Kjolstad, F. and Chou, S. and Amarasinghe, S. and Kamil, S.",
+    "author0": "Lugato, David and Kjolstad, Fredrik and Chou, Stephen and Amarasinghe, Saman and Kamil, Shoaib",
     "title": "Taco: compilation et génération de code d'expressions tensorielles",
     "journal": "AVANCÉES",
     "volume": "12",
