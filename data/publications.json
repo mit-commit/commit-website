@@ -5814,7 +5814,7 @@
   "venue": "MAPL"
  },
  {
-  "author0": "Maydan, D. E. and Amarasinghe, Saman and Lam, Monica S.",
+  "author0": "Maydan, Dror E. and Amarasinghe, Saman and Lam, Monica S.",
   "title": "Data Dependence and Data Flow Analysis of Arrays",
   "booktitle": "Workshop on Languages and Compilers for Parallel Computing (LCPC)",
   "address": "New Haven, CT",
@@ -5835,7 +5835,7 @@
   "venue": "LCPC"
  },
  {
-  "author0": "Maydan, D. E. and Amarasinghe, Saman and Lam, Monica S.",
+  "author0": "Maydan, Dror E. and Amarasinghe, Saman and Lam, Monica S.",
   "title": "Array Data Flow Analysis and Its Use in Array Privatization",
   "booktitle": "Twentieth Annual ACM Symposium on Principles of Programming Languages (POPL)",
   "address": "Charleston, SC",
@@ -5877,7 +5877,7 @@
   "venue": "PLDI"
  },
  {
-  "author0": "Amarasinghe, Saman and Anderson, Jennifer M. and Lam, Monica S. and Lim, A. W.",
+  "author0": "Amarasinghe, Saman and Anderson, Jennifer M. and Lam, Monica S. and Lim, Amy W.",
   "title": "An Overview of a Compiler for Scalable Parallel Machines",
   "booktitle": "Workshop on Languages and Compilers for Parallel Computing (LCPC)",
   "address": "Portland, OR",
@@ -5899,7 +5899,7 @@
   "venue": "LCPC"
  },
  {
-  "author0": "Wilson, Robert P. and French, Robert S. and Wilson, Chris S. and Amarasinghe, Saman and Anderson, Jennifer M. and Tjiang, S. and Liao, Shih-Wei and Tseng, Chau-Wen and Hall, Mary W. and Lam, Monica S. and Hennessy, J.",
+  "author0": "Wilson, Robert P. and French, Robert S. and Wilson, Chris S. and Amarasinghe, Saman and Anderson, Jennifer M. and Tjiang, Steve and Liao, Shih-Wei and Tseng, Chau-Wen and Hall, Mary W. and Lam, Monica S. and Hennessy, John",
   "title": "SUIF: A Parallelizing and Optimizing Research Compiler",
   "journal": "ACM SIGPLAN Notices",
   "volume": "29",
@@ -5940,7 +5940,7 @@
   "venue": "Seventh SIAM Conference on Parallel Processing for Scientific Computing"
  },
  {
-  "author0": "Hall, Mary W. and Murphy, B. R. and Amarasinghe, Saman",
+  "author0": "Hall, Mary W. and Murphy, Brian R. and Amarasinghe, Saman",
   "title": "Interprocedural Analysis for Parallelization: Design and Experience",
   "booktitle": "Seventh SIAM Conference on Parallel Processing for Scientific Computing",
   "address": "San Francisco, CA",
@@ -6000,7 +6000,7 @@
   "venue": "ICS"
  },
  {
-  "author0": "Amarasinghe, Saman and Anderson, Jennifer M. and French, Robert S. and Hall, Mary W. and Lam, Monica S. and Liao, Shih-Wei and Murphy, B. R. and Tseng, Chau-Wen and Wilson, Chris S. and Wilson, Robert P.",
+  "author0": "Amarasinghe, Saman and Anderson, Jennifer M. and French, Robert S. and Hall, Mary W. and Lam, Monica S. and Liao, Shih-Wei and Murphy, Brian R. and Tseng, Chau-Wen and Wilson, Chris S. and Wilson, Robert P.",
   "title": "Hot Compilers for Future Hot Chips",
   "booktitle": "Hot Chips VII",
   "address": "Stanford, CA",
@@ -6018,7 +6018,7 @@
   "venue": "Hot Chips VII"
  },
  {
-  "author0": "Hall, Mary W. and Amarasinghe, Saman and Murphy, B. R. and Liao, Shih-Wei and Lam, Monica S.",
+  "author0": "Hall, Mary W. and Amarasinghe, Saman and Murphy, Brian R. and Liao, Shih-Wei and Lam, Monica S.",
   "title": "Detecting Coarse-Grain Parallelism Using an Interprocedural Parallelizing Compiler",
   "booktitle": "Proceedings of Supercomputing '95",
   "address": "San Diego, CA",
@@ -6038,7 +6038,7 @@
   "venue": "Proceedings of Supercomputing '95"
  },
  {
-  "author0": "Hall, Mary W. and Murphy, B. R. and Amarasinghe, Saman and Liao, Shih-Wei and Lam, Monica S.",
+  "author0": "Hall, Mary W. and Murphy, Brian R. and Amarasinghe, Saman and Liao, Shih-Wei and Lam, Monica S.",
   "title": "Interprocedural Analysis for Parallelization",
   "booktitle": "Workshop on Languages and Compilers for Parallel Computing (LCPC)",
   "address": "Columbus, OH",
@@ -6059,7 +6059,7 @@
   "venue": "LCPC"
  },
  {
-  "author0": "Amarasinghe, Saman and Anderson, Jennifer M. and Wilson, Chris S. and Liao, Shih-Wei and French, Robert S. and Hall, Mary W. and Murphy, B. R. and Lam, Monica S.",
+  "author0": "Amarasinghe, Saman and Anderson, Jennifer M. and Wilson, Chris S. and Liao, Shih-Wei and French, Robert S. and Hall, Mary W. and Murphy, Brian R. and Lam, Monica S.",
   "title": "Multiprocessors from a Software Perspective",
   "journal": "IEEE Micro",
   "volume": "16",
@@ -6080,7 +6080,7 @@
   "venue": "IEEE Micro"
  },
  {
-  "author0": "Hall, Mary W. and Anderson, Jennifer M. and Amarasinghe, Saman and Murphy, B. R. and Liao, Shih-Wei and Bugnion, E. and Lam, Monica S.",
+  "author0": "Hall, Mary W. and Anderson, Jennifer M. and Amarasinghe, Saman and Murphy, Brian R. and Liao, Shih-Wei and Bugnion, Ed and Lam, Monica S.",
   "title": "Maximizing Multiprocessor Performance with the SUIF Compiler",
   "journal": "Computer",
   "volume": "29",
@@ -6101,7 +6101,7 @@
   "venue": "Computer"
  },
  {
-  "author0": "Hall, Mary W. and Anderson, Jennifer M. and Amarasinghe, Saman and Murphy, B. R. and Liao, Shih-Wei and Bugnion, E. and Lam, Monica S.",
+  "author0": "Hall, Mary W. and Anderson, Jennifer M. and Amarasinghe, Saman and Murphy, Brian R. and Liao, Shih-Wei and Bugnion, Ed and Lam, Monica S.",
   "title": "Maximizing Multiprocessor Performance with the SUIF Compiler",
   "journal": "Digital Technical Journal",
   "volume": "10",
@@ -6156,7 +6156,7 @@
   "venue": "HPEC"
  },
  {
-  "author0": "Hall, Mary W. and Amarasinghe, Saman and Murphy, B. R. and Liao, Shih-Wei and Lam, Monica S.",
+  "author0": "Hall, Mary W. and Amarasinghe, Saman and Murphy, Brian R. and Liao, Shih-Wei and Lam, Monica S.",
   "title": "Interprocedural Parallelization Analysis in SUIF",
   "journal": "ACM Transactions on Programming Languages and Systems (TOPLAS)",
   "volume": "27",
@@ -6176,7 +6176,7 @@
   "venue": "TOPLAS"
  },
  {
-  "author0": "Perkins, J. H. and Kim, S. and Larsen, Samuel and Amarasinghe, Saman and Bachrach, J. and Carbin, Michael and Pacheco, C. and Sherwood, F. and Sidiroglou, S. and Sullivan, Gregory and Wong, Weng-Fai and Zibin, Y. and Ernst, Michael D. and Rinard, Martin",
+  "author0": "Perkins, Jeff H. and Kim, S. and Larsen, Samuel and Amarasinghe, Saman and Bachrach, J. and Carbin, Michael and Pacheco, C. and Sherwood, F. and Sidiroglou, S. and Sullivan, Gregory and Wong, Weng-Fai and Zibin, Y. and Ernst, Michael D. and Rinard, Martin",
   "title": "Automatically patching errors in deployed software",
   "booktitle": "ACM SIGOPS 22nd Symposium on Operating Systems Principles (SOSP)",
   "address": "Big Sky, MT",
@@ -6195,7 +6195,7 @@
   "venue": "SOSP"
  },
  {
-  "author0": "Amarasinghe, Saman and Campbell, D. and Carlson, W. and Chien, A. and Dally, W. and Elnohazy, E. and Hall, Mary W. and Harrison, R. and Harrod, W. and Hill, K. and Hiller, J. and Karp, S. and Koelbel, C. and Koester, D. and Kogge, P. and Levesque, J. and Reed, D. and Sarkar, Vivek and Schreiber, R. and Richards, M. and Scarpelli, A. and Shalf, J. and Snavely, A. and Sterling, T.",
+  "author0": "Amarasinghe, Saman and Campbell, Dan and Carlson, W. and Chien, Andrew and Dally, Bill and Elnozahy, Mootaz and Hall, Mary W. and Harrison, R. and Harrod, William and Hill, K. and Hiller, Jon and Karp, S. and Koelbel, C. and Koester, D. and Kogge, Peter and Levesque, J. and Reed, Dan and Sarkar, Vivek and Schreiber, Rob and Richards, M. and Scarpelli, A. and Shalf, John and Snavely, A. and Sterling, Thomas",
   "title": "ExaScale Software Study: Software Challenges in Extreme Scale Systems",
   "type": "ECSS Report 101909",
   "institution": "Georgia Institute of Technology",
@@ -6229,7 +6229,7 @@
   "venue": "DEV"
  },
  {
-  "author0": "Palkar, Shoumik and Thomas, James J. and Narayanan, Deepak and Thaker, P. and Palamuttam, R. and Negi, P. and Shanbhag, Anil and Schwarzkopf, Malte and Pirk, Holger and Amarasinghe, Saman and Madden, S. and Zaharia, Matei",
+  "author0": "Palkar, Shoumik and Thomas, James J. and Narayanan, Deepak and Thaker, P. and Palamuttam, R. and Negi, P. and Shanbhag, Anil and Schwarzkopf, Malte and Pirk, Holger and Amarasinghe, Saman and Madden, Sam and Zaharia, Matei",
   "title": "Evaluating End-to-End Optimization for Data Analytics Applications in Weld",
   "journal": "Proceedings of the VLDB Endowment (PVLDB)",
   "volume": "11",
