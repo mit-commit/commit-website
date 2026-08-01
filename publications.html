@@ -114,18 +114,24 @@
                 <div class="filter-block">
                   <div class="filter-label">Authors</div>
                   <div class="facet-sort-control">
-                    <label for="author-sort">Sort by:</label>
-                    <select id="author-sort">
-                      <option value="first" selected>First name</option>
-                      <option value="last">Last name</option>
-                      <option value="count"># of publications</option>
-                      <option value="recent">Published recently</option>
+                    <select id="author-sort" aria-label="Sort authors by">
+                      <option value="first" selected>First</option>
+                      <option value="last">Last</option>
+                      <option value="count"># pubs</option>
+                      <option value="recent">recent</option>
                     </select>
+                    <input id="author-search" type="text" class="facet-search-input"
+                           placeholder="Filter names…" aria-label="Filter author names">
                   </div>
                   <div id="facet-authors" class="facet-list"></div>
                 </div>
                 <div class="filter-block">
-                  <div class="filter-label">Type</div>
+                  <div class="filter-label">Categorize</div>
+                  <div class="type-toggle" id="type-toggle" role="group" aria-label="Categorize publications by">
+                    <button type="button" class="type-toggle-btn active" data-mode="type" aria-pressed="true">Type</button>
+                    <button type="button" class="type-toggle-btn" data-mode="venue-name" aria-pressed="false">Venue (by Name)</button>
+                    <button type="button" class="type-toggle-btn" data-mode="venue-count" aria-pressed="false">Venue (by # pubs)</button>
+                  </div>
                   <div id="facet-types" class="facet-list"></div>
                 </div>
               </div>

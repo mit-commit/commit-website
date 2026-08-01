@@ -326,7 +326,10 @@ function createBibLink(it){
       sortKey: 'none',   // 'none' | 'title' | 'venue' | 'firstAuthor' | 'type' | 'month'
       sortDesc: false,
       sortOrder: ['year','month','type','authorLast'],  // default
-      authorSort: 'first'
+      authorSort: 'first',
+      authorQuery: '',            // free-text filter for the authors list
+      typeMode: 'type',           // 'type' | 'venue' — how the third facet categorizes
+      venueSort: 'name'           // 'name' | 'count' — venue ordering in venue mode
 
   };
 
@@ -342,6 +345,8 @@ function createBibLink(it){
     auBox: document.getElementById('facet-authors'),
       tyBox: document.getElementById('facet-types'),
       authorSort: document.getElementById('author-sort'),
+      authorSearch: document.getElementById('author-search'),
+      typeToggle: document.getElementById('type-toggle'),
       // els:
       sort1: document.getElementById('sort-1'),
       sort2: document.getElementById('sort-2'),
@@ -515,10 +520,91 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
       prevScroll = els.auBox._facet.scrollWrap.scrollTop;
     }
     var sorted = sortAuthorValues(ALL_AUTHORS, state.authorSort || 'first');
+    var q = (state.authorQuery || '').trim().toLowerCase();
+    if (q) {
+      sorted = sorted.filter(function (name) {
+        return String(name || '').toLowerCase().indexOf(q) !== -1;
+      });
+    }
     buildFacetBox(sorted, els.auBox, 'authors', state.authors);
     if (els.auBox._facet && els.auBox._facet.scrollWrap) {
       els.auBox._facet.scrollWrap.scrollTop = prevScroll;
     }
+  }
+
+
+  /* ---------- Type / Venue categorization (third facet) ---------- */
+  var THESIS_TYPES = { mastersthesis:1, phdthesis:1, sciencethesis:1, sbthesis:1 };
+
+  // Full journal/venue names (lowercased) -> shorthand, for entries lacking a "(ABBR)".
+  var VENUE_SHORT_MAP = {
+    'acm transactions on graphics': 'TOG',
+    'communications of the acm': 'CACM',
+    'acm transactions on programming languages and systems': 'TOPLAS',
+    'acm transactions on architecture and code optimization': 'TACO',
+    'acm transactions on computer systems': 'TOCS',
+    'ieee micro': 'IEEE Micro',
+    'ieee computer': 'IEEE Computer',
+    'ieee transactions on computers': 'IEEE TC',
+    'international journal of parallel programming': 'IJPP',
+    'journal of instruction-level parallelism': 'JILP'
+  };
+
+  function venueRawOf(it){ return firstDefined(it.booktitle, it.journal, it.series); }
+
+  // Best-effort shorthand for a paper's venue; '' when none can be derived.
+  function venueShortOf(it){
+    if (it.venueShort) return String(it.venueShort).trim();
+    var raw = String(venueRawOf(it) || '');
+    var m = raw.match(/\(([^()]{1,20})\)\s*$/);   // trailing "(ABBR)"
+    if (m) {
+      var abbr = m[1].trim();
+      if (abbr && /[A-Za-z]/.test(abbr) && !/^\d/.test(abbr)) return abbr;
+    }
+    var key = raw.toLowerCase().trim();
+    if (VENUE_SHORT_MAP[key]) return VENUE_SHORT_MAP[key];
+    return '';
+  }
+
+  // Canonical category key for the current mode (used by facet values, filtering and counts).
+  function categoryKeyOf(it){
+    var t = (it.itemType || 'misc').toLowerCase().trim();
+    if (state.typeMode !== 'venue') return 'type:' + t;
+    // Venue mode: theses and tech reports stay grouped by type.
+    if (THESIS_TYPES[t] || t === 'techreport') return 'type:' + t;
+    // Conference / journal papers group by shorthand venue when one is derivable.
+    if (t === 'inproceedings' || t === 'article') {
+      var vs = venueShortOf(it);
+      if (vs) return 'venue:' + vs;
+    }
+    return 'venue:__other__';   // anything without a good venue name
+  }
+
+  function categoryLabelOf(key){
+    if (key === 'venue:__other__') return 'Other';
+    if (key.indexOf('type:') === 0)  return typeLabel(key.slice(5));
+    if (key.indexOf('venue:') === 0) return key.slice(6);
+    return key;
+  }
+
+  // Ordering bucket: theses / tech reports first (0), venues (1), "Other" last (2).
+  function categoryBucket(key){
+    if (key === 'venue:__other__') return 2;
+    return (key.indexOf('type:') === 0) ? 0 : 1;
+  }
+
+  function rebuildTypeFacet(){
+    if (!els.tyBox) return;
+    var counts = {}, i, key;
+    for (i = 0; i < DATA.length; i++){ key = categoryKeyOf(DATA[i]); counts[key] = (counts[key] || 0) + 1; }
+    var byCount = (state.typeMode === 'venue' && state.venueSort === 'count');
+    var vals = Object.keys(counts).sort(function(a, b){
+      var ba = categoryBucket(a), bb = categoryBucket(b);
+      if (ba !== bb) return ba - bb;
+      if (byCount && ba === 1 && counts[a] !== counts[b]) return counts[b] - counts[a];  // venues by # pubs desc
+      return categoryLabelOf(a).toLowerCase().localeCompare(categoryLabelOf(b).toLowerCase());
+    });
+    buildFacetBox(vals, els.tyBox, 'types', state.types, categoryLabelOf);
   }
 
 
@@ -737,8 +823,7 @@ if (auKeys.length){
       var tyKeys = keysSelected(state.types);
       if (tyKeys.length){
         items = items.filter(function(it){
-          var t = it.itemType || 'misc';
-          return tyKeys.indexOf(t) >= 0;
+          return tyKeys.indexOf(categoryKeyOf(it)) >= 0;
         });
       }
     }
@@ -788,8 +873,8 @@ updateFacetCounts(els.auBox, 'authors', aCounts, state.authors);
     // Types
 var itemsT = filteredItems('types'), tCounts = {};
 for (i = 0; i < itemsT.length; i++){
-  var t = (itemsT[i].itemType || 'misc').toLowerCase().trim();
-  tCounts[t] = (tCounts[t] || 0) + 1;
+  var ck = categoryKeyOf(itemsT[i]);
+  tCounts[ck] = (tCounts[ck] || 0) + 1;
 }
 updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
 
@@ -854,6 +939,9 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
     state.types = {};
     state.scroll = { keywords:0, authors:0, types:0 };
     if (els.title) els.title.value = '';
+    state.authorQuery = '';
+    if (els.authorSearch) els.authorSearch.value = '';
+    rebuildAuthorFacet();
     applyFilters();
   }
 
@@ -878,6 +966,39 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
         rebuildAuthorFacet();
         applyFilters();
       };
+    }
+
+    if (els.authorSearch) {
+      els.authorSearch.value = state.authorQuery;
+      els.authorSearch.oninput = function(){
+        state.authorQuery = this.value || '';
+        rebuildAuthorFacet();
+        applyFilters();
+      };
+    }
+
+    if (els.typeToggle) {
+      var toggleBtns = els.typeToggle.querySelectorAll('.type-toggle-btn');
+      var setMode = function(sel){
+        var mode = (sel === 'type') ? 'type' : 'venue';
+        var vsort = (sel === 'venue-count') ? 'count' : 'name';
+        var modeChanged = (mode !== state.typeMode);
+        var sortChanged = (mode === 'venue' && vsort !== state.venueSort);
+        if (!modeChanged && !sortChanged) return;
+        state.typeMode = mode;
+        state.venueSort = vsort;
+        for (var k = 0; k < toggleBtns.length; k++){
+          var on = toggleBtns[k].getAttribute('data-mode') === sel;
+          toggleBtns[k].className = on ? 'type-toggle-btn active' : 'type-toggle-btn';
+          toggleBtns[k].setAttribute('aria-pressed', on ? 'true' : 'false');
+        }
+        if (modeChanged) state.types = {};          // category keys differ between type and venue
+        rebuildTypeFacet();
+        applyFilters();
+      };
+      for (var ti = 0; ti < toggleBtns.length; ti++){
+        toggleBtns[ti].onclick = function(){ setMode(this.getAttribute('data-mode')); };
+      }
     }
 
 function downloadText(filename, text){
@@ -1089,16 +1210,8 @@ if (els.sortReset) els.sortReset.onclick = function(){
 		    if (itYear > (AUTHOR_LATEST_YEAR[auKey] || 0)) AUTHOR_LATEST_YEAR[auKey] = itYear;
 		}
             }
-	    // Types (canonical keys), values sorted by pretty label
-	    var tySet = {}, i;
-	    for (i = 0; i < DATA.length; i++){
-		var ty = (DATA[i].itemType || 'misc').toLowerCase().trim();
-		tySet[ty] = 1;
-	    }
-	    var tyVals = Object.keys(tySet).sort(function(a,b){ return typeLabel(a).localeCompare(typeLabel(b)); });
-
-	    // Build types facet; pass labelFor so UI shows friendly names but values remain canonical
-	    buildFacetBox(tyVals, els.tyBox, 'types', state.types, typeLabel);
+	    // Type / Venue facet (values + labels depend on state.typeMode)
+	    rebuildTypeFacet();
 
           var kwVals = Object.keys(kwSet).sort(function(a,b){ return a.localeCompare(b); });
           ALL_AUTHORS = Object.keys(auSet);

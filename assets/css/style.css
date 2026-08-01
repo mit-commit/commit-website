@@ -363,3 +363,30 @@ span.exhibit-collectionSummaryWidget-count { font-size: 129%;  font-weight: bold
 .sort-multilevel { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
 .sort-label { font-weight:600; margin-right:2px; }
 .sort-multilevel select { padding:2px 4px; }
+
+/* --- Publications facet tweaks --- */
+/* Taller facet boxes (~+25% over 7.5em) */
+.facet-scroll { max-height: 9.4em; }
+
+/* Bottom-align the three facet boxes (Keywords / Authors / Type) */
+.filter-grid > .filter-block { display: flex; flex-direction: column; }
+.filter-grid > .filter-block .facet-list { margin-top: auto; }
+
+/* Author name filter box, inline next to the Sort control */
+.facet-sort-control { flex-wrap: wrap; min-width: 0; }
+.facet-sort-control select { min-width: 0; }
+.facet-search-input {
+  flex: 1 1 4em;
+  min-width: 4em;
+  padding: 3px 6px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 100%;
+}
+
+/* Type / Venue category toggle (chips) in the third facet column */
+.type-toggle { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
+.type-toggle-btn { border: 1px solid #bbb; background: #f7f7f7; padding: 3px 10px; cursor: pointer; font-size: 88%; color: #333; border-radius: 6px; }
+.type-toggle-btn:hover:not(.active) { background: #eee; }
+.type-toggle-btn.active { background: #1010b5; color: #fff; border-color: #1010b5; }
