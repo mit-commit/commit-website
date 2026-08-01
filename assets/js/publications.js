@@ -232,6 +232,25 @@ function monthLabelOf(it){
     return out;
   }
 
+  // Just the topics of an item (array or comma string).
+  function topicsOf(it){
+    var out = [], i, t;
+    if (it && it.topics){
+      if (Object.prototype.toString.call(it.topics) === '[object Array]'){
+        for (i=0;i<it.topics.length;i++){ t = String(it.topics[i]).trim(); if(t) out.push(t); }
+      } else {
+        out = splitKeywords(it.topics);
+      }
+    }
+    return out;
+  }
+
+  // Just the project of an item, as a one-element list (or empty).
+  function projectsOf(it){
+    if (it && it.project){ var pr = String(it.project).trim(); if (pr) return [pr]; }
+    return [];
+  }
+
 
 // Key extractors (for sorting within groups)
 function keyFor(it, which){
@@ -341,6 +360,7 @@ function createBibLink(it){
       sortDesc: false,
       sortOrder: ['year','month','type','authorLast'],  // default
       authorSort: 'count',
+      kwMode: 'topics',           // 'topics' | 'projects' — Topics & Projects facet mode
       authorQuery: '',            // free-text filter for the authors list
       typeMode: 'type',           // 'type' | 'venue' — how the third facet categorizes
       venueSort: 'name'           // 'name' | 'count' — venue ordering in venue mode
@@ -356,6 +376,7 @@ function createBibLink(it){
     years: document.getElementById('facet-years'),
     title: document.getElementById('facet-title'),
     kwBox: document.getElementById('facet-keywords'),
+    kwToggle: document.getElementById('kw-toggle'),
     auBox: document.getElementById('facet-authors'),
       tyBox: document.getElementById('facet-types'),
       authorSort: document.getElementById('author-sort'),
@@ -784,6 +805,21 @@ function renderList(mount, items){
 }
 
 
+  /* ---------- Topics & Projects facet ---------- */
+  function kwValuesOf(it){
+    return (state.kwMode === 'projects') ? projectsOf(it) : topicsOf(it);
+  }
+
+  function rebuildKeywordFacet(){
+    if (!els.kwBox) return;
+    var prev = (els.kwBox._facet && els.kwBox._facet.scrollWrap) ? els.kwBox._facet.scrollWrap.scrollTop : 0;
+    var set = {}, i, j;
+    for (i=0;i<DATA.length;i++){ var vs = kwValuesOf(DATA[i]); for (j=0;j<vs.length;j++) set[vs[j]] = 1; }
+    var vals = Object.keys(set).sort(function(a,b){ return a.localeCompare(b); });
+    buildFacetBox(vals, els.kwBox, 'keywords', state.keywords);
+    if (els.kwBox._facet && els.kwBox._facet.scrollWrap) els.kwBox._facet.scrollWrap.scrollTop = prev;
+  }
+
   /* ---------- Filtering & Dynamic counts ---------- */
 
   // Returns items filtered by current state, optionally excluding one facet ("years"|"keywords"|"authors"|"types")
@@ -869,7 +905,7 @@ if (auKeys.length){
     // Keywords
     var itemsK = filteredItems('keywords'), kCounts = {}, j;
     for (i=0;i<itemsK.length;i++){
-      var kws = tagsOf(itemsK[i]);
+      var kws = kwValuesOf(itemsK[i]);
       for (j=0;j<kws.length;j++) kCounts[kws[j]] = (kCounts[kws[j]]||0) + 1;
     }
     updateFacetCounts(els.kwBox, 'keywords', kCounts, state.keywords);
@@ -989,6 +1025,25 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
         rebuildAuthorFacet();
         applyFilters();
       };
+    }
+
+    if (els.kwToggle) {
+      var kwBtns = els.kwToggle.querySelectorAll('.type-toggle-btn');
+      var setKwMode = function(sel){
+        if (sel === state.kwMode) return;
+        state.kwMode = sel;
+        state.keywords = {};   // selections differ between Topics and Projects
+        for (var k=0;k<kwBtns.length;k++){
+          var on = kwBtns[k].getAttribute('data-kwmode') === sel;
+          kwBtns[k].className = on ? 'type-toggle-btn active' : 'type-toggle-btn';
+          kwBtns[k].setAttribute('aria-pressed', on ? 'true' : 'false');
+        }
+        rebuildKeywordFacet();
+        applyFilters();
+      };
+      for (var kb=0;kb<kwBtns.length;kb++){
+        kwBtns[kb].onclick = (function(btn){ return function(){ setKwMode(btn.getAttribute('data-kwmode')); }; })(kwBtns[kb]);
+      }
     }
 
     if (els.typeToggle) {
@@ -1210,11 +1265,9 @@ if (els.sortReset) els.sortReset.onclick = function(){
           buildYearGrid(years);
 
             // Facets static lists (values only; counts dynamic)
-            var kwSet = {}, auSet = {};
+            var auSet = {};
             for (i=0;i<DATA.length;i++){
 		var it = DATA[i], j;
-		var kws = tagsOf(it);
-		for (j=0;j<kws.length;j++) kwSet[kws[j]] = 1;
 		var aus = listNormalizedAuthors(it);
 		var itYear = it.year ? parseInt(it.year, 10) : 0;
 		for (j=0;j<aus.length;j++) {
@@ -1227,11 +1280,9 @@ if (els.sortReset) els.sortReset.onclick = function(){
 	    // Type / Venue facet (values + labels depend on state.typeMode)
 	    rebuildTypeFacet();
 
-          var kwVals = Object.keys(kwSet).sort(function(a,b){ return a.localeCompare(b); });
           ALL_AUTHORS = Object.keys(auSet);
 
-
-          buildFacetBox(kwVals, els.kwBox, 'keywords', state.keywords);
+          rebuildKeywordFacet();
           rebuildAuthorFacet();
 
           applyFilters(); // initial render and dynamic counts
