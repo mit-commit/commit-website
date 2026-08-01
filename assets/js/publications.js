@@ -218,6 +218,20 @@ function monthLabelOf(it){
     return out;
   }
 
+  // Facet tags for an item = its topics (array or comma string) plus its project.
+  function tagsOf(it){
+    var out = [], i, t;
+    if (it && it.topics){
+      if (Object.prototype.toString.call(it.topics) === '[object Array]'){
+        for (i=0;i<it.topics.length;i++){ t = String(it.topics[i]).trim(); if(t) out.push(t); }
+      } else {
+        out = splitKeywords(it.topics);
+      }
+    }
+    if (it && it.project){ var pr = String(it.project).trim(); if (pr && out.indexOf(pr) < 0) out.push(pr); }
+    return out;
+  }
+
 
 // Key extractors (for sorting within groups)
 function keyFor(it, which){
@@ -228,7 +242,7 @@ function keyFor(it, which){
   if (which==='authorFirst') { var f = firstAuthorFirstName(it); return f ? f : 'zzz'; }
   if (which==='authorLast')  { var l = firstAuthorLastName(it); return l ? l : 'zzz'; }
   if (which==='keywords') {
-    var ks = splitKeywords(it.keywords || '');
+    var ks = tagsOf(it);
     if (ks.length) { ks.sort(function(a,b){ return a.localeCompare(b); }); return ks[0]; }
     return 'zzz';
   }
@@ -280,7 +294,7 @@ function buildBibtex(it, localizeURLFn){
   pushLine('number',    escBib(it.issue || it.number || ''));
   pushLine('pages',     escBib(it.pages || ''));
   pushLine('doi',       escBib(it.doi || ''));
-  pushLine('keywords',  escBib(it.keywords || ''));
+  pushLine('keywords',  escBib(tagsOf(it).join(', ')));
   pushLine('url',       escBib(url));
   if (slides) pushLine('note', 'Slides: ' + slides);
 
@@ -718,7 +732,7 @@ function renderList(mount, items){
     } else if (primary==='authorLast'){
       var ln = firstAuthorLastName(it); add(ln || 'Other', it);
     } else if (primary==='keywords'){
-      var ks = splitKeywords(it.keywords || ''); if (ks.length){ for (var k2=0;k2<ks.length;k2++) add(ks[k2], it); } else add('Other', it);
+      var ks = tagsOf(it); if (ks.length){ for (var k2=0;k2<ks.length;k2++) add(ks[k2], it); } else add('Other', it);
     }
   }
 
@@ -797,7 +811,7 @@ function renderList(mount, items){
       var kwKeys = keysSelected(state.keywords);
       if (kwKeys.length){
         items = items.filter(function(it){
-          var kws = splitKeywords(it.keywords || '');
+          var kws = tagsOf(it);
           for (var i=0;i<kws.length;i++) if (kwKeys.indexOf(kws[i]) >= 0) return true;
           return false;
         });
@@ -855,7 +869,7 @@ if (auKeys.length){
     // Keywords
     var itemsK = filteredItems('keywords'), kCounts = {}, j;
     for (i=0;i<itemsK.length;i++){
-      var kws = splitKeywords(itemsK[i].keywords || '');
+      var kws = tagsOf(itemsK[i]);
       for (j=0;j<kws.length;j++) kCounts[kws[j]] = (kCounts[kws[j]]||0) + 1;
     }
     updateFacetCounts(els.kwBox, 'keywords', kCounts, state.keywords);
@@ -1199,7 +1213,7 @@ if (els.sortReset) els.sortReset.onclick = function(){
             var kwSet = {}, auSet = {};
             for (i=0;i<DATA.length;i++){
 		var it = DATA[i], j;
-		var kws = splitKeywords(it.keywords || '');
+		var kws = tagsOf(it);
 		for (j=0;j<kws.length;j++) kwSet[kws[j]] = 1;
 		var aus = listNormalizedAuthors(it);
 		var itYear = it.year ? parseInt(it.year, 10) : 0;

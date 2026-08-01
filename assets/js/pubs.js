@@ -105,7 +105,9 @@ function localizeAssetURL(url) {
     pushLine(out, 'number',  escBib(it.issue || it.number || ''));
     pushLine(out, 'pages',   escBib(it.pages || ''));
     pushLine(out, 'doi',     escBib(it.doi || ''));
-    pushLine(out, 'keywords',escBib(it.keywords || ''));
+    var kwList = (Object.prototype.toString.call(it.topics) === '[object Array]' ? it.topics.slice() : (it.topics ? String(it.topics).split(/[,;]+/) : []));
+    if (it.project) kwList.push(it.project);
+    pushLine(out, 'keywords', escBib(kwList.map(function(s){ return String(s).trim(); }).filter(Boolean).join(', ')));
     pushLine(out, 'url',     escBib(url));
     if (slides) pushLine(out, 'note', 'Slides: ' + slides);
     // trim final comma of last field line
