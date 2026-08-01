@@ -2865,10 +2865,6 @@
   "bibtexKey": "ansel:ipdps:2009",
   "itemType": "inproceedings",
   "oldbibtex": "@inproceedings{ansel:ipdps:2009,\n  address = {Rome, Italy},\n  author = {Jason Ansel and Kapil Arya and Gene Cooperman},\n  booktitle = {IEEE International Parallel and Distributed Processing Symposium (IPDPS)},\n  month = {May},\n  slides = {https://commit.csail.mit.edu/papers/2009/ansel-ipdps09-slides.pdf},\n  title = {DMTCP: Transparent Checkpointing for Cluster Computations and the Desktop},\n  url = {https://commit.csail.mit.edu/papers/2009/ansel-ipdps09.pdf},\n  year = {2009}\n}\n",
-  "topics": [
-   "Checkpointing & Fault Tolerance",
-   "HPC"
-  ],
   "project": "Other",
   "venue": "IPDPS"
  },
