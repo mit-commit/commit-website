@@ -340,7 +340,7 @@ function createBibLink(it){
       sortKey: 'none',   // 'none' | 'title' | 'venue' | 'firstAuthor' | 'type' | 'month'
       sortDesc: false,
       sortOrder: ['year','month','type','authorLast'],  // default
-      authorSort: 'first',
+      authorSort: 'count',
       authorQuery: '',            // free-text filter for the authors list
       typeMode: 'type',           // 'type' | 'venue' — how the third facet categorizes
       venueSort: 'name'           // 'name' | 'count' — venue ordering in venue mode

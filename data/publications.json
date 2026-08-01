@@ -127,7 +127,8 @@
   "oldbibtex": "article{unite:2025,\n  title   = {UniTe: A Universal Tensor Abstraction for Capturing Spatial Relationships},\n  author  = {Ray, Jessica and\n             Collin, Teodoro and\n             Sze, Vivienne and\n             Reuther, Albert and\n             Amarasinghe, Saman},\n  journal = {ACM Transactions on Architecture and Code Optimization},\n  year    = {2025},\n  month   = dec,\n  address = {Cambridge, MA, USA},\n  url     = {https://commit.csail.mit.edu/papers/2025/2025_TACO_UNITE.pdf},\n  note    = {Work completed while at MIT CSAIL}\n}",
   "journal": "ACM Transactions on Architecture and Code Optimization",
   "topics": [
-   "Sparse & Tensor Algebra"
+   "Sparse & Tensor Algebra",
+   "DSLs"
   ],
   "project": "UniTe",
   "venue": "ACM TACO"
@@ -181,6 +182,7 @@
   "itemType": "sciencethesis",
   "topics": [
    "Sparse & Tensor Algebra",
+   "DSLs",
    "Machine Learning for Compilers",
    "Compiler Optimization"
   ],
@@ -706,6 +708,7 @@
   "oldbibtex": "@inproceedings{jaeyeon:asplos:2023,\n  address = {Vancouver, Canada},\n  author = {Won, Jaeyeon and Mendis, Charith and Emer, Joel and Amarasinghe, Saman},\n  booktitle = {28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {TACO,AutoSchedule},\n  month = {Apr},\n  slides = {https://commit.csail.mit.edu/presentations/2023/WACO_ASPLOS.pdf},\n  title = {WACO: Learning workload-aware co-optimization of the format and  schedule of a sparse tensor program},\n  url = {https://commit.csail.mit.edu/papers/2023/WACO_ASPLOS23.pdf},\n  video = {https://youtu.be/RO6avxVDHWg},\n  year = {2023}\n}\n",
   "topics": [
    "Sparse & Tensor Algebra",
+   "DSLs",
    "Machine Learning for Compilers",
    "Compiler Optimization"
   ],
@@ -744,7 +747,8 @@
   "itemType": "phdthesis",
   "oldbibtex": "@phdthesis{ray:phd-thesis:2023,\n  address = {Cambridge, MA},\n  author = {Jessica Ray},\n  keywords = {BuildIt, Codon},\n  month = {Sep},\n  school = {Massachusetts Institute of Technology},\n  title = {A Universal Tensor Abstraction and its Application to and Implementation within Block-Based Compression},\n  type = {Ph.D. Thesis},\n  url = {https://commit.csail.mit.edu/papers/2023/Jessica_Ray_dissertation.pdf},\n  year = {2023}\n}\n",
   "topics": [
-   "Sparse & Tensor Algebra"
+   "Sparse & Tensor Algebra",
+   "DSLs"
   ],
   "project": "UniTe",
   "venue": "Ph.D. Thesis"
@@ -1833,6 +1837,7 @@
   "oldbibtex": "@article{kiriansky:pact:2016,\n  author = {Kiriansky, Vladimir and Zhang, Yunming and Amarasinghe, Saman},\n  booktitle = {25th International Conference on Parallel Architectures and Compilation (PACT)},\n  keywords = {DSL},\n  location = {Haifa, Israel},\n  month = {Sep},\n  series = {PACT '16},\n  title = {Optimizing Indirect Memory References with milk},\n  url = {http://doi.acm.org/10.1145/2967938.2967948},\n  year = {2016}\n}\n",
   "topics": [
    "Memory Optimization & Locality",
+   "DSLs",
    "Compiler Optimization"
   ],
   "project": "milk",
@@ -5485,6 +5490,7 @@
   "oldbibtex": "@phdthesis{vlk:phd-thesis:2019,\n  address = {Cambridge, MA},\n  author = {Vladimir Kiriansky},\n  keywords = {DSL, Security},\n  month = {Jun},\n  school = {Massachusetts Institute of Technology},\n  title = {Improving performance and security of indirect memory references on speculative execution machines},\n  type = {Ph.D. Thesis},\n  url = {https://groups.csail.mit.edu/commit/papers/2019/vkiriansky19phd.pdf},\n  year = {2019}\n}\n",
   "topics": [
    "Memory Optimization & Locality",
+   "DSLs",
    "Security",
    "Program Verification"
   ],
