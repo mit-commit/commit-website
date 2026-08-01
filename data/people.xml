@@ -27,11 +27,6 @@
       />
 
     <person
-      name="Changwan Hong"
-      title="Research Scientist"
-      />
-
-    <person
       url="http://people.csail.mit.edu/skamil/"
       name="Shoaib Kamil"
       title="Affiliate Researcher"
@@ -41,16 +36,6 @@
       url="http://people.csail.mit.edu/baghdadi/"
       name="Riyadh Baghdadi"
       title="Affiliate Researcher"
-      />
-
-
-
-
-
-    <person
-      name="Mit Kotak"
-      url="https://www.linkedin.com/in/mit-kotak/"
-      title="Graduate Student"
       />
 
         <person
@@ -126,10 +111,6 @@
 	/>
 
 
-    <person
-	name="Siyi Hu"
-	title="Visiting Scholar"
-	/>
 
 
 
@@ -137,6 +118,23 @@
 
 
   <alumni>
+
+    <person
+      name="Changwan Hong"
+      title="Research Scientist"
+      />
+
+  <person
+  name="Mit Kotak"
+  url="https://www.linkedin.com/in/mit-kotak/"
+  title="Graduate Student"
+  />
+
+    <person
+	name="Siyi Hu"
+	title="Visiting Scholar"
+	/>
+
     <person
 	name="Steven Raphael"
 	title="MEng"
