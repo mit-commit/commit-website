@@ -446,6 +446,7 @@ function createBibLink(it){
         return function(){
           state.years[yy] = !state.years[yy];
           applyFilters();
+          if (state.years[yy]) track('filter', { facet: 'year', value: String(yy) });
         };
       })(y);
 
@@ -483,9 +484,13 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
     txt.appendChild(textNodeValue);
     txt.title = labelText; // show full label on hover (handles truncation)
 
-    cb.onchange = (function (val, map) {
-      return function () { map[val] = !!this.checked; applyFilters(); };
-    })(value, stateMap);
+    cb.onchange = (function (val, map, fk) {
+      return function () {
+        map[val] = !!this.checked;
+        applyFilters();
+        if (this.checked) track('filter', { facet: fk, value: val });
+      };
+    })(value, stateMap, facetKey);
 
     label.appendChild(cb);
     label.appendChild(txt);
@@ -656,6 +661,7 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
       var a = document.createElement('a');
       a.href = localPDF; a.target = '_blank'; a.rel = 'noopener';
       a.appendChild(text(titleOf(it)));
+      a.addEventListener('click', function(){ track('paper-view', { key: bibtexKeyOf(it), title: titleOf(it), year: it.year }); });
       t.appendChild(a);
     } else {
       t.appendChild(text(titleOf(it)));
@@ -677,10 +683,12 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
     if (bits.length) meta.appendChild(text(bits.join(' ') + ' '));
     // Bib + Slides
       meta.appendChild(makeBibLink(it));
-      meta.appendChild(createBibLink(it));
+      var bibA = createBibLink(it);
+      bibA.addEventListener('click', function(){ track('bib-download', { key: bibtexKeyOf(it) }); });
+      meta.appendChild(bibA);
 
     var slides = localizeURL(it.slides || '');
-    if (slides) { meta.appendChild(text(' ')); var sA=document.createElement('a'); sA.href=slides; sA.target='_blank'; sA.rel='noopener'; sA.className='pub-action'; sA.appendChild(text('Slides')); meta.appendChild(sA); }
+    if (slides) { meta.appendChild(text(' ')); var sA=document.createElement('a'); sA.href=slides; sA.target='_blank'; sA.rel='noopener'; sA.className='pub-action'; sA.appendChild(text('Slides')); sA.addEventListener('click', function(){ track('slides-view', { key: bibtexKeyOf(it), title: titleOf(it) }); }); meta.appendChild(sA); }
     li.appendChild(meta);
 
     if (it.price){ var pr=document.createElement('div'); pr.className='pub-price'; pr.appendChild(text(it.price)); li.appendChild(pr); }
@@ -995,6 +1003,18 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
     applyFilters();
   }
 
+  // Debounced search event: fires once typing pauses, ignoring short/noisy input.
+  var _searchTimer;
+  function trackSearch(field, query){
+    clearTimeout(_searchTimer);
+    _searchTimer = setTimeout(function(){
+      var q = (query || '').trim().toLowerCase();
+      if (q.length < 2) return;
+      if (q.length > 100) q = q.slice(0, 100);
+      track('search', { field: field, q: q, results: filteredItems(null).length });
+    }, 600);
+  }
+
   /* ---------- Boot ---------- */
   function boot(){
     // Mode toggle
@@ -1004,7 +1024,7 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
     }
 
     // Title search
-    els.title.oninput = function(){ state.titleQuery = els.title.value || ''; applyFilters(); };
+    els.title.oninput = function(){ state.titleQuery = els.title.value || ''; applyFilters(); trackSearch('title', state.titleQuery); };
 
     // Clear
       els.btnClear.onclick = function(){ clearAll(); };
@@ -1024,6 +1044,7 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
         state.authorQuery = this.value || '';
         rebuildAuthorFacet();
         applyFilters();
+        trackSearch('author', state.authorQuery);
       };
     }
 
@@ -1095,6 +1116,7 @@ var btnExport = document.getElementById('btn-export-bib') || (function(){
 
 if (btnExport) {
   btnExport.onclick = function(){
+    track('export-bib', {});
     // Export exactly what’s currently shown
  var items = filteredItems(null);
 

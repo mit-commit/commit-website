@@ -20,3 +20,10 @@ This repository contains the static site files for the COMMIT @ CSAIL website.
 - Add `"featured" : true` to the json for a publication
 - OR add a `"price" : "Award"` to the json for a publication.
 - Featured publications are ordered by date.
+
+## Analytics
+
+- Usage is tracked with [Umami](https://umami.is) (privacy-friendly, cookieless — no consent banner needed).
+- The tracking snippet (with the `data-website-id`) lives in the `<head>` of each HTML page; the shared `track()` helper is in `assets/js/common.js`.
+- Custom events on the Publications page (`search`, `filter`, `paper-view`, `bib-download`, `slides-view`, `export-bib`) are emitted from `assets/js/publications.js`.
+- View the dashboard at cloud.umami.is (website: "COMMIT @ CSAIL").

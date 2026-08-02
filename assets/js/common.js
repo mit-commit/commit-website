@@ -7,6 +7,12 @@ async function getJSON(path){ const r = await fetch(path); if(!r.ok) throw new E
 async function getText(path){ const r = await fetch(path); if(!r.ok) throw new Error("Fetch failed "+path); return r.text(); }
 
 
+// Umami analytics event — safe no-op if the script is blocked or not yet loaded.
+function track(name, data){
+  try { if (window.umami && typeof umami.track === 'function') umami.track(name, data); } catch (e) {}
+}
+
+
 function setActiveNav(){
 const here = location.pathname.split('/').pop() || 'index.html';
 $$('.menuitemlink').forEach(a=>{ if(a.getAttribute('href').endsWith(here)) a.style.backgroundColor = '#dfdfdf'; });
