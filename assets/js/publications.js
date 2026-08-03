@@ -363,16 +363,17 @@ function createBibLink(it){
       kwMode: 'topics',           // 'topics' | 'projects' — Topics & Projects facet mode
       authorQuery: '',            // free-text filter for the authors list
       typeMode: 'type',           // 'type' | 'venue' — how the third facet categorizes
-      venueSort: 'name'           // 'name' | 'count' — venue ordering in venue mode
+      venueSort: 'name',          // 'name' | 'count' — venue ordering in venue mode
+      summaryExpanded: false      // global default for per-paper summaries
 
   };
-
   var els = {
     errors: document.getElementById('pubs-errors'),
     results: document.getElementById('pubs-results'),
     count: document.getElementById('pubs-count'),
     filtersInteractive: document.getElementById('filters-interactive'),
     btnClear: document.getElementById('btn-clear'),
+    btnToggleSummaries: document.getElementById('btn-toggle-summaries'),
     years: document.getElementById('facet-years'),
     title: document.getElementById('facet-title'),
     kwBox: document.getElementById('facet-keywords'),
@@ -649,6 +650,19 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
 
 
   /* ---------- Rendering one publication (same look as index) ---------- */
+  // Summary text is trusted local JSON containing embedded <a> links.
+  function renderSummaryInto(container, summaryText){
+    var paras = String(summaryText).split(/\n\n+/), i, p;
+    container.innerHTML = '';
+    for (i = 0; i < paras.length; i++){
+      p = document.createElement('p');
+      p.innerHTML = paras[i];
+      container.appendChild(p);
+    }
+    var links = container.getElementsByTagName('a'), j;
+    for (j = 0; j < links.length; j++){ links[j].target = '_blank'; links[j].rel = 'noopener'; }
+  }
+
   function renderItem(it){
     var li = document.createElement('li');
     li.className = 'pub-item';
@@ -689,9 +703,37 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
 
     var slides = localizeURL(it.slides || '');
     if (slides) { meta.appendChild(text(' ')); var sA=document.createElement('a'); sA.href=slides; sA.target='_blank'; sA.rel='noopener'; sA.className='pub-action'; sA.appendChild(text('Slides')); sA.addEventListener('click', function(){ track('slides-view', { key: bibtexKeyOf(it), title: titleOf(it) }); }); meta.appendChild(sA); }
+
+    // Summary toggle (shown only when a summary exists); follows global default.
+    var sumDiv = null;
+    if (it.summary){
+      sumDiv = document.createElement('div');
+      sumDiv.className = 'pub-summary' + (state.summaryExpanded ? ' open' : '');
+      renderSummaryInto(sumDiv, it.summary);
+
+      var sumToggle = document.createElement('a');
+      sumToggle.href = '#';
+      sumToggle.className = 'pub-action pub-summary-toggle';
+      var setArrow = function(open){ sumToggle.textContent = open ? 'Summary \u25be' : 'Summary \u25b8'; };
+      setArrow(state.summaryExpanded);
+      (function(item, div, toggle, arrow){
+        toggle.addEventListener('click', function(ev){
+          ev.preventDefault();
+          var willOpen = div.className.indexOf('open') === -1;
+          div.className = 'pub-summary' + (willOpen ? ' open' : '');
+          arrow(willOpen);
+          if (willOpen) track('summary-view', { key: bibtexKeyOf(item), title: titleOf(item) });
+        });
+      })(it, sumDiv, sumToggle, setArrow);
+      meta.appendChild(text(' '));
+      meta.appendChild(sumToggle);
+    }
+
     li.appendChild(meta);
 
     if (it.price){ var pr=document.createElement('div'); pr.className='pub-price'; pr.appendChild(text(it.price)); li.appendChild(pr); }
+
+    if (sumDiv) li.appendChild(sumDiv);
 
     return li;
   }
@@ -1028,6 +1070,21 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
 
     // Clear
       els.btnClear.onclick = function(){ clearAll(); };
+
+    // Global show/hide for all visible summaries
+    if (els.btnToggleSummaries) {
+      els.btnToggleSummaries.onclick = function(){
+        state.summaryExpanded = !state.summaryExpanded;
+        var open = state.summaryExpanded;
+        els.btnToggleSummaries.textContent = open ? 'Hide summaries' : 'Show summaries';
+        els.btnToggleSummaries.setAttribute('aria-pressed', open ? 'true' : 'false');
+        var divs = document.querySelectorAll('.pub-summary'), i;
+        for (i = 0; i < divs.length; i++){ divs[i].className = 'pub-summary' + (open ? ' open' : ''); }
+        var toggles = document.querySelectorAll('.pub-summary-toggle'), j;
+        for (j = 0; j < toggles.length; j++){ toggles[j].textContent = open ? 'Summary \u25be' : 'Summary \u25b8'; }
+        track('summaries-toggle-all', { expanded: open });
+      };
+    }
 
     if (els.authorSort) {
       els.authorSort.value = state.authorSort;

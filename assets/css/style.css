@@ -224,6 +224,19 @@ span.exhibit-collectionSummaryWidget-count { font-size: 129%;  font-weight: bold
   margin-right: 8px;
 }
 
+/* Expandable per-paper summary */
+.pub-summary-toggle { cursor: pointer; }
+.pub-summary {
+  display: none;
+  margin: 8px 0 2px;
+  max-width: 70ch;
+  line-height: 1.45;
+  color: #333;
+}
+.pub-summary.open { display: block; }
+.pub-summary p { margin: 0 0 8px; }
+.pub-summary p:last-child { margin-bottom: 0; }
+
 
 .pub-price {
   background-color: #fff8c6;   /* soft yellow background */
