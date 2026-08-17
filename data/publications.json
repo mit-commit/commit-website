@@ -1435,7 +1435,8 @@
    "Compiler Optimization"
   ],
   "project": "Tiramisu",
-  "venue": "MLSys"
+  "venue": "MLSys",
+  "featured": true
  },
  {
   "author0": "Mezdour, Lina and Kadem, Khadidja and Merouani, Massinissa and Haichour, Amina Selma and Amarasinghe, Saman and Baghdadi, Riyadh",
@@ -1583,7 +1584,8 @@
   ],
   "project": "GraphIt",
   "venue": "OOPSLA",
-  "code": "http://graphit-lang.org/"
+  "code": "http://graphit-lang.org/",
+  "featured": true
  },
  {
   "author0": "Shajii, Ariya and Numanagic, Ibrahim and Baghdadi, Riyadh and Berger, Bonnie and Amarasinghe, Saman",
@@ -1662,7 +1664,8 @@
    "Compiler Optimization"
   ],
   "project": "goSLP",
-  "venue": "OOPSLA"
+  "venue": "OOPSLA",
+  "featured": true
  },
  {
   "author0": "Chou, Stephen and Kjolstad, Fredrik and Amarasinghe, Saman",
@@ -1714,7 +1717,8 @@
   ],
   "project": "Tiramisu",
   "venue": "CGO",
-  "code": "http://tiramisu-compiler.org/"
+  "code": "http://tiramisu-compiler.org/",
+  "featured": true
  },
  {
   "title": "Tensor Algebra Compilation with Workspaces",
@@ -1882,7 +1886,8 @@
   ],
   "project": "TACO",
   "venue": "OOPSLA",
-  "code": "http://tensor-compiler.org"
+  "code": "http://tensor-compiler.org",
+  "featured": true
  },
  {
   "author0": "Shoumik Palkar and James J. Thomas and Anil Shanbhag and Deepak Narayanan and Holger Pirk and Malte Schwarzkopf and Saman Amarasinghe and Matei Zaharia",
@@ -2020,7 +2025,8 @@
    "DSLs"
   ],
   "project": "Simit",
-  "venue": "ACM Transactions on Graphics"
+  "venue": "ACM Transactions on Graphics",
+  "featured": true
  },
  {
   "title": "Experimental Implementations of Stereo Matching Algorithms in Halide",
@@ -2242,7 +2248,8 @@
    "Machine Learning for Compilers"
   ],
   "project": "OpenTuner",
-  "venue": "PACT"
+  "venue": "PACT",
+  "featured": true
  },
  {
   "title": "Decoupling Algorithms from the Organization of Computation for High Performance Image Processing",
@@ -2390,7 +2397,8 @@
    "Compiler Optimization"
   ],
   "project": "Halide",
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "featured": true
  },
  {
   "title": "Dynamic Expressivity with Static Optimization for Streaming Languages",
@@ -2884,7 +2892,8 @@
    "Dynamic Binary Instrumentation"
   ],
   "project": "DynamoRIO",
-  "venue": "CGO"
+  "venue": "CGO",
+  "featured": true
  },
  {
   "author0": "Jason Ansel",
@@ -3005,7 +3014,8 @@
    "Compiler Optimization"
   ],
   "project": "PetaBricks",
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "featured": true
  },
  {
   "author0": "Jason Ansel and Kapil Arya and Gene Cooperman",
@@ -3064,7 +3074,8 @@
    "Deterministic Parallelism"
   ],
   "project": "Aikido/Kendo",
-  "venue": "ASPLOS"
+  "venue": "ASPLOS",
+  "featured": true
  },
  {
   "author0": "Saman Amarasinghe and Michael I. Gordon and Michal Karczmarek and Jasper Lin and David Maze and Rodric Rabbah and William Thies",
@@ -3337,7 +3348,8 @@
    "ICT4D"
   ],
   "project": "TEK",
-  "venue": "HCI for Community and International Development (HCI4CID Workshop)"
+  "venue": "HCI for Community and International Development (HCI4CID Workshop)",
+  "featured": true
  },
  {
   "title": "PiPA: Pipelined Profiling and Analysis on Multi-core Systems",
@@ -3414,7 +3426,8 @@
    "Parallelizing Compilers"
   ],
   "project": "StreamIt",
-  "venue": "MICRO"
+  "venue": "MICRO",
+  "featured": true
  },
  {
   "author0": "Abdulbasier Aziz",
@@ -3528,7 +3541,8 @@
    "Compiler Optimization"
   ],
   "project": "StreamIt",
-  "venue": "ASPLOS"
+  "venue": "ASPLOS",
+  "featured": true
  },
  {
   "author0": "Mark Stephenson",
@@ -3682,7 +3696,8 @@
   "topics": [
    "Microfluidics / Programmable Biology"
   ],
-  "venue": "Lab on a Chip"
+  "venue": "Lab on a Chip",
+  "featured": true
  },
  {
   "author0": "Zhao, Qin and Rabbah, Rodric and Wong, Weng-Fai",
@@ -3726,7 +3741,8 @@
    "Compiler Optimization"
   ],
   "project": "SLP",
-  "venue": "MICRO"
+  "venue": "MICRO",
+  "featured": true
  },
  {
   "author0": "Sitij Agrawal and William Thies and Saman Amarasinghe",
@@ -3747,7 +3763,8 @@
    "Compiler Optimization"
   ],
   "project": "StreamIt",
-  "venue": "CASES"
+  "venue": "CASES",
+  "featured": true
  },
  {
   "author0": "Jiawen Chen and Michael I. Gordon and William Thies and Matthias Zwicker and Kari Pulli and Fredo Durand",
@@ -4087,7 +4104,8 @@
    "Computer Architecture"
   ],
   "project": "Raw",
-  "venue": "ISCA"
+  "venue": "ISCA",
+  "featured": true
  },
  {
   "author0": "Timothy Garnett",
@@ -4265,7 +4283,8 @@
    "Machine Learning for Compilers",
    "Compiler Optimization"
   ],
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "featured": true
  },
  {
   "author0": "Andrew Lamb and William Thies and Saman Amarasinghe",
@@ -4403,7 +4422,8 @@
    "Compiler Optimization"
   ],
   "project": "DynamoRIO",
-  "venue": "CGO"
+  "venue": "CGO",
+  "featured": true
  },
  {
   "author0": "Michal Karczmarek",
@@ -5050,7 +5070,8 @@
    "Dynamic Binary Instrumentation"
   ],
   "project": "Program Shepherding",
-  "venue": "Technical Report"
+  "venue": "Technical Report",
+  "featured": true
  },
  {
   "author0": "William Thies and Michal Karczmarek and Saman Amarasinghe",
@@ -5853,7 +5874,8 @@
   ],
   "project": "TACO",
   "venue": "PLDI",
-  "code": "https://github.com/tensor-compiler/taco/tree/c0e93b65"
+  "code": "https://github.com/tensor-compiler/taco/tree/c0e93b65",
+  "featured": true
  },
  {
   "title": "A Unified Iteration Space Transformation Framework for Sparse and Dense Tensor Algebra",
