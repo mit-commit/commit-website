@@ -704,6 +704,10 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
     var slides = localizeURL(it.slides || '');
     if (slides) { meta.appendChild(text(' ')); var sA=document.createElement('a'); sA.href=slides; sA.target='_blank'; sA.rel='noopener'; sA.className='pub-action'; sA.appendChild(text('Slides')); sA.addEventListener('click', function(){ track('slides-view', { key: bibtexKeyOf(it), title: titleOf(it) }); }); meta.appendChild(sA); }
 
+    // Artifact or source repository, when the paper points to one.
+    var code = localizeURL(it.code || '');
+    if (code) { meta.appendChild(text(' ')); var cA=document.createElement('a'); cA.href=code; cA.target='_blank'; cA.rel='noopener'; cA.className='pub-action'; cA.appendChild(text('Code')); cA.addEventListener('click', function(){ track('code-view', { key: bibtexKeyOf(it), title: titleOf(it) }); }); meta.appendChild(cA); }
+
     // Summary toggle (shown only when a summary exists); follows global default.
     var sumDiv = null;
     if (it.summary){

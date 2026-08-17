@@ -35,7 +35,8 @@
    "DSLs"
   ],
   "project": "Codon",
-  "venue": "M.Eng. Thesis"
+  "venue": "M.Eng. Thesis",
+  "code": "https://github.com/PythonCompilers"
  },
  {
   "title": "Vectorizing Complex Programs for Modern Architectures",
@@ -96,7 +97,8 @@
    "Networking"
   ],
   "project": "BuildIt",
-  "venue": "FCCM"
+  "venue": "FCCM",
+  "code": "https://github.com/spac-proj/SPAC"
  },
  {
   "author0": "Bansal, Manya and Sainati, Daniel and Cutler, Joseph W. and Amarasinghe, Saman and Ragan-Kelley, Jonathan",
@@ -159,7 +161,8 @@
    "DSLs"
   ],
   "project": "Finch",
-  "venue": "Ph.D. Thesis"
+  "venue": "Ph.D. Thesis",
+  "code": "https://github.com/willow-ahrens/Finch.jl"
  },
  {
   "title": "Democratizing High-Performance DSL Development with the BuildIt Framework",
@@ -178,7 +181,8 @@
    "DSLs"
   ],
   "project": "BuildIt",
-  "venue": "Ph.D. Thesis"
+  "venue": "Ph.D. Thesis",
+  "code": "https://buildit.so"
  },
  {
   "title": "WACO: Learning workload-aware co-optimization of the format and  schedule of a sparse tensor program",
@@ -459,7 +463,8 @@
    "DSLs"
   ],
   "project": "Finch",
-  "venue": "OOPSLA"
+  "venue": "OOPSLA",
+  "code": "https://doi.org/10.5281/zenodo.14597754"
  },
  {
   "series": "OOPSLA '25",
@@ -509,7 +514,8 @@
    "Compiler Optimization"
   ],
   "project": "Finch",
-  "venue": "CGO"
+  "venue": "CGO",
+  "code": "https://zenodo.org/records/13821280"
  },
  {
   "title": "AskIt: Unified Programming Interface for Programming with Large Language Models",
@@ -531,7 +537,8 @@
    "DSLs"
   ],
   "project": "AskIt",
-  "venue": "CGO"
+  "venue": "CGO",
+  "code": "https://github.com/katsumiok/askit-artifact"
  },
  {
   "title": "Mechanised Hypersafety Proofs about Structured Data",
@@ -638,7 +645,8 @@
    "Compiler Optimization"
   ],
   "project": "Finch",
-  "venue": "M.Eng. Thesis"
+  "venue": "M.Eng. Thesis",
+  "code": "https://github.com/radha-patel/symmetry-compiler"
  },
  {
   "title": "Looplets: A Language for Structured Coiteration",
@@ -659,7 +667,8 @@
    "Compiler Optimization"
   ],
   "project": "Finch",
-  "venue": "CGO"
+  "venue": "CGO",
+  "code": "https://doi.org/10.5281/zenodo.7499790"
  },
  {
   "author0": "Won, Jaeyeon and Hong, Changwan and Mendis, Charith and Emer, Joel and Amarasinghe, Saman",
@@ -680,7 +689,8 @@
    "Compilers for Machine Learning"
   ],
   "project": "TACO",
-  "venue": "MLSys"
+  "venue": "MLSys",
+  "code": "https://github.com/nullplay/Unified-Convolution-Framework"
  },
  {
   "title": "Halide in Molecular Dynamics",
@@ -782,7 +792,8 @@
    "Compiler Optimization"
   ],
   "project": "Codon",
-  "venue": "CC"
+  "venue": "CC",
+  "code": "https://github.com/exaloop/codon"
  },
  {
   "title": "A Universal Tensor Abstraction and its Application to and Implementation within Block-Based Compression",
@@ -898,7 +909,8 @@
    "DSLs"
   ],
   "project": "TACO",
-  "venue": "OOPSLA"
+  "venue": "OOPSLA",
+  "code": "https://github.com/tensor-compiler/taco/tree/array_algebra"
  },
  {
   "title": "A Deep Dive Into Understanding The Random Walk-Based Temporal Graph Learning",
@@ -918,7 +930,8 @@
    "GPUs"
   ],
   "project": "GraphIt",
-  "venue": "IISWC"
+  "venue": "IISWC",
+  "code": "https://github.com/talnish/iiswc21_rwalk"
  },
  {
   "author0": "Shajii, Ariya and Numanagic, Ibrahim and Leighton, Alexander T. and Greenyer, Haley and Amarasinghe, Saman and Berger, Bonnie",
@@ -1064,7 +1077,8 @@
    "Compiler Optimization"
   ],
   "project": "GraphIt",
-  "venue": "Ph.D. Thesis"
+  "venue": "Ph.D. Thesis",
+  "code": "http://graphit-lang.org/"
  },
  {
   "title": "Towards Automated Construction of Compiler Optimizations",
@@ -1150,7 +1164,8 @@
    "Networking"
   ],
   "project": "BuildIt",
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "code": "https://zenodo.org/records/11099781"
  },
  {
   "title": "D2X: An eXtensible conteXtual Debugger for Modern DSLs",
@@ -1171,7 +1186,8 @@
    "DSLs"
   ],
   "project": "BuildIt",
-  "venue": "CGO"
+  "venue": "CGO",
+  "code": "https://doi.org/10.5281/zenodo.7459640"
  },
  {
   "title": "GraphIt to CUDA compiler in 2021 LOC: A case for high-performance DSL implementation via staging with BuilDSL",
@@ -1238,7 +1254,8 @@
    "DSLs"
   ],
   "project": "BuildIt",
-  "venue": "CGO"
+  "venue": "CGO",
+  "code": "https://github.com/BuildIt-lang/buildit"
  },
  {
   "title": "Compiling Graph Applications for GPUs with GraphIt",
@@ -1289,7 +1306,8 @@
    "Compiler Optimization"
   ],
   "project": "GraphIt",
-  "venue": "CGO"
+  "venue": "CGO",
+  "code": "https://github.com/GraphIt-DSL/graphit"
  },
  {
   "title": "Compiler Auto-Vectorization with Imitation Learning",
@@ -1329,7 +1347,8 @@
    "Machine Learning for Compilers"
   ],
   "project": "Ithemal",
-  "venue": "IISWC"
+  "venue": "IISWC",
+  "code": "https://github.com/ithemal/bhive"
  },
  {
   "author0": "Tucci, Lorenzo Di and Baghdadi, Riyadh and Amarasinghe, Saman and Santambrogio, Marco D.",
@@ -1563,7 +1582,8 @@
    "DSLs"
   ],
   "project": "GraphIt",
-  "venue": "OOPSLA"
+  "venue": "OOPSLA",
+  "code": "http://graphit-lang.org/"
  },
  {
   "author0": "Shajii, Ariya and Numanagic, Ibrahim and Baghdadi, Riyadh and Berger, Bonnie and Amarasinghe, Saman",
@@ -1592,7 +1612,8 @@
    "DSLs"
   ],
   "project": "Seq",
-  "venue": "OOPSLA"
+  "venue": "OOPSLA",
+  "code": "https://cb.csail.mit.edu/seq/"
  },
  {
   "author0": "Kjolstad, Fredrik and Kamil, Shoaib and Amarasinghe, Saman",
@@ -1671,7 +1692,8 @@
    "Compiler Optimization"
   ],
   "project": "TACO",
-  "venue": "OOPSLA"
+  "venue": "OOPSLA",
+  "code": "https://github.com/tensor-compiler/taco"
  },
  {
   "title": "Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code",
@@ -1691,7 +1713,8 @@
    "Compiler Optimization"
   ],
   "project": "Tiramisu",
-  "venue": "CGO"
+  "venue": "CGO",
+  "code": "http://tiramisu-compiler.org/"
  },
  {
   "title": "Tensor Algebra Compilation with Workspaces",
@@ -1826,7 +1849,8 @@
    "DSLs"
   ],
   "project": "TACO",
-  "venue": "ASE"
+  "venue": "ASE",
+  "code": "http://tensor-compiler.org"
  },
  {
   "author0": "Kjolstad, Fredrik and Kamil, Shoaib and Chou, Stephen and Lugato, David and Amarasinghe, Saman",
@@ -1857,7 +1881,8 @@
    "Compiler Optimization"
   ],
   "project": "TACO",
-  "venue": "OOPSLA"
+  "venue": "OOPSLA",
+  "code": "http://tensor-compiler.org"
  },
  {
   "author0": "Shoumik Palkar and James J. Thomas and Anil Shanbhag and Deepak Narayanan and Holger Pirk and Malte Schwarzkopf and Saman Amarasinghe and Matei Zaharia",
@@ -2133,7 +2158,8 @@
    "DSLs"
   ],
   "project": "Helium",
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "code": "http://projects.csail.mit.edu/helium"
  },
  {
   "author0": "Yufei Ding and Jason Ansel and Kalyan Veeramachaneni and Xipeng Shen and Una-May O'Reilly and Saman Amarasinghe",
@@ -2173,7 +2199,8 @@
    "DSLs"
   ],
   "project": "Helium",
-  "venue": "S.M. Thesis"
+  "venue": "S.M. Thesis",
+  "code": "http://projects.csail.mit.edu/helium"
  },
  {
   "author0": "Jeffrey Bosboom and Sumanaruban Rajadurai and Weng-Fai Wong and Saman Amarasinghe",
@@ -2341,7 +2368,8 @@
    "Machine Learning for Compilers"
   ],
   "project": "OpenTuner",
-  "venue": "Technical Report"
+  "venue": "Technical Report",
+  "code": "http://opentuner.org/"
  },
  {
   "title": "Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines",
@@ -2688,7 +2716,8 @@
    "Dynamic Binary Instrumentation"
   ],
   "project": "DynamoRIO",
-  "venue": "CGO"
+  "venue": "CGO",
+  "code": "https://github.com/dynamorio/drmemory"
  },
  {
   "title": "Language and Compiler Support For Auto-Tuning Variable-Accuracy Algorithms",
@@ -5823,7 +5852,8 @@
    "DSLs"
   ],
   "project": "TACO",
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "code": "https://github.com/tensor-compiler/taco/tree/c0e93b65"
  },
  {
   "title": "A Unified Iteration Space Transformation Framework for Sparse and Dense Tensor Algebra",
@@ -6022,7 +6052,8 @@
    "Autotuning"
   ],
   "project": "TACO",
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "code": "https://github.com/peterahrens/Pigeon.jl/releases/tag/pldi2022"
  },
  {
   "author0": "Chen, Yishen and Mendis, Charith and Amarasinghe, Saman",
@@ -6592,7 +6623,8 @@
    "Compiler Optimization"
   ],
   "project": "Weld",
-  "venue": "PVLDB"
+  "venue": "PVLDB",
+  "code": "https://weld.rs"
  },
  {
   "author0": "Lugato, David and Kjolstad, Fredrik and Chou, Stephen and Amarasinghe, Saman and Kamil, Shoaib",
@@ -6609,6 +6641,7 @@
    "DSLs"
   ],
   "project": "TACO",
-  "venue": "AVANCÉES"
+  "venue": "AVANCÉES",
+  "code": "http://tensor-compiler.org"
  }
 ]
