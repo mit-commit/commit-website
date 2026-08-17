@@ -1,0 +1,22 @@
+name: Validate publications
+
+on:
+  push:
+    paths:
+      - 'data/publications.json'
+      - 'papers/**'
+      - 'utils/validate_publications.py'
+      - 'utils/validation_baseline.json'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      # Fails the run on any error not listed in utils/validation_baseline.json.
+      - run: python3 utils/validate_publications.py
