@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+._*
+
+# Editor and shell backups
+*~
+*.swp
+
+# Local scratch
+*.pyc
+__pycache__/
