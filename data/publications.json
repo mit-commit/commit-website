@@ -220,7 +220,8 @@
    "DSLs"
   ],
   "project": "UniTe",
-  "venue": "ACM TACO"
+  "venue": "ACM TACO",
+  "doi": "10.1145/3787218"
  },
  {
   "title": "Sparse and Structured Tensor Programming",
@@ -281,7 +282,8 @@
    "Compiler Optimization"
   ],
   "project": "WACO",
-  "venue": "S.M. Thesis"
+  "venue": "S.M. Thesis",
+  "doi": "10.1145/3575693.3575742"
  },
  {
   "title": "Automated Finite Elements",
@@ -378,7 +380,8 @@
    "Compiler Optimization",
    "Memory Optimization & Locality"
   ],
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "doi": "10.1145/3729292"
  },
  {
   "title": "Performance Analysis of the Apple AMX Matrix Accelerator",
@@ -518,7 +521,8 @@
    "Vectorization / SIMD"
   ],
   "project": "SLP",
-  "venue": "MICRO"
+  "venue": "MICRO",
+  "doi": "10.1109/MICRO61859.2024.00024"
  },
  {
   "series": "OOPSLA '25",
@@ -746,7 +750,8 @@
   ],
   "project": "Finch",
   "venue": "CGO",
-  "code": "https://doi.org/10.5281/zenodo.7499790"
+  "code": "https://doi.org/10.5281/zenodo.7499790",
+  "doi": "10.1145/3579990.3580020"
  },
  {
   "author0": "Won, Jaeyeon and Hong, Changwan and Mendis, Charith and Emer, Joel and Amarasinghe, Saman",
@@ -827,7 +832,8 @@
    "DSLs"
   ],
   "project": "TACO",
-  "venue": "S.M. Thesis"
+  "venue": "S.M. Thesis",
+  "doi": "10.1109/CGO53902.2022.9741282"
  },
  {
   "author0": "Won, Jaeyeon and Mendis, Charith and Emer, Joel and Amarasinghe, Saman",
@@ -850,7 +856,8 @@
    "Compiler Optimization"
   ],
   "project": "WACO",
-  "venue": "ASPLOS"
+  "venue": "ASPLOS",
+  "doi": "10.1145/3575693.3575742"
  },
  {
   "author0": "Shajii, Ariya and Ramirez, Gabriel and Smajlovic, Haris and Ray, Jessica and Berger, Bonnie and Amarasinghe, Saman and Numanagic, Ibrahim",
@@ -871,7 +878,8 @@
   ],
   "project": "Codon",
   "venue": "CC",
-  "code": "https://github.com/exaloop/codon"
+  "code": "https://github.com/exaloop/codon",
+  "doi": "10.1145/3578360.3580275"
  },
  {
   "title": "A Universal Tensor Abstraction and its Application to and Implementation within Block-Based Compression",
@@ -988,7 +996,8 @@
   ],
   "project": "TACO",
   "venue": "OOPSLA",
-  "code": "https://github.com/tensor-compiler/taco/tree/array_algebra"
+  "code": "https://github.com/tensor-compiler/taco/tree/array_algebra",
+  "doi": "10.1145/3485505"
  },
  {
   "title": "A Deep Dive Into Understanding The Random Walk-Based Temporal Graph Learning",
@@ -1009,7 +1018,8 @@
   ],
   "project": "GraphIt",
   "venue": "IISWC",
-  "code": "https://github.com/talnish/iiswc21_rwalk"
+  "code": "https://github.com/talnish/iiswc21_rwalk",
+  "doi": "10.5281/ZENODO.5555384"
  },
  {
   "author0": "Shajii, Ariya and Numanagic, Ibrahim and Leighton, Alexander T. and Greenyer, Haley and Amarasinghe, Saman and Berger, Bonnie",
@@ -1194,7 +1204,8 @@
    "Vectorization / SIMD"
   ],
   "project": "VeGen",
-  "venue": "ASPLOS"
+  "venue": "ASPLOS",
+  "doi": "10.1145/3445814.3446692"
  },
  {
   "title": "Taming the Zoo: A Unified Graph Compiler Framework for Novel Architectures",
@@ -1265,7 +1276,8 @@
   ],
   "project": "BuildIt",
   "venue": "CGO",
-  "code": "https://doi.org/10.5281/zenodo.7459640"
+  "code": "https://doi.org/10.5281/zenodo.7459640",
+  "doi": "10.1145/3579990.3580014"
  },
  {
   "title": "GraphIt to CUDA compiler in 2021 LOC: A case for high-performance DSL implementation via staging with BuilDSL",
@@ -1289,7 +1301,8 @@
    "Multi-stage Programming"
   ],
   "project": "GraphIt",
-  "venue": "CGO"
+  "venue": "CGO",
+  "doi": "10.1109/CGO53902.2022.9741280"
  },
  {
   "title": "Unified Compilation for Lossless Compression and Sparse Computing",
@@ -1311,7 +1324,8 @@
    "DSLs"
   ],
   "project": "TACO",
-  "venue": "CGO"
+  "venue": "CGO",
+  "doi": "10.1109/CGO53902.2022.9741282"
  },
  {
   "title": "BuildIt: A type based multistage programming framework for code generation in C++",
@@ -1426,7 +1440,8 @@
   ],
   "project": "Ithemal",
   "venue": "IISWC",
-  "code": "https://github.com/ithemal/bhive"
+  "code": "https://github.com/ithemal/bhive",
+  "doi": "10.1109/IISWC47752.2019.9042166"
  },
  {
   "author0": "Tucci, Lorenzo Di and Baghdadi, Riyadh and Amarasinghe, Saman and Santambrogio, Marco D.",
@@ -1492,7 +1507,8 @@
    "DSLs"
   ],
   "project": "UniTe",
-  "venue": "DCC"
+  "venue": "DCC",
+  "doi": "10.1109/DCC50243.2021.00077"
  },
  {
   "author0": "Baghdadi, Riyadh and Merouani, Massinissa and Leghettas, Mohamed-Hicham and Abdous, Kamel and Arbaoui, Taha and Benatchba, Karima and Amarasinghe, Saman",
@@ -1534,7 +1550,8 @@
    "Compiler Optimization"
   ],
   "project": "Tiramisu",
-  "venue": "CC"
+  "venue": "CC",
+  "doi": "10.1145/3578360.3580257"
  },
  {
   "author0": "Mendis, Charith and Jain, Ajay and Jain, Paras and Amarasinghe, Saman",
@@ -1631,7 +1648,8 @@
    "Computer Architecture"
   ],
   "project": "DAWG",
-  "venue": "MICRO"
+  "venue": "MICRO",
+  "doi": "10.1109/MICRO.2018.00083"
  },
  {
   "author0": "Zhang, Yunming and Yang, Mengjiao and Baghdadi, Riyadh and Kamil, Shoaib and Shun, Julian and Amarasinghe, Saman",
@@ -1796,7 +1814,8 @@
   "project": "Tiramisu",
   "venue": "CGO",
   "code": "http://tiramisu-compiler.org/",
-  "featured": true
+  "featured": true,
+  "doi": "10.1109/CGO.2019.8661197"
  },
  {
   "title": "Tensor Algebra Compilation with Workspaces",
@@ -1815,7 +1834,8 @@
    "Compiler Optimization"
   ],
   "project": "TACO",
-  "venue": "CGO"
+  "venue": "CGO",
+  "doi": "10.1109/CGO.2019.8661185"
  },
  {
   "author0": "Ragan-Kelley, Jonathan and Adams, Andrew and Sharlet, Dillon and Barnes, Connelly and Paris, Sylvain and Levoy, Marc and Amarasinghe, Saman and Durand, Fredo",
@@ -1906,7 +1926,8 @@
    "Memory Optimization & Locality"
   ],
   "project": "GraphIt",
-  "venue": "IEEE International Conference on Big Data (IEEE BigData)"
+  "venue": "IEEE International Conference on Big Data (IEEE BigData)",
+  "doi": "10.1109/BigData.2017.8257937"
  },
  {
   "author0": "Kjolstad, Fredrik and Chou, Stephen and Lugato, David and Kamil, Shoaib and Amarasinghe, Saman",
@@ -1932,7 +1953,8 @@
   ],
   "project": "TACO",
   "venue": "ASE",
-  "code": "http://tensor-compiler.org"
+  "code": "http://tensor-compiler.org",
+  "doi": "10.1109/ASE.2017.8115709"
  },
  {
   "author0": "Kjolstad, Fredrik and Kamil, Shoaib and Chou, Stephen and Lugato, David and Amarasinghe, Saman",
@@ -2006,7 +2028,8 @@
    "Compiler Optimization"
   ],
   "project": "milk",
-  "venue": "PACT"
+  "venue": "PACT",
+  "doi": "10.1145/2967938.2967948"
  },
  {
   "title": "Linear Algebra on Lattices: Simit Language Extensions with Applications to Lattice QCD",
@@ -2074,7 +2097,8 @@
    "HPC"
   ],
   "project": "Halide",
-  "venue": "PPoPP"
+  "venue": "PPoPP",
+  "doi": "10.1145/2851141.2851157"
  },
  {
   "title": "Simit: A Language for Physical Simulation",
@@ -2243,7 +2267,8 @@
   ],
   "project": "Helium",
   "venue": "PLDI",
-  "code": "http://projects.csail.mit.edu/helium"
+  "code": "http://projects.csail.mit.edu/helium",
+  "doi": "10.1145/2737924.2737974"
  },
  {
   "author0": "Yufei Ding and Jason Ansel and Kalyan Veeramachaneni and Xipeng Shen and Una-May O'Reilly and Saman Amarasinghe",
@@ -2262,7 +2287,8 @@
    "Autotuning"
   ],
   "project": "PetaBricks",
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "doi": "10.1145/2737924.2737969"
  },
  {
   "title": "Helium: Lifting High-Performance Stencil Kernels from Stripped x86 Binaries to Halide DSL Code",
@@ -2306,7 +2332,8 @@
    "Autotuning"
   ],
   "project": "StreamIt",
-  "venue": "OOPSLA"
+  "venue": "OOPSLA",
+  "doi": "10.1145/2660193.2660236"
  },
  {
   "author0": "Jason Ansel and Shoaib Kamil and Kalyan Veeramachaneni and Jonathan Ragan-Kelley and Jeffrey Bosboom and Una-May O'Reilly and Saman Amarasinghe",
@@ -2327,7 +2354,8 @@
   ],
   "project": "OpenTuner",
   "venue": "PACT",
-  "featured": true
+  "featured": true,
+  "doi": "10.1145/2628071.2628092"
  },
  {
   "title": "Decoupling Algorithms from the Organization of Computation for High Performance Image Processing",
@@ -2370,7 +2398,8 @@
    "Machine Learning for Compilers"
   ],
   "project": "PetaBricks",
-  "venue": "Technical Report"
+  "venue": "Technical Report",
+  "doi": "10.1145/2737924.2737969"
  },
  {
   "title": "StreamJIT: A Commensal Compiler for High-Performance Stream Programming",
@@ -2432,7 +2461,8 @@
    "Machine Learning for Compilers",
    "Memory Optimization & Locality"
   ],
-  "venue": "SC"
+  "venue": "SC",
+  "doi": "10.1145/2503210.2503269"
  },
  {
   "author0": "Jason Ansel and Shoaib Kamil and Kalyan Veeramachaneni and Una-May O'Reilly and Saman Amarasinghe",
@@ -2454,7 +2484,8 @@
   ],
   "project": "OpenTuner",
   "venue": "Technical Report",
-  "code": "http://opentuner.org/"
+  "code": "http://opentuner.org/",
+  "doi": "10.1145/2628071.2628092"
  },
  {
   "title": "Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines",
@@ -2476,7 +2507,8 @@
   ],
   "project": "Halide",
   "venue": "PLDI",
-  "featured": true
+  "featured": true,
+  "doi": "10.1145/2491956.2462176"
  },
  {
   "title": "Dynamic Expressivity with Static Optimization for Streaming Languages",
@@ -2496,7 +2528,8 @@
    "Compiler Optimization"
   ],
   "project": "StreamIt",
-  "venue": "DEBS"
+  "venue": "DEBS",
+  "doi": "10.1145/2488222.2488255"
  },
  {
   "title": "Portable Performance on Heterogeneous Architectures",
@@ -2516,7 +2549,8 @@
    "GPUs"
   ],
   "project": "PetaBricks",
-  "venue": "ASPLOS"
+  "venue": "ASPLOS",
+  "doi": "10.1145/2451116.2451162"
  },
  {
   "title": "SiblingRivalry: Online Autotuning Through Local Competitions",
@@ -2535,7 +2569,8 @@
    "DSLs"
   ],
   "project": "PetaBricks",
-  "venue": "CASES"
+  "venue": "CASES",
+  "doi": "10.1145/2380403.2380425"
  },
  {
   "title": "Decoupling Algorithms from Schedules for Easy Optimization of Image Processing Pipelines",
@@ -2556,7 +2591,8 @@
    "Compiler Optimization"
   ],
   "project": "Halide",
-  "venue": "ACM Transactions on Graphics"
+  "venue": "ACM Transactions on Graphics",
+  "doi": "10.1145/2185520.2185528"
  },
  {
   "title": "Optimizations in Stream Programming for Multimedia Applications",
@@ -2616,7 +2652,8 @@
    "Dynamic Binary Instrumentation"
   ],
   "project": "DynamoRIO",
-  "venue": "VEE"
+  "venue": "VEE",
+  "doi": "10.1145/2151024.2151043"
  },
  {
   "title": "Hyperparameter Tuning in Bandit-Based Adaptive Operator Selection",
@@ -2636,7 +2673,8 @@
    "Machine Learning for Compilers"
   ],
   "project": "PetaBricks",
-  "venue": "EvoApplications"
+  "venue": "EvoApplications",
+  "doi": "10.1007/978-3-642-29178-4_8"
  },
  {
   "title": "Aikido: Accelerating Shared Data Dynamic Analyses",
@@ -2654,7 +2692,8 @@
    "Dynamic Binary Instrumentation"
   ],
   "project": "Aikido/Kendo",
-  "venue": "ASPLOS"
+  "venue": "ASPLOS",
+  "doi": "10.1145/2150976.2150995"
  },
  {
   "title": "Optimization of Naive Dynamic Binary Instrumentation Tools",
@@ -2749,7 +2788,8 @@
   "topics": [
    "Security"
   ],
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "doi": "10.1145/1993498.1993540"
  },
  {
   "author0": "Marek Olszewski and Jason Ansel and Saman Amarasinghe",
@@ -2784,7 +2824,8 @@
    "Dynamic Binary Instrumentation"
   ],
   "project": "DynamoRIO",
-  "venue": "VEE"
+  "venue": "VEE",
+  "doi": "10.1145/1952682.1952688"
  },
  {
   "title": "Practical Memory Checking with Dr. Memory",
@@ -2803,7 +2844,8 @@
   ],
   "project": "DynamoRIO",
   "venue": "CGO",
-  "code": "https://github.com/dynamorio/drmemory"
+  "code": "https://github.com/dynamorio/drmemory",
+  "doi": "10.1109/CGO.2011.5764689"
  },
  {
   "title": "Language and Compiler Support For Auto-Tuning Variable-Accuracy Algorithms",
@@ -2824,7 +2866,8 @@
    "Approximate Computing"
   ],
   "project": "PetaBricks",
-  "venue": "CGO"
+  "venue": "CGO",
+  "doi": "10.1109/CGO.2011.5764677"
  },
  {
   "author0": "Jason Ansel and Cy Chan",
@@ -2872,7 +2915,8 @@
    "Approximate Computing"
   ],
   "project": "PetaBricks",
-  "venue": "Technical Report"
+  "venue": "Technical Report",
+  "doi": "10.1109/CGO.2011.5764677"
  },
  {
   "title": "An Empirical Characterization of Stream Programs and its Implications for Language and Compiler Design",
@@ -2893,7 +2937,8 @@
    "Compiler Optimization"
   ],
   "project": "StreamIt",
-  "venue": "PACT"
+  "venue": "PACT",
+  "doi": "10.1145/1854273.1854319"
  },
  {
   "title": "Compiler Techniques for Scalable Performance of Stream Programs on Multicore Architectures",
@@ -2951,7 +2996,8 @@
    "Dynamic Binary Instrumentation"
   ],
   "project": "DynamoRIO",
-  "venue": "ISMM"
+  "venue": "ISMM",
+  "doi": "10.1145/1806651.1806667"
  },
  {
   "title": "Umbra: Efficient and Scalable Memory Shadowing",
@@ -2971,7 +3017,8 @@
   ],
   "project": "DynamoRIO",
   "venue": "CGO",
-  "featured": true
+  "featured": true,
+  "doi": "10.1145/1772954.1772960"
  },
  {
   "author0": "Jason Ansel",
@@ -2992,7 +3039,8 @@
    "Compiler Optimization"
   ],
   "project": "PetaBricks",
-  "venue": "S.M. Thesis"
+  "venue": "S.M. Thesis",
+  "doi": "10.1145/1542476.1542481"
  },
  {
   "title": "Autotuning Multigrid with PetaBricks",
@@ -3012,7 +3060,8 @@
    "HPC"
   ],
   "project": "PetaBricks",
-  "venue": "SC"
+  "venue": "SC",
+  "doi": "10.1145/1654059.1654065"
  },
  {
   "title": "Computer-Aided Design for Microfluidic Chips Based on Multilayer Soft Lithography",
@@ -3029,7 +3078,8 @@
   "topics": [
    "Microfluidics / Programmable Biology"
   ],
-  "venue": "ICCD"
+  "venue": "ICCD",
+  "doi": "10.1109/ICCD.2009.5413185"
  },
  {
   "title": "Manipulating Lossless Video in the Compressed Domain",
@@ -3050,7 +3100,8 @@
    "Image & Video Processing"
   ],
   "project": "StreamIt",
-  "venue": "ACM International Conference on Multimedia (ACM MM)"
+  "venue": "ACM International Conference on Multimedia (ACM MM)",
+  "doi": "10.1145/1631272.1631319"
  },
  {
   "author0": "Matthew D. Steele",
@@ -3093,7 +3144,8 @@
   ],
   "project": "PetaBricks",
   "venue": "PLDI",
-  "featured": true
+  "featured": true,
+  "doi": "10.1145/1542476.1542481"
  },
  {
   "author0": "Jason Ansel and Kapil Arya and Gene Cooperman",
@@ -3112,7 +3164,8 @@
    "HPC"
   ],
   "project": "Other",
-  "venue": "IPDPS"
+  "venue": "IPDPS",
+  "doi": "10.1109/IPDPS.2009.5161063"
  },
  {
   "title": "Language and Compiler Support for Stream Programs",
@@ -3153,7 +3206,8 @@
   ],
   "project": "Aikido/Kendo",
   "venue": "ASPLOS",
-  "featured": true
+  "featured": true,
+  "doi": "10.1145/1508244.1508256"
  },
  {
   "author0": "Saman Amarasinghe and Michael I. Gordon and Michal Karczmarek and Jasper Lin and David Maze and Rodric Rabbah and William Thies",
@@ -3174,7 +3228,8 @@
    "Compiler Optimization"
   ],
   "project": "StreamIt",
-  "venue": "IJPP"
+  "venue": "IJPP",
+  "doi": "10.1007/s10766-005-3590-6"
  },
  {
   "author0": "William Thies and John Paul Urbanski and Mats Cooper and David Wentzlaff and Todd Thorsen and Saman Amarasinghe",
@@ -3210,7 +3265,8 @@
   "topics": [
    "Program Verification"
   ],
-  "venue": "ECOOP"
+  "venue": "ECOOP",
+  "doi": "10.1007/11531142_26"
  },
  {
   "author0": "William Thies and John Paul Urbanski and Todd Thorsen and Saman Amarasinghe",
@@ -3226,7 +3282,8 @@
   "topics": [
    "Microfluidics / Programmable Biology"
   ],
-  "venue": "Natural Computing"
+  "venue": "Natural Computing",
+  "doi": "10.1007/s11047-006-9032-6"
  },
  {
   "title": "Tiled Microprocessors",
@@ -3282,7 +3339,8 @@
   "topics": [
    "Bioinformatics & Genomics"
   ],
-  "venue": "RECOMB"
+  "venue": "RECOMB",
+  "doi": "10.1186/1471-2105-8-S5-S3"
  },
  {
   "author0": "Blaise Gassend and Charles W. O'Donnell and William Thies and Andrew Lee and Marten van Dijk and\n                  Srinivas Devadas",
@@ -3299,7 +3357,8 @@
   "topics": [
    "Bioinformatics & Genomics"
   ],
-  "venue": "BMC Bioinformatics"
+  "venue": "BMC Bioinformatics",
+  "doi": "10.1186/1471-2105-8-S5-S3"
  },
  {
   "author0": "Blaise Gassend and Charles W. O'Donnell and William Thies and Andrew Lee and Marten van Dijk and\n                  Srinivas Devadas",
@@ -3316,7 +3375,8 @@
   "topics": [
    "Bioinformatics & Genomics"
   ],
-  "venue": "PRIB"
+  "venue": "PRIB",
+  "doi": "10.1007/11818564_11"
  },
  {
   "author0": "Somani Patnaik and Emma Brunskill and William Thies",
@@ -3335,7 +3395,8 @@
    "ICT4D"
   ],
   "project": "TEK",
-  "venue": "ICTD"
+  "venue": "ICTD",
+  "doi": "10.1109/ICTD.2009.5426700"
  },
  {
   "title": "Programming by Sketching for Bit-Streaming Programs",
@@ -3354,7 +3415,8 @@
    "Stream Computing"
   ],
   "project": "Other",
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "doi": "10.1145/1065010.1065045"
  },
  {
   "title": "How to do a million watchpoints: Efficient Debugging Using Dynamic Instrumentation",
@@ -3372,7 +3434,8 @@
    "Dynamic Binary Instrumentation"
   ],
   "project": "DynamoRIO",
-  "venue": "CC"
+  "venue": "CC",
+  "doi": "10.1007/978-3-540-78791-4_10"
  },
  {
   "author0": "Nada Amin",
@@ -3445,7 +3508,8 @@
    "Dynamic Binary Instrumentation"
   ],
   "project": "DynamoRIO",
-  "venue": "CGO"
+  "venue": "CGO",
+  "doi": "10.1145/1356058.1356083"
  },
  {
   "author0": "Xin David Zhang and Qiuyuan J. Li and Rodric Rabbah and Saman Amarasinghe",
@@ -3464,7 +3528,8 @@
    "DSLs"
   ],
   "project": "StreamIt",
-  "venue": "dasCMP"
+  "venue": "dasCMP",
+  "doi": "10.1145/1399972.1399978"
  },
  {
   "author0": "Xin David Zhang",
@@ -3598,7 +3663,8 @@
    "Dynamic Binary Instrumentation"
   ],
   "project": "DynamoRIO",
-  "venue": "PACT"
+  "venue": "PACT",
+  "doi": "10.1145/1152154.1152180"
  },
  {
   "author0": "Michael I. Gordon and William Thies and Saman Amarasinghe",
@@ -3620,7 +3686,8 @@
   ],
   "project": "StreamIt",
   "venue": "ASPLOS",
-  "featured": true
+  "featured": true,
+  "doi": "10.1145/1168857.1168877"
  },
  {
   "author0": "Mark Stephenson",
@@ -3734,7 +3801,8 @@
   "topics": [
    "Microfluidics / Programmable Biology"
   ],
-  "venue": "DNA"
+  "venue": "DNA",
+  "doi": "10.1007/11925903_24"
  },
  {
   "author0": "Matthew Drake and Henry Hoffman and Rodric Rabbah and Saman Amarasinghe",
@@ -3755,7 +3823,8 @@
    "Image & Video Processing"
   ],
   "project": "StreamIt",
-  "venue": "IPDPS"
+  "venue": "IPDPS",
+  "doi": "10.1109/IPDPS.2006.1639343"
  },
  {
   "author0": "John Paul Urbanski and William Thies and Christopher Rhodes and Saman Amarasinghe and Todd Thorsen",
@@ -3775,7 +3844,8 @@
    "Microfluidics / Programmable Biology"
   ],
   "venue": "Lab on a Chip",
-  "featured": true
+  "featured": true,
+  "doi": "10.1039/B510127A"
  },
  {
   "author0": "Zhao, Qin and Rabbah, Rodric and Wong, Weng-Fai",
@@ -3820,7 +3890,8 @@
   ],
   "project": "SLP",
   "venue": "MICRO",
-  "featured": true
+  "featured": true,
+  "doi": "10.1109/MICRO.2005.20"
  },
  {
   "author0": "Sitij Agrawal and William Thies and Saman Amarasinghe",
@@ -3842,7 +3913,8 @@
   ],
   "project": "StreamIt",
   "venue": "CASES",
-  "featured": true
+  "featured": true,
+  "doi": "10.1145/1086297.1086315"
  },
  {
   "author0": "Jiawen Chen and Michael I. Gordon and William Thies and Matthias Zwicker and Kari Pulli and Fredo Durand",
@@ -3907,7 +3979,8 @@
    "Memory Optimization & Locality"
   ],
   "project": "StreamIt",
-  "venue": "LCTES"
+  "venue": "LCTES",
+  "doi": "10.1145/1065910.1065927"
  },
  {
   "author0": "William Thies and Michal Karczmarek and Janis Sermulins and Rodric Rabbah and Saman Amarasinghe",
@@ -3928,7 +4001,8 @@
    "HPC"
   ],
   "project": "StreamIt",
-  "venue": "PPoPP"
+  "venue": "PPoPP",
+  "doi": "10.1145/1065944.1065975"
  },
  {
   "author0": "Saman Amarasinghe",
@@ -3949,7 +4023,8 @@
    "Compiler Optimization"
   ],
   "project": "StreamIt",
-  "venue": "CGO"
+  "venue": "CGO",
+  "doi": "10.1109/CGO.2005.22"
  },
  {
   "author0": "Kimberly Kuo and Rodric Rabbah and Saman Amarasinghe",
@@ -3989,7 +4064,8 @@
    "Compiler Optimization"
   ],
   "project": "Raw",
-  "venue": "JILP"
+  "venue": "JILP",
+  "doi": "10.1109/MICRO.2002.1176243"
  },
  {
   "author0": "Mark Stephenson and Saman Amarasinghe",
@@ -4007,7 +4083,8 @@
    "Machine Learning for Compilers",
    "Compiler Optimization"
   ],
-  "venue": "CGO"
+  "venue": "CGO",
+  "doi": "10.1109/CGO.2005.29"
  },
  {
   "author0": "Derek Bruening and Saman Amarasinghe",
@@ -4025,7 +4102,8 @@
    "Dynamic Binary Instrumentation"
   ],
   "project": "DynamoRIO",
-  "venue": "CGO"
+  "venue": "CGO",
+  "doi": "10.1109/CGO.2005.19"
  },
  {
   "author0": "Juan C Reyes",
@@ -4144,7 +4222,8 @@
    "Autotuning",
    "Compiler Optimization"
   ],
-  "venue": "LCPC"
+  "venue": "LCPC",
+  "doi": "10.1007/978-3-540-24644-2_2"
  },
  {
   "author0": "Jeremy Wong",
@@ -4183,7 +4262,8 @@
   ],
   "project": "Raw",
   "venue": "ISCA",
-  "featured": true
+  "featured": true,
+  "doi": "10.1145/1028176.1006733"
  },
  {
   "author0": "Timothy Garnett",
@@ -4301,7 +4381,8 @@
    "Compiler Optimization"
   ],
   "project": "DynamoRIO",
-  "venue": "IVME"
+  "venue": "IVME",
+  "doi": "10.1145/858570.858576"
  },
  {
   "author0": "Andrew Lamb",
@@ -4322,7 +4403,8 @@
    "Compiler Optimization"
   ],
   "project": "StreamIt",
-  "venue": "M.Eng. Thesis"
+  "venue": "M.Eng. Thesis",
+  "doi": "10.1145/781131.781134"
  },
  {
   "author0": "Michal Karczmarek and William Thies and Saman Amarasinghe",
@@ -4343,7 +4425,8 @@
    "Compiler Optimization"
   ],
   "project": "StreamIt",
-  "venue": "LCTES"
+  "venue": "LCTES",
+  "doi": "10.1145/780732.780747"
  },
  {
   "author0": "Mark Stephenson and Saman Amarasinghe and Martin C. Martin and Una-May O'Reilly",
@@ -4362,7 +4445,8 @@
    "Compiler Optimization"
   ],
   "venue": "PLDI",
-  "featured": true
+  "featured": true,
+  "doi": "10.1145/781131.781141"
  },
  {
   "author0": "Andrew Lamb and William Thies and Saman Amarasinghe",
@@ -4383,7 +4467,8 @@
    "Compiler Optimization"
   ],
   "project": "StreamIt",
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "doi": "10.1145/781131.781134"
  },
  {
   "author0": "Vladimir Kiriansky",
@@ -4442,7 +4527,8 @@
    "Computer Architecture"
   ],
   "project": "Raw",
-  "venue": "HPCA"
+  "venue": "HPCA",
+  "doi": "10.1109/HPCA.2003.1183551"
  },
  {
   "author0": "Diego Puppin",
@@ -4481,7 +4567,8 @@
    "Machine Learning for Compilers",
    "Compiler Optimization"
   ],
-  "venue": "EuroGP"
+  "venue": "EuroGP",
+  "doi": "10.1007/3-540-36599-0_22"
  },
  {
   "author0": "Derek Bruening and Timothy Garnett and Saman Amarasinghe",
@@ -4501,7 +4588,8 @@
   ],
   "project": "DynamoRIO",
   "venue": "CGO",
-  "featured": true
+  "featured": true,
+  "doi": "10.1109/CGO.2003.1191551"
  },
  {
   "author0": "Michal Karczmarek",
@@ -4540,7 +4628,8 @@
    "Compiler Optimization"
   ],
   "project": "Raw",
-  "venue": "MICRO"
+  "venue": "MICRO",
+  "doi": "10.1109/MICRO.2002.1176243"
  },
  {
   "author0": "Michael I. Gordon",
@@ -4599,7 +4688,8 @@
    "Compiler Optimization"
   ],
   "project": "StreamIt",
-  "venue": "ASPLOS"
+  "venue": "ASPLOS",
+  "doi": "10.1145/605397.605428"
  },
  {
   "author0": "Samuel Larsen and Emmett Witchel and Saman Amarasinghe",
@@ -4618,7 +4708,8 @@
    "Memory Optimization & Locality"
   ],
   "project": "SLP",
-  "venue": "PACT"
+  "venue": "PACT",
+  "doi": "10.1109/PACT.2002.1105970"
  },
  {
   "author0": "Samidh Chakrabarti",
@@ -4675,7 +4766,8 @@
    "DSLs"
   ],
   "project": "StreamIt",
-  "venue": "ACM SIGARCH Computer Architecture News"
+  "venue": "ACM SIGARCH Computer Architecture News",
+  "doi": "10.1145/571666.571673"
  },
  {
   "author0": "Vladimir Kiriansky and Derek Bruening and Saman Amarasinghe",
@@ -4716,7 +4808,8 @@
    "Compiler Optimization"
   ],
   "project": "StreamIt",
-  "venue": "Technical Report"
+  "venue": "Technical Report",
+  "doi": "10.1145/605397.605428"
  },
  {
   "author0": "William Thies and Janelle Prevost and Tazeen Mahtab and Genevieve T. Cuevas and Saad Shakhshir and Alexandro Artola and Binh D. Vo and Yuliya Litvak and Sheldon Chan and Sid Henderson and Mark Halsey and Libby Levison and Saman Amarasinghe",
@@ -4753,7 +4846,8 @@
    "ICT4D"
   ],
   "project": "TEK",
-  "venue": "ISTAS"
+  "venue": "ISTAS",
+  "doi": "10.1109/ISTAS.2002.1013800"
  },
  {
   "author0": "Libby Levison and William Thies and Saman Amarasinghe",
@@ -4852,7 +4946,8 @@
    "FPGA & Hardware Acceleration"
   ],
   "project": "StreamIt",
-  "venue": "IPDPS"
+  "venue": "IPDPS",
+  "doi": "10.1109/IPDPS.2002.1015491"
  },
  {
   "author0": "Govinda Shrestha and Saman Amarasinghe",
@@ -4889,7 +4984,8 @@
    "Computer Architecture"
   ],
   "project": "Raw",
-  "venue": "IEEE Micro"
+  "venue": "IEEE Micro",
+  "doi": "10.1109/MM.2002.997877"
  },
  {
   "author0": "Rajeev Barua and Walter Lee and Saman Amarasinghe and Anant Agarwal",
@@ -4910,7 +5006,8 @@
    "Compiler Optimization"
   ],
   "project": "Maps",
-  "venue": "IEEE Transactions on Computers"
+  "venue": "IEEE Transactions on Computers",
+  "doi": "10.1109/12.966497"
  },
  {
   "author0": "Anant Agarwal and Saman Amarasinghe and Rajeev Barua and Matthew Frank and Walter Lee and Vivek Sarkar and Devabhaktuni Srikrishna and Michael Taylor",
@@ -4969,7 +5066,8 @@
    "Compiler Optimization"
   ],
   "project": "Maps",
-  "venue": "Technical Report"
+  "venue": "Technical Report",
+  "doi": "10.1145/300979.300980"
  },
  {
   "author0": "Rajeev Barua and Walter Lee and Saman Amarasinghe and Anant Agarwal",
@@ -4991,7 +5089,8 @@
    "Memory Optimization & Locality"
   ],
   "project": "Raw",
-  "venue": "Technical Report"
+  "venue": "Technical Report",
+  "doi": "10.1109/HIPC.1998.737991"
  },
  {
   "author0": "Walter Lee and Rajeev Barua and Devabhaktuni Srikrishna and Johnathan Babb and Vivek Sarkar and Saman Amarasinghe and Anant Agarwal",
@@ -5012,7 +5111,8 @@
    "Compiler Optimization"
   ],
   "project": "Raw",
-  "venue": "Technical Report"
+  "venue": "Technical Report",
+  "doi": "10.1145/291069.291018"
  },
  {
   "author0": "Elliot L. Waingold and Michael Taylor and Vivek Sarkar and Walter Lee and Victor Lee and Jang Kim and Matthew Frank and Peter Finch and Srikrishna Devabhaktuni and Rajeev Barua and Johnathan Babb and Saman Amarasinghe and Anant Agarwal",
@@ -5169,7 +5269,8 @@
    "DSLs"
   ],
   "project": "StreamIt",
-  "venue": "CC"
+  "venue": "CC",
+  "doi": "10.1007/3-540-45937-5_14"
  },
  {
   "author0": "Diego Puppin and Dean Tullsen",
@@ -5284,7 +5385,8 @@
    "Computer Architecture"
   ],
   "project": "Raw",
-  "venue": "IEEE Computer"
+  "venue": "IEEE Computer",
+  "doi": "10.1109/2.612254"
  },
  {
   "author0": "Matthew Frank and Csaba Andras Moritz and Benjamin Greenwald and Saman Amarasinghe and Anant Agarwal",
@@ -5368,7 +5470,8 @@
    "Vectorization / SIMD"
   ],
   "project": "SLP",
-  "venue": "Technical Report"
+  "venue": "Technical Report",
+  "doi": "10.1145/349299.349320"
  },
  {
   "author0": "William Thies and Michal Karczmarek and Michael I. Gordon and David Maze and Jeremy Wong and Henry Hoffman and Matthew Brown and Saman Amarasinghe",
@@ -5410,7 +5513,8 @@
    "FPGA & Hardware Acceleration"
   ],
   "project": "Bitwise",
-  "venue": "Technical Report"
+  "venue": "Technical Report",
+  "doi": "10.1145/358438.349317"
  },
  {
   "author0": "Derek Bruening and Srikrishna Devabhaktuni and Saman Amarasinghe",
@@ -5450,7 +5554,8 @@
    "Compiler Optimization",
    "Polyhedral Compilation"
   ],
-  "venue": "Technical Report"
+  "venue": "Technical Report",
+  "doi": "10.1145/378795.378852"
  },
  {
   "author0": "William Thies and Michal Karczmarek and Saman Amarasinghe",
@@ -5471,7 +5576,8 @@
    "DSLs"
   ],
   "project": "StreamIt",
-  "venue": "Technical Report"
+  "venue": "Technical Report",
+  "doi": "10.1007/3-540-45937-5_14"
  },
  {
   "author0": "Samuel Larsen",
@@ -5548,7 +5654,8 @@
    "Compiler Optimization"
   ],
   "project": "Raw",
-  "venue": "ASPLOS"
+  "venue": "ASPLOS",
+  "doi": "10.1145/291069.291018"
  },
  {
   "author0": "Rajeev Barua and Walter Lee and Saman Amarasinghe and Anant Agarwal",
@@ -5568,7 +5675,8 @@
    "Memory Optimization & Locality"
   ],
   "project": "Raw",
-  "venue": "HiPC"
+  "venue": "HiPC",
+  "doi": "10.1109/HIPC.1998.737991"
  },
  {
   "author0": "Johnathan Babb and Martin Rinard and Csaba Andras Moritz and Walter Lee and Matthew Frank and Rajeev Barua and Saman Amarasinghe",
@@ -5587,7 +5695,8 @@
    "FPGA & Hardware Acceleration"
   ],
   "project": "Bitwise",
-  "venue": "FCCM"
+  "venue": "FCCM",
+  "doi": "10.1109/FPGA.1999.803669"
  },
  {
   "author0": "Rajeev Barua and Walter Lee and Saman Amarasinghe and Anant Agarwal",
@@ -5607,7 +5716,8 @@
    "Compiler Optimization"
   ],
   "project": "Maps",
-  "venue": "ISCA"
+  "venue": "ISCA",
+  "doi": "10.1145/300979.300980"
  },
  {
   "author0": "Mark Stephenson and Johnathan Babb and Saman Amarasinghe",
@@ -5626,7 +5736,8 @@
    "FPGA & Hardware Acceleration"
   ],
   "project": "Bitwise",
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "doi": "10.1145/358438.349317"
  },
  {
   "author0": "Csaba Andras Moritz and Matthew Frank and Saman Amarasinghe",
@@ -5646,7 +5757,8 @@
    "Compiler Optimization"
   ],
   "project": "Raw",
-  "venue": "Workshop on Intelligent Memory Systems"
+  "venue": "Workshop on Intelligent Memory Systems",
+  "doi": "10.1007/3-540-44570-6_9"
  },
  {
   "author0": "Derek Bruening and Srikrishna Devabhaktuni and Saman Amarasinghe",
@@ -5701,7 +5813,8 @@
    "Compiler Optimization",
    "Polyhedral Compilation"
   ],
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "doi": "10.1145/378795.378852"
  },
  {
   "author0": "William Thies and Frederic Vivien and Saman Amarasinghe",
@@ -5721,7 +5834,8 @@
    "Compiler Optimization",
    "Polyhedral Compilation"
   ],
-  "venue": "ACM Transactions on Programming Languages and Systems"
+  "venue": "ACM Transactions on Programming Languages and Systems",
+  "doi": "10.1145/1286821.1286825"
  },
  {
   "author0": "Samuel Larsen and Saman Amarasinghe",
@@ -5739,7 +5853,8 @@
    "Vectorization / SIMD"
   ],
   "project": "SLP",
-  "venue": "PLDI"
+  "venue": "PLDI",
+  "doi": "10.1145/349299.349320"
  },
  {
   "author0": "Jeffrey W. Sheldon",
@@ -5798,7 +5913,8 @@
    "FPGA & Hardware Acceleration"
   ],
   "project": "Tiramisu",
-  "venue": "ICCD"
+  "venue": "ICCD",
+  "doi": "10.1109/ICCD.2017.75"
  },
  {
   "author0": "Del Sozzo, Emanuele and Baghdadi, Riyadh and Amarasinghe, Saman and Santambrogio, Marco D.",
@@ -5840,7 +5956,8 @@
    "Compiler Optimization"
   ],
   "project": "StreamIt",
-  "venue": "ASPLOS"
+  "venue": "ASPLOS",
+  "doi": "10.1145/3173162.3173170"
  },
  {
   "title": "A Unified Compiler Backend for Distributed, Cooperative Heterogeneous Execution",
@@ -6125,7 +6242,8 @@
    "Compiler Optimization"
   ],
   "project": "TACO",
-  "venue": "OOPSLA"
+  "venue": "OOPSLA",
+  "doi": "10.1145/3428226"
  },
  {
   "address": "New York, NY, USA",
@@ -6196,7 +6314,8 @@
    "DSLs"
   ],
   "project": "BuildIt",
-  "venue": "arXiv preprint arXiv:2601.02653"
+  "venue": "arXiv preprint arXiv:2601.02653",
+  "doi": "10.48550/arXiv.2601.02653"
  },
  {
   "title": "Eliminating Hallucination-Induced Errors in LLM Code Generation with Functional Clustering",
@@ -6211,7 +6330,8 @@
   "topics": [
    "Program Synthesis & LLMs"
   ],
-  "venue": "arXiv preprint arXiv:2506.11021"
+  "venue": "arXiv preprint arXiv:2506.11021",
+  "doi": "10.48550/arXiv.2506.11021"
  },
  {
   "title": "An Attempt to Generate Code for Symmetric Tensor Computations",
@@ -6264,7 +6384,8 @@
    "Machine Learning for Compilers",
    "Program Synthesis & LLMs"
   ],
-  "venue": "MAPL"
+  "venue": "MAPL",
+  "doi": "10.1145/3211346.3211355"
  },
  {
   "author0": "Maydan, Dror E. and Amarasinghe, Saman and Lam, Monica S.",
