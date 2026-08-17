@@ -67,7 +67,7 @@
   "doi": "10.1145/3779212.3790176",
   "bibtexKey": "jaeyeon:asplos:2026",
   "itemType": "inproceedings",
-  "oldbibtex": "@inproceedings{jaeyeon:asplos:2026,\n  address = {Pittsburgh, PA, USA},\n  author = {Won, Jaeyeon and Ahrens, Willow and Emer, Joel and Amarasinghe, Saman},\n  booktitle = {31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {Sparse,Tensors,Compiler,Indirect Einsum,GPU},\n  month = {Mar},\n  title = {Insum: A Compiler for Efficient Sparse Tensor Computation via Indirect Einsums},\n  url = {https://dl.acm.org/doi/10.1145/3779212.3790176},\n  year = {2026}\n}\n",
+  "oldbibtex": "@inproceedings{jaeyeon:asplos:2026,\n  address = {Pittsburgh, PA, USA},\n  author = {Won, Jaeyeon and Ahrens, Willow and Emer, Joel and Amarasinghe, Saman},\n  booktitle = {31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},\n  keywords = {Sparse,Tensors,Compiler,Indirect Einsum,GPU},\n  month = {Mar},\n  title = {Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums},\n  url = {https://dl.acm.org/doi/10.1145/3779212.3790176},\n  year = {2026}\n}\n",
   "topics": [
    "Sparse & Tensor Algebra",
    "GPUs",
@@ -685,7 +685,7 @@
  {
   "title": "Halide in Molecular Dynamics",
   "summary": "This M.Eng. thesis evaluates Halide, a language built for image processing pipelines, as a vehicle for molecular dynamics, where complex loop structures and heavy per-timestep arithmetic make simulations expensive. Rewriting an MD potential in Halide, Gayle reports a 20% serial slowdown relative to the reference code, over 300% speedup running in parallel, and 47% less code, with parallelization reduced to a trivial schedule change. The thesis also identifies loop structures Halide cannot represent and proposes additions to make the language more suitable to MD. The work builds on <a href=\"https://commit.csail.mit.edu/papers/2013/halide-pldi13.pdf\">the PLDI 2013 Halide compiler</a>, carrying its algorithm/schedule separation into a new domain.",
-  "author0": "Gayle Jr., Ricardo",
+  "author0": "Ricardo Gayle Jr.",
   "month": "May",
   "year": "2023",
   "url": "https://commit.csail.mit.edu/papers/2023/ricardo-meng-thesis.pdf",
@@ -827,65 +827,6 @@
   ],
   "project": "TACO",
   "venue": "M.Eng. Thesis"
- },
- {
-  "title": "Halide in Molecular Dynamics",
-  "summary": "A second listing of Ricardo Gayle Jr.'s 2023 M.Eng. thesis on Halide for molecular dynamics; this entry points to the same PDF as the other 2023 record. The thesis argues that MD simulations — which can take weeks to compute under a second of simulated time — are dominated by complex loop nests over particle interactions, close to what Halide's algorithm/schedule separation organizes well. Its case study reimplements an MD potential with 47% less code, a 20% serial slowdown, and over 300% parallel speedup, and closes with proposed extensions for the loop structures MD needs that Halide cannot yet represent. The work builds on <a href=\"https://commit.csail.mit.edu/papers/2013/halide-pldi13.pdf\">the PLDI 2013 Halide compiler</a>.",
-  "author0": "Ricardo Gayle Jr.",
-  "month": "May",
-  "year": "2023",
-  "url": "https://commit.csail.mit.edu/papers/2023/ricardo-meng-thesis.pdf",
-  "type": "M.Eng. Thesis",
-  "address": "Cambridge, MA",
-  "school": "Massachusetts Institute of Technology",
-  "bibtexKey": "ricardo:meng-thesis:2023",
-  "itemType": "mastersthesis",
-  "oldbibtex": "@mastersthesis{ricardo:meng-thesis:2023,\n  address = {Cambridge, MA},\n  author = {Ricardo Gayle Jr.},\n  keywords = {Halide, Molecular Dynamics},\n  month = {May},\n  school = {Massachusetts Institute of Technology},\n  title = {Halide in Molecular Dynamics},\n  type = {M.Eng. Thesis},\n  url = {https://commit.csail.mit.edu/papers/2023/ricardo-meng-thesis.pdf},\n  year = {2023}\n}\n",
-  "topics": [
-   "Physical Simulation",
-   "DSLs"
-  ],
-  "project": "Halide",
-  "venue": "M.Eng. Thesis"
- },
- {
-  "title": "Implementing BREeze - a High-Performance Regular Expression Library Using Code Generation with BuildIt",
-  "summary": "This entry duplicates Tamara Mitrovska’s 2023 M.Eng. thesis on BREeze, a regular-expression library implemented through code generation. BREeze compiles each regular expression into specialized matching code: a parser builds a state-transition table, a staged variant of Thompson’s NFA simulation walks it breadth-first to sidestep catastrophic backtracking, and scheduling options control how the regex and input string are split, grouped, and interleaved for serial or parallel matching. In roughly 1,500 lines of code the library reaches performance comparable to engines such as PCRE2, RE2, and Hyperscan, whose hand-specialized implementations are orders of magnitude larger.\n\nBREeze is built on <a href=\"https://commit.csail.mit.edu/papers/2021/ajay-cgo21-buildit.pdf\">BuildIt</a> (CGO 2021) and extends a small staged regex compiler introduced with <a href=\"https://commit.csail.mit.edu/papers/2022/ajay-cgo22-buildsl.pdf\">BuilDSL</a> (CGO 2022); <a href=\"https://commit.csail.mit.edu/papers/2025/ajay-phd-thesis.pdf\">Brahmakshatriya’s PhD thesis</a> (2025) later summarizes BREeze in its account of the BuildIt framework.",
-  "author0": "Tamara Mitrovska",
-  "month": "May",
-  "year": "2023",
-  "url": "https://commit.csail.mit.edu/papers/2023/tamara-meng-thesis.pdf",
-  "type": "M.Eng. Thesis",
-  "address": "Cambridge, MA",
-  "school": "Massachusetts Institute of Technology",
-  "bibtexKey": "tamara:meng-thesis:2023",
-  "itemType": "mastersthesis",
-  "oldbibtex": "@mastersthesis{tamara:meng-thesis:2023,\n  address = {Cambridge, MA},\n  author = {Tamara Mitrovska},\n  keywords = {BuildIt, Regex},\n  month = {May},\n  school = {Massachusetts Institute of Technology},\n  title = {Implementing BREeze - a High-Performance Regular Expression Library Using Code Generation with BuildIt},\n  type = {M.Eng. Thesis},\n  url = {https://commit.csail.mit.edu/papers/2023/tamara-meng-thesis.pdf},\n  year = {2023}\n}\n",
-  "topics": [
-   "Multi-stage Programming",
-   "DSLs"
-  ],
-  "project": "BuildIt",
-  "venue": "M.Eng. Thesis"
- },
- {
-  "title": "Unified Compilation for Lossless Compression and Sparse Computing",
-  "summary": "Donenfeld's S.M. thesis extends sparse tensor algebra compilation to data compressed with lossless techniques such as run-length encoding and Lempel-Ziv. Its key abstraction treats runs of repeated values the way sparse compilers treat zeros: repetitions become non-scalar, dynamic fill values that are compressed out of storage, so RLE and LZ77 can be defined as level formats and computed on directly. Two implementations are evaluated: a TACO-based prototype that generates image and video kernels up to 16.3× faster than dense TACO kernels and 16.1× faster than OpenCV, and Finch formats achieving compression ratios up to 25× with reduction speedups up to 3.1×.\n\nThe thesis expands <a href=\"https://commit.csail.mit.edu/papers/2022/cgo22-TACO-lossless.pdf\">the CGO 2022 conference paper</a> with the Finch implementation, built on <a href=\"https://commit.csail.mit.edu/papers/2023/looplets-cgo23.pdf\">Looplets</a>. The fill-value machinery generalizes the format abstractions of <a href=\"https://commit.csail.mit.edu/papers/2018/chou-oopsla18-taco-formats.pdf\">the OOPSLA 2018 paper</a>, and the TACO prototype later served as a comparison baseline in <a href=\"https://commit.csail.mit.edu/papers/2024/willow-phd-thesis.pdf\">Ahrens's PhD thesis</a>.",
-  "author0": "Daniel Donenfeld",
-  "month": "Feb",
-  "year": "2023",
-  "url": "https://commit.csail.mit.edu/papers/2023/donenfeld-sm-thesis.pdf",
-  "type": "S.M. Thesis",
-  "address": "Cambridge, MA",
-  "school": "Massachusetts Institute of Technology",
-  "bibtexKey": "danielbd:sm-thesis:2023",
-  "itemType": "sciencethesis",
-  "topics": [
-   "Sparse & Tensor Algebra",
-   "DSLs"
-  ],
-  "project": "TACO",
-  "venue": "S.M. Thesis"
  },
  {
   "title": "Format Abstractions for the Compilation of Sparse Tensor Algebra",
@@ -5312,9 +5253,8 @@
   "type": "Technical Report",
   "address": "Cambridge, MA",
   "institution": "Massachusetts Institute of Technology",
-  "bibtexKey": "thies:lcs-tm:2001",
+  "bibtexKey": "thies:lcs-tm-622:2001",
   "itemType": "techreport",
-  "oldbibtex": "@techreport{thies:lcs-tm:2001,\n  address = {Cambridge, MA},\n  author = {William Thies and Michal Karczmarek and Saman Amarasinghe},\n  institution = {Massachusetts Institute of Technology},\n  keywords = {StreamIt},\n  month = {Aug},\n  number = {MIT/LCS Technical Memo LCS-TM-620},\n  title = {StreaMIT: A Language for Streaming Applications},\n  type = {Technical Report},\n  url = {https://commit.csail.mit.edu/papers/2001/StreaMIT-TM-620.pdf},\n  year = {2001}\n}\n",
   "topics": [
    "Stream Computing",
    "DSLs",
@@ -5395,9 +5335,9 @@
   "type": "Technical Report",
   "address": "Cambridge, MA",
   "institution": "Massachusetts Institute of Technology",
-  "bibtexKey": "thies:lcs-tm:2001",
+  "bibtexKey": "thies:lcs-tm-620:2001",
   "itemType": "techreport",
-  "oldbibtex": "@techreport{thies:lcs-tm:2001,\n  address = {Cambridge, MA},\n  author = {William Thies and Michal Karczmarek and Saman Amarasinghe},\n  institution = {Massachusetts Institute of Technology},\n  keywords = {StreamIt},\n  month = {Aug},\n  number = {MIT/LCS Technical Memo LCS-TM-620},\n  title = {StreaMIT: A Language for Streaming Applications},\n  type = {Technical Report},\n  url = {https://commit.csail.mit.edu/papers/2001/StreaMIT-TM-620.pdf},\n  year = {2001}\n}\n",
+  "oldbibtex": "@techreport{thies:lcs-tm-620:2001,\n  address = {Cambridge, MA},\n  author = {William Thies and Michal Karczmarek and Saman Amarasinghe},\n  institution = {Massachusetts Institute of Technology},\n  keywords = {StreamIt},\n  month = {Aug},\n  number = {MIT/LCS Technical Memo LCS-TM-620},\n  title = {StreaMIT: A Language for Streaming Applications},\n  type = {Technical Report},\n  url = {https://commit.csail.mit.edu/papers/2001/StreaMIT-TM-620.pdf},\n  year = {2001}\n}\n",
   "topics": [
    "Stream Computing",
    "DSLs"
@@ -6499,7 +6439,7 @@
  },
  {
   "author0": "Hall, Mary W. and Anderson, Jennifer M. and Amarasinghe, Saman and Murphy, Brian R. and Liao, Shih-Wei and Bugnion, Ed and Lam, Monica S.",
-  "title": "Maximizing Multiprocessor Performance with the SUIF Compiler",
+  "title": "Maximizing Multiprocessor Performance with the SUIF Compiler (Digital Technical Journal reprint)",
   "summary": "This Digital Technical Journal article reprints, for Digital's engineering audience, the Computer 1996 overview of SUIF's automatic parallelization: interprocedural analyses that locate coarse-grain parallelism and memory optimizations that together yielded speedups on three-fourths of the NAS and SPECfp95 benchmarks, measured on Digital AlphaServer multiprocessors. It adds a new section, 'The Status and Future of SUIF', recording the release of the SUIF-parallelized SPECfp95 benchmarks through SPEC, predicated array data-flow analysis for run-time parallelization, the connection of SUIF to Compaq's GEM compiler, and SUIF's selection for the National Compiler Infrastructure.\n\nAn expanded reprint of <a href=\"https://mit-commit.github.io/commit-website/papers/1996/hall-computer96.pdf\">the Computer 1996 article</a>, which remains the primary version of this material. The underlying parallelization system is the one presented at <a href=\"https://mit-commit.github.io/commit-website/papers/1995/hall-sc95.pdf\">Supercomputing '95</a>, and the memory optimizations come from <a href=\"https://mit-commit.github.io/commit-website/papers/1995/anderson-ppopp95.pdf\">PPoPP 1995</a>.",
   "journal": "Digital Technical Journal",
   "volume": "10",
