@@ -1,5 +1,83 @@
 [
  {
+  "title": "The Continuous Tensor Abstraction and Its High Performance Compilation",
+  "summary": "This PhD thesis extends tensor programming from integer coordinates to real-valued domains. Continuous tensors reuse the language of discrete ones — convolution is the same expression over pixels on a grid or points in space — with pinpoints for isolated coordinates, intervals for regions, continuous Einsums whose reductions integrate under counting and Lebesgue measures, and a piecewise-constant representation that makes them finite and compilable. The thesis then develops format-aware reformulation, a rewrite folding format information into the expression so continuous and sparse programs become array operations executable by dense tensor infrastructure, including GPU tensor cores; native tensor-core matmul yields 2.6× over the default PyTorch compiler, and the GPU implementation is at least 5.4× faster than Finch.\n\nThe thesis is the most complete treatment of <a href=\"papers/2025/2025_OOPSLA_Continuous.pdf\">the continuous tensor abstraction</a> (OOPSLA 2025), whose first implementation extended <a href=\"papers/2025/Finch-OOPSLA-2025.pdf\">Finch</a>, and of <a href=\"papers/2026/won-asplos26-insum.pdf\">Insum</a> (ASPLOS 2026), the sparse GPU compiler supplying format-aware reformulation.",
+  "author0": "Jaeyeon Won",
+  "month": "Sep",
+  "year": "2026",
+  "url": "papers/2026/won-phd26-continuous-tensor.pdf",
+  "type": "Ph.D. Thesis",
+  "address": "Cambridge, MA",
+  "school": "Massachusetts Institute of Technology",
+  "bibtexKey": "won:phd-thesis:2026",
+  "itemType": "phdthesis",
+  "topics": [
+   "Sparse & Tensor Algebra",
+   "DSLs",
+   "GPUs"
+  ],
+  "project": "Insum",
+  "venue": "Ph.D. Thesis"
+ },
+ {
+  "title": "Accelerating Multimedia Pipelines with Structural Specialization",
+  "summary": "This M.Eng. thesis treats performance engineering as a specialization problem: identifying where a program's generality costs work, and exploiting constraints on inputs or environment that a build-time or run-time parameter makes available. It contributes a framework of specialization axes with the correctness obligation each incurs, a reproducible procedure for finding opportunities in an unfamiliar codebase, and deployability criteria for judging the result. Two case studies apply it: BuildIt-staged FFmpeg filters, where a staged geq interpreter emits straight-line C and runs up to 11× faster, and a ten-patch series for libvmaf reaching a 40% end-to-end speedup at 4K, bit-identical on integer feature paths and differing only by floating-point reassociation elsewhere. In both codebases, hardware-model specialization was already exhausted while value-range and algebraic specialization were largely untouched.\n\nThe staged filters and the width-specialized convolution kernels are built with <a href=\"papers/2021/ajay-cgo21-buildit.pdf\">BuildIt</a> (CGO 2021).",
+  "author0": "Arjun Barrett",
+  "month": "Sep",
+  "year": "2026",
+  "url": "papers/2026/barrett-meng26-structural-specialization.pdf",
+  "type": "M.Eng. Thesis",
+  "address": "Cambridge, MA",
+  "school": "Massachusetts Institute of Technology",
+  "bibtexKey": "barrett:meng-thesis:2026",
+  "itemType": "mastersthesis",
+  "topics": [
+   "Multi-stage Programming",
+   "Image & Video Processing",
+   "Compiler Optimization"
+  ],
+  "project": "BuildIt",
+  "venue": "M.Eng. Thesis"
+ },
+ {
+  "title": "Programmatic Generation of GPU Matrix Multiplication Primitives",
+  "summary": "This M.Eng. thesis generates pipelined Hopper GPU matrix multiplication kernels directly from loop nests, without asking the programmer to reason about tiling, warpgroup MMA, or the asynchronous memory model. It contributes GPU memory support in BuildIt's intermediate representation, carrying qualifiers such as __shared__ through existing passes unchanged; CuteHopperGemm, a staged helper library that lowers to CuTe so the compiler need not reason about CuTe directly; and extract_cute, an analysis pass that recognizes an annotated matmul loop nest and rewrites it. Compiler annotations extend the approach to several data types, memory layouts, and matrix dimensions. Generated kernels reach 82 to 96 percent of cuBLAS performance for square problems from 2048 to 8192, with up to 20× less user code.\n\nThe work extends <a href=\"papers/2021/ajay-cgo21-buildit.pdf\">BuildIt</a> (CGO 2021), adding GPU code generation to its type-based multi-stage framework.",
+  "author0": "Rishab Parthasarathy",
+  "month": "Sep",
+  "year": "2026",
+  "url": "papers/2026/parthasarathy-meng26-gpu-matmul.pdf",
+  "type": "M.Eng. Thesis",
+  "address": "Cambridge, MA",
+  "school": "Massachusetts Institute of Technology",
+  "bibtexKey": "parthasarathy:meng-thesis:2026",
+  "itemType": "mastersthesis",
+  "topics": [
+   "GPUs",
+   "Multi-stage Programming",
+   "Compiler Optimization"
+  ],
+  "project": "BuildIt",
+  "venue": "M.Eng. Thesis"
+ },
+ {
+  "title": "Accelerating Microservice Network Stacks on Kubernetes via a Unified DSL",
+  "summary": "A unified DSL generates both the deployment configuration and the communication stack for Kubernetes microservices from one Python-like source file. Decorators mark which functions become microservices and which ports carry inter-container calls; the compiler emits Dockerfiles, manifests, build and deploy scripts, and NetBlocks-generated protocol code. Making custom stacks coexist with Kubernetes required a protocol identifier field and packet filter, so ARP, DNS and ICMP traffic no longer crashes the generated analyzer, and Headless Services to reach pods without NAT. On a prime-counter application, 42 input lines expand to 2,978 generated lines, and a NetBlocks UDP-over-Ethernet stack cuts median end-to-end latency against gRPC by about 330×, 41× in the communication layer alone.\n\nThe unified DSL extends <a href=\"papers/2024/PLDI24_NetBlocks.pdf\">NetBlocks</a> (PLDI 2024), driving its protocol stack generator and adapting it to Kubernetes, and so inherits the staging of <a href=\"papers/2021/ajay-cgo21-buildit.pdf\">BuildIt</a> (CGO 2021).",
+  "author0": "Ishibe, Hoku and Hu, Siyi and Brahmakshatriya, Ajay and Amarasinghe, Saman and Sato, Yukinori",
+  "month": "Aug",
+  "year": "2026",
+  "address": "Takayama, Gifu, Japan",
+  "booktitle": "10th cross-disciplinary Workshop on Computing Systems, Infrastructures, and Programming (xSIG)",
+  "url": "papers/2026/ishibe-xsig26-microservice-dsl.pdf",
+  "bibtexKey": "ishibe:xsig:2026",
+  "itemType": "inproceedings",
+  "topics": [
+   "DSLs",
+   "Networking"
+  ],
+  "project": "BuildIt",
+  "venue": "xSIG"
+ },
+ {
   "title": "Specifying, Tiling, and Fusing Complex Reductions",
   "summary": "This M.Eng. thesis extends the Halide scheduling language to complex reductions. FlashTile, backed by a theoretical framework for deriving tile-merge functions, semi-automatically performs complex tiling transformations of reductions and sliding-window aggregations that Halide otherwise forces into the function definition. Inductive functions let Halide fuse loops over recursively defined functions whose loop index is a recursive variable, as FlashAttention requires. FlashTile replicates hand-optimized schedules such as box filter pipelines and, implementing a novel optimization, produces up to an 8× speedup over PyTorch for a transformer-based time-series model.\n\nThe thesis builds on <a href=\"papers/2013/halide-pldi13.pdf\">the PLDI 2013 Halide compiler</a>, into which FlashTile is integrated. Its StereoBM case study revisits limits that <a href=\"papers/2016/min-zhang-meng-thesis.pdf\">Zhang's 2016 stereo matching thesis</a> met in scheduling dynamic programming and recursive filters.",
   "author0": "Steven N. Raphael",
