@@ -227,12 +227,9 @@ function localizeAssetURL(url) {
       for (var i = 0; i < arr.length; i++) {
         var it = arr[i];
           all.push(it);
-	  console.log(it);
-        if (it.price || it.featured) featured.push(it); // feature rule: has price
+        if (it.price || it.featured) featured.push(it); // featured: award paper or explicit flag
       }
 	featured.sort((a, b) => toYear(b.year) - toYear(a.year));
-	console.log(featured);
-	console.log("hi")
       if (opts && opts.filterFn) all = opts.filterFn(all) || all;
       if (opts && opts.mountAll)      renderList(opts.mountAll, all);
       if (opts && opts.mountFeatured) renderList(opts.mountFeatured, featured);
