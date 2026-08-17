@@ -1,36 +1,61 @@
 # Adding a new paper and writing its summary
 
 This document records the procedure for adding a publication to the COMMIT
-website and the method for writing its 100–150-word contextual summary. The
-method was established in August 2026, when summaries were written for all 326
+website and the method for writing its contextual summary. The summary
+method was established in August 2026, when summaries were written for all
 publications and every cross-paper connection was verified against the papers'
 full texts. Follow it for each new paper so the corpus stays consistent.
 It is written so that either a person or an AI assistant can execute it.
+
+The site is served from GitHub Pages at `mit-commit.github.io/commit-website`.
+`commit.csail.mit.edu` redirects there and still serves the older paper tree,
+but nothing added after 2022 appears on it — which is why every link in this
+repo is site-relative.
 
 ---
 
 ## Part 1 — Adding the paper to the site
 
-1. **Place the PDF** at `papers/<year>/<filename>.pdf`. Use a descriptive
-   filename in the existing style (e.g. `won-asplos26-insum.pdf`,
-   `2026_PLDI_modular_GPU_programming.pdf`).
+1. **Check it is not already there.** Search `data/publications.json` for the
+   title, the DOI, and the author. The publications page collapses entries that
+   share a normalized title and `itemType`, keeping only one — so a duplicate
+   does not produce an error, it produces a silently missing paper. If two
+   genuinely distinct publications share a title (a journal reprint of a
+   conference paper, say), disambiguate the later one in its `title` field, as
+   `hall:dtj:1998` does with "(Digital Technical Journal reprint)".
 
-2. **Add an entry to `data/publications.json`** with the existing fields:
-   `title`, `author0..authorN` (one field per author, in paper order), `month`,
+2. **Place the PDF** at `papers/<year>/<filename>.pdf`, using the naming
+   convention `<lastname>-<venue><yy>-<short>.pdf` — for example
+   `won-asplos26-insum.pdf`. Older files keep their historical names; new ones
+   follow the convention. Store the author's camera-ready version, not a
+   publisher's PDF wrapped in landing-page apparatus.
+
+3. **Add an entry to `data/publications.json`** with the existing fields:
+   `title`, `author0` (all authors in paper order, in one field), `month`,
    `year`, `url`, `type` (for theses/TRs), `venue`, `bibtexKey`, `itemType`,
-   `topics`, `project`. The `url` should be the canonical paper URL
-   (`https://commit.csail.mit.edu/papers/<year>/<filename>.pdf`).
+   `topics`, `project`, `summary`.
+   - `url` is **site-relative**: `papers/<year>/<filename>.pdf`. Never absolute.
+   - `bibtexKey` must be unique across the file.
+   - Do not add an `oldbibtex` field to a new entry. Where it exists it
+     overrides the BibTeX the site generates from the fields, which is how
+     several entries came to hand out the wrong title.
+   - Optional: `slides`, `video`, `code` (artifact or source repository, only
+     when the paper itself points to one), `price` (award text), and
+     `featured: true` to put the paper on the front page. Award papers are
+     featured automatically.
 
-3. **Tags — the vocabulary is FIXED.** Do not invent new topic or project
+4. **Tags — the vocabulary is FIXED.** Do not invent new topic or project
    names; if a genuinely new area appears, extending the vocabulary is a
-   deliberate, separate decision.
+   deliberate, separate decision, made in both this document and
+   `utils/validate_publications.py`.
    - `topics`: one or MORE from:
-     Autotuning; Bioinformatics & Genomics; Bitwidth Analysis / Quantization;
-     Compiler Optimization; Computer Architecture; DSLs; Data Analytics;
-     Deterministic Parallelism; Dynamic Binary Instrumentation; FPGA & Hardware
-     Acceleration; GPUs; Graph Analytics; HPC; ICT4D; Image & Video Processing;
-     Lattice QCD; Machine Learning for Compilers; Memory Optimization &
-     Locality; Microfluidics / Programmable Biology; Multi-stage Programming;
+     Approximate Computing; Autotuning; Bioinformatics & Genomics; Bitwidth
+     Analysis / Quantization; Compiler Optimization; Compilers for Machine
+     Learning; Computer Architecture; DSLs; Data Analytics; Deterministic
+     Parallelism; Dynamic Binary Instrumentation; FPGA & Hardware Acceleration;
+     GPUs; Graph Analytics; HPC; ICT4D; Image & Video Processing; Lattice QCD;
+     Machine Learning for Compilers; Memory Optimization & Locality;
+     Microfluidics / Programmable Biology; Multi-stage Programming; Networking;
      Parallelizing Compilers; Physical Simulation; Polyhedral Compilation;
      Program Synthesis & LLMs; Program Verification; Security; Sparse & Tensor
      Algebra; Speculative Parallelism; Stream Computing; Vectorization / SIMD.
@@ -41,8 +66,8 @@ It is written so that either a person or an AI assistant can execute it.
      Softspec; StreamIt; TACO; TEK; Tiramisu; UniTe; VeGen; WACO; Weld; goSLP;
      milk.
    - Tagging pitfalls learned from the 2026 audit: "Machine Learning for
-     Compilers" means ML applied to compiler decisions — a compiler *for* ML
-     workloads does not get this tag. Tag by what the paper centrally
+     Compilers" means ML applied to compiler decisions; a compiler *for* ML
+     workloads is "Compilers for Machine Learning". Tag by what the paper centrally
      contributes, not by every technique it touches. Theses should match the
      tagging of their companion conference papers.
 
@@ -86,6 +111,9 @@ zero, drop paragraph 2 entirely (no "this work stands alone" filler). With
 exactly one, append a single sentence instead of a paragraph. Never manufacture
 lineage.
 
+A summary describes the paper, never the catalog. Do not write about the entry,
+the PDF, or other records in the file.
+
 When the new paper solidly builds on older papers, also consider adding a
 one-clause forward mention ("later carried to GPUs by X") to those older
 papers' summaries — forward links are justified only by the same verified
@@ -97,21 +125,24 @@ Academic and a little understated; declarative, concrete sentences; precise
 numbers over adjectives.
 
 - **Banned:** flagship, seminal, landmark, groundbreaking, pioneering,
-  definitive, celebrated, famous, "founding paper", "inflection point",
-  state-of-the-art, cutting-edge, and hype adjectives generally.
-- **Timeless — never anchor to the present:** no "newest", "latest", "recent",
-  "current", "modern", "to date", "as of <year>", "frontier". The text must
-  still read correctly in ten years. Connect to predecessors and successors by
-  name and year instead.
+  definitive, celebrated, famous, revolutionary, "founding paper", "inflection
+  point", state-of-the-art, cutting-edge, and hype adjectives generally.
+- **Timeless — never anchor to the present:** no "newest", "latest",
+  "recently", "currently", "nowadays", "today", "to date", "as of <year>". The
+  text must still read correctly in ten years. Connect to predecessors and
+  successors by name and year instead. ("Frontier", "current", "modern" and
+  "recent" have legitimate technical uses — Pareto frontier, current execution —
+  and are flagged for a human rather than blocked.)
 - Allowed sober framings: "the main language paper of the X project", "the
   most complete treatment", "builds on", "grew out of", "widely used".
 
 ### Links
 
-Embedded links use HTML `<a href="URL">natural anchor text</a>` form. Only
-URLs that exist in `data/publications.json` (the site's own papers). Anchor
-text is a natural phrase ("Thies's PhD thesis", "the ASPLOS 2002 paper"), not
-a bare title.
+Embedded links use HTML `<a href="papers/<year>/<file>.pdf">natural anchor
+text</a>` — site-relative, pointing only at papers present in
+`data/publications.json`. Anchor text is a natural phrase ("Thies's PhD
+thesis", "the ASPLOS 2002 paper"), not a bare title. Off-site links (arXiv,
+DOI, DSpace) stay absolute.
 
 ### Two approved exemplars (match this register)
 
@@ -146,30 +177,46 @@ a bare title.
 > treatment, and the CACM article an accessible retrospective.
 
 (In the stored summaries the referenced papers carry `<a href>` links to their
-site URLs.)
-
-### Checklist before committing a summary
-
-1. ≤150 visible words; two paragraphs (or fewer per the zero/one-connection
-   rules).
-2. Paragraph 1 covers the contributions, with the paper's own numbers.
-3. Every linked paper passes the build-on bar, with evidence found in the new
-   paper's own text outside Related Work.
-4. No banned or time-anchored words.
-5. Every `href` is a URL present in `data/publications.json`.
-6. Topics/project from the fixed vocabularies; at most one project.
-7. Forward mentions added to the older papers this one builds on (optional but
-   preferred).
+site paths.)
 
 ---
 
-## Where the existing summaries live
+## Part 3 — Validate, then push
 
-The full set of 326 summaries (with verified connections), the tag audit, and
-the per-link evidence report were produced in August 2026 in a Claude Cowork
-session and delivered as `publication_summaries.csv` / `.json` and
-`tag_change_report.md`; a project note also records the effort in Saman's
-knowledge base (`knowledge/projects/2026-08-publication-summaries.md` in
-`samanamarasinghe/my-agentic-knowledge-base`). When integrating summaries into
-the site, the natural home is a `summary` field on each entry of
-`data/publications.json`; keep this document's rules for every new entry.
+`utils/validate_publications.py` enforces most of this document. Run it before
+committing:
+
+    python3 utils/validate_publications.py
+
+It reports errors, which block, and warnings, which do not. It checks required
+fields, unique `bibtexKey`, the title+`itemType` collision described in step 1,
+relative-URL form, that every `url`, `slides`, `video`, `code` and summary
+`href` resolves to a file in the repo, the 150-word and two-paragraph limits,
+banned and time-anchored words, catalog self-reference, the topic and project
+vocabularies, and `oldbibtex` titles that disagree with their entry.
+
+The same script runs in CI (`.github/workflows/validate-publications.yml`) on
+every push and pull request that touches `data/publications.json`, the papers
+tree, or the validator itself. A legacy problem that cannot be fixed
+immediately can be parked in `utils/validation_baseline.json` with
+`--write-baseline`; that file does not currently exist, because nothing is
+parked.
+
+Commit the PDF and the `data/publications.json` change together, and list any
+older entries whose summaries gained a forward mention in the commit message.
+
+### Checklist before committing
+
+1. Not a duplicate; no title+`itemType` collision with an existing entry.
+2. PDF in `papers/<year>/`, named per the convention.
+3. `url` relative; `bibtexKey` unique; no `oldbibtex`.
+4. ≤150 visible words; two paragraphs (or fewer per the zero/one-connection
+   rules).
+5. Paragraph 1 covers the contributions, with the paper's own numbers.
+6. Every linked paper passes the build-on bar, with evidence found in the new
+   paper's own text outside Related Work.
+7. No banned or time-anchored words; no reference to the catalog itself.
+8. Topics/project from the fixed vocabularies; at most one project.
+9. Forward mentions added to the older papers this one builds on (optional but
+   preferred).
+10. `utils/validate_publications.py` reports no errors.
