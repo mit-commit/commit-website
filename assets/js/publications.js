@@ -1,10 +1,6 @@
 /* Publications page controller — ES5, dynamic counts, compact UI */
 // Data source: data/publications.json; edit that file to add publications.
 /* === BibTeX generation (local, ES5) === */
-// --- Safe URL localizer shim (works even if pubs.js isn't loaded) ---
-// var localizeURL = (window.PUBS && typeof PUBS.localizeAssetURL === 'function')
-//   ? function(u){ try { return PUBS.localizeAssetURL(u); } catch (e) { return u || ''; } }
-//     : function(u){ return u || ''; };
 
 // Localize commit links to site-relative (papers/... presentations/...)
 var localizeURL = (window.PUBS && typeof PUBS.localizeAssetURL === 'function')
@@ -32,7 +28,6 @@ function firstDefined(){
   for (var i=0;i<arguments.length;i++){ var v=arguments[i]; if (v!==undefined && v!==null && v!=='') return v; }
   return '';
 }
-function venueOf(it){ return firstDefined(it.journal, it.booktitle, it.series, it.type, it.publisher); }
 function locationOf(it){ return firstDefined(it.location, it.address); }
 function titleOf(it){ return it.title || 'Untitled'; }
 
@@ -273,15 +268,6 @@ function keyFor(it, which){
 function venueOf(it){ return firstDefined(it.journal, it.booktitle, it.series, it.type, it.publisher); }
 
 function cmp(a, b) { return a < b ? -1 : a > b ? 1 : 0; }
-function makeSorter(key){
-  // returns a function(a,b) for within-year sorting
-  if (key === 'title')       return function(a,b){ return cmp((a.title||'').toLowerCase(), (b.title||'').toLowerCase()); };
-  if (key === 'venue')       return function(a,b){ return cmp((venueOf(a)||'').toLowerCase(), (venueOf(b)||'').toLowerCase()); };
-  if (key === 'firstAuthor') return function(a,b){ return cmp((firstAuthorOf(a)||'').toLowerCase(), (firstAuthorOf(b)||'').toLowerCase()); };
-  if (key === 'type')        return function(a,b){ return cmp((a.itemType||'misc').toLowerCase(), (b.itemType||'misc').toLowerCase()); };
-  if (key === 'month')       return function(a,b){ return cmp(monthDayValue(b), monthDayValue(a)); };
-  return null; // default order (as in data) within year
-}
 
 
 
@@ -358,21 +344,41 @@ function createBibLink(it){
   // fetch decides which papers get a Repositories toggle; per-paper files
   // load lazily on expand. Absent index -> no toggles anywhere.
   var REPO_INDEX = null;
+  // A failed data fetch must be LOUD, and must not take siblings down
+  // with it: each fetch fails independently, logs the path, and surfaces
+  // one visible line in the overview box (dataLoadFailed collects them).
+  var DATA_LOAD_FAILURES = [];
+  function dataLoadFailed(path, err){
+    DATA_LOAD_FAILURES.push(path);
+    if (window.console) console.error('publications: failed to load ' + path, err);
+    var box = document.getElementById('cite-overview');
+    if (box){
+      var note = box.querySelector('.data-load-failures');
+      if (!note){
+        note = document.createElement('div');
+        note.className = 'cite-overview-line data-load-failures';
+        box.appendChild(note);
+        box.className = 'cite-overview';
+      }
+      note.textContent = 'Some data failed to load: ' + DATA_LOAD_FAILURES.join(', ') +
+        ' — the page is missing those features. Reload to retry.';
+    }
+  }
   var citeIndexReady = (window.CITATIONS
     ? Promise.all([
         CITATIONS.loadIndex().then(function(idx){
           CITE_INDEX = (idx && idx.papers) || null;
-        }),
+        }).catch(function(e){ CITE_INDEX = null; dataLoadFailed('data/citations/index.json', e); }),
         fetch('data/citations/reception.json', { cache: 'no-store' })
-          .then(function(r){ return r.ok ? r.json() : {}; })
+          .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
           .then(function(rec){ RECEPTIONS = rec || {}; })
-          .catch(function(){ RECEPTIONS = {}; }),
+          .catch(function(e){ RECEPTIONS = {}; dataLoadFailed('data/citations/reception.json', e); }),
         CITATIONS.loadRepoIndex()
           .then(function(idx){ REPO_INDEX = (idx && idx.papers) || null; })
-          .catch(function(){ REPO_INDEX = null; })
+          .catch(function(e){ REPO_INDEX = null; dataLoadFailed('data/repos/index.json', e); })
       ])
     : Promise.resolve()
-  ).catch(function(){ CITE_INDEX = null; });
+  );
 
   // The paper's displayed citation count — max(verified, Google Scholar) —
   // for the list-level "Citations" sort; -1 when the paper has no data,
@@ -383,65 +389,15 @@ function createBibLink(it){
     return CITATIONS.displayCount(row); // same figure as the per-paper headline
   };
 
-  // The impact score (his formula, 2026-08-26): every paper scores.
-  //   recency: 2*e^(-age/5)   (a small freshness term)
-  //   award:   5*e^(-awardAge/10), from the AWARD year (the latest year
-  //            in the award text >= paper year; Halide's 2023
-  //            Test-of-Time counts as recent), never fully dies
-  //   + citations/100 (displayed count) + repositories/1000; theses -2
+  // The impact score lives in assets/js/scoring.js (single JS home of
+  // the formulas; tests/ui/oracle.py is the deliberate mirror).
   var _impactNowY = new Date().getFullYear();
-  // Venue bonus (his ruling 2026-08-26). Matching quirks: the MICRO
-  // conference tag is uppercase (the IEEE Micro magazine is not), the
-  // HPCA Workshop is not HPCA, SIGGRAPH publishes as TOG.
-  function _venueBonus(v){
-    v = String(v || '');
-    if (/\bPLDI\b/.test(v)) return 2.0;
-    if (/\bASPLOS\b|\bOOPSLA\b|\bISCA\b/.test(v)) return 1.0;
-    if (v.indexOf('HPCA Workshop') !== -1) return 0.0;
-    if (/\bCGO\b|\bMICRO\b|\bPACT\b|\bPPoPP\b|\bPOPL\b|\bSOSP\b|USENIX Security|P?VLDB|\bHPCA\b|Communications of the ACM|\bCACM\b/.test(v)) return 0.5;
-    if (/\bTOPLAS\b|Transactions on Programming Languages|\bTACO\b|Architecture and Code Optimization|Transactions on Graphics|SIGGRAPH|\bICML\b|\bICS\b|NeurIPS|MLSys|\bSC\b|Supercomputing/.test(v)) return 0.25;
-    return 0.0;
-  }
-  function _awardYearOf(it){
-    var py = parseInt(it.year, 10) || _impactNowY;
-    var m = String(it.price || '').match(/\b(19|20)\d{2}\b/g) || [];
-    var best = py;
-    for (var i = 0; i < m.length; i++){
-      var yy = parseInt(m[i], 10);
-      if (yy >= py && yy > best) best = yy;
-    }
-    return best;
-  }
   window.compositeImpactOf = function(it){
-    if (it && it.bibtexKey && it.year === undefined){
-      // key-only probe: resolve the real item for year/price
-      var full = null;
-      for (var di = 0; di < DATA.length; di++){
-        if (bibtexKeyOf(DATA[di]) === it.bibtexKey){ full = DATA[di]; break; }
-      }
-      if (full) it = full;
-    }
     var key = bibtexKeyOf(it);
-    var age = _impactNowY - (parseInt(it.year, 10) || _impactNowY);
-    var s = 2 * Math.exp(-age / 5);
-    if (it.price) s += 5 * Math.exp(-(_impactNowY - _awardYearOf(it)) / 10);
-    var cRow = CITE_INDEX && CITE_INDEX[key];
-    if (cRow && window.CITATIONS) s += (CITATIONS.displayCount(cRow) || 0) / 100;
-    var rRow = REPO_INDEX && REPO_INDEX[key];
-    if (rRow) s += (rRow.repos || 0) / 1000;
-    s += _venueBonus(it.venue);
-    var _itype = String(it.itemType || '').toLowerCase();
-    if (/thesis/.test(_itype)){
-      // tiered demotion (his rule): PhD -1, SM -2, MEng -3, SB -4
-      var tt = String(it.type || '').toLowerCase();
-      s -= /ph\.?\s*d/.test(tt) ? 1
-         : (/s\.?\s*b/.test(tt) ? 4
-         : (/m\.?\s*eng/.test(tt) ? 3
-         : (/s\.?\s*m/.test(tt) ? 2 : 2)));
-    } else if (_itype !== 'inproceedings' && _itype !== 'article'){
-      s -= 5;  // not a conference or journal paper (tech reports, talks, misc)
-    }
-    return s;
+    return SCORING.impactOf(it,
+      CITE_INDEX && CITE_INDEX[key],
+      REPO_INDEX && REPO_INDEX[key],
+      _impactNowY);
   };
 
   // Quantile thresholds over every paper's impact; memoized, reset when
@@ -474,8 +430,7 @@ function createBibLink(it){
     return (state.citeCatKeys && state.citeCatKeys.length) ||
            (state.citeCentralityKey && state.citeCentralityKey !== 'all');
   }
-  var BADGE_FG = { 'extends': 'builds-on', 'uses-tool': 'uses',
-                   'uses-benchmark': 'benchmarks', 'adopts-idea': 'adopts' };
+
   function badgeFor(kind, key, total){
     if (!evidenceFilterActive()) return null;
     var cats = state.citeCatKeys || [];
@@ -500,7 +455,7 @@ function createBibLink(it){
     if (!rrow || !rrow.grids) return '0 of ' + fmtN(total);
     var m = 0;
     for (var ci = 0; ci < cats.length; ci++){
-      var g = rrow.grids[BADGE_FG[cats[ci]]];
+      var g = rrow.grids[CITATIONS.FUNC_GROUP[cats[ci]]];
       if (g) m += g.length;
     }
     return fmtN(m) + ' of ' + fmtN(total);
@@ -554,7 +509,7 @@ function createBibLink(it){
         rebuildCiteAuthorFacet();
         applyFilters();
       })
-      .catch(function(){});
+      .catch(function(e){ dataLoadFailed('data/impact-authors.json', e); });
   });
 
   // Distinct citing works across papers (data/citations/citers.json,
@@ -572,7 +527,7 @@ function createBibLink(it){
         AUTHOR_LINKS = (d && d.links) || null;
         if (AUTHOR_LINKS) applyFilters();
       })
-      .catch(function(){});
+      .catch(function(e){ dataLoadFailed('data/author-links.json', e); });
   });
   function foldAuthorName(s){
     return String(s || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
@@ -595,7 +550,7 @@ function createBibLink(it){
         CITERS = (d && d.papers) || null;
         if (CITERS && _lastOverviewItems) renderCiteOverview(_lastOverviewItems);
       })
-      .catch(function(){});
+      .catch(function(e){ dataLoadFailed('data/citations/citers.json', e); });
   });
   function impactTierLabel(score){
     if (score == null || score < 0) return 'No impact data yet';
@@ -614,13 +569,6 @@ function createBibLink(it){
     authors: {},                // map of selected author -> true
     types: {},                  // map of selected itemType -> true
     citeAuthors: {},            // map of selected "Cited and Used by" name -> true
-    scroll: {                   // range-controlled scroll positions (0..1)
-      keywords: 0,
-      authors: 0,
-      types: 0
-    },
-      sortKey: 'none',   // 'none' | 'title' | 'venue' | 'firstAuthor' | 'type' | 'month'
-      sortDesc: false,
       sortOrder: ['year','month','type','authorLast'],  // default
       authorSort: 'count',
       kwMode: 'topics',           // 'topics' | 'projects' — Topics & Projects facet mode
@@ -687,22 +635,8 @@ function createBibLink(it){
   function titleOf(it){ return it.title || 'Untitled'; }
   function venueOf(it){ return firstDefined(it.journal, it.booktitle, it.series, it.type, it.publisher); }
   function locationOf(it){ return firstDefined(it.location, it.address); }
-  function splitAuthors(s){
-    if(!s) return [];
-    var parts = s.split(/\s+and\s+|,/i), out=[], i, p;
-    for(i=0;i<parts.length;i++){ p = parts[i].trim(); if(p) out.push(p); }
-    return out;
-  }
-  function splitKeywords(s){
-    if(!s) return [];
-    var parts = s.split(/[,;]+/), out=[], i, p;
-    for(i=0;i<parts.length;i++){ p = parts[i].trim(); if(p) out.push(p); }
-    return out;
-  }
 
-  // If pubs.js is loaded, reuse its localizer and bib link; else graceful fallback
-    //  var localizeURL = (window.PUBS && PUBS.localizeAssetURL) ? function(u){ try{return PUBS.localizeAssetURL(u);}catch(_){return u;} } : function(u){ return u; };
-  var makeBibLink = (window.PUBS && PUBS.makeBibDownloadLink) ? PUBS.makeBibDownloadLink : function(){ var a=document.createElement('span'); return a; };
+
 
   /* ---------- Build static UI shells (kept; content dynamic) ---------- */
 
@@ -1084,7 +1018,6 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
     if (it.year)  bits.push(String(it.year) + '.');
     if (bits.length) meta.appendChild(text(bits.join(' ') + ' '));
     // Bib + Slides
-      meta.appendChild(makeBibLink(it));
       var bibA = createBibLink(it);
       bibA.addEventListener('click', function(){ track('bib-download', { key: bibtexKeyOf(it) }); });
       meta.appendChild(bibA);
@@ -1382,8 +1315,7 @@ if (auKeys.length){
     // Impact categories drill the paper list down too: keep papers with
     // at least one judged citation in a selected category, or a repo in
     // the category's unified-taxonomy group.
-    var FG = { 'extends': 'builds-on', 'uses-tool': 'uses',
-               'uses-benchmark': 'benchmarks', 'adopts-idea': 'adopts' };
+    var FG = window.CITATIONS ? CITATIONS.FUNC_GROUP : {};
     if (state.citeCatKeys && state.citeCatKeys.length && excludeFacet !== 'citecats'){
       items = items.filter(function(it){
         var k = bibtexKeyOf(it);
@@ -1529,8 +1461,11 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
         }
       }
     }
+    var keepNote = box.querySelector('.data-load-failures');
     box.innerHTML = '';
-    if (!withData.length){ box.className = 'cite-overview hidden'; return; }
+    if (keepNote) box.appendChild(keepNote);
+    if (!withData.length && !keepNote){ box.className = 'cite-overview hidden'; return; }
+    if (!withData.length){ box.className = 'cite-overview'; return; }
     box.className = 'cite-overview';
     var l1 = document.createElement('div'); l1.className = 'cite-overview-line';
     l1.title = 'Citations sum each paper\u2019s count, as Scholar does; citing works and repositories are counted once each';
@@ -1550,8 +1485,7 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
     var catPapers = {}, catCites = {}, centCounts = { core: 0, engaged: 0, peripheral: 0 };
     // distinct repos per shared category across the shown papers, via
     // the unified taxonomy (function key <-> repo group)
-    var FUNC_GROUP = { 'extends': 'builds-on', 'uses-tool': 'uses',
-                       'uses-benchmark': 'benchmarks', 'adopts-idea': 'adopts' };
+    var FUNC_GROUP = window.CITATIONS ? CITATIONS.FUNC_GROUP : {};
     var catRepoIds = {}, catRepos = {};
     var seen = {}, withData = 0, i, f;
     for (i = 0; i < items.length; i++){
@@ -1669,7 +1603,6 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
       for (var fk in facetMaps[fm]) delete facetMaps[fm][fk];
     }
     state.titleQuery = '';
-    state.scroll = { keywords:0, authors:0, types:0 };
     if (els.title) els.title.value = '';
     state.authorQuery = '';
     if (els.authorSearch) els.authorSearch.value = '';
@@ -2001,15 +1934,11 @@ var years = Object.keys(byYear).sort(function(a,b){
   return bi - ai;
 });
 
-// Within-year sort same as UI
-var sorter = makeSorter(state.sortKey);
-var dir = state.sortDesc ? -1 : 1;
 
 var out = [], yi, y;
 for (yi=0; yi<years.length; yi++){
   y = years[yi];
   var arr = byYear[y].slice();
-  if (sorter) arr.sort(function(a,b){ return dir * sorter(a,b); });
 
   for (var k=0; k<arr.length; k++){
     out.push(buildBibtex(arr[k], localizeURL));
