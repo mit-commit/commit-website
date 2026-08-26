@@ -1,0 +1,69 @@
+{
+ "schema": 1,
+ "key": "looplets-cgo23",
+ "generated": "2026-08-25",
+ "repos": [
+  {
+   "name": "Archival artifact",
+   "group": "own",
+   "role": "artifact",
+   "artifact": true,
+   "url": "https://doi.org/10.5281/zenodo.7499790",
+   "badges": [
+    "Artifacts Available",
+    "Artifacts Evaluated & Reusable",
+    "Results Reproduced"
+   ],
+   "evidence": "badged artifact record (harvest/artifacts/found.json)"
+  },
+  {
+   "url": "https://github.com/willow-ahrens/FinchBenchmarks/tree/cgo23-artifact",
+   "group": "own",
+   "role": "artifact",
+   "confidence": "high",
+   "evidence": "In-paper URL for the CGO23 artifact branch of FinchBenchmarks, directly tied to this paper's evaluation.",
+   "name": "finch-tensor/FinchBenchmarks",
+   "stars": 1,
+   "active": 2026
+  },
+  {
+   "url": "https://github.com/willow-ahrens/Finch.jl",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "high",
+   "evidence": "In-paper footnote: 'https://github.com/willow-ahrens/Finch.jl' — this is the main system the paper presents.",
+   "name": "finch-tensor/Finch.jl",
+   "desc": "Sparse and Structured Tensor Compiler",
+   "stars": 245,
+   "active": 2026
+  },
+  {
+   "url": "https://doi.org/10.5281/zenodo.7499790",
+   "group": "own",
+   "role": "site",
+   "site": true,
+   "name": "doi.org",
+   "evidence": "The project's website."
+  },
+  {
+   "url": "https://github.com/Ruchika-2003/Finch.jl",
+   "group": "builds-on",
+   "name": "Ruchika-2003/Finch.jl",
+   "evidence": "ecosystem of finch-tensor/Finch.jl: Named fork of finch-tensor/Finch.jl with 6 commits ahead of upstream, indicating meaningful local changes.",
+   "sdv": "fork",
+   "desc": "Sparse and Structured Tensor Compiler",
+   "stars": 0,
+   "active": 2025
+  },
+  {
+   "url": "https://github.com/jessicaliu06/Finch.jl",
+   "group": "builds-on",
+   "name": "jessicaliu06/Finch.jl",
+   "evidence": "ecosystem of finch-tensor/Finch.jl: A GitHub fork of finch-tensor/Finch.jl with 1 commit ahead of upstream, indicating at least minimal divergence from the original.",
+   "sdv": "fork",
+   "desc": "Sparse and Structured Tensor Compiler",
+   "stars": 0,
+   "active": 2025
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "schema": 1,
+ "key": "d2x-cgo23",
+ "generated": "2026-08-25",
+ "repos": [
+  {
+   "name": "Archival artifact",
+   "group": "own",
+   "role": "artifact",
+   "artifact": true,
+   "url": "https://doi.org/10.5281/zenodo.7459640",
+   "badges": [
+    "Artifacts Available",
+    "Artifacts Evaluated & Reusable",
+    "Results Reproduced"
+   ],
+   "evidence": "badged artifact record (harvest/artifacts/found.json)"
+  },
+  {
+   "url": "https://github.com/BuildIt-lang/d2x_cgo23_artifacts",
+   "group": "own",
+   "role": "artifact",
+   "confidence": "high",
+   "evidence": "model-confirmed own repo (mechanical score 13, overlap: contextual, d2x, debugger, dsls, extensible, modern): The repo name and description explicitly match the paper title and venue (CGO 2023), and the owner organization 'BuildIt-lang' aligns with the BuildIt framework discussed in the paper.",
+   "name": "BuildIt-lang/d2x_cgo23_artifacts",
+   "desc": "Artifacts for the CGO 2023 paper titled \"D2X: An eXtensible conteXtual Debugger for modern DSLs\"",
+   "stars": 3,
+   "active": 2022
+  },
+  {
+   "url": "https://github.com/BuildIt-lang/d2x",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "high",
+   "evidence": "Repo description exactly matches paper title 'D2X - An eXtensible conteXtual Debugger for modern DSLs', owner is BuildIt-lang org matching paper's project field, created 2022 consistent with 2023 publication.",
+   "name": "BuildIt-lang/d2x",
+   "desc": "D2X - An eXtensible conteXtual Debugger for modern DSLs",
+   "stars": 9,
+   "active": 2024
+  },
+  {
+   "url": "https://doi.org/10.5281/zenodo.7459640",
+   "group": "own",
+   "role": "site",
+   "site": true,
+   "name": "doi.org",
+   "evidence": "The project's website."
+  }
+ ]
+}

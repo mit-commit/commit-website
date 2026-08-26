@@ -1,0 +1,60 @@
+{
+ "schema": 1,
+ "key": "seq-nature-biotech",
+ "generated": "2026-08-25",
+ "repos": [
+  {
+   "url": "https://github.com/seq-lang/seq",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "high",
+   "evidence": "Repo name and description 'A high-performance, Pythonic language for bioinformatics' directly match the paper's subject (Seq language), created 2018 matching the project timeline, and README mentions author surname 'shajii'.",
+   "name": "seq-lang/seq",
+   "desc": "A high-performance, Pythonic language for bioinformatics",
+   "stars": 709,
+   "active": 2022,
+   "archived": true
+  },
+  {
+   "url": "https://github.com/exaloop/seq",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "medium",
+   "evidence": "Owner 'exaloop' is the same author org, description says 'Codon's bioinformatics module' and README mentions 'shajii', suggesting this is the successor/continuation of the seq-lang/seq repo under the same group.",
+   "name": "exaloop/seq",
+   "desc": "Codon's bioinformatics module",
+   "stars": 59,
+   "active": 2025
+  },
+  {
+   "url": "https://github.com/jrayzero/CoLaCodon",
+   "group": "builds-on",
+   "name": "jrayzero/CoLaCodon",
+   "evidence": "ecosystem of seq-lang/seq: Candidate is a fork of seq-lang/seq with 112 commits ahead of upstream, representing meaningful divergent development of the CoLaCodon language built on the Seq codebase.",
+   "sdv": "fork",
+   "desc": "A high-performance, Pythonic language for bioinformatics",
+   "stars": 1,
+   "active": 2022
+  },
+  {
+   "url": "https://github.com/glram/seq",
+   "group": "builds-on",
+   "name": "glram/seq",
+   "evidence": "ecosystem of seq-lang/seq: This is a GitHub fork of seq-lang/seq with 15 commits ahead of upstream, indicating meaningful divergence.",
+   "sdv": "fork",
+   "desc": "A high-performance, Pythonic language for bioinformatics",
+   "stars": 0,
+   "active": 2021
+  },
+  {
+   "url": "https://github.com/0xTCG/biser",
+   "group": "adopts",
+   "name": "0xTCG/biser",
+   "paper": "Fast characterization of segmental duplication structure in multiple genome assemblies",
+   "evidence": "github.com URL found in the citing work's own cached evidence",
+   "desc": "A fast tool for detecting and decomposing segmental duplications in genome assemblies",
+   "stars": 60,
+   "active": 2025
+  }
+ ]
+}

@@ -1,0 +1,656 @@
+{
+ "schema": 1,
+ "key": "drake:ipdps:2006",
+ "generated": "2026-08-24",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 50,
+  "works": 48,
+  "commit": 2,
+  "judged": 38,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "The canals language and its compiler",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "Software and Compilers for Embedded Systems",
+   "authors": "Andreas Dahlin, Johan Ersfolk, Guyfu Yang et al.",
+   "url": "https://doi.org/10.1145/1543820.1543829",
+   "cited_by": 10,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Sigma*: symbolic learning of input-output specifications",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
+   "authors": "M. Botincan, Domagoj Babic",
+   "url": "https://doi.org/10.1145/2429069.2429123",
+   "cited_by": 52,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Optimizations in Stream Programming for Multimedia Applications by",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2012,
+   "authors": "E. Wong",
+   "url": "https://www.semanticscholar.org/paper/dca6c235138b8f17bfc130219a29d4f8f5235091",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Sigma*: Symbolic Learning of Stream Filters",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2012,
+   "authors": "M. Botincan, Domagoj Babic",
+   "url": "https://www.semanticscholar.org/paper/2e17d826b1298f602d217ddad70838d2f5a51ae9",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Compiler techniques for scalable performance of stream programs on multicore architectures",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2010,
+   "authors": "Michael I. Gordon",
+   "url": "https://www.semanticscholar.org/paper/e454ac36ab555f1b618e4936e36dcc572f9b151e",
+   "cited_by": 53,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Comparative evaluation of memory models for chip multiprocessors",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2008,
+   "venue": "TACO",
+   "authors": "J. Leverich, H. Arakida, A. Solomatnikov et al.",
+   "url": "https://doi.org/10.1145/1455650.1455651",
+   "cited_by": 17,
+   "centrality": "engaged",
+   "confidence": "low",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Comparing memory systems for chip multiprocessors",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "International Symposium on Computer Architecture",
+   "authors": "J. Leverich, H. Arakida, A. Solomatnikov et al.",
+   "url": "https://doi.org/10.1145/1250662.1250707",
+   "cited_by": 105,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Exploiting coarse-grained task, data, and pipeline parallelism in stream programs",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "ASPLOS XII",
+   "authors": "Michael I. Gordon, W. Thies, Saman P. Amarasinghe",
+   "url": "https://doi.org/10.1145/1168857.1168877",
+   "cited_by": 523,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Block parallel programming for real-time applications on multi-core processors",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2008,
+   "authors": "W. Dally, D. Black-Schaffer",
+   "url": "https://www.semanticscholar.org/paper/05d185e8914d6492404245a6af35308d1bf3ca6c",
+   "cited_by": 11,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "uses-benchmark",
+    "positions"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "A MPEG Decoder in SHIM",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2008,
+   "authors": "K. Joshi, Delvin Kellebrew",
+   "url": "https://doi.org/10.7916/d8377hkv",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "High performance MPEG-2 software decoder on the cell broadband engine",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2008,
+   "venue": "Proceedings - IEEE International Parallel and Distributed Processing Symposium",
+   "authors": "David A. Bader, Sulabh Patel",
+   "url": "https://doi.org/10.1109/ipdps.2008.4536234",
+   "cited_by": 12,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Integrating Streaming Computations for Efficient Execution on Novel Multicore Architectures",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2010,
+   "authors": "J. Knezović, M. Kovač, H. Mlinarić",
+   "url": "https://doi.org/10.1080/00051144.2010.11828394",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Informing Static Mapping and Local Scheduling of Stream Programs with Trace Analysis",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Symposium on Symbolic and Numeric Algorithms for Scientific Computing",
+   "authors": "Michail Boulasikis, Flavius Gruian, Gareth Callanan et al.",
+   "url": "https://doi.org/10.1109/synasc61333.2023.00021",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Efficiently and Transparently Maintaining High SIMD Occupancy in the Presence of Wavefront Irregularity",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2017,
+   "authors": "Stephen V. Cole",
+   "url": "https://doi.org/10.7936/k7ft8kff",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "River: an intermediate language for stream processing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "Software Practice and Experience",
+   "authors": "Robert Soulé, Martin Hirzel, Buğra Gedik et al.",
+   "url": "https://doi.org/10.1002/spe.2338",
+   "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Energy-efficient Fine-grained Many-core Architecture for Video and DSP Applications",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "authors": "Zhibin Xiao",
+   "url": "https://www.semanticscholar.org/paper/c5cbb3b7118e7cd341908c2fe2d669546d7c35a4",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Reusable Software Infrastructure for Stream Processing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "authors": "R. Soulé",
+   "url": "https://www.semanticscholar.org/paper/be831d2fb31a5bcc0e2a4f239eb2249a6ca70b54",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Data-Driven Programming Abstractions and Optimization for Multi-Core Platforms",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2011,
+   "authors": "R. Collins",
+   "url": "https://doi.org/10.7916/d8bp08sn",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "A Universal Calculus for Stream Processing Languages",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2010,
+   "venue": "Lecture notes in computer science",
+   "authors": "Robert Soulé, Martin Hirzel, Robert Grimm et al.",
+   "url": "https://doi.org/10.1007/978-3-642-11957-6_27",
+   "cited_by": 43,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "detailed-citation"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "A Universal Calculus for Stream Processing Languages ( Extended )",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2010,
+   "authors": "R. Soulé, Martin Hirzel, R. Grimm et al.",
+   "url": "https://www.semanticscholar.org/paper/178e53a6aa4d8505d4a061a6d6d1fbef92f71a1f",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Mapping a Telecommunication Application on a Multiprocessor System-on-Chip",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2010,
+   "venue": "Lecture notes in electrical engineering",
+   "authors": "Daniela Genius, Etienne Faure, Nicolas Pouillon",
+   "url": "https://doi.org/10.1007/978-90-481-9965-5_3",
+   "cited_by": 10,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Parallel Streaming Intra Prediction for Full HD H.264 Encoding",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2010,
+   "venue": "International Conference on Embedded and Multimedia Computing",
+   "authors": "Ju Ren, Yi He, Huayou Su et al.",
+   "url": "https://doi.org/10.1109/emc.2010.5575615",
+   "cited_by": 7,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Using UML as a Front-end for StreamIt Programs Verification and Generation",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2010,
+   "venue": "J. Multim.",
+   "authors": "Fateh Boutekkouk, M. Benmohammed",
+   "url": "https://doi.org/10.4304/jmm.5.5.501-513",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "abstract"
+  },
+  {
+   "title": "A hybrid static/dynamic approach to scheduling stream programs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "authors": "C. Tan",
+   "url": "https://www.semanticscholar.org/paper/0d4bc3a471a3eeca32ea97368d449aae31dbe0d9",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Application Analysis for Parallel Processing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2008,
+   "venue": "2008 11th EUROMICRO Conference on Digital System Design Architectures, Methods and Tools",
+   "authors": "Muhammad Rashid, Damien Picard, Bernard Pottier",
+   "url": "https://doi.org/10.1109/dsd.2008.83",
+   "cited_by": 7,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Deploying a Telecommunication Application on Multiprocessor Systems-on-Chip",
+   "function": "exemplifies",
+   "split": "passing",
+   "authors": "Daniela Genius, Etienne Faure, Nicolas Pouillon",
+   "url": "https://www.semanticscholar.org/paper/d290ac099db1f12d172ccc3ef13d51f95dec877c",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Optimizations in Stream Programming for Multimedia Applications",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "authors": "Eric Wong",
+   "url": "https://www.semanticscholar.org/paper/d72594cbe1191d02446d6e76be287e6b34192029",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Parallelizing MPEG Decoder with Scalable Streaming Computation Kernels",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "authors": "J. Knezović, I. Cavrak, D. Hofman",
+   "url": "https://doi.org/10.7305/automatika.2014.12.617",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Towards efficient video compression using scalable vector graphics on the Cell/B.E.",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2010,
+   "venue": "IWMSE '10",
+   "authors": "Andreea Sandu, E. Slusanschi, A. Murarasu et al.",
+   "url": "https://doi.org/10.1145/1808954.1808962",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Language and compiler support for stream programs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2009,
+   "authors": "W. Thies",
+   "url": "https://www.semanticscholar.org/paper/6257c9d0c725320fd7b05f84793971080d95084f",
+   "cited_by": 140,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "exemplifies"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "A JPEG Decoder in SHIM",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2006,
+   "authors": "N. Vasudevan, Stephen Anthony Edwards",
+   "url": "https://doi.org/10.7916/d85h7q4w",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Comparative Analysis: Conventional Video Codecs v/s Compressive Sensing Video Codecs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "2018 3rd International Conference on Emerging Trends in Engineering, Sciences and Technology (ICEEST)",
+   "authors": "Mansoor Ebrahim, Syed Hasan Adil, Tayyab Gul et al.",
+   "url": "https://doi.org/10.1109/iceest.2018.8643310",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "The Synchronized Filtering Dataflow",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "authors": "Peng Li",
+   "url": "https://doi.org/10.7936/k7cf9n7j",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Block-Parallel Programming for Real-Time Embedded Applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "venue": "International Conference on Parallel Processing",
+   "authors": "David Black-Schaffer, William J. Dally",
+   "url": "https://doi.org/10.1109/icpp.2010.37",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Thermal analysis of multiprocessor SoC applications by simulation and verification",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "venue": "TODE",
+   "authors": "D. Das, Partha Chakrabarti, Rajeev Kumar",
+   "url": "https://doi.org/10.1145/1698759.1698765",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Multiprocessor SoC software design flows",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "IEEE Signal Processing Magazine",
+   "authors": "Wolfgang Haid, Kai Huang, Iuliana Bacivarov et al.",
+   "url": "https://doi.org/10.1109/msp.2009.934111",
+   "cited_by": 29,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "An approach to derivation of component-based implementations from data-oriented specifications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2007,
+   "authors": "A. Basu, S. Yovine, M. Zanconi",
+   "url": "https://www.semanticscholar.org/paper/11e4299d2bfc7f41441818f6b8c2efb295429b90",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Unsupervised Intrusion Detection Using Color Images",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2007,
+   "venue": "Lecture notes in computer science",
+   "authors": "Grant Cermak, Karl Keyzer",
+   "url": "https://doi.org/10.1007/978-3-540-76856-2_76",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Formal verification-driven parallelisation synthesis",
+   "function": "unknown",
+   "split": null,
+   "year": 2018,
+   "authors": "M. Botincan",
+   "url": "https://doi.org/10.17863/cam.21221",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "ARCc: A case for an architecturally redundant cache-coherence architecture for large multicores",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "ICCD",
+   "authors": "Omer Khan, H. Hoffmann, Mieszko Lis et al.",
+   "url": "https://doi.org/10.1109/iccd.2011.6081431",
+   "cited_by": 5,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Automatic parallelization of nested loop programs for non-manifest real-time stream processing applications",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "authors": "Tjerk Bijlsma",
+   "url": "https://doi.org/10.3990/1.9789036531733",
+   "cited_by": 6,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Sorting as a Streaming Application Executing on Chip Multiprocessors",
+   "function": "unknown",
+   "split": null,
+   "year": 2010,
+   "authors": "R. Chamberlain, G. Galloway, M. Franklin",
+   "url": "https://doi.org/10.7936/k7q23xfk",
+   "cited_by": 4,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Multithreaded Translation of Ptolemy II Designs on Multicore Platforms",
+   "function": "unknown",
+   "split": null,
+   "year": 2008,
+   "venue": "Computational Intelligence in Security for Information Systems",
+   "authors": "Alberto González Téllez, Miguel Á. Mateo",
+   "url": "https://doi.org/10.1109/cisis.2008.55",
+   "cited_by": 3,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract+contexts"
+  },
+  {
+   "title": "Ubiquitous Stream Programming to Facilitate the Migration to Multicore Architectures",
+   "function": "unknown",
+   "split": null,
+   "authors": "M. Drake, David Zhang, Michael I. Gordon et al.",
+   "url": "https://www.semanticscholar.org/paper/12a5965959a4f1f8f421e546478467a2f52c5ec2",
+   "cited_by": 1,
+   "flags": [
+    "own-group",
+    "polluted-contexts"
+   ],
+   "evidence": "contexts",
+   "commit": true
+  },
+  {
+   "title": "Efficient Software Implementation of Stream Programs",
+   "function": "unclassified",
+   "split": null,
+   "year": 2017,
+   "authors": "Gustav Cedersjö",
+   "url": "https://www.semanticscholar.org/paper/868fa661a96a25d69e71fd2c8df98f050bcd167e",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Cooperative Hierarchical Resource Management for Efficient Composition of Parallel Software",
+   "function": "unclassified",
+   "split": null,
+   "year": 2010,
+   "authors": "Heidi Pan",
+   "url": "https://www.semanticscholar.org/paper/94b188a684b0d9285d2aca4de5a2634d0cb0bfbb",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Stream Programming for Image and Video Compression",
+   "function": "unclassified",
+   "split": null,
+   "year": 2006,
+   "authors": "M. Drake",
+   "url": "https://www.semanticscholar.org/paper/bfc46687c9adef4c6bd7d449867fef82ffd1c6ad",
+   "cited_by": 8,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Research Statement Languages, Compilers, and Tools for Multicore Architectures",
+   "function": "unclassified",
+   "split": null,
+   "authors": "W. Thies",
+   "url": "https://www.semanticscholar.org/paper/cc24eab217f6df1b815a97435ae0e5d867121578",
+   "cited_by": 0,
+   "evidence": "title_only"
+  }
+ ],
+ "reception": "Elsewhere the decoder's afterlife is chiefly as a workload. The StreamIt MPEG-2 implementation joined the benchmark suites of compiler and architecture studies — a comparative evaluation of memory models for chip multiprocessors and Sigma*'s symbolic learning of stream filters both run it — and stream-language papers such as Canals cite the paper when arguing that video codecs suit the streaming model. Beyond these uses the citations are mostly list entries in discussions of stream-programming applications. The record is modest, but the program outlived its publication as a shared test case, which is what an application paper aims for. The StreamIt compiler infrastructure, including this decoder, is preserved in the bthies/streamit repository."
+}

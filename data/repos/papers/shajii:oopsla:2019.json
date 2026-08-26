@@ -1,0 +1,48 @@
+{
+ "schema": 1,
+ "key": "shajii:oopsla:2019",
+ "generated": "2026-08-25",
+ "repos": [
+  {
+   "name": "Archival artifact",
+   "group": "own",
+   "role": "artifact",
+   "artifact": true,
+   "url": "https://doi.org/10.5281/zenodo.3374036",
+   "badges": [
+    "Artifacts Available",
+    "Artifacts Evaluated & Functional"
+   ],
+   "evidence": "badged artifact record (harvest/artifacts/found.json)"
+  },
+  {
+   "url": "https://github.com/exaloop/seq",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "high",
+   "evidence": "Repo name 'seq' matches the paper's language name exactly, description explicitly states it is Codon's bioinformatics module, and exaloop is the organization associated with the Seq/Codon project by the same authors (Shajii et al.).",
+   "name": "exaloop/seq",
+   "desc": "Codon's bioinformatics module",
+   "stars": 59,
+   "active": 2025
+  },
+  {
+   "url": "https://cb.csail.mit.edu/seq/",
+   "group": "own",
+   "role": "site",
+   "site": true,
+   "name": "cb.csail.mit.edu",
+   "evidence": "The project's website."
+  },
+  {
+   "url": "https://github.com/0xTCG/biser",
+   "group": "adopts",
+   "name": "0xTCG/biser",
+   "paper": "Fast characterization of segmental duplication structure in multiple genome assemblies",
+   "evidence": "github.com URL found in the citing work's own cached evidence",
+   "desc": "A fast tool for detecting and decomposing segmental duplications in genome assemblies",
+   "stars": 60,
+   "active": 2025
+  }
+ ]
+}

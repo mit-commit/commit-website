@@ -1,0 +1,68 @@
+{
+ "schema": 1,
+ "key": "graphit",
+ "generated": "2026-08-25",
+ "repos": [
+  {
+   "name": "Archival artifact",
+   "group": "own",
+   "role": "artifact",
+   "artifact": true,
+   "url": "https://doi.org/10.5281/zenodo.1434471",
+   "badges": [
+    "Artifacts Available",
+    "Artifacts Evaluated & Functional"
+   ],
+   "evidence": "badged artifact record (harvest/artifacts/found.json)"
+  },
+  {
+   "url": "https://github.com/GraphIt-DSL/graphit",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "high",
+   "evidence": "Repo name, description ('GraphIt - A High-Performance Domain Specific Language for Graph Analytics'), owner org 'GraphIt-DSL', README mentions author surname 'zhang', and creation date 2017 aligns with 2018 OOPSLA paper.",
+   "name": "GraphIt-DSL/graphit",
+   "desc": "GraphIt - A High-Performance Domain Specific Language for Graph Analytics",
+   "stars": 392,
+   "active": 2022
+  },
+  {
+   "url": "http://graphit-lang.org/",
+   "group": "own",
+   "role": "site",
+   "site": true,
+   "name": "graphit-lang.org",
+   "evidence": "The project's website."
+  },
+  {
+   "url": "https://github.com/GerHobbelt/graphit",
+   "group": "builds-on",
+   "name": "GerHobbelt/graphit",
+   "evidence": "ecosystem of GraphIt-DSL/graphit: This is a GitHub fork of GraphIt-DSL/graphit with 3 commits ahead of upstream, indicating meaningful local changes.",
+   "sdv": "fork",
+   "desc": "GraphIt - A High-Performance Domain Specific Language for Graph Analytics",
+   "stars": 0,
+   "active": 2025
+  },
+  {
+   "url": "https://github.com/MaiaBlanco/graphit",
+   "group": "builds-on",
+   "name": "MaiaBlanco/graphit",
+   "evidence": "ecosystem of GraphIt-DSL/graphit: A fork of the GraphIt-DSL/graphit repository with 19 commits ahead of upstream, indicating meaningful local changes.",
+   "sdv": "fork",
+   "desc": "GraphIt - A High-Performance Domain Specific Language for Graph Analytics",
+   "stars": 0,
+   "active": 2020
+  },
+  {
+   "url": "https://github.com/cornell-zhang/allo-pldi24-artifact",
+   "group": "adopts",
+   "name": "cornell-zhang/allo-pldi24-artifact",
+   "paper": "Allo: A Programming Model for Composable Accelerator Design",
+   "evidence": "light GitHub search, model-confirmed: The repo description explicitly matches the citing paper's title and venue (PLDI'24).",
+   "desc": "Artifact evaluation of PLDI'24 paper \"Allo: A Programming Model for Composable Accelerator Design\"",
+   "stars": 35,
+   "active": 2024
+  }
+ ]
+}

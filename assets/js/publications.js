@@ -255,6 +255,7 @@ function monthLabelOf(it){
 // Key extractors (for sorting within groups)
 function keyFor(it, which){
   if (which==='year')     return it.year ? parseInt(it.year,10) : 0; // numeric
+  if (which==='citations'){ var ci = compositeImpactOf(it); return ci == null ? -1 : ci; } // impact, -1 = no data
   if (which==='month')    return monthDayValue(it);
   if (which==='type')     return typeLabel(it.itemType || 'misc');   // pretty label
   if (which==='authors')  { var a = listNormalizedAuthors(it); return a.length?a[0]:'zzz'; } // first author
@@ -344,6 +345,221 @@ function createBibLink(it){
 
   var JSON_PATH = 'data/publications.json';
 
+  // Per-paper citation view (assets/js/citations.js, data/citations/).
+  // The index is one small fetch; per-paper data loads only on expand.
+  // If citations.js or the index is absent, CITE_INDEX stays null and the
+  // page renders exactly as before.
+  var CITE_INDEX = null;
+  // Reception texts (data/citations/reception.json) render as the second
+  // part of the combined Summary block; storage stays two separate fields
+  // so regenerating receptions can never overwrite hand-written summaries.
+  var RECEPTIONS = {};
+  // Repository view index (data/repos/index.json) — same pattern: one small
+  // fetch decides which papers get a Repositories toggle; per-paper files
+  // load lazily on expand. Absent index -> no toggles anywhere.
+  var REPO_INDEX = null;
+  var citeIndexReady = (window.CITATIONS
+    ? Promise.all([
+        CITATIONS.loadIndex().then(function(idx){
+          CITE_INDEX = (idx && idx.papers) || null;
+        }),
+        fetch('data/citations/reception.json', { cache: 'no-store' })
+          .then(function(r){ return r.ok ? r.json() : {}; })
+          .then(function(rec){ RECEPTIONS = rec || {}; })
+          .catch(function(){ RECEPTIONS = {}; }),
+        CITATIONS.loadRepoIndex()
+          .then(function(idx){ REPO_INDEX = (idx && idx.papers) || null; })
+          .catch(function(){ REPO_INDEX = null; })
+      ])
+    : Promise.resolve()
+  ).catch(function(){ CITE_INDEX = null; });
+
+  // The paper's displayed citation count — max(verified, Google Scholar) —
+  // for the list-level "Citations" sort; -1 when the paper has no data,
+  // which sorts it after every counted paper.
+  window.citeCountOf = function(it){
+    var row = CITE_INDEX && CITE_INDEX[bibtexKeyOf(it)];
+    if (!row) return -1;
+    return CITATIONS.displayCount(row); // same figure as the per-paper headline
+  };
+
+  // The unified impact score: weighted citation functions plus weighted
+  // outside-repo relationships (same weight table via the shared
+  // taxonomy; repo side precomputed by build_repo_data.py). Null = the
+  // paper has neither citation nor repository data yet.
+  window.compositeImpactOf = function(it){
+    var key = bibtexKeyOf(it);
+    var cRow = CITE_INDEX && CITE_INDEX[key];
+    var rRow = REPO_INDEX && REPO_INDEX[key];
+    if (!cRow && !rRow) return null;
+    var c = (cRow && window.CITATIONS) ? (CITATIONS.impactScore(cRow) || 0) : 0;
+    return c + ((rRow && rRow.impact) || 0);
+  };
+
+  // Quantile thresholds over every paper's composite impact; memoized,
+  // reset when the indexes (re)load.
+  var _impactVals = null;
+  function impactVals(){
+    if (_impactVals) return _impactVals;
+    var vals = [], k, seen = {};
+    for (k in (CITE_INDEX || {})) seen[k] = 1;
+    for (k in (REPO_INDEX || {})) seen[k] = 1;
+    for (k in seen){
+      var v = compositeImpactOf({ bibtexKey: k });
+      if (v != null) vals.push(v);
+    }
+    vals.sort(function(a, b){ return b - a; });
+    _impactVals = vals;
+    return vals;
+  }
+  window.compositeQuantile = function(q){
+    var vals = impactVals();
+    if (!vals.length) return 0;
+    var idx = Math.min(vals.length - 1, Math.max(0, Math.round(vals.length * q) - 1));
+    return vals[idx];
+  };
+  citeIndexReady.then(function(){ _impactVals = null; }); // recompute once real data lands
+
+  /* Evidence-view design (2026-08-26): closed toggles wear "n of m"
+     match badges while an evidence filter is active (categories or the
+     centrality Filter-by; the citing-work search can't badge without
+     per-paper files). Panels' "filtered" notes clear through the hook. */
+  function evidenceFilterActive(){
+    return (state.citeCatKeys && state.citeCatKeys.length) ||
+           (state.citeCentralityKey && state.citeCentralityKey !== 'all');
+  }
+  var BADGE_FG = { 'extends': 'builds-on', 'uses-tool': 'uses',
+                   'uses-benchmark': 'benchmarks', 'adopts-idea': 'adopts' };
+  function badgeFor(kind, key, total){
+    if (!evidenceFilterActive()) return null;
+    var cats = state.citeCatKeys || [];
+    var cent = state.citeCentralityKey || 'all';
+    var fmtN = function(x){ return x.toLocaleString('en-US'); };
+    if (kind === 'cite'){
+      var row = CITE_INDEX && CITE_INDEX[key];
+      if (!row || !row.functions) return null;
+      var byCat = 0, i;
+      for (i = 0; i < cats.length; i++) byCat += row.functions[cats[i]] || 0;
+      var byCent = (row.centrality && row.centrality[cent]) || 0;
+      var n, approx = false;
+      if (cats.length && cent !== 'all'){ n = Math.min(byCat, byCent); approx = true; }
+      else if (cats.length){ n = byCat; }
+      else { n = byCent; }
+      return (approx ? '\u2264' : '') + fmtN(n) + ' of ' + fmtN(total);
+    }
+    // repos: only categories map onto repo groups; centrality is a
+    // citation concept, so centrality-only leaves repo toggles unbadged
+    if (!cats.length) return null;
+    var rrow = REPO_INDEX && REPO_INDEX[key];
+    if (!rrow || !rrow.grids) return '0 of ' + fmtN(total);
+    var m = 0;
+    for (var ci = 0; ci < cats.length; ci++){
+      var g = rrow.grids[BADGE_FG[cats[ci]]];
+      if (g) m += g.length;
+    }
+    return fmtN(m) + ' of ' + fmtN(total);
+  }
+  citeIndexReady.then(function(){
+    if (window.CITATIONS && CITATIONS.setBadgeProvider){
+      CITATIONS.setBadgeProvider(badgeFor);
+      CITATIONS.onClearFilters(function(){ resetEvidenceFilters(); });
+    }
+  });
+  function resetEvidenceFilters(){
+    state.citeCatKeys = []; state.citeCentralityKey = 'all';
+    if (els.citeCats){
+      var ccbs = els.citeCats.querySelectorAll('input');
+      for (var ci = 0; ci < ccbs.length; ci++) ccbs[ci].checked = false;
+    }
+    if (els.citeCentrality){
+      var cbs = els.citeCentrality.querySelectorAll('.type-toggle-btn');
+      for (var bi = 0; bi < cbs.length; bi++){
+        cbs[bi].className = 'type-toggle-btn' +
+          (cbs[bi].getAttribute('data-v') === 'all' ? ' active' : '');
+      }
+    }
+    if (els.citeSearch) els.citeSearch.value = '';
+    if (window.CITATIONS) CITATIONS.setGlobalPanels({ categories: null, search: '', centrality: 'all' });
+    applyFilters();
+  }
+
+  // "Cited and Used by" facet (data/impact-authors.json, ~1MB): external
+  // people who cite a paper at real depth or use one of our own repos,
+  // built by harvest/impactview/build_impact_authors.py -- our own paper
+  // authors and our own repo owners are already excluded there. Fetched
+  // AFTER boot like citers.json; the facet (empty until then) fills in
+  // and the list re-renders once it lands.
+  var IMPACT_AUTHORS_BY_PAPER = {}, ALL_CITE_AUTHORS = [], CITE_AUTHOR_PAPER_COUNTS = {};
+  function listImpactAuthorsOf(it){ return IMPACT_AUTHORS_BY_PAPER[bibtexKeyOf(it)] || []; }
+  citeIndexReady.then(function(){
+    return fetch('data/impact-authors.json', { cache: 'no-store' })
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(d){
+        var people = (d && d.people) || [], byPaper = {}, i, j;
+        for (i = 0; i < people.length; i++){
+          CITE_AUTHOR_PAPER_COUNTS[people[i].name] = people[i].count;
+          for (j = 0; j < people[i].papers.length; j++){
+            var k = people[i].papers[j];
+            (byPaper[k] = byPaper[k] || []).push(people[i].name);
+          }
+        }
+        IMPACT_AUTHORS_BY_PAPER = byPaper;
+        ALL_CITE_AUTHORS = people.map(function(p){ return p.name; });
+        rebuildCiteAuthorFacet();
+        applyFilters();
+      })
+      .catch(function(){});
+  });
+
+  // Distinct citing works across papers (data/citations/citers.json,
+  // ~120KB): fetched AFTER boot so first paint pays nothing; the
+  // overview line re-renders when it arrives.
+  // Author-name links (data/author-links.json, ruling 2026-08-26:
+  // LinkedIn default, permanent academic page replaces it, else best
+  // active site, else email; verified identities only). Fetched after
+  // boot; names render as links on the next repaint.
+  var AUTHOR_LINKS = null;
+  citeIndexReady.then(function(){
+    return fetch('data/author-links.json', { cache: 'no-store' })
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(d){
+        AUTHOR_LINKS = (d && d.links) || null;
+        if (AUTHOR_LINKS) applyFilters();
+      })
+      .catch(function(){});
+  });
+  function foldAuthorName(s){
+    return String(s || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase().replace(/[^a-z. ]/g, ' ').replace(/\s+/g, ' ').trim();
+  }
+  function authorLinkFor(displayName){
+    if (!AUTHOR_LINKS) return null;
+    // "Last, First" -> "first last"; plain names fold directly
+    var nm = displayName;
+    var comma = nm.indexOf(',');
+    if (comma !== -1) nm = nm.slice(comma + 1).trim() + ' ' + nm.slice(0, comma).trim();
+    return AUTHOR_LINKS[foldAuthorName(nm)] || null;
+  }
+
+  var CITERS = null, _lastOverviewItems = null;
+  citeIndexReady.then(function(){
+    return fetch('data/citations/citers.json', { cache: 'no-store' })
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(d){
+        CITERS = (d && d.papers) || null;
+        if (CITERS && _lastOverviewItems) renderCiteOverview(_lastOverviewItems);
+      })
+      .catch(function(){});
+  });
+  function impactTierLabel(score){
+    if (score == null || score < 0) return 'No impact data yet';
+    if (score >= compositeQuantile(0.03)) return 'Top 3% by impact';
+    if (score >= compositeQuantile(0.10)) return 'Top 10% by impact';
+    if (score >= compositeQuantile(0.25)) return 'Top quarter by impact';
+    if (score >= compositeQuantile(0.50)) return 'Top half by impact';
+    return 'Lower half by impact';
+  }
+
   var state = {
     mode: 'interactive',     // 'noninteractive' | 'interactive'
     years: {},                  // map of selected year -> true
@@ -351,6 +567,7 @@ function createBibLink(it){
     keywords: {},               // map of selected keyword -> true
     authors: {},                // map of selected author -> true
     types: {},                  // map of selected itemType -> true
+    citeAuthors: {},            // map of selected "Cited and Used by" name -> true
     scroll: {                   // range-controlled scroll positions (0..1)
       keywords: 0,
       authors: 0,
@@ -362,9 +579,15 @@ function createBibLink(it){
       authorSort: 'count',
       kwMode: 'topics',           // 'topics' | 'projects' — Topics & Projects facet mode
       authorQuery: '',            // free-text filter for the authors list
+      citeAuthorSort: 'count',
+      citeAuthorQuery: '',        // free-text filter for the "Cited and Used by" list
       typeMode: 'type',           // 'type' | 'venue' — how the third facet categorizes
       venueSort: 'name',          // 'name' | 'count' — venue ordering in venue mode
-      summaryExpanded: false      // global default for per-paper summaries
+      summaryExpanded: false,     // global default for per-paper summaries
+      citationsExpanded: false,   // global default for per-paper citation panels
+      reposExpanded: false,       // global default for per-paper repository panels
+      minCites: 0,                // paper threshold: displayed citation count
+      minImpact: 0                // paper threshold: weighted impact score
 
   };
   var els = {
@@ -374,6 +597,8 @@ function createBibLink(it){
     filtersInteractive: document.getElementById('filters-interactive'),
     btnClear: document.getElementById('btn-clear'),
     btnToggleSummaries: document.getElementById('btn-toggle-summaries'),
+    btnToggleCitations: document.getElementById('btn-toggle-citations'),
+    btnToggleRepos: document.getElementById('btn-toggle-repos'),
     years: document.getElementById('facet-years'),
     title: document.getElementById('facet-title'),
     kwBox: document.getElementById('facet-keywords'),
@@ -389,6 +614,18 @@ function createBibLink(it){
       sort3: document.getElementById('sort-3'),
       sort4: document.getElementById('sort-4'),
       sortReset: document.getElementById('sort-reset'),
+      citeOverview: document.getElementById('cite-overview'),
+      citeSort: document.getElementById('cite-global-sort'),
+      citeCentrality: document.getElementById('cite-global-centrality'),
+      citeSearch: document.getElementById('cite-search'),
+      citeCats: document.getElementById('facet-cite-cats'),
+      citeAuBox: document.getElementById('facet-cite-authors'),
+      citeAuthorSort: document.getElementById('cite-author-sort'),
+      citeAuthorSearch: document.getElementById('cite-author-search'),
+      minCites: document.getElementById('cite-min-cites'),
+      minCitesLabel: document.getElementById('cite-min-cites-label'),
+      minImpact: document.getElementById('cite-min-impact'),
+      minImpactLabel: document.getElementById('cite-min-impact-label'),
 
   };
 
@@ -481,8 +718,13 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
 
     var txt = document.createElement('span');
     txt.className = 'facet-text';
-    var textNodeValue = document.createTextNode(labelText + ' (0)');
-    txt.appendChild(textNodeValue);
+    var labelNode = document.createTextNode(labelText + ' ');
+    txt.appendChild(labelNode);
+    var cntSpan = document.createElement('span');
+    cntSpan.className = 'cat-counts';
+    var textNodeValue = document.createTextNode('(0)');
+    cntSpan.appendChild(textNodeValue);
+    txt.appendChild(cntSpan);
     txt.title = labelText; // show full label on hover (handles truncation)
 
     cb.onchange = (function (val, map, fk) {
@@ -497,13 +739,20 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
     label.appendChild(txt);
     listEl.appendChild(label);
 
-    itemMap[value] = { cb: cb, textNode: textNodeValue, labelText: labelText };
+    itemMap[value] = { cb: cb, textNode: textNodeValue, labelNode: labelNode, labelText: labelText };
   }
 
   mount.appendChild(scrollWrap);
 
   // Stash references for dynamic count updates
   mount._facet = { listEl: listEl, itemMap: itemMap, scrollWrap: scrollWrap, key: facetKey, labelFor: labelFor || null };
+
+  // "N options in this box" next to the filter label — reflects the
+  // current list as built (so a name search narrows it too)
+  if (mount.id) {
+    var countEl = document.querySelector('.facet-count[data-for="' + mount.id + '"]');
+    if (countEl) countEl.textContent = list.length ? ' (' + list.length.toLocaleString('en-US') + ')' : '';
+  }
 }
 
 
@@ -570,6 +819,71 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
     buildFacetBox(sorted, els.auBox, 'authors', state.authors);
     if (els.auBox._facet && els.auBox._facet.scrollWrap) {
       els.auBox._facet.scrollWrap.scrollTop = prevScroll;
+    }
+  }
+
+  // "Cited and Used by" facet: same shape as Authors, but the value list
+  // (ALL_CITE_AUTHORS) and per-paper membership (listImpactAuthorsOf) come
+  // from data/impact-authors.json instead of our own papers' author0.
+  function rebuildCiteAuthorFacet() {
+    if (!els.citeAuBox) return;
+    var prevScroll = 0;
+    if (els.citeAuBox._facet && els.citeAuBox._facet.scrollWrap) {
+      prevScroll = els.citeAuBox._facet.scrollWrap.scrollTop;
+    }
+    var sorted = ALL_CITE_AUTHORS.slice();
+    if (state.citeAuthorSort === 'name') {
+      sorted.sort(function(a, b){ return a.toLowerCase().localeCompare(b.toLowerCase()); });
+    } else {
+      sorted.sort(function(a, b){
+        var d = (CITE_AUTHOR_PAPER_COUNTS[b] || 0) - (CITE_AUTHOR_PAPER_COUNTS[a] || 0);
+        return d !== 0 ? d : a.toLowerCase().localeCompare(b.toLowerCase());
+      });
+    }
+    var q = (state.citeAuthorQuery || '').trim().toLowerCase();
+    if (q) {
+      sorted = sorted.filter(function(name){
+        return String(name || '').toLowerCase().indexOf(q) !== -1;
+      });
+    }
+    // only names alive in the current selection (checked ones always stay)
+    if (window.CA_COUNTS){
+      sorted = sorted.filter(function(name){
+        return (window.CA_COUNTS[name] || 0) > 0 || state.citeAuthors[name];
+      });
+    }
+    // 6k+ rows would render slowly and scroll forever: show the first
+    // N (default 100) plus every checked name, with a "more" row.
+    var total = sorted.length;
+    var limit = state.citeAuthorLimit || 100;
+    var display = sorted.slice(0, limit);
+    if (limit < total){
+      var inSlice = {};
+      for (var di = 0; di < display.length; di++) inSlice[display[di]] = 1;
+      for (var nm in state.citeAuthors){
+        if (state.citeAuthors[nm] && !inSlice[nm] && sorted.indexOf(nm) !== -1) display.push(nm);
+      }
+    }
+    buildFacetBox(display, els.citeAuBox, 'citeAuthors', state.citeAuthors);
+    var countEl = document.querySelector('.facet-count[data-for="facet-cite-authors"]');
+    if (countEl){
+      countEl.textContent = display.length < total
+        ? ' (' + display.length.toLocaleString('en-US') + ' of ' + total.toLocaleString('en-US') + ' displayed)'
+        : (total ? ' (' + total.toLocaleString('en-US') + ')' : '');
+    }
+    if (display.length < total && els.citeAuBox._facet && els.citeAuBox._facet.scrollWrap){
+      var moreBtn = document.createElement('button');
+      moreBtn.type = 'button';
+      moreBtn.className = 'btn facet-more-btn';
+      moreBtn.textContent = 'Show 100 more (' + (total - display.length).toLocaleString('en-US') + ' hidden)';
+      moreBtn.onclick = function(){
+        state.citeAuthorLimit = limit + 100;
+        updateDynamicCounts();   // rebuilds the facet and refills counts
+      };
+      els.citeAuBox._facet.scrollWrap.appendChild(moreBtn);
+    }
+    if (els.citeAuBox._facet && els.citeAuBox._facet.scrollWrap) {
+      els.citeAuBox._facet.scrollWrap.scrollTop = prevScroll;
     }
   }
 
@@ -651,8 +965,8 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
 
   /* ---------- Rendering one publication (same look as index) ---------- */
   // Summary text is trusted local JSON containing embedded <a> links.
-  function renderSummaryInto(container, summaryText){
-    var paras = String(summaryText).split(/\n\n+/), i, p;
+  function renderSummaryInto(container, summaryText, receptionText){
+    var paras = summaryText ? String(summaryText).split(/\n\n+/) : [], i, p;
     container.innerHTML = '';
     for (i = 0; i < paras.length; i++){
       p = document.createElement('p');
@@ -661,6 +975,16 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
     }
     var links = container.getElementsByTagName('a'), j;
     for (j = 0; j < links.length; j++){ links[j].target = '_blank'; links[j].rel = 'noopener'; }
+    // Reception flows on as further paragraphs of the same Summary
+    // (plain text; written to continue seamlessly from the prose above).
+    if (receptionText){
+      var rparas = String(receptionText).split(/\n\n+/), r;
+      for (r = 0; r < rparas.length; r++){
+        p = document.createElement('p');
+        p.appendChild(document.createTextNode(rparas[r]));
+        container.appendChild(p);
+      }
+    }
   }
 
   function renderItem(it){
@@ -684,7 +1008,25 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
     li.appendChild(t);
 
     var auth = authorsOf(it);
-    if (auth){ var al = document.createElement('div'); al.className = 'pub-authors'; al.appendChild(text(auth + '.')); li.appendChild(al); }
+    if (auth){
+      var al = document.createElement('div'); al.className = 'pub-authors';
+      var names = String(auth).split(/\s+and\s+/);
+      for (var ni = 0; ni < names.length; ni++){
+        if (ni) al.appendChild(text(' and '));
+        var href = authorLinkFor(names[ni]);
+        if (href){
+          var aa = document.createElement('a');
+          aa.className = 'pub-author-link';
+          aa.href = href; aa.target = '_blank'; aa.rel = 'noopener';
+          aa.appendChild(text(names[ni]));
+          al.appendChild(aa);
+        } else {
+          al.appendChild(text(names[ni]));
+        }
+      }
+      al.appendChild(text('.'));
+      li.appendChild(al);
+    }
 
     var ven = venueOf(it);
     if (ven){ var vl = document.createElement('div'); vl.className = 'pub-venue'; vl.appendChild(text(ven + '.')); li.appendChild(vl); }
@@ -706,14 +1048,21 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
 
     // Artifact or source repository, when the paper points to one.
     var code = localizeURL(it.code || '');
+    // The builder flags papers whose Code link already appears inside
+    // the Repositories panel (same repo after renames, or the archival
+    // artifact) — the separate button would be redundant. Project-site
+    // links keep the button.
+    var _rr = REPO_INDEX && REPO_INDEX[bibtexKeyOf(it)];
+    if (code && _rr && _rr.cc) code = '';
     if (code) { meta.appendChild(text(' ')); var cA=document.createElement('a'); cA.href=code; cA.target='_blank'; cA.rel='noopener'; cA.className='pub-action'; cA.appendChild(text('Code')); cA.addEventListener('click', function(){ track('code-view', { key: bibtexKeyOf(it), title: titleOf(it) }); }); meta.appendChild(cA); }
 
     // Summary toggle (shown only when a summary exists); follows global default.
     var sumDiv = null;
-    if (it.summary){
+    var receptionText = RECEPTIONS[bibtexKeyOf(it)];
+    if (it.summary || receptionText){
       sumDiv = document.createElement('div');
       sumDiv.className = 'pub-summary' + (state.summaryExpanded ? ' open' : '');
-      renderSummaryInto(sumDiv, it.summary);
+      renderSummaryInto(sumDiv, it.summary, receptionText);
 
       var sumToggle = document.createElement('a');
       sumToggle.href = '#';
@@ -734,6 +1083,17 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
     }
 
     li.appendChild(meta);
+
+    // Citation view toggle (only for papers with a data/citations/ row).
+    if (window.CITATIONS && CITE_INDEX){
+      var citeRow = CITE_INDEX[bibtexKeyOf(it)];
+      if (citeRow) CITATIONS.attachToggle(meta, li, bibtexKeyOf(it), citeRow);
+    }
+    // Repository view toggle (only for papers with a data/repos/ row).
+    if (window.CITATIONS && REPO_INDEX){
+      var repoRow = REPO_INDEX[bibtexKeyOf(it)];
+      if (repoRow) CITATIONS.attachRepoToggle(meta, li, bibtexKeyOf(it), repoRow);
+    }
 
     if (it.price){ var pr=document.createElement('div'); pr.className='pub-price'; pr.appendChild(text(it.price)); li.appendChild(pr); }
 
@@ -758,6 +1118,7 @@ function renderList(mount, items){
         flat.sort(function(a,b){
           if (which==='year') return (keyFor(b,'year') - keyFor(a,'year')); // year desc
           if (which==='month') return (keyFor(b,'month') - keyFor(a,'month'));
+          if (which==='citations') return (keyFor(b,'citations') - keyFor(a,'citations')); // count desc, no-data last
           return cmp(String(keyFor(a,which)).toLowerCase(), String(keyFor(b,which)).toLowerCase());
         });
       })(order[r]);
@@ -808,6 +1169,10 @@ function renderList(mount, items){
       var ln = firstAuthorLastName(it); add(ln || 'Other', it);
     } else if (primary==='keywords'){
       var ks = tagsOf(it); if (ks.length){ for (var k2=0;k2<ks.length;k2++) add(ks[k2], it); } else add('Other', it);
+    } else if (primary==='citations'){
+      // Impact tiers (same quantile vocabulary as the Impact slider).
+      var n = keyFor(it, 'citations');
+      add(impactTierLabel(n), it, n); // groupSortValue = max score in tier
     }
   }
 
@@ -826,6 +1191,13 @@ function renderList(mount, items){
       if (aVal !== bVal) return bVal - aVal;
       return A.toLowerCase().localeCompare(B.toLowerCase());
     }
+    if (primary==='citations'){
+      // Buckets in count order, highest first; "No citation data" last
+      // (its groupSortValue is -1, below every real count).
+      var aC = groupSortValue[A]; if (aC === undefined) aC = -1;
+      var bC = groupSortValue[B]; if (bC === undefined) bC = -1;
+      return bC - aC;
+    }
     return A.toLowerCase().localeCompare(B.toLowerCase());
   });
 
@@ -840,9 +1212,15 @@ function renderList(mount, items){
         arr.sort(function(a,b){
           if (which==='year') return (keyFor(b,'year') - keyFor(a,'year'));
           if (which==='month') return (keyFor(b,'month') - keyFor(a,'month'));
+          if (which==='citations') return (keyFor(b,'citations') - keyFor(a,'citations'));
           return cmp(String(keyFor(a,which)).toLowerCase(), String(keyFor(b,which)).toLowerCase());
         });
       })(rest[r2]);
+    }
+    // Inside a citation bucket the list is ranked by count (stable sort:
+    // the remaining keys above become tiebreakers).
+    if (primary==='citations'){
+      arr.sort(function(a,b){ return keyFor(b,'citations') - keyFor(a,'citations'); });
     }
 
     var sec = document.createElement('div');
@@ -932,6 +1310,56 @@ if (auKeys.length){
       }
     }
 
+    // Cited and Used by (OR within facet)
+    if (excludeFacet !== 'citeAuthors') {
+      var caKeys = keysSelected(state.citeAuthors);
+      if (caKeys.length){
+        items = items.filter(function (it) {
+          var cas = listImpactAuthorsOf(it);
+          for (var i = 0; i < cas.length; i++) if (caKeys.indexOf(cas[i]) >= 0) return true;
+          return false;
+        });
+      }
+    }
+
+    // Citation thresholds (page-level sliders); papers without data are
+    // hidden once a threshold is above zero.
+    if (state.minCites > 0){
+      items = items.filter(function(it){ return citeCountOf(it) >= state.minCites; });
+    }
+    if (state.minImpact > 0 && window.CITATIONS){
+      items = items.filter(function(it){
+        var imp = compositeImpactOf(it);
+        return imp != null && imp >= state.minImpact;
+      });
+    }
+    // Impact categories drill the paper list down too: keep papers with
+    // at least one judged citation in a selected category, or a repo in
+    // the category's unified-taxonomy group.
+    var FG = { 'extends': 'builds-on', 'uses-tool': 'uses',
+               'uses-benchmark': 'benchmarks', 'adopts-idea': 'adopts' };
+    if (state.citeCatKeys && state.citeCatKeys.length && excludeFacet !== 'citecats'){
+      items = items.filter(function(it){
+        var k = bibtexKeyOf(it);
+        var row = CITE_INDEX && CITE_INDEX[k];
+        var rrow = REPO_INDEX && REPO_INDEX[k];
+        for (var ci = 0; ci < state.citeCatKeys.length; ci++){
+          var f = state.citeCatKeys[ci];
+          if (row && row.functions && row.functions[f] > 0) return true;
+          var g = FG[f];
+          if (g && rrow && rrow.grids && rrow.grids[g] && rrow.grids[g].length) return true;
+        }
+        return false;
+      });
+    }
+    // The centrality Filter-by drills down the same way.
+    if (state.citeCentralityKey && state.citeCentralityKey !== 'all'){
+      items = items.filter(function(it){
+        var row = CITE_INDEX && CITE_INDEX[bibtexKeyOf(it)];
+        return row && row.centrality && row.centrality[state.citeCentralityKey] > 0;
+      });
+    }
+
     return items;
   }
 
@@ -948,13 +1376,7 @@ if (auKeys.length){
       var y = itemsY[i].year ? String(itemsY[i].year) : '';
       if (y) yCounts[y] = (yCounts[y]||0) + 1;
     }
-    // update year badges + active class
-    for (var yKey in yearBtnMap){
-      var badgeNode = yearBtnMap[yKey].badge;
-	badgeNode.nodeValue = ' (' + String(yCounts[yKey] || 0) + ')';
-
-      yearBtnMap[yKey].btn.className = state.years[yKey] ? 'year-btn active' : 'year-btn';
-    }
+    updateFacetCounts(els.years, 'years', yCounts, state.years);
 
     // Keywords
     var itemsK = filteredItems('keywords'), kCounts = {}, j;
@@ -982,6 +1404,19 @@ for (i = 0; i < itemsT.length; i++){
 }
 updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
 
+    // Cited and Used by
+    // Drill-down semantics for this 6k-name list: the facet's own
+    // selection DOES narrow it (to the selected people and their
+    // co-citers); checked names always stay visible regardless.
+    var itemsCA = filteredItems(null), caCounts = {};
+    for (i = 0; i < itemsCA.length; i++){
+      var cas = listImpactAuthorsOf(itemsCA[i]);
+      for (j = 0; j < cas.length; j++) caCounts[cas[j]] = (caCounts[cas[j]] || 0) + 1;
+    }
+    window.CA_COUNTS = caCounts;
+    rebuildCiteAuthorFacet();          // re-slice over the active names
+    updateFacetCounts(els.citeAuBox, 'citeAuthors', caCounts, state.citeAuthors);
+
   }
 
   function updateFacetCounts(mount, facetKey, countsMap, stateMap) {
@@ -989,15 +1424,24 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
     if (!facet) return;
 
     var itemMap = facet.itemMap;
+  var visible = 0;
   for (var val in itemMap) {
     var cnt = countsMap[val] || 0;
     var display = facet.labelFor ? facet.labelFor(val) : val;
-    itemMap[val].textNode.nodeValue = display + ' (' + cnt + ')';
+    itemMap[val].labelNode.nodeValue = display + ' ';
+    itemMap[val].textNode.nodeValue = '(' + cnt + ')';
 
-    var disabled = (cnt === 0) && !stateMap[val];
-    itemMap[val].cb.disabled = disabled;
-    itemMap[val].cb.parentNode.className = disabled ? 'facet-item disabled' : 'facet-item';
+    // values with nothing in the current selection disappear entirely
+    // (a checked box always stays visible so it can be unchecked)
+    var hidden = (cnt === 0) && !stateMap[val];
+    itemMap[val].cb.parentNode.style.display = hidden ? 'none' : '';
+    itemMap[val].cb.parentNode.className = 'facet-item';
     itemMap[val].cb.checked = !!stateMap[val];
+    if (!hidden) visible++;
+  }
+  var countEl = document.querySelector('.facet-count[data-for="' + mount.id + '"]');
+  if (countEl && mount.id !== 'facet-cite-authors'){
+    countEl.textContent = ' (' + visible.toLocaleString('en-US') + ')';
   }
 }
 
@@ -1008,6 +1452,118 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
   }
 
   updatePublicationCount(0);
+
+  // Aggregate citation overview over the papers currently shown, plus the
+  // cross-paper-citers finder. Hidden when the citations index is absent.
+  function renderCiteOverview(items){
+    var box = els.citeOverview;
+    if (!box) return;
+    if (!CITE_INDEX || !window.CITATIONS){ box.className = 'cite-overview hidden'; return; }
+    _lastOverviewItems = items;
+    var withData = [], totalC = 0, i;
+    var uniqRepos = {}, nUniq = 0;   // ecosystems are shared across a
+    var uniqCiters = {}, nCiters = 0; // project's papers: union, not sum
+    for (i = 0; i < items.length; i++){
+      var key = bibtexKeyOf(items[i]);
+      var row = CITE_INDEX[key];
+      if (row){
+        withData.push({ key: key, title: items[i].title || '' });
+        totalC += CITATIONS.displayCount(row);
+      }
+      var rrow = REPO_INDEX && REPO_INDEX[key];
+      if (rrow && rrow.rids){
+        for (var ri = 0; ri < rrow.rids.length; ri++){
+          if (!uniqRepos[rrow.rids[ri]]){ uniqRepos[rrow.rids[ri]] = 1; nUniq++; }
+        }
+      }
+      var cids = CITERS && CITERS[key];
+      if (cids){
+        for (var ci2 = 0; ci2 < cids.length; ci2++){
+          if (!uniqCiters[cids[ci2]]){ uniqCiters[cids[ci2]] = 1; nCiters++; }
+        }
+      }
+    }
+    box.innerHTML = '';
+    if (!withData.length){ box.className = 'cite-overview hidden'; return; }
+    box.className = 'cite-overview';
+    var l1 = document.createElement('div'); l1.className = 'cite-overview-line';
+    l1.title = 'Citations sum each paper\u2019s count, as Scholar does; citing works and repositories are counted once each';
+    l1.innerHTML = '<b>' + items.length.toLocaleString('en-US') +
+      '</b> papers have <b>' +
+      totalC.toLocaleString('en-US') + '</b> total citations' +
+      (nCiters ? ' from <b>' + nCiters.toLocaleString('en-US') + '</b> citing works' : '') +
+      (nUniq ? ' and <b>' + nUniq.toLocaleString('en-US') + '</b> repositories' : '') + '.';
+    box.appendChild(l1);
+  }
+
+  // Paper counts on the page-level citation controls: how many currently
+  // shown papers have at least one external judged citation in each
+  // category / at each centrality (facet-style, from index.json only).
+  function updateCiteToolCounts(items){
+    if (!CITE_INDEX || !window.CITATIONS) return;
+    var catPapers = {}, catCites = {}, centCounts = { core: 0, engaged: 0, peripheral: 0 };
+    // distinct repos per shared category across the shown papers, via
+    // the unified taxonomy (function key <-> repo group)
+    var FUNC_GROUP = { 'extends': 'builds-on', 'uses-tool': 'uses',
+                       'uses-benchmark': 'benchmarks', 'adopts-idea': 'adopts' };
+    var catRepoIds = {}, catRepos = {};
+    var seen = {}, withData = 0, i, f;
+    for (i = 0; i < items.length; i++){
+      var k = bibtexKeyOf(items[i]);
+      if (seen[k]) continue;
+      seen[k] = 1;
+      var rrow = REPO_INDEX && REPO_INDEX[k];
+      if (rrow && rrow.grids){
+        for (f in FUNC_GROUP){
+          var ids = rrow.grids[FUNC_GROUP[f]];
+          if (!ids) continue;
+          var bag = catRepoIds[f] || (catRepoIds[f] = {});
+          for (var gi = 0; gi < ids.length; gi++){
+            if (!bag[ids[gi]]){ bag[ids[gi]] = 1; catRepos[f] = (catRepos[f] || 0) + 1; }
+          }
+        }
+      }
+      var row = CITE_INDEX[k];
+      if (!row) continue;
+      withData++;
+      // per category: papers with at least one such citation, and the
+      // total citations of that kind across the shown papers
+      for (f in (row.functions || {})){
+        if (row.functions[f] > 0){
+          catPapers[f] = (catPapers[f] || 0) + 1;
+          catCites[f] = (catCites[f] || 0) + row.functions[f];
+        }
+      }
+      var ce = row.centrality || {};
+      for (f in centCounts){ if (ce[f] > 0) centCounts[f]++; }
+    }
+    if (els.citeCats && els.citeCats._catRefs){
+      var catVisible = 0;
+      for (f in els.citeCats._catRefs){
+        var ref = els.citeCats._catRefs[f];
+        var rc = catRepos[f];
+        ref.node.nodeValue = '(' + (catPapers[f] || 0) +
+          ', cited by ' + (catCites[f] || 0) + ' papers' +
+          (rc ? ' and ' + rc + ' repos' : '') + ')';
+        var catRow = ref.node.parentNode && ref.node.parentNode.closest
+          ? ref.node.parentNode.closest('label') : null;
+        var catHidden = !(catPapers[f] || 0) && !rc && !(ref.cb && ref.cb.checked);
+        if (catRow) catRow.style.display = catHidden ? 'none' : '';
+        if (!catHidden) catVisible++;
+      }
+      var ccEl = document.querySelector('.facet-count[data-for="facet-cite-cats"]');
+      if (ccEl) ccEl.textContent = ' (' + catVisible + ')';
+    }
+    if (els.citeCentrality){
+      var bs = els.citeCentrality.querySelectorAll('.type-toggle-btn');
+      for (i = 0; i < bs.length; i++){
+        var v = bs[i].getAttribute('data-v');
+        if (v === 'all') bs[i].textContent = 'All (' + withData + ')';
+        else bs[i].textContent = v.charAt(0).toUpperCase() + v.slice(1) +
+          ' (' + centCounts[v] + ')';
+      }
+    }
+  }
 
   function applyFilters(){
     // recompute dynamic counts first (so user sees availability)
@@ -1031,21 +1587,50 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
 
     renderList(els.results, items);
 
+    renderCiteOverview(items);
+    updateCiteToolCounts(items);
+
     // interactive panel visibility
     els.filtersInteractive.className = (state.mode === 'interactive') ? 'filters-interactive' : 'filters-interactive hidden';
   }
 
   function clearAll(){
-    state.years = {};
+    // citation tools
+    state.minCites = 0; state.minImpact = 0;
+    state.citeCatKeys = []; state.citeCentralityKey = 'all';
+    if (els.minCites){ els.minCites.value = '0'; els.minCitesLabel.textContent = '0'; }
+    if (els.minImpact){ els.minImpact.value = '0'; els.minImpactLabel.textContent = 'all papers'; }
+    if (els.citeSearch) els.citeSearch.value = '';
+    if (els.citeCats){
+      var ccbs = els.citeCats.querySelectorAll('input'), ci;
+      for (ci = 0; ci < ccbs.length; ci++) ccbs[ci].checked = false;
+    }
+    if (window.CITATIONS) CITATIONS.setGlobalPanels({ categories: null, search: '', centrality: 'all' });
+    if (els.citeCentrality){
+      var cbs2 = els.citeCentrality.querySelectorAll('.type-toggle-btn');
+      for (var cbi = 0; cbi < cbs2.length; cbi++){
+        cbs2[cbi].className = 'type-toggle-btn' +
+          (cbs2[cbi].getAttribute('data-v') === 'all' ? ' active' : '');
+      }
+    }
+    // Clear facet selections IN PLACE: the checkbox handlers closed over
+    // these exact objects at build time, so reassigning `{}` orphans them
+    // (the harness's STRUCTURAL BUG: dead Years/Topics/Categories after
+    // Clear filters).
+    var facetMaps = [state.years, state.keywords, state.authors,
+                     state.types, state.citeAuthors];
+    for (var fm = 0; fm < facetMaps.length; fm++){
+      for (var fk in facetMaps[fm]) delete facetMaps[fm][fk];
+    }
     state.titleQuery = '';
-    state.keywords = {};
-    state.authors = {};
-    state.types = {};
     state.scroll = { keywords:0, authors:0, types:0 };
     if (els.title) els.title.value = '';
     state.authorQuery = '';
     if (els.authorSearch) els.authorSearch.value = '';
+    state.citeAuthorQuery = '';
+    if (els.citeAuthorSearch) els.citeAuthorSearch.value = '';
     rebuildAuthorFacet();
+    rebuildCiteAuthorFacet();
     applyFilters();
   }
 
@@ -1080,13 +1665,169 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
       els.btnToggleSummaries.onclick = function(){
         state.summaryExpanded = !state.summaryExpanded;
         var open = state.summaryExpanded;
-        els.btnToggleSummaries.textContent = open ? 'Hide summaries' : 'Show summaries';
+        els.btnToggleSummaries.textContent = open ? 'Hide All Summaries' : 'Show All Summaries';
         els.btnToggleSummaries.setAttribute('aria-pressed', open ? 'true' : 'false');
-        var divs = document.querySelectorAll('.pub-summary'), i;
+        // :not(.cite-view) / :not(.cite-toggle): the citation panels share
+        // the .pub-summary box styling but have their own expand-all below.
+        var divs = document.querySelectorAll('.pub-summary:not(.cite-view)'), i;
         for (i = 0; i < divs.length; i++){ divs[i].className = 'pub-summary' + (open ? ' open' : ''); }
-        var toggles = document.querySelectorAll('.pub-summary-toggle'), j;
+        var toggles = document.querySelectorAll('.pub-summary-toggle:not(.cite-toggle)'), j;
         for (j = 0; j < toggles.length; j++){ toggles[j].textContent = open ? 'Summary \u25be' : 'Summary \u25b8'; }
         track('summaries-toggle-all', { expanded: open });
+      };
+    }
+
+    if (els.btnToggleCitations) {
+      els.btnToggleCitations.onclick = function(){
+        state.citationsExpanded = !state.citationsExpanded;
+        var on = state.citationsExpanded;
+        els.btnToggleCitations.textContent = on ? 'Hide All Citations' : 'Show All Citations';
+        els.btnToggleCitations.setAttribute('aria-pressed', on ? 'true' : 'false');
+        if (window.CITATIONS){
+          CITATIONS.setDefaultOpen(on);  // items rendered later follow suit
+          CITATIONS.setAllOpen(on);      // per-paper files still load lazily
+        }
+        track('citations-toggle-all', { expanded: on });
+      };
+    }
+
+    if (els.btnToggleRepos) {
+      els.btnToggleRepos.onclick = function(){
+        state.reposExpanded = !state.reposExpanded;
+        var on = state.reposExpanded;
+        els.btnToggleRepos.textContent = on ? 'Hide All Repositories' : 'Show All Repositories';
+        els.btnToggleRepos.setAttribute('aria-pressed', on ? 'true' : 'false');
+        if (window.CITATIONS && CITATIONS.setAllReposOpen){
+          CITATIONS.setRepoDefaultOpen(on);
+          CITATIONS.setAllReposOpen(on);
+        }
+        track('repos-toggle-all', { expanded: on });
+      };
+    }
+
+    // Page-level citation tools: sort / centrality button groups driving
+    // every open panel, the category listbox, the citing-work search, and
+    // the two paper-threshold sliders.
+    function wireToggleGroup(container, patchKey){
+      if (!container) return;
+      var bs = container.querySelectorAll('.type-toggle-btn');
+      for (var i = 0; i < bs.length; i++){
+        bs[i].onclick = function(){
+          for (var j = 0; j < bs.length; j++){
+            bs[j].className = 'type-toggle-btn' + (bs[j] === this ? ' active' : '');
+          }
+          if (window.CITATIONS){
+            var patch = {}; patch[patchKey] = this.getAttribute('data-v');
+            CITATIONS.setGlobalPanels(patch);
+          }
+          if (patchKey === 'centrality'){
+            state.citeCentralityKey = this.getAttribute('data-v');
+            applyFilters();                  // the paper list follows
+          }
+          if (patchKey === 'sort' && window.CITATIONS && CITATIONS.countOpen &&
+              CITATIONS.countOpen() === 0){
+            var hint = container.parentNode.querySelector('.cite-sort-hint');
+            if (!hint){
+              hint = document.createElement('span');
+              hint.className = 'cite-sort-hint';
+              hint.textContent = ' applies to open panels \u2014 press Show All Citations';
+              container.parentNode.appendChild(hint);
+              setTimeout(function(){ if (hint.parentNode) hint.parentNode.removeChild(hint); }, 4000);
+            }
+          }
+          track('citations-global-' + patchKey, { value: this.getAttribute('data-v') });
+        };
+      }
+    }
+    wireToggleGroup(els.citeSort, 'sort');
+    wireToggleGroup(els.citeCentrality, 'centrality');
+
+    if (els.citeCats && window.CITATIONS){
+      (function(){
+        var selected = {};
+        // Same scrolling shell as the other facet boxes, so the list sits
+        // at the standard facet height instead of growing to all 11 rows.
+        var scrollWrap = document.createElement('div');
+        scrollWrap.className = 'facet-scroll';
+        var listEl = document.createElement('div');
+        listEl.className = 'facet-items';
+        scrollWrap.appendChild(listEl);
+        els.citeCats.appendChild(scrollWrap);
+        for (var i = 0; i < CITATIONS.FUNCTIONS.length; i++){
+          (function(f){
+            var label = document.createElement('label'); label.className = 'facet-item';
+            var cb = document.createElement('input'); cb.type = 'checkbox'; cb.value = f.key;
+            var txt = document.createElement('span'); txt.className = 'facet-text';
+            txt.appendChild(document.createTextNode(f.label + ' '));
+            var cnt = document.createElement('span');
+            cnt.className = 'cat-counts';
+            var tn = document.createTextNode('(0)');
+            cnt.appendChild(tn);
+            txt.appendChild(cnt); txt.title = f.gloss;
+            if (!els.citeCats._catRefs) els.citeCats._catRefs = {};
+            els.citeCats._catRefs[f.key] = { node: tn, label: f.label, cb: cb };
+            cb.onchange = function(){
+              selected[f.key] = this.checked;
+              var keys = keysSelected(selected);
+              CITATIONS.setGlobalPanels({ categories: keys.length ? keys : null });
+              state.citeCatKeys = keys;      // and the paper list follows
+              applyFilters();
+              if (this.checked) track('citations-category-filter', { value: f.key });
+            };
+            label.appendChild(cb); label.appendChild(txt);
+            listEl.appendChild(label);
+          })(CITATIONS.FUNCTIONS[i]);
+        }
+        var ccCountEl = document.querySelector('.facet-count[data-for="facet-cite-cats"]');
+        if (ccCountEl) ccCountEl.textContent = ' (' + CITATIONS.FUNCTIONS.length + ')';
+      })();
+    }
+
+    if (els.citeSearch){
+      var citeSearchTimer = null;
+      els.citeSearch.oninput = function(){
+        var q = this.value;
+        clearTimeout(citeSearchTimer);
+        citeSearchTimer = setTimeout(function(){
+          if (window.CITATIONS) CITATIONS.setGlobalPanels({ search: q });
+        }, 200);
+      };
+    }
+
+    // Sliders map quadratically onto [0, max] for fine control at the low end.
+    function wireSlider(input, labelEl, maxFn, apply){
+      if (!input) return;
+      input.oninput = function(){
+        var frac = (parseInt(this.value, 10) || 0) / 100;
+        var v = Math.round(frac * frac * maxFn());
+        labelEl.textContent = v.toLocaleString('en-US');
+        apply(v);
+        applyFilters();
+      };
+    }
+    function maxCites(){
+      var m = 0, k;
+      for (k in (CITE_INDEX || {})) m = Math.max(m, CITATIONS.displayCount(CITE_INDEX[k]));
+      return m || 1;
+    }
+    wireSlider(els.minCites, els.minCitesLabel, maxCites, function(v){ state.minCites = v; });
+
+    // The impact slider speaks in tiers, not raw scores: thresholds are
+    // quantiles of the corpus impact distribution, labels are plain words.
+    var IMPACT_TIERS = [
+      { label: 'all papers',            q: null },
+      { label: 'top half by impact',    q: 0.50 },
+      { label: 'top quarter by impact', q: 0.25 },
+      { label: 'top 10% by impact',     q: 0.10 },
+      { label: 'top 3% by impact',      q: 0.03 }
+    ];
+    var impactQuantile = window.compositeQuantile; // papers + repos, shared
+    if (els.minImpact){
+      els.minImpact.oninput = function(){
+        var tier = IMPACT_TIERS[parseInt(this.value, 10) || 0];
+        state.minImpact = tier.q == null ? 0 : Math.max(1, impactQuantile(tier.q));
+        els.minImpactLabel.textContent = tier.label;
+        applyFilters();
       };
     }
 
@@ -1106,6 +1847,25 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
         rebuildAuthorFacet();
         applyFilters();
         trackSearch('author', state.authorQuery);
+      };
+    }
+
+    if (els.citeAuthorSort) {
+      els.citeAuthorSort.value = state.citeAuthorSort;
+      els.citeAuthorSort.onchange = function(){
+        state.citeAuthorSort = this.value || 'count';
+        rebuildCiteAuthorFacet();
+        applyFilters();
+      };
+    }
+
+    if (els.citeAuthorSearch) {
+      els.citeAuthorSearch.value = state.citeAuthorQuery;
+      els.citeAuthorSearch.oninput = function(){
+        state.citeAuthorQuery = this.value || '';
+        rebuildCiteAuthorFacet();
+        applyFilters();
+        trackSearch('cite-author', state.citeAuthorQuery);
       };
     }
 
@@ -1345,7 +2105,7 @@ if (els.sortReset) els.sortReset.onclick = function(){
           for (i=0;i<DATA.length;i++){ if (DATA[i].year) ySet[String(DATA[i].year)] = 1; }
           var years = []; for (var k in ySet) years.push(parseInt(k,10));
           years.sort(function(a,b){ return b-a; });
-          buildYearGrid(years);
+          buildFacetBox(years.map(String), els.years, 'years', state.years);
 
             // Facets static lists (values only; counts dynamic)
             var auSet = {};
@@ -1368,7 +2128,11 @@ if (els.sortReset) els.sortReset.onclick = function(){
           rebuildKeywordFacet();
           rebuildAuthorFacet();
 
-          applyFilters(); // initial render and dynamic counts
+          // Wait for the (already in-flight, always-resolving) citations
+          // index before first render so toggles appear on the first paint.
+          citeIndexReady.then(function(){
+            applyFilters(); // initial render and dynamic counts
+          });
         } catch (e) {
           els.errors.textContent = 'Failed to parse publications.json: ' + e.message;
         }

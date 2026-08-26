@@ -1,0 +1,39 @@
+{
+ "schema": 1,
+ "key": "jaeyeon:asplos:2023",
+ "generated": "2026-08-25",
+ "repos": [
+  {
+   "name": "Archival artifact",
+   "group": "own",
+   "role": "artifact",
+   "artifact": true,
+   "url": "https://doi.org/10.5281/zenodo.7221411",
+   "badges": [
+    "Artifacts Available",
+    "Artifacts Evaluated & Functional"
+   ],
+   "evidence": "badged artifact record (harvest/artifacts/found.json)"
+  },
+  {
+   "url": "https://github.com/nullplay/Workload-Aware-Co-Optimization",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "high",
+   "evidence": "Owner is a known same-author account, description is 'Workload-Aware Co-Optimization', README contains the paper's title, and created shortly before publication.",
+   "name": "nullplay/Workload-Aware-Co-Optimization",
+   "desc": "Workload-Aware Co-Optimization",
+   "stars": 8,
+   "active": 2023
+  },
+  {
+   "url": "https://github.com/cecnyb/WACO_with_ML",
+   "group": "builds-on",
+   "name": "cecnyb/WACO_with_ML",
+   "evidence": "ecosystem of nullplay/Workload-Aware-Co-Optimization: The name 'WACO_with_ML' directly references the WACO tool and the repo was found via mentions, suggesting it is a fork or derivative of the WACO repository with no description to indicate otherwise; given the direct name match and zero stars it is likely a personal fork/copy.",
+   "sdv": "fork",
+   "stars": 0,
+   "active": 2024
+  }
+ ]
+}

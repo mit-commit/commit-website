@@ -1,0 +1,28 @@
+{
+ "schema": 1,
+ "key": "zhang:bigdata:2017",
+ "generated": "2026-08-25",
+ "repos": [
+  {
+   "url": "https://github.com/GraphIt-DSL/graphit",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "high",
+   "evidence": "Repo name, description ('A High-Performance Domain Specific Language for Graph Analytics'), owner org 'GraphIt-DSL', creation date matching paper year (2017), and README mentioning author surname 'zhang' all align with this paper's GraphIt project.",
+   "name": "GraphIt-DSL/graphit",
+   "desc": "GraphIt - A High-Performance Domain Specific Language for Graph Analytics",
+   "stars": 392,
+   "active": 2022
+  },
+  {
+   "url": "https://github.com/afanasyev-ilya/VectorGraphLibrary",
+   "group": "adopts",
+   "name": "afanasyev-ilya/VectorGraphLibrary",
+   "paper": "VGL: a high-performance graph processing framework for the NEC SX-Aurora TSUBASA vector architecture",
+   "evidence": "light GitHub search, model-confirmed: The repo description exactly matches the citing paper's title and subject matter: VGL framework for NEC SX-Aurora TSUBASA vector architecture.",
+   "desc": "VGL is a high-performance graph processing framework, designed for modern NEC SX-Aurora TSUBASA vector architecture. VGL significantly outperforms many state-of the art graph-processing frameworks for modern multicore CPUs and NVIDIA GPUs, such as Gunrock, CuSHA, Ligra, Galois, GAPBS.",
+   "stars": 12,
+   "active": 2024
+  }
+ ]
+}

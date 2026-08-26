@@ -1,0 +1,110 @@
+{
+ "schema": 1,
+ "key": "mueller_sparse_2020",
+ "generated": "2026-08-24",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 6,
+  "works": 6,
+  "commit": 0,
+  "judged": 6,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Compilation of Modular and General Sparse Workspaces",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Genghan Zhang, Olivia Hsu, Fredrik Kjølstad",
+   "url": "https://doi.org/10.1145/3656426",
+   "cited_by": 6,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "On Higher-performance Sparse Tensor Transposition",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+   "authors": "Luanzheng Guo, Gökçen Kestor",
+   "url": "https://doi.org/10.1109/ipdpsw59300.2023.00118",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "uses-benchmark",
+    "supports-claim"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "ALTO",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Ahmed E. Helal, Jan Laukemann, Fabio Checconi et al.",
+   "url": "https://doi.org/10.1145/3447818.3461703",
+   "cited_by": 30,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Fast Autoscheduling for Sparse ML Frameworks",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+   "authors": "Bobby Yan, Alexander J Root, Trevor Gale et al.",
+   "url": "https://doi.org/10.1109/cgo68049.2026.11394842",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Exploring Data Layout for Sparse Tensor Times Dense Matrix on GPUs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Khalid Ahmad, Cris Cecka, Michael Garland et al.",
+   "url": "https://doi.org/10.1145/3633462",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Sparsity-Aware Tensor Decomposition",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "2022 IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+   "authors": "Süreyya Emre Kurt, Saurabh Raje, Aravind Sukumaran-Rajam et al.",
+   "url": "https://doi.org/10.1109/ipdps53621.2022.00097",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  }
+ ],
+ "reception": "Reception is quiet and specific, confined to the sparse tensor systems community. ALTO and the work on compiling modular and general sparse workspaces cite its findings as supporting evidence, and one successor engages head-on: On Higher-performance Sparse Tensor Transposition positions its own algorithms directly against Quesadilla. The remaining references are brief mentions in work on sparsity-aware tensor decomposition, data layout for sparse tensor kernels on GPUs, and autoscheduling for sparse frameworks. The citations are few, as befits a brief announcement, but the closest reader is the one trying to transpose tensors faster. The Quesadilla implementation lives in the tensor-compiler/taco repository."
+}
