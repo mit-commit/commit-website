@@ -1,0 +1,125 @@
+{
+ "schema": 1,
+ "key": "buildsl-cgo22",
+ "generated": "2026-08-24",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 7,
+  "works": 7,
+  "commit": 3,
+  "judged": 7,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Backwards Data-Flow Analysis using Prophecy Variables in the BuildIt System",
+   "function": "extends",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv.org",
+   "authors": "Ajay Brahmakshatriya, Saman P. Amarasinghe, Martin C. Rinard",
+   "url": "https://doi.org/10.48550/arxiv.2601.02653",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "NetBlocks: Staging Layouts for High-Performance Custom Host Network Stacks",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Ajay Brahmakshatriya, Chris Rinard, Manya Ghobadi et al.",
+   "url": "https://doi.org/10.1145/3656396",
+   "cited_by": 3,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Domain-Specific Languages for Algorithmic Graph Processing: A Systematic Literature Review",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Algorithms",
+   "authors": "Houda Boukham, Kawtar Younsi Dahbi, Dalila Chiadmi",
+   "url": "https://doi.org/10.3390/a18070445",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "abstract"
+  },
+  {
+   "title": "D2X: An eXtensible conteXtual Debugger for Modern DSLs",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+   "authors": "Ajay Brahmakshatriya, Saman Amarasinghe",
+   "url": "https://doi.org/10.1145/3579990.3580014",
+   "cited_by": 5,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts",
+   "commit": true
+  },
+  {
+   "title": "eCC++ : A Compiler Construction Framework for Embedded Domain-Specific Languages",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+   "authors": "Marc González, Joel Denny, Pedro Valero‐Lara et al.",
+   "url": "https://doi.org/10.1109/ipdpsw63119.2024.00129",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "From Large to Small: Transferring CUDA Optimization Expertise via Reasoning Graph",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "arXiv.org",
+   "authors": "Junfeng Gong, Zhiyi Wei, Junying Chen et al.",
+   "url": "https://doi.org/10.48550/arxiv.2510.19873",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Flan: An Expressive and Efficient Datalog Compiler for Program Analysis",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Supun Abeysinghe, Anxhelo Xhebraj, Tiark Rompf",
+   "url": "https://doi.org/10.1145/3632928",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  }
+ ],
+ "reception": "Outside those two lines the citation record is thin. A few external works cite the paper briefly: a systematic literature review of DSLs for algorithmic graph processing includes it, eCC++ names it as an instance of compiler construction for embedded DSLs, and Flan's Datalog compiler mentions it in passing among staging-based systems. None engages the staging argument in depth; the case the paper makes is carried mainly by the group's own successor systems rather than by external uptake. An archival artifact accompanies the paper."
+}

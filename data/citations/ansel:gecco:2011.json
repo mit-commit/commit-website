@@ -1,0 +1,150 @@
+{
+ "schema": 1,
+ "key": "ansel:gecco:2011",
+ "generated": "2026-08-24",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 11,
+  "works": 9,
+  "commit": 2,
+  "judged": 7,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "OpenTuner",
+   "function": "extends",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+   "authors": "Jason Ansel, Shoaib Kamil, Kalyan Veeramachaneni et al.",
+   "url": "https://doi.org/10.1145/2628071.2628092",
+   "cited_by": 528,
+   "centrality": "core",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "Autotuning algorithmic choice for input sensitivity",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Yufei Ding, Jason Ansel, Kalyan Veeramachaneni et al.",
+   "url": "https://doi.org/10.1145/2813885.2737969",
+   "cited_by": 91,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "extends"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Continuous learning of compiler heuristics",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Michele Tartara, Stefano Crespi Reghizzi",
+   "url": "https://doi.org/10.1145/2400682.2400705",
+   "cited_by": 38,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "baseline"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Autotuning programs with algorithmic choice",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "authors": "Jason Ansel",
+   "url": "https://openalex.org/W1483258291",
+   "cited_by": 12,
+   "centrality": "core",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Towards making autotuning mainstream",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "The International Journal of High Performance Computing Applications",
+   "authors": "Protonu Basu, Mary Hall, Malik M. Khan et al.",
+   "url": "https://doi.org/10.1177/1094342013493644",
+   "cited_by": 19,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Bliss: auto-tuning complex applications using a pool of diverse lightweight learning models",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+   "authors": "Rohan Basu Roy, Tirthak Patel, Vijay Gadepally et al.",
+   "url": "https://doi.org/10.1145/3453483.3454109",
+   "cited_by": 41,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Parallel iterative compilation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "MapReduce '12",
+   "authors": "Michele Tartara, Stefano Crespi Reghizzi",
+   "url": "https://doi.org/10.1145/2287016.2287023",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Nitro: A Framework for Adaptive Code Variant Tuning",
+   "function": "unknown",
+   "split": null,
+   "year": 2014,
+   "venue": "IEEE International Parallel and Distributed Processing Symposium",
+   "authors": "Saurav Muralidharan, Manu Shantharam, Mary Hall et al.",
+   "url": "https://doi.org/10.1109/ipdps.2014.59",
+   "cited_by": 65,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Autotuning for Automatic Parallelization on Heterogeneous Systems",
+   "function": "unclassified",
+   "split": null,
+   "year": 2020,
+   "authors": "Philip Pfaffe",
+   "url": "https://doi.org/10.5445/ir/1000119646",
+   "cited_by": 0,
+   "evidence": "title_only"
+  }
+ ],
+ "reception": "Outside those descendants, external reception is thin. The most substantive notice comes from the autotuning community itself: Basu, Hall, and colleagues discuss the algorithm in their account of making autotuning mainstream, treating it as one of the field's evolutionary search strategies. Later tuners such as Bliss, and work on parallel iterative compilation, cite it only in passing. The paper's reception is hard to separate from the PetaBricks project it served; read on its own, it is a technique noted by close neighbors rather than one taken up beyond them. The PetaBricks implementation is preserved in the petabricks/petabricks repository."
+}

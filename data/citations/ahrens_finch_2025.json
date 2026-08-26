@@ -1,0 +1,215 @@
+{
+ "schema": 1,
+ "key": "ahrens_finch_2025",
+ "generated": "2026-08-24",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 14,
+  "works": 14,
+  "commit": 2,
+  "judged": 11,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "WingSpan: Concurrency and Dependence for Sparse and Structured Tensor Compilers",
+   "function": "extends",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv.org",
+   "authors": "A. Gushin, Sang Yoon Kim, Willow Ahrens",
+   "url": "https://doi.org/10.48550/arxiv.2606.20855",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "The Continuous Tensor Abstraction: Where Indices Are Real",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Jaeyeon Won, Willow Ahrens, Teodoro Fields Collin et al.",
+   "url": "https://doi.org/10.1145/3763146",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "medium",
+   "secondary": [
+    "extends"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "TENSURE: Fuzzing Sparse Tensor Compilers (Registered Report)",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Proceedings 2026 International Fuzzing Workshop",
+   "authors": "Kabilan Mahathevan, Yining Zhang, Muhammad Ali Gulzar et al.",
+   "url": "https://doi.org/10.14722/fuzzing.2026.23006",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "uses-tool"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Optimizing Sparse Tensor Compilation for Sparse Output",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "International Conference on Compiler Construction",
+   "authors": "Shideh Hashemian, Michael F. P. O’Boyle, Amir Shaikhha",
+   "url": "https://doi.org/10.1145/3771775.3786267",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compressing Structured Tensor Algebra",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv.org",
+   "authors": "Mahdi Ghorbani, Emilien Bauer, Tobias Grosser et al.",
+   "url": "https://doi.org/10.48550/arxiv.2407.13726",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Accelerating Sparse Algebra with Program Synthesis",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "International Conference on Compiler Construction",
+   "authors": "José Wesley de Souza Magalhães, Shideh Hashemian, Alexander Brauckmann et al.",
+   "url": "https://doi.org/10.1145/3771775.3786281",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+   "authors": "Jaeyeon Won, Willow Ahrens, Saman Amarasinghe et al.",
+   "url": "https://doi.org/10.1145/3779212.3790176",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Equality Saturation for Optimizing High-Level Julia IR",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+   "authors": "Jules Merckx, Tim Besard, B. De Sutter",
+   "url": "https://doi.org/10.1145/3795883",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Unified Execution Semantics Layer for Structured and Sparse Kernels",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "International Conference on the Software Process",
+   "authors": "Chaochao Yang, Hu Ren, Chengpeng Zhao et al.",
+   "url": "https://doi.org/10.1109/icsp69961.2026.11540891",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "DCC: Data-Centric Compilation of Machine Learning Kernels for Processing-In-Memory Architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "International Symposium on Computer Architecture",
+   "authors": "Peiming Yang, Sankeerth Durvasula, Ivan Fernandez et al.",
+   "url": "https://doi.org/10.1109/isca66397.2026.00180",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Spira: Exploiting Voxel Data Structural Properties for Efficient Sparse Convolution in Point Cloud Networks",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "authors": "Dionysios Adamopoulos, Anastasia Poulopoulou, G. Goumas et al.",
+   "url": "https://www.semanticscholar.org/paper/8d858de9239330b049a5c158ce01faa23a5c72b2",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Partitioning Unstructured Sparse Tensor Algebra for Load-Balanced Parallel Execution",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "arXiv.org",
+   "authors": "Atharv Chougule, Alexander J. Root, Rubens Lacouture et al.",
+   "url": "https://doi.org/10.48550/arxiv.2604.17198",
+   "cited_by": 0,
+   "evidence": "abstract"
+  },
+  {
+   "title": "Bring Your Own Formats and Kernels: Composable Abstractions for Sparse Matrix Computation",
+   "function": "unclassified",
+   "split": null,
+   "year": 2024,
+   "authors": "Pratyush Das, Amirhossein Basareh, Artem Pelenitsyn et al.",
+   "url": "https://www.semanticscholar.org/paper/682b8117bed888d5a4d0506023b599b24c4c1640",
+   "cited_by": 1,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Edinburgh Research Explorer A semi-ring dictionary query language for data science",
+   "function": "unclassified",
+   "split": null,
+   "authors": "Amir Shaikhha, Mathieu Huot, Shideh Hashemian et al.",
+   "url": "https://www.semanticscholar.org/paper/ce557ca29d25d409140dcc9306c20039db853133",
+   "cited_by": 0,
+   "evidence": "title_only"
+  }
+ ],
+ "reception": "The citing record is small, and its closest reader comes from within the project: WingSpan builds concurrency and dependence analysis for sparse and structured tensor compilers on Finch. Outside it, TENSURE's fuzzing work on sparse tensor compilers treats Finch as a compiler to measure against, and work on compressing structured tensor algebra and on optimizing sparse tensor compilation for sparse output positions its own approach against Finch's handling of structure and control flow. The remaining mentions are brief placements among sparse tensor compilers. The compiler lives on in finch-tensor/Finch.jl, and a reusable, reproduced artifact accompanies the paper."
+}

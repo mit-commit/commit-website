@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "key": "g2-cgo21",
+ "generated": "2026-08-25",
+ "repos": [
+  {
+   "url": "https://github.com/GraphIt-DSL/graphit",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "high",
+   "evidence": "Owner org 'GraphIt-DSL' matches the paper's project, repo description is 'GraphIt - A High-Performance Domain Specific Language for Graph Analytics', README mentions author surname 'zhang', and the paper is about compiling graph applications with GraphIt.",
+   "name": "GraphIt-DSL/graphit",
+   "desc": "GraphIt - A High-Performance Domain Specific Language for Graph Analytics",
+   "stars": 392,
+   "active": 2022
+  },
+  {
+   "url": "https://github.com/GerHobbelt/graphit",
+   "group": "builds-on",
+   "name": "GerHobbelt/graphit",
+   "evidence": "ecosystem of GraphIt-DSL/graphit: This is a GitHub fork of GraphIt-DSL/graphit with 3 commits ahead of upstream, indicating meaningful local changes.",
+   "sdv": "fork",
+   "desc": "GraphIt - A High-Performance Domain Specific Language for Graph Analytics",
+   "stars": 0,
+   "active": 2025
+  },
+  {
+   "url": "https://github.com/MaiaBlanco/graphit",
+   "group": "builds-on",
+   "name": "MaiaBlanco/graphit",
+   "evidence": "ecosystem of GraphIt-DSL/graphit: A fork of the GraphIt-DSL/graphit repository with 19 commits ahead of upstream, indicating meaningful local changes.",
+   "sdv": "fork",
+   "desc": "GraphIt - A High-Performance Domain Specific Language for Graph Analytics",
+   "stars": 0,
+   "active": 2020
+  }
+ ]
+}

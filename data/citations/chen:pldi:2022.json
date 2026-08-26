@@ -1,0 +1,368 @@
+{
+ "schema": 1,
+ "key": "chen:pldi:2022",
+ "generated": "2026-08-24",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 26,
+  "works": 26,
+  "commit": 2,
+  "judged": 23,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "A Framework for Fine-Grained Program Versioning",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Micro",
+   "authors": "Yishen Chen, Saman Amarasinghe",
+   "url": "https://doi.org/10.1109/micro61859.2024.00024",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "extends",
+    "baseline"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "Enhancing SLP Vectorization through Hybrid Slice Selection",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "ICPP Workshops",
+   "authors": "Chi-Hung Wei, Shih-wei Liao, Chih-Cheng Chen et al.",
+   "url": "https://doi.org/10.1145/3750720.3757288",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Retrofitting Control Flow Graphs in LLVM IR for Auto Vectorization",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "arXiv.org",
+   "authors": "Shihan Fang, Wenxin Zheng",
+   "url": "https://doi.org/10.48550/arxiv.2510.04890",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "If-Convert as Early as You Must",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "International Conference on Compiler Construction",
+   "authors": "Dorit Nuzman, Ayal Zaks, Ziv Ben-Zion",
+   "url": "https://doi.org/10.1145/3640537.3641562",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Superword level parallelism vectorization method for signal processing algorithms oriented to double loops",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "International Conference on Algorithms, Microchips and Network Applications",
+   "authors": "Linyun Deng, Yonghua Hu, Minghao Qiu et al.",
+   "url": "https://doi.org/10.1117/12.3068620",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Lazy Evaluation for the Lazy: Automatically Transforming Call-by-Value into Call-by-Need",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "International Conference on Compiler Construction",
+   "authors": "Breno Campos Ferreira Guimarães, Fernando Magno Quintão Pereira",
+   "url": "https://doi.org/10.1145/3578360.3580270",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Tiling-Aware Vectorization Framework for Perfect Loop Nests in MLIR",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Lecture notes in computer science",
+   "authors": "Chenchen Hong, Zhong Liu, Hongli Zhong et al.",
+   "url": "https://doi.org/10.1007/978-981-95-8399-7_30",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "DynVec: An End-to-End Framework for Efficient Vector-Dataflow Execution",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "2025 IEEE/ACM International Conference On Computer Aided Design (ICCAD)",
+   "authors": "Jiangnan Li, Xianfeng Cao, Kaixiang Zhu et al.",
+   "url": "https://doi.org/10.1109/iccad66269.2025.11240863",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Qiwu: Exploiting Ciphertext-Level SIMD Parallelism in Homomorphic Encryption Programs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+   "authors": "Zhongcheng Zhang, Ying Liu, Yuyang Zhang et al.",
+   "url": "https://doi.org/10.1145/3696443.3708917",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Parsimony: Enabling SIMD/Vector Programming in Standard Compiler Flows",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+   "authors": "Vijay Kandiah, Daniel Lustig, Oreste Villa et al.",
+   "url": "https://doi.org/10.1145/3579990.3580019",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Improving Vectorization Heuristics in a Dynamic Compiler with Machine Learning Models",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2022,
+   "venue": "VMIL@SPLASH",
+   "authors": "Raphael Mosaner, Gergö Barany, David Leopoldseder et al.",
+   "url": "https://doi.org/10.1145/3563838.3567679",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "An early version of the content in Chapter 2-5 of this thesis was submitted as",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2023,
+   "authors": "R. Paktinatkeleshteri, J. P. L. Carvalho, E. Amiri",
+   "url": "https://www.semanticscholar.org/paper/ea598ca568efba628789ab3c1cf12d23e08019a4",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Biscotti: An Approach to Parallel Scheduling for Vectorized Encrypted Arithmetic Circuits",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "authors": "S. Sreekanth, Dulani Wijayarathne, Raghav Malik et al.",
+   "url": "https://www.semanticscholar.org/paper/c31baf63af0689ca55c89fb688aa38ee1a935f33",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "S2VEC: Compiler-Driven Stream Specialization for Linearized Vectorization",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Luís Crespo, Ana Fernandes, Gabriel Falcão et al.",
+   "url": "https://doi.org/10.1145/3797905.3807866",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "A Graph-Based Learning Framework for Compiler Loop Auto-Vectorization",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Intelligent Computing",
+   "authors": "Yao Xiao, Nesreen K. Ahmed, Mihai Capotă et al.",
+   "url": "https://doi.org/10.34133/icomputing.0113",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Formal Analysis and Optimization of Scalar Replacement of Aggregates",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "2025 4th International Conference on Cloud Computing, Big Data Application and Software Engineering (CBASE)",
+   "authors": "Jian Guan",
+   "url": "https://doi.org/10.1109/cbase67452.2025.11335498",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Rethinking LLM-Based RTL Code Optimization Via Timing Logic Metamorphosis",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "arXiv.org",
+   "authors": "Zhihao Xu, Bixin Li, Lulu Wang",
+   "url": "https://doi.org/10.48550/arxiv.2507.16808",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Scalar Interpolation: A Better Balance between Vector and Scalar Execution for SuperScalar Architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+   "authors": "Reza Ghanbari, Henry Kao, João P. L. de Carvalho et al.",
+   "url": "https://doi.org/10.1145/3696443.3708950",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "VecTrans: Enhancing Compiler Auto-Vectorization through LLM-Assisted Code Transformations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "authors": "Zhongchun Zheng, Kan Wu, Long Cheng et al.",
+   "url": "https://www.semanticscholar.org/paper/28521f993fa856b1c4abf5f547e15b71555c4fa1",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Augmenting HPC Profilers with Analysis Capabilities",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "IEEE Conference on High Performance Extreme Computing",
+   "authors": "Abhishek Patil, K V Shamjith, Senthil Kumar R K et al.",
+   "url": "https://doi.org/10.1109/hpec62836.2024.10938486",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "The Continuous Tensor Abstraction: Where Indices Are Real",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Proc. ACM Program. Lang.",
+   "authors": "Jaeyeon Won, Willow Ahrens, T. Collin et al.",
+   "url": "https://doi.org/10.1145/3763146",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts",
+   "commit": true
+  },
+  {
+   "title": "Fast Instruction Selection for Fast Digital Signal Processing",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+   "authors": "Alexander J Root, M Ahmad, Dillon Sharlet et al.",
+   "url": "https://doi.org/10.1145/3623278.3624768",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Occamy: Elastically Sharing a SIMD Co-processor across Multiple CPU Cores",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+   "authors": "Zhongcheng Zhang, Yan Ou, Ying Liu et al.",
+   "url": "https://doi.org/10.1145/3582016.3582046",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Democratizing the Cryptocurrency Ecosystem by Just-In-Time Transformation of Mining Programs",
+   "function": "unknown",
+   "split": null,
+   "year": 2025,
+   "venue": "International Conference on Automated Software Engineering",
+   "authors": "Wei Liu, Zhenhua Li, Feng Qian et al.",
+   "url": "https://doi.org/10.1109/ase63991.2025.00040",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "SoNICS: design and workflow of a new CFD software",
+   "function": "unknown",
+   "split": null,
+   "year": 2025,
+   "venue": "Comptes Rendus Mécanique",
+   "authors": "Michaël Lienhardt, Bertrand Michel",
+   "url": "https://doi.org/10.5802/crmeca.334",
+   "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Compiler-based loop unrolling optimization for dual-SIMD extensions",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "The Journal of Supercomputing",
+   "authors": "Jinyang Yao, Lili Liu, Xuanyu Fu et al.",
+   "url": "https://doi.org/10.1007/s11227-026-08404-w",
+   "cited_by": 0,
+   "evidence": "title_only"
+  }
+ ],
+ "reception": "The citation record is mostly brief: auto-vectorization papers list the framework among SLP extensions when surveying the landscape, and systems such as Parsimony and DynVec cite it as an example of the genre. The engaged citations are positional — work on hybrid slice selection for SLP, on retrofitting control-flow graphs in LLVM IR for auto-vectorization, and the compiler-construction paper If-Convert as Early as You Must each set their designs against its predicate-based approach. The paper has entered the frame of reference for control-flow vectorization; whether Predicated SSA itself is taken up is a question the early record does not answer. Evaluated artifacts accompany the paper at the Zenodo archive."
+}

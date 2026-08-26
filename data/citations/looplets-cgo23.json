@@ -1,0 +1,482 @@
+{
+ "schema": 1,
+ "key": "looplets-cgo23",
+ "generated": "2026-08-24",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 31,
+  "works": 30,
+  "commit": 6,
+  "judged": 24,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Finch: Sparse and Structured Tensor Programming with Control Flow",
+   "function": "extends",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Willow Ahrens, Teodoro Fields Collin, Radha Patel et al.",
+   "url": "https://doi.org/10.1145/3720473",
+   "cited_by": 6,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "positions",
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Partitioning Unstructured Sparse Tensor Algebra for Load-Balanced Parallel Execution",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv.org",
+   "authors": "Atharv Chougule, Alexander J. Root, Rubens Lacouture et al.",
+   "url": "https://doi.org/10.48550/arxiv.2604.17198",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "low",
+   "flags": [
+    "own-group",
+    "polluted-contexts"
+   ],
+   "evidence": "abstract+contexts"
+  },
+  {
+   "title": "The Continuous Tensor Abstraction: Where Indices Are Real",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Jaeyeon Won, Willow Ahrens, Teodoro Fields Collin et al.",
+   "url": "https://doi.org/10.1145/3763146",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "medium",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "SySTeC: A Symmetric Sparse Tensor Compiler",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+   "authors": "Radha Patel, Willow Ahrens, Saman Amarasinghe",
+   "url": "https://doi.org/10.48550/arxiv.2406.09266",
+   "cited_by": 2,
+   "centrality": "core",
+   "confidence": "low",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract+contexts",
+   "commit": true
+  },
+  {
+   "title": "Unified Compilation for Lossless Compression and Sparse Computing",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+   "authors": "D. Donenfeld, Stephen Chou, S. Amarasinghe",
+   "url": "https://doi.org/10.1109/cgo53902.2022.9741282",
+   "cited_by": 6,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts",
+   "commit": true
+  },
+  {
+   "title": "Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+   "authors": "Jaeyeon Won, Willow Ahrens, Saman Amarasinghe et al.",
+   "url": "https://doi.org/10.1145/3779212.3790176",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Galley: Modern Query Optimization for Sparse Tensor Programs",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Proceedings of the ACM on Management of Data",
+   "authors": "Kyle Deeds, Willow Ahrens, Magdalena Bałazińska et al.",
+   "url": "https://doi.org/10.1145/3725301",
+   "cited_by": 3,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compilation of Shape Operators on Sparse Arrays",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Alexander J Root, Bobby Yan, Peiming Liu et al.",
+   "url": "https://doi.org/10.1145/3689752",
+   "cited_by": 3,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "positions"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Mechanised Hypersafety Proofs about Structured Data",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Vladimir Gladshtein, Qiyuan Zhao, Willow Ahrens et al.",
+   "url": "https://doi.org/10.1145/3656403",
+   "cited_by": 8,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "detailed-citation",
+    "exemplifies"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts",
+   "commit": true
+  },
+  {
+   "title": "Compressed and Parallelized Structured Tensor Algebra",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Mahdi Ghorbani, Emilien Bauer, Tobias Grosser et al.",
+   "url": "https://doi.org/10.1145/3720506",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compressing Structured Tensor Algebra",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv.org",
+   "authors": "Mahdi Ghorbani, Emilien Bauer, Tobias Grosser et al.",
+   "url": "https://doi.org/10.48550/arxiv.2407.13726",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "exemplifies"
+   ],
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Equality Saturation for Optimizing High-Level Julia IR",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Jules Merckx, Tim Besard, Bjorn De Sutter",
+   "url": "https://doi.org/10.1145/3795883",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "GALA: A High Performance Graph Neural Network Acceleration LAnguage and Compiler",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Damitha Lenadora, Nikhil Jayakumar, Chamika Sudusinghe et al.",
+   "url": "https://doi.org/10.1145/3763113",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Scheduling Language Chronology: Past, Present, and Future",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+   "authors": "Mary Hall, C. Oancea, Anne Elster et al.",
+   "url": "https://doi.org/10.1145/3743135",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "CoNST: Code Generator for Sparse Tensor Networks",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Saurabh Raje, Yufan Xu, Atanas Rountev et al.",
+   "url": "https://doi.org/10.1145/3689342",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "WingSpan: Concurrency and Dependence for Sparse and Structured Tensor Compilers",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv.org",
+   "authors": "A. Gushin, Sang Yoon Kim, Willow Ahrens",
+   "url": "https://doi.org/10.48550/arxiv.2606.20855",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Automatic Specialization of Polyhedral Programs on Sparse Structures",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "authors": "Alec Sadler, Christophe Alias",
+   "url": "https://www.semanticscholar.org/paper/d645251c82c8daf68626b3a44325c74936adde96",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Ember: A Compiler for Embedding Operations on Decoupled Access-Execute Architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+   "authors": "Marco Siracusa, Olivia Hsu, Victor Soria-Pardos et al.",
+   "url": "https://doi.org/10.1109/cgo68049.2026.11395192",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Julia GraphBLAS with Nonblocking Execution",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "IEEE Conference on High Performance Extreme Computing",
+   "authors": "Pascal Costanza, Timothy G. Mattson, Raye Kimmerer et al.",
+   "url": "https://doi.org/10.1109/hpec67600.2025.11196654",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "NUPEA: Optimizing Critical Loads on Spatial Dataflow Architectures via Non-Uniform Processing-Element Access",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "International Symposium on Computer Architecture",
+   "authors": "S. Ghosh, Graham Gobieski, Keyi Zhang et al.",
+   "url": "https://doi.org/10.1145/3695053.3731061",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiler Support for Sparse Tensor Convolutions",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Peiming Liu, Alexander J Root, Anlun Xu et al.",
+   "url": "https://doi.org/10.1145/3689721",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "GraphBLAS.jl v0.1: An Update on GraphBLAS in Julia",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+   "authors": "Raye Kimmerer",
+   "url": "https://doi.org/10.1109/ipdpsw63119.2024.00104",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Runtime Composition of Iterations for Fusing Loop-carried Sparse Dependence",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+   "authors": "Kazem Cheshmi, Michelle Mills Strout, Maryam Mehri Dehnavi",
+   "url": "https://doi.org/10.1145/3581784.3607097",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Challenges with Hardware-Software Co-design for Sparse Machine Learning on Streaming Dataflow",
+   "function": "passing-citation",
+   "split": "passing",
+   "authors": "Fredrik Kjolstad",
+   "url": "https://www.semanticscholar.org/paper/925b95ccd211357fe2eef180f07ee05ad297e1b6",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "A Mechanized Algebra of Verified Data Structures for Optimizing Sparse Tensor Programs",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Amanda Liu, Gilbert Bernstein, S.A. Kamil et al.",
+   "url": "https://doi.org/10.1145/3808261",
+   "cited_by": 0,
+   "flags": [
+    "own-group",
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Fast Autoscheduling for Sparse ML Frameworks",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
+   "authors": "Bobby Yan, Alexander J Root, Trevor Gale et al.",
+   "url": "https://doi.org/10.1109/cgo68049.2026.11394842",
+   "cited_by": 0,
+   "flags": [
+    "own-group",
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Ember: A Compiler for Efficient Embedding Operations on Decoupled Access-Execute Architectures",
+   "function": "unknown",
+   "split": null,
+   "year": 2025,
+   "venue": "arXiv.org",
+   "authors": "Marco Siracusa, Olivia Hsu, Víctor Soria Pardos et al.",
+   "url": "https://doi.org/10.48550/arxiv.2504.09870",
+   "cited_by": 0,
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "FuseFlow: A Fusion-Centric Compilation Framework for Sparse Deep Learning on Streaming Dataflow",
+   "function": "unknown",
+   "split": null,
+   "year": 2025,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+   "authors": "Rubens Lacouture, Nathan Zhang, Ritvik Sharma et al.",
+   "url": "https://doi.org/10.1145/3779212.3790165",
+   "cited_by": 1,
+   "flags": [
+    "own-group",
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "FlowFPX: Nimble Tools for Debugging Floating-Point Exceptions",
+   "function": "unknown",
+   "split": null,
+   "year": 2024,
+   "venue": "JuliaCon Proceedings",
+   "authors": "Taylor Allred, Xinyi Li, Ashton Wiersdorf et al.",
+   "url": "https://doi.org/10.48550/arxiv.2403.15632",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Partial Evaluation of Dense Code on Sparse Structures",
+   "function": "unknown",
+   "split": null,
+   "authors": "Gabriel Dehame, Christophe Alias, Alec Sadler",
+   "url": "https://www.semanticscholar.org/paper/69fe13a2ffc32b9f568bca1e362641a34e0701ee",
+   "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "contexts"
+  }
+ ],
+ "reception": "External engagement stays close to home. The citation record is small and concentrated in the sparse- and structured-array-compilation community: Galley builds its query optimizer for sparse tensor programs over the abstraction, the compilation of shape operators on sparse arrays and work on load-balanced partitioning of unstructured sparse tensor algebra use it, a mechanized algebra of verified data structures adopts its approach to structure, and work on compressing structured tensor algebra defines itself against it. Beyond that circle the paper appears in a chronology of scheduling languages and in compiler lists. The audience is narrow, but the works at its center engage the language itself. The implementation lives in willow-ahrens/Finch.jl, and a reusable artifact with reproduced results accompanies the paper."
+}

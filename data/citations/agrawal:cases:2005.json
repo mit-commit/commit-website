@@ -1,0 +1,450 @@
+{
+ "schema": 1,
+ "key": "agrawal:cases:2005",
+ "generated": "2026-08-24",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 48,
+  "works": 31,
+  "commit": 5,
+  "judged": 24,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Exploiting coarse-grained task, data, and pipeline parallelism in stream programs",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "ASPLOS XII",
+   "authors": "Michael I. Gordon, William Thies, Saman Amarasinghe",
+   "url": "https://doi.org/10.1145/1168857.1168877",
+   "cited_by": 523,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "passing-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Fusing effectful comprehensions",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Olli Saarikivi, Margus Veanes, Todd Mytkowicz et al.",
+   "url": "https://doi.org/10.1145/3140587.3062362",
+   "cited_by": 11,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Sigma*",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Matko Botinčan, Domagoj Babić",
+   "url": "https://doi.org/10.1145/2480359.2429123",
+   "cited_by": 52,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Sigma*: Symbolic Learning of Stream Filters",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2012,
+   "authors": "M. Botincan, Domagoj Babic",
+   "url": "https://openalex.org/W2599872323",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Systematic intermediate sequence removal for reduced memory accesses",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "Software and Compilers for Embedded Systems",
+   "authors": "Christophe Poucet, Stylianos Mamagkakis, David Atienza et al.",
+   "url": "https://doi.org/10.1145/1269843.1269851",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A 64-bit stream processor architecture for scientific applications",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "International Symposium on Computer Architecture",
+   "authors": "Xuejun Yang, Xiaobo Yan, Zuocheng Xing et al.",
+   "url": "https://doi.org/10.1145/1250662.1250689",
+   "cited_by": 63,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Tiled microprocessors",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2007,
+   "authors": "M. Taylor",
+   "url": "https://www.semanticscholar.org/paper/ae8b15bc8271a77350cd5cbabd283babe7402cdd",
+   "cited_by": 7,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "DSL Stream Programming on Multicore Architectures",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2017,
+   "authors": "Pablo de Oliveira Castro, Stéphane Louise, Denis Barthou",
+   "url": "https://doi.org/10.1002/9781119332015.ch7",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Data-Driven Programming Abstractions and Optimization for Multi-Core Platforms",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2011,
+   "venue": "Columbia Academic Commons (Columbia University)",
+   "authors": "Collins, Rebecca L.",
+   "url": "https://doi.org/10.7916/d8bp08sn",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "A programming model and processor architecture for heterogeneous multicore computers",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "authors": "T. Meng, M. Linderman",
+   "url": "https://www.semanticscholar.org/paper/04646118a1a298787dcc85876dd006e56e639dc3",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Language and compiler support for stream programs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2009,
+   "authors": "W. Thies",
+   "url": "https://openalex.org/W2321248633",
+   "cited_by": 140,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts",
+   "commit": true
+  },
+  {
+   "title": "Fei Teng 64 Stream Processing System: Architecture, Compiler, and Programming",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2008,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "Xuejun Yang, Xiaobo Yan, Zuocheng Xing et al.",
+   "url": "https://doi.org/10.1109/tpds.2008.170",
+   "cited_by": 7,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Programming Heterogeneous Parallel Machines Using Refactoring and Monte–Carlo Tree Search",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Christopher Brown, Vladimir Janjic, Mehdi Goli et al.",
+   "url": "https://doi.org/10.1007/s10766-020-00665-z",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract+contexts"
+  },
+  {
+   "title": "Refactoring for introducing and tuning parallelism for heterogeneous multicore machines in Erlang",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "Concurrency and Computation Practice and Experience",
+   "authors": "Vladimir Janjic, Christopher Brown, Adam D. Barwell et al.",
+   "url": "https://doi.org/10.1002/cpe.5420",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Mapping parallel programs to heterogeneous CPU/GPU architectures using a Monte Carlo Tree Search",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "IEEE Congress on Evolutionary Computation",
+   "authors": "Mehdi Goli, John McCall, Christopher Brown et al.",
+   "url": "https://doi.org/10.1109/cec.2013.6557926",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Software Pipelined Execution of Stream Programs on GPUs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "2009 International Symposium on Code Generation and Optimization",
+   "authors": "Abhishek Udupa, R. Govindarajan, Matthew J. Thazhuthaveetil",
+   "url": "https://doi.org/10.1109/cgo.2009.20",
+   "cited_by": 114,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Liquid Metal: Object-Oriented Programming Across the Hardware/Software Boundary",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2008,
+   "venue": "Lecture notes in computer science",
+   "authors": "Shan Huang, Amir Hormati, David F. Bacon et al.",
+   "url": "https://doi.org/10.1007/978-3-540-70592-5_5",
+   "cited_by": 95,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Optimizing scientific application loops on stream processors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2008,
+   "venue": "ACM SIGPLAN Conference on Languages, Compilers, and Tools for Embedded Systems",
+   "authors": "Li Wang, Xuejun Yang, Jingling Xue et al.",
+   "url": "https://doi.org/10.1145/1375657.1375679",
+   "cited_by": 14,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Streaming Computation Framework for the Cell Processor",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2007,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Xin Zhang",
+   "url": "https://openalex.org/W2146172931",
+   "cited_by": 18,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Optimizing Stream Organization to Improve the Performance of Scientific Computing Applications on the Stream Processor",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2007,
+   "venue": "Lecture notes in computer science",
+   "authors": "Ying Zhang, Gen Li, Xuejun Yang et al.",
+   "url": "https://doi.org/10.1007/978-3-540-72905-1_18",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "MPEG-2 decoding in a stream programming language",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2006,
+   "venue": "Proceedings 20th IEEE International Parallel & Distributed Processing Symposium",
+   "authors": "Matthew Drake, Hank Hoffmann, Rodric Rabbah et al.",
+   "url": "https://doi.org/10.1109/ipdps.2006.1639343",
+   "cited_by": 36,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts",
+   "commit": true
+  },
+  {
+   "title": "Stream Programming for Image and Video Compression",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2006,
+   "authors": "M. Drake",
+   "url": "https://openalex.org/W2145791143",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "MPEG-2 in a Stream Programming Language",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2005,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "M. Drake, H. Hoffmann, Rodric M. Rabbah et al.",
+   "url": "https://openalex.org/W2110552905",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts",
+   "commit": true
+  },
+  {
+   "title": "Ubiquitous Stream Programming to Facilitate the Migration to Multicore Architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "authors": "M. Drake, David Zhang, Michael I. Gordon et al.",
+   "url": "https://www.semanticscholar.org/paper/12a5965959a4f1f8f421e546478467a2f52c5ec2",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "own-group",
+    "polluted-contexts"
+   ],
+   "evidence": "contexts",
+   "commit": true
+  },
+  {
+   "title": "Formal verification-driven parallelisation synthesis",
+   "function": "unknown",
+   "split": null,
+   "year": 2018,
+   "authors": "M. Botincan",
+   "url": "https://doi.org/10.17863/cam.21221",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "c-level programming of parallel coprocessor accelerators",
+   "function": "unknown",
+   "split": null,
+   "year": 2010,
+   "authors": "Carl Ebeling, Benjamin Ylvisaker",
+   "url": "https://openalex.org/W2309639351",
+   "cited_by": 6,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "A hybrid static/dynamic approach to scheduling stream programs",
+   "function": "unknown",
+   "split": null,
+   "year": 2009,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "C. Tan",
+   "url": "https://openalex.org/W1527499625",
+   "cited_by": 4,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Block parallel programming for real-time applications on multi-core processors",
+   "function": "unknown",
+   "split": null,
+   "year": 2008,
+   "authors": "W. Dally, D. Black-Schaffer",
+   "url": "https://www.semanticscholar.org/paper/05d185e8914d6492404245a6af35308d1bf3ca6c",
+   "cited_by": 11,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Macah: A \"C-Level\" Language for Programming Kernels on Coprocessor Accelerators",
+   "function": "unknown",
+   "split": null,
+   "year": 2008,
+   "authors": "Benjamin Ylvisaker, Allan Carroll, Stephen Friedman et al.",
+   "url": "https://openalex.org/W65963009",
+   "cited_by": 6,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Compiler techniques for scalable performance of stream programs on multicore architectures",
+   "function": "unclassified",
+   "split": null,
+   "year": 2010,
+   "authors": "Michael I. Gordon",
+   "url": "https://www.semanticscholar.org/paper/e454ac36ab555f1b618e4936e36dcc572f9b151e",
+   "cited_by": 53,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Research Statement Languages, Compilers, and Tools for Multicore Architectures",
+   "function": "unclassified",
+   "split": null,
+   "authors": "W. Thies",
+   "url": "https://www.semanticscholar.org/paper/cc24eab217f6df1b815a97435ae0e5d867121578",
+   "cited_by": 0,
+   "evidence": "title_only"
+  }
+ ],
+ "reception": "Outside the project the record is thin and mostly brief: stream-architecture and stream-compiler papers — software-pipelined execution on GPUs, Liquid Metal, the Fei Teng 64 stream processing system — name the analysis among StreamIt's optimizations rather than build on it. The more substantive engagements treat it as a neighbor to be distinguished from: Sigma* positions its own work against this compile-time framework, and the paper on fusing effectful comprehensions describes the approach closely. A record of this size and shape says the framework was noted more than adopted — its generality acknowledged, its machinery left to the project that built it. The StreamIt compiler infrastructure, including this analysis, lives on in the bthies/streamit repository."
+}

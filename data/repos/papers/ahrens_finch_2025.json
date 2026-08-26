@@ -1,0 +1,89 @@
+{
+ "schema": 1,
+ "key": "ahrens_finch_2025",
+ "generated": "2026-08-25",
+ "repos": [
+  {
+   "name": "Archival artifact",
+   "group": "own",
+   "role": "artifact",
+   "artifact": true,
+   "url": "https://doi.org/10.5281/zenodo.14597754",
+   "badges": [
+    "Artifacts Available",
+    "Artifacts Evaluated & Reusable",
+    "Results Reproduced"
+   ],
+   "evidence": "badged artifact record (harvest/artifacts/found.json)"
+  },
+  {
+   "url": "https://github.com/finch-tensor/FinchBenchmarks",
+   "group": "own",
+   "role": "artifact",
+   "confidence": "high",
+   "evidence": "In-paper: 'finch-tensor/FinchBenchmarks. The artifact contains a copy of the Finch.jl compiler version v1.1.0' — companion benchmark artifact repo for this paper.",
+   "name": "finch-tensor/FinchBenchmarks",
+   "stars": 1,
+   "active": 2026
+  },
+  {
+   "url": "https://github.com/finch-tensor/Finch.jl",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "high",
+   "evidence": "In-paper: 'at https://github.com/finch-tensor/Finch.jl' — the main Finch compiler repository presented in the paper.",
+   "name": "finch-tensor/Finch.jl",
+   "desc": "Sparse and Structured Tensor Compiler",
+   "stars": 245,
+   "active": 2026
+  },
+  {
+   "url": "https://github.com/finch-tensor/finch-tensor",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "high",
+   "evidence": "model-confirmed own repo (mechanical score 7, overlap: finch, sparse, tensor): The repo name 'finch-tensor' and description 'Productive Sparse Array Programming' directly correspond to the Finch sparse/structured tensor programming system described in the paper.",
+   "name": "finch-tensor/finch-tensor",
+   "desc": "Productive Sparse Array Programming",
+   "stars": 26,
+   "active": 2026
+  },
+  {
+   "url": "https://doi.org/10.5281/zenodo.14597754",
+   "group": "own",
+   "role": "site",
+   "site": true,
+   "name": "doi.org",
+   "evidence": "The project's website."
+  },
+  {
+   "url": "https://github.com/Ruchika-2003/Finch.jl",
+   "group": "builds-on",
+   "name": "Ruchika-2003/Finch.jl",
+   "evidence": "ecosystem of finch-tensor/Finch.jl: Named fork of finch-tensor/Finch.jl with 6 commits ahead of upstream, indicating meaningful local changes.",
+   "sdv": "fork",
+   "desc": "Sparse and Structured Tensor Compiler",
+   "stars": 0,
+   "active": 2025
+  },
+  {
+   "url": "https://github.com/jessicaliu06/Finch.jl",
+   "group": "builds-on",
+   "name": "jessicaliu06/Finch.jl",
+   "evidence": "ecosystem of finch-tensor/Finch.jl: A GitHub fork of finch-tensor/Finch.jl with 1 commit ahead of upstream, indicating at least minimal divergence from the original.",
+   "sdv": "fork",
+   "desc": "Sparse and Structured Tensor Compiler",
+   "stars": 0,
+   "active": 2025
+  },
+  {
+   "url": "https://github.com/siyi-hu/finch-tensor-lite",
+   "group": "builds-on",
+   "name": "siyi-hu/finch-tensor-lite",
+   "evidence": "ecosystem of finch-tensor/finch-tensor: A fork of finch-tensor with 66 commits ahead of upstream, indicating meaningful independent development.",
+   "sdv": "fork",
+   "stars": 0,
+   "active": 2025
+  }
+ ]
+}

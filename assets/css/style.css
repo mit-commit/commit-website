@@ -233,7 +233,17 @@ span.exhibit-collectionSummaryWidget-count { font-size: 129%;  font-weight: bold
   line-height: 1.45;
   color: #333;
 }
-.pub-summary.open { display: block; }
+/* Expanded panels (per-paper Summary and Citations both use .pub-summary):
+   the same box as .pub-item, with a very light shade — the page gray at
+   low opacity, ~90% white — to sit just apart from the paper card. */
+.pub-summary.open {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: rgba(226, 226, 226, 0.35);  /* body gray #e2e2e2 @ 35% ≈ 96% white */
+  padding: 10px 12px;
+  margin: 8px 0 4px;
+}
 .pub-summary p { margin: 0 0 8px; }
 .pub-summary p:last-child { margin-bottom: 0; }
 
@@ -326,12 +336,78 @@ span.exhibit-collectionSummaryWidget-count { font-size: 129%;  font-weight: bold
 .facet-text { vertical-align: middle; }
 
 .facet-slider { width: 100%; margin-top: 6px; }
-/* Keep 3 columns but prevent overflow */
-.filter-grid { 
-  display: grid; 
-  grid-template-columns: repeat(3, minmax(0, 1fr)); 
-  gap: 10px; 
+/* Keep the columns but prevent overflow; Years needs ~2/3 the width of
+   the others, Topics & Projects takes the slack */
+.filter-grid {
+  display: grid;
+  grid-template-columns: minmax(0,0.54fr) minmax(0,1.4fr) minmax(0,1.12fr) minmax(0,0.94fr);
+  gap: 10px;
 }
+
+/* Page-level citation tools (drive all open panels + paper thresholds) */
+.cite-tools { margin-top: 10px; grid-template-columns: minmax(0,1.2fr) minmax(0,1.15fr) minmax(0,0.9fr); }
+.cite-tools-row { margin: 4px 0; font-size: 92%; text-align: left; }
+#cite-search { width: 90%; }   /* keep clear of the neighboring lists */
+.facet-more-btn { display: block; margin: 6px auto 2px; font-size: 88%; }
+/* Impact-categories rows: the category name leads, counts read as detail */
+.cat-counts { font-size: 82%; color: #666; }
+/* evidence-view design: panel filtered-note and the sort hint */
+.cite-filter-note { font-size: 85%; color: #666; margin: 2px 0 6px; }
+.cite-sort-hint { font-size: 85%; color: #a60; margin-left: 8px; }
+/* author-name links: quiet by default, obviously links on hover */
+.pub-author-link { color: inherit; text-decoration: none; border-bottom: 1px dotted #bbb; }
+.pub-author-link:hover { color: #00c; border-bottom-color: #00c; }
+/* the Citations and Repositories group box */
+.cite-tools-box { border: 1px solid #ccc; border-radius: 6px; padding: 4px 12px 10px; margin-top: 12px; }
+.cite-tools-box legend { font-weight: 700; padding: 0 6px; }
+.cite-tools-box .cite-tools { margin-top: 0; }
+.cite-show-row .btn { margin-right: 8px; }
+/* the Show All row leads the box, full-width and a step more prominent */
+.cite-show-topline { text-align: left; margin: 2px 0 10px; }
+.cite-show-topline .btn { font-weight: 600; padding: 6px 14px; margin: 0 36px 0 0; }
+/* Impact categories gets a taller window: ~8 of its 11 rows visible */
+#facet-cite-cats .facet-scroll { max-height: 14em; }
+/* Cited and Used by reaches the box bottom without driving the grid:
+   the block is absolutely positioned over its reserved third track
+   (grid content-sizing would otherwise inflate the rows to fit an
+   uncapped list), and the list flexes to fill it exactly */
+#facet-cite-authors .facet-scroll { max-height: none; flex: 1; min-height: 0; }
+/* inside the box, lists hug their labels instead of bottom-aligning */
+.filter-grid.cite-tools > .filter-block .facet-list { margin-top: 0; }
+.cite-tools-row .type-toggle-btn { margin-right: 3px; }
+@media (max-width: 820px) { .cite-tools { grid-template-columns: 1fr; } }
+
+/* How many options are currently in a facet box, next to its label */
+.facet-count { font-weight: normal; color: #666; margin-left: 4px; }
+
+/* Paper thresholds: now its own full-width row below the cite-tools grid;
+   the two sliders get real breathing room between them */
+/* thresholds live under the left+middle columns; the Cited-and-Used-by
+   column spans both rows and its list stretches to the box bottom */
+.paper-thresholds-row { margin-top: 10px; grid-column: 1 / 3; }
+.cite-tools { position: relative; }
+.cite-authors-block {
+  position: absolute; top: 0; right: 0; bottom: 0;
+  width: calc((100% - 20px) * 0.9 / 3.25);   /* the 0.9fr third track */
+  display: flex; flex-direction: column;
+}
+.cite-authors-block .facet-list { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+
+.paper-thresholds-sliders {
+  display: flex; gap: 56px; flex-wrap: wrap; align-items: center;
+}
+.paper-thresholds-sliders .cite-tools-row { margin: 0; }
+.paper-thresholds-sliders .facet-slider { width: 330px; }
+
+/* Aggregate citation overview between filters and the paper list */
+.cite-overview {
+  border: 1px solid #ddd; border-radius: 6px; background: rgba(226,226,226,0.35);
+  padding: 8px 12px; margin: 10px 0; text-align: left;
+}
+.cite-overview-line { margin: 2px 0; }
+.cite-crossciters { margin-top: 6px; }
+.cite-crossciters ul { list-style: none; margin: 4px 0 0 14px; padding: 0; }
+.cite-crossciters li { margin: 3px 0; line-height: 1.4; }
 
 /* Make facet rows flex so text can truncate */
 .facet-item { 
@@ -403,3 +479,54 @@ span.exhibit-collectionSummaryWidget-count { font-size: 129%;  font-weight: bold
 .type-toggle-btn { border: 1px solid #bbb; background: #f7f7f7; padding: 3px 10px; cursor: pointer; font-size: 88%; color: #333; border-radius: 6px; }
 .type-toggle-btn:hover:not(.active) { background: #eee; }
 .type-toggle-btn.active { background: #1010b5; color: #fff; border-color: #1010b5; }
+
+
+/* === Citation view (assets/js/citations.js) — see docs/citation-design.md === */
+.cite-view { max-width: none; }
+
+.cite-head { margin: 2px 0 8px; }
+.cite-head-count { font-weight: 700; font-size: 105%; }
+
+.cite-splitbar {
+  display: flex; height: 14px; border-radius: 4px; overflow: hidden;
+  border: 1px solid #ccc; max-width: 46em;
+}
+.cite-seg { height: 100%; }
+.cite-seg-detailed { background: #2c5f8a; }
+.cite-seg-passing  { background: #9db8cc; }
+.cite-seg-unjudged { background: #e3e3e3; }
+
+.cite-legend { margin: 6px 0 2px; color: #333; }
+.cite-legend-item { margin-right: 16px; white-space: nowrap; }
+.cite-key {
+  display: inline-block; width: 10px; height: 10px; border-radius: 2px;
+  margin-right: 5px; border: 1px solid #bbb; vertical-align: baseline;
+}
+
+.cite-filter { margin: 10px 0 6px; }
+.cite-filter-label { font-weight: bold; margin-right: 6px; }
+.cite-filter .type-toggle-btn { margin-right: 4px; }
+
+.cite-group { border-top: 1px solid #eee; padding: 5px 0; }
+.cite-group-head { display: block; color: inherit; }
+.cite-group-head:hover { text-decoration: none; background: #efefef; }
+.cite-group-label { font-weight: 700; }
+.cite-group-count { font-weight: 700; color: #2c5f8a; }
+
+.cite-rows { list-style: none; margin: 4px 0 4px 14px; padding: 0; }
+.cite-row { margin: 3px 0; line-height: 1.4; }
+.cite-row-meta { color: #555; font-size: 95%; }
+
+.cite-chip {
+  display: inline-block; margin-left: 6px; padding: 0 6px;
+  border-radius: 8px; background: #eee; color: #444;
+  font-size: 82%; vertical-align: 8%;
+}
+.cite-chip-core { background: #2c5f8a; color: #fff; }
+
+.cite-flat { margin-left: 0; }
+.cite-hdr-toggle { margin-left: 10px; }
+
+.cite-loading { color: #777; font-style: italic; }
+/* tier-3 rows whose citing work has no located repository */
+.repo-paper-only { opacity: 0.55; }

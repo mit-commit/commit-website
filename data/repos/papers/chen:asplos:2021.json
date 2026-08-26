@@ -1,0 +1,47 @@
+{
+ "schema": 1,
+ "key": "chen:asplos:2021",
+ "generated": "2026-08-25",
+ "repos": [
+  {
+   "name": "Archival artifact",
+   "group": "own",
+   "role": "artifact",
+   "artifact": true,
+   "url": null,
+   "badges": [
+    "Artifacts Evaluated & Functional",
+    "Results Reproduced"
+   ],
+   "evidence": "badged artifact record (harvest/artifacts/found.json)"
+  },
+  {
+   "url": "https://github.com/ychen306/vegen",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "high",
+   "evidence": "Author 'ychen306' matches first author 'Yishen Chen', repo name matches project 'VeGen', 31 stars, created 2020 consistent with ASPLOS 2021 paper development timeline.",
+   "name": "ychen306/vegen",
+   "stars": 31,
+   "active": 2022
+  },
+  {
+   "url": "https://github.com/ckf104/vegen",
+   "group": "builds-on",
+   "name": "ckf104/vegen",
+   "evidence": "ecosystem of ychen306/vegen: GitHub fork of ychen306/vegen with 12 commits ahead of upstream, indicating meaningful independent changes.",
+   "sdv": "fork",
+   "stars": 0,
+   "active": 2024
+  },
+  {
+   "url": "https://github.com/kodingkoning/vegen",
+   "group": "builds-on",
+   "name": "kodingkoning/vegen",
+   "evidence": "ecosystem of ychen306/vegen: A GitHub fork with 33 commits ahead of the upstream ychen306/vegen repository, indicating meaningful independent development.",
+   "sdv": "fork",
+   "stars": 0,
+   "active": 2023
+  }
+ ]
+}

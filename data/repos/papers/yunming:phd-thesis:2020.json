@@ -1,0 +1,46 @@
+{
+ "schema": 1,
+ "key": "yunming:phd-thesis:2020",
+ "generated": "2026-08-25",
+ "repos": [
+  {
+   "url": "https://github.com/GraphIt-DSL/graphit",
+   "group": "own",
+   "role": "implementation",
+   "confidence": "high",
+   "evidence": "In-paper: 'The GraphIt compiler is available under the MIT license at http://graphit-lang.org/ and https://github.com/GraphIt-DSL/graphit'",
+   "name": "GraphIt-DSL/graphit",
+   "desc": "GraphIt - A High-Performance Domain Specific Language for Graph Analytics",
+   "stars": 392,
+   "active": 2022
+  },
+  {
+   "url": "http://graphit-lang.org/",
+   "group": "own",
+   "role": "site",
+   "site": true,
+   "name": "graphit-lang.org",
+   "evidence": "The project's website."
+  },
+  {
+   "url": "https://github.com/GerHobbelt/graphit",
+   "group": "builds-on",
+   "name": "GerHobbelt/graphit",
+   "evidence": "ecosystem of GraphIt-DSL/graphit: This is a GitHub fork of GraphIt-DSL/graphit with 3 commits ahead of upstream, indicating meaningful local changes.",
+   "sdv": "fork",
+   "desc": "GraphIt - A High-Performance Domain Specific Language for Graph Analytics",
+   "stars": 0,
+   "active": 2025
+  },
+  {
+   "url": "https://github.com/MaiaBlanco/graphit",
+   "group": "builds-on",
+   "name": "MaiaBlanco/graphit",
+   "evidence": "ecosystem of GraphIt-DSL/graphit: A fork of the GraphIt-DSL/graphit repository with 19 commits ahead of upstream, indicating meaningful local changes.",
+   "sdv": "fork",
+   "desc": "GraphIt - A High-Performance Domain Specific Language for Graph Analytics",
+   "stars": 0,
+   "active": 2020
+  }
+ ]
+}

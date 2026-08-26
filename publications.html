@@ -8,7 +8,7 @@
        To add a publication, append an entry to that file.
        To feature a paper, set "featured": true on its entry (award papers
        with a "price" are featured automatically). -->
-  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="assets/css/style.css?v=37"/>
   <!-- Umami analytics (privacy-friendly, cookieless) -->
   <script defer src="https://cloud.umami.is/script.js" data-website-id="0501f709-b527-45af-8727-062721122bb4"></script>
 </head>
@@ -41,17 +41,16 @@
 <label><input type="radio" name="mode" value="noninteractive" > Non-interactive</label>
 <label><input type="radio" name="mode" value="interactive" checked> Interactive</label>
               &nbsp;&nbsp;
-              <button id="btn-toggle-summaries" type="button" class="btn" aria-pressed="false">Show summaries</button>
-              &nbsp;&nbsp;
-              <button id="btn-clear" type="button" class="btn">Clear filters</button>
+              <button id="btn-clear" type="button" class="btn" title="Reset every filter and slider">Clear filters</button>
 	      &nbsp;&nbsp;
-	      <button id="btn-export-bib" type="button" class="btn">Export .bib</button>
+	      <button id="btn-export-bib" type="button" class="btn" title="Download the shown papers as BibTeX">Export .bib</button>
 	      <div class="sort-multilevel">
-  <span class="sort-label">Group & sort:</span>
+  <span class="sort-label" title="Group and order the list, up to four keys deep. Impact blends citations and repository use">Group & sort:</span>
   <label>1
     <select id="sort-1">
         <option value="none">None</option>
       <option value="year" selected>Year</option>
+      <option value="citations">Impact</option>
       <option value="month">Month</option>
       <option value="keywords">Topics &amp; Projects</option>
       <option value="authors">Authors</option>
@@ -63,6 +62,7 @@
   <label>2
     <select id="sort-2">
         <option value="none">None</option>
+      <option value="citations">Impact</option>
       <option value="month" selected>Month</option>
       <option value="keywords">Topics &amp; Projects</option>
       <option value="authors">Authors</option>
@@ -75,6 +75,7 @@
   <label>3
     <select id="sort-3">
         <option value="none">None</option>
+      <option value="citations">Impact</option>
       <option value="authors">Authors</option>
       <option value="authorLast">First author (last name)</option>
       <option value="authorFirst">First author (first name)</option>
@@ -87,6 +88,7 @@
   <label>4
     <select id="sort-4">
         <option value="none">None</option>
+      <option value="citations">Impact</option>
       <option value="keywords">Topics &amp; Projects</option>
       <option value="authors">Authors</option>
       <option value="authorLast" selected>First author (last name)</option>
@@ -102,18 +104,17 @@
 
             <div id="filters-interactive" class="filters-interactive hidden">
               <div class="filter-block">
-                <div class="filter-label">Years</div>
-                <div id="facet-years" class="year-grid"></div>
-              </div>
-
-              <div class="filter-block">
-                <div class="filter-label">Title search</div>
+                <div class="filter-label" title="Search paper titles">Title search</div>
                 <input id="facet-title" type="text" class="text-input" placeholder="Search title…">
               </div>
 
               <div class="filter-grid">
                 <div class="filter-block">
-                  <div class="filter-label">Topics &amp; Projects</div>
+                  <div class="filter-label" title="Filter by publication year">Years<span class="facet-count" data-for="facet-years"></span></div>
+                  <div id="facet-years" class="facet-list"></div>
+                </div>
+                <div class="filter-block">
+                  <div class="filter-label" title="Filter by research topic, or by project / system">Topics &amp; Projects<span class="facet-count" data-for="facet-keywords"></span></div>
                   <div class="type-toggle" id="kw-toggle" role="group" aria-label="Filter by topic or project">
                     <button type="button" class="type-toggle-btn active" data-kwmode="topics" aria-pressed="true">Topics</button>
                     <button type="button" class="type-toggle-btn" data-kwmode="projects" aria-pressed="false">Projects</button>
@@ -121,7 +122,16 @@
                   <div id="facet-keywords" class="facet-list"></div>
                 </div>
                 <div class="filter-block">
-                  <div class="filter-label">Authors</div>
+                  <div class="filter-label" title="Filter by publication type or venue">Categories<span class="facet-count" data-for="facet-types"></span></div>
+                  <div class="type-toggle" id="type-toggle" role="group" aria-label="Categorize publications by">
+                    <button type="button" class="type-toggle-btn active" data-mode="type" aria-pressed="true">Type</button>
+                    <button type="button" class="type-toggle-btn" data-mode="venue-name" aria-pressed="false">Venue (by Name)</button>
+                    <button type="button" class="type-toggle-btn" data-mode="venue-count" aria-pressed="false">Venue (by # pubs)</button>
+                  </div>
+                  <div id="facet-types" class="facet-list"></div>
+                </div>
+                <div class="filter-block">
+                  <div class="filter-label" title="Filter by author">Authors<span class="facet-count" data-for="facet-authors"></span></div>
                   <div class="facet-sort-control">
                     <select id="author-sort" aria-label="Sort authors by">
                       <option value="first">First</option>
@@ -134,18 +144,82 @@
                   </div>
                   <div id="facet-authors" class="facet-list"></div>
                 </div>
+              </div>
+
+              <!-- Page-level citation tools: drive every open Citations panel
+                   (sort, centrality, categories, search) and filter the paper
+                   list itself (citation-count and impact sliders). -->
+              <fieldset class="cite-tools-box">
+                <legend title="Everything about how the papers are cited and used: the shared impact taxonomy, panel controls, who cites and uses them, and the paper thresholds">Citations, Repositories and Summaries</legend>
+                <div class="cite-show-row cite-show-topline">
+                  <button id="btn-toggle-summaries" type="button" class="btn" aria-pressed="false" title="Open every paper's summary">Show All Summaries</button>
+                  <button id="btn-toggle-citations" type="button" class="btn" aria-pressed="false" title="Open every paper's citation panel — who cites it, and how">Show All Citations</button>
+                  <button id="btn-toggle-repos" type="button" class="btn" aria-pressed="false" title="Open every paper's repository panel — its code, and who uses it">Show All Repositories</button>
+                </div>
+              <div class="filter-grid cite-tools">
                 <div class="filter-block">
-                  <div class="filter-label">Categories</div>
-                  <div class="type-toggle" id="type-toggle" role="group" aria-label="Categorize publications by">
-                    <button type="button" class="type-toggle-btn active" data-mode="type" aria-pressed="true">Type</button>
-                    <button type="button" class="type-toggle-btn" data-mode="venue-name" aria-pressed="false">Venue (by Name)</button>
-                    <button type="button" class="type-toggle-btn" data-mode="venue-count" aria-pressed="false">Venue (by # pubs)</button>
+                  <div class="filter-label" title="How citing papers and outside repositories use each work — one shared taxonomy. Counts: (papers, by citations)">Impact categories<span class="facet-count" data-for="facet-cite-cats"></span></div>
+                  <div id="facet-cite-cats" class="facet-list"></div>
+                </div>
+                <div class="filter-block">
+                  <div class="cite-tools-row">Sort by
+                    <span class="type-toggle" id="cite-global-sort">
+                      <button type="button" class="type-toggle-btn active" data-v="impact" title="Order citations by what they do: building on the paper ranks above running it, above borrowing its idea, above citing it in a list">Impact</button>
+                      <button type="button" class="type-toggle-btn" data-v="recency" title="Newest citing works first, grouped by year">Recency</button>
+                      <button type="button" class="type-toggle-btn" data-v="popularity" title="Most-cited citing works first, grouped by their own citation counts">Popularity</button>
+                    </span>
                   </div>
-                  <div id="facet-types" class="facet-list"></div>
+                  <div class="cite-tools-row">Filter by
+                    <span class="type-toggle" id="cite-global-centrality">
+                      <button type="button" class="type-toggle-btn active" data-v="all" title="All judged citations">All</button>
+                      <button type="button" class="type-toggle-btn" data-v="core" title="The citing work would be fundamentally different without this paper">Core</button>
+                      <button type="button" class="type-toggle-btn" data-v="engaged" title="Engages the paper's specifics, short of depending on it">Engaged</button>
+                      <button type="button" class="type-toggle-btn" data-v="peripheral" title="A swap-out-able mention or list membership">Peripheral</button>
+                    </span>
+                  </div>
+                  <div class="cite-tools-row">
+                    <input id="cite-search" type="text" class="text-input" placeholder="Search by citing works (title, author, venue)…" title="Filter the rows inside every open Citations panel">
+                  </div>
+                </div>
+                <div class="filter-block cite-authors-block">
+                  <div class="filter-label" title="External people who cite a paper at real depth (core/engaged, not a passing mention) or use one of our own repositories — never our own group's authors or repos">Cited and Used by<span class="facet-count" data-for="facet-cite-authors"></span></div>
+                  <div class="facet-sort-control">
+                    <select id="cite-author-sort" aria-label="Sort by">
+                      <option value="count" selected># papers</option>
+                      <option value="name">name</option>
+                    </select>
+                    <input id="cite-author-search" type="text" class="facet-search-input"
+                           placeholder="Filter names…" aria-label="Filter names">
+                  </div>
+                  <div id="facet-cite-authors" class="facet-list"></div>
                 </div>
               </div>
+
+              <!-- Full-width now that Paper thresholds is its own row -->
+              <div class="filter-block paper-thresholds-row">
+                <div class="filter-label" title="Hide papers below a citation count or impact tier">Paper thresholds</div>
+                <div class="paper-thresholds-sliders">
+                  <div class="cite-tools-row">Citations ≥ <b id="cite-min-cites-label">0</b>
+                    <input id="cite-min-cites" class="facet-slider" type="range" min="0" max="100" value="0" title="Hide papers with fewer citations than this">
+                  </div>
+                  <div class="cite-tools-row">Impact: <b id="cite-min-impact-label">all papers</b>
+                    <input id="cite-min-impact" class="facet-slider" type="range" min="0" max="4" step="1" value="0" list="impact-tick-marks" title="One score over citing papers AND outside repositories: building on the work counts more than mentioning it. Tiers are percentiles; above zero hides papers without data.">
+                    <datalist id="impact-tick-marks">
+                      <option value="0" label="0"></option>
+                      <option value="1" label="1"></option>
+                      <option value="2" label="2"></option>
+                      <option value="3" label="3"></option>
+                      <option value="4" label="4"></option>
+                    </datalist>
+                  </div>
+                </div>
+              </div>
+              </fieldset>
             </div>
           </div>
+
+          <!-- Aggregate citation overview + cross-paper citers (filled by JS) -->
+          <div id="cite-overview" class="cite-overview hidden"></div>
 
           <!-- PUBLICATIONS -->
           <h2 class="grouphead">Publications <span id="pubs-count"></span></h2>
@@ -162,6 +236,8 @@
   <!-- Scripts -->
   <script src="assets/js/common.js"></script>
   <script src="assets/js/pubs.js"></script>             <!-- for BibTeX + local URL logic -->
-  <script src="assets/js/publications.js"></script>     <!-- the filters controller -->
+  <!-- v= busts stale caches: these two must always be the same vintage -->
+  <script src="assets/js/citations.js?v=18"></script>    <!-- per-paper citation view (data/citations/) -->
+  <script src="assets/js/publications.js?v=36"></script> <!-- the filters controller -->
 </body>
 </html>
