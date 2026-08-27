@@ -696,14 +696,27 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
     cb.type = 'checkbox';
     cb.value = value;
 
+    // Label and count as separate spans so narrow widths can degrade
+    // them by CSS class alone (tasks/RESPONSIVE.md) — same rendered
+    // text as before at desktop.
     var txt = document.createElement('span');
     txt.className = 'facet-text';
+    var labelWrap = document.createElement('span');
+    labelWrap.className = 'facet-label';
     var labelNode = document.createTextNode(labelText + ' ');
-    txt.appendChild(labelNode);
+    labelWrap.appendChild(labelNode);
+    txt.appendChild(labelWrap);
     var cntSpan = document.createElement('span');
-    cntSpan.className = 'cat-counts';
-    var textNodeValue = document.createTextNode('(0)');
-    cntSpan.appendChild(textNodeValue);
+    cntSpan.className = 'cat-counts facet-cnt';
+    var parenOpen = document.createElement('span');
+    parenOpen.className = 'facet-paren'; parenOpen.textContent = '(';
+    var numSpan = document.createElement('span');
+    numSpan.className = 'facet-num';
+    var textNodeValue = document.createTextNode('0');
+    numSpan.appendChild(textNodeValue);
+    var parenClose = document.createElement('span');
+    parenClose.className = 'facet-paren'; parenClose.textContent = ')';
+    cntSpan.appendChild(parenOpen); cntSpan.appendChild(numSpan); cntSpan.appendChild(parenClose);
     txt.appendChild(cntSpan);
     txt.title = labelText; // show full label on hover (handles truncation)
 
@@ -719,7 +732,7 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
     label.appendChild(txt);
     listEl.appendChild(label);
 
-    itemMap[value] = { cb: cb, textNode: textNodeValue, labelNode: labelNode, labelText: labelText };
+    itemMap[value] = { cb: cb, textNode: textNodeValue, labelNode: labelNode, labelText: labelText, txt: txt };
   }
 
   mount.appendChild(scrollWrap);
@@ -1407,7 +1420,12 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
     var cnt = countsMap[val] || 0;
     var display = facet.labelFor ? facet.labelFor(val) : val;
     itemMap[val].labelNode.nodeValue = display + ' ';
-    itemMap[val].textNode.nodeValue = '(' + cnt + ')';
+    itemMap[val].textNode.nodeValue = String(cnt);
+    // full text survives every CSS degradation tier
+    if (itemMap[val].txt){
+      itemMap[val].txt.title = display + ' (' + cnt + ')';
+      itemMap[val].txt.setAttribute('aria-label', display + ' (' + cnt + ')');
+    }
 
     // values with nothing in the current selection disappear entirely
     // (a checked box always stays visible so it can be unchecked)
@@ -1522,11 +1540,14 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
       for (f in els.citeCats._catRefs){
         var ref = els.citeCats._catRefs[f];
         var rc = catRepos[f];
-        ref.node.nodeValue = '(' + (catPapers[f] || 0) +
-          ', cited by ' + (catCites[f] || 0) + ' papers' +
-          (rc ? ' and ' + rc + ' repos' : '') + ')';
-        var catRow = ref.node.parentNode && ref.node.parentNode.closest
-          ? ref.node.parentNode.closest('label') : null;
+        var detText = ', cited by ' + (catCites[f] || 0) + ' papers' +
+          (rc ? ' and ' + rc + ' repos' : '');
+        ref.num.nodeValue = String(catPapers[f] || 0);
+        ref.det.nodeValue = detText;
+        // full text survives every CSS degradation tier
+        ref.txt.setAttribute('aria-label',
+          ref.label + ' (' + (catPapers[f] || 0) + detText + ')');
+        var catRow = ref.row;
         var catHidden = !(catPapers[f] || 0) && !rc && !(ref.cb && ref.cb.checked);
         if (catRow) catRow.style.display = catHidden ? 'none' : '';
         if (!catHidden) catVisible++;
@@ -1545,14 +1566,18 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
     }
   }
 
+  // Deferred apply (spec v2): while the narrow-width filter drawer is
+  // open, selections update the per-option counts and the pinned
+  // "Show N results" button, but the list itself renders only when
+  // that button commits them. Desktop never sets this.
+  var DEFER_RENDER = false;
+
   function applyFilters(){
     // recompute dynamic counts first (so user sees availability)
     updateDynamicCounts();
 
     // then produce final result set (include all active facets)
     var items = filteredItems(null);
-
-    updatePublicationCount(items.length);
 
     // sort by year desc, stable
     items.sort(function(a,b){
@@ -1565,13 +1590,119 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
       return 0;
     });
 
-    renderList(els.results, items);
-
-    renderCiteOverview(items);
+    updateDrawerApply(items.length);
     updateCiteToolCounts(items);
+
+    if (!DEFER_RENDER){
+      updatePublicationCount(items.length);
+      renderList(els.results, items);
+      renderCiteOverview(items);
+      renderFilterChips();
+    }
 
     // interactive panel visibility
     els.filtersInteractive.className = (state.mode === 'interactive') ? 'filters-interactive' : 'filters-interactive hidden';
+
+    updateFiltersToggleBadge();
+  }
+
+  function updateDrawerApply(n){
+    var b = document.getElementById('btn-drawer-apply');
+    if (!b) return;
+    b.textContent = 'Show ' + n.toLocaleString('en-US') + (n === 1 ? ' result' : ' results');
+  }
+
+  // Active filters as removable chips above the results (narrow widths;
+  // the desktop panel is inline so CSS hides the strip there). Each
+  // chip removes its filter through the SAME control the user set it
+  // with (cb.click()), so state, counts and panels stay in sync.
+  function renderFilterChips(){
+    var box = document.getElementById('filter-chips');
+    if (!box) return;
+    box.innerHTML = '';
+    function chip(labelText, onRemove){
+      var b = document.createElement('button');
+      b.type = 'button'; b.className = 'filter-chip';
+      b.title = 'Remove filter: ' + labelText;
+      b.appendChild(document.createTextNode(labelText));
+      var x = document.createElement('span'); x.className = 'chip-x';
+      x.textContent = '×';
+      b.appendChild(x);
+      b.onclick = onRemove;
+      box.appendChild(b);
+    }
+    function mapChips(stateMap, mountId){
+      var m = document.getElementById(mountId);
+      for (var k in stateMap){
+        if (!stateMap[k]) continue;
+        (function(val){
+          var it = m && m._facet && m._facet.itemMap[val];
+          chip((it && it.labelText) || val, function(){
+            if (it) it.cb.click();
+            else { delete stateMap[val]; applyFilters(); }
+          });
+        })(k);
+      }
+    }
+    mapChips(state.years, 'facet-years');
+    mapChips(state.keywords, 'facet-keywords');
+    mapChips(state.types, 'facet-types');
+    mapChips(state.authors, 'facet-authors');
+    mapChips(state.citeAuthors, 'facet-cite-authors');
+    var cks = state.citeCatKeys || [], ci;
+    for (ci = 0; ci < cks.length; ci++){
+      (function(key){
+        var ref = els.citeCats && els.citeCats._catRefs && els.citeCats._catRefs[key];
+        chip((ref && ref.label) || key, function(){ if (ref) ref.cb.click(); });
+      })(cks[ci]);
+    }
+    if ((state.titleQuery || '').trim()){
+      chip('title: “' + state.titleQuery.trim() + '”', function(){
+        state.titleQuery = '';
+        if (els.title) els.title.value = '';
+        applyFilters();
+      });
+    }
+    if (state.minCites > 0){
+      chip('citations ≥ ' + state.minCites, function(){
+        state.minCites = 0;
+        if (els.minCites){ els.minCites.value = '0'; els.minCitesLabel.textContent = '0'; }
+        applyFilters();
+      });
+    }
+    if (state.minImpact > 0){
+      chip('impact tier ≥ ' + state.minImpact, function(){
+        state.minImpact = 0;
+        if (els.minImpact){ els.minImpact.value = '0'; els.minImpactLabel.textContent = 'all papers'; }
+        applyFilters();
+      });
+    }
+    if (state.citeCentralityKey && state.citeCentralityKey !== 'all'){
+      chip('centrality: ' + state.citeCentralityKey, function(){
+        var allBtn = els.citeCentrality && els.citeCentrality.querySelector('.type-toggle-btn[data-v="all"]');
+        if (allBtn) allBtn.click();
+      });
+    }
+  }
+
+  // Active-filter count on the narrow-width Filters button (the button
+  // itself is display:none at desktop; tasks/RESPONSIVE.md).
+  function activeFilterCount(){
+    function nkeys(m){ var n = 0, k; for (k in m){ if (m[k]) n++; } return n; }
+    var n = nkeys(state.years) + nkeys(state.keywords) + nkeys(state.authors) +
+            nkeys(state.types) + nkeys(state.citeAuthors) +
+            ((state.citeCatKeys || []).length);
+    if ((state.titleQuery || '').trim()) n++;
+    if (state.minCites > 0) n++;
+    if (state.minImpact > 0) n++;
+    if (state.citeCentralityKey && state.citeCentralityKey !== 'all') n++;
+    return n;
+  }
+  function updateFiltersToggleBadge(){
+    var badge = document.getElementById('filters-active-count');
+    if (!badge) return;
+    var n = activeFilterCount();
+    badge.textContent = n ? '(' + n + ')' : '';
   }
 
   function clearAll(){
@@ -1638,6 +1769,50 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
 
     // Clear
       els.btnClear.onclick = function(){ clearAll(); };
+
+    // Narrow-width chrome (tasks/RESPONSIVE.md v2): the Filters button
+    // opens a drawer over the results with DEFERRED apply — selections
+    // update the pinned "Show N results" button live and commit on its
+    // tap, never per checkbox. Pure class toggles + a render flag; the
+    // CSS that reacts is all behind max-width media queries and the
+    // flag is only ever set here, so desktop keeps instant apply.
+    var btnFiltersToggle = document.getElementById('btn-filters-toggle');
+    var filtersRoot = document.getElementById('pubs-filters');
+    var btnDrawerApply = document.getElementById('btn-drawer-apply');
+    function openFilterDrawer(){
+      filtersRoot.classList.add('filters-open');
+      btnFiltersToggle.setAttribute('aria-expanded', 'true');
+      DEFER_RENDER = true;
+      applyFilters();               // fill drawer counts + the button label
+      track('filters-open-narrow', {});
+    }
+    function applyAndCloseDrawer(){
+      DEFER_RENDER = false;
+      filtersRoot.classList.remove('filters-open');
+      btnFiltersToggle.setAttribute('aria-expanded', 'false');
+      applyFilters();               // commit: one render of the list
+      window.scrollTo(0, 0);
+      track('filters-apply-narrow', {});
+    }
+    if (btnFiltersToggle && filtersRoot){
+      btnFiltersToggle.onclick = function(){
+        if (filtersRoot.classList.contains('filters-open')) applyAndCloseDrawer();
+        else openFilterDrawer();
+      };
+    }
+    if (btnDrawerApply) btnDrawerApply.onclick = applyAndCloseDrawer;
+    var accBlocks = document.querySelectorAll('.filter-block');
+    for (var abi = 0; abi < accBlocks.length; abi++){
+      (function(block){
+        var lab = null, hasList = false, ci;
+        for (ci = 0; ci < block.children.length; ci++){
+          if (block.children[ci].className.indexOf('filter-label') !== -1) lab = block.children[ci];
+          if (block.children[ci].className.indexOf('facet-list') !== -1) hasList = true;
+        }
+        if (!lab || !hasList) return;
+        lab.onclick = function(){ block.classList.toggle('facet-open'); };
+      })(accBlocks[abi]);
+    }
 
     // Global show/hide for all visible summaries
     if (els.btnToggleSummaries) {
@@ -1736,15 +1911,26 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
           (function(f){
             var label = document.createElement('label'); label.className = 'facet-item';
             var cb = document.createElement('input'); cb.type = 'checkbox'; cb.value = f.key;
+            // Split spans (label / count / prose detail) so width tiers
+            // degrade the row by CSS class only (tasks/RESPONSIVE.md):
+            // '(46, cited by 153 papers and 199 repos)' -> '(46)' -> badge.
             var txt = document.createElement('span'); txt.className = 'facet-text';
-            txt.appendChild(document.createTextNode(f.label + ' '));
+            var labelWrap = document.createElement('span');
+            labelWrap.className = 'facet-label';
+            labelWrap.appendChild(document.createTextNode(f.label + ' '));
+            txt.appendChild(labelWrap);
             var cnt = document.createElement('span');
-            cnt.className = 'cat-counts';
-            var tn = document.createTextNode('(0)');
-            cnt.appendChild(tn);
+            cnt.className = 'cat-counts facet-cnt';
+            var po = document.createElement('span'); po.className = 'facet-paren'; po.textContent = '(';
+            var numSpan = document.createElement('span'); numSpan.className = 'facet-num';
+            var tnNum = document.createTextNode('0'); numSpan.appendChild(tnNum);
+            var detSpan = document.createElement('span'); detSpan.className = 'facet-detail';
+            var tnDet = document.createTextNode(''); detSpan.appendChild(tnDet);
+            var pc = document.createElement('span'); pc.className = 'facet-paren'; pc.textContent = ')';
+            cnt.appendChild(po); cnt.appendChild(numSpan); cnt.appendChild(detSpan); cnt.appendChild(pc);
             txt.appendChild(cnt); txt.title = f.gloss;
             if (!els.citeCats._catRefs) els.citeCats._catRefs = {};
-            els.citeCats._catRefs[f.key] = { node: tn, label: f.label, cb: cb };
+            els.citeCats._catRefs[f.key] = { num: tnNum, det: tnDet, txt: txt, row: label, label: f.label, cb: cb };
             cb.onchange = function(){
               selected[f.key] = this.checked;
               var keys = keysSelected(selected);
