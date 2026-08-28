@@ -126,16 +126,21 @@
       title="Research Staff"
       year="2026"
       position="Building Standard Kernel"
+      url="https://www.linkedin.com/in/changwanhong/"
       />
     <person
       name="Abimalek Mekuriya"
       title="UROP"
       year="2026"
+      url="https://www.linkedin.com/in/abimalek/"
+      position="Student, CS &amp; Math @ MIT"
       />
     <person
       name="Beshr Islam Bouli"
       title="UROP"
       year="2025"
+      url="https://www.linkedin.com/in/beshr-islambouli-9a508b216"
+      position="MIT CS&amp;E student"
       />
     <person
       name="Ajay Brahmakshatriya"
@@ -159,6 +164,7 @@
       title="MEng"
       year="2025"
       position="MIT CSAIL"
+      url="https://www.linkedin.com/in/shreya-chaudhary-"
       />
     <person
       name="Nicholas Dow"
@@ -166,22 +172,27 @@
       year="2025"
       startyear="2024"
       position="Research Software Engineer, MIT CSAIL"
+      url="https://www.linkedin.com/in/nldow"
       />
     <person
       name="Rom Fradkin"
       title="UROP"
       year="2025"
       position="Software Engineer, Jane Street"
+      url="https://www.linkedin.com/in/rom-fradkin/"
       />
     <person
       name="Siyi Hu"
       title="Visiting Scholar"
       year="2025"
+      position="Assistant Professor, Xi'an Jiaotong-Liverpool University"
       />
     <person
       name="Tamar Korkotashvili"
       title="UROP"
       year="2025"
+      url="https://www.linkedin.com/in/tamar-korkotashvili"
+      position="Student at MIT"
       />
     <person
       name="Mit Kotak"
@@ -196,27 +207,35 @@
       year="2025"
       startyear="2024"
       position="DRW"
+      url="https://www.linkedin.com/in/aryan-kumar100"
       />
     <person
       name="Isaiah Nathaniel"
       title="UROP"
       year="2025"
+      url="https://www.linkedin.com/in/isaiah-nathaniel/"
+      position="Student, EECS and Math at MIT"
       />
     <person
       name="Katsumi Okuda"
       title="Visiting Scholar"
       year="2025"
       position="Senior Expert, Mitsubishi Electric"
+      url="https://www.linkedin.com/in/katsumi-okuda-738b0128b/"
       />
     <person
       name="Ana Onoprishvili"
       title="UROP"
       year="2025"
+      url="https://www.linkedin.com/in/ana-onoprishvili"
+      position="Student at MIT"
       />
     <person
       name="Dominic Perno"
       title="UROP"
       year="2025"
+      url="https://www.linkedin.com/in/dperno/"
+      position="MIT CS student 2023-2027"
       />
     <person
       name="Muhender Rajvee"
@@ -224,12 +243,13 @@
       year="2025"
       startyear="2024"
       position="Amazon Web Services"
+      url="https://www.linkedin.com/in/muhender-raj-rajvee-a65732206"
       />
     <person
       name="Steven Raphael"
       title="MEng"
       year="2025"
-      position="MIT CSAIL"
+      position="PhD student, University of Utah"
       />
     <person
       name="Chaitanya Ravuri"
@@ -237,6 +257,7 @@
       year="2025"
       startyear="2023"
       position="OpenAI"
+      url="https://www.linkedin.com/in/cravuri"
       />
     <person
       name="Tasmeem Reza"
@@ -244,18 +265,21 @@
       year="2025"
       startyear="2024"
       position="D. E. Shaw"
+      url="https://www.linkedin.com/in/tasmeem-reza-6325ba118/"
       />
     <person
       name="Ricardo Ruiz"
       title="MEng"
       year="2025"
       position="Indeed"
+      url="https://www.linkedin.com/in/ricardo-ruiz-1612a8213/"
       />
     <person
       name="Osman Siddique"
       title="UROP"
       year="2025"
       position="CTO, Sciloop (YC)"
+      url="https://www.linkedin.com/in/osman-siddiquer/"
       />
     <person
       name="Ethan H Zhou"
@@ -268,6 +292,7 @@
       year="2025"
       startyear="2023"
       position="MIT CSAIL"
+      url="https://www.linkedin.com/in/jonathanzhou08/"
       />
     <person
       name="Willow Ahrens"
@@ -295,21 +320,28 @@
       title="UROP"
       year="2024"
       position="Software Developer, InterSystems"
+      url="https://www.linkedin.com/in/hannah-kimura/"
       />
     <person
       name="Declan King"
       title="UROP"
       year="2024"
+      url="https://www.linkedin.com/in/declan-andrew-king/"
+      position="Researcher, RLE at MIT, accepted Meta 2026 SWE internship"
       />
     <person
       name="Yogesh Koirala"
       title="UROP"
       year="2024"
+      url="https://www.linkedin.com/in/yogesh-koirala/"
+      position="Founded Lamina Labs (YC)"
       />
     <person
       name="Albert Lu"
       title="UROP"
       year="2024"
+      url="https://www.linkedin.com/in/albertlu00/"
+      position="SWE @ Google"
       />
     <person
       name="Katherine Mohr"
@@ -317,7 +349,7 @@
       year="2024"
       startyear="2023"
       url="https://www.linkedin.com/in/katherinemohr/"
-      position="Stanford University"
+      position="PhD student, Stanford University"
       />
     <person
       name="Radha Patel"
@@ -325,18 +357,21 @@
       year="2024"
       startyear="2023"
       position="Citadel"
+      url="https://www.linkedin.com/in/radha-rpatel/"
       />
     <person
       name="Francesco Peverelli"
       title="Visiting Student"
       year="2024"
       position="Senior CPU Researcher, Huawei R&amp;D UK"
+      url="https://it.linkedin.com/in/francesco-peverelli-0a382013a"
       />
     <person
       name="Dhruv Saraff"
       title="UROP"
       year="2024"
       position="Member of Technical Staff, xAI"
+      url="https://www.linkedin.com/in/dhruv-saraff/"
       />
     <person
       name="Richard Sollee"
@@ -363,6 +398,8 @@
       name="Krit Boonsiriseth"
       title="UROP"
       year="2023"
+      url="https://th.linkedin.com/in/krit-boonsiriseth-a83528202"
+      position="MIT CSAIL researcher/student"
       />
     <person
       name="Alice Chen"
@@ -379,12 +416,14 @@
       title="UROP"
       year="2023"
       position="PhD student, Oxford (Rhodes Scholar)"
+      url="https://www.linkedin.com/in/yimingchen9/"
       />
     <person
       name="Alexandra Dima"
       title="MEng"
       year="2023"
       position="Software Engineer, Hudson River Trading"
+      url="https://www.linkedin.com/in/alexandra-dima-556280149"
       />
     <person
       name="Daniel Donenfeld"
@@ -397,12 +436,14 @@
       name="Ricardo Gayle Jr."
       title="MEng"
       year="2023"
+      url="https://www.linkedin.com/in/ricardo-jr-gayle-244b29184"
       />
     <person
       name="Giorgi Kldiashvili"
       title="UROP"
       year="2023"
       position="Software Engineer, Databricks"
+      url="https://www.linkedin.com/in/kldiashvilig/"
       />
     <person
       name="Emily Lu"
@@ -414,6 +455,7 @@
       title="UROP"
       year="2023"
       position="Software Engineer, Aria Networks"
+      url="https://www.linkedin.com/in/josiah-mc/"
       />
     <person
       name="Tamara Mitrovska"
@@ -421,6 +463,7 @@
       year="2023"
       startyear="2022"
       position="Software Engineer, Google DeepMind"
+      url="https://www.linkedin.com/in/tamara-mitrovska-729682202/"
       />
     <person
       name="Jessica Ray"
@@ -431,6 +474,13 @@
       year2="2018"
       position="MIT Lincoln Laboratory"
       nourl="http://people.csail.mit.edu/charitm"
+      url="https://www.linkedin.com/in/jessica-ray-25555419b/"
+      />
+    <person
+      name="Chris Rinard"
+      title="UROP"
+      year="2023"
+      url="https://www.linkedin.com/in/rinard/"
       />
     <person
       name="Stephen Chou"
@@ -447,47 +497,57 @@
       title="UROP"
       year="2022"
       position="Timely"
+      url="https://www.linkedin.com/in/raunak-chowdhury/"
       />
     <person
       name="Julian Hamelberg"
       title="UROP"
       year="2022"
       position="Senior Software Engineer, NVIDIA"
+      url="https://www.linkedin.com/in/jshjulian"
       />
     <person
       name="Natalie Muradyan"
       title="UROP"
       year="2022"
       position="Software Engineer, D. E. Shaw"
+      url="https://www.linkedin.com/in/natalie-muradyan-5600451a3/"
       />
     <person
       name="Andi Qu"
       title="UROP"
       year="2022"
       position="Quantitative Researcher, Citadel Securities"
+      url="https://www.linkedin.com/in/andiqu/"
       />
     <person
       name="Shashvat Srivastava"
       title="UROP"
       year="2022"
       position="Software Engineer, Voleon"
+      url="https://www.linkedin.com/in/shashvatsrivastava/"
       />
     <person
       name="Edward Wang"
       title="Graduate Student"
       year="2022"
       position="PhD student, MIT"
+      url="https://www.linkedin.com/in/edward-c-wang/"
       />
     <person
       name="Michael Gilbert"
       title="UROP"
       year="2021"
+      url="https://www.linkedin.com/in/gilbert-mike/"
+      position="SWE Intern at NVIDIA, MEng MIT 2023"
       />
     <person
       name="Anurag Golla"
       title="UROP"
       year="2021"
       startyear="2020"
+      url="https://www.linkedin.com/in/anuraggolla"
+      position="Crypto + AI"
       />
     <person
       name="Claire C Hsu"
@@ -502,6 +562,7 @@
       title="Graduate Student"
       year="2021"
       position="PhD student, MIT"
+      url="https://www.linkedin.com/in/amadou-ngom/"
       />
     <person
       name="Ariya Shajii"
@@ -516,12 +577,14 @@
       year="2021"
       startyear="2020"
       position="PhD student, University of Pennsylvania"
+      url="https://www.linkedin.com/in/jessica-shi/"
       />
     <person
       name="Peyton Shields"
       title="UROP"
       year="2021"
       position="Co-founder, Interface (YC S25)"
+      url="https://www.linkedin.com/in/peyton-shields/"
       />
     <person
       name="Richard Wang"
@@ -533,6 +596,8 @@
       name="Amarbold Byambajargal"
       title="UROP"
       year="2020"
+      url="https://www.linkedin.com/in/amarbold0314/"
+      position="TA EECS Communication Lab MIT"
       />
     <person
       name="Xinyi Guo"
@@ -544,6 +609,7 @@
       title="UROP"
       year="2020"
       position="Software Engineer, Vetcove"
+      url="https://www.linkedin.com/in/matthew-ha-483a4895/"
       />
     <person
       name="Rawn Henry"
@@ -558,6 +624,7 @@
       title="UROP"
       year="2020"
       startyear="2019"
+      position="Software Engineer, Cursor"
       />
     <person
       name="Fredrik Kjolstad"
@@ -571,6 +638,7 @@
       title="UROP"
       year="2020"
       position="Senior Software Engineer, Meta"
+      url="https://www.linkedin.com/in/shenalsanthush/"
       />
     <person
       name="Alexander Leighton"
@@ -601,6 +669,7 @@
       title="UROP"
       year="2020"
       position="Software Engineer, Dropbox"
+      url="https://www.linkedin.com/in/catherine-mei-280231190/"
       />
     <person
       name="Charith Mendis"
@@ -629,12 +698,14 @@
       title="UROP"
       year="2020"
       position="Software Engineer, Google"
+      url="https://www.linkedin.com/in/magdalena-a-price/"
       />
     <person
       name="Gabriel Ramirez"
       title="UROP"
       year="2020"
       position="Technical Lead, Jump Trading"
+      url="https://www.linkedin.com/in/g-ramirez/"
       />
     <person
       name="Michael Robinson"
@@ -654,6 +725,7 @@
       title="MEng"
       year="2020"
       position="Stanford / Anthropic"
+      url="https://www.linkedin.com/in/tony-wang-/"
       />
     <person
       name="Yunming Zhang"
@@ -674,12 +746,14 @@
       title="MEng"
       year="2019"
       position="Senior Software Engineer, Meta"
+      url="https://www.linkedin.com/in/abdurrahman-akkas"
       />
     <person
       name="Hadjer Benmeziane"
       title="Visiting Student"
       year="2019"
       position="Research Scientist, IBM Research"
+      url="https://www.linkedin.com/in/hadjer-benmeziane/"
       />
     <person
       name="Xinyi Chen"
@@ -697,6 +771,7 @@
       title="UROP"
       year="2019"
       position="Engineering, Glean"
+      url="https://www.linkedin.com/in/irin-ghosh-ba079721b/"
       />
     <person
       name="Ajay Jain"
@@ -720,23 +795,28 @@
       name="Mohamed-Hicham Leghettas"
       title="Visiting Student"
       year="2019"
+      url="https://www.linkedin.com/in/mhleghettas"
       />
     <person
       name="Massinissa Merouani"
       title="Visiting Student"
       year="2019"
       position="PhD student, NYU"
+      url="https://www.linkedin.com/in/merouani-massinissa/"
       />
     <person
       name="Patricio Noyola"
       title="MEng"
       year="2019"
       startyear="2018"
+      url="https://www.linkedin.com/in/patricio-noyola-57a11810a/"
+      position="Cambridge MA"
       />
     <person
       name="Sachin Dilip Shinde"
       title="MEng"
       year="2019"
+      position="Staff Software Engineer, Apollo GraphQL"
       />
     <person
       name="Mark Theng"
@@ -755,6 +835,7 @@
       title="UROP"
       year="2019"
       position="PhD student, Stanford University"
+      url="https://www.linkedin.com/in/haoran-xu-2730476b/"
       />
     <person
       name="Kenny Yang"
@@ -766,6 +847,8 @@
       name="Malek Ben Romdhane"
       title="MEng"
       year="2018"
+      url="https://www.linkedin.com/in/malekbr/"
+      position="SWE intern at Google"
       />
     <person
       name="Asra Ali"
@@ -776,6 +859,7 @@
       name="Emily Armstrong"
       title="UROP"
       year="2017"
+      position="Staff Software Engineer, Apollo.io"
       />
     <person
       name="David Lugato"
@@ -795,17 +879,21 @@
       title="UROP"
       year="2017"
       position="Software Engineer, NVIDIA"
+      url="https://www.linkedin.com/in/mgysun/"
       />
     <person
       name="David Vargas"
       title="UROP"
       year="2017"
       position="Founding Engineer, Vellum"
+      url="https://www.linkedin.com/in/dvargas92495/"
       />
     <person
       name="Raymond Wu"
       title="UROP"
       year="2017"
+      url="https://www.linkedin.com/in/raymond-wu-05194b106/"
+      position="Instagram"
       />
     <person
       name="Tyler Denniston"
@@ -820,23 +908,28 @@
       year="2016"
       startyear="2015"
       position="University of Edinburgh (Physics)"
+      url="https://www.linkedin.com/in/gurtej-kanwar-9a4b5b56/"
       />
     <person
       name="Patricia A. Suriana"
       title="MEng"
       year="2016"
       position="Senior ML Scientist, Prescient Design (Genentech)"
+      url="https://www.linkedin.com/in/patricia-suriana/"
       />
     <person
       name="Parker Tew"
       title="MEng"
       year="2016"
       position="Software Developer, PDT Partners"
+      url="https://www.linkedin.com/in/parker-tew-b6217465"
       />
     <person
       name="Min Zhang"
       title="MEng"
       year="2016"
+      url="https://www.linkedin.com/in/min-zhang-5ab3956/"
+      position="Hedge fund analyst NY"
       />
     <person
       name="Aparna Chandramowlishwaran"
@@ -850,12 +943,14 @@
       title="UROP"
       year="2015"
       position="Independent data scientist"
+      url="https://www.linkedin.com/in/youyanggu/"
       />
     <person
       name="Yoana Gyurova"
       title="MEng"
       year="2015"
       position="Product Manager, Meta"
+      url="https://www.linkedin.com/in/yoana-gyurova-ab15aa73"
       />
     <person
       name="William Huang"
@@ -867,24 +962,28 @@
       title="UROP"
       year="2015"
       position="Senior Research Software Engineer, Microsoft Research"
+      url="https://www.linkedin.com/in/elefthei/"
       />
     <person
       name="Daniel Richman"
       title="UROP"
       year="2015"
       position="PhD student, Stanford University"
+      url="https://www.linkedin.com/in/daniel-richman-074b4411a/"
       />
     <person
       name="Nitya Subramanian"
       title="UROP"
       year="2015"
       position="CEO, Para"
+      url="https://www.linkedin.com/in/nityas1/"
       />
     <person
       name="Kevin Wu"
       title="MEng"
       year="2015"
       position="Staff Engineer, Amplitude"
+      url="https://www.linkedin.com/in/kevin-wu-10120646"
       />
     <person
       name="Jason Ansel"
@@ -918,16 +1017,21 @@
       title="PhD"
       year="2014"
       position="Associate Professor, MIT"
+      url="https://www.linkedin.com/in/jonathanrk/"
       />
     <person
       name="Kiranmayi Bhattaram"
       title="UROP"
       year="2013"
+      url="https://www.linkedin.com/in/kiranbhattaram/"
+      position="SWE Pilot.com (per ZoomInfo now Watch Duty)"
       />
     <person
       name="Christopher Graves"
       title="UROP"
       year="2013"
+      url="https://www.linkedin.com/in/christopher-graves-00b63256/"
+      position="Google, Cambridge MA"
       />
     <person
       name="Latif Alam"
@@ -940,11 +1044,14 @@
       title="Postdoc"
       year="2012"
       position="Associate Professor, University of Moratuwa"
+      url="https://www.linkedin.com/in/sanath-jayasena-274a8011/"
       />
     <person
       name="Erika Lee"
       title="UROP"
       year="2012"
+      url="https://www.linkedin.com/in/erika-k-lee/"
+      position="CodePath instructor, San Francisco"
       />
     <person
       name="Phitchaya Phothilimthana"
@@ -952,6 +1059,7 @@
       year="2012"
       startyear="2011"
       position="OpenAI"
+      url="https://www.linkedin.com/in/phitchaya-mangpo-phothilimthana-64415b82/"
       />
     <person
       name="Chun-Kai Wang"
@@ -959,6 +1067,7 @@
       year="2012"
       startyear="2011"
       position="Applied Scientist, Amazon"
+      url="https://www.linkedin.com/in/chun-kai-wang-7a3b742b/"
       />
     <person
       name="Phumpong Watanaprakornkul"
@@ -966,12 +1075,15 @@
       year="2012"
       startyear="2011"
       position="VP, Charoen Pokphand Group"
+      url="https://www.linkedin.com/in/phumpong"
       />
     <person
       name="Eric Wong"
       title="MEng"
       year="2012"
       startyear="2011"
+      url="https://www.linkedin.com/in/eric-wong-04aa14100"
+      position="Student at MIT (per LinkedIn title)"
       />
     <person
       name="Qin Zhao"
@@ -985,6 +1097,7 @@
       title="MEng"
       year="2011"
       position="Compiler Engineer, NVIDIA"
+      url="https://www.linkedin.com/in/reid-kleckner-73877721"
       />
     <person
       name="David Koh"
@@ -992,6 +1105,7 @@
       year="2011"
       startyear="2010"
       position="CTO, Musubi"
+      url="https://www.linkedin.com/in/david-koh-b911b415"
       />
     <person
       name="Marek Olszewski"
@@ -1004,12 +1118,14 @@
       name="Syed Raza"
       title="MEng"
       year="2011"
+      position="Software Engineer, Jump Trading"
       />
     <person
       name="Elena Tatarchenko"
       title="UROP"
       year="2011"
       position="Software Engineer, Render"
+      url="https://www.linkedin.com/in/elena-tatarchenko/"
       />
     <person
       name="David Wen"
@@ -1037,12 +1153,14 @@
       title="MEng"
       year="2010"
       position="Portfolio Manager, Tower Research Capital"
+      url="https://www.linkedin.com/in/alexschwendner"
       />
     <person
       name="Matt Aasted"
       title="Research Staff"
       year="2009"
       position="Principal Software Engineer, Voxel"
+      url="https://www.linkedin.com/in/mattaasted"
       />
     <person
       name="Nada Amin"
@@ -1057,6 +1175,7 @@
       year="2009"
       startyear="2008"
       position="Software Engineer, Google"
+      url="https://www.linkedin.com/in/mdsteele/"
       />
     <person
       name="Ceryen Tan"
@@ -1078,18 +1197,21 @@
       title="UROP"
       year="2008"
       position="Founder &amp; CEO, OpenYield"
+      url="https://www.linkedin.com/in/jonbirn/"
       />
     <person
       name="Meghan Kane"
       title="UROP"
       year="2008"
       position="Doctoral researcher, MDC Berlin"
+      url="https://www.linkedin.com/in/meghanmkane/"
       />
     <person
       name="Amrik Kochhar"
       title="UROP"
       year="2008"
       position="Software Engineer, DoorDash"
+      url="https://www.linkedin.com/in/amrikkochhar"
       />
     <person
       name="Basier Aziz"
@@ -1101,6 +1223,7 @@
       title="UROP"
       year="2007"
       position="Senior UI Engineer, Advisor360"
+      url="https://www.linkedin.com/in/mikedambrosio/"
       />
     <person
       name="Allyn Dimock"
@@ -1113,6 +1236,7 @@
       title="UROP"
       year="2007"
       position="Founder, AI Realty Kit"
+      url="https://www.linkedin.com/in/davidd8"
       />
     <person
       name="Shirley Fung"
@@ -1130,12 +1254,14 @@
       title="UROP"
       year="2007"
       position="Anthropic"
+      url="https://www.linkedin.com/in/sunphil"
       />
     <person
       name="Michael Bedford Taylor"
       title="PhD"
       year="2007"
       position="Professor, University of Washington"
+      url="https://www.linkedin.com/in/michael-taylor-32212816/"
       />
     <person
       name="David Zhang"
@@ -1185,6 +1311,7 @@
       year2="2000"
       position="Principal Research Scientist, NVIDIA"
       oldurl="http://people.csail.mit.edu/mstephen"
+      url="https://www.linkedin.com/in/mark-stephenson-7380737/"
       />
     <person
       name="Ben Wagner"
@@ -1202,6 +1329,7 @@
       title="PhD"
       year="2005"
       oldurl="http://people.csail.mit.edu/walt"
+      url="https://www.linkedin.com/in/walter-lee-8059b7a3/"
       position="Software Engineer, Google"
       />
     <person
@@ -1221,6 +1349,7 @@
       year="2004"
       startyear="2003"
       position="Client Success Manager, Exegy"
+      url="https://www.linkedin.com/in/sitij-agrawal-54b5288"
       />
     <person
       name="Derek Bruening"
@@ -1235,6 +1364,7 @@
       year="2004"
       startyear="2003"
       position="Senior Director of Product Management, Workday"
+      url="https://www.linkedin.com/in/kimberlykuo"
       />
     <person
       name="Christopher Leger"
@@ -1255,6 +1385,7 @@
       title2="MEng"
       year2="2001"
       position="Application Infrastructure Engineer, Howso"
+      url="https://www.linkedin.com/in/david-maze-0801923/"
       />
     <person
       name="Juan Carlos Reyes"
@@ -1279,17 +1410,21 @@
       title="SM"
       year="2003"
       position="Program Manager, IBM"
+      url="https://www.linkedin.com/in/iris-baron"
       />
     <person
       name="Adrian Birka"
       title="UROP"
       year="2000"
+      url="https://www.linkedin.com/in/adrian-birka-03448258/"
+      position="Principal Engineer, SingleStore"
       />
     <person
       name="Matthew Frank"
       title="PhD"
       year="2003"
       oldurl="http://people.csail.mit.edu/mfrank"
+      url="https://www.linkedin.com/in/matthewifrank/"
       position="Principal Architect, NVIDIA"
       />
     <person
@@ -1298,52 +1433,63 @@
       year="2003"
       startyear="2002"
       position="Technical Consultant, T&amp;S Advisory Solutions"
+      url="https://www.linkedin.com/in/timothy-garnett-0017325"
       />
     <person
       name="Artem Gleyzer"
       title="UROP"
       year="2003"
+      url="https://www.linkedin.com/in/artem-gleyzer-01598269"
+      position="Financial Services Professional"
       />
     <person
       name="Andrew Lamb"
       title="MEng"
       year="2003"
       position="Staff Engineer, InfluxData"
+      url="https://www.linkedin.com/in/andrewalamb/"
       />
     <person
       name="Libby Levison"
       title="Postdoc"
       year="2003"
       position="International health consultant"
+      url="https://www.linkedin.com/in/libby-levison-phd-mph-a6a2028"
       />
     <person
       name="Rose Liu"
       title="UROP"
       year="2003"
       position="Software Engineer, Google"
+      url="https://www.linkedin.com/in/rose-liu-07bb122/"
       />
     <person
       name="Satish Ramaswamy"
       title="UROP"
       year="2003"
+      url="https://www.linkedin.com/in/satish-ramaswamy-a46583a/"
+      position="Head of Quant Research, Seldon Capital"
       />
     <person
       name="David Ziegler"
       title="UROP"
       year="2003"
       position="Principal Software Engineer, Google"
+      url="https://www.linkedin.com/in/david-ziegler-55446b268/"
       />
     <person
       name="Matthew Brown"
       title="UROP"
       year="2002"
       position="Founder &amp; CEO, ThoughtForge"
+      url="https://www.linkedin.com/in/matthew-brown-0558201"
       />
     <person
       name="Samidh Chakrabarti"
       title="MEng"
       year="2002"
       position="Trustworthy AI, Zentropi"
+      url="https://www.linkedin.com/in/samidh"
       />
     <person
       name="Gleb Chuvpilo"
@@ -1369,17 +1515,21 @@
       title="SM"
       year="2002"
       position="VP Engineering, Thor Dynamics"
+      url="https://www.linkedin.com/in/michal-karczmarek-85309b58"
       />
     <person
       name="Tazeen Mahtab"
       title="UROP"
       year="2002"
       startyear="2001"
+      url="https://www.linkedin.com/in/tazeen-mahtab-1214b68"
       />
     <person
       name="Ali Meli"
       title="UROP"
       year="2002"
+      url="https://www.linkedin.com/in/ali-meli-92ab33167/"
+      position="Founder &amp; CIO, Monachil Capital Partners LP"
       />
     <person
       name="Georgi Peev"
@@ -1387,6 +1537,7 @@
       year="2002"
       startyear="1999"
       position="Software Engineer, Jump Trading"
+      url="https://www.linkedin.com/in/georgepf"
       />
     <person
       name="Diego Puppin"
@@ -1394,6 +1545,7 @@
       year="2002"
       oldurl="http://people.csail.mit.edu/diego"
       position="Principal Engineer, Genesis Therapeutics"
+      url="https://www.linkedin.com/in/diegopuppin/"
       />
     <person
       name="Saad Shakhshir"
@@ -1407,6 +1559,7 @@
       title="MEng"
       year="2002"
       position="CTO, Techcyte"
+      url="https://www.linkedin.com/in/shane-swenson/"
       />
     <person
       name="Alejandro Artola"
@@ -1419,6 +1572,7 @@
       title="UROP"
       year="2001"
       position="Notion"
+      url="https://www.linkedin.com/in/genevievecuevas"
       />
     <person
       name="Matt Deeds"
@@ -1426,6 +1580,7 @@
       year="2001"
       startyear="2000"
       position="Software Engineer in Test, Google"
+      url="https://www.linkedin.com/in/matt-deeds-3829435/"
       />
     <person
       name="Mark Halsey"
@@ -1438,6 +1593,7 @@
       year="2001"
       startyear="2000"
       position="Senior Principal Engineer, AWS"
+      url="https://www.linkedin.com/in/nicholas-matsakis-615614/"
       />
     <person
       name="Darin Petkov"
@@ -1445,12 +1601,14 @@
       year="2001"
       startyear="1998"
       position="Software Engineering Manager, Google"
+      url="https://www.linkedin.com/in/darinpetkov"
       />
     <person
       name="Jeffrey Sheldon"
       title="MEng"
       year="2001"
       position="Distinguished Engineer, Broadcom"
+      url="https://www.linkedin.com/in/jeffrey-sheldon-6945052a3/"
       />
     <person
       name="Binh Vo"
@@ -1481,12 +1639,14 @@
       title="UROP"
       year="2000"
       position="Director, BlackRock"
+      url="https://www.linkedin.com/in/sheldonchan"
       />
     <person
       name="Sidney Henderson"
       title="UROP"
       year="2000"
       position="VP of Global Business Development, Exotec"
+      url="https://www.linkedin.com/in/sid-henderson/"
       />
     <person
       name="Shuehan Liang"
@@ -1494,11 +1654,13 @@
       year="2000"
       startyear="1999"
       position="Software Engineer, Google"
+      url="https://www.linkedin.com/in/shuhan-liang-73b09972/"
       />
     <person
       name="Kenneth Lu"
       title="UROP"
       year="2000"
+      url="https://www.linkedin.com/in/kenneth-k-lu/"
       />
     <person
       name="Csaba Andras Moritz"
@@ -1512,6 +1674,8 @@
       name="Janelle Prevost"
       title="UROP"
       year="2000"
+      url="https://www.linkedin.com/in/janelle-prevost"
+      position="Managing Director, BNY Mellon"
       />
     <person
       name="Elliot Waingold"
@@ -1524,12 +1688,14 @@
       title="SM"
       year="1999"
       position="Co-founder &amp; Strategic Advisor, Tropos Networks"
+      url="https://www.linkedin.com/in/devabhaktuni-srikrishna-1703b52/"
       />
     <person
       name="Benjamin Greenwald"
       title="SM"
       year="1999"
       position="Senior Security Researcher, RoonCyber"
+      url="https://www.linkedin.com/in/benjamingreenwald"
       />
     <person
       name="Katherine Jong"
@@ -1541,6 +1707,7 @@
       title="UROP"
       year="1999"
       position="Applications Consultant, Synopsys"
+      url="https://www.linkedin.com/in/amymitby/"
       />
     <person
       name="Tyler Moeller"
@@ -1552,6 +1719,8 @@
       title="MEng"
       year="1999"
       startyear="1998"
+      url="https://www.linkedin.com/in/tpetrov/"
+      position="Broadcom Inc."
       />
     <person
       name="Arjuna Wijeyekoon"
@@ -1570,18 +1739,22 @@
       title="UROP"
       year="1999"
       position="Principal Architect, Aviatrix"
+      url="https://www.linkedin.com/in/alexsyip/"
       />
     <person
       name="Ruben Brown"
       title="UROP"
       year="1998"
       startyear="1997"
+      url="https://www.linkedin.com/in/ruben-e-brown-4b668233/"
+      position="Technical Leader, Meta"
       />
     <person
       name="Matthew DeBergalis"
       title="UROP"
       year="1998"
       position="CEO, Apollo GraphQL"
+      url="https://www.linkedin.com/in/debergalis/"
       />
     <person
       name="Robert Pinder"
@@ -1593,6 +1766,7 @@
       title="UROP"
       year="1997"
       position="Senior Principal Software Engineer, The Hershey Company"
+      url="https://www.linkedin.com/in/drew-samnick"
       />
     <person
       name="Tom Pinckney"
@@ -1602,7 +1776,9 @@
     <person
       name="Minshu Zhan"
       title="UROP"
+      year="2016"
       position="Senior Software Engineer, BevSpot"
+      url="https://www.linkedin.com/in/minshu-zhan-0b3b1a1a/"
       />
   </alumni>
 </people>
