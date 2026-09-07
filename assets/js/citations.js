@@ -70,15 +70,33 @@ var CITATIONS = (function(){
 
   /* Page-level panel state: every open panel follows these; per-panel
      controls can still diverge afterwards. */
-  var gPanel = { sort: 'impact', centrality: 'all', categories: null, search: '' };
+  var gPanel = { sort: 'impact', centrality: 'all', categories: null, search: '', impactAuthors: null };
+  function foldPersonText(s){
+    return String(s || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase().replace(/[^a-z0-9]+/g, ' ').replace(/\s+/g, ' ').trim();
+  }
+  function textMatchesImpactAuthors(text){
+    if (!gPanel.impactAuthors || !gPanel.impactAuthors.length) return true;
+    var hay = ' ' + foldPersonText(text) + ' ';
+    for (var i = 0; i < gPanel.impactAuthors.length; i++){
+      var needle = foldPersonText(gPanel.impactAuthors[i]);
+      if (needle && hay.indexOf(' ' + needle + ' ') !== -1) return true;
+    }
+    return false;
+  }
   function rowMatchesGlobal(c){
     if (gPanel.categories && gPanel.categories.length &&
         gPanel.categories.indexOf(c.function) === -1) return false;
+    if (!textMatchesImpactAuthors(c.authors || '')) return false;
     if (gPanel.search){
       var hay = ((c.title || '') + ' ' + (c.authors || '') + ' ' + (c.venue || '')).toLowerCase();
       if (hay.indexOf(gPanel.search) === -1) return false;
     }
     return true;
+  }
+  function repoMatchesImpactAuthors(r){
+    return textMatchesImpactAuthors((r.paper || '') + ' ' + (r.name || '') + ' ' +
+      (r.desc || '') + ' ' + (r.evidence || '') + ' ' + (r.badges || []).join(' '));
   }
   function trackSafe(name, data){
     try { if (typeof track === 'function') track(name, data); } catch (e) {}
@@ -177,7 +195,7 @@ var CITATIONS = (function(){
     mount.innerHTML = '';
     var counts = data.counts;
     var gscholar = (indexRow && indexRow.gscholar != null) ? indexRow.gscholar : counts.gscholar;
-    var all = data.citations;
+    var all = data.citations.filter(function(c){ return textMatchesImpactAuthors(c.authors || ''); });
     /* COMMIT papers = citing works with Saman Amarasinghe among the
        authors (entry.commit, set at build time); everything else is
        external impact. */
@@ -187,8 +205,11 @@ var CITATIONS = (function(){
     }
 
 
-    /* Headline: just the displayed count — max(verified, Google Scholar). */
-    var display = displayCount({ verified: counts.works, gscholar: gscholar });
+    /* Headline: normally the displayed count — max(verified, Google Scholar).
+       Under a selected-person filter, use the actual matching records. */
+    var display = (gPanel.impactAuthors && gPanel.impactAuthors.length)
+      ? all.length
+      : displayCount({ verified: counts.works, gscholar: gscholar });
     var head = el('div', 'cite-head');
     head.appendChild(el('span', 'cite-head-count', fmt(display) + ' citations'));
     mount.appendChild(head);
@@ -370,7 +391,8 @@ var CITATIONS = (function(){
       /* Rule 5: when page-level filters hide rows, the panel says so and
          offers the way back. */
       var filtersOn = (gPanel.categories && gPanel.categories.length) ||
-                      gPanel.search || state.centrality !== 'all';
+              (gPanel.impactAuthors && gPanel.impactAuthors.length) ||
+              gPanel.search || state.centrality !== 'all';
       if (filtersOn){
         var totalAll = baseRows.length + extUnjudged.length +
           ((state.sort === 'impact') ? commitUnjudged.length + commitPapers.length : commitUnjudged.length);
@@ -502,6 +524,7 @@ var CITATIONS = (function(){
     if (patch.centrality !== undefined) gPanel.centrality = patch.centrality;
     if (patch.categories !== undefined) gPanel.categories = patch.categories;
     if (patch.search !== undefined) gPanel.search = String(patch.search || '').toLowerCase().trim();
+    if (patch.impactAuthors !== undefined) gPanel.impactAuthors = patch.impactAuthors;
     panels = panels.filter(function(pn){ return document.contains(pn.el); });
     for (var i = 0; i < panels.length; i++) panels[i].sync();
     repoPanels = repoPanels.filter(function(pn){ return document.contains(pn.el); });
@@ -561,7 +584,7 @@ var CITATIONS = (function(){
   }
   function renderRepoPanel(mount, data){
     mount.innerHTML = '';
-    var repos = data.repos || [];
+    var repos = (data.repos || []).filter(repoMatchesImpactAuthors);
     mount.appendChild(el('div', 'cite-head')).appendChild(
       el('span', 'cite-head-count', fmt(repos.length) + (repos.length === 1 ? ' repository' : ' repositories')));
     var tier = { own: 0, using: 0, adopts: 0 };
@@ -693,6 +716,7 @@ var CITATIONS = (function(){
   var REPO_FUNC = {};
   for (var _fg in FUNC_GROUP) REPO_FUNC[FUNC_GROUP[_fg]] = _fg;
   function repoRowVisible(r){
+    if (!repoMatchesImpactAuthors(r)) return false;
     if (r.group === 'own') return true;
     if (!gPanel.categories || !gPanel.categories.length) return true;
     return gPanel.categories.indexOf(REPO_FUNC[r.group]) !== -1;

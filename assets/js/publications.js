@@ -428,11 +428,13 @@ function createBibLink(it){
      per-paper files). Panels' "filtered" notes clear through the hook. */
   function evidenceFilterActive(){
     return (state.citeCatKeys && state.citeCatKeys.length) ||
-           (state.citeCentralityKey && state.citeCentralityKey !== 'all');
+           (state.citeCentralityKey && state.citeCentralityKey !== 'all') ||
+           keysSelected(state.citeAuthors).length;
   }
 
   function badgeFor(kind, key, total){
     if (!evidenceFilterActive()) return null;
+    if (keysSelected(state.citeAuthors).length) return 'filtered';
     var cats = state.citeCatKeys || [];
     var cent = state.citeCentralityKey || 'all';
     var fmtN = function(x){ return x.toLocaleString('en-US'); };
@@ -468,9 +470,15 @@ function createBibLink(it){
   });
   function resetEvidenceFilters(){
     state.citeCatKeys = []; state.citeCentralityKey = 'all';
+    var caKeys = keysSelected(state.citeAuthors), cai;
+    for (cai = 0; cai < caKeys.length; cai++) state.citeAuthors[caKeys[cai]] = false;
     if (els.citeCats){
       var ccbs = els.citeCats.querySelectorAll('input');
       for (var ci = 0; ci < ccbs.length; ci++) ccbs[ci].checked = false;
+    }
+    if (els.citeAuBox && els.citeAuBox._facet){
+      var caItems = els.citeAuBox._facet.itemMap;
+      for (var ca in caItems) caItems[ca].cb.checked = false;
     }
     if (els.citeCentrality){
       var cbs = els.citeCentrality.querySelectorAll('.type-toggle-btn');
@@ -480,7 +488,7 @@ function createBibLink(it){
       }
     }
     if (els.citeSearch) els.citeSearch.value = '';
-    if (window.CITATIONS) CITATIONS.setGlobalPanels({ categories: null, search: '', centrality: 'all' });
+    if (window.CITATIONS) CITATIONS.setGlobalPanels({ categories: null, search: '', centrality: 'all', impactAuthors: null });
     applyFilters();
   }
 
@@ -1575,6 +1583,11 @@ updateFacetCounts(els.tyBox, 'types', tCounts, state.types);
   function applyFilters(){
     // recompute dynamic counts first (so user sees availability)
     updateDynamicCounts();
+
+    if (window.CITATIONS){
+      var selectedImpactAuthors = keysSelected(state.citeAuthors);
+      CITATIONS.setGlobalPanels({ impactAuthors: selectedImpactAuthors.length ? selectedImpactAuthors : null });
+    }
 
     // then produce final result set (include all active facets)
     var items = filteredItems(null);
