@@ -434,7 +434,6 @@ function createBibLink(it){
 
   function badgeFor(kind, key, total){
     if (!evidenceFilterActive()) return null;
-    if (keysSelected(state.citeAuthors).length) return 'filtered';
     var cats = state.citeCatKeys || [];
     var cent = state.citeCentralityKey || 'all';
     var fmtN = function(x){ return x.toLocaleString('en-US'); };

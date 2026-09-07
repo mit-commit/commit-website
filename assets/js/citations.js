@@ -445,6 +445,8 @@ var CITATIONS = (function(){
   /* Rule 5: the panel's "filtered" note clears page filters through this. */
   var onClearHook = null;
   var dataCache = {};   // key -> per-paper JSON, kept for cross-paper analysis
+  var repoDataCache = {};
+  var badgeFetchPending = {};
 
   /* Per-paper files load lazily even under expand-all; this small queue
      keeps that progressive (a few fetches in flight, page never blocked). */
@@ -459,6 +461,48 @@ var CITATIONS = (function(){
       );
     }
   }
+  function relabelLiveInstances(){
+    instances = instances.filter(function(i){ return document.contains(i.el); });
+    repoInstances = repoInstances.filter(function(i){ return document.contains(i.el); });
+    instances.concat(repoInstances).forEach(function(i){ if (i.relabel) i.relabel(); });
+  }
+  function impactAuthorBadge(kind, key){
+    if (!gPanel.impactAuthors || !gPanel.impactAuthors.length) return null;
+    if (kind === 'cite' && dataCache[key]){
+      var citations = dataCache[key].citations || [], n = 0;
+      for (var i = 0; i < citations.length; i++){
+        if (textMatchesImpactAuthors(citations[i].authors || '')) n++;
+      }
+      return 'filtered-' + fmt(n);
+    }
+    if (kind === 'repo' && repoDataCache[key]){
+      var repos = repoDataCache[key].repos || [], m = 0;
+      for (var j = 0; j < repos.length; j++){
+        if (repoMatchesImpactAuthors(repos[j])) m++;
+      }
+      return 'filtered-' + fmt(m);
+    }
+    var pendingKey = kind + ':' + key;
+    if (!badgeFetchPending[pendingKey]){
+      badgeFetchPending[pendingKey] = true;
+      fetchQueue.push(function(){
+        var url = kind === 'cite'
+          ? DATA_BASE + fileKeyOf(key) + '.json'
+          : REPO_BASE + 'papers/' + fileKeyOf(key) + '.json';
+        return fetch(url, { cache: 'no-store' })
+          .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+          .then(function(data){
+            if (kind === 'cite') dataCache[key] = data;
+            else repoDataCache[key] = data;
+            badgeFetchPending[pendingKey] = false;
+            relabelLiveInstances();
+          })
+          .catch(function(){ badgeFetchPending[pendingKey] = false; });
+      });
+      pumpQueue();
+    }
+    return 'filtered';
+  }
 
   function attachToggle(metaEl, bodyParent, key, indexRow){
     var display = displayCount(indexRow);
@@ -466,7 +510,7 @@ var CITATIONS = (function(){
     var toggle = el('a', 'pub-action pub-summary-toggle cite-toggle');
     toggle.href = '#';
     var setArrow = function(open){
-      var badge = badgeProvider ? badgeProvider('cite', key, display) : null;
+      var badge = impactAuthorBadge('cite', key) || (badgeProvider ? badgeProvider('cite', key, display) : null);
       toggle.textContent = 'Citations (' + (badge || fmt(display)) + ') ' + (open ? '▾' : '▸');
     };
     setArrow(false);
@@ -478,7 +522,7 @@ var CITATIONS = (function(){
       fetchQueue.push(function(){
         return fetch(DATA_BASE + fileKeyOf(key) + '.json', { cache: 'no-store' })
           .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-          .then(function(data){ dataCache[key] = data; renderView(div, key, data, indexRow); })
+          .then(function(data){ dataCache[key] = data; renderView(div, key, data, indexRow); setArrow(true); })
           .catch(function(e){
             loaded = false;
             div.innerHTML = '';
@@ -728,7 +772,7 @@ var CITATIONS = (function(){
     toggle.href = '#';
     var n = indexRow.repos;
     var setArrow = function(open){
-      var badge = badgeProvider ? badgeProvider('repo', key, n) : null;
+      var badge = impactAuthorBadge('repo', key) || (badgeProvider ? badgeProvider('repo', key, n) : null);
       toggle.textContent = 'Repositories (' + (badge || fmt(n)) + ') ' + (open ? '\u25be' : '\u25b8');
     };
     setArrow(false);
@@ -740,7 +784,7 @@ var CITATIONS = (function(){
       fetchQueue.push(function(){
         return fetch(REPO_BASE + 'papers/' + fileKeyOf(key) + '.json', { cache: 'no-store' })
           .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-          .then(function(data){ renderRepoPanel(div, data); })
+          .then(function(data){ repoDataCache[key] = data; renderRepoPanel(div, data); setArrow(true); })
           .catch(function(e){
             loaded = false;
             div.innerHTML = '';
@@ -781,9 +825,7 @@ var CITATIONS = (function(){
     attachToggle: attachToggle,
     setBadgeProvider: function(fn){ badgeProvider = fn; },
     refreshToggleBadges: function(){
-      instances = instances.filter(function(i){ return document.contains(i.el); });
-      repoInstances = repoInstances.filter(function(i){ return document.contains(i.el); });
-      instances.concat(repoInstances).forEach(function(i){ if (i.relabel) i.relabel(); });
+      relabelLiveInstances();
     },
     countOpen: function(){
       var n = 0;
