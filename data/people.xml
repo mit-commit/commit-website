@@ -66,10 +66,17 @@
       name="Daniel Quach"
       title="UROP"
       />
-    <person
-      name="Justin Zhang"
+    
+        <person
+      name="Sophie Bunn"
       title="UROP"
       />
+          
+        <person
+      name="Abimalek Mekuriya"
+      title="UROP"
+      />
+    
     <person
       name="Paramuth (Namo) Samuthrsindh"
       title="UROP"
@@ -91,18 +98,6 @@
       title="UROP"
       />
     <person
-      name="Prompt Kerdphoksup"
-      title="UROP"
-      />
-    <person
-      name="Gordon Lichtstein"
-      title="UROP"
-      />
-    <person
-      name="Keming Miao"
-      title="UROP"
-      />
-    <person
       name="Ege Kabasakaloglu"
       title="UROP"
       />
@@ -113,6 +108,26 @@
   </current>
 
   <alumni>
+  <person
+      name="Justin Zhang"
+      title="UROP"
+      year="2026"
+      />
+       <person
+      name="Keming Miao"
+      title="UROP"
+      year="2025"
+      />
+          <person
+      name="Prompt Kerdphoksup"
+      title="UROP"
+      year="2025"
+      />
+          <person
+      name="Gordon Lichtstein"
+      title="UROP"
+      year="2025"
+      />
     <person
       name="Yishen &#39;Tom&#39; Chen"
       title="PhD"
