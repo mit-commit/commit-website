@@ -990,7 +990,7 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
   function renderItem(it){
     var li = document.createElement('li');
     li.className = 'pub-item';
-    li.id = pubAnchorId(it);   // target for award-echo rows (see renderAwardEcho)
+    li.id = pubAnchorId(it);   // stable anchor; award-year copies get a suffix
 
     var localPDF = localizeURL(it.url || '');
 
@@ -1104,13 +1104,14 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
   }
 
 
-/* ---------- Awards and award-year echoes ----------
+/* ---------- Awards and award-year copies ----------
    An entry's `awards` array holds structured awards:
      { "name": "...", "year": 2023, "kind": "test-of-time" }
-   A test-of-time award given in a later year than the paper produces an
-   "echo" row under the award year whenever the list is grouped by year. The
-   echo is display only: it is not a pub-item, so it is never counted,
-   faceted, exported as BibTeX, or given citation panels. */
+   A test-of-time award given in a later year than the paper makes the paper
+   appear a second time, as its normal entry, under the award year whenever
+   the list is grouped by year. The copy is display only: it is added at
+   render time, never to DATA, so counts, facets, BibTeX export and the
+   citation overview see the paper once. */
 function awardsOf(it){
   return Array.isArray(it.awards) ? it.awards.filter(function(a){ return a && a.name && a.year; }) : [];
 }
@@ -1122,37 +1123,10 @@ function echoAwardsOf(it){
 function pubAnchorId(it){
   return 'pub-' + String(bibtexKeyOf(it) || titleOf(it)).replace(/[^A-Za-z0-9_-]/g, '_');
 }
-function renderAwardEcho(ec, renderedIds){
-  var it = ec.it, aw = ec.award;
-  var li = document.createElement('li');
-  li.className = 'pub-echo';
-  var badge = document.createElement('span');
-  badge.className = 'pub-echo-badge';
-  badge.textContent = '\u2605 ' + aw.name + ' (' + aw.year + ')';
-  li.appendChild(badge);
-  li.appendChild(document.createTextNode(' \u2014 '));
-  var a = document.createElement('a');
-  a.textContent = titleOf(it);
-  var id = pubAnchorId(it);
-  if (renderedIds[id]) {
-    a.href = '#' + id;
-    a.addEventListener('click', function(ev){
-      var target = document.getElementById(id);
-      if (!target) return;
-      ev.preventDefault();
-      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      target.classList.add('pub-flash');
-      setTimeout(function(){ target.classList.remove('pub-flash'); }, 2000);
-      if (typeof track === 'function') track('award-echo', { key: bibtexKeyOf(it), year: String(aw.year) });
-    });
-  } else {
-    a.href = localizeURL(it.url || '') || '#';   // original entry is filtered out of view
-  }
-  li.appendChild(a);
-  var orig = document.createElement('span');
-  orig.className = 'pub-echo-orig';
-  orig.textContent = ' (' + [it.venue, it.year].filter(Boolean).join(' ') + ')';
-  li.appendChild(orig);
+function renderAwardCopy(ec){
+  var li = renderItem(ec.it);                         // the normal entry
+  li.id = pubAnchorId(ec.it) + '-award' + ec.award.year; // keep ids unique
+  li.className += ' pub-award-copy';
   return li;
 }
 
@@ -1229,11 +1203,9 @@ function renderList(mount, items){
     }
   }
 
-  // Award-year echoes: drawn from every filter except the year filter, so
-  // selecting the award year still shows the award of an older paper.
+  // Award-year copies: drawn from every filter except the year filter, so
+  // selecting the award year alone still shows an older paper's award.
   var echoes = {};       // year label -> [{ it, award }]
-  var renderedIds = {};  // anchor ids of entries actually in this view
-  for (var ri=0; ri<items.length; ri++) renderedIds[pubAnchorId(items[ri])] = true;
   if (primary==='year'){
     var yearSel = keysSelected(state.years);
     var pool = filteredItems('years');
@@ -1300,7 +1272,7 @@ function renderList(mount, items){
     sec.appendChild(h3);
     var ul = document.createElement('ul'); ul.className = 'pub-list';
     var ecs = echoes[label] || [];
-    for (var ej=0; ej<ecs.length; ej++) ul.appendChild(renderAwardEcho(ecs[ej], renderedIds));
+    for (var ej=0; ej<ecs.length; ej++) ul.appendChild(renderAwardCopy(ecs[ej]));
     for (var j=0;j<arr.length;j++) ul.appendChild(renderItem(arr[j]));
     sec.appendChild(ul);
     container.appendChild(sec);

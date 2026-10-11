@@ -53,8 +53,8 @@ ITEM_TYPES = {
 REQUIRED = ("title", "author0", "year", "bibtexKey", "itemType", "venue", "topics")
 
 # `awards` entries: {"name": str, "year": int, "kind": one of AWARD_KINDS}.
-# A test-of-time award in a later year than the paper gets an echo row under
-# the award year on the publications page.
+# A test-of-time award in a later year than the paper makes the paper appear
+# again, as its normal entry, under the award year on the publications page.
 AWARD_KINDS = {"best-paper", "test-of-time", "thesis", "other"}
 
 BANNED = (

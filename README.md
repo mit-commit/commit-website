@@ -33,8 +33,9 @@ vocabularies, and how to write the summary — is in
 - On the paper's original entry, add
   `"awards": [{"name": "Most Influential PLDI Paper Award", "year": 2023, "kind": "test-of-time"}]`
   (and update `price` for the badge text). Never duplicate the entry.
-- When the publications page is grouped by year, the award year then shows a
-  one-line pointer to the paper. See `docs/adding-a-paper.md`.
+- When the publications page is grouped by year, the paper then appears
+  twice: under its own year and, as the same normal entry, under the award
+  year. It is still counted once. See `docs/adding-a-paper.md`.
 
 ## How the site is put together
 

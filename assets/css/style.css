@@ -329,12 +329,6 @@ span.exhibit-collectionSummaryWidget-count { font-size: 129%;  font-weight: bold
 /* Yellow highlight for awards/prices */
 .pub-price { background: #fff8c6; padding: 2px 6px; border-radius: 4px; display: inline-block; margin-top: 4px; font-weight: 600; }
 
-/* Award-year echo: a one-line pointer to an older paper's later award
-   (rendered under the award year when grouping by year; not a pub-item). */
-.pub-echo { list-style: none; margin: 4px 0 10px; padding: 4px 8px; border-left: 3px solid #e6c200; background: #fffdf0; line-height: 1.4; }
-.pub-echo-badge { font-weight: 600; }
-.pub-echo-orig { color: #666; }
-.pub-item.pub-flash { background: #fff3a8; transition: background 0.6s ease; }
 
 
 /* Facet list layout (compact) */

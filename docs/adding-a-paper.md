@@ -58,9 +58,9 @@ repo is site-relative.
      A **test-of-time** award (most-influential, retrospective, 10-year)
      arrives years after the paper. Do not add a second entry for it: add the
      award to the original entry, and when the list is grouped by year the
-     page shows a one-line pointer under the award year that jumps to the
-     paper. The pointer is never counted, faceted, or exported. Example:
-     `halide:pldi:2013`.
+     page shows the paper's normal entry under the award year as well. The
+     copy is added only for display, so the paper is still counted, faceted,
+     and exported once. Examples: `halide:pldi:2013`, `ansel:cases:2012`.
    - `slides` and `video`, when they are files, follow the same rule as `url`:
      a site-relative path to a file in this repo, never a
      `commit.csail.mit.edu` URL. Where a talk exists both as a PDF and as
