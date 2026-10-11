@@ -51,6 +51,16 @@ repo is site-relative.
      when the paper itself points to one), `price` (award text), and
      `featured: true` to put the paper on the front page. Award papers are
      featured automatically.
+   - `awards` (optional, structured) — a list of
+     `{"name": ..., "year": <int>, "kind": ...}`, with `kind` one of
+     `best-paper`, `test-of-time`, `thesis`, `other`. Keep `price` as the
+     human-readable badge text; `awards` is what the site computes with.
+     A **test-of-time** award (most-influential, retrospective, 10-year)
+     arrives years after the paper. Do not add a second entry for it: add the
+     award to the original entry, and when the list is grouped by year the
+     page shows a one-line pointer under the award year that jumps to the
+     paper. The pointer is never counted, faceted, or exported. Example:
+     `halide:pldi:2013`.
    - `slides` and `video`, when they are files, follow the same rule as `url`:
      a site-relative path to a file in this repo, never a
      `commit.csail.mit.edu` URL. Where a talk exists both as a PDF and as

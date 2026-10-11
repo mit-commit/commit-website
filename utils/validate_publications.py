@@ -52,6 +52,11 @@ ITEM_TYPES = {
 
 REQUIRED = ("title", "author0", "year", "bibtexKey", "itemType", "venue", "topics")
 
+# `awards` entries: {"name": str, "year": int, "kind": one of AWARD_KINDS}.
+# A test-of-time award in a later year than the paper gets an echo row under
+# the award year on the publications page.
+AWARD_KINDS = {"best-paper", "test-of-time", "thesis", "other"}
+
 BANNED = (
     "flagship", "seminal", "landmark", "groundbreaking", "pioneering",
     "definitive", "celebrated", "famous", "founding paper", "inflection point",
@@ -121,6 +126,20 @@ def check(entries):
         for f in REQUIRED:
             if not e.get(f):
                 add("ERROR", "missing-field", who, "missing %s" % f)
+
+        if "awards" in e:
+            aw = e["awards"]
+            if not isinstance(aw, list) or not aw:
+                add("ERROR", "bad-awards", who, "awards must be a non-empty list")
+                aw = []
+            for a in aw:
+                if not isinstance(a, dict) or not a.get("name") or not isinstance(a.get("year"), int):
+                    add("ERROR", "bad-awards", who, "each award needs a name and an integer year: %r" % (a,))
+                    continue
+                if a.get("kind") not in AWARD_KINDS:
+                    add("ERROR", "bad-awards", who, "award kind %r not in %s" % (a.get("kind"), sorted(AWARD_KINDS)))
+                if str(e.get("year", "")).isdigit() and a["year"] < int(e["year"]):
+                    add("ERROR", "bad-awards", who, "award year %d precedes paper year %s" % (a["year"], e["year"]))
 
         key = e.get("bibtexKey")
         if key:

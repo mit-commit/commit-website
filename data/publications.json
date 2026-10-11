@@ -2508,7 +2508,14 @@
   "project": "Halide",
   "venue": "PLDI",
   "featured": true,
-  "doi": "10.1145/2491956.2462176"
+  "doi": "10.1145/2491956.2462176",
+  "awards": [
+   {
+    "name": "Most Influential PLDI Paper Award",
+    "year": 2023,
+    "kind": "test-of-time"
+   }
+  ]
  },
  {
   "title": "Dynamic Expressivity with Static Optimization for Streaming Languages",
@@ -2570,7 +2577,15 @@
   ],
   "project": "PetaBricks",
   "venue": "CASES",
-  "doi": "10.1145/2380403.2380425"
+  "doi": "10.1145/2380403.2380425",
+  "price": "CASES Test of Time Award, 2026",
+  "awards": [
+   {
+    "name": "CASES Test of Time Award",
+    "year": 2026,
+    "kind": "test-of-time"
+   }
+  ]
  },
  {
   "title": "Decoupling Algorithms from Schedules for Easy Optimization of Image Processing Pipelines",

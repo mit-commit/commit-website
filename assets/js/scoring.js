@@ -9,8 +9,9 @@
    featuredOf — the home page's Featured list:
        10e^(-age/5) + [award] 20e^(-awardAge/12) + citations/100
        + repos/250   (theses excluded by the caller)
-   Award age counts from the AWARD's own year — the latest year in the
-   award text >= the paper year (Halide's 2023 Test-of-Time is recent). */
+   Award age counts from the AWARD's own year — the latest `awards[].year`,
+   else the latest year in the `price` text, >= the paper year (Halide's
+   2023 Test-of-Time is recent). */
 var SCORING = (function () {
   'use strict';
 
@@ -19,12 +20,23 @@ var SCORING = (function () {
     return isNaN(y) ? nowY : y;
   }
 
+  // Structured awards ({name, year, kind}) take precedence; the year
+  // scraped from free-text `price` is the fallback for older entries.
+  function awardList(it) {
+    return (it && Array.isArray(it.awards)) ? it.awards.filter(function (a) { return a && a.year; }) : [];
+  }
+
+  function hasAward(it) {
+    return !!(it && (it.price || awardList(it).length));
+  }
+
   function awardYearOf(it, nowY) {
     var py = yearOf(it, nowY);
-    var m = String(it.price || '').match(/\b(19|20)\d{2}\b/g) || [];
+    var cands = awardList(it).map(function (a) { return String(a.year); });
+    if (!cands.length) cands = String(it.price || '').match(/\b(19|20)\d{2}\b/g) || [];
     var best = py;
-    for (var i = 0; i < m.length; i++) {
-      var yy = parseInt(m[i], 10);
+    for (var i = 0; i < cands.length; i++) {
+      var yy = parseInt(cands[i], 10);
       if (yy >= py && yy > best) best = yy;
     }
     return best;
@@ -71,7 +83,7 @@ var SCORING = (function () {
   function impactOf(it, citeRow, repoRow, nowY) {
     var age = nowY - yearOf(it, nowY);
     var s = 2 * Math.exp(-age / 5);
-    if (it.price) s += 5 * Math.exp(-(nowY - awardYearOf(it, nowY)) / 10);
+    if (hasAward(it)) s += 5 * Math.exp(-(nowY - awardYearOf(it, nowY)) / 10);
     s += displayCount(citeRow) / 100;
     if (repoRow) s += (repoRow.repos || 0) / 1000;
     s += venueBonus(it.venue);
@@ -82,7 +94,7 @@ var SCORING = (function () {
   function featuredOf(it, citeRow, repoRow, nowY) {
     var age = nowY - yearOf(it, nowY);
     var s = 10 * Math.exp(-age / 5);
-    if (it.price) s += 20 * Math.exp(-(nowY - awardYearOf(it, nowY)) / 12);
+    if (hasAward(it)) s += 20 * Math.exp(-(nowY - awardYearOf(it, nowY)) / 12);
     s += displayCount(citeRow) / 100;
     if (repoRow) s += (repoRow.repos || 0) / 250;
     return s;

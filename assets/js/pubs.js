@@ -206,10 +206,14 @@ function localizeAssetURL(url) {
       if (_rr && CITATIONS.attachRepoToggle) CITATIONS.attachRepoToggle(metaLine, li, it.bibtexKey, _rr);
     }
 
-    if (it.price) {
+    // Award badge: free-text `price`, else the structured `awards` list.
+    var awardText = it.price || (Array.isArray(it.awards) ? it.awards : [])
+      .filter(function (a) { return a && a.name && a.year; })
+      .map(function (a) { return a.name + ' (' + a.year + ')'; }).join('; ');
+    if (awardText) {
       var price = document.createElement('div');
       price.className = 'pub-price';
-      price.appendChild(textNode(it.price));
+      price.appendChild(textNode(awardText));
       li.appendChild(price);
     }
 

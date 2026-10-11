@@ -29,6 +29,13 @@ vocabularies, and how to write the summary — is in
 - OR add a `"price" : "Award"` to the json for a publication.
 - Featured publications are ordered by date.
 
+### Record a test-of-time award
+- On the paper's original entry, add
+  `"awards": [{"name": "Most Influential PLDI Paper Award", "year": 2023, "kind": "test-of-time"}]`
+  (and update `price` for the badge text). Never duplicate the entry.
+- When the publications page is grouped by year, the award year then shows a
+  one-line pointer to the paper. See `docs/adding-a-paper.md`.
+
 ## How the site is put together
 
 There is no build step. The four pages are static HTML; each loads its data
