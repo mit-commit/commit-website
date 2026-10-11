@@ -498,23 +498,59 @@ function createBibLink(it){
   // AFTER boot like citers.json; the facet (empty until then) fills in
   // and the list re-renders once it lands.
   var IMPACT_AUTHORS_BY_PAPER = {}, ALL_CITE_AUTHORS = [], CITE_AUTHOR_PAPER_COUNTS = {};
+  var RAW_IMPACT_PEOPLE = null, IMPACT_DONE = false;
+  // Clean the facet's people at load, once both impact-authors.json and the
+  // catalog are in (either may arrive first):
+  //  * merge spellings of one name ("Alexander J Root" / "Alexander J. Root");
+  //  * drop COMMIT co-authors the builder missed through diacritics
+  //    ("Fredrik Kjølstad" vs "Kjolstad, Fredrik") — full first + last name;
+  //  * rank by papers cited in depth (viaCites); code-only accounts
+  //    (viaUses, which counts one repo once per linked paper) come after.
+  function impactNameKey(name){
+    var t = String(name || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/\u00f8/g, 'o').replace(/\u00d8/g, 'O').replace(/\u0142/g, 'l')
+      .toLowerCase().replace(/[^a-z ]/g, ' ').trim().split(/\s+/);
+    return t.length >= 2 ? t[0] + ' ' + t[t.length - 1] : t.join(' ');
+  }
+  function processImpactPeople(){
+    if (IMPACT_DONE || !RAW_IMPACT_PEOPLE || !DATA.length) return;
+    IMPACT_DONE = true;
+    var own = {}, i, j;
+    for (i = 0; i < DATA.length; i++){
+      var as = listNormalizedAuthors(DATA[i]);
+      for (j = 0; j < as.length; j++) own[impactNameKey(as[j])] = 1;
+    }
+    var merged = {}, order = [];
+    for (i = 0; i < RAW_IMPACT_PEOPLE.length; i++){
+      var p = RAW_IMPACT_PEOPLE[i];
+      if (own[impactNameKey(p.name)]) continue;
+      var gk = String(p.name).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z]/g, '');
+      var m = merged[gk];
+      if (!m){ m = merged[gk] = { name: p.name, best: p.count || 0, papers: {}, cites: 0, uses: 0 }; order.push(gk); }
+      else if ((p.count || 0) > m.best){ m.name = p.name; m.best = p.count || 0; }
+      m.cites += p.viaCites || 0; m.uses += p.viaUses || 0;
+      for (j = 0; j < p.papers.length; j++) m.papers[p.papers[j]] = 1;
+    }
+    var byPaper = {}, names = [];
+    for (i = 0; i < order.length; i++){
+      var mm = merged[order[i]], ks = Object.keys(mm.papers);
+      var cites = Math.min(mm.cites, ks.length), uses = Math.min(mm.uses, ks.length);
+      CITE_AUTHOR_PAPER_COUNTS[mm.name] = cites + uses / 1000;   // citers first, then code users
+      names.push(mm.name);
+      for (j = 0; j < ks.length; j++) (byPaper[ks[j]] = byPaper[ks[j]] || []).push(mm.name);
+    }
+    IMPACT_AUTHORS_BY_PAPER = byPaper;
+    ALL_CITE_AUTHORS = names;
+    rebuildCiteAuthorFacet();
+    applyFilters();
+  }
   function listImpactAuthorsOf(it){ return IMPACT_AUTHORS_BY_PAPER[bibtexKeyOf(it)] || []; }
   citeIndexReady.then(function(){
     return fetch('data/impact-authors.json', { cache: 'no-store' })
       .then(function(r){ return r.ok ? r.json() : null; })
       .then(function(d){
-        var people = (d && d.people) || [], byPaper = {}, i, j;
-        for (i = 0; i < people.length; i++){
-          CITE_AUTHOR_PAPER_COUNTS[people[i].name] = people[i].count;
-          for (j = 0; j < people[i].papers.length; j++){
-            var k = people[i].papers[j];
-            (byPaper[k] = byPaper[k] || []).push(people[i].name);
-          }
-        }
-        IMPACT_AUTHORS_BY_PAPER = byPaper;
-        ALL_CITE_AUTHORS = people.map(function(p){ return p.name; });
-        rebuildCiteAuthorFacet();
-        applyFilters();
+        RAW_IMPACT_PEOPLE = (d && d.people) || [];
+        processImpactPeople();
       })
       .catch(function(e){ dataLoadFailed('data/impact-authors.json', e); });
   });
@@ -2316,6 +2352,7 @@ if (els.sortReset) els.sortReset.onclick = function(){
     dedup.push(bestByKey[order[j]]);
   }
   DATA = dedup;
+  processImpactPeople();   // impact-authors.json may have arrived first
 })();
 
 
