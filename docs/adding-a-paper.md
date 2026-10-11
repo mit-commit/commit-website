@@ -26,9 +26,17 @@ repo is site-relative.
 
 2. **Place the PDF** at `papers/<year>/<filename>.pdf`, using the naming
    convention `<lastname>-<venue><yy>-<short>.pdf` — for example
-   `won-asplos26-insum.pdf`. Older files keep their historical names; new ones
+   `won-asplos26-insum.pdf`. `<year>` is the entry's `year`, the year this
+   version was published, not the year of a preprint or submission; the
+   validator warns when they differ. Older files keep their historical names; new ones
    follow the convention. Store the author's camera-ready version, not a
    publisher's PDF wrapped in landing-page apparatus.
+
+   Before adding a file, check `papers/<year>/` for one that is already there
+   under another name — the same paper has sometimes been uploaded twice. And
+   after writing the entry, open the PDF its `url` points at and confirm it is
+   this paper: the validator only checks that the file exists, so an entry
+   pointing at a neighbouring paper's PDF passes cleanly.
 
 3. **Add an entry to `data/publications.json`** with the existing fields:
    `title`, `author0` (all authors in paper order, in one field), `month`,
@@ -43,6 +51,10 @@ repo is site-relative.
      when the paper itself points to one), `price` (award text), and
      `featured: true` to put the paper on the front page. Award papers are
      featured automatically.
+   - `slides` and `video`, when they are files, follow the same rule as `url`:
+     a site-relative path to a file in this repo, never a
+     `commit.csail.mit.edu` URL. Where a talk exists both as a PDF and as
+     PowerPoint, link the PDF — it opens in the browser, the `.ppt` downloads.
 
 4. **Tags — the vocabulary is FIXED.** Do not invent new topic or project
    names; if a genuinely new area appears, extending the vocabulary is a
@@ -202,14 +214,41 @@ immediately can be parked in `utils/validation_baseline.json` with
 `--write-baseline`; that file does not currently exist, because nothing is
 parked.
 
+### Known warnings
+
+After the October 2026 audit the validator reports 0 errors and 36 warnings.
+These 36 are understood, and a change that adds a warning outside this list
+deserves a look:
+
+- **24 `possible-duplicate`** — each is a technical report, thesis, or journal
+  version that shares its title with a conference paper. The `itemType`s
+  differ, so the page shows both; all 332 entries render.
+- **4 `year-mismatch`** — `tiramisu` and `kjolstad:2018:workspaces` (CGO 2019),
+  `taylor:hpca:2003` (HPCA 2003), and `del2017common` (ICCD 2017) sit in the
+  folder of their preprint year. They are linked from many other summaries and
+  from outside the site, so they stay where they are.
+- **5 `no-url`** — three talks that have slides but no paper
+  (`ansel:smart:2011`, `amarasinghe:other:2006`, `amarasinghe:other:2007`);
+  `olszewski:wodet:2011`, a workshop paper with no PDF in the repo; and
+  `babb:lcs-tr:1998`, MIT/LCS TR-769, which is not in the LCS publications
+  archive.
+- **3 `time-anchored-soft`** — "Pareto frontier", "frontier task division",
+  and "current execution": technical uses, not time anchors.
+
+The remaining `commit.csail.mit.edu` URLs in the file are inside `oldbibtex`
+fields, which the validator does not check for links. They appear in the BibTeX
+readers download, and still point into the old tree.
+
 Commit the PDF and the `data/publications.json` change together, and list any
 older entries whose summaries gained a forward mention in the commit message.
 
 ### Checklist before committing
 
 1. Not a duplicate; no title+`itemType` collision with an existing entry.
-2. PDF in `papers/<year>/`, named per the convention.
-3. `url` relative; `bibtexKey` unique; no `oldbibtex`.
+2. PDF in `papers/<year>/` for the publication year, named per the
+   convention, not already present under another name — and the `url` opens
+   this paper, not a neighbour.
+3. `url`, `slides`, `video` relative; `bibtexKey` unique; no `oldbibtex`.
 4. ≤150 visible words; two paragraphs (or fewer per the zero/one-connection
    rules).
 5. Paragraph 1 covers the contributions, with the paper's own numbers.
@@ -219,4 +258,5 @@ older entries whose summaries gained a forward mention in the commit message.
 8. Topics/project from the fixed vocabularies; at most one project.
 9. Forward mentions added to the older papers this one builds on (optional but
    preferred).
-10. `utils/validate_publications.py` reports no errors.
+10. `utils/validate_publications.py` reports no errors, and no warnings beyond
+    those under "Known warnings".
