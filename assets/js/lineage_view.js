@@ -2,7 +2,7 @@
    (lineage_panel.js).
      LINEAGE_VIEW.load(slug)            -> Promise of data/lineage/<slug>.json (cached)
      new LINEAGE_VIEW.View(container, data) -> a live map inside container
-       view.setFocus(nodeId|null)       pre-select a paper (red outline on COMMIT papers)
+       view.setFocus(nodeId|null, pin)  mark a paper (red outline); pin keeps its lines drawn with lines off
        view.setLines(bool)              true: draw every line (others faded when a paper is selected);
                                         false: draw only the selected/hovered paper's lines (none if nothing selected)
        view.q / view.deep / view.apply() search text, "chains only" filter
@@ -60,7 +60,7 @@ var LINEAGE_VIEW = (function () {
 
   function View(container, d) {
     var self = this;
-    this.c = container; this.d = d; this.hover = null; this.focus = null;
+    this.c = container; this.d = d; this.hover = null; this.focus = null; this.pinned = false;
     this.hidden = {}; this.q = ''; this.deep = false; this.onstats = null; this.lines = true;
     var wrap = document.createElement('div');
     wrap.innerHTML = d.svg;
@@ -91,7 +91,7 @@ var LINEAGE_VIEW = (function () {
         self.apply();
         return;
       }
-      if (self.focus && ev.target.closest && ev.target.closest('svg')) { self.focus = null; self.apply(); }
+      if (self.focus && ev.target.closest && ev.target.closest('svg')) { self.focus = null; self.pinned = false; self.apply(); }
     });
     this.apply();
   }
@@ -107,8 +107,11 @@ var LINEAGE_VIEW = (function () {
     keep.up = up; keep.down = down;
     return keep;
   };
-  View.prototype.setFocus = function (id) {
+  // pin=false: the paper is marked (outline, family highlighted) but with "Show all lines" off
+  // its lines appear only on hover; pin=true (shift-click in the playground) keeps them drawn.
+  View.prototype.setFocus = function (id, pin) {
     this.focus = (id && this.d.nodes[id]) ? id : null;
+    this.pinned = !!(this.focus && pin);
     this.apply();
     return this.focus;
   };
@@ -140,7 +143,7 @@ var LINEAGE_VIEW = (function () {
       // only links on a path through the selected paper light up
       var hot = keep && ((keep.down[a] && keep.down[b.id] && (a === sel || d.nodes[a].gen !== 0)) ||
                          (keep.up[a] && keep.up[b.id]));
-      p.style.display = (vis && (self.lines || hot)) ? '' : 'none';
+      p.style.display = (vis && (self.lines || (hot && (self.hover || self.pinned)))) ? '' : 'none';
       p.classList.toggle('hot', !!hot);
       p.classList.toggle('dim', !!keep && !hot);
     });

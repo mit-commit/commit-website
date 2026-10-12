@@ -46,10 +46,10 @@
   {
    "slug": "dynamorio",
    "title": "DynamoRIO and Program Shepherding lineage",
-   "count": 245,
-   "generations": 4,
+   "count": 256,
+   "generations": 5,
    "roots": 25,
-   "outside": 242
+   "outside": 252
   },
   {
    "slug": "metaopt",

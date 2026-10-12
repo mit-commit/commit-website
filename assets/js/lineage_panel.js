@@ -2,7 +2,7 @@
    Sits next to the Citations and Repositories toggles. Clicking it opens a popup
    window with the lineage map centred on this paper (red outline); hover a paper
    to see it, click to open it; click an empty spot to clear the selection. The
-   "Show all lines" switch (remembered): off draws only the selected paper's lines.
+   "Show all lines" switch (remembered): off hides all lines; hovering a paper draws its lines.
    Esc, the close button, or a click outside closes it.
    Needs lineage_view.js (the map) loaded first.
    Usage: LINEAGE_PANEL.attach(metaEl, bodyParent, bibtexKey) */
