@@ -1130,6 +1130,8 @@ function buildFacetBox(list, mount, facetKey, stateMap, labelFor) {
       var repoRow = REPO_INDEX[bibtexKeyOf(it)];
       if (repoRow) CITATIONS.attachRepoToggle(meta, li, bibtexKeyOf(it), repoRow);
     }
+    // Lineage panel (only COMMIT papers that root a lineage map; data/lineage/papers.json).
+    if (window.LINEAGE_PANEL) LINEAGE_PANEL.attach(meta, li, bibtexKeyOf(it));
 
     var awardText = it.price || awardsOf(it).map(function(a){ return a.name + ' (' + a.year + ')'; }).join('; ');
     if (awardText){ var pr=document.createElement('div'); pr.className='pub-price'; pr.appendChild(text(awardText)); li.appendChild(pr); }

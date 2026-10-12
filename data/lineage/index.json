@@ -1,0 +1,23 @@
+{
+ "schema": 1,
+ "generated": "2026-10-12",
+ "method": "Generation 1 is exactly this site's citation classification: every paper the Citations panel records as extending a COMMIT paper, using it as a tool, or adopting its idea. Later generations were traced through Semantic Scholar and admitted only with a quoted sentence showing the dependence and that it carries the line's idea; where a later paper also cites a COMMIT paper directly, the site's classification decides. The tracing finds an estimated 55–60% of true descendants, so later generations are lower bounds. Research areas are assigned from title and venue.",
+ "lines": [
+  {
+   "slug": "streamit",
+   "title": "StreamIt lineage",
+   "count": 218,
+   "generations": 3,
+   "roots": 19,
+   "outside": 199
+  },
+  {
+   "slug": "taco-finch",
+   "title": "TACO and Finch lineage",
+   "count": 130,
+   "generations": 2,
+   "roots": 12,
+   "outside": 116
+  }
+ ]
+}

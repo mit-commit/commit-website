@@ -205,6 +205,7 @@ function localizeAssetURL(url) {
       var _rr = PUBS._repoIndex && PUBS._repoIndex[it.bibtexKey];
       if (_rr && CITATIONS.attachRepoToggle) CITATIONS.attachRepoToggle(metaLine, li, it.bibtexKey, _rr);
     }
+    if (window.LINEAGE_PANEL) LINEAGE_PANEL.attach(metaLine, li, it.bibtexKey);
 
     // Award badge: free-text `price`, else the structured `awards` list.
     var awardText = it.price || (Array.isArray(it.awards) ? it.awards : [])

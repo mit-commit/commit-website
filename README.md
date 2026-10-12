@@ -49,6 +49,12 @@ pushed to `main` and GitHub Pages redeploys.
 | `publications.html` | `pubs.js`, `citations.js`, `scoring.js`, `publications.js` | `publications.json`, `citations/index.json`, `citations/reception.json`, `citations/citers.json`, `repos/index.json`, `impact-authors.json`, `author-links.json` | `citations/<key>.json`, `repos/papers/<key>.json` when a panel is opened |
 | `people.html` | `people.js`, `rotator.js` | `people.xml` | — |
 | `projects.html` | `projects.js` | `projects.xml` | — |
+| `lineage.html` | `lineage.js` | `lineage/index.json` | `lineage/<line>.json` when its tab is opened |
+
+The publications and home pages also load `lineage_panel.js`, which adds a
+"Lineage" panel to each COMMIT paper that roots a lineage map
+(`lineage/papers.json`). The lineage data is generated offline and must agree
+with `data/citations/`: see `data/lineage/README.md`.
 
 All paths are under `data/`. Per-paper files are named by `bibtexKey` with
 `:` replaced by `_`, so **a `bibtexKey` must never change once citation data
