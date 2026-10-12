@@ -90,13 +90,15 @@ var LINEAGE_VIEW = (function () {
     });
     this.apply();
   }
+  // The selected paper, what it builds on (up) and what builds on it (down).
+  // Descendants stop at another COMMIT paper: it lights up, its own descendants belong to its own map.
   View.prototype.family = function (id) {
-    var d = this.d, keep = {};
-    keep[id] = 1;
-    (function up(x) { (d.par[x] || []).forEach(function (p) { if (!keep[p]) { keep[p] = 1; up(p); } }); })(id);
-    // Descendants stop at another COMMIT paper: it lights up, its own descendants belong to its own panel.
-    (function down(x) { (d.kid[x] || []).forEach(function (k) {
-      if (!keep[k]) { keep[k] = 1; if (d.nodes[k].gen !== 0) down(k); } }); })(id);
+    var d = this.d, up = {}, down = {}, keep = {};
+    up[id] = down[id] = keep[id] = 1;
+    (function u(x) { (d.par[x] || []).forEach(function (p) { if (!up[p]) { up[p] = keep[p] = 1; u(p); } }); })(id);
+    (function w(x) { (d.kid[x] || []).forEach(function (k) {
+      if (!down[k]) { down[k] = keep[k] = 1; if (d.nodes[k].gen !== 0) w(k); } }); })(id);
+    keep.up = up; keep.down = down;
     return keep;
   };
   View.prototype.setFocus = function (id) {
@@ -129,7 +131,9 @@ var LINEAGE_VIEW = (function () {
     this.svg.querySelectorAll('.edges path').forEach(function (p) {
       var a = p.getAttribute('data-a'), b = d.nodes[p.getAttribute('data-b')];
       var vis = !self.hidden[b.how] && (!self.deep || b.gen >= 2);
-      var hot = keep && keep[a] && keep[b.id];
+      // only links on a path through the selected paper light up
+      var hot = keep && ((keep.down[a] && keep.down[b.id] && (a === sel || d.nodes[a].gen !== 0)) ||
+                         (keep.up[a] && keep.up[b.id]));
       p.style.display = vis ? '' : 'none';
       p.classList.toggle('hot', !!hot);
       p.classList.toggle('dim', !!keep && !hot);

@@ -741,8 +741,10 @@ ul.person.alumni-cols { float: none; columns: 3; column-gap: 36px; max-width: 10
 .lin-wrap svg.lin { display: block; width: 100%; min-width: 1100px; height: auto; }
 .lin-wrap .nd { cursor: pointer; }
 .lin-wrap .dim { opacity: .12; }
+.lin-wrap path.dim { opacity: .05; }
+.lin-wrap .edges path { stroke-width: 1; }
 .lin-wrap .lg { cursor: pointer; }
-.lin-wrap path.hot { stroke-opacity: .95 !important; stroke-width: 2.2 !important; }
+.lin-wrap path.hot { stroke-opacity: .85 !important; stroke-width: 1.1 !important; }
 .lin-wrap .hit { stroke: #15202b !important; stroke-width: 2.5 !important; }
 /* the selected COMMIT paper (a black square) gets a red outline */
 .lin-wrap rect.nd.sel { stroke: #d0021b !important; stroke-width: 3.5 !important; opacity: 1 !important; }
