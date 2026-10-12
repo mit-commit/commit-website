@@ -3,7 +3,8 @@
      LINEAGE_VIEW.load(slug)            -> Promise of data/lineage/<slug>.json (cached)
      new LINEAGE_VIEW.View(container, data) -> a live map inside container
        view.setFocus(nodeId|null)       pre-select a paper (red outline on COMMIT papers)
-       view.setLines(bool)              with nothing selected: show all lines (true) or none (false)
+       view.setLines(bool)              true: draw every line (others faded when a paper is selected);
+                                        false: draw only the selected/hovered paper's lines (none if nothing selected)
        view.q / view.deep / view.apply() search text, "chains only" filter
        view.onstats = function(shown, total) {}
    Hover a paper: show it and light up its ancestors and descendants.
@@ -139,7 +140,7 @@ var LINEAGE_VIEW = (function () {
       // only links on a path through the selected paper light up
       var hot = keep && ((keep.down[a] && keep.down[b.id] && (a === sel || d.nodes[a].gen !== 0)) ||
                          (keep.up[a] && keep.up[b.id]));
-      p.style.display = (vis && (keep || self.lines)) ? '' : 'none';
+      p.style.display = (vis && (self.lines || hot)) ? '' : 'none';
       p.classList.toggle('hot', !!hot);
       p.classList.toggle('dim', !!keep && !hot);
     });

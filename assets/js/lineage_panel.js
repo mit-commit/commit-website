@@ -1,8 +1,8 @@
 /* "Lineage" link on COMMIT papers that root a lineage map (data/lineage/papers.json).
    Sits next to the Citations and Repositories toggles. Clicking it opens a popup
    window with the lineage map centred on this paper (red outline); hover a paper
-   to see it, click to open it; click an empty spot to clear the selection. A switch
-   chooses whether all lines show when nothing is selected (remembered).
+   to see it, click to open it; click an empty spot to clear the selection. The
+   "Show all lines" switch (remembered): off draws only the selected paper's lines.
    Esc, the close button, or a click outside closes it.
    Needs lineage_view.js (the map) loaded first.
    Usage: LINEAGE_PANEL.attach(metaEl, bodyParent, bibtexKey) */
@@ -27,7 +27,7 @@ var LINEAGE_PANEL = (function () {
       w.forEach(function (a) { if (document.contains(a[0])) attach(a[0], a[1], a[2]); });
     });
 
-  // remembered "all lines when nothing is selected" choice (default: on)
+  // remembered "Show all lines" choice (default: on)
   function linesPref(set) {
     try {
       if (set !== undefined) localStorage.setItem('linLines', set ? '1' : '0');
@@ -55,8 +55,8 @@ var LINEAGE_PANEL = (function () {
     var sw = el('label', 'lin-switch'), cb = document.createElement('input');
     cb.type = 'checkbox'; cb.checked = linesPref();
     sw.appendChild(cb); sw.appendChild(el('span', 'lin-knob'));
-    sw.appendChild(el('span', 'lin-switch-txt', 'All lines when nothing is selected'));
-    sw.title = 'Click an empty spot on the map to clear the selection';
+    sw.appendChild(el('span', 'lin-switch-txt', 'Show all lines'));
+    sw.title = 'Off: only the selected paper\u2019s lines. Click an empty spot on the map to clear the selection.';
     bar.appendChild(sw);
     var mapBox = el('div', 'lin-wrap');
     mapBox.appendChild(el('div', 'cite-loading', 'Loading the map\u2026'));
