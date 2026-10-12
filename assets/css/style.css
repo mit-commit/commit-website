@@ -761,4 +761,12 @@ ul.person.alumni-cols { float: none; columns: 3; column-gap: 36px; max-width: 10
   box-shadow: 0 10px 40px rgba(0,0,0,.25); padding: 8px 10px 6px; }
 .lin-modal-close { position: sticky; top: 0; float: right; z-index: 2; font-size: 28px; line-height: 1; background: #fff; border: 1px solid #d9dee4;
   border-radius: 50%; width: 36px; height: 36px; cursor: pointer; color: #4a5866; }
+.lin-modal-bar { display: flex; align-items: center; gap: 12px; min-height: 36px; padding: 0 48px 0 4px; font-size: 13px; color: #4a5866; }
+.lin-switch { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; user-select: none; }
+.lin-switch input { position: absolute; opacity: 0; width: 0; height: 0; }
+.lin-knob { position: relative; width: 34px; height: 18px; border-radius: 9px; background: #c4ccd4; transition: background .15s; flex: none; }
+.lin-knob::after { content: ''; position: absolute; top: 2px; left: 2px; width: 14px; height: 14px; border-radius: 50%; background: #fff; transition: left .15s; }
+.lin-switch input:checked + .lin-knob { background: #15202b; }
+.lin-switch input:checked + .lin-knob::after { left: 18px; }
+.lin-switch input:focus-visible + .lin-knob { outline: 2px solid #d0021b; outline-offset: 2px; }
 .lin-modal-close:hover { color: #15202b; border-color: #15202b; }

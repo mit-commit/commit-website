@@ -1,7 +1,9 @@
 /* "Lineage" link on COMMIT papers that root a lineage map (data/lineage/papers.json).
    Sits next to the Citations and Repositories toggles. Clicking it opens a popup
    window with the lineage map centred on this paper (red outline); hover a paper
-   to see it, click to open it. Esc, the close button, or a click outside closes it.
+   to see it, click to open it; click an empty spot to clear the selection. A switch
+   chooses whether all lines show when nothing is selected (remembered).
+   Esc, the close button, or a click outside closes it.
    Needs lineage_view.js (the map) loaded first.
    Usage: LINEAGE_PANEL.attach(metaEl, bodyParent, bibtexKey) */
 var LINEAGE_PANEL = (function () {
@@ -25,6 +27,14 @@ var LINEAGE_PANEL = (function () {
       w.forEach(function (a) { if (document.contains(a[0])) attach(a[0], a[1], a[2]); });
     });
 
+  // remembered "all lines when nothing is selected" choice (default: on)
+  function linesPref(set) {
+    try {
+      if (set !== undefined) localStorage.setItem('linLines', set ? '1' : '0');
+      return localStorage.getItem('linLines') !== '0';
+    } catch (e) { return set !== undefined ? !!set : true; }
+  }
+
   function close() {
     if (!modal) return;
     modal.remove(); modal = null;
@@ -41,9 +51,16 @@ var LINEAGE_PANEL = (function () {
     box.setAttribute('role', 'dialog'); box.setAttribute('aria-modal', 'true');
     var x = el('button', 'lin-modal-close', '\u00d7'); x.setAttribute('aria-label', 'Close');
     x.addEventListener('click', close);
+    var bar = el('div', 'lin-modal-bar');
+    var sw = el('label', 'lin-switch'), cb = document.createElement('input');
+    cb.type = 'checkbox'; cb.checked = linesPref();
+    sw.appendChild(cb); sw.appendChild(el('span', 'lin-knob'));
+    sw.appendChild(el('span', 'lin-switch-txt', 'All lines when nothing is selected'));
+    sw.title = 'Click an empty spot on the map to clear the selection';
+    bar.appendChild(sw);
     var mapBox = el('div', 'lin-wrap');
     mapBox.appendChild(el('div', 'cite-loading', 'Loading the map\u2026'));
-    box.appendChild(x); box.appendChild(mapBox); modal.appendChild(box);
+    box.appendChild(x); box.appendChild(bar); box.appendChild(mapBox); modal.appendChild(box);
     modal.addEventListener('click', function (ev) { if (ev.target === modal) close(); });
     document.addEventListener('keydown', onKey);
     document.body.appendChild(modal);
@@ -52,6 +69,8 @@ var LINEAGE_PANEL = (function () {
       if (!modal || !box.contains(mapBox)) return;
       mapBox.innerHTML = '';
       var v = new LINEAGE_VIEW.View(mapBox, d);
+      v.lines = cb.checked;
+      cb.addEventListener('change', function () { v.setLines(cb.checked); linesPref(cb.checked); });
       v.setFocus(entry.focus);
       var sel = v.nodeEl(entry.focus);                     // bring the paper into view
       if (sel && sel.getBoundingClientRect && box.scrollTo) {

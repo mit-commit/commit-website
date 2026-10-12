@@ -3,10 +3,12 @@
      LINEAGE_VIEW.load(slug)            -> Promise of data/lineage/<slug>.json (cached)
      new LINEAGE_VIEW.View(container, data) -> a live map inside container
        view.setFocus(nodeId|null)       pre-select a paper (red outline on COMMIT papers)
+       view.setLines(bool)              with nothing selected: show all lines (true) or none (false)
        view.q / view.deep / view.apply() search text, "chains only" filter
        view.onstats = function(shown, total) {}
    Hover a paper: show it and light up its ancestors and descendants.
-   Click a paper: open it. Click a legend entry: hide/show that kind of link. */
+   Click a paper: open it. Click a legend entry: hide/show that kind of link.
+   Click an empty spot: clear the selection. */
 var LINEAGE_VIEW = (function () {
   'use strict';
   var BASE = 'data/lineage/', cache = {}, tip = null;
@@ -58,7 +60,7 @@ var LINEAGE_VIEW = (function () {
   function View(container, d) {
     var self = this;
     this.c = container; this.d = d; this.hover = null; this.focus = null;
-    this.hidden = {}; this.q = ''; this.deep = false; this.onstats = null;
+    this.hidden = {}; this.q = ''; this.deep = false; this.onstats = null; this.lines = true;
     var wrap = document.createElement('div');
     wrap.innerHTML = d.svg;
     this.svg = wrap.querySelector('svg');
@@ -86,10 +88,13 @@ var LINEAGE_VIEW = (function () {
         var h = lg.getAttribute('data-how'); self.hidden[h] = !self.hidden[h];
         container.querySelectorAll('.lg[data-how="' + h + '"]').forEach(function (x) { x.style.opacity = self.hidden[h] ? 0.3 : 1; });
         self.apply();
+        return;
       }
+      if (self.focus && ev.target.closest && ev.target.closest('svg')) { self.focus = null; self.apply(); }
     });
     this.apply();
   }
+  View.prototype.setLines = function (on) { this.lines = !!on; this.apply(); };
   // The selected paper, what it builds on (up) and what builds on it (down).
   // Descendants stop at another COMMIT paper: it lights up, its own descendants belong to its own map.
   View.prototype.family = function (id) {
@@ -134,7 +139,7 @@ var LINEAGE_VIEW = (function () {
       // only links on a path through the selected paper light up
       var hot = keep && ((keep.down[a] && keep.down[b.id] && (a === sel || d.nodes[a].gen !== 0)) ||
                          (keep.up[a] && keep.up[b.id]));
-      p.style.display = vis ? '' : 'none';
+      p.style.display = (vis && (keep || self.lines)) ? '' : 'none';
       p.classList.toggle('hot', !!hot);
       p.classList.toggle('dim', !!keep && !hot);
     });
