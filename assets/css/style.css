@@ -736,15 +736,7 @@ ul.person.alumni-cols { float: none; columns: 3; column-gap: 36px; max-width: 10
   ul.person.alumni-cols { columns: 2; column-gap: 20px; }
 }
 
-/* ---------- Lineage page (lineage.html, assets/js/lineage.js) ---------- */
-.lin-intro { color: #4a5866; max-width: 1050px; margin: 4px 0 10px; text-align: left; }
-.lin-bar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin: 8px 0; font-size: 14px; }
-.lin-bar .tab { border: 1px solid #d9dee4; background: #fff; padding: 6px 14px; border-radius: 5px; cursor: pointer; font-size: 14px; margin-right: 4px; }
-.lin-bar .tab.on { background: #15202b; color: #fff; border-color: #15202b; }
-.lin-bar input[type=search] { padding: 6px 10px; border: 1px solid #d9dee4; border-radius: 5px; width: 240px; font-size: 14px; }
-.lin-bar label { color: #4a5866; }
-.lin-stats { color: #7b8794; margin-left: auto; }
-.lin-focus { display: none; background: #fff8e8; border-left: 3px solid #d0021b; padding: 6px 10px; margin: 4px 0 8px; font-size: 14px; text-align: left; }
+/* ---------- Lineage map (assets/js/lineage_view.js, lineage_panel.js) ---------- */
 .lin-wrap { overflow-x: auto; }
 .lin-wrap svg.lin { display: block; width: 100%; min-width: 1100px; height: auto; }
 .lin-wrap .nd { cursor: pointer; }
@@ -756,7 +748,15 @@ ul.person.alumni-cols { float: none; columns: 3; column-gap: 36px; max-width: 10
 .lin-wrap rect.nd.sel { stroke: #d0021b !important; stroke-width: 3.5 !important; opacity: 1 !important; }
 .lin-wrap circle.nd.sel { stroke: #15202b !important; stroke-width: 2.5 !important; opacity: 1 !important; }
 .lin-tip { position: fixed; pointer-events: none; max-width: 430px; background: #fff; border: 1px solid #d9dee4; border-radius: 6px;
-  box-shadow: 0 4px 18px rgba(0,0,0,.12); padding: 10px 12px; font-size: 13px; line-height: 1.4; display: none; z-index: 20; text-align: left; }
+  box-shadow: 0 4px 18px rgba(0,0,0,.12); padding: 10px 12px; font-size: 13px; line-height: 1.4; display: none; z-index: 1100; text-align: left; }
 .lin-tip b { font-size: 14px; } .lin-tip .m { color: #7b8794; } .lin-tip .r { margin-top: 6px; }
 .lin-tip q { display: block; color: #4a5866; font-style: italic; margin-top: 6px; }
 .lin-method { color: #7b8794; font-size: 12.5px; max-width: 1100px; text-align: left; }
+
+/* Lineage popup (assets/js/lineage_panel.js) */
+.lin-modal { position: fixed; inset: 0; background: rgba(21,32,43,.45); z-index: 1000; display: flex; align-items: center; justify-content: center; }
+.lin-modal-box { position: relative; background: #fff; width: min(1600px, 96vw); max-height: 92vh; overflow: auto; border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0,0,0,.25); padding: 8px 10px 6px; }
+.lin-modal-close { position: sticky; top: 0; float: right; z-index: 2; font-size: 28px; line-height: 1; background: #fff; border: 1px solid #d9dee4;
+  border-radius: 50%; width: 36px; height: 36px; cursor: pointer; color: #4a5866; }
+.lin-modal-close:hover { color: #15202b; border-color: #15202b; }
