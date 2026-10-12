@@ -39,7 +39,7 @@
   },
   {
    "title": "Bit-Packing Optimization for StreamIt",
-   "function": "exemplifies",
+   "function": "extends",
    "split": "passing",
    "year": 2003,
    "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
@@ -52,7 +52,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Bit-Packing Optimization for StreamIt”"
+   }
   },
   {
    "title": "Language and compiler support for stream programs",
@@ -88,14 +94,20 @@
   },
   {
    "title": "Recognizing Linear Data Transformations in StreamIt",
-   "function": "passing-citation",
+   "function": "uses-tool",
    "split": "passing",
    "authors": "A. Lamb",
    "url": "https://www.semanticscholar.org/paper/a005cbe3d5638ec4de7f0047c7a7a6009b7b06d5",
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Recognizing Linear Data Transformations in StreamIt”"
+   }
   },
   {
    "title": "ARCc: A case for an architecturally redundant cache-coherence architecture for large multicores",

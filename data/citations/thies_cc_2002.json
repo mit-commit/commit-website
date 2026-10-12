@@ -3106,7 +3106,7 @@
   },
   {
    "title": "SongC: A Compiler for Hybrid Near-Memory and In-Memory Many-Core Architecture",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "cited_by": 8,
    "year": 2023,
@@ -3115,7 +3115,13 @@
    "url": "https://doi.org/10.1109/tc.2023.3311948",
    "centrality": "engaged",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The compiler [38] for StreaMIT [39] includes partitioning to adjust the granularity of stream graphs and layout to assign graph nodes to hardware computation units (by our arranger), and scheduling to generate static communication patterns (by our orchestrator)"
+   }
   },
   {
    "title": "Tydi-Chisel: Collaborative and Interface-Driven Data-Streaming Accelerators",
@@ -3807,7 +3813,7 @@
   },
   {
    "title": "Libra: Achieving Efficient Instruction- and Data- Parallel Execution for Mobile Applications.",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "cited_by": 0,
    "year": 2013,
@@ -3815,7 +3821,13 @@
    "url": "https://www.semanticscholar.org/paper/d1ea39ba7719d02d32806f1dcad6b4851e30c9fa",
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "we focus on stream-style C code where a program is represented as a set of autonomous actors (also called filters) that operate on data and communicate through first-in first-out data channels [87]"
+   }
   },
   {
    "title": "Supporting Iteration in a Heterogeneous Data Flow Engine",
@@ -9402,7 +9414,7 @@
   },
   {
    "title": "Compiling high throughput network processors",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "cited_by": 12,
    "year": 2012,
@@ -9411,7 +9423,13 @@
    "url": "https://doi.org/10.1145/2145694.2145709",
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Optimus maps StreamIt [35] applications, that are described using streaming graph and filter kernels, to FPGAs."
+   }
   },
   {
    "title": "High-Level Support for Pipeline Parallelism on Many-Core Architectures",
@@ -9696,7 +9714,7 @@
   },
   {
    "title": "Minimizing expected energy consumption for streaming applications with linear dependencies on chip multiprocessors",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "cited_by": 2,
    "year": 2009,
@@ -9705,7 +9723,13 @@
    "url": "https://doi.org/10.1109/sies.2009.5196201",
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "We assume the program for each task follows stream programming style [18]"
+   }
   },
   {
    "title": "Persistent Temporal Streams",
@@ -9979,7 +10003,7 @@
   },
   {
    "title": "Integrated Software Synthesis for Signal Processing Applications",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "cited_by": 1,
    "year": 2006,
@@ -9987,7 +10011,13 @@
    "url": "https://openalex.org/W763565936",
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "This work is part of the StreamIt language [55] for developing streaming applications."
+   }
   },
   {
    "title": "Sketching with Partial Programs",

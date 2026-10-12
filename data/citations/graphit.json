@@ -1040,7 +1040,7 @@
   },
   {
    "title": "Graphitron: A Domain Specific Language for FPGA-based Graph Processing Accelerator Generation",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2024,
    "venue": "arXiv.org",
@@ -1049,7 +1049,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Inspired by GraphIt [4, 38], a DSL that decouples graph algorithms from their optimization strategies for CPUs and GPUs, we seek to bring this idea to FPGA acceleration"
+   }
   },
   {
    "title": "NetBlocks: Staging Layouts for High-Performance Custom Host Network Stacks",
@@ -1341,7 +1347,7 @@
   },
   {
    "title": "Formal Semantics for the Halide Language",
-   "function": "exemplifies",
+   "function": "extends",
    "split": "passing",
    "year": 2022,
    "venue": "arXiv.org",
@@ -1350,7 +1356,13 @@
    "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “the widely used array processing language Halide”"
+   }
   },
   {
    "title": "MeshTaichi",
@@ -1895,7 +1907,7 @@
   },
   {
    "title": "A Multi-target, Multi-paradigm DSL Compiler for Algorithmic Graph Processing",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2022,
    "venue": "Software Language Engineering",
@@ -1907,7 +1919,13 @@
    "secondary": [
     "exemplifies"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The Unified GraphIt Compiler (UGC) implements a graph-specific IR targeting four backends ( GraphVMs ) with different hardware architectures"
+   }
   },
   {
    "title": "Glign: Taming Misaligned Graph Traversals in Concurrent Graph Processing",

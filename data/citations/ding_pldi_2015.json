@@ -136,7 +136,7 @@
   },
   {
    "title": "Exploring Parallel Algorithmic Choices for Graph Analytics",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2019,
    "authors": "Akif Rehman",
@@ -147,7 +147,13 @@
    "secondary": [
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Exploring Parallel Algorithmic Choices for Graph Analytics”"
+   }
   },
   {
    "title": "Apollo: Reusable Models for Fast, Dynamic Tuning of Input-Dependent Code",
@@ -702,7 +708,7 @@
   },
   {
    "title": "Online-Autotuning in the Presence of Algorithmic Choice",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2017,
    "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
@@ -711,7 +717,13 @@
    "cited_by": 13,
    "centrality": "engaged",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Online-Autotuning in the Presence of Algorithmic Choice”"
+   }
   },
   {
    "title": "An Introduction to Autotuning Parallel Applications",
@@ -979,7 +991,7 @@
   },
   {
    "title": "Exploring accelerator and parallel graph algorithmic choices for temporal graphs",
-   "function": "passing-citation",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2020,
    "venue": "PMAM@PPoPP",
@@ -988,7 +1000,13 @@
    "cited_by": 5,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Exploring accelerator and parallel graph algorithmic choices for temporal graphs”"
+   }
   },
   {
    "title": "Identifying and (automatically) remedying performance problems in CPU/GPU applications",

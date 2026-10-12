@@ -560,7 +560,7 @@
   },
   {
    "title": "goSLP: globally optimized superword level parallelism framework",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2018,
    "venue": "Proc. ACM Program. Lang.",
@@ -573,7 +573,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “superword level parallelism (SLP)”"
+   }
   },
   {
    "title": "Quelques algorithmes rapides pour la finance quantitative. (Some fast algorithms for quantitative finance)",
@@ -589,7 +595,7 @@
   },
   {
    "title": "Superword level parallelism aware word length optimization",
-   "function": "passing-citation",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2017,
    "venue": "Design, Automation and Test in Europe",
@@ -598,7 +604,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Superword level parallelism aware word length optimization”"
+   }
   },
   {
    "title": "Exploiting mixed SIMD parallelism by reducing data reorganization overhead",
@@ -864,7 +876,7 @@
   },
   {
    "title": "Superword-Level Parallelism in the Presence of Control Flow",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2005,
    "venue": "International Symposium on Code Generation and Optimization",
@@ -873,7 +885,13 @@
    "cited_by": 127,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Superword-Level Parallelism in the Presence of Control Flow”"
+   }
   },
   {
    "title": "Scalar Operand Networks: Design, Implementation, and Analysis",
@@ -1111,13 +1129,19 @@
   },
   {
    "title": "Compiler optimizations for architectures supporting superword-level parallelism",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "year": 2005,
    "authors": "Mary W. Hall, Jaewook Shin",
    "url": "https://www.semanticscholar.org/paper/74694cb0402790213cf970df421f77de9f77143b",
    "cited_by": 5,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Compiler optimizations for architectures supporting superword-level parallelism”"
+   }
   },
   {
    "title": "Convergent scheduling : a flexible and extensible scheduling framework for clustered VLIW architectures",

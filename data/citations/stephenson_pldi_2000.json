@@ -289,7 +289,7 @@
   },
   {
    "title": "Improved bitwidth-aware variable packing",
-   "function": "uses-benchmark",
+   "function": "extends",
    "split": "detailed",
    "year": 2013,
    "venue": "ACM Transactions on Architecture and Code Optimization",
@@ -298,7 +298,13 @@
    "cited_by": 8,
    "centrality": "engaged",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "uses-benchmark",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Improved bitwidth-aware variable packing”"
+   }
   },
   {
    "title": "Speed and Precision in Range Analysis",
@@ -319,7 +325,7 @@
   },
   {
    "title": "Bitwidth aware global register allocation",
-   "function": "uses-benchmark",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2003,
    "venue": "ACM-SIGACT Symposium on Principles of Programming Languages",
@@ -332,7 +338,13 @@
     "supports-claim",
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "uses-benchmark",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Bitwidth aware global register allocation”"
+   }
   },
   {
    "title": "Simple offset assignment in presence of subword data",
@@ -414,7 +426,7 @@
   },
   {
    "title": "Synthesizing Power and Area Efficient Image Processing Pipelines on FPGAs using Customized Bit-widths",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2018,
    "venue": "arXiv.org",
@@ -426,7 +438,13 @@
    "secondary": [
     "surveys"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Customized Bit-widths”"
+   }
   },
   {
    "title": "Code optimizations for narrow bitwidth architectures",
@@ -474,7 +492,7 @@
   },
   {
    "title": "An automated, efficient and static bit-width optimization methodology towards maximum bit-width-to-error tradeoff with affine arithmetic model",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2006,
    "venue": "Asia and South Pacific Conference on Design Automation, 2006.",
@@ -486,11 +504,17 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “automated, efficient and static bit-width optimization methodology”"
+   }
   },
   {
    "title": "Enhanced Bitwidth-Aware Register Allocation",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2006,
    "venue": "Lecture notes in computer science",
@@ -503,7 +527,13 @@
     "supports-claim",
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Enhanced Bitwidth-Aware Register Allocation”"
+   }
   },
   {
    "title": "Optimum Wordlength Search Using Sensitivity Information",
@@ -568,7 +598,7 @@
   },
   {
    "title": "Bit-Width Analysis for General Applications",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2005,
    "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
@@ -580,7 +610,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Bit-Width Analysis for General Applications”"
+   }
   },
   {
    "title": "Précis: A Usercentric Word-Length Optimization Tool",
@@ -669,7 +705,7 @@
   },
   {
    "title": "Advances in bit width selection methodology",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2003,
    "venue": "Proceedings IEEE International Conference on Application- Specific Systems, Architectures, and Processors",
@@ -681,7 +717,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Advances in bit width selection methodology”"
+   }
   },
   {
    "title": "Perturbation analysis for word-length optimization",
@@ -749,7 +791,7 @@
   },
   {
    "title": "Bitwidth cognizant architecture synthesis of custom hardware accelerators",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2001,
    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
@@ -761,7 +803,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Bitwidth cognizant architecture synthesis of custom hardware accelerators”"
+   }
   },
   {
    "title": "On Availability of Bit-Narrow Operations in General-Purpose Applications",
@@ -1142,7 +1190,7 @@
   },
   {
    "title": "Quality-driven design by bitwidth optimization for video applications",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2003,
    "venue": "Proceedings of the ASP-DAC Asia and South Pacific Design Automation Conference, 2003.",
@@ -1154,7 +1202,13 @@
    "secondary": [
     "exemplifies"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “bitwidth optimization for video applications”"
+   }
   },
   {
    "title": "An accelerated datapath width optimization scheme for area reduction of embedded systems",
@@ -1203,7 +1257,7 @@
   },
   {
    "title": "Bitwidth Sensitive Code Generation in a Custom Embedded Accelerator Design System",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2001,
    "authors": "S. Mahlke, Rajiv A. Ravindran, M. Schlansker",
@@ -1211,7 +1265,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Bitwidth Sensitive Code Generation”"
+   }
   },
   {
    "title": "Frequent value locality and value-centric data cache design",
@@ -1254,7 +1314,7 @@
   },
   {
    "title": "Generating Power and Area Efficient Image Processing Pipelines through a DSL compiler on FPGAs using Automated Bitwidth Tuning",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2019,
    "authors": "Suresh Purini",
@@ -1265,7 +1325,13 @@
    "secondary": [
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Automated Bitwidth Tuning”"
+   }
   },
   {
    "title": "A Demand-Driven Pointer-Range Analysis Technique for Data Transmission Optimization",
@@ -1387,7 +1453,7 @@
   },
   {
    "title": "Bitwidth Reduction via Symbolic Interval Analysis for Software Model Checking",
-   "function": "exemplifies",
+   "function": "extends",
    "split": "passing",
    "year": 2008,
    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
@@ -1396,7 +1462,13 @@
    "cited_by": 12,
    "centrality": "peripheral",
    "confidence": "low",
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Bitwidth Reduction via Symbolic Interval Analysis”"
+   }
   },
   {
    "title": "Multiobjective Optimization of FPGA-Based Medical Image Registration",
@@ -1586,7 +1658,7 @@
   },
   {
    "title": "Making HLS a Bit Wiser: From Standard High-Level Datatypes to Arbitrary Low-Level Bitwidths",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2017,
    "venue": "TSpace (University of Toronto)",
@@ -1598,7 +1670,13 @@
    "secondary": [
     "passing-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Arbitrary Low-Level Bitwidths”"
+   }
   },
   {
    "title": "On Dynamic Precision Scaling",
@@ -1693,7 +1771,7 @@
   },
   {
    "title": "Low-Power Optimization by Smart Bit-Width Allocation in a SystemC-Based ASIC Design Environment",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2007,
    "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
@@ -1702,7 +1780,13 @@
    "cited_by": 39,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Smart Bit-Width Allocation”"
+   }
   },
   {
    "title": "Efficient Design Methods for Embedded Communication Systems",
@@ -1719,7 +1803,7 @@
   },
   {
    "title": "Smart Bit-width Allocation for Low Power Optimization in a SystemC based ASIC Design Environment",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2006,
    "venue": "Proceedings of the Design Automation & Test in Europe Conference",
@@ -1728,7 +1812,13 @@
    "cited_by": 4,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Smart Bit-width Allocation”"
+   }
   },
   {
    "title": "A Power Reduction Method for Low-Precision Computation",
@@ -1772,7 +1862,7 @@
   },
   {
    "title": "Stochastic Bit-Width Approximation Using Extreme Value Theory for Customizable Processors",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2004,
    "venue": "Lecture notes in computer science",
@@ -1781,7 +1871,13 @@
    "cited_by": 21,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Stochastic Bit-Width Approximation”"
+   }
   },
   {
    "title": "Widening Integer Arithmetic",
@@ -2156,7 +2252,7 @@
   },
   {
    "title": "Bitwidth-aware high-level synthesis for designing low-power DSP applications",
-   "function": "passing-citation",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2010,
    "venue": "2010 17th IEEE International Conference on Electronics, Circuits and Systems",
@@ -2165,7 +2261,13 @@
    "cited_by": 8,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Bitwidth-aware high-level synthesis”"
+   }
   },
   {
    "title": "SQNR Estimation of Fixed-Point DSP Algorithms",
@@ -2467,7 +2569,7 @@
   },
   {
    "title": "Unifying Bit-Width Optimisation for Fixed-Point and Floating-Point Designs",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2004,
    "venue": "12th Annual IEEE Symposium on Field-Programmable Custom Computing Machines",
@@ -2476,7 +2578,13 @@
    "cited_by": 104,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Unifying Bit-Width Optimisation”"
+   }
   },
   {
    "title": "CASCADE - configurable and scalable DSP environment",
@@ -2493,7 +2601,7 @@
   },
   {
    "title": "Floating-point bitwidth analysis via automatic differentiation",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2003,
    "venue": "2002 IEEE International Conference on Field-Programmable Technology, 2002. (FPT). Proceedings.",
@@ -2502,7 +2610,13 @@
    "cited_by": 50,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Floating-point bitwidth analysis”"
+   }
   },
   {
    "title": "Object equality profiling",
@@ -2558,7 +2672,7 @@
   },
   {
    "title": "A Framework for Bitwidth Optimization in System-on-Chip Design",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2002,
    "venue": "QIR (Kyushu University Institutional Repository) (Kyushu University)",
@@ -2567,7 +2681,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Bitwidth Optimization in System-on-Chip Design”"
+   }
   },
   {
    "title": "Compiler Design for a Network Processor",
@@ -2711,7 +2831,7 @@
   },
   {
    "title": "Saving Energy with Per-Variable Bitwidth Speculation",
-   "function": "unknown",
+   "function": "adopts-idea",
    "split": null,
    "year": 2025,
    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
@@ -2721,7 +2841,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Per-Variable Bitwidth Speculation”"
+   }
   },
   {
    "title": "Static program analysis based on virtual register renaming",
@@ -2753,14 +2879,20 @@
   },
   {
    "title": "A Bitwidth-Aware High-Level Synthesis Algorithm Using Operation Chainings for Tiled-DR Architectures",
-   "function": "unknown",
+   "function": "adopts-idea",
    "split": null,
    "year": 2017,
    "venue": "IEICE Transactions on Fundamentals of Electronics Communications and Computer Sciences",
    "authors": "Kotaro Terada, Masao Yanagisawa, Nozomu Togawa",
    "url": "https://doi.org/10.1587/transfun.e100.a.2911",
    "cited_by": 0,
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Bitwidth-Aware High-Level Synthesis Algorithm”"
+   }
   },
   {
    "title": "A high-performance hardware architecture of an image matching system based on the optimised SIFT algorithm",
@@ -2792,7 +2924,7 @@
   },
   {
    "title": "Bitwidth-optimized hardware accelerators with software fallback",
-   "function": "unknown",
+   "function": "uses-tool",
    "split": null,
    "year": 2013,
    "venue": "International Conference on Field-Programmable Technology",
@@ -2802,7 +2934,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "abstract+contexts"
+   "evidence": "abstract+contexts",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Bitwidth-optimized hardware accelerators”"
+   }
   },
   {
    "title": "Exploiting Input Parameter Uncertainty for Reducing Datapath Precision of SPICE Device Models",
@@ -3034,13 +3172,19 @@
   },
   {
    "title": "Precision Modeling and Bit-width Optimization of Floating-Point Applications",
-   "function": "unknown",
+   "function": "extends",
    "split": null,
    "year": 2003,
    "authors": "Zhihong Zhao, Miriam Leeser",
    "url": "https://openalex.org/W215503912",
    "cited_by": 11,
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Bit-width Optimization of Floating-Point Applications”"
+   }
   },
   {
    "title": "Two-dimensional signal gating for low power in high-performance multipliers",

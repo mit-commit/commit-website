@@ -321,7 +321,7 @@
   },
   {
    "title": "Using UML as a Front-end for StreamIt Programs Verification and Generation",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2010,
    "venue": "J. Multim.",
@@ -330,7 +330,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “StreamIt Programs Verification and Generation”"
+   }
   },
   {
    "title": "A hybrid static/dynamic approach to scheduling stream programs",

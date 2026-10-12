@@ -263,7 +263,7 @@
   },
   {
    "title": "UDS: A Unified Approach to Deterministic Multithreading",
-   "function": "baseline",
+   "function": "extends",
    "split": "detailed",
    "year": 2016,
    "venue": "IEEE International Conference on Distributed Computing Systems",
@@ -276,7 +276,13 @@
     "positions",
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "We showed that specific UDS configurations can emulate or imitate five known deterministic schedulers, i.e. MAT, PDS, Kendo, CoreDet and DThreads."
+   }
   },
   {
    "title": "Calculation of worst-case execution time for multicore processors using deterministic execution",
@@ -331,7 +337,7 @@
   },
   {
    "title": "What is the cost of weak determinism?",
-   "function": "baseline",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2014,
    "venue": "International Conference on Parallel Architectures and Compilation Techniques",
@@ -344,7 +350,13 @@
     "supports-claim",
     "surveys"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "For the dynamic schedule, we implemented two versions of logical clocks: one that uses only the number of store instructions [33], and one that uses the number of all instructions [16, 26]."
+   }
   },
   {
    "title": "Dthreads",
@@ -427,7 +439,7 @@
   },
   {
    "title": "Lazy Determinism for Faster Deterministic Multithreading",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2019,
    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
@@ -439,7 +451,13 @@
    "secondary": [
     "baseline"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “prior DMT systems totally order all synchronization operations, regardless of synchronization variable; the result is severe performance degradation”"
+   }
   },
   {
    "title": "Region and effect inference for safe parallelism",
@@ -456,7 +474,7 @@
   },
   {
    "title": "Semantics-aware scheduling policies for synchronization determinism",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2019,
    "venue": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
@@ -468,7 +486,13 @@
    "secondary": [
     "surveys"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “existing scheduling policies for synchronization determinism all have limitations”"
+   }
   },
   {
    "title": "Safe Execution of Concurrent Programs by Enforcement of Scheduling Constraints",
@@ -1633,7 +1657,7 @@
   },
   {
    "title": "Classical SMR Atomic Broadcast Application ( b ) Parallel SMR RequestResponse Client Service Execution Service Execution Parallelizer Atomic Broadcast Application Request Client Response Workers",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2017,
    "authors": "O. Mendizabal, R. S. D. Moura, F. Dotti et al.",
@@ -1641,11 +1665,17 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "CRANE schedules synchronization commands using deterministic multithreading (DMT) [24], [25]."
+   }
   },
   {
    "title": "Efficient and Deterministic Scheduling for Parallel State Machine Replication",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2017,
    "venue": "IEEE International Parallel and Distributed Processing Symposium",
@@ -1657,7 +1687,13 @@
    "secondary": [
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "CRANE schedules synchronization commands using deterministic multithreading (DMT) [24], [25]."
+   }
   },
   {
    "title": "Efficient, Practical Dynamic Program Analyses for Concurrency Correctness",
@@ -1688,7 +1724,7 @@
   },
   {
    "title": "Reconfiguring Parallel State Machine Replication",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2017,
    "venue": "IEEE International Symposium on Reliable Distributed Systems",
@@ -1697,7 +1733,13 @@
    "cited_by": 32,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "CRANE combines the input determinism of Paxos and the execution determinism of deterministic multi-threading (DMT) [24]"
+   }
   },
   {
    "title": "Synchronous Deterministic Parallel Programming for Multicores with ForeC",
@@ -5579,13 +5621,19 @@
   },
   {
    "title": "A Programming Language with Deterministic Multithreading",
-   "function": "unclassified",
+   "function": "adopts-idea",
    "split": null,
    "year": 2015,
    "authors": "Tormod Gjeitnes Hellen",
    "url": "https://www.semanticscholar.org/paper/c7e66014f6e91877f3ff416cae42d0562c24d112",
    "cited_by": 0,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Deterministic Multithreading”"
+   }
   },
   {
    "title": "Advanced techniques for multi-variant execution",

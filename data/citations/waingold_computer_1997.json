@@ -1213,7 +1213,7 @@
   },
   {
    "title": "Affine Loop Optimization Based on Modulo Unrolling in Chapel",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2014,
    "venue": "International Conference on Partitioned Global Address Space Programming Models",
@@ -1228,7 +1228,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Our optimiza­tion for message aggregation is based on a technique known as modulo unrolling, pioneered by Barua [3]"
+   }
   },
   {
    "title": "Data flow graph mapping techniques of computer architecture with data driven computation model",
@@ -1391,7 +1397,7 @@
   },
   {
    "title": "Reactive Computer Vision System with Reconfigurable Architecture",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 1999,
    "venue": "Lecture notes in computer science",
@@ -1400,7 +1406,13 @@
    "cited_by": 14,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "our architecture exposes the hardware low-level details to the software which determines the best resource allocation for each approach"
+   }
   },
   {
    "title": "A Cluster Architecture for Embedded Perception",
@@ -1415,14 +1427,20 @@
   },
   {
    "title": "CoGenE : A Design Automation Framework for Embedded Domain Specific Accelerators",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "authors": "K. Ramani",
    "url": "https://www.semanticscholar.org/paper/9291febae849d9547fa32843258fa3729402bf80",
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "This very fine grained approach was inspired by the RAW project [17]."
+   }
   },
   {
    "title": "Performance Modeling and Analysis of Exposed Datapath Architectures",
@@ -4576,7 +4594,7 @@
   },
   {
    "title": "Cogene: An Automated Design Framework for Domain-Specific Architectures",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2012,
    "authors": "K. Ramani",
@@ -4584,7 +4602,13 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "This very fine grained approach was inspired by the RAW project [17]."
+   }
   },
   {
    "title": "Compiling For Coarse-Grained Reconfigurable Architectures Based On Dataflow Execution Paradigm",
@@ -4808,7 +4832,7 @@
   },
   {
    "title": "CoGenE : Automating the Design of Embedded Domain Specific Architectures",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2007,
    "authors": "K. Ramani",
@@ -4816,7 +4840,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "This very fine grained approach was inspired by the RAW project [17]."
+   }
   },
   {
    "title": "Design and evaluation of a technology-scalable architecture for instruction-level parallelism",
@@ -4891,7 +4921,7 @@
   },
   {
    "title": "Tiled microprocessors",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2007,
    "authors": "M. Taylor",
@@ -4906,7 +4936,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "To that end, we created the Raw Architecture, which is the culmination of the design proposed in [121, 106, 107]."
+   }
   },
   {
    "title": "Mapping Applications to a Coarse-Grained Reconfigurable Architecture",
@@ -5118,7 +5154,7 @@
   },
   {
    "title": "Exploring optimal cost-performance designs for Raw microprocessors",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2002,
    "venue": "Proceedings. IEEE Symposium on FPGAs for Custom Computing Machines (Cat. No.98TB100251)",
@@ -5130,7 +5166,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “designs for Raw microprocessors”"
+   }
   },
   {
    "title": "Mapping a Single Assignment Programming Language to Reconfigurable Systems",
@@ -5160,7 +5202,7 @@
   },
   {
    "title": "The Raw microprocessor: a computational fabric for software circuits and general-purpose programs",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2002,
    "venue": "IEEE Micro",
@@ -5173,11 +5215,17 @@
     "own-group"
    ],
    "evidence": "abstract",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Raw Microprocessor: Enabling Embedded Signal Processing on a General Purpose Computer Architecture”"
+   }
   },
   {
    "title": "The Raw Microprocessor: Enabling Embedded Signal Processing on a General Purpose Computer Architecture",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2002,
    "authors": "H. Hoffmann, V. Strumpen, A. Agarwal",
@@ -5188,7 +5236,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Raw Microprocessor: Enabling Embedded Signal Processing on a General Purpose Computer Architecture”"
+   }
   },
   {
    "title": "Towards a Universal Building Block of Molecular and Silicon Computation",
@@ -5267,7 +5321,7 @@
   },
   {
    "title": "SimpleFit: a framework for analyzing design trade-offs in Raw architectures",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2001,
    "venue": "IEEE Transactions on Parallel and Distributed Systems",
@@ -5279,11 +5333,17 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “framework for analyzing design trade-offs in Raw architectures”"
+   }
   },
   {
    "title": "The Raw Processor: A Composeable 32-Bit Fabric for Embedded and General Purpose Computing",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2001,
    "authors": "Michael Taylor, Jason Z. Kim, Jason Miller et al.",
@@ -5295,7 +5355,13 @@
     "own-group"
    ],
    "evidence": "abstract",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “The Raw Processor: A Composeable 32-Bit Fabric for Embedded and General Purpose Computing”"
+   }
   },
   {
    "title": "Co-Synthesis to a Hybrid RISC/FPGA Architecture",
@@ -5328,7 +5394,7 @@
   },
   {
    "title": "Design decision in the implementation of a raw architecture workstation",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 1999,
    "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
@@ -5340,11 +5406,17 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Based on our conclusions, we arrived at a new model of the architecture, which is described in the September 1997 IEEE Computer “Billion Transistor” issue [Waingold97]."
+   }
   },
   {
    "title": "Hot Pages : Software Caching for Raw Microprocessors Csaba",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 1999,
    "authors": "A. Moritz, M. Frank, Walter Lee et al.",
@@ -5356,11 +5428,17 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Software Caching for Raw Microprocessors”"
+   }
   },
   {
    "title": "Hot Pages: Software Caching for Raw Microprocessors",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 1999,
    "authors": "C. A. Moritz, M. Frank, Walter Lee et al.",
@@ -5372,7 +5450,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Software Caching for Raw Microprocessors”"
+   }
   },
   {
    "title": "Compiling for the multiscalar architecture",
@@ -5402,14 +5486,20 @@
   },
   {
    "title": "CoGenE : A Design Automation Framework for Embedded Domain Specific Architectures",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "authors": "K. Ramani, A. Davis",
    "url": "https://www.semanticscholar.org/paper/51be3f8c22c24211d7baccaf83cec69eecfa9cf2",
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "This very fine grained approach was inspired by the RAW project [17]."
+   }
   },
   {
    "title": "High Performance Image Processing on FPGAs",
@@ -9267,14 +9357,20 @@
   },
   {
    "title": "THE RAW MICROPROCESSOR : A COMPUTATIONAL FABRIC FOR SOFTWARE CIRCUITS AND GENERAL",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 2001,
    "authors": "Michael B. Taylor, J. Kim, Jason E. Miller et al.",
    "url": "https://www.semanticscholar.org/paper/daaf54ba324ef0e2d5475e7f339e95ebaba3b0af",
    "cited_by": 1,
    "evidence": "title_only",
-   "commit": true
+   "commit": true,
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Raw Microprocessor: Enabling Embedded Signal Processing on a General Purpose Computer Architecture”"
+   }
   },
   {
    "title": "Challenges in Interconnection Network Design in the Era of Multiprocessor and Massively Parallel Mic",

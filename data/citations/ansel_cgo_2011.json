@@ -1079,7 +1079,7 @@
   },
   {
    "title": "Siblingrivalry: online autotuning through local competitions",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2012,
    "venue": "International Conference on Compilers, Architecture, and Synthesis for Embedded Systems",
@@ -1092,7 +1092,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “and programming languages, such as PetaBricks, have shown that autotuning computer programs can lead to significant speedups”"
+   }
   },
   {
    "title": "Programming models for speculative and optimistic parallelism based on algorithmic properties",
@@ -1863,13 +1869,19 @@
   },
   {
    "title": "Autotuning programs with algorithmic choice",
-   "function": "unclassified",
+   "function": "adopts-idea",
    "split": null,
    "year": 2014,
    "authors": "Jason Ansel",
    "url": "https://www.semanticscholar.org/paper/7a405df6a900053f348b6cc276643d0d7df8182f",
    "cited_by": 12,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “algorithmic choice”"
+   }
   },
   {
    "title": "Design and Analysis for Multi-Clock and Data-Intensive Applications on Multiprocessor Systems-on-Chip",

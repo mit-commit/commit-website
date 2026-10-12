@@ -114,7 +114,7 @@
   },
   {
    "title": "GraphIt to CUDA Compiler in 2021 LOC: A Case for High-Performance DSL Implementation via Staging with BuilDSL",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2022,
    "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
@@ -131,7 +131,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “GraphIt to CUDA Compiler”"
+   }
   },
   {
    "title": "Optimization Techniques for GPU Programming",

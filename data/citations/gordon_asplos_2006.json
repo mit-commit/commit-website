@@ -956,7 +956,7 @@
   },
   {
    "title": "Orchestration by approximation",
-   "function": "baseline",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2011,
    "venue": "ACM SIGPLAN Notices",
@@ -968,7 +968,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "We employ multi-buffering similar to [ 11 ] to remove filter dependencies within a steady-state iteration of the stream graph."
+   }
   },
   {
    "title": "StreamPI: a stream-parallel programming extension for object-oriented programming languages",

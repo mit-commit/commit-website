@@ -1092,7 +1092,7 @@
   },
   {
    "title": "Model-Based Warp Overlapped Tiling for Image Processing Programs on GPUs",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2019,
    "venue": "International Conference on Parallel Architectures and Compilation Techniques",
@@ -1101,7 +1101,13 @@
    "cited_by": 0,
    "centrality": "engaged",
    "confidence": "high",
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Domain-specific languages that execute image processing pipelines on GPUs, such as Halide and Forma, operate by 1)~dividing the image into overlapped tiles, and 2)~fusing loops to improve memory locality. However, current approaches have limitations”"
+   }
   },
   {
    "title": "Taichi",
@@ -3222,7 +3228,7 @@
   },
   {
    "title": "Learning to optimize halide with tree search and random programs",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2019,
    "venue": "ACM Transactions on Graphics",
@@ -3234,11 +3240,17 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The original Halide autotuner [Ragan-Kelley et al. 2013] combined heuristic schedule templates with genetic search over random schedule rewrites, and relied entirely on ground-truth benchmarking to measure performance."
+   }
   },
   {
    "title": "Schedule Synthesis for Halide Pipelines through Reuse Analysis",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2019,
    "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
@@ -3247,11 +3259,17 @@
    "cited_by": 11,
    "centrality": "engaged",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Schedule Synthesis for Halide Pipelines through Reuse Analysis”"
+   }
   },
   {
    "title": "Differentiable programming for image processing and deep learning in halide",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2018,
    "venue": "ACM Transactions on Graphics",
@@ -3264,7 +3282,13 @@
     "lineage",
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Recently, the Halide domain-specific language [Ragan-Kelley et al. 2012, 2013] has enabled the implementation of high-performance image-processing pipelines."
+   }
   },
   {
    "title": "ISA mapper: a compute and hardware agnostic deep learning compiler",
@@ -5103,14 +5127,20 @@
   },
   {
    "title": "A fast and concise parallel implementation of the 8x8 2D forward and inverse DCTs using halide",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 2022,
    "venue": "Journal of Parallel and Distributed Computing",
    "authors": "Martin Johnson, D.P. Playne",
    "url": "https://doi.org/10.1016/j.jpdc.2022.01.014",
    "cited_by": 3,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “using halide”"
+   }
   },
   {
    "title": "Efficient microscopy image analysis on CPU-GPU systems with cost-aware irregular data partitioning",

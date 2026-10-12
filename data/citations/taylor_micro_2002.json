@@ -9306,14 +9306,20 @@
   },
   {
    "title": "Fault-tolerant cache coherence protocols for CMPs: evaluation and trade-offs",
-   "function": "unclassified",
+   "function": "adopts-idea",
    "split": null,
    "cited_by": 3,
    "year": 2008,
    "venue": "IEEE International Conference on High Performance Computing, Data, and Analytics",
    "authors": "Ricardo Fern\u00e1ndez\u2010Pascual, Jos\u00e9 M. Garc\u0131\u0301a, Manuel E. Acacio et al.",
    "url": "https://doi.org/10.5555/1791889.1791946",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Para desarrollar y evaluar las propuestas de esta tesis, partimos de una arquitectura basada en tiled CMPs [127,128,14]."
+   }
   },
   {
    "title": "HARPE: A Harvard-based processing element tailored for partial dynamic reconfigurable architectures",
@@ -10204,13 +10210,19 @@
   },
   {
    "title": "Tolerating SEU Faults in the Raw Architecture",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "cited_by": 21,
    "year": 2006,
    "authors": "Karandeep Singh, A. Agbaria, D. Kang et al.",
    "url": "https://www.semanticscholar.org/paper/2a88e43033bac447fd5055a25651b66eb831ab5f",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cRaw Architecture\u201d"
+   }
   },
   {
    "title": "A Consistent Design Methodology for Wireless Embedded Systems",

@@ -5012,7 +5012,7 @@
   },
   {
    "title": "Compiling Stream-Language Applications to a Reconfigurable Array Processor",
-   "function": "unknown",
+   "function": "uses-tool",
    "split": null,
    "year": 2005,
    "venue": "International Conference on Engineering of Reconfigurable Systems and Algorithms",
@@ -5022,7 +5022,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Now the code generation of StreamIt primitives is described."
+   }
   },
   {
    "title": "Reptile : a distributed ILP compiler",

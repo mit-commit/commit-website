@@ -1515,7 +1515,7 @@
   },
   {
    "title": "Design and Implementation for Checkpointing of Distributed Resources Using Process-Level Virtualization",
-   "function": "baseline",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2016,
    "venue": "IEEE International Conference on Cluster Computing",
@@ -1530,7 +1530,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "one needs to save the in-flight network data by draining the network buffers as shown by [1]"
+   }
   },
   {
    "title": "Efficient Checkpointing of Multi-threaded Applications as a Tool for Debugging, Performance Tuning, and Resiliency",
@@ -2574,7 +2580,7 @@
   },
   {
    "title": "Goldilocks: Adaptive Resource Provisioning in Containerized Data Centers",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2019,
    "venue": "IEEE International Conference on Distributed Computing Systems",
@@ -2583,7 +2589,13 @@
    "cited_by": 16,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Goldilocks leverages the process checkpoint and restore technique [54], [55] to migrate containers between servers."
+   }
   },
   {
    "title": "Optimum Checkpointing for Long-running Programs",
@@ -2765,7 +2777,7 @@
   },
   {
    "title": "Selective Checkpointing for Minimizing Recovery Efforts of Smartphone Apps",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2017,
    "venue": "International Conference on Automation and Computing",
@@ -2774,7 +2786,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "we implement our Checkpointer based on DMTCP (Distributed MultiThreaded Checkpointing) [4], a transparent user-level checkpointing package for distributed applications."
+   }
   },
   {
    "title": "Tolerating Faults in Disaggregated Datacenters",
@@ -2858,7 +2876,7 @@
   },
   {
    "title": "Extended Batch Sessions and Three-Phase Debugging",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2016,
    "venue": "Extreme Science and Engineering Discovery Environment",
@@ -2870,7 +2888,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “take advantage of DMTCP (Distributed MultiThreaded CheckPointing) for system-level check”"
+   }
   },
   {
    "title": "Fault Tolerant Cloud Software Systems Using Software Configurations",
@@ -3261,7 +3285,7 @@
   },
   {
    "title": "Optimizing Checkpoint-Restart Mechanisms for HPC with DMTCP in Containers at NERSC",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2024,
    "venue": "arXiv.org",
@@ -3270,7 +3294,13 @@
    "cited_by": 1,
    "centrality": "core",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "DMTCP’s robust checkpointing capability is vital for the continuation of long-duration computations, offering resilience against system failures and providing the flexibility to pause, migrate, or resume computations across different machines or environments"
+   }
   },
   {
    "title": "Computation algorithms for workload-dependent optimal checkpoint placement",
@@ -3449,7 +3479,7 @@
   },
   {
    "title": "Adapting the DMTCP Plugin Model for Checkpointing of Hardware Emulation",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2017,
    "venue": "arXiv.org",
@@ -3464,7 +3494,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "This work concentrates on the DMTCP (Distributed MultiThreaded Checkpointing)"
+   }
   },
   {
    "title": "Resilient computing on ROS using adaptive fault tolerance",
@@ -3481,7 +3517,7 @@
   },
   {
    "title": "CCNCheck: Enabling Checkpointed Distributed Applications in Content Centric Networks",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2015,
    "venue": "arXiv.org",
@@ -3490,7 +3526,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "CCNCheck's checkpointing mechanism is a fork of DMTCP repository"
+   }
   },
   {
    "title": "Performance improvement in automata learning Speeding up LearnLib using parallelization and checkpointing",
@@ -3612,7 +3654,7 @@
   },
   {
    "title": "DMTCP: Bringing Checkpoint-Restart to Python",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2013,
    "venue": "Proceedings of the Python in Science Conferences",
@@ -3624,7 +3666,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "DMTCP: Bringing Checkpoint-Restart to Python"
+   }
   },
   {
    "title": "Proceedings of the 12th Python in Science Conference",
@@ -3698,14 +3746,20 @@
   },
   {
    "title": "Future Generation Computer Systems",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "authors": "L. Bautista-Gomez, Anne Benoit, S. Di et al.",
    "url": "https://www.semanticscholar.org/paper/8e8fe9a50a951cb0b9cf8f01c4e9128890b5e07b",
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "MANA utilizes DMTCP (Distributed MultiThreaded Check-Pointing, [38]), a process-checkpointing library for Linux to save the current state of the upper-half"
+   }
   },
   {
    "title": "Beyond Fixed Budgets: Characterizing the Inelasticity and Limitations of Tree-of-Thought Reasoning Strategies",
@@ -5115,13 +5169,19 @@
   },
   {
    "title": "DMTCP: Fixing the Single Point of Failure of the ROS Master",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "year": 2017,
    "authors": "G. Jain",
    "url": "https://doi.org/10.36288/roscon2017-900267",
    "cited_by": 6,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "DMTCP: Bringing Checkpoint-Restart to Python"
+   }
   },
   {
    "title": "Performance Analysis: Ubuntu Touch v/s Android OS",

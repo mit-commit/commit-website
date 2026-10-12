@@ -759,7 +759,7 @@
   },
   {
    "title": "A High Performance Sparse Tensor Algebra Compiler in MLIR",
-   "function": "baseline",
+   "function": "extends",
    "split": "detailed",
    "year": 2021,
    "authors": "Ruiqin Tian, Luanzheng Guo, Jiajia Li et al.",
@@ -770,7 +770,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “A High Performance Sparse Tensor Algebra Compiler in MLIR”"
+   }
   },
   {
    "title": "Efﬁcient Web-Based Parallel Sparse Matrix-Vector Multiplication",
@@ -1110,7 +1116,7 @@
   },
   {
    "title": "Functional collection programming with semi-ring dictionaries",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2022,
    "venue": "Proceedings of the ACM on Programming Languages",
@@ -1123,7 +1129,13 @@
     "detailed-citation",
     "exemplifies"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "the curried one corresponds to CSF using hash tables [Chou et al. 2018]"
+   }
   },
   {
    "title": "Sparseloop: An Analytical Approach To Sparse Tensor Accelerator Modeling",
@@ -1172,7 +1184,7 @@
   },
   {
    "title": "A Tensor Algebra Compiler library interface and runtime",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2019,
    "authors": "Patricio. Noyola",
@@ -1180,7 +1192,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "By composing these per-dimension formats, it is possible to recreate variants of many tensor formats, as well as many generalizations of these formats for higher order tensors [15, 7]."
+   }
   },
   {
    "title": "Automatic Specialization of Polyhedral Programs on Sparse Structures",
@@ -1195,7 +1213,7 @@
   },
   {
    "title": "Edinburgh Research Explorer A semi-ring dictionary query language for data science",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "authors": "Amir Shaikhha, Mathieu Huot, Shideh Hashemian et al.",
    "url": "https://www.semanticscholar.org/paper/ce557ca29d25d409140dcc9306c20039db853133",
@@ -1205,7 +1223,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "the curried one corresponds to CSF using hash tables Chou et al. (2018)"
+   }
   },
   {
    "title": "The Einsum-Enabled Design Space for Graph Algorithms: A BFS Case Study",
@@ -1310,7 +1334,7 @@
   },
   {
    "title": "A Tensor Algebra Compiler for Sparse Differentiation",
-   "function": "exemplifies",
+   "function": "extends",
    "split": "passing",
    "year": 2024,
    "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
@@ -1319,7 +1343,13 @@
    "cited_by": 6,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “A Tensor Algebra Compiler for Sparse Differentiation”"
+   }
   },
   {
    "title": "Accelerating Sparse MTTKRP for Small Tensor Decomposition on GPU $\\mathcal{X}_{(d)}$",
@@ -1695,7 +1725,7 @@
   },
   {
    "title": "SparseAuto: An Auto-scheduler for Sparse Tensor Computations using Recursive Loop Nest Restructuring",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2024,
    "venue": "Proceedings of the ACM on Programming Languages",
@@ -1704,7 +1734,13 @@
    "cited_by": 6,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “General sparse tensor algebra compilers are not always versatile enough to generate asymptotically optimal code for sparse tensor contractions”"
+   }
   },
   {
    "title": "Optimizing Compression Schemes for Parallel Sparse Tensor Algebra",
@@ -1818,7 +1854,7 @@
   },
   {
    "title": "An Attempt to Generate Code for Symmetric Tensor Computations",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2021,
    "venue": "arXiv.org",
@@ -1831,7 +1867,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “using the taco tensor algebra compiler, into code”"
+   }
   },
   {
    "title": "Extending Sparse Tensor Accelerators to Support Multiple Compression Formats",

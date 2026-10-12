@@ -575,7 +575,7 @@
   },
   {
    "title": "Runtime repair of software faults using event-driven monitoring",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2010,
    "venue": "2010 ACM/IEEE 32nd International Conference on Software Engineering",
@@ -587,7 +587,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Lakitu can be seen as a combination of the real-time temporal specifications provided by RT-MaC, the decoupling ethos of DBRover, and the repairs of ClearView."
+   }
   },
   {
    "title": "Hot Fixing Software: A Comprehensive Review of Terminology, Techniques, and Applications",

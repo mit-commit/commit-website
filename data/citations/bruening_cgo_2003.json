@@ -2281,7 +2281,7 @@
   },
   {
    "title": "Practical dynamic reconstruction of control flow graphs",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2020,
    "venue": "Software, Practice & Experience",
@@ -2290,7 +2290,13 @@
    "cited_by": 25,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "It uses DynamoRIO [Bruening et al., 2003] to perform binary parallelization while the code is executing."
+   }
   },
   {
    "title": "RetroWrite: Statically Instrumenting COTS Binaries for Fuzzing and Sanitization",
@@ -3752,7 +3758,7 @@
   },
   {
    "title": "Tracerory - Dynamic Tracematches and Unread Memory Detection for C/C++",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2011,
    "authors": "Jon Eyolfson",
@@ -3760,7 +3766,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "In this work, we use dynamic binary translation [7, 17, 19] to enable runtime monitoring of programs."
+   }
   },
   {
    "title": "An adaptive compilation framework for generic data-parallel array programming",
@@ -4538,7 +4550,7 @@
   },
   {
    "title": "The Performance Potential of Trace-based Dynamic Optimization",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2004,
    "authors": "Brian Fahs, Aqeel Mahesri, Francesco Spadini et al.",
@@ -4549,7 +4561,13 @@
    "secondary": [
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Next-Executing Tail (NET) is a low-overhead algorithm used in the Dynamo [10] and Dynam oRIO [4] dynamic optimizers."
+   }
   },
   {
    "title": "Characterizing Inter-Execution and Inter-Application Optimization Persistence",
@@ -4813,7 +4831,7 @@
   },
   {
    "title": "CONCURRENCY AND COMPUTATION : PRACTICE AND EXPERIENCE Concurrency Computat",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2011,
    "authors": "Walter Binder, Danilo Ansaloni, A. Villazón et al.",
@@ -4824,7 +4842,13 @@
    "flags": [
     "lineage"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "PiPA is based on the dynamic binary instrumentation framework DynamoRIO [41]."
+   }
   },
   {
    "title": "Dynamic Binary Parallelization",
@@ -5060,7 +5084,7 @@
   },
   {
    "title": "Design and Engineering of a Dynamic Binary Optimizer",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2005,
    "venue": "Proceedings of the IEEE",
@@ -5069,7 +5093,13 @@
    "cited_by": 16,
    "centrality": "engaged",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Such a preliminary cache was implemented in DynamoRIO [4]."
+   }
   },
   {
    "title": "Dynamic Optimization in Hardware",
@@ -5098,7 +5128,7 @@
   },
   {
    "title": "An API for Dynamic Partial Evaluation under DynamoRIO",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2004,
    "authors": "Chris Leger",
@@ -5106,7 +5136,13 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “under DynamoRIO”"
+   }
   },
   {
    "title": "Design and Implementation of a Lightweight Dynamic Optimization System",
@@ -5142,7 +5178,7 @@
   },
   {
    "title": "Dynamic optimization if IA-32 applications under DynamoRIO",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2003,
    "authors": "Timothy Garnett",
@@ -5153,7 +5189,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “under DynamoRIO”"
+   }
   },
   {
    "title": "FIST: A Framework for Instrumentation in Software Dynamic Translators",
@@ -5202,7 +5244,7 @@
   },
   {
    "title": "Secure execution environment via program shepherding",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2003,
    "authors": "Vladimir Kiriansky",
@@ -5210,7 +5252,13 @@
    "cited_by": 17,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Our base system infrastructure itself, DynamoRIO [6, 7], is based on an IA-32 port of Dynamo [3]."
+   }
   },
   {
    "title": "The performance of runtime data cache prefetching in a dynamic optimization system",

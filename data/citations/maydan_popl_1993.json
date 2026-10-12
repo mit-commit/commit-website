@@ -564,7 +564,7 @@
   },
   {
    "title": "Enhanced Automated Data Dependency Analysis for Functionally Correct Parallel Code",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2014,
    "authors": "Prasad Pawar, Pramit Mehta, Naveen Boggarapu et al.",
@@ -575,7 +575,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The parallelization is acheived through privatization of the array [13]"
+   }
   },
   {
    "title": "Improved loop tiling based on the removal of spurious false dependences",
@@ -622,7 +628,7 @@
   },
   {
    "title": "Static dependency analysis of recursive structures for parallelisation",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2005,
    "authors": "T. Lewis",
@@ -630,7 +636,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "This has been done using an array dataflow analysis as in [34]."
+   }
   },
   {
    "title": "Algorithm recognition based on demand-driven data-.ow analysis",
@@ -1041,7 +1053,7 @@
   },
   {
    "title": "Communication generation for data-parallel languages",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 1997,
    "authors": "A. Sethi",
@@ -1049,7 +1061,13 @@
    "cited_by": 4,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "SUIF compiler uses last write trees (LWTs) for computing precise array dataow information e ciently for commonly occuring special cases [74, 4]."
+   }
   },
   {
    "title": "Parallelizing Compiler Techniques Based on Linear Inequalities",
@@ -2535,13 +2553,19 @@
   },
   {
    "title": "The Paraguin Compiler-Message-passing Code Generation Using SUIF",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 2002,
    "authors": "Clayton S. Femer",
    "url": "https://www.semanticscholar.org/paper/90820dbf7fabae32f4c70cc0181ac6a6be2512a7",
    "cited_by": 16,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Using SUIF”"
+   }
   },
   {
    "title": "A dissertation submitted in partial satisfaction of the requirements for the degree Doctor of Philosophy in Computer Science",

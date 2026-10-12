@@ -343,13 +343,19 @@
   },
   {
    "title": "An Automatic Superword Vectorization in LLVM",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 2010,
    "authors": "KuangLun Chen, Bor-Yeh Shen, Wuu Yang",
    "url": "https://openalex.org/W2895087378",
    "cited_by": 8,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “An Automatic Superword Vectorization in LLVM”"
+   }
   },
   {
    "title": "Proceedings of the GCC Developers' Summit",

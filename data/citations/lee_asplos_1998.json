@@ -1085,7 +1085,7 @@
   },
   {
    "title": "SUDS: Software Based Memory Speculation for Raw Microprocessors",
-   "function": "supports-claim",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2001,
    "authors": "M. Frank",
@@ -1096,7 +1096,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “for Raw Microprocessors”"
+   }
   },
   {
    "title": "THE RAW MICROPROCESSOR : A COMPUTATIONAL FABRIC FOR SOFTWARE CIRCUITS AND GENERAL",
@@ -1861,7 +1867,7 @@
   },
   {
    "title": "Compiler techniques for scalable performance of stream programs on multicore architectures",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2010,
    "authors": "Michael I. Gordon",
@@ -1869,7 +1875,13 @@
    "cited_by": 53,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "To route a word from one tile to another, the compiler inserts a route instruction on every intermediate static router [LBF98]."
+   }
   },
   {
    "title": "Compiling for reconfigurable computing",
@@ -1902,7 +1914,7 @@
   },
   {
    "title": "Tiled Multicore Processors",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2009,
    "venue": "Integrated circuits and systems",
@@ -1915,7 +1927,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "We have developed Rawcc [8, 25 , 26] to explore DILP compilation issues."
+   }
   },
   {
    "title": "Brick and mortar chip fabrication",
@@ -1946,7 +1964,7 @@
   },
   {
    "title": "Compiler Parallelization Techniques for Tiled Multicore Processors",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2008,
    "authors": "Donghwan Jeon",
@@ -1954,7 +1972,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "then it exploits fine-grained ILP with its space-time scheduler [13]"
+   }
   },
   {
    "title": "Critical Path Heuristic for Automatic Parallelization",
@@ -2073,7 +2097,7 @@
   },
   {
    "title": "Evaluation of the raw microprocessor: an exposed-wire-delay architecture for ILP and streams",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2004,
    "authors": "Michael Taylor, W. Lee, Joel B. Miller et al.",
@@ -2085,7 +2109,13 @@
     "own-group"
    ],
    "evidence": "abstract",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Of the benchmarks compiled by Rawcc, Raw is able to outperform the P3 for all the scientific benchmarks and several irregular applications."
+   }
   },
   {
    "title": "Multigrain parallel processing on OSCAR CMP",
@@ -2212,7 +2242,7 @@
   },
   {
    "title": "The Raw Processor: A Composeable 32-Bit Fabric for Embedded and General Purpose Computing",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2001,
    "authors": "M. Taylor, J. Kim, Jason E. Miller et al.",
@@ -2224,7 +2254,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The parallelizing Raw compiler, RAWCC [4, 3, 2, 1], uses these routers as an operand network between the ALUs of the processors to parallelize SpecFP 95 and multimedia applications."
+   }
   },
   {
    "title": "Compiler-managed memory system for software-exposed architectures",
@@ -2263,7 +2299,7 @@
   },
   {
    "title": "Design decision in the implementation of a raw architecture workstation",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 1999,
    "authors": "M. Taylor",
@@ -2274,11 +2310,17 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “implementation of a raw architecture workstation”"
+   }
   },
   {
    "title": "Hot Pages : Software Caching for Raw Microprocessors Csaba",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 1999,
    "authors": "A. Moritz, M. Frank, Walter Lee et al.",
@@ -2290,11 +2332,17 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Software Caching for Raw Microprocessors”"
+   }
   },
   {
    "title": "Hot Pages: Software Caching for Raw Microprocessors",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 1999,
    "authors": "C. A. Moritz, M. Frank, Walter Lee et al.",
@@ -2306,7 +2354,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Software Caching for Raw Microprocessors”"
+   }
   },
   {
    "title": "DAP: A 507-GMACs/J 256-Core Domain Adaptive Processor for Wireless Communication and Linear Algebra Kernels in 12-nm FINFET",
@@ -2861,7 +2915,7 @@
   },
   {
    "title": "SUDS: automatic parallelization for raw processors",
-   "function": "passing-citation",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2003,
    "authors": "M. Frank",
@@ -2872,7 +2926,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “for Raw Microprocessors”"
+   }
   },
   {
    "title": "A framework for reconfigurable computing: task scheduling and context management",
@@ -3281,7 +3341,7 @@
   },
   {
    "title": "SUDS : Primitive Mechanismsfor MemoryDependenceSpeculation",
-   "function": "unknown",
+   "function": "uses-tool",
    "split": null,
    "year": 1999,
    "authors": "M. Frank, C. AndrasMoritz, SamanAmarasingheandAnantAgarwal BenjaminGreenwald",
@@ -3292,7 +3352,13 @@
     "polluted-contexts"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “for Raw Microprocessors”"
+   }
   },
   {
    "title": "CHIMAERA : Integrating a Reconfigurable Unit into a High-Performance , Dynamically-Scheduled Superscalar Processor",
@@ -3644,13 +3710,19 @@
   },
   {
    "title": "Embedding tree computations into the RAW chip",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 2002,
    "authors": "Adrian Soviani",
    "url": "https://www.semanticscholar.org/paper/81ae0519c8299d0a905a1639ab34a5c823cd715c",
    "cited_by": 0,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “into the RAW chip”"
+   }
   },
   {
    "title": "Q-Machine : A Spatially-Aware Decentralized Computer Architecture",
@@ -3732,13 +3804,19 @@
   },
   {
    "title": "Software Based Instruction Caching for the RAW Architecture",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "year": 1999,
    "authors": "Jason E. Miller",
    "url": "https://www.semanticscholar.org/paper/f8ba688c3444081362d0b2e3c5dd0202a8309f0d",
    "cited_by": 4,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “for the RAW Architecture”"
+   }
   },
   {
    "title": "Coarse Grained Reconfigurable Architectures",

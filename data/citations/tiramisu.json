@@ -1250,7 +1250,7 @@
   },
   {
    "title": "Substitution of kernel functions based on pattern matching on schedule trees",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2024,
    "venue": "ICPP Workshops",
@@ -1259,7 +1259,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Tiramisu[2] provides a CPP API for users to write Tiramisu programs that express the computation of kernels."
+   }
   },
   {
    "title": "The Continuous Tensor Abstraction: Where Indices Are Real",
@@ -2842,7 +2848,7 @@
   },
   {
    "title": "Proposition d'un modèle pour l'optimisation automatique de boucles dans le compilateur Tiramisu : cas d'optimisation de déroulage",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2019,
    "venue": "arXiv.org",
@@ -2858,7 +2864,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Notre projet de fin d’étude s’inscrit dans le cadre du projet lancé par l’équipe COMMIT de MIT qui vise à améliorer le compilateur Tiramisu."
+   }
   },
   {
    "title": "Accl++ : A high-productivity programming language for performance and code portability on heterogeneous systems",

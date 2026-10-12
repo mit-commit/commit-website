@@ -202,7 +202,7 @@
   },
   {
    "title": "Multi-objective Exploration for Practical Optimization Decisions in Binary Translation",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2019,
    "venue": "ACM Transactions on Embedded Computing Systems",
@@ -215,7 +215,13 @@
     "supports-claim",
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "In our experiment, SVM and nearest neighbor, which are recommended for the static compiler [34], showed good accuracy improvement compared to the baseline heuristics."
+   }
   },
   {
    "title": "Using Ensemble Learning to Improve Automatic Vectorization of Tensor Contraction Program",
@@ -1533,7 +1539,7 @@
   },
   {
    "title": "Optimizing Program Efficiency with Loop Unroll Factor Prediction",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2023,
    "venue": "Information Sciences Letters",
@@ -1542,7 +1548,13 @@
    "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Based on the aforementioned, this study aims to create a model that can predict the optimal unrolling factor."
+   }
   },
   {
    "title": "Background",

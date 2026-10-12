@@ -594,7 +594,7 @@
   },
   {
    "title": "SUDS: automatic parallelization for raw processors",
-   "function": "supports-claim",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2003,
    "authors": "M. Frank",
@@ -609,7 +609,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “raw processors”"
+   }
   },
   {
    "title": "A stream compiler for communication-exposed architectures",
@@ -1124,7 +1130,7 @@
   },
   {
    "title": "DPU-v2: Energy-efficient execution of irregular directed acyclic graphs",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2022,
    "venue": "Micro",
@@ -1136,7 +1142,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The input/output interconnects of our work can be classified as scalar operand networks as discussed in [50], however we closely couple operand networks with a spatial tree-based datapath"
+   }
   },
   {
    "title": "Instruction scheduling optimizations for energy efficient VLIW processors",
@@ -1182,7 +1194,7 @@
   },
   {
    "title": "Tiled Multicore Processors",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2009,
    "venue": "Integrated circuits and systems",
@@ -1198,7 +1210,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Taken together, the wiring channel operators provide the abstraction of a scalar operand network [ 44 ] that offers very low latency for scalar data transport and enables the exploitation of ILP."
+   }
   },
   {
    "title": "Wire Aware Cache Architecture",
@@ -1285,7 +1303,7 @@
   },
   {
    "title": "Tiled microprocessors",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2007,
    "authors": "M. Taylor",
@@ -1299,7 +1317,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "the 5-tuple of an SON based on Raw’s relatively aggressive on-chip message-passing implementation falls between <3,1+c,1,2,7>and <3,2+c,1,2,12>"
+   }
   },
   {
    "title": "Implementation and Evaluation of On-Chip Network Architectures",
@@ -2067,7 +2091,7 @@
   },
   {
    "title": "Implementations of Stream Virtual Machine and Stream Applications on Raw Processor",
-   "function": "unknown",
+   "function": "uses-tool",
    "split": null,
    "year": 2006,
    "authors": "Jinwoo Suh, R. Lethin, S. Crago et al.",
@@ -2076,7 +2100,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “on Raw Processor”"
+   }
   },
   {
    "title": "A Technology-Aware and Energy-Oriented Topology Exploration for On-Chip Networks",
@@ -2094,7 +2124,7 @@
   },
   {
    "title": "Implementations of Signal Processing Kernels using Stream Virtual Machine for Raw Processor",
-   "function": "unknown",
+   "function": "uses-tool",
    "split": null,
    "year": 2005,
    "authors": "Jinwoo Suh, S. Crago, D. Kang et al.",
@@ -2103,7 +2133,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “for Raw Processor”"
+   }
   },
   {
    "title": "SLIIC: System-Level Intelligent Intensive Computing",

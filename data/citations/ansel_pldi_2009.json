@@ -549,7 +549,7 @@
   },
   {
    "title": "Exploring Parallel Algorithmic Choices for Graph Analytics",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2019,
    "authors": "Akif Rehman",
@@ -557,7 +557,13 @@
    "cited_by": 0,
    "centrality": "engaged",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Algorithmic Choices”"
+   }
   },
   {
    "title": "Finding and Exploiting Parallelism with Data-Structure-Aware Static and Dynamic Analysis",
@@ -2003,7 +2009,7 @@
   },
   {
    "title": "Autotuning CUDA compiler parameters for heterogeneous applications using the OpenTuner framework",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2017,
    "venue": "Concurrency and Computation Practice and Experience",
@@ -2012,11 +2018,17 @@
    "cited_by": 14,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “using the OpenTuner framework”"
+   }
   },
   {
    "title": "Autotuning high-level synthesis for FPGAs using OpenTuner and LegUp",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2017,
    "venue": "International Conference on Reconfigurable Computing and FPGAs",
@@ -2031,7 +2043,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “using OpenTuner and LegUp”"
+   }
   },
   {
    "title": "BOAT",
@@ -2271,7 +2289,7 @@
   },
   {
    "title": "Autotuning GPU Compiler Parameters Using OpenTuner",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2015,
    "authors": "P. Bruel, Marcos Amarís, A. Goldman",
@@ -2282,7 +2300,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Using OpenTuner”"
+   }
   },
   {
    "title": "CAreDroid",
@@ -3478,7 +3502,7 @@
   },
   {
    "title": "Online-Autotuning in the Presence of Algorithmic Choice",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2017,
    "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
@@ -3490,7 +3514,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Algorithmic Choice”"
+   }
   },
   {
    "title": "Towards Enhancing Performance, Programmability, and Portability in Heterogeneous Computing",
@@ -3629,7 +3659,7 @@
   },
   {
    "title": "OpenTuner",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2014,
    "venue": "International Conference on Parallel Architectures and Compilation Techniques",
@@ -3642,7 +3672,13 @@
     "own-group"
    ],
    "evidence": "abstract",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "author's genealogy, confirmed in the OpenTuner paper's full text",
+    "date": "2026-10-12",
+    "evidence": "OpenTuner (PACT'14) section 4.4 tunes PetaBricks programs and compares against “the native PetaBricks autotuner”."
+   }
   },
   {
    "title": "Optimization of algorithms with OPAL",

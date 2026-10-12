@@ -1085,7 +1085,7 @@
   },
   {
    "title": "Improving the effectiveness of searching for isomorphic chains in superword level parallelism",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2017,
    "venue": "Micro",
@@ -1098,7 +1098,13 @@
     "detailed-citation",
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Improving the effectiveness of searching for isomorphic chains in superword level parallelism”"
+   }
   },
   {
    "title": "A Compiler Approach for Exploiting Partial SIMD Parallelism",
@@ -2928,7 +2934,7 @@
   },
   {
    "title": "Demo: SLP-aware word length optimization",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2016,
    "venue": "2016 Conference on Design and Architectures for Signal and Image Processing (DASIP)",
@@ -2937,7 +2943,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “SLP-aware word length optimization”"
+   }
   },
   {
    "title": "Specialized Macro-Instructions for Von-Neumann Accelerators",
@@ -3343,7 +3355,7 @@
   },
   {
    "title": "Enhancing SLP Vectorization through Hybrid Slice Selection",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2025,
    "venue": "ICPP Workshops",
@@ -3355,7 +3367,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Enhancing SLP Vectorization through Hybrid Slice Selection”"
+   }
   },
   {
    "title": "Parallel optimization techniques for ultra-large scale refined numerical simulations on Chinese supercomputers",
@@ -3388,7 +3406,7 @@
   },
   {
    "title": "Superword level parallelism vectorization method for signal processing algorithms oriented to double loops",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2025,
    "venue": "International Conference on Algorithms, Microchips and Network Applications",
@@ -3397,7 +3415,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Superword level parallelism vectorization method for signal processing algorithms oriented to double loops”"
+   }
   },
   {
    "title": "A Framework for Fine-Grained Program Versioning",
@@ -3456,7 +3480,7 @@
   },
   {
    "title": "All you need is superword-level parallelism: systematic control-flow vectorization with SLP",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2022,
    "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
@@ -3473,7 +3497,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “systematic control-flow vectorization with SLP”"
+   }
   },
   {
    "title": "An SLP Vectorization Method Based on Equivalent Extended Transformation",
@@ -3585,7 +3615,7 @@
   },
   {
    "title": "Vectorization-aware loop unrolling with seed forwarding",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2020,
    "venue": "International Conference on Compiler Construction",
@@ -3597,7 +3627,13 @@
    "secondary": [
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Since unrolling generates repeatead isomorphic instruction sequences, it enables SLP to vectorize more code."
+   }
   },
   {
    "title": "Compiler Auto-Vectorization with Imitation Learning",
@@ -3621,7 +3657,7 @@
   },
   {
    "title": "Super-Node SLP: Optimized Vectorization for Code Sequences Containing Operators and Their Inverse Elements",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2019,
    "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
@@ -3633,7 +3669,13 @@
    "secondary": [
     "surveys"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “a new SLP-style algorithm, optimized for expressions that include a commutative operator”"
+   }
   },
   {
    "title": "An empirical study of the effect of source-level loop transformations on compiler stability",
@@ -3687,7 +3729,7 @@
   },
   {
    "title": "Look-ahead SLP: auto-vectorization in the presence of commutative operations",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2018,
    "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
@@ -3699,7 +3741,13 @@
    "secondary": [
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Look-ahead SLP: auto-vectorization in the presence of commutative operations”"
+   }
   },
   {
    "title": "Loop-Oriented Pointer Analysis for Automatic SIMD Vectorization",
@@ -3747,7 +3795,7 @@
   },
   {
    "title": "A New Improved Algorithm for SLP",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2017,
    "venue": "International Journal of Performability Engineering",
@@ -3756,7 +3804,13 @@
    "cited_by": 0,
    "centrality": "engaged",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “A New Improved Algorithm for SLP”"
+   }
   },
   {
    "title": "An Algorithm for the Optimization of Finite Element Integration Loops",
@@ -3788,7 +3842,7 @@
   },
   {
    "title": "Identifying superword level parallelism with directed graph reachability}{Identifying superword level parallelism with directed graph reachability",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2017,
    "venue": "Scientia Sinica Informationis",
@@ -3797,7 +3851,13 @@
    "cited_by": 2,
    "centrality": "engaged",
    "confidence": "medium",
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Identifying superword level parallelism with directed graph reachability”"
+   }
   },
   {
    "title": "Improving Loop Dependence Analysis",
@@ -3814,7 +3874,7 @@
   },
   {
    "title": "Superword level parallelism aware word length optimization",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2017,
    "venue": "Design, Automation and Test in Europe",
@@ -3823,11 +3883,17 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Superword level parallelism aware word length optimization”"
+   }
   },
   {
    "title": "Insufficient Vectorization: A New Method to Exploit Superword Level Parallelism",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2016,
    "venue": "IEICE Transactions on Information and Systems",
@@ -3836,7 +3902,13 @@
    "cited_by": 1,
    "centrality": "engaged",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “A New Method to Exploit Superword Level Parallelism”"
+   }
   },
   {
    "title": "SIMD-aware Word Length Optimization for Floating-point to Fixed-point Conversion targeting Embedded Processors. (Optimisation de la largeur des mots pour la conversion de virgule flottante en virgule fixe ciblant des processeurs embarqués avec support SIMD)",
@@ -3867,7 +3939,7 @@
   },
   {
    "title": "A Bottom-Up SLP Vectorization Pass Starting from Associative Reduction Chains Implemented in LLVM",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2015,
    "authors": "Dave Mabe",
@@ -3878,7 +3950,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “A Bottom-Up SLP Vectorization Pass Starting from Associative Reduction Chains Implemented in LLVM”"
+   }
   },
   {
    "title": "Exploring and Evaluating Array Layout Restructuring for SIMDization",
@@ -3953,7 +4031,7 @@
   },
   {
    "title": "Automatic generation of custom SIMD instructions for Superword Level Parallelism",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2014,
    "venue": "Design, Automation and Test in Europe",
@@ -3965,7 +4043,13 @@
    "secondary": [
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Superword Level Parallelism”"
+   }
   },
   {
    "title": "Exploring the vectorization of python constructs using pythran and boost SIMD",
@@ -3982,7 +4066,7 @@
   },
   {
    "title": "M Compiler Vectorization For Architecture",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2014,
    "authors": "Himanshu Kapoor, Amrita Sharan",
@@ -3990,7 +4074,13 @@
    "cited_by": 0,
    "centrality": "engaged",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The algorithm, using simple greedy heuristic [16], locates groups of isomorphic expressions and replaces them with vector op-codes."
+   }
   },
   {
    "title": "Optimizing SIMD execution in HW/SW co-designed processors",
@@ -4036,7 +4126,7 @@
   },
   {
    "title": "The Research on SLP Optimization Technique towards DSP",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2012,
    "venue": "2012 11th International Symposium on Distributed Computing and Applications to Business, Engineering & Science",
@@ -4045,7 +4135,13 @@
    "cited_by": 0,
    "centrality": "engaged",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The Superword Level Parallelism SLP optimization strategy was put forward towards DSP, so it can preferably match the DSP special functions and play the best effect."
+   }
   },
   {
    "title": "IDISA+: A portable model for high performance SIMD programming",
@@ -6227,13 +6323,19 @@
   },
   {
    "title": "Compiler optimizations for architectures supporting superword-level parallelism",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "year": 2005,
    "authors": "Mary W. Hall, Jaewook Shin",
    "url": "https://www.semanticscholar.org/paper/74694cb0402790213cf970df421f77de9f77143b",
    "cited_by": 5,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “superword-level parallelism”"
+   }
   },
   {
    "title": "Orthogonal parallel processing in vector Pascal",

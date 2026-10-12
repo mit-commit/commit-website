@@ -646,7 +646,7 @@
   },
   {
    "title": "Scalar Operand Networks: Design, Implementation, and Analysis",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2004,
    "authors": "M. Taylor, Walter Lee, Saman P. Amarasinghe et al.",
@@ -658,7 +658,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The distribution of data to tiles is provided by Maps, Raw's compiler managed memory system [4, 12]."
+   }
   },
   {
    "title": "Parallelizing applications into silicon",
@@ -694,7 +700,7 @@
   },
   {
    "title": "Spatial instruction scheduling for raw machines",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2002,
    "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
@@ -703,11 +709,17 @@
    "cited_by": 3,
    "centrality": "engaged",
    "confidence": "low",
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Spatial instruction scheduling for raw machines”"
+   }
   },
   {
    "title": "The Raw Processor: A Composeable 32-Bit Fabric for Embedded and General Purpose Computing",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2001,
    "authors": "M. Taylor, J. Kim, Jason E. Miller et al.",
@@ -719,11 +731,17 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “The Raw Processor: A Composeable 32-Bit Fabric for Embedded and General Purpose Computing”"
+   }
   },
   {
    "title": "Design decision in the implementation of a raw architecture workstation",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 1999,
    "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
@@ -735,11 +753,17 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “implementation of a raw architecture workstation”"
+   }
   },
   {
    "title": "Hot Pages : Software Caching for Raw Microprocessors Csaba",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 1999,
    "authors": "A. Moritz, M. Frank, Walter Lee et al.",
@@ -751,11 +775,17 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Software Caching for Raw Microprocessors”"
+   }
   },
   {
    "title": "Hot Pages: Software Caching for Raw Microprocessors",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 1999,
    "authors": "C. A. Moritz, M. Frank, Walter Lee et al.",
@@ -767,7 +797,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Software Caching for Raw Microprocessors”"
+   }
   },
   {
    "title": "QuaMap: A Multi-Backend Benchmark Dataset for Quantum Circuit Mapping and Learning-Based Compiler Evaluation",
@@ -1010,7 +1046,7 @@
   },
   {
    "title": "Scalar operand networks: on-chip interconnect for ILP in partitioned architectures",
-   "function": "passing-citation",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2003,
    "venue": "The Ninth International Symposium on High-Performance Computer Architecture, 2003. HPCA-9 2003. Proceedings.",
@@ -1023,11 +1059,17 @@
     "own-group"
    ],
    "evidence": "abstract",
-   "commit": true
+   "commit": true,
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The distribution of data to tiles is provided by Maps, Raw's compiler managed memory system [4, 12]."
+   }
   },
   {
    "title": "SUDS: automatic parallelization for raw processors",
-   "function": "passing-citation",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2003,
    "authors": "M. Frank",
@@ -1039,7 +1081,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “automatic parallelization for raw processors”"
+   }
   },
   {
    "title": "A compiler approach to fast hardware design space exploration in FPGA-based systems",
@@ -1212,7 +1260,7 @@
   },
   {
    "title": "Parallelization of the SSCA#3 Benchmark on the RAW Processor",
-   "function": "unknown",
+   "function": "uses-tool",
    "split": null,
    "year": 2006,
    "venue": "University Libraries (University of Maryland)",
@@ -1222,7 +1270,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “on the RAW Processor”"
+   }
   },
   {
    "title": "Spatial computation",

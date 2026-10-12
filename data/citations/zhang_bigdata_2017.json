@@ -1454,7 +1454,7 @@
   },
   {
    "title": "Compiling Graph Applications for GPU s with GraphIt",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2021,
    "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
@@ -1467,7 +1467,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “GraphIt programming language”"
+   }
   },
   {
    "title": "Dynamic Sparse Tensor Algebra Compilation",
@@ -1541,7 +1547,7 @@
   },
   {
    "title": "Taming the Zoo: The Unified GraphIt Compiler Framework for Novel Architectures",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2021,
    "venue": "International Symposium on Computer Architecture",
@@ -1554,7 +1560,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Unified GraphIt Compiler Framework for Novel Architectures”"
+   }
   },
   {
    "title": "Characterizing the impact of last-level cache replacement policies on big-data workloads",
@@ -1571,7 +1583,7 @@
   },
   {
    "title": "Compilation Techniques for Graph Algorithms on GPUs",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2020,
    "venue": "arXiv (Cornell University)",
@@ -1588,7 +1600,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “GraphIt programming language”"
+   }
   },
   {
    "title": "Developing Efficient Implementation of Label Propagation Algorithm for Modern NVIDIA GPUs",
@@ -1744,7 +1762,7 @@
   },
   {
    "title": "Optimizing ordered graph algorithms with GraphIt",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2019,
    "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
@@ -1757,7 +1775,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “a new priority-based extension to GraphIt”"
+   }
   },
   {
    "title": "Scalable Systems for Large Scale Dynamic Connected Data Processing",

@@ -177,7 +177,7 @@
   },
   {
    "title": "Hot Pages : Software Caching for Raw Microprocessors Csaba",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 1999,
    "authors": "A. Moritz, M. Frank, Walter Lee et al.",
@@ -189,11 +189,17 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “for Raw Microprocessors”"
+   }
   },
   {
    "title": "Hot Pages: Software Caching for Raw Microprocessors",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 1999,
    "authors": "C. A. Moritz, M. Frank, Walter Lee et al.",
@@ -205,11 +211,17 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “for Raw Microprocessors”"
+   }
   },
   {
    "title": "Maps: a compiler-managed memory system for raw machines",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 1999,
    "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
@@ -222,7 +234,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “for raw machines”"
+   }
   },
   {
    "title": "Memory partitioning and scheduling co-optimization in behavioral synthesis",
@@ -340,13 +358,19 @@
   },
   {
    "title": "Embedding tree computations into the RAW chip",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 2002,
    "authors": "Adrian Soviani",
    "url": "https://www.semanticscholar.org/paper/81ae0519c8299d0a905a1639ab34a5c823cd715c",
    "cited_by": 0,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “into the RAW chip”"
+   }
   },
   {
    "title": "C or Fortran Program Custom Logic Generation Traditional CAD Optimizations Traditional Compiler Optimzations Virtual Wires Scheduling Small Memory Partitioning",

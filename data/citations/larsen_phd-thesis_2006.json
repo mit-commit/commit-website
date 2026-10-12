@@ -13,7 +13,7 @@
  "citations": [
   {
    "title": "A compiler framework for extracting superword level parallelism",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2012,
    "venue": "ACM SIGPLAN Notices",
@@ -22,7 +22,13 @@
    "cited_by": 50,
    "centrality": "peripheral",
    "confidence": "low",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "we employ a similar cost model used in [16] to estimate the potential speed-ups brought by the transformed code"
+   }
   },
   {
    "title": "Compiler-controlled caching in superword register files for multimedia extension architectures",

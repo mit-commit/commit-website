@@ -532,7 +532,7 @@
   },
   {
    "title": "Interprocedural parallelization analysis in SUIF",
-   "function": "unknown",
+   "function": "uses-tool",
    "split": null,
    "year": 2005,
    "venue": "ACM Transactions on Programming Languages and Systems",
@@ -543,7 +543,13 @@
     "own-group"
    ],
    "evidence": "fulltext",
-   "commit": true
+   "commit": true,
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Interprocedural parallelization analysis in SUIF”"
+   }
   },
   {
    "title": "Mapping to coarse grain reconfigurable arrays using evolutionary algorithms",
@@ -637,24 +643,36 @@
   },
   {
    "title": "SUIF EXPLORER :A N I NTERACTIVE AND INTERPROCEDURAL PARALLELIZER",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 2000,
    "authors": "Shih-Wei Liao",
    "url": "https://www.semanticscholar.org/paper/fcf449a655b8b094e3a6303b54dce42e58f4c66d",
    "cited_by": 0,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “SUIF EXPLORER”"
+   }
   },
   {
    "title": "Achieving High Performance on Digital AlphaServerswith the SUIF",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 1999,
    "authors": "CompilerJennifer, M., Andersony et al.",
    "url": "https://www.semanticscholar.org/paper/ab6c4287c8dde1674b93c216a1c30f050d4c798f",
    "cited_by": 0,
    "evidence": "title_only",
-   "commit": true
+   "commit": true,
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “with the SUIF”"
+   }
   },
   {
    "title": "Vector microprocessors",

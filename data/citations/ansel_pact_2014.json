@@ -2600,7 +2600,7 @@
   },
   {
    "title": "Exploring Parallel Algorithmic Choices for Graph Analytics",
-   "function": "baseline",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2019,
    "authors": "Akif Rehman",
@@ -2611,7 +2611,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "OpenTuner optimized [12] SSSP and A* for strict, relax and unordered parallel variations running on the Intel Xeon E5-2650 v3 (40 core) machine"
+   }
   },
   {
    "title": "FuncyTuner",
@@ -2712,7 +2718,7 @@
   },
   {
    "title": "Autotuning divide‐and‐conquer stencil computations",
-   "function": "baseline",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2017,
    "venue": "Concurrency and Computation Practice and Experience",
@@ -2725,7 +2731,13 @@
     "supports-claim",
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "we used the state-of-the-art OpenTuner framework [31] to perform heuristic search over the the base domain, and find optimal values for the threshold constants"
+   }
   },
   {
    "title": "Autotuning Stencil Computations with Structural Ordinal Regression Learning",

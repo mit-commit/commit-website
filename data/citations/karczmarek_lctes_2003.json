@@ -195,7 +195,7 @@
   },
   {
    "title": "Optimizations in Stream Programming for Multimedia Applications",
-   "function": "supports-claim",
+   "function": "extends",
    "split": "detailed",
    "year": 2014,
    "authors": "Eric Wong",
@@ -206,7 +206,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "An initialization schedule is required if peeking is present in a graph to enable the calculation and execution of a steady-state schedule [33]."
+   }
   },
   {
    "title": "StreamTMC: Stream compilation for tiled multi-core architectures",
@@ -422,7 +428,7 @@
   },
   {
    "title": "Optimizations in Stream Programming for Multimedia Applications by",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2012,
    "authors": "E. Wong",
@@ -430,7 +436,13 @@
    "cited_by": 1,
    "centrality": "engaged",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "An initialization schedule is required if peeking is present in a graph to enable the calculation and execution of a steady-state schedule [33]."
+   }
   },
   {
    "title": "From Cyclo-Static Process Networks to Code Generation for Multidimensional Software Pipelining. (Des réseaux de processus cyclo-statiques à la génération de code pour le pipeline multi-dimensionnel)",
@@ -446,7 +458,7 @@
   },
   {
    "title": "Compiler techniques for scalable performance of stream programs on multicore architectures",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2010,
    "authors": "Michael I. Gordon",
@@ -454,7 +466,13 @@
    "cited_by": 53,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The initialization schedule is required to calculate a steady-state schedule for a graph with an F such that e(WF , F )−o(WF , F ) > 0 (if the prework function peeks then an initialization schedule is also required) [KTA03]."
+   }
   },
   {
    "title": "Language and compiler support for stream programs",
@@ -706,7 +724,7 @@
   },
   {
    "title": "Dynamic load-balancing of StreamIt cluster computations",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2006,
    "authors": "Eric Fellheimer",
@@ -714,7 +732,13 @@
    "cited_by": 6,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Dynamic load-balancing of StreamIt cluster computations”"
+   }
   },
   {
    "title": "Integrated Software Synthesis for Signal Processing Applications",

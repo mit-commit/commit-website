@@ -1465,7 +1465,7 @@
   },
   {
    "title": "Towards a Domain-Extensible Compiler: Optimizing an Image Processing Pipeline on Mobile CPUs",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2021,
    "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
@@ -1477,7 +1477,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Halide and many similar projects have demonstrated the great potential of domain specific optimizing compilers”"
+   }
   },
   {
    "title": "Fireiron",
@@ -1615,7 +1621,7 @@
   },
   {
    "title": "Code Refinement of Stencil Codes",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2014,
    "venue": "Parallel Processing Letters",
@@ -1627,7 +1633,13 @@
    "secondary": [
     "exemplifies"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "We follow the direction of DSLs in our work, but we give the programmer additional opportunities to control the optimization process."
+   }
   },
   {
    "title": "Darkroom",
@@ -2026,7 +2038,7 @@
   },
   {
    "title": "Exocompilation for productive programming of hardware accelerators",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2022,
    "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
@@ -2038,7 +2050,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Exo builds on the idea of programmer-visible scheduling languages, popularized in part by Halide and TVM"
+   }
   },
   {
    "title": "LuisaRender",
@@ -2174,7 +2192,7 @@
   },
   {
    "title": "Domain Specific Description in Halide for Randomized Image Convolution",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2021,
    "venue": "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference",
@@ -2183,7 +2201,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Domain Specific Description in Halide for Randomized Image Convolution”"
+   }
   },
   {
    "title": "Enhancing High-Level Synthesis Using a Meta-Programming Approach",
@@ -2475,7 +2499,7 @@
   },
   {
    "title": "Halide and GENESIS for Generating Domain-Specific Architecture of Guided Image Filtering",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2019,
    "venue": "International Symposium on Circuits and Systems",
@@ -2487,7 +2511,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Halide is a domain-specific language for image processing on CPUs and GPUs”"
+   }
   },
   {
    "title": "On the Representation of Partially Specified Implementations and its Application to the Optimization of Linear Algebra Kernels on GPU",
@@ -2504,7 +2534,7 @@
   },
   {
    "title": "Sparse-Matrix Compression Primitives with OpenCL Framework to Support Halide",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2019,
    "venue": "International Workshop on OpenCL",
@@ -2513,7 +2543,13 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “OpenCL plays a supporting role for Halide environments”"
+   }
   },
   {
    "title": "A framework for developing and benchmarking sampling and denoising algorithms for Monte Carlo rendering",
@@ -2681,7 +2717,7 @@
   },
   {
    "title": "A system for rapid exploration of shader optimization choices",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2016,
    "venue": "ACM Transactions on Graphics",
@@ -2690,7 +2726,13 @@
    "cited_by": 14,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "This design echoes the separation of algorithm from schedule enforced by programming languages for high-performance computing...and image processing[Ragan-Kelley et al. 2012]."
+   }
   },
   {
    "title": "Analysis and Synthesis of Rope Rosettes",
@@ -3066,7 +3108,7 @@
   },
   {
    "title": "Performance evaluation of halide auto-scheduler with directional cubic convolution interpolation",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2023,
    "venue": "Other Conferences",
@@ -3078,11 +3120,17 @@
    "secondary": [
     "exemplifies"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Its auto-scheduler is a helpful tool for solving this problem”"
+   }
   },
   {
    "title": "Accelerating AI Applications with Sparse Matrix Compression in Halide",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2022,
    "venue": "Journal of Signal Processing Systems",
@@ -3091,7 +3139,13 @@
    "cited_by": 8,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Accelerating AI Applications with Sparse Matrix Compression in Halide”"
+   }
   },
   {
    "title": "End-to-end translation validation for the halide language",
@@ -3111,7 +3165,7 @@
   },
   {
    "title": "Formal Semantics for the Halide Language",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2022,
    "venue": "arXiv.org",
@@ -3123,7 +3177,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “We present the first formalization and metatheory of language soundness for a user-schedulable language, the widely used array processing language Halide”"
+   }
   },
   {
    "title": "P3 problem and Magnolia language: Specializing array computations for emerging architectures",
@@ -3227,7 +3287,7 @@
   },
   {
    "title": "An Efficient Description with Halide for IIR Gaussian Filter",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2020,
    "venue": "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference",
@@ -3236,7 +3296,13 @@
    "cited_by": 6,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “An Efficient Description with Halide for IIR Gaussian Filter”"
+   }
   },
   {
    "title": "Differentiating a Tensor Language",
@@ -3272,7 +3338,7 @@
   },
   {
    "title": "Learning to Schedule Halide Pipelines for the GPU",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2020,
    "venue": "arXiv.org",
@@ -3284,11 +3350,17 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Learning to Schedule Halide Pipelines for the GPU”"
+   }
   },
   {
    "title": "Optimizing Halide for Digital Signal Processors",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2020,
    "venue": "IEEE Workshop on Signal Processing Systems",
@@ -3297,7 +3369,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Optimizing Halide for Digital Signal Processors”"
+   }
   },
   {
    "title": "Fast Schedule Tensor Computation on GPU with High Data Reuse and Device Utilization",
@@ -3339,7 +3417,7 @@
   },
   {
    "title": "Profiling Halide DSL with CPU Performance Events for Schedule Optimization",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2019,
    "venue": "Brazilian Symposium on Programming Languages",
@@ -3348,7 +3426,13 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “our work extends the Halide DSL by adding a profiling API”"
+   }
   },
   {
    "title": "Rapid software prototyping for heterogeneous and distributed platforms",
@@ -4161,14 +4245,20 @@
   },
   {
    "title": "An instrumentation framework for performance analysis of Halide schedules",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "year": 2021,
    "venue": "Journal of Computer Languages",
    "authors": "Rafael Ravedutti Lucio Machado, Jan Eitzinger, André Murbach Maidl et al.",
    "url": "https://doi.org/10.1016/j.cola.2021.101065",
    "cited_by": 0,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “An instrumentation framework for performance analysis of Halide schedules”"
+   }
   },
   {
    "title": "Enhanced Beetle Antennae Search with Zeroing Neural Network for online solution of constrained optimization",
@@ -4213,14 +4303,20 @@
   },
   {
    "title": "A profile-guided synergistic computation framework for Halide",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 2017,
    "venue": "Journal of Systems Architecture",
    "authors": "Shih-Wei Liao, Chia‐Lung Kao, Yuki Shimizu",
    "url": "https://doi.org/10.1016/j.sysarc.2017.10.005",
    "cited_by": 0,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “A profile-guided synergistic computation framework for Halide”"
+   }
   },
   {
    "title": "GPU Array Access Auto-Tuning",

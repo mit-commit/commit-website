@@ -350,7 +350,7 @@
   },
   {
    "title": "A High Performance Sparse Tensor Algebra Compiler in MLIR",
-   "function": "baseline",
+   "function": "extends",
    "split": "detailed",
    "year": 2021,
    "authors": "Ruiqin Tian, Luanzheng Guo, Jiajia Li et al.",
@@ -361,7 +361,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “A High Performance Sparse Tensor Algebra Compiler in MLIR”"
+   }
   },
   {
    "title": "Capstan: A Vector RDA for Sparsity",
@@ -444,7 +450,7 @@
   },
   {
    "title": "A High-Performance Sparse Tensor Algebra Compiler in Multi-Level IR",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2021,
    "venue": "arXiv.org",
@@ -453,7 +459,13 @@
    "cited_by": 20,
    "centrality": "engaged",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “A High Performance Sparse Tensor Algebra Compiler in MLIR”"
+   }
   },
   {
    "title": "The landscape of software for tensor computations",
@@ -730,7 +742,7 @@
   },
   {
    "title": "Edinburgh Research Explorer C2TACO: Lifting Tensor Code to TACO",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "authors": "José Wesley de, Souza Magalhães, Elizabeth Polgreen et al.",
    "url": "https://www.semanticscholar.org/paper/11296e9b85c887f7e9c5b37ff29d7379fe53e8ef",
@@ -740,11 +752,17 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Lifting Tensor Code to TACO”"
+   }
   },
   {
    "title": "C2TACO: Lifting Tensor Code to TACO",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2023,
    "venue": "International Conference on Generative Programming: Concepts and Experiences",
@@ -756,7 +774,13 @@
    "secondary": [
     "exemplifies"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “C2TACO: Lifting Tensor Code to TACO”"
+   }
   },
   {
    "title": "Symphony: Orchestrating Sparse and Dense Tensors with Hierarchical Heterogeneous Processing",
@@ -776,7 +800,7 @@
   },
   {
    "title": "Tensor Algebra Compilation with Workspaces",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2019,
    "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
@@ -789,7 +813,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "this paper builds on our recent work on a sparse tensor algebra theory [4], [33] and tool [34] that compiles tensor index notation on sparse and dense tensors, and that we have extended to cover many more sparse tensor formats [5]"
+   }
   },
   {
    "title": "Fast and Fusiest: An Optimal Fusion-Aware Mapper for Accelerator Modeling and Evaluation",

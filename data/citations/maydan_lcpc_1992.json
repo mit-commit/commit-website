@@ -288,7 +288,7 @@
   },
   {
    "title": "SUIF EXPLORER :A N I NTERACTIVE AND INTERPROCEDURAL PARALLELIZER",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2000,
    "authors": "Shih-Wei Liao",
@@ -296,7 +296,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “SUIF EXPLORER :A N I NTERACTIVE AND INTERPROCEDURAL PARALLELIZER”"
+   }
   },
   {
    "title": "On data dependence analysis for compiling programs on distributed-memory machines (extended abstract)",

@@ -793,7 +793,7 @@
   },
   {
    "title": "The Dataflow Abstract Machine Simulator Framework",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2024,
    "venue": "International Symposium on Computer Architecture",
@@ -806,11 +806,17 @@
     "lineage",
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The SAM compiler is an adapted version of the TACO compiler [35], lowering from Concrete Index Notation [34] into a graph of “primitive” blocks connected by streams."
+   }
   },
   {
    "title": "Indexed Streams: A Formal Intermediate Representation for Fused Contraction Programs",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2023,
    "venue": "Proceedings of the ACM on Programming Languages",
@@ -822,7 +828,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "It supports everything that the original TACO system [Kjolstad et al. 2017] supported, and it additionally supports format abstractions, iteration reordering [Kjolstad et al. 2019], and user-deﬁned functions [Henry et al. 2021]."
+   }
   },
   {
    "title": "Sgap: towards efficient sparse tensor algebra compilation for GPU",
@@ -842,7 +854,7 @@
   },
   {
    "title": "AHA: An Agile Approach to the Design of Coarse-Grained Reconfigurable Accelerators and Compilers",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2022,
    "venue": "ACM Transactions on Embedded Computing Systems",
@@ -854,7 +866,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "by developing new hardware primitives in conjunction with a new spatial dataflow IR targeted by a TACO [26] frontend, we can easily swap in sparse components for their dense counterparts"
+   }
   },
   {
    "title": "ReACT: Redundancy-Aware Code Generation for Tensor Expressions",

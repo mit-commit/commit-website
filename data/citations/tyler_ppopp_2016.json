@@ -260,7 +260,7 @@
   },
   {
    "title": "Making Halide Efficient for Multicore Systems",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2018,
    "venue": "International Conference on Big Data Computing and Communications",
@@ -272,7 +272,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Making Halide Efficient for Multicore Systems”"
+   }
   },
   {
    "title": "HPAT",
@@ -289,7 +295,7 @@
   },
   {
    "title": "Loop Tiling in Large-Scale Stencil Codes at Run-Time with OPS",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2017,
    "venue": "IEEE Transactions on Parallel and Distributed Systems",
@@ -302,7 +308,13 @@
     "exemplifies",
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "This approach is largely the same as what is described in Distributed Halide [34], except that it is all done at run-time."
+   }
   },
   {
    "title": "Efficient Parallelization of MATLAB Stencil Applications for Multi-core Clusters",
@@ -351,7 +363,7 @@
   },
   {
    "title": "SlidingConv: Domain-Specific Description of Sliding Discrete Cosine Transform Convolution for Halide",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2024,
    "venue": "IEEE Access",
@@ -360,7 +372,13 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “for Halide”"
+   }
   },
   {
    "title": "Communication-Avoiding Optimizations for Large-Scale Unstructured-Mesh Applications with OP2",
@@ -443,7 +461,7 @@
   },
   {
    "title": "Extending Halide to Improve Software Development for Imaging DSPs",
-   "function": "exemplifies",
+   "function": "extends",
    "split": "passing",
    "year": 2017,
    "venue": "ACM Transactions on Architecture and Code Optimization",
@@ -452,7 +470,13 @@
    "cited_by": 15,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Extending Halide to Improve Software Development for Imaging DSPs”"
+   }
   },
   {
    "title": "Edinburgh Research Explorer A shared compilation stack for distributed-memory parallelism in stencil DSLs",
@@ -491,7 +515,7 @@
   },
   {
    "title": "Domain Specific Description in Halide for Randomized Image Convolution",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2021,
    "venue": "Asia-Pacific Signal and Information Processing Association Annual Summit and Conference",
@@ -500,7 +524,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Description in Halide for Randomized Image Convolution”"
+   }
   },
   {
    "title": "Easy and efficient agent-based simulations with the OpenABL language and compiler",
@@ -517,7 +547,7 @@
   },
   {
    "title": "Supporting Very Large Models using Automatic Dataflow Graph Partitioning",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2019,
    "venue": "European Conference on Computer Systems",
@@ -529,7 +559,13 @@
    "flags": [
     "lineage"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “we propose to describe the semantics of an operator in a simple language inspired by Halide”"
+   }
   },
   {
    "title": "Automatically Distributing Eulerian and Hybrid Fluid Simulations in the Cloud",

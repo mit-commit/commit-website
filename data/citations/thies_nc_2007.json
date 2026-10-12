@@ -409,7 +409,7 @@
   },
   {
    "title": "Automatic volume management for programmable microfluidics",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2008,
    "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
@@ -424,7 +424,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “programmable microfluidics”"
+   }
   },
   {
    "title": "An open-source compiler and PCB synthesis tool for digital microfluidic biochips",
@@ -727,7 +733,7 @@
   },
   {
    "title": "BioCoder: A programming language for standardizing and automating biology protocols",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2010,
    "venue": "Journal of Biological Engineering",
@@ -742,7 +748,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "We showed that such automation is tractable in prior work, where we defined a simpler language (BioStream) and executed it automatically on diverse microfluidic chips [14]"
+   }
   },
   {
    "title": "Computer-aided design for microfluidic chips based on multilayer soft lithography",
@@ -873,7 +885,7 @@
   },
   {
    "title": "Loading-Aware Mixing-Efficient Sample Preparation on Programmable Microfluidic Device",
-   "function": "passing-citation",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2025,
    "venue": "Design, Automation and Test in Europe",
@@ -882,7 +894,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "low",
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Programmable Microfluidic Device”"
+   }
   },
   {
    "title": "Online Synthesis of MEDA Biochips with Area and Reliability-Aware Module Placement using Chamber-Less Virtual Topology",
@@ -1231,7 +1249,7 @@
   },
   {
    "title": "Design Automation for Dilution of a Fluid Using Programmable Microfluidic Device--Based Biochips",
-   "function": "passing-citation",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2019,
    "venue": "ACM Transactions on Design Automation of Electronic Systems",
@@ -1240,7 +1258,13 @@
    "cited_by": 12,
    "centrality": "peripheral",
    "confidence": "low",
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Programmable Microfluidic Device--Based Biochips”"
+   }
   },
   {
    "title": "Effect of Volumetric Split-Errors on Reactant-Concentration During Sample Preparation with Microfluidic Biochips",
@@ -1783,7 +1807,7 @@
   },
   {
    "title": "Design for Restricted-Area and Fast Dilution using Programmable Microfluidic Device based Lab-on-a-Chip",
-   "function": "unknown",
+   "function": "uses-tool",
    "split": null,
    "year": 2021,
    "authors": "Shuaijie Ying, Sudip Roy, Juinn-Dar Huang et al.",
@@ -1792,7 +1816,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Programmable Microfluidic Device based Lab-on-a-Chip”"
+   }
   },
   {
    "title": "Generic Sample Preparation for Different Microfluidic Platforms",
@@ -2269,14 +2299,20 @@
   },
   {
    "title": "Fluid-to-cell assignment and fluid loading on programmable microfluidic devices for bioprotocol execution",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 2021,
    "venue": "Integration",
    "authors": "Debraj Kundu, Jitendra Giri, Sataru Maruyama et al.",
    "url": "https://doi.org/10.1016/j.vlsi.2020.12.004",
    "cited_by": 9,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “programmable microfluidic devices for bioprotocol execution”"
+   }
   },
   {
    "title": "Security model for protecting intellectual property of state-of-the-art microfluidic biochips",

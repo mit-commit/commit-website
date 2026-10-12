@@ -142,7 +142,7 @@
   },
   {
    "title": "SUDS: automatic parallelization for raw processors",
-   "function": "supports-claim",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2003,
    "authors": "M. Frank",
@@ -154,7 +154,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “for raw processors”"
+   }
   },
   {
    "title": "Partitioning and Data Mapping in Reconfigurable Cache and Scratchpad Memory--Based Architectures",

@@ -34,7 +34,7 @@
   },
   {
    "title": "Enhancing SLP Vectorization through Hybrid Slice Selection",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2025,
    "venue": "ICPP Workshops",
@@ -43,7 +43,13 @@
    "cited_by": 0,
    "centrality": "engaged",
    "confidence": "medium",
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Enhancing SLP Vectorization through Hybrid Slice Selection”"
+   }
   },
   {
    "title": "Retrofitting Control Flow Graphs in LLVM IR for Auto Vectorization",
@@ -79,7 +85,7 @@
   },
   {
    "title": "Superword level parallelism vectorization method for signal processing algorithms oriented to double loops",
-   "function": "supports-claim",
+   "function": "extends",
    "split": "detailed",
    "year": 2025,
    "venue": "International Conference on Algorithms, Microchips and Network Applications",
@@ -88,7 +94,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Superword Level Parallelism (SLP) vectorization, a key technique in automatic vectorization”"
+   }
   },
   {
    "title": "Lazy Evaluation for the Lazy: Automatically Transforming Call-by-Value into Call-by-Need",

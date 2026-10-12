@@ -681,7 +681,7 @@
   },
   {
    "title": "Exploring Parallel Algorithmic Choices for Graph Analytics",
-   "function": "passing-citation",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2019,
    "authors": "Akif Rehman",
@@ -689,7 +689,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Exploring Parallel Algorithmic Choices for Graph Analytics”"
+   }
   },
   {
    "title": "Mozart : Efficient Composition of Library Functions for Heterogeneous Execution",

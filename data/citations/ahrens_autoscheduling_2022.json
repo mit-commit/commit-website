@@ -333,7 +333,7 @@
   },
   {
    "title": "C2TACO: Lifting Tensor Code to TACO",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2023,
    "venue": "International Conference on Generative Programming: Concepts and Experiences",
@@ -342,7 +342,13 @@
    "cited_by": 5,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Lifting Tensor Code to TACO”"
+   }
   },
   {
    "title": "Optimizing Sparse Tensor Compilation for Sparse Output",
@@ -551,14 +557,20 @@
   },
   {
    "title": "Edinburgh Research Explorer C2TACO: Lifting Tensor Code to TACO",
-   "function": "passing-citation",
+   "function": "uses-tool",
    "split": "passing",
    "authors": "José Wesley de, Souza Magalhães, Elizabeth Polgreen et al.",
    "url": "https://www.semanticscholar.org/paper/11296e9b85c887f7e9c5b37ff29d7379fe53e8ef",
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Lifting Tensor Code to TACO”"
+   }
   },
   {
    "title": "Mapple: A Domain-Specific Language for Mapping Distributed Heterogeneous Parallel Programs",

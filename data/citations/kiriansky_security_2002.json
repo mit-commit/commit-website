@@ -744,7 +744,7 @@
   },
   {
    "title": "ROPdefender",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2011,
    "authors": "Lucas Davi, Ahmad‐Reza Sadeghi, Marcel Winandy",
@@ -755,7 +755,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "we aimed to adopt already existing techniques such as shadow stack [15, 59, 26] for return addresses, and the concept of binary instrumentation as used in taint tracking [47, 17] or return address protection [29, 16, 37]"
+   }
   },
   {
    "title": "G-Free",
@@ -1212,7 +1218,7 @@
   },
   {
    "title": "Randomized instruction set emulation",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2005,
    "venue": "ACM Transactions on Information and System Security",
@@ -1224,7 +1230,13 @@
    "secondary": [
     "exemplifies"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "we borrow the solution used in [Kiriansky et al. 2002], monitoring all calls to the mprotect system call by checking their source and destination"
+   }
   },
   {
    "title": "Secure Embedded Processing through Hardware-assisted",
@@ -1286,7 +1298,7 @@
   },
   {
    "title": "Randomized instruction set emulation to disrupt binary code injection attacks",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2003,
    "authors": "Elena Gabriela Barrantes, David H. Ackley, Stephanie Forrest et al.",
@@ -1297,7 +1309,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "we borrow the solution used in [Kiriansky et al. 2002], monitoring all calls to the mprotect system call by checking their source and destination"
+   }
   },
   {
    "title": "From Hack to Elaborate Technique—A Survey on Binary Rewriting",
@@ -2041,7 +2059,7 @@
   },
   {
    "title": "Efficient Validation of Control Flow Integrity for Enhancing Computer System Security",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2010,
    "authors": "Yong-joon Park",
@@ -2052,7 +2070,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "similar to the one used in Program Shepherding [44], used in the prototype"
+   }
   },
   {
    "title": "PiPA",
@@ -6385,13 +6409,19 @@
   },
   {
    "title": "ROPdefender: A Detection Tool to Defend Against Return-Oriented Programming Attacks",
-   "function": "unclassified",
+   "function": "adopts-idea",
    "split": null,
    "year": 2010,
    "authors": "At Bochum",
    "url": "https://openalex.org/W3146301262",
    "cited_by": 31,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "we aimed to adopt already existing techniques such as shadow stack [15, 59, 26] for return addresses, and the concept of binary instrumentation as used in taint tracking [47, 17] or return address protection [29, 16, 37]"
+   }
   },
   {
    "title": "Security of Software on Mobile Devices",

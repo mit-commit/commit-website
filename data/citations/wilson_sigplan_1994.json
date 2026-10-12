@@ -3733,7 +3733,7 @@
   },
   {
    "title": "A dynamically adaptive parallelization model based on speculative multithreading",
-   "function": "positions",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2000,
    "authors": "D. Lilja, Iffat H. Kazi",
@@ -3745,7 +3745,13 @@
     "detailed-citation",
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "2 Adaptive Parallelism in SUIF Compiler-generated Code The Stanford University SUIF compiler [50] generates parallel SPMD C programs from sequential Fortran or C programs."
+   }
   },
   {
    "title": "Designing the Agassiz Compiler for Concurrent Multithreaded Architectures",
@@ -4450,7 +4456,7 @@
   },
   {
    "title": "Memory Management on Runtime Reconfigurable SoC Fabric",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2009,
    "authors": "Bharath Reddy Devireddy",
@@ -4461,7 +4467,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The SUIF [19] compiler parallelizes and optimizes a given sequential program"
+   }
   },
   {
    "title": "Modern development methods and tools for embedded reconfigurable systems: A survey",
@@ -5254,7 +5266,7 @@
   },
   {
    "title": "Program Transformations and Memory Architecture Optimizations for High-Level Synthesis of Hardware Accelerators. (Transformations de programmes et optimisations de l'architecture mémoire pour la synthèse de haut niveau d'accélérateurs matériels)",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2010,
    "authors": "Alexandru Plesco",
@@ -5265,7 +5277,13 @@
    "secondary": [
     "exemplifies"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "It is based on the SUIF research compiler [108]."
+   }
   },
   {
    "title": "An Internal Representation for Adaptive Online Parallelization",
@@ -5459,7 +5477,7 @@
   },
   {
    "title": "Design and Implementation of a Framework for Integrating Front-End and Back-End Compilers",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 1999,
    "authors": "Pen-Chung Yew, Zhiyuan Li, Younghong Song et al.",
@@ -5467,7 +5485,13 @@
    "cited_by": 0,
    "centrality": "engaged",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "A version of the HLI described in the previous section has been implemented in t he SUIF parallelizing compiler [33] and the GCC back-end compiler [28]."
+   }
   },
   {
    "title": "Generating program analyzers",
@@ -8201,13 +8225,19 @@
   },
   {
    "title": "SUIF EXPLORER :A N I NTERACTIVE AND INTERPROCEDURAL PARALLELIZER",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "year": 2000,
    "authors": "Shih-Wei Liao",
    "url": "https://www.semanticscholar.org/paper/fcf449a655b8b094e3a6303b54dce42e58f4c66d",
    "cited_by": 0,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The SUIF Explorer is based on the SUIF parallelizing compiler[10][24], which is a state-of-the-art interprocedural parallelizer."
+   }
   },
   {
    "title": "The Impact of Symmetry on Software Distributed Shared Memory",
@@ -8296,13 +8326,19 @@
   },
   {
    "title": "Silicon c: a hardware backend for suif",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 1998,
    "authors": "C. Ananian",
    "url": "https://www.semanticscholar.org/paper/4d4a2e09de4ca567468d5238076afdf2c28b801e",
    "cited_by": 12,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “a hardware backend for suif”"
+   }
   },
   {
    "title": "Superthreading: Integrating Compilation Technology and Processor Architecture for Cost-Effective Concurrent Multithreading",
@@ -8356,23 +8392,35 @@
   },
   {
    "title": "Global Instruction Scheduling In Machine SUIF",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 1997,
    "authors": "Gang Chen, Michael D. Smith",
    "url": "https://www.semanticscholar.org/paper/7e989b994dbc48a628248ca43c28f988cabf22ee",
    "cited_by": 0,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “In Machine SUIF”"
+   }
   },
   {
    "title": "j2s: A SUIF Java Compiler",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 1997,
    "authors": "H. Kienle, Urs Hölzle",
    "url": "https://www.semanticscholar.org/paper/19e25a42418d0a525be65e8e922e768584bf9e61",
    "cited_by": 8,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “A SUIF Java Compiler”"
+   }
   },
   {
    "title": "Towards Optimizing Code Generation by Domain-Sensitive Macro Expansion",

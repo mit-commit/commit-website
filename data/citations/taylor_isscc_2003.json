@@ -236,7 +236,7 @@
   },
   {
    "title": "SUDS: automatic parallelization for raw processors",
-   "function": "supports-claim",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2003,
    "authors": "M. Frank",
@@ -244,7 +244,13 @@
    "cited_by": 10,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “for raw processors”"
+   }
   },
   {
    "title": "Detecting Cache-based Side-Channel Attacks by Leveraging Mesh Interconnect Traffic Monitoring",
@@ -445,7 +451,7 @@
   },
   {
    "title": "Evolve : a preliminary multicore architecture for Introspective Computing",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2007,
    "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
@@ -457,7 +463,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Evolve builds upon work in homogeneous tiled architectures [11, 10, 25, 9]"
+   }
   },
   {
    "title": "Vector-thread architecture and implementation",

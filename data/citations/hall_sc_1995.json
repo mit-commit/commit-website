@@ -1208,7 +1208,7 @@
   },
   {
    "title": "Getting Performance out of Multiprocessorswith the SUIF",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 1996,
    "authors": "CompilerMary, W., Hally et al.",
@@ -1222,11 +1222,17 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “with the SUIF”"
+   }
   },
   {
    "title": "Maximizing Multiprocessor Performance with the SUIF Compiler",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 1996,
    "venue": "Digital technical journal of Digital Equipment Corporation",
@@ -1239,7 +1245,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “with the SUIF Compiler”"
+   }
   },
   {
    "title": "Fine-Granular Computation and Data Layout Reorganization for Improving Locality",
@@ -2267,14 +2279,20 @@
   },
   {
    "title": "Achieving High Performance on Digital AlphaServerswith the SUIF",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 1999,
    "authors": "CompilerJennifer, M., Andersony et al.",
    "url": "https://www.semanticscholar.org/paper/ab6c4287c8dde1674b93c216a1c30f050d4c798f",
    "cited_by": 0,
    "evidence": "title_only",
-   "commit": true
+   "commit": true,
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “with the SUIF”"
+   }
   },
   {
    "title": "Parallel Programming for Everyone",

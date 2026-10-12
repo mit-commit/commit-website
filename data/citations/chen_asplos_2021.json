@@ -305,7 +305,7 @@
   },
   {
    "title": "An SLP Vectorization Method Based on Equivalent Extended Transformation",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2022,
    "venue": "Wireless Communications and Mobile Computing",
@@ -314,7 +314,13 @@
    "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “SLP Vectorization Method Based on Equivalent Extended Transformation”"
+   }
   },
   {
    "title": "Loner: utilizing the CPU vector datapath to process scalar integer data",

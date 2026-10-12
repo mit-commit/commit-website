@@ -300,7 +300,7 @@
   },
   {
    "title": "Integrating stream parallelism and task parallelism in a dataflow programming model",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2012,
    "authors": "Dragos Sbirlea",
@@ -311,7 +311,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The decoupling between the data and control can be used to emulate StreamIt’s message passing [23], by making the signaler the control producer of the filter."
+   }
   },
   {
    "title": "Tÿcho",

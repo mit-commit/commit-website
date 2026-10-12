@@ -521,7 +521,7 @@
   },
   {
    "title": "Software-directed power-aware interconnection networks",
-   "function": "baseline",
+   "function": "extends",
    "split": "detailed",
    "year": 2005,
    "venue": "International Conference on Compilers, Architecture, and Synthesis for Embedded Systems",
@@ -534,7 +534,13 @@
     "supports-claim",
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "we simulated parallelized code running on three existing network architectures with software-directed DVS links; RAW [27] and TRIPS [21] on-chip CMPs and an Alpha 21364-based multi-chip server [17]."
+   }
   },
   {
    "title": "Scalable, Programmable and Dense: The HammerBlade Open-Source RISC-V Manycore",
@@ -2945,7 +2951,7 @@
   },
   {
    "title": "Synchroscalar: Evaluation of an embedded, multi-core architecture for media applications",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2006,
    "venue": "Journal of Embedded Computing",
@@ -2957,7 +2963,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Two primary influences on the design of Synchroscalar are MIT’s Raw architecture [26]"
+   }
   },
   {
    "title": "Real-time rendering systems in 2010",
@@ -5384,13 +5396,19 @@
   },
   {
    "title": "Tolerating SEU Faults in the Raw Architecture",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "year": 2006,
    "authors": "Karandeep Singh, A. Agbaria, D. Kang et al.",
    "url": "https://www.semanticscholar.org/paper/2a88e43033bac447fd5055a25651b66eb831ab5f",
    "cited_by": 21,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Tolerating SEU Faults in the Raw Architecture”"
+   }
   },
   {
    "title": "Multiple-Morphs Adaptive Stream Architecture",

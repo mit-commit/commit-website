@@ -152,7 +152,7 @@
   },
   {
    "title": "The Raw Processor: A Composeable 32-Bit Fabric for Embedded and General Purpose Computing",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2001,
    "authors": "Michael Taylor, Jason Z. Kim, Jason Miller et al.",
@@ -164,7 +164,13 @@
     "own-group"
    ],
    "evidence": "abstract",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The parallelizing Raw compiler, RAWCC [4, 3, 2, 1], uses these routers as an operand network between the ALUs of the processors to parallelize SpecFP 95 and multimedia applications."
+   }
   },
   {
    "title": "Coarse-Grained Reconfigurable Computing with the Versat Architecture",

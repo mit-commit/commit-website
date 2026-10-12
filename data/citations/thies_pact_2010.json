@@ -1180,7 +1180,7 @@
   },
   {
    "title": "StreaMorph: A case for synthesizing energy-efficient adaptive programs using high-level abstractions",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2013,
    "venue": "International Conference on Embedded Software",
@@ -1196,7 +1196,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Finally, our work derives from the work by the StreamIt compiler group [14, 15, 33]."
+   }
   },
   {
    "title": "Symmetry Breaking for Multi-criteria Mapping and Scheduling on Multicores",
@@ -1491,7 +1497,7 @@
   },
   {
    "title": "A Study of Dynamic Phase Adaptation Using a Dynamic Multicore Processor",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2017,
    "venue": "ACM Transactions on Embedded Computing Systems",
@@ -1500,7 +1506,13 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "using high-level information from StreamIt’s [22] language constructs"
+   }
   },
   {
    "title": "Assessing user preferences in programming language design",

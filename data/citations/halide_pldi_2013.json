@@ -3458,7 +3458,7 @@
   },
   {
    "title": "Model-Based Warp Overlapped Tiling for Image Processing Programs on GPUs",
-   "function": "baseline",
+   "function": "extends",
    "split": "detailed",
    "cited_by": 0,
    "year": 2020,
@@ -3470,7 +3470,13 @@
    "secondary": [
     "uses-benchmark"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cDomain-specific languages that execute image processing pipelines on GPUs, such as Halide and Forma, operate by 1)~dividing the image into overlapped tiles\u201d"
+   }
   },
   {
    "title": "Optimizing the Memory Hierarchy by Compositing Automatic Transformations on Computations and Data",
@@ -7958,7 +7964,7 @@
   },
   {
    "title": "DISTAL: the distributed tensor algebra compiler",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "cited_by": 29,
    "year": 2022,
@@ -7970,7 +7976,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "We provide the following transformations introduced by prior systems [21, 29, 32]: \u2022 parallelize : parallelize the iterations of a loop \u2022 split / divide : break a loop into an inner and outer loop \u2022 collapse : fuse two nested loops into a single loop \u2022 reorder"
+   }
   },
   {
    "title": "DLOOPT: An Optimization Assistant on AutoTVM for Deep Learning Operators",
@@ -11593,7 +11605,7 @@
   },
   {
    "title": "Sparse-Matrix Compression Primitives with OpenCL Framework to Support Halide",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "cited_by": 3,
    "year": 2019,
@@ -11602,7 +11614,13 @@
    "url": "https://doi.org/10.1145/3318170.3318179",
    "centrality": "engaged",
    "confidence": "medium",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cSparse-Matrix Compression Primitives with OpenCL Framework to Support Halide\u201d"
+   }
   },
   {
    "title": "swATOP",
@@ -16753,25 +16771,37 @@
   },
   {
    "title": "Accelerating Halide framework by automatic Affine scheduling using the stochastic optimization algorithm on MLIR",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "cited_by": 0,
    "year": 2023,
    "venue": "Research Square",
    "authors": "Xiangyu Wang, Jian-Yu Shen, Shih-Wei Liao",
    "url": "https://doi.org/10.21203/rs.3.rs-3274775/v1",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cAccelerating Halide framework by automatic Affine scheduling using the stochastic optimization algorithm on MLIR\u201d"
+   }
   },
   {
    "title": "Accelerating OpenVX Application Kernels Using Halide Scheduling",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "cited_by": 1,
    "year": 2023,
    "venue": "Journal of Signal Processing Systems",
    "authors": "Bo-Yu Zhao, Ming-Yi Peng, Xiangyu Wang et al.",
    "url": "https://doi.org/10.1007/s11265-023-01851-1",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cAccelerating OpenVX Application Kernels Using Halide Scheduling\u201d"
+   }
   },
   {
    "title": "Algorithm 1039: Automatic Generators for a Family of Matrix Multiplication Routines with Apache TVM",
@@ -17157,14 +17187,20 @@
   },
   {
    "title": "Efficient Stencil Computation with Temporal Blocking by Halide DSL",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "cited_by": 0,
    "year": 2022,
    "venue": "2022 IEEE Intl Conf on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom)",
    "authors": "H. Aikawa, Toshio Endo, Tomoya Yuki et al.",
    "url": "https://doi.org/10.1109/ispa-bdcloud-socialcom-sustaincom57177.2022.00116",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "This paper proposes a methodology to implement efficient stencil software with temporal blocking easier using the domain-specific language Halide."
+   }
   },
   {
    "title": "Fast selection of compiler optimizations using performance prediction with graph neural networks",
@@ -17179,14 +17215,20 @@
   },
   {
    "title": "Formal Semantics for the Halide Language",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "cited_by": 2,
    "year": 2022,
    "venue": "arXiv.org",
    "authors": "Alex Reinking, G. Bernstein, Jonathan Ragan-Kelley",
    "url": "https://doi.org/10.48550/arxiv.2210.15740",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "We present the first formalization and metatheory of language soundness for a user-schedulable language, the widely used array processing language Halide."
+   }
   },
   {
    "title": "Kernel Fusion in OpenCL",
@@ -17355,14 +17397,20 @@
   },
   {
    "title": "An instrumentation framework for performance analysis of Halide schedules",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "cited_by": 0,
    "year": 2021,
    "venue": "Journal of Computer Languages",
    "authors": "Rafael Ravedutti Lucio Machado, Jan Eitzinger, Andr\u00e9 Murbach Maidl et al.",
    "url": "https://doi.org/10.1016/j.cola.2021.101065",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cAn instrumentation framework for performance analysis of Halide schedules\u201d"
+   }
   },
   {
    "title": "An Object-Oriented Interface to The Sparse Polyhedral Library",
@@ -17418,13 +17466,19 @@
   },
   {
    "title": "Distributed and Heterogeneous SAR Backprojection with Halide",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "cited_by": 0,
    "year": 2021,
    "authors": "Connor Imes, Tzu\u2010Mao Li, Mark Glines et al.",
    "url": "https://doi.org/10.1109/hpec49654.2021.9622855",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cDistributed and Heterogeneous SAR Backprojection with Halide\u201d"
+   }
   },
   {
    "title": "Domain-Specific Multi-Level IR Rewriting for GPU",
@@ -17783,25 +17837,37 @@
   },
   {
    "title": "Interstellar",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "cited_by": 195,
    "year": 2020,
    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
    "authors": "Xuan Yang, Mingyu Gao, Qiaoyi Liu et al.",
    "url": "https://doi.org/10.1145/3373376.3378514",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "the loop transformations needed to create these hardware variants can be precisely and concisely represented by Halide's scheduling language"
+   }
   },
   {
    "title": "Learning to Schedule Halide Pipelines for the GPU",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "cited_by": 8,
    "year": 2020,
    "venue": "arXiv.org",
    "authors": "Luke Anderson, Andrew Adams, Karima Ma et al.",
    "url": "https://openalex.org/W3111464264",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cLearning to Schedule Halide Pipelines for the GPU\u201d"
+   }
   },
   {
    "title": "LLVM Based Parallelization of C Programs for GPU",
@@ -18007,14 +18073,20 @@
   },
   {
    "title": "Halide and GENESIS for Generating Domain-Specific Architecture of Guided Image Filtering",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "cited_by": 11,
    "year": 2019,
    "venue": "International Symposium on Circuits and Systems",
    "authors": "Akari Ishikawa, Norishige Fukushima, Akira Maruoka et al.",
    "url": "https://doi.org/10.1109/iscas.2019.8702260",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Halide and GENESIS for Generating Domain-Specific Architecture of Guided Image Filtering"
+   }
   },
   {
    "title": "HiFlipVX: An Open Source High-Level Synthesis FPGA Library for Image Processing",
@@ -18344,14 +18416,20 @@
   },
   {
    "title": "Interstellar: Using Halide's Scheduling Language to Analyze DNN Accelerators",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "cited_by": 17,
    "year": 2018,
    "venue": "arXiv (Cornell University)",
    "authors": "Xuan Yang, Mingyu Gao, Qiaoyi Liu et al.",
    "url": "https://doi.org/10.48550/arxiv.1809.04070",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "the loop transformations needed to create these hardware variants can be precisely and concisely represented by Halide's scheduling language"
+   }
   },
   {
    "title": "O C ] 4 N ov 2 01 5 Matrix-Free Convex Optimization Modeling",
@@ -18473,14 +18551,20 @@
   },
   {
    "title": "A profile-guided synergistic computation framework for Halide",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "cited_by": 0,
    "year": 2017,
    "venue": "Journal of Systems Architecture",
    "authors": "Shih-Wei Liao, Chia\u2010Lung Kao, Yuki Shimizu",
    "url": "https://doi.org/10.1016/j.sysarc.2017.10.005",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cA profile-guided synergistic computation framework for Halide\u201d"
+   }
   },
   {
    "title": "A Time-Efficient Optimisation Framework for Parameters of Optical Flow Methods",
@@ -18591,14 +18675,20 @@
   },
   {
    "title": "Halide Vectorization for Android Photography Applications \u2014 A Case Study",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "cited_by": 0,
    "year": 2017,
    "venue": "IEEE International Conference on Cluster Computing",
    "authors": "Martin Johnson, D.P. Playne",
    "url": "https://doi.org/10.1109/cluster.2017.40",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cHalide Vectorization for Android Photography Applications\u201d"
+   }
   },
   {
    "title": "High performance code generation using domain specific languages",
@@ -18805,14 +18895,20 @@
   },
   {
    "title": "Locality-Aware Scheduling for Stencil Code in Halide",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "cited_by": 5,
    "year": 2016,
    "venue": "2016 45th International Conference on Parallel Processing Workshops (ICPPW)",
    "authors": "Shih-Wei Liao, Sheng-Jun Tsai, Chieh-Hsun Yang et al.",
    "url": "https://doi.org/10.1109/icppw.2016.26",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cLocality-Aware Scheduling for Stencil Code in Halide\u201d"
+   }
   },
   {
    "title": "Perspectives",
@@ -18902,14 +18998,20 @@
   },
   {
    "title": "Terapixel image processing and simulation with distributed halide",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "cited_by": 0,
    "year": 2016,
    "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
    "authors": "Tyler Denniston",
    "url": "https://openalex.org/W2479301415",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cTerapixel image processing and simulation with distributed halide\u201d"
+   }
   },
   {
    "title": "The Essence of Multi-stage Evaluation in LMS",
@@ -19154,14 +19256,20 @@
   },
   {
    "title": "Easy optimization of image transformation using sFFT algorithm with HALIDE language",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "cited_by": 5,
    "year": 2014,
    "venue": "International Conferences on Contemporary Computing and Informatics",
    "authors": "C. Thirumoorthi, T. Karthikeyan",
    "url": "https://doi.org/10.1109/ic3i.2014.7019723",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cEasy optimization of image transformation using sFFT algorithm with HALIDE language\u201d"
+   }
   },
   {
    "title": "Elements for Parallel Array Computations",
@@ -19261,14 +19369,20 @@
   },
   {
    "title": "An OpenGL Backend for Halide",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "cited_by": 0,
    "year": 2013,
    "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
    "authors": "N. Chornay",
    "url": "https://openalex.org/W1545506555",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cAn OpenGL Backend for Halide\u201d"
+   }
   },
   {
    "title": "CARP: Correct and Efficient Accelerator Programming",
@@ -19292,14 +19406,20 @@
   },
   {
    "title": "Schedule visualization and analysis for halide image processing language",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "cited_by": 1,
    "year": 2013,
    "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
    "authors": "J. Knezevic",
    "url": "https://openalex.org/W1555347557",
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: \u201cSchedule visualization and analysis for halide image processing language\u201d"
+   }
   },
   {
    "title": "Selected past Research",

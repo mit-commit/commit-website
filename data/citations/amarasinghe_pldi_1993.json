@@ -843,7 +843,7 @@
   },
   {
    "title": "Improving the Compiler/Software DSM Interface: Preliminary Results",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 1996,
    "authors": "C. Tseng, P. Keleher",
@@ -851,7 +851,13 @@
    "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The placement copy code can be determined by data dependences using message vectorization [2, 19]."
+   }
   },
   {
    "title": "Static analysis to reduce synchronization costs in data-parallel programs",
@@ -1329,7 +1335,7 @@
   },
   {
    "title": "Parallelizing Compiler Techniques Based on Linear Inequalities",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 1997,
    "authors": "Saman P. Amarasinghe",
@@ -1341,7 +1347,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "We have extended Fourier-Motzkin elimination to handle simple non-linear systems [9]."
+   }
   },
   {
    "title": "A Lazy, Self-optimizing Parallel Matrix Library",
@@ -1361,7 +1373,7 @@
   },
   {
    "title": "An Overview of the SUIF Compiler for Scalable Parallel Machines",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 1995,
    "venue": "PP",
@@ -1374,7 +1386,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "By composing data and computation mappings and array references as a system of linear inequalities, non-local accesses and the identity of the sending and receiving processors may be calculated by applying Fourier-Motzkin elimination[1]."
+   }
   },
   {
    "title": "Analysis for Shared and Distributed Memory Machines",
@@ -1393,7 +1411,7 @@
   },
   {
    "title": "An overview of a compiler for scalable parallel machines",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 1994,
    "venue": "Lecture notes in computer science",
@@ -1406,7 +1424,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "If data- ow information is available, our communication generation algorithm uses the given data decompositions only as boundary conditions for the region[1]."
+   }
   },
   {
    "title": "Evaluating Compiler Optimizations for Fortran D",
@@ -1423,7 +1447,7 @@
   },
   {
    "title": "Locality optimizations for parallel machines",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 1994,
    "venue": "Lecture notes in computer science",
@@ -1435,7 +1459,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Our code generation techniques[1] are based on Ancourt and Irigion's polyhedron-scanning techniques[2]."
+   }
   },
   {
    "title": "Models, languages, and compiler technology for high performance computers",
@@ -3455,13 +3485,19 @@
   },
   {
    "title": "The Paraguin Compiler-Message-passing Code Generation Using SUIF",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "year": 2002,
    "authors": "Clayton S. Femer",
    "url": "https://www.semanticscholar.org/paper/90820dbf7fabae32f4c70cc0181ac6a6be2512a7",
    "cited_by": 16,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The work that we have done is largely based on work presented by Amarasinghe and Lam [1]."
+   }
   },
   {
    "title": "Static Single Assignment Form for Message-Passing Programs",

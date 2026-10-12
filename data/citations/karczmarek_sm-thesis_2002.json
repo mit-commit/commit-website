@@ -43,7 +43,7 @@
   },
   {
    "title": "Linear analysis and optimization of stream programs",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2003,
    "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
@@ -56,7 +56,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Our input language is StreamIt”"
+   }
   },
   {
    "title": "StreamJIT",

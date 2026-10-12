@@ -4040,7 +4040,7 @@
   },
   {
    "title": "Exploiting DSP block capabilities in FPGA high level design flows",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2017,
    "authors": "Ronak Bajaj",
@@ -4048,7 +4048,13 @@
    "cited_by": 6,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Implementation is based on the SUIF (Stanford University Intermediate Format) [97] framework, developed at Stanford University."
+   }
   },
   {
    "title": "Extracting Parallelism from Legacy Sequential Code Using Software Transactional Memory",
@@ -5770,7 +5776,7 @@
   },
   {
    "title": "SUIF-Adapt: An Integrated Compiler/Run-Time System for Global and Dynamic Data Distributions",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2002,
    "authors": "D. Lowenthal, Grégory Howard, D. G. Morris et al.",
@@ -5778,7 +5784,13 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “SUIF-Adapt: An Integrated Compiler/Run-Time System”"
+   }
   },
   {
    "title": "A parallel compiler scheduler",
@@ -6589,7 +6601,7 @@
   },
   {
    "title": "Languages and Compilers for Parallel Computing",
-   "function": "unknown",
+   "function": "uses-tool",
    "split": null,
    "year": 2003,
    "venue": "Lecture Notes in Computer Science",
@@ -6599,11 +6611,17 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Written using MachSUIF [11], the back-end allows us to easily vary the number of clusters, functional units, and registers in the target architecture."
+   }
   },
   {
    "title": "Search Space Properties for Mapping Coarse-Grain Pipelined FPGA Applications",
-   "function": "unknown",
+   "function": "uses-tool",
    "split": null,
    "year": 2003,
    "venue": "International Workshop on Languages and Compilers for Parallel Computing",
@@ -6614,7 +6632,13 @@
     "own-group",
     "polluted-contexts"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Written using MachSUIF [11], the back-end allows us to easily vary the number of clusters, functional units, and registers in the target architecture."
+   }
   },
   {
    "title": "Source level transformations to improve I/O data partitioning",
@@ -7444,13 +7468,19 @@
   },
   {
    "title": "The Paraguin Compiler-Message-passing Code Generation Using SUIF",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 2002,
    "authors": "Clayton S. Femer",
    "url": "https://www.semanticscholar.org/paper/90820dbf7fabae32f4c70cc0181ac6a6be2512a7",
    "cited_by": 16,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Code Generation Using SUIF”"
+   }
   },
   {
    "title": "An All-Software Thread-Level Data Dependence Speculation System for Multiprocessors",
@@ -7505,13 +7535,19 @@
   },
   {
    "title": "Procedure Call Duplication : Minimization of Energy Consumption with Error Detection Latency Constraint",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 2001,
    "authors": "N. Oh, E. McCluskey",
    "url": "https://www.semanticscholar.org/paper/239c8198588eeb3f7ef0fe6902f050b951992c02",
    "cited_by": 0,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "We first build a CG for each benchmark program using cg, one of the SUIF compiler tools building a call graph of a program [8]."
+   }
   },
   {
    "title": "The design and implementation of a region-based parallel programming language",
@@ -7669,14 +7705,20 @@
   },
   {
    "title": "Achieving High Performance on Digital AlphaServerswith the SUIF",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 1999,
    "authors": "CompilerJennifer, M., Andersony et al.",
    "url": "https://www.semanticscholar.org/paper/ab6c4287c8dde1674b93c216a1c30f050d4c798f",
    "cited_by": 0,
    "evidence": "title_only",
-   "commit": true
+   "commit": true,
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Digital AlphaServerswith the SUIF”"
+   }
   },
   {
    "title": "C or Fortran Program Custom Logic Generation Traditional CAD Optimizations Traditional Compiler Optimzations Virtual Wires Scheduling Small Memory Partitioning",
@@ -7832,13 +7874,19 @@
   },
   {
    "title": "A vectorizing SUIF compiler, implementation and performance",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "year": 1997,
    "authors": "D. DeVries",
    "url": "https://www.semanticscholar.org/paper/155948d657ef8339b33aacd2d3191897b7c4e4fd",
    "cited_by": 25,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “A vectorizing SUIF compiler”"
+   }
   },
   {
    "title": "Charon Toolkit for Parallel, Implicit Structured-grid Computations: Literature Survey and Conceptual Design",

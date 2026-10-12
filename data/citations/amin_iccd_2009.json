@@ -444,7 +444,7 @@
   },
   {
    "title": "Towards Microfluidic Design Automation",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2016,
    "authors": "Asif Khan",
@@ -452,7 +452,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Microfluidic Design Automation”"
+   }
   },
   {
    "title": "Integrated Flow-Control Codesign Methodology for Flow-Based Microfluidic Biochips",
@@ -560,7 +566,7 @@
   },
   {
    "title": "Optimization of Fluid Loading on Programmable Microfluidic Devices for Bio-protocol Execution",
-   "function": "passing-citation",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2020,
    "venue": "Asia and South Pacific Design Automation Conference",
@@ -569,7 +575,13 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "abstract+contexts"
+   "evidence": "abstract+contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Programmable Microfluidic Devices for Bio-protocol Execution”"
+   }
   },
   {
    "title": "Automatic Design of Microfluidic Devices: An Overview of Platforms and Corresponding Design Tasks",

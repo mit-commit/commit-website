@@ -348,7 +348,7 @@
   },
   {
    "title": "Compiler techniques for scalable performance of stream programs on multicore architectures",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2010,
    "authors": "Michael I. Gordon",
@@ -362,7 +362,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "arrays of constants can be converted into multiple scalar variable constants by unrolling loops and performing constant propagation [STRA05]."
+   }
   },
   {
    "title": "Synergistic execution of stream programs on multicores with accelerators",
@@ -691,7 +697,7 @@
   },
   {
    "title": "Language and compiler support for stream programs",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2009,
    "authors": "W. Thies",
@@ -703,7 +709,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "using a transformation called scalar replacement [STRA05], the weights array can be eliminated completely by unrolling loops and propagating constants from the init function to the work function."
+   }
   },
   {
    "title": "MPSoC Design Using Application-Specific Architecturally Visible Communication",
@@ -736,7 +748,7 @@
   },
   {
    "title": "High-Productivity Stream Programming For High-Performance Systems",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2005,
    "authors": "Rodric M. Rabbah, Bill Thies, Michael I. Gordon et al.",
@@ -748,7 +760,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "we will present several cache aware optimizations to improve instruction and data locality, and improve register allocation and scheduling freedom [7]."
+   }
   },
   {
    "title": "PIMFuse: Kernel Fusion for Processing-in-Memory",
@@ -1055,7 +1073,7 @@
   },
   {
    "title": "Dynamic load-balancing of StreamIt cluster computations",
-   "function": "passing-citation",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2006,
    "authors": "Eric Fellheimer",
@@ -1066,7 +1084,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Dynamic load-balancing of StreamIt cluster computations”"
+   }
   },
   {
    "title": "Event Count Automata: A State-Based Model for Stream Processing Systems",

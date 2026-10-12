@@ -184,7 +184,7 @@
   },
   {
    "title": "Design Automation for Dilution of a Fluid Using Programmable Microfluidic Device--Based Biochips",
-   "function": "baseline",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2019,
    "venue": "ACM Trans. Design Autom. Electr. Syst.",
@@ -197,7 +197,13 @@
     "detailed-citation",
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “programmable microfluidic device (PMD)”"
+   }
   },
   {
    "title": "Reliability Analysis of Mixture Preparation Using Digital Microfluidic Biochips",
@@ -437,7 +443,7 @@
   },
   {
    "title": "Design for Restricted-Area and Fast Dilution using Programmable Microfluidic Device based Lab-on-a-Chip",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2021,
    "venue": "Euromicro Symposium on Digital Systems Design",
@@ -446,7 +452,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “programmable microfluidic device (PMD)”"
+   }
   },
   {
    "title": "Sample preparation for multiple-reactant bioassays on micro-electrode-dot-array biochips",
@@ -495,7 +507,7 @@
   },
   {
    "title": "Transport-Free Placement of Mixers for Realizing Bioprotocol on Programmable Microfluidic Devices",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2023,
    "venue": "International Conference on VLSI Design",
@@ -504,7 +516,13 @@
    "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Programmable Microfluidic Device (PMD)”"
+   }
   },
   {
    "title": "Microfluidic Design for Concentration Gradient Generation Using Artificial Neural Network",
@@ -560,7 +578,7 @@
   },
   {
    "title": "Towards a High-Level Programming Language for Standardizing and Automating Biology Protocols",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2016,
    "authors": "V. Ananthanarayanan",
@@ -568,7 +586,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "we demonstrated that an early version of BioStream could describe simple protocols and automatically execute them on different microfluidic devices [2]"
+   }
   },
   {
    "title": "Simulation of feedback-driven PCR assays on a 2D electrowetting array using a domain-specific high-level biological programming language",
@@ -1317,14 +1341,20 @@
   },
   {
    "title": "Fluid-to-cell assignment and fluid loading on programmable microfluidic devices for bioprotocol execution",
-   "function": "unclassified",
+   "function": "uses-tool",
    "split": null,
    "year": 2021,
    "venue": "Integr.",
    "authors": "Debraj Kundu, J. Giri, S. Maruyama et al.",
    "url": "https://doi.org/10.1016/j.vlsi.2020.12.004",
    "cited_by": 9,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “programmable microfluidic devices”"
+   }
   },
   {
    "title": "Security model for protecting intellectual property of state-of-the-art microfluidic biochips",

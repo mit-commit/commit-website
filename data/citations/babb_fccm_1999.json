@@ -325,7 +325,7 @@
   },
   {
    "title": "Making HLS a Bit Wiser: From Standard High-Level Datatypes to Arbitrary Low-Level Bitwidths",
-   "function": "supports-claim",
+   "function": "extends",
    "split": "detailed",
    "year": 2017,
    "venue": "TSpace (University of Toronto)",
@@ -337,7 +337,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “From Standard High-Level Datatypes to Arbitrary Low-Level Bitwidths”"
+   }
   },
   {
    "title": "An architecture and compiler for scalable on-chip communication",
@@ -411,7 +417,7 @@
   },
   {
    "title": "Detecting and Exploiting Narrow Bitwidth Computations",
-   "function": "supports-claim",
+   "function": "extends",
    "split": "detailed",
    "year": 1999,
    "authors": "M. Budiu, S. Goldstein",
@@ -419,7 +425,13 @@
    "cited_by": 5,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Detecting and Exploiting Narrow Bitwidth Computations”"
+   }
   },
   {
    "title": "Programming FPGAs for Economics: An Introduction to Electrical Engineering Economics",
@@ -617,7 +629,7 @@
   },
   {
    "title": "Variable precision analysis for fpga synthesis",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2004,
    "authors": "Mark L. Chang, S. Hauck",
@@ -625,7 +637,13 @@
    "cited_by": 5,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Integration with the DeepC Silicon Compiler [5] to apply Bitwise to hardware designs."
+   }
   },
   {
    "title": "Bridging the Gap between Compilation and Synthesis in the DEFACTO System",
@@ -1299,7 +1317,7 @@
   },
   {
    "title": "BitValue Inference: Detecting and Exploiting Narrow Bitwidth Computations",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2000,
    "venue": "Lecture notes in computer science",
@@ -1308,7 +1326,13 @@
    "cited_by": 80,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “BitValue Inference: Detecting and Exploiting Narrow Bitwidth Computations”"
+   }
   },
   {
    "title": "On Availability of Bit-Narrow Operations in General-Purpose Applications",

@@ -499,7 +499,7 @@
   },
   {
    "title": "Generalized Program Sketching by Abstract Interpretation and Logical Abduction",
-   "function": "baseline",
+   "function": "extends",
    "split": "detailed",
    "year": 2023,
    "venue": "Lecture notes in computer science",
@@ -512,11 +512,17 @@
     "detailed-citation",
     "positions"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Generalized Program Sketching by Abstract Interpretation and Logical Abduction”"
+   }
   },
   {
    "title": "Program Sketching Using Lifted Analysis for Numerical Program Families",
-   "function": "baseline",
+   "function": "extends",
    "split": "detailed",
    "year": 2021,
    "venue": "NASA Formal Methods",
@@ -529,7 +535,13 @@
     "positions",
     "uses-benchmark"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Program Sketching Using Lifted Analysis for Numerical Program Families”"
+   }
   },
   {
    "title": "An SMT Based Method for Optimizing Arithmetic Computations in Embedded Software Code",
@@ -921,7 +933,7 @@
   },
   {
    "title": "Program sketching with live bidirectional evaluation",
-   "function": "exemplifies",
+   "function": "extends",
    "split": "passing",
    "year": 2020,
    "venue": "Proceedings of the ACM on Programming Languages",
@@ -930,7 +942,13 @@
    "cited_by": 41,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “We present a system called Smyth for program sketching in a typed functional language”"
+   }
   },
   {
    "title": "Accelerating API-Based Program Synthesis via API Usage Pattern Mining",
@@ -960,7 +978,7 @@
   },
   {
    "title": "Swizzle Inventor",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2019,
    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
@@ -972,7 +990,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “writing program sketches that omit swizzles and delegating their creation to an automatic synthesizer”"
+   }
   },
   {
    "title": "Counterexample Guided Inductive Synthesis Modulo Theories",
@@ -1183,7 +1207,7 @@
   },
   {
    "title": "Modular Synthesis of Sketches Using Models",
-   "function": "exemplifies",
+   "function": "extends",
    "split": "passing",
    "year": 2014,
    "venue": "Lecture notes in computer science",
@@ -1195,7 +1219,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Modular Synthesis of Sketches Using Models”"
+   }
   },
   {
    "title": "Parameterized Weighted Containment",
@@ -1228,7 +1258,7 @@
   },
   {
    "title": "From relational verification to SIMD loop synthesis",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2013,
    "venue": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
@@ -1240,7 +1270,13 @@
    "secondary": [
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "We replace the normal control-flow block between the loop entry and exit with a hole [36]."
+   }
   },
   {
    "title": "Program reliability through algorithmic design and analysis",
@@ -1492,7 +1528,7 @@
   },
   {
    "title": "Synthesizing Queries via Interactive Sketching",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2019,
    "venue": "arXiv.org",
@@ -1507,7 +1543,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “our proposed algorithm takes as input a sketch with soft constraints encoding user intent”"
+   }
   },
   {
    "title": "Towards answering “Am I on the right track?” automatically using program synthesis",
@@ -1737,7 +1779,7 @@
   },
   {
    "title": "Euler: A System for Numerical Optimization of Programs",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2012,
    "venue": "International Conference on Computer Aided Verification",
@@ -1749,7 +1791,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The input language of Euler is essentially the same as in the Sketch programming synthesis system [4]."
+   }
   },
   {
    "title": "Macho: Writing Programs with Natural Language and Examples",
@@ -1849,7 +1897,7 @@
   },
   {
    "title": "Program synthesis by sketching",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2008,
    "authors": "Rastislav Bodík, Armando Solar-Lezama",
@@ -1860,11 +1908,17 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Our early experience with the StreamBit [63] synthesis system made us realize it is difficult for programmers to reason in terms of derivations."
+   }
   },
   {
    "title": "Sketching concurrent data structures",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2008,
    "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
@@ -1876,7 +1930,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “The system is based on the concept of sketching, a form of synthesis that allows programmers to express their insight about an implementation as a partial program: a sketch.”"
+   }
   },
   {
    "title": "Supervisor Synthesis using SAT-Solvers",
@@ -1922,7 +1982,7 @@
   },
   {
    "title": "MIT Open Access Articles Deriving divide-and-conquer dynamic programming algorithms using solver-aided transformations",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "authors": "Shachar Itzhaky, Rohit Singh, Armando Solar-Lezama et al.",
    "url": "https://www.semanticscholar.org/paper/0b442bbfb557679e71204ad958e707677e92ab0a",
@@ -1932,7 +1992,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Our work is also inspired by the StreamBit project [30], which introduced the idea of transformation rules with missing details that can be inferred by a symbolic search procedure."
+   }
   },
   {
    "title": "Meaningful Human-in-the-Loop Checking of GenAI Synthesis for Restricted Languages",
@@ -3804,14 +3870,20 @@
   },
   {
    "title": "Quantitative program sketching using decision tree-based lifted analysis",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "year": 2023,
    "venue": "Journal of Computer Languages",
    "authors": "Aleksandar S. Dimovski",
    "url": "https://doi.org/10.1016/j.cola.2023.101206",
    "cited_by": 9,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Quantitative program sketching using decision tree-based lifted analysis”"
+   }
   },
   {
    "title": "Linguistic Tools for Managing Grammatical Domains (Work in Progress)",
@@ -3845,14 +3917,20 @@
   },
   {
    "title": "Program Synthesis with Live Bidirectional Evaluation",
-   "function": "unclassified",
+   "function": "extends",
    "split": null,
    "year": 2019,
    "venue": "arXiv.org",
    "authors": "Justin P. Lubin, N. Collins, Cyrus Omar et al.",
    "url": "https://www.semanticscholar.org/paper/15d39b279702d908f6e2a3eddb1832a0a143836a",
    "cited_by": 1,
-   "evidence": "title_only"
+   "evidence": "title_only",
+   "prev_function": "unclassified",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “an algorithm for completing program sketches (partial programs, with holes)”"
+   }
   },
   {
    "title": "Generation of code from text description with syntactic parsing and Tree2Tree model",

@@ -1462,7 +1462,7 @@
   },
   {
    "title": "TENSURE: Fuzzing Sparse Tensor Compilers (Registered Report)",
-   "function": "baseline",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2026,
    "venue": "Proceedings 2026 International Fuzzing Workshop",
@@ -1475,7 +1475,13 @@
     "detailed-citation",
     "positions"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "serves as a primary subject of our evaluation"
+   }
   },
   {
    "title": "Compressed and Parallelized Structured Tensor Algebra",
@@ -1628,7 +1634,7 @@
   },
   {
    "title": "Improving Locality in Sparse and Dense Matrix Multiplications",
-   "function": "baseline",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2024,
    "venue": "arXiv.org",
@@ -1640,11 +1646,17 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "we use the generated C++ code from TACO [16] and SparseLNR [12] tensor compilers for the expression"
+   }
   },
   {
    "title": "Minimum Cost Loop Nests for Contraction of a Sparse Tensor with a Tensor Network",
-   "function": "baseline",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2024,
    "venue": "ACM Symposium on Parallelism in Algorithms and Architectures",
@@ -1657,7 +1669,13 @@
     "positions",
     "exemplifies"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "In line with prior work [31], we represent such loop nest as a trees, in which each vertex is a loop and its descendants are the loops contained within it."
+   }
   },
   {
    "title": "SparseAuto: An Auto-scheduler for Sparse Tensor Computations using Recursive Loop Nest Restructuring",
@@ -1905,7 +1923,7 @@
   },
   {
    "title": "Polyhedral Specification and Code Generation of Sparse Tensor Contraction with Co-iteration",
-   "function": "baseline",
+   "function": "extends",
    "split": "detailed",
    "year": 2022,
    "venue": "ACM Transactions on Architecture and Code Optimization",
@@ -1918,7 +1936,13 @@
     "positions",
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "This is as a sparse polyhedral definition of merge lattices proposed by TACO [34, 41]."
+   }
   },
   {
    "title": "Sparsity-Specific Code Optimization using Expression Trees",
@@ -1942,7 +1966,7 @@
   },
   {
    "title": "A High Performance Sparse Tensor Algebra Compiler in MLIR",
-   "function": "baseline",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2021,
    "authors": "Ruiqin Tian, Luanzheng Guo, Jiajia Li et al.",
@@ -1953,7 +1977,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Representing every tensor dimension separately has been shown to be an effective way to generalize tensor storage formats and support efficient code generation [34]."
+   }
   },
   {
    "title": "A High-Performance Sparse Tensor Algebra Compiler in Multi-Level IR",
@@ -4965,7 +4995,7 @@
   },
   {
    "title": "TensorBench: Benchmarking Coding Agents on a Compiler-Based Tensor Framework",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2026,
    "venue": "arXiv.org",
@@ -4978,7 +5008,13 @@
     "lineage",
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Scorch’s design follows the TACO [10] lineage of sparse compilers, with CIN echoing the concrete index notation of Kjolstad et al. [11]"
+   }
   },
   {
    "title": "The Einsum-Enabled Design Space for Graph Algorithms: A BFS Case Study",
@@ -5013,7 +5049,7 @@
   },
   {
    "title": "Distributed Sparse Tensor Computations in MLIR",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2025,
    "venue": "SC25-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis",
@@ -5028,7 +5064,13 @@
    "flags": [
     "lineage"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The specification is lowered by MLIR to loop-level code based on the techniques from the TACO compiler [10]."
+   }
   },
   {
    "title": "Extraction and Representation of Sparsity Patterns for Efficient Data Transfer on Accelerators",
@@ -5172,7 +5214,7 @@
   },
   {
    "title": "ISOSceles: Accelerating Sparse CNNs through Inter-Layer Pipelining",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2023,
    "venue": "International Symposium on High-Performance Computer Architecture",
@@ -5181,7 +5223,13 @@
    "cited_by": 25,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "ISOSceles uses the Compressed Sparse Fiber (CSF) [25, 37] format for all data structures."
+   }
   },
   {
    "title": "JaxPruner: A concise library for sparsity research",
@@ -5232,7 +5280,7 @@
   },
   {
    "title": "AHA: An Agile Approach to the Design of Coarse-Grained Reconfigurable Accelerators and Compilers",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2022,
    "venue": "ACM Transactions on Embedded Computing Systems",
@@ -5244,7 +5292,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "a new spatial dataflow IR targeted by a TACO [26] frontend, we can easily swap in sparse components for their dense counterparts"
+   }
   },
   {
    "title": "A Structured Grid Solver with Polyhedral+Dataflow Representation",
@@ -5374,7 +5428,7 @@
   },
   {
    "title": "Building parallel programming language constructs in the AbleC extensible C compiler framework",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2019,
    "venue": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
@@ -5386,7 +5440,13 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "a reimplementation of much of Kjolstad’s tensor algebra compiler [6] (TACO) as an ableC extension"
+   }
   },
   {
    "title": "Generating piecewise-regular code from irregular structures",
@@ -5484,7 +5544,7 @@
   },
   {
    "title": "Edinburgh Research Explorer C2TACO: Lifting Tensor Code to TACO",
-   "function": "detailed-citation",
+   "function": "uses-tool",
    "split": "detailed",
    "authors": "José Wesley de, Souza Magalhães, Elizabeth Polgreen et al.",
    "url": "https://www.semanticscholar.org/paper/11296e9b85c887f7e9c5b37ff29d7379fe53e8ef",
@@ -5494,7 +5554,13 @@
    "secondary": [
     "exemplifies"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Lifting Tensor Code to TACO”"
+   }
   },
   {
    "title": "Partial Evaluation of Dense Code on Sparse Structures",

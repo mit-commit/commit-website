@@ -552,7 +552,7 @@
   },
   {
    "title": "Polyhedral Extraction Tool",
-   "function": "unknown",
+   "function": "uses-tool",
    "split": null,
    "year": 2012,
    "authors": "Sven Verdoolaege, Tobias Grosser",
@@ -561,11 +561,17 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "the construction of the polyhedral model was performed using a combination of some SUIF passes"
+   }
   },
   {
    "title": "Performance and memory space optimizations for embedded systems",
-   "function": "unknown",
+   "function": "uses-tool",
    "split": null,
    "year": 2011,
    "authors": "Mahmut Kandemir, Kishan G. Mehrotra, Taylan Yemliha",
@@ -574,7 +580,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Each loop in the application has been analyzed by the compiler (SUIF [4]) and transformed such that outermost loop parallelism is obtained to the extent allowed by data dependencies"
+   }
   },
   {
    "title": "Automatic Parallelization for Graphics Processing Units in JikesRVM",

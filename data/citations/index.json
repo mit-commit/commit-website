@@ -6,16 +6,16 @@
    "verified": 1483,
    "gscholar": null,
    "functions": {
-    "extends": 33,
-    "uses-tool": 79,
-    "adopts-idea": 88,
+    "extends": 41,
+    "uses-tool": 90,
+    "adopts-idea": 89,
     "uses-benchmark": 21,
-    "baseline": 29,
+    "baseline": 28,
     "positions": 135,
     "surveys": 19,
     "supports-claim": 16,
-    "exemplifies": 284,
-    "detailed-citation": 171,
+    "exemplifies": 283,
+    "detailed-citation": 170,
     "passing-citation": 196
    },
    "centrality": {
@@ -40,16 +40,16 @@
    "verified": 71,
    "gscholar": null,
    "functions": {
-    "extends": 1,
-    "uses-tool": 7,
+    "extends": 4,
+    "uses-tool": 9,
     "adopts-idea": 3,
     "uses-benchmark": 2,
-    "baseline": 9,
-    "positions": 3,
+    "baseline": 8,
+    "positions": 2,
     "surveys": 1,
     "supports-claim": 1,
-    "exemplifies": 16,
-    "detailed-citation": 2,
+    "exemplifies": 15,
+    "detailed-citation": 0,
     "passing-citation": 11
    },
    "centrality": {
@@ -62,16 +62,16 @@
    "verified": 380,
    "gscholar": null,
    "functions": {
-    "extends": 4,
-    "uses-tool": 21,
+    "extends": 8,
+    "uses-tool": 22,
     "adopts-idea": 21,
     "uses-benchmark": 4,
     "baseline": 8,
-    "positions": 15,
+    "positions": 14,
     "surveys": 4,
     "supports-claim": 1,
     "exemplifies": 128,
-    "detailed-citation": 18,
+    "detailed-citation": 15,
     "passing-citation": 75
    },
    "centrality": {
@@ -119,14 +119,14 @@
    "verified": 43,
    "gscholar": null,
    "functions": {
-    "uses-tool": 2,
+    "uses-tool": 4,
     "baseline": 2,
     "positions": 2,
     "surveys": 2,
     "supports-claim": 4,
-    "exemplifies": 7,
+    "exemplifies": 6,
     "detailed-citation": 1,
-    "passing-citation": 14
+    "passing-citation": 13
    },
    "centrality": {
     "core": 1,
@@ -182,7 +182,7 @@
    "verified": 48,
    "gscholar": null,
    "functions": {
-    "uses-tool": 18,
+    "uses-tool": 21,
     "baseline": 1,
     "positions": 1,
     "surveys": 1,
@@ -201,14 +201,15 @@
    "verified": 280,
    "gscholar": null,
    "functions": {
-    "extends": 3,
-    "adopts-idea": 6,
+    "extends": 5,
+    "adopts-idea": 7,
     "baseline": 1,
     "positions": 36,
-    "supports-claim": 8,
+    "supports-claim": 7,
     "exemplifies": 15,
-    "detailed-citation": 24,
-    "passing-citation": 108
+    "detailed-citation": 20,
+    "passing-citation": 108,
+    "uses-tool": 3
    },
    "centrality": {
     "core": 5,
@@ -220,13 +221,14 @@
    "verified": 66,
    "gscholar": null,
    "functions": {
-    "uses-tool": 2,
+    "uses-tool": 3,
     "adopts-idea": 1,
     "positions": 7,
     "supports-claim": 4,
     "exemplifies": 9,
-    "detailed-citation": 12,
-    "passing-citation": 23
+    "detailed-citation": 11,
+    "passing-citation": 22,
+    "extends": 1
    },
    "centrality": {
     "engaged": 11,
@@ -260,8 +262,10 @@
     "surveys": 9,
     "supports-claim": 2,
     "exemplifies": 38,
-    "detailed-citation": 9,
-    "passing-citation": 47
+    "detailed-citation": 8,
+    "passing-citation": 47,
+    "extends": 1,
+    "adopts-idea": 1
    },
    "centrality": {
     "core": 1,
@@ -287,16 +291,16 @@
    "verified": 378,
    "gscholar": null,
    "functions": {
-    "extends": 5,
-    "uses-tool": 89,
-    "adopts-idea": 4,
+    "extends": 9,
+    "uses-tool": 93,
+    "adopts-idea": 6,
     "uses-benchmark": 2,
-    "baseline": 7,
+    "baseline": 6,
     "positions": 19,
     "surveys": 3,
     "supports-claim": 7,
-    "exemplifies": 87,
-    "detailed-citation": 37,
+    "exemplifies": 84,
+    "detailed-citation": 32,
     "passing-citation": 53
    },
    "centrality": {
@@ -310,10 +314,10 @@
    "gscholar": null,
    "functions": {
     "extends": 3,
-    "uses-tool": 88,
+    "uses-tool": 90,
     "adopts-idea": 4,
     "uses-benchmark": 1,
-    "baseline": 81,
+    "baseline": 79,
     "positions": 61,
     "surveys": 8,
     "supports-claim": 9,
@@ -331,16 +335,16 @@
    "verified": 443,
    "gscholar": null,
    "functions": {
-    "extends": 2,
-    "uses-tool": 4,
-    "adopts-idea": 5,
+    "extends": 4,
+    "uses-tool": 7,
+    "adopts-idea": 6,
     "uses-benchmark": 1,
     "baseline": 2,
-    "positions": 45,
+    "positions": 44,
     "surveys": 9,
     "supports-claim": 15,
-    "exemplifies": 136,
-    "detailed-citation": 40,
+    "exemplifies": 133,
+    "detailed-citation": 38,
     "passing-citation": 100
    },
    "centrality": {
@@ -446,14 +450,15 @@
    "verified": 129,
    "gscholar": null,
    "functions": {
-    "uses-tool": 2,
+    "uses-tool": 3,
     "adopts-idea": 1,
     "positions": 12,
     "surveys": 6,
-    "supports-claim": 7,
+    "supports-claim": 5,
     "exemplifies": 9,
-    "detailed-citation": 17,
-    "passing-citation": 43
+    "detailed-citation": 16,
+    "passing-citation": 42,
+    "extends": 3
    },
    "centrality": {
     "engaged": 11,
@@ -465,9 +470,9 @@
    "verified": 24,
    "gscholar": null,
    "functions": {
-    "uses-tool": 1,
+    "uses-tool": 5,
     "positions": 1,
-    "detailed-citation": 4,
+    "detailed-citation": 1,
     "passing-citation": 5
    },
    "centrality": {
@@ -480,14 +485,15 @@
    "verified": 107,
    "gscholar": null,
    "functions": {
-    "uses-tool": 5,
+    "uses-tool": 11,
     "adopts-idea": 2,
     "positions": 6,
     "surveys": 1,
     "supports-claim": 3,
     "exemplifies": 9,
-    "detailed-citation": 12,
-    "passing-citation": 27
+    "detailed-citation": 6,
+    "passing-citation": 25,
+    "extends": 3
    },
    "centrality": {
     "engaged": 11,
@@ -547,15 +553,16 @@
    "verified": 632,
    "gscholar": null,
    "functions": {
-    "uses-tool": 54,
-    "adopts-idea": 2,
+    "uses-tool": 59,
+    "adopts-idea": 4,
     "baseline": 19,
     "positions": 19,
     "surveys": 4,
     "supports-claim": 12,
-    "exemplifies": 222,
-    "detailed-citation": 47,
-    "passing-citation": 132
+    "exemplifies": 219,
+    "detailed-citation": 42,
+    "passing-citation": 132,
+    "extends": 1
    },
    "centrality": {
     "peripheral": 406,
@@ -650,10 +657,11 @@
    "functions": {
     "extends": 1,
     "positions": 2,
-    "supports-claim": 1,
+    "supports-claim": 0,
     "exemplifies": 7,
     "detailed-citation": 8,
-    "passing-citation": 3
+    "passing-citation": 3,
+    "uses-tool": 1
    },
    "centrality": {
     "core": 1,
@@ -668,8 +676,9 @@
     "positions": 7,
     "supports-claim": 2,
     "exemplifies": 10,
-    "detailed-citation": 4,
-    "passing-citation": 18
+    "detailed-citation": 3,
+    "passing-citation": 18,
+    "extends": 1
    },
    "centrality": {
     "engaged": 8,
@@ -680,11 +689,12 @@
    "verified": 26,
    "gscholar": null,
    "functions": {
-    "positions": 3,
-    "supports-claim": 2,
+    "positions": 2,
+    "supports-claim": 1,
     "exemplifies": 5,
     "detailed-citation": 2,
-    "passing-citation": 9
+    "passing-citation": 9,
+    "extends": 2
    },
    "centrality": {
     "engaged": 3,
@@ -713,15 +723,15 @@
    "verified": 159,
    "gscholar": null,
    "functions": {
-    "extends": 2,
-    "uses-tool": 13,
-    "adopts-idea": 14,
+    "extends": 5,
+    "uses-tool": 14,
+    "adopts-idea": 17,
     "uses-benchmark": 2,
-    "baseline": 4,
+    "baseline": 3,
     "positions": 8,
-    "supports-claim": 15,
-    "exemplifies": 29,
-    "detailed-citation": 12,
+    "supports-claim": 12,
+    "exemplifies": 28,
+    "detailed-citation": 10,
     "passing-citation": 28
    },
    "centrality": {
@@ -735,8 +745,9 @@
    "gscholar": null,
    "functions": {
     "supports-claim": 1,
-    "exemplifies": 3,
-    "passing-citation": 6
+    "exemplifies": 2,
+    "passing-citation": 6,
+    "extends": 1
    },
    "centrality": {
     "peripheral": 10
@@ -787,8 +798,9 @@
     "surveys": 2,
     "supports-claim": 1,
     "exemplifies": 4,
-    "detailed-citation": 4,
-    "passing-citation": 1
+    "detailed-citation": 3,
+    "passing-citation": 1,
+    "extends": 3
    },
    "centrality": {
     "peripheral": 12,
@@ -799,15 +811,15 @@
    "verified": 120,
    "gscholar": null,
    "functions": {
-    "adopts-idea": 3,
+    "adopts-idea": 6,
     "uses-benchmark": 2,
     "baseline": 1,
-    "positions": 7,
+    "positions": 6,
     "surveys": 2,
     "supports-claim": 4,
     "exemplifies": 25,
-    "detailed-citation": 7,
-    "passing-citation": 39
+    "detailed-citation": 6,
+    "passing-citation": 38
    },
    "centrality": {
     "engaged": 14,
@@ -823,9 +835,10 @@
     "baseline": 1,
     "positions": 2,
     "supports-claim": 1,
-    "exemplifies": 14,
+    "exemplifies": 13,
     "detailed-citation": 5,
-    "passing-citation": 7
+    "passing-citation": 7,
+    "uses-tool": 1
    },
    "centrality": {
     "engaged": 10,
@@ -859,7 +872,8 @@
     "supports-claim": 1,
     "exemplifies": 7,
     "detailed-citation": 1,
-    "passing-citation": 8
+    "passing-citation": 8,
+    "extends": 1
    },
    "centrality": {
     "core": 1,
@@ -887,7 +901,7 @@
    "gscholar": null,
    "functions": {
     "extends": 3,
-    "uses-tool": 19,
+    "uses-tool": 20,
     "adopts-idea": 6,
     "uses-benchmark": 14,
     "baseline": 2,
@@ -909,9 +923,9 @@
    "gscholar": null,
    "functions": {
     "uses-tool": 9,
-    "adopts-idea": 15,
+    "adopts-idea": 16,
     "uses-benchmark": 28,
-    "baseline": 14,
+    "baseline": 13,
     "positions": 60,
     "surveys": 9,
     "supports-claim": 70,
@@ -959,15 +973,16 @@
    "gscholar": null,
    "functions": {
     "uses-tool": 4,
-    "adopts-idea": 5,
+    "adopts-idea": 6,
     "uses-benchmark": 5,
     "baseline": 15,
     "positions": 9,
     "surveys": 3,
     "supports-claim": 4,
-    "exemplifies": 70,
-    "detailed-citation": 4,
-    "passing-citation": 49
+    "exemplifies": 68,
+    "detailed-citation": 3,
+    "passing-citation": 49,
+    "extends": 2
    },
    "centrality": {
     "core": 4,
@@ -979,8 +994,8 @@
    "verified": 627,
    "gscholar": null,
    "functions": {
-    "extends": 1,
-    "uses-tool": 126,
+    "extends": 3,
+    "uses-tool": 132,
     "adopts-idea": 1,
     "uses-benchmark": 1,
     "baseline": 4,
@@ -988,8 +1003,8 @@
     "surveys": 6,
     "supports-claim": 25,
     "exemplifies": 117,
-    "detailed-citation": 43,
-    "passing-citation": 132
+    "detailed-citation": 42,
+    "passing-citation": 131
    },
    "centrality": {
     "core": 95,
@@ -1002,13 +1017,13 @@
    "gscholar": null,
    "functions": {
     "extends": 3,
-    "uses-tool": 4,
+    "uses-tool": 6,
     "adopts-idea": 2,
     "positions": 3,
     "surveys": 4,
     "supports-claim": 2,
     "exemplifies": 6,
-    "detailed-citation": 3,
+    "detailed-citation": 2,
     "passing-citation": 24
    },
    "centrality": {
@@ -1022,14 +1037,14 @@
    "gscholar": null,
    "functions": {
     "extends": 3,
-    "uses-tool": 21,
+    "uses-tool": 24,
     "adopts-idea": 2,
     "baseline": 2,
     "positions": 5,
     "surveys": 3,
     "supports-claim": 17,
     "exemplifies": 19,
-    "detailed-citation": 10,
+    "detailed-citation": 8,
     "passing-citation": 49
    },
    "centrality": {
@@ -1091,15 +1106,16 @@
    "verified": 66,
    "gscholar": null,
    "functions": {
-    "uses-tool": 2,
+    "uses-tool": 3,
     "adopts-idea": 2,
     "uses-benchmark": 3,
     "positions": 2,
     "surveys": 1,
-    "supports-claim": 4,
+    "supports-claim": 3,
     "exemplifies": 4,
-    "detailed-citation": 11,
-    "passing-citation": 24
+    "detailed-citation": 9,
+    "passing-citation": 23,
+    "extends": 3
    },
    "centrality": {
     "engaged": 8,
@@ -1163,13 +1179,13 @@
    "verified": 78,
    "gscholar": null,
    "functions": {
-    "extends": 7,
-    "uses-tool": 6,
-    "adopts-idea": 3,
+    "extends": 8,
+    "uses-tool": 7,
+    "adopts-idea": 4,
     "baseline": 5,
     "positions": 2,
     "exemplifies": 8,
-    "detailed-citation": 15,
+    "detailed-citation": 12,
     "passing-citation": 18
    },
    "centrality": {
@@ -1182,16 +1198,16 @@
    "verified": 483,
    "gscholar": null,
    "functions": {
-    "extends": 11,
-    "uses-tool": 31,
-    "adopts-idea": 12,
+    "extends": 13,
+    "uses-tool": 36,
+    "adopts-idea": 16,
     "uses-benchmark": 12,
-    "baseline": 46,
+    "baseline": 41,
     "positions": 24,
     "surveys": 1,
     "supports-claim": 3,
     "exemplifies": 155,
-    "detailed-citation": 38,
+    "detailed-citation": 32,
     "passing-citation": 86
    },
    "centrality": {
@@ -1241,7 +1257,7 @@
    "verified": 27,
    "gscholar": null,
    "functions": {
-    "uses-tool": 1,
+    "uses-tool": 2,
     "adopts-idea": 1,
     "baseline": 1,
     "positions": 1,
@@ -1260,13 +1276,13 @@
    "verified": 82,
    "gscholar": null,
    "functions": {
-    "extends": 1,
-    "adopts-idea": 2,
+    "extends": 4,
+    "adopts-idea": 3,
     "positions": 7,
     "supports-claim": 7,
     "exemplifies": 1,
     "detailed-citation": 10,
-    "passing-citation": 24
+    "passing-citation": 21
    },
    "centrality": {
     "core": 1,
@@ -1278,15 +1294,15 @@
    "verified": 454,
    "gscholar": null,
    "functions": {
-    "extends": 11,
-    "uses-tool": 10,
-    "adopts-idea": 34,
+    "extends": 23,
+    "uses-tool": 13,
+    "adopts-idea": 36,
     "baseline": 4,
-    "positions": 44,
+    "positions": 43,
     "surveys": 9,
     "supports-claim": 41,
-    "exemplifies": 63,
-    "detailed-citation": 65,
+    "exemplifies": 62,
+    "detailed-citation": 51,
     "passing-citation": 98
    },
    "centrality": {
@@ -1299,17 +1315,17 @@
    "verified": 278,
    "gscholar": null,
    "functions": {
-    "extends": 1,
-    "uses-tool": 5,
-    "adopts-idea": 6,
+    "extends": 5,
+    "uses-tool": 12,
+    "adopts-idea": 8,
     "uses-benchmark": 3,
     "baseline": 2,
     "positions": 27,
     "surveys": 6,
-    "supports-claim": 13,
+    "supports-claim": 12,
     "exemplifies": 43,
-    "detailed-citation": 32,
-    "passing-citation": 49
+    "detailed-citation": 24,
+    "passing-citation": 48
    },
    "centrality": {
     "core": 8,
@@ -1372,13 +1388,13 @@
    "verified": 61,
    "gscholar": null,
    "functions": {
-    "extends": 1,
+    "extends": 2,
     "adopts-idea": 1,
     "positions": 3,
     "surveys": 1,
     "supports-claim": 5,
     "exemplifies": 3,
-    "detailed-citation": 2,
+    "detailed-citation": 1,
     "passing-citation": 25
    },
    "centrality": {
@@ -1392,13 +1408,13 @@
    "gscholar": null,
    "functions": {
     "extends": 2,
-    "uses-tool": 3,
-    "adopts-idea": 6,
+    "uses-tool": 5,
+    "adopts-idea": 8,
     "positions": 16,
     "surveys": 1,
-    "supports-claim": 15,
+    "supports-claim": 13,
     "exemplifies": 15,
-    "detailed-citation": 11,
+    "detailed-citation": 10,
     "passing-citation": 68
    },
    "centrality": {
@@ -1429,7 +1445,7 @@
    "verified": 51,
    "gscholar": null,
    "functions": {
-    "uses-tool": 1,
+    "uses-tool": 2,
     "baseline": 1,
     "positions": 6,
     "surveys": 1,
@@ -1478,16 +1494,17 @@
    "verified": 425,
    "gscholar": null,
    "functions": {
-    "uses-tool": 2,
-    "adopts-idea": 14,
+    "uses-tool": 4,
+    "adopts-idea": 17,
     "uses-benchmark": 1,
-    "baseline": 7,
-    "positions": 51,
+    "baseline": 5,
+    "positions": 49,
     "surveys": 5,
     "supports-claim": 17,
-    "exemplifies": 45,
+    "exemplifies": 42,
     "detailed-citation": 31,
-    "passing-citation": 191
+    "passing-citation": 191,
+    "extends": 3
    },
    "centrality": {
     "core": 5,
@@ -1552,9 +1569,9 @@
    "functions": {
     "extends": 2,
     "uses-tool": 2,
-    "adopts-idea": 2,
+    "adopts-idea": 3,
     "baseline": 5,
-    "positions": 25,
+    "positions": 24,
     "surveys": 7,
     "supports-claim": 12,
     "exemplifies": 99,
@@ -1577,7 +1594,8 @@
     "supports-claim": 7,
     "exemplifies": 18,
     "detailed-citation": 13,
-    "passing-citation": 35
+    "passing-citation": 34,
+    "adopts-idea": 1
    },
    "centrality": {
     "core": 1,
@@ -1599,15 +1617,15 @@
    "verified": 296,
    "gscholar": null,
    "functions": {
-    "extends": 4,
-    "uses-tool": 42,
-    "adopts-idea": 20,
+    "extends": 10,
+    "uses-tool": 49,
+    "adopts-idea": 23,
     "uses-benchmark": 2,
     "baseline": 8,
-    "positions": 16,
+    "positions": 14,
     "supports-claim": 6,
-    "exemplifies": 85,
-    "detailed-citation": 29,
+    "exemplifies": 80,
+    "detailed-citation": 22,
     "passing-citation": 29
    },
    "centrality": {
@@ -1661,7 +1679,8 @@
     "uses-benchmark": 2,
     "exemplifies": 2,
     "detailed-citation": 1,
-    "passing-citation": 6
+    "passing-citation": 5,
+    "extends": 1
    },
    "centrality": {
     "engaged": 1,
@@ -1719,16 +1738,17 @@
    "verified": 94,
    "gscholar": null,
    "functions": {
-    "uses-tool": 1,
-    "adopts-idea": 2,
+    "uses-tool": 2,
+    "adopts-idea": 4,
     "uses-benchmark": 3,
     "baseline": 3,
     "positions": 7,
     "surveys": 1,
-    "supports-claim": 7,
+    "supports-claim": 6,
     "exemplifies": 7,
-    "detailed-citation": 14,
-    "passing-citation": 23
+    "detailed-citation": 12,
+    "passing-citation": 22,
+    "extends": 1
    },
    "centrality": {
     "core": 2,
@@ -1776,16 +1796,16 @@
    "verified": 308,
    "gscholar": null,
    "functions": {
-    "extends": 1,
-    "uses-tool": 6,
-    "adopts-idea": 25,
+    "extends": 7,
+    "uses-tool": 8,
+    "adopts-idea": 30,
     "uses-benchmark": 1,
-    "baseline": 4,
+    "baseline": 2,
     "positions": 5,
     "surveys": 1,
     "supports-claim": 7,
-    "exemplifies": 45,
-    "detailed-citation": 39,
+    "exemplifies": 41,
+    "detailed-citation": 34,
     "passing-citation": 112
    },
    "centrality": {
@@ -1813,13 +1833,13 @@
    "verified": 225,
    "gscholar": null,
    "functions": {
-    "adopts-idea": 6,
+    "adopts-idea": 8,
     "baseline": 3,
-    "positions": 16,
+    "positions": 15,
     "surveys": 10,
     "supports-claim": 10,
     "exemplifies": 61,
-    "detailed-citation": 11,
+    "detailed-citation": 10,
     "passing-citation": 76
    },
    "centrality": {
@@ -1849,17 +1869,17 @@
    "verified": 238,
    "gscholar": null,
    "functions": {
-    "extends": 1,
-    "uses-tool": 6,
-    "adopts-idea": 9,
-    "uses-benchmark": 7,
+    "extends": 15,
+    "uses-tool": 9,
+    "adopts-idea": 16,
+    "uses-benchmark": 5,
     "baseline": 3,
-    "positions": 24,
+    "positions": 18,
     "surveys": 4,
-    "supports-claim": 27,
-    "exemplifies": 26,
-    "detailed-citation": 22,
-    "passing-citation": 61
+    "supports-claim": 25,
+    "exemplifies": 24,
+    "detailed-citation": 18,
+    "passing-citation": 57
    },
    "centrality": {
     "core": 7,
@@ -1891,13 +1911,13 @@
    "functions": {
     "extends": 1,
     "uses-tool": 1,
-    "adopts-idea": 1,
+    "adopts-idea": 9,
     "baseline": 1,
     "positions": 3,
     "surveys": 2,
     "supports-claim": 3,
-    "exemplifies": 5,
-    "detailed-citation": 11,
+    "exemplifies": 2,
+    "detailed-citation": 6,
     "passing-citation": 22
    },
    "centrality": {
@@ -1922,15 +1942,16 @@
    "verified": 175,
    "gscholar": null,
    "functions": {
-    "adopts-idea": 4,
+    "adopts-idea": 7,
     "uses-benchmark": 2,
     "baseline": 1,
     "positions": 6,
     "surveys": 2,
-    "supports-claim": 26,
+    "supports-claim": 25,
     "exemplifies": 37,
-    "detailed-citation": 17,
-    "passing-citation": 39
+    "detailed-citation": 14,
+    "passing-citation": 39,
+    "uses-tool": 3
    },
    "centrality": {
     "engaged": 22,
@@ -1943,15 +1964,16 @@
    "gscholar": null,
    "functions": {
     "uses-tool": 17,
-    "adopts-idea": 3,
+    "adopts-idea": 4,
     "uses-benchmark": 8,
-    "baseline": 5,
+    "baseline": 4,
     "positions": 8,
     "surveys": 6,
     "supports-claim": 42,
     "exemplifies": 91,
-    "detailed-citation": 26,
-    "passing-citation": 63
+    "detailed-citation": 25,
+    "passing-citation": 63,
+    "extends": 2
    },
    "centrality": {
     "core": 19,
@@ -1963,14 +1985,15 @@
    "verified": 76,
    "gscholar": null,
    "functions": {
-    "uses-tool": 2,
+    "uses-tool": 3,
     "uses-benchmark": 2,
     "baseline": 3,
     "surveys": 2,
-    "supports-claim": 7,
-    "exemplifies": 23,
+    "supports-claim": 6,
+    "exemplifies": 22,
     "detailed-citation": 2,
-    "passing-citation": 17
+    "passing-citation": 17,
+    "adopts-idea": 1
    },
    "centrality": {
     "engaged": 7,
@@ -1982,9 +2005,10 @@
    "verified": 11,
    "gscholar": null,
    "functions": {
-    "uses-tool": 1,
+    "uses-tool": 2,
     "positions": 1,
-    "passing-citation": 2
+    "passing-citation": 1,
+    "extends": 1
    },
    "centrality": {
     "core": 1,
@@ -2007,16 +2031,17 @@
    "verified": 100,
    "gscholar": null,
    "functions": {
-    "uses-tool": 3,
+    "uses-tool": 7,
     "adopts-idea": 2,
     "uses-benchmark": 2,
-    "baseline": 11,
+    "baseline": 10,
     "positions": 5,
     "surveys": 1,
     "supports-claim": 3,
-    "exemplifies": 5,
-    "detailed-citation": 10,
-    "passing-citation": 43
+    "exemplifies": 4,
+    "detailed-citation": 8,
+    "passing-citation": 43,
+    "extends": 1
    },
    "centrality": {
     "engaged": 22,
@@ -2094,16 +2119,17 @@
    "verified": 177,
    "gscholar": null,
    "functions": {
-    "uses-tool": 5,
+    "uses-tool": 9,
     "adopts-idea": 2,
     "uses-benchmark": 5,
     "baseline": 8,
-    "positions": 6,
+    "positions": 5,
     "surveys": 1,
     "supports-claim": 5,
     "exemplifies": 9,
-    "detailed-citation": 9,
-    "passing-citation": 76
+    "detailed-citation": 8,
+    "passing-citation": 74,
+    "extends": 2
    },
    "centrality": {
     "engaged": 25,
@@ -2116,12 +2142,12 @@
    "gscholar": null,
    "functions": {
     "uses-tool": 2,
-    "adopts-idea": 1,
+    "adopts-idea": 3,
     "uses-benchmark": 49,
     "positions": 1,
     "surveys": 1,
-    "supports-claim": 46,
-    "exemplifies": 21,
+    "supports-claim": 45,
+    "exemplifies": 20,
     "detailed-citation": 6,
     "passing-citation": 23
    },
@@ -2157,10 +2183,10 @@
    "functions": {
     "extends": 1,
     "uses-tool": 2,
-    "adopts-idea": 2,
+    "adopts-idea": 3,
     "positions": 7,
     "surveys": 1,
-    "supports-claim": 2,
+    "supports-claim": 1,
     "exemplifies": 9,
     "detailed-citation": 12,
     "passing-citation": 10
@@ -2186,16 +2212,17 @@
    "verified": 345,
    "gscholar": null,
    "functions": {
-    "uses-tool": 8,
+    "uses-tool": 9,
     "adopts-idea": 1,
     "uses-benchmark": 1,
     "baseline": 4,
     "positions": 19,
     "surveys": 5,
     "supports-claim": 2,
-    "exemplifies": 132,
-    "detailed-citation": 11,
-    "passing-citation": 111
+    "exemplifies": 131,
+    "detailed-citation": 10,
+    "passing-citation": 111,
+    "extends": 1
    },
    "centrality": {
     "core": 8,
@@ -2234,12 +2261,14 @@
    "verified": 45,
    "gscholar": null,
    "functions": {
-    "uses-tool": 1,
+    "uses-tool": 3,
     "baseline": 5,
-    "positions": 9,
-    "exemplifies": 12,
-    "detailed-citation": 6,
-    "passing-citation": 5
+    "positions": 7,
+    "exemplifies": 10,
+    "detailed-citation": 4,
+    "passing-citation": 5,
+    "adopts-idea": 2,
+    "extends": 2
    },
    "centrality": {
     "core": 1,
@@ -2253,9 +2282,10 @@
    "functions": {
     "uses-tool": 1,
     "surveys": 1,
-    "exemplifies": 4,
+    "exemplifies": 3,
     "detailed-citation": 3,
-    "passing-citation": 2
+    "passing-citation": 2,
+    "extends": 1
    },
    "centrality": {
     "engaged": 1,
@@ -2266,13 +2296,13 @@
    "verified": 190,
    "gscholar": null,
    "functions": {
-    "uses-tool": 4,
+    "uses-tool": 5,
     "uses-benchmark": 2,
     "positions": 2,
     "surveys": 3,
     "supports-claim": 10,
     "exemplifies": 26,
-    "detailed-citation": 7,
+    "detailed-citation": 6,
     "passing-citation": 68
    },
    "centrality": {
@@ -2285,15 +2315,15 @@
    "verified": 711,
    "gscholar": null,
    "functions": {
-    "extends": 1,
-    "uses-tool": 10,
-    "adopts-idea": 1,
+    "extends": 6,
+    "uses-tool": 14,
+    "adopts-idea": 8,
     "uses-benchmark": 1,
     "positions": 21,
     "surveys": 25,
-    "supports-claim": 17,
+    "supports-claim": 14,
     "exemplifies": 228,
-    "detailed-citation": 60,
+    "detailed-citation": 48,
     "passing-citation": 120
    },
    "centrality": {
@@ -2306,14 +2336,15 @@
    "verified": 648,
    "gscholar": null,
    "functions": {
-    "uses-tool": 233,
+    "uses-tool": 239,
     "uses-benchmark": 1,
-    "positions": 16,
+    "positions": 15,
     "surveys": 6,
     "supports-claim": 7,
-    "exemplifies": 78,
-    "detailed-citation": 38,
-    "passing-citation": 75
+    "exemplifies": 77,
+    "detailed-citation": 36,
+    "passing-citation": 75,
+    "extends": 2
    },
    "centrality": {
     "peripheral": 223,
@@ -2358,7 +2389,8 @@
     "supports-claim": 20,
     "exemplifies": 15,
     "detailed-citation": 7,
-    "passing-citation": 40
+    "passing-citation": 36,
+    "extends": 4
    },
    "centrality": {
     "engaged": 37,
@@ -2518,16 +2550,16 @@
    "verified": 1361,
    "gscholar": null,
    "functions": {
-    "extends": 21,
-    "uses-tool": 51,
-    "adopts-idea": 29,
+    "extends": 22,
+    "uses-tool": 52,
+    "adopts-idea": 32,
     "uses-benchmark": 79,
     "baseline": 4,
-    "positions": 121,
+    "positions": 119,
     "surveys": 32,
     "supports-claim": 6,
     "exemplifies": 269,
-    "detailed-citation": 116,
+    "detailed-citation": 113,
     "passing-citation": 125
    },
    "centrality": {
@@ -2541,8 +2573,8 @@
    "gscholar": null,
    "functions": {
     "extends": 2,
-    "uses-tool": 11,
-    "adopts-idea": 20,
+    "uses-tool": 12,
+    "adopts-idea": 21,
     "uses-benchmark": 2,
     "baseline": 1,
     "positions": 31,
@@ -2624,11 +2656,11 @@
    "verified": 24,
    "gscholar": null,
    "functions": {
-    "uses-tool": 3,
+    "uses-tool": 4,
     "uses-benchmark": 1,
     "surveys": 2,
     "exemplifies": 1,
-    "detailed-citation": 2
+    "detailed-citation": 1
    },
    "centrality": {
     "core": 3,
@@ -2640,7 +2672,7 @@
    "verified": 56,
    "gscholar": null,
    "functions": {
-    "uses-tool": 13,
+    "uses-tool": 15,
     "surveys": 3,
     "exemplifies": 4,
     "passing-citation": 12
@@ -2750,12 +2782,12 @@
    "verified": 18,
    "gscholar": null,
    "functions": {
-    "uses-tool": 1,
+    "uses-tool": 2,
     "adopts-idea": 1,
     "positions": 2,
     "supports-claim": 2,
     "exemplifies": 3,
-    "detailed-citation": 1,
+    "detailed-citation": 0,
     "passing-citation": 1
    },
    "centrality": {
@@ -2790,12 +2822,12 @@
    "gscholar": null,
    "functions": {
     "uses-tool": 11,
-    "adopts-idea": 9,
+    "adopts-idea": 14,
     "baseline": 1,
-    "positions": 66,
+    "positions": 63,
     "surveys": 20,
     "supports-claim": 8,
-    "exemplifies": 55,
+    "exemplifies": 54,
     "detailed-citation": 24,
     "passing-citation": 164
    },
@@ -2929,8 +2961,9 @@
    "verified": 4,
    "gscholar": null,
    "functions": {
-    "detailed-citation": 1,
-    "passing-citation": 2
+    "detailed-citation": 0,
+    "passing-citation": 2,
+    "adopts-idea": 1
    },
    "centrality": {
     "engaged": 1,
@@ -2947,11 +2980,12 @@
    "verified": 41,
    "gscholar": null,
    "functions": {
-    "uses-tool": 12,
+    "uses-tool": 13,
     "positions": 1,
     "exemplifies": 3,
-    "detailed-citation": 8,
-    "passing-citation": 11
+    "detailed-citation": 6,
+    "passing-citation": 11,
+    "extends": 1
    },
    "centrality": {
     "engaged": 4,
@@ -3056,7 +3090,8 @@
    "gscholar": null,
    "functions": {
     "adopts-idea": 1,
-    "passing-citation": 4
+    "passing-citation": 4,
+    "extends": 1
    },
    "centrality": {
     "engaged": 1,
@@ -3087,7 +3122,8 @@
    "verified": 2,
    "gscholar": null,
    "functions": {
-    "detailed-citation": 2
+    "detailed-citation": 1,
+    "adopts-idea": 1
    },
    "centrality": {
     "peripheral": 2

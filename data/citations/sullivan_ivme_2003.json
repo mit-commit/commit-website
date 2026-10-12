@@ -211,7 +211,7 @@
   },
   {
    "title": "Simple optimizing JIT compilation of higher-order dynamic programming languages",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2019,
    "authors": "Baptiste Saleil",
@@ -222,11 +222,17 @@
    "secondary": [
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The DynamoRIO [17, 133] project has shown that the negative impact on performance of the interpretation of dynamic languages can be decreased using compilation traces (commonly referred to as tracing)."
+   }
   },
   {
    "title": "Building JIT compilers for dynamic languages with low development effort",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2018,
    "venue": "VMIL@SPLASH",
@@ -235,7 +241,13 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The DynamoRIO [20] project showed that the negative performance of the interpretation of dynamic languages can be decreased using compilation traces."
+   }
   },
   {
    "title": "Dynamically dispatching speculative threads to improve sequential execution",
@@ -255,7 +267,7 @@
   },
   {
    "title": "LIFT: A Low-Overhead Practical Information Flow Tracking System for Detecting Security Attacks",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "year": 2006,
    "venue": "Proceedings of the ... annual International Symposium on Microarchitecture/Proceedings of the annual International Symposium on Microarchitecture",
@@ -267,7 +279,13 @@
    "secondary": [
     "supports-claim"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Like other dynamic binary instrumentation and translation frameworks [6, 29, 37], StarDBT manages a code cache to store the translated code so that the original code is translated once and executed multiple times in order to amortize the translation cost."
+   }
   },
   {
    "title": "Automatically Generated Supernodes for AST Interpreters Improve Virtual-Machine Performance",
@@ -284,7 +302,7 @@
   },
   {
    "title": "Adaptive just-in-time value class optimization for lowering memory consumption and improving execution time performance",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2016,
    "venue": "Science of Computer Programming",
@@ -293,11 +311,17 @@
    "cited_by": 6,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Tracing an interpreter that runs a program instead of tracing the program itself it the core idea of meta-tracing jit compilers, pioneered in the DynamoRIO project [42]."
+   }
   },
   {
    "title": "Adaptive just-in-time value class optimization",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2015,
    "venue": "ACM Symposium on Applied Computing",
@@ -306,11 +330,17 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Tracing an interpreter that runs a program instead of tracing the program itself it the core idea of meta-tracing jit compilers, pioneered in the DynamoRIO project [42]."
+   }
   },
   {
    "title": "Pycket: a tracing JIT for a functional language",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2015,
    "venue": "ACM SIGPLAN Notices",
@@ -322,11 +352,17 @@
    "secondary": [
     "supports-claim"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The core idea of meta-tracing, which is to trace an interpreter running a program rather than a program itself, was pioneered by Sullivan et al. (2003) in DynamoRIO."
+   }
   },
   {
    "title": "Meta-tracing makes a fast Racket",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2014,
    "authors": "Carl Friedrich Bolz-Tereick, Jeremy G. Siek, Sam Tobin-Hochstadt",
@@ -334,7 +370,13 @@
    "cited_by": 19,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "The core idea of meta-tracing, which is tracing not the program directly, but the interpreter running the program was pioneered by DynamoRIO [Sullivan et al., 2003]."
+   }
   },
   {
    "title": "Runtime feedback in a meta-tracing JIT for efficient dynamic languages",
@@ -354,7 +396,7 @@
   },
   {
    "title": "Tracing the meta-level",
-   "function": "detailed-citation",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2009,
    "venue": "ICOOOLPS@ECOOP",
@@ -363,7 +405,13 @@
    "cited_by": 281,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "has been tried before in the context of the DynamoRIO project [27], which has been a great inspiration for our work."
+   }
   },
   {
    "title": "Mixed mode execution with context threading",

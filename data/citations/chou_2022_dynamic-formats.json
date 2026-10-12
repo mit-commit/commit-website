@@ -52,7 +52,7 @@
   },
   {
    "title": "Finch: Sparse and Structured Tensor Programming with Control Flow",
-   "function": "exemplifies",
+   "function": "extends",
    "split": "passing",
    "year": 2025,
    "venue": "Proceedings of the ACM on Programming Languages",
@@ -68,7 +68,13 @@
     "own-group"
    ],
    "evidence": "fulltext",
-   "commit": true
+   "commit": true,
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Finch: Sparse and Structured Tensor Programming with Control Flow”"
+   }
   },
   {
    "title": "Masked Matrix Multiplication for Emergent Sparsity",
