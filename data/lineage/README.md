@@ -23,4 +23,4 @@ directly, the site's classification decides. After a citation refresh, re-run
 the generator so the two stay in step — the generator checks this and reports
 any mismatch.
 
-Lines so far: StreamIt, TACO → Finch. Generated 2026-10-12.
+Lines so far (17): Halide; PetaBricks and OpenTuner; superword-level parallelism (SLP); Raw; SUIF; DynamoRIO and Program Shepherding; Meta Optimization; StreamIt; TACO and Finch; DMTCP; bitwidth analysis; GraphIt; Kendo and Aikido; ClearView; Tiramisu; distributed-memory compilation; programmable microfluidics (kept separate from all other lines). COMMIT papers that appear inside a map are drawn in the COMMIT lane. Each COMMIT paper gets one Lineage link, to its home line. Generated 2026-10-12.

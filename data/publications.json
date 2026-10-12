@@ -2231,7 +2231,7 @@
  },
  {
   "title": "Efficient and Proven Verification of Unreliable Hardware Executions of Classic Algorithms",
-  "summary": "SoundCheck is a system for trusting results computed on unreliable hardware — machines run beyond their voltage and frequency guardbands, risking silent data corruption. A solver runs on the unreliable machine while an efficient checker validates its output on a reliable one; checkers for linear equations, satisfiability, linear programming, graph matching, and 3SUM run 10³–10⁶× faster than their solvers in practice. Because sound checkers are hard to write, it proves each checker sound and complete with bounded verification in the Sketch synthesis language and emits it as efficient C++. Its proofs build on the Sketch system, introduced in <a href=\"papers/2005/solar-pldi-2005.pdf\">a PLDI 2005 paper on sketching bit-streaming programs</a>.",
+  "summary": "SoundCheck is a system for trusting results computed on unreliable hardware — machines run beyond their voltage and frequency guardbands, risking silent data corruption. A solver runs on the unreliable machine while an efficient checker validates its output on a reliable one; checkers for linear equations, satisfiability, linear programming, graph matching, and 3SUM run 10³–10⁶× faster than their solvers in practice. Because sound checkers are hard to write, it proves each checker sound and complete with bounded verification in the Sketch synthesis language and emits it as efficient C++. Its proofs build on the Sketch system, introduced in <a href=\"https://doi.org/10.1145/1065010.1065045\">a PLDI 2005 paper on sketching bit-streaming programs</a>.",
   "author0": "Yoana Gyurova",
   "month": "Jun",
   "year": "2015",
@@ -3413,26 +3413,6 @@
   "project": "TEK",
   "venue": "ICTD",
   "doi": "10.1109/ICTD.2009.5426700"
- },
- {
-  "title": "Programming by Sketching for Bit-Streaming Programs",
-  "summary": "This PLDI paper introduces programming by sketching: the programmer writes a clean bit-level reference program, then sketches only the outline of an efficient word-level implementation, and the compiler fills in the missing details while guaranteeing that the completed sketch stays faithful to the reference. StreamBit realizes the methodology for bit-streaming programs such as ciphers, where buggy optimizations become security holes. In a user study, given the same time budget, novice StreamBit programmers produced ciphers 2.5× faster than experienced C programmers, and DES and Serpent implementations competitive with hand-optimized public code.\n\nReference programs are written in the <a href=\"papers/2002/streamit-cc.pdf\">StreamIt</a> dataflow language, whose synchronous dataflow model StreamBit's intermediate representation and sketch semantics build on. The Sketch synthesis approach begun here was later used to prove checkers correct in <a href=\"papers/2015/ygyurova-meng-thesis.pdf\">a 2015 M.Eng. thesis</a> on verifying executions of classic algorithms on unreliable hardware.",
-  "author0": "Armando Solar-Lezama and Rodric Rabbah and Rastislav Bodik and Kemal Ebcioglu",
-  "booktitle": "26th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
-  "address": "Chicago, IL",
-  "month": "Jun",
-  "year": "2005",
-  "url": "papers/2005/solar-pldi-2005.pdf",
-  "bibtexKey": "solar-lezama:pldi:2005",
-  "itemType": "inproceedings",
-  "oldbibtex": "@inproceedings{solar-lezama:pldi:2005,\n  address = {Chicago, IL},\n  author = {Armando Solar-Lezama and Rodric Rabbah and Rastislav Bodik and Kemal Ebcioglu},\n  booktitle = {26th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)},\n  keywords = {StreamIt},\n  month = {Jun},\n  title = {Programming by Sketching for Bit-Streaming Programs},\n  url = {https://commit.csail.mit.edu/papers/2005/solar-pldi-2005.pdf},\n  year = {2005}\n}\n",
-  "topics": [
-   "Program Synthesis & LLMs",
-   "Stream Computing"
-  ],
-  "project": "Other",
-  "venue": "PLDI",
-  "doi": "10.1145/1065010.1065045"
  },
  {
   "title": "How to do a million watchpoints: Efficient Debugging Using Dynamic Instrumentation",

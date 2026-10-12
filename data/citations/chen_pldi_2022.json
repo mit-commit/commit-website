@@ -53,7 +53,7 @@
   },
   {
    "title": "Retrofitting Control Flow Graphs in LLVM IR for Auto Vectorization",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2025,
    "venue": "arXiv.org",
@@ -65,7 +65,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Predicated Static single-assignment (PSSA) [8] is introduced to transform the IR into a non-CFG-based form, replacing the CFG with flat list of instructions and loops and attached control predicates”"
+   }
   },
   {
    "title": "If-Convert as Early as You Must",

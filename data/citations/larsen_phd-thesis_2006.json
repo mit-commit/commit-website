@@ -32,7 +32,7 @@
   },
   {
    "title": "Compiler-controlled caching in superword register files for multimedia extension architectures",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2003,
    "venue": "Proceedings.International Conference on Parallel Architectures and Compilation Techniques",
@@ -41,7 +41,13 @@
    "cited_by": 12,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Compiler-controlled caching in superword register files for multimedia extension architectures”"
+   }
   }
  ]
 }

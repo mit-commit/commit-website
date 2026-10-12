@@ -1463,20 +1463,6 @@
    "viaUses": 6
   },
   {
-   "name": "Alvin Cheung",
-   "count": 6,
-   "papers": [
-    "ansel:pact:2014",
-    "halide:pldi:2013",
-    "kjolstad:oopsla:2017",
-    "mendis:pldi:2015",
-    "ragankelley:halide:2012",
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 6,
-   "viaUses": 0
-  },
-  {
    "name": "Amer Diwan",
    "count": 6,
    "papers": [
@@ -2496,19 +2482,6 @@
    "viaUses": 0
   },
   {
-   "name": "Abhishek Udupa",
-   "count": 5,
-   "papers": [
-    "gordon:asplos:2002",
-    "gordon:asplos:2006",
-    "sermulins:lctes:2005",
-    "solar-lezama:pldi:2005",
-    "thies:cc:2002"
-   ],
-   "viaCites": 5,
-   "viaUses": 0
-  },
-  {
    "name": "Alexa VanHattum",
    "count": 5,
    "papers": [
@@ -3258,6 +3231,19 @@
     "kjolstad:oopsla:2017",
     "rawn:oopsla:2021",
     "senanayake2020sparse"
+   ],
+   "viaCites": 5,
+   "viaUses": 0
+  },
+  {
+   "name": "Alvin Cheung",
+   "count": 5,
+   "papers": [
+    "ansel:pact:2014",
+    "halide:pldi:2013",
+    "kjolstad:oopsla:2017",
+    "mendis:pldi:2015",
+    "ragankelley:halide:2012"
    ],
    "viaCites": 5,
    "viaUses": 0
@@ -5286,18 +5272,6 @@
     "bruening:vee:2012",
     "halide:pldi:2013",
     "tyler:ppopp:2016"
-   ],
-   "viaCites": 4,
-   "viaUses": 0
-  },
-  {
-   "name": "Fernando Magno Quintão Pereira",
-   "count": 4,
-   "papers": [
-    "kiriansky:security:2002",
-    "kjolstad:oopsla:2017",
-    "solar-lezama:pldi:2005",
-    "stephenson:pldi:2000"
    ],
    "viaCites": 4,
    "viaUses": 0
@@ -9119,18 +9093,6 @@
    "viaUses": 4
   },
   {
-   "name": "Shachar Itzhaky",
-   "count": 4,
-   "papers": [
-    "ansel:pact:2014",
-    "halide:pldi:2013",
-    "mendis:pldi:2015",
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 4,
-   "viaUses": 0
-  },
-  {
    "name": "Shane Z",
    "count": 4,
    "papers": [
@@ -10967,6 +10929,18 @@
    "viaUses": 4
   },
   {
+   "name": "Abhishek Udupa",
+   "count": 4,
+   "papers": [
+    "gordon:asplos:2002",
+    "gordon:asplos:2006",
+    "sermulins:lctes:2005",
+    "thies:cc:2002"
+   ],
+   "viaCites": 4,
+   "viaUses": 0
+  },
+  {
    "name": "A. Elster",
    "count": 3,
    "papers": [
@@ -11369,17 +11343,6 @@
     "Ragan-Kelley:2017:HDA:3176926.3150211",
     "ansel:pact:2014",
     "halide:pldi:2013"
-   ],
-   "viaCites": 3,
-   "viaUses": 0
-  },
-  {
-   "name": "Chao Wang",
-   "count": 3,
-   "papers": [
-    "kjolstad:oopsla:2017",
-    "petkov:ipdps:2002",
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 3,
    "viaUses": 0
@@ -12914,17 +12877,6 @@
    "viaUses": 0
   },
   {
-   "name": "S. Seshia",
-   "count": 3,
-   "papers": [
-    "kiriansky-micro18-dawg",
-    "kjolstad:oopsla:2017",
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 3,
-   "viaUses": 0
-  },
-  {
    "name": "Sam Lindley",
    "count": 3,
    "papers": [
@@ -13712,6 +13664,28 @@
     "amarasinghe:lcpc:1993",
     "amarasinghe:siam:1995",
     "wilson:sigplan:1994"
+   ],
+   "viaCites": 3,
+   "viaUses": 0
+  },
+  {
+   "name": "Fernando Magno Quintão Pereira",
+   "count": 3,
+   "papers": [
+    "kiriansky:security:2002",
+    "kjolstad:oopsla:2017",
+    "stephenson:pldi:2000"
+   ],
+   "viaCites": 3,
+   "viaUses": 0
+  },
+  {
+   "name": "Shachar Itzhaky",
+   "count": 3,
+   "papers": [
+    "ansel:pact:2014",
+    "halide:pldi:2013",
+    "mendis:pldi:2015"
    ],
    "viaCites": 3,
    "viaUses": 0
@@ -16487,16 +16461,6 @@
    "viaUses": 0
   },
   {
-   "name": "Hongce Zhang",
-   "count": 2,
-   "papers": [
-    "halide:pldi:2013",
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 2,
-   "viaUses": 0
-  },
-  {
    "name": "Hongtao Zhong",
    "count": 2,
    "papers": [
@@ -16672,16 +16636,6 @@
    "papers": [
     "bhive",
     "thies:cc:2002"
-   ],
-   "viaCites": 2,
-   "viaUses": 0
-  },
-  {
-   "name": "Işıl Dillig",
-   "count": 2,
-   "papers": [
-    "solar-lezama:pldi:2005",
-    "wilson:sigplan:1994"
    ],
    "viaCites": 2,
    "viaUses": 0
@@ -17407,16 +17361,6 @@
    "viaUses": 0
   },
   {
-   "name": "Jyotirmoy V. Deshmukh",
-   "count": 2,
-   "papers": [
-    "solar-lezama:pldi:2005",
-    "thies:ecoop:2005"
-   ],
-   "viaCites": 2,
-   "viaUses": 0
-  },
-  {
    "name": "Jörg Keller",
    "count": 2,
    "papers": [
@@ -17565,16 +17509,6 @@
    ],
    "viaCites": 0,
    "viaUses": 2
-  },
-  {
-   "name": "Kaushik Sunder Rajan",
-   "count": 2,
-   "papers": [
-    "graphit",
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 2,
-   "viaUses": 0
   },
   {
    "name": "Kazem Cheshmi",
@@ -18122,16 +18056,6 @@
    "papers": [
     "halide:pldi:2013",
     "ragankelley:halide:2012"
-   ],
-   "viaCites": 2,
-   "viaUses": 0
-  },
-  {
-   "name": "M. Budiu",
-   "count": 2,
-   "papers": [
-    "solar-lezama:pldi:2005",
-    "wilson:sigplan:1994"
    ],
    "viaCites": 2,
    "viaUses": 0
@@ -21077,16 +21001,6 @@
    "viaUses": 0
   },
   {
-   "name": "Thomas Reps",
-   "count": 2,
-   "papers": [
-    "solar-lezama:pldi:2005",
-    "wilson:sigplan:1994"
-   ],
-   "viaCites": 2,
-   "viaUses": 0
-  },
-  {
    "name": "Thomas W. Bartenstein",
    "count": 2,
    "papers": [
@@ -21857,16 +21771,6 @@
    "viaUses": 0
   },
   {
-   "name": "Yatin A. Manerkar",
-   "count": 2,
-   "papers": [
-    "kiriansky-micro18-dawg",
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 2,
-   "viaUses": 0
-  },
-  {
    "name": "Yeh‐Ching Chung",
    "count": 2,
    "papers": [
@@ -22287,6 +22191,26 @@
    "viaUses": 0
   },
   {
+   "name": "Chao Wang",
+   "count": 2,
+   "papers": [
+    "kjolstad:oopsla:2017",
+    "petkov:ipdps:2002"
+   ],
+   "viaCites": 2,
+   "viaUses": 0
+  },
+  {
+   "name": "S. Seshia",
+   "count": 2,
+   "papers": [
+    "kiriansky-micro18-dawg",
+    "kjolstad:oopsla:2017"
+   ],
+   "viaCites": 2,
+   "viaUses": 0
+  },
+  {
    "name": "A. A. Novikov",
    "count": 1,
    "papers": [
@@ -22674,15 +22598,6 @@
    "viaUses": 0
   },
   {
-   "name": "A. Morgenstern",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "A. Mycroft",
    "count": 1,
    "papers": [
@@ -22813,15 +22728,6 @@
    "count": 1,
    "papers": [
     "ansel:pact:2014"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "A. Tiwari",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -23268,15 +23174,6 @@
    "viaUses": 0
   },
   {
-   "name": "Aditya V. Nori",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Adrian Evans",
    "count": 1,
    "papers": [
@@ -23290,15 +23187,6 @@
    "count": 1,
    "papers": [
     "waingold:computer:1997"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Adrian Willenbücher",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -23560,15 +23448,6 @@
    "count": 1,
    "papers": [
     "ansel:ipdps:2009"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Aleksandar S. Dimovski",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -24402,15 +24281,6 @@
    "viaUses": 0
   },
   {
-   "name": "Andrew Reynolds",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Andrew Wallace",
    "count": 1,
    "papers": [
@@ -24564,15 +24434,6 @@
    "viaUses": 0
   },
   {
-   "name": "Anirudh Sivaraman",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Anja Niedermeier",
    "count": 1,
    "papers": [
@@ -24595,15 +24456,6 @@
    "count": 1,
    "papers": [
     "halide:pldi:2013"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Ankur Taly",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -24933,15 +24785,6 @@
    "viaUses": 0
   },
   {
-   "name": "Arjun Radhakrishna",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Arjun S. Gambhir",
    "count": 1,
    "papers": [
@@ -25104,15 +24947,6 @@
    "viaUses": 0
   },
   {
-   "name": "Arun Raghavan",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Arun Singh Patel",
    "count": 1,
    "papers": [
@@ -25243,15 +25077,6 @@
    "count": 1,
    "papers": [
     "gordon:asplos:2006"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Axel Legay",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -26643,15 +26468,6 @@
    "viaUses": 0
   },
   {
-   "name": "C. Hensel",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "C. J. Michael",
    "count": 1,
    "papers": [
@@ -26886,15 +26702,6 @@
    "viaUses": 0
   },
   {
-   "name": "Caroline Trippel",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Carsten Griwodz",
    "count": 1,
    "papers": [
@@ -27052,15 +26859,6 @@
    "count": 1,
    "papers": [
     "ansel:pact:2014"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Changhoon Kim",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -27343,15 +27141,6 @@
    ],
    "viaCites": 1,
    "viaUses": 0
-  },
-  {
-   "name": "Chengpeng Wang",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 0,
-   "viaUses": 1
   },
   {
    "name": "Chengying Huan",
@@ -28299,15 +28088,6 @@
    "viaUses": 0
   },
   {
-   "name": "D. Chu",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "D. Craig",
    "count": 1,
    "papers": [
@@ -28587,15 +28367,6 @@
    "viaUses": 0
   },
   {
-   "name": "D. Lo",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "D. Lowenthal",
    "count": 1,
    "papers": [
@@ -28636,15 +28407,6 @@
    "count": 1,
    "papers": [
     "hall:computer:1996"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "D. Neider",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -28866,15 +28628,6 @@
    "viaUses": 0
   },
   {
-   "name": "Dana Fisman",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Danelutto",
    "count": 1,
    "papers": [
@@ -28996,15 +28749,6 @@
    "count": 1,
    "papers": [
     "palkar:vldb:2018"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Daniel Larraz",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -29181,28 +28925,10 @@
    "viaUses": 0
   },
   {
-   "name": "Dave Turner",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "David A. Bader",
    "count": 1,
    "papers": [
     "drake:ipdps:2006"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "David A. Holland",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -30783,15 +30509,6 @@
    "viaUses": 0
   },
   {
-   "name": "Eran Yahav",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Erez Zadok",
    "count": 1,
    "papers": [
@@ -30814,15 +30531,6 @@
    "count": 1,
    "papers": [
     "thies:cc:2002"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Eric Lu",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -31039,15 +30747,6 @@
    "count": 1,
    "papers": [
     "stephenson:pldi:2003"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Eunsuk Kang",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -32088,15 +31787,6 @@
    "viaUses": 0
   },
   {
-   "name": "G. Varghese",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "G.K.S. Fernando",
    "count": 1,
    "papers": [
@@ -32565,15 +32255,6 @@
    "viaUses": 0
   },
   {
-   "name": "Gilad Arnold",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Gilbert-Rainer Gillich",
    "count": 1,
    "papers": [
@@ -32659,15 +32340,6 @@
    "count": 1,
    "papers": [
     "ansel:pact:2014"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Goran Velinov",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -33132,15 +32804,6 @@
    "viaUses": 0
   },
   {
-   "name": "H. Balakrishnan",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "H. Cho",
    "count": 1,
    "papers": [
@@ -33555,15 +33218,6 @@
    "viaUses": 0
   },
   {
-   "name": "Haniel Barbosa",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Hanjun Kim",
    "count": 1,
    "papers": [
@@ -33807,15 +33461,6 @@
    "viaUses": 0
   },
   {
-   "name": "Hassan Eldib",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "He Zhu",
    "count": 1,
    "papers": [
@@ -33964,15 +33609,6 @@
    "count": 1,
    "papers": [
     "thies:cc:2002"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Hesam Samimi",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -35904,15 +35540,6 @@
    "viaUses": 0
   },
   {
-   "name": "Jacob Van Geffen",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Jacques Fournier",
    "count": 1,
    "papers": [
@@ -36255,15 +35882,6 @@
    "viaUses": 0
   },
   {
-   "name": "Jason Naradowsky",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Jason Villarreal",
    "count": 1,
    "papers": [
@@ -36484,15 +36102,6 @@
    "count": 1,
    "papers": [
     "taylor:micro:2002"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Jeffrey S. Foster",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -36912,15 +36521,6 @@
    "viaUses": 0
   },
   {
-   "name": "Jian Wang",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Jianan Ji",
    "count": 1,
    "papers": [
@@ -37155,15 +36755,6 @@
    "viaUses": 0
   },
   {
-   "name": "Jie An",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Jie Jia",
    "count": 1,
    "papers": [
@@ -37285,15 +36876,6 @@
    "count": 1,
    "papers": [
     "bruening:fddo:2000"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Jingmei Hu",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -37528,15 +37110,6 @@
    "count": 1,
    "papers": [
     "zhang:dascmp:2007"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Joel Galenson",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -38185,15 +37758,6 @@
    "count": 1,
    "papers": [
     "thies:micro:2007"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "João Saffran",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -38905,15 +38469,6 @@
    "count": 1,
    "papers": [
     "larsen:pldi:2000"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "K. Schneider",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -39819,15 +39374,6 @@
    "viaUses": 0
   },
   {
-   "name": "Klaus Schneider",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Knut Omang",
    "count": 1,
    "papers": [
@@ -40080,15 +39626,6 @@
    "viaUses": 0
   },
   {
-   "name": "Krishnendu Chatterjee",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Kristin Barber",
    "count": 1,
    "papers": [
@@ -40309,15 +39846,6 @@
    "count": 1,
    "papers": [
     "thies:cc:2002"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "L. Cardelli",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -41133,15 +40661,6 @@
    "viaUses": 0
   },
   {
-   "name": "Liviu Tancau",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Lixi Zhou",
    "count": 1,
    "papers": [
@@ -41776,15 +41295,6 @@
    "count": 1,
    "papers": [
     "halide:pldi:2013"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "M. Fränzle",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -42798,15 +42308,6 @@
    "viaUses": 0
   },
   {
-   "name": "Margarida Ferreira",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Maria H. Rodriguez Blanco",
    "count": 1,
    "papers": [
@@ -43158,15 +42659,6 @@
    "viaUses": 0
   },
   {
-   "name": "Martin Vechev",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Martino Sykora",
    "count": 1,
    "papers": [
@@ -43324,15 +42816,6 @@
    "count": 1,
    "papers": [
     "ragankelley:halide:2012"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Matko Bosnjak",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -44346,15 +43829,6 @@
    "viaUses": 0
   },
   {
-   "name": "Milan Ceska",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Milena Milenković",
    "count": 1,
    "papers": [
@@ -44512,15 +43986,6 @@
    "count": 1,
    "papers": [
     "bruening:cgo:2003"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Mingshuai Chen",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -44755,15 +44220,6 @@
    "count": 1,
    "papers": [
     "ansel:pact:2014"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Mohammad Alizadeh",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -45264,15 +44720,6 @@
    "viaUses": 0
   },
   {
-   "name": "N. McKeown",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "N. Nethercote",
    "count": 1,
    "papers": [
@@ -45619,15 +45066,6 @@
    "count": 1,
    "papers": [
     "bruening:cgo:2003"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Navid Yaghmazadeh",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -46290,15 +45728,6 @@
    "viaUses": 0
   },
   {
-   "name": "O. Bastani",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "O. Chipara",
    "count": 1,
    "papers": [
@@ -46483,15 +45912,6 @@
    "count": 1,
    "papers": [
     "zhang:bigdata:2017"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Oren Ish-Shalom",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -47109,15 +46529,6 @@
    "viaUses": 0
   },
   {
-   "name": "Patrice Godefroid",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Patricia López Cueva",
    "count": 1,
    "papers": [
@@ -47329,15 +46740,6 @@
    "count": 1,
    "papers": [
     "ansel:ipdps:2009"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Pavol Cerný",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -48585,15 +47987,6 @@
    "viaUses": 0
   },
   {
-   "name": "R. Alur",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "R. Astorga",
    "count": 1,
    "papers": [
@@ -48810,15 +48203,6 @@
    "viaUses": 0
   },
   {
-   "name": "R. Venkatesan",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "R.A. Iltis",
    "count": 1,
    "papers": [
@@ -48850,15 +48234,6 @@
    "count": 1,
    "papers": [
     "thies:micro:2007"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Rafael Dutra",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -48976,24 +48351,6 @@
    "count": 1,
    "papers": [
     "thies:ecoop:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Rajarshi Roy",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Rajeev Alur",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -49120,15 +48477,6 @@
    "count": 1,
    "papers": [
     "ansel:pact:2014"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Ranysha Ware",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -49561,15 +48909,6 @@
    "count": 1,
    "papers": [
     "ansel:pact:2014"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Rishabh Singh",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -50038,15 +49377,6 @@
    "count": 1,
    "papers": [
     "halide:pldi:2013"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Ruben Martins",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -51420,15 +50750,6 @@
    "viaUses": 0
   },
   {
-   "name": "Saurabh Srivastava",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Saurabh V. Kadam",
    "count": 1,
    "papers": [
@@ -51546,28 +50867,10 @@
    "viaUses": 0
   },
   {
-   "name": "Sebastian Junges",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Sebastian Kobbe",
    "count": 1,
    "papers": [
     "gordon:asplos:2006"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Sebastian Riedel",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -51879,15 +51182,6 @@
    "viaUses": 0
   },
   {
-   "name": "Shankara Pailoor",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Shanwen Wu",
    "count": 1,
    "papers": [
@@ -52036,15 +51330,6 @@
    "count": 1,
    "papers": [
     "halide:pldi:2013"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Sherjil Ozair",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -52207,15 +51492,6 @@
    "count": 1,
    "papers": [
     "bruening:cgo:2003"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Shpetim Rexhepi",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -52468,15 +51744,6 @@
    "count": 1,
    "papers": [
     "bruening:cgo:2003"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Simon Lutz",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -52842,15 +52109,6 @@
    "viaUses": 0
   },
   {
-   "name": "Sriram K. Rajamani",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Sriram Sankaranarayanan",
    "count": 1,
    "papers": [
@@ -52927,15 +52185,6 @@
    "count": 1,
    "papers": [
     "hall:computer:1996"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Stavros Tripakis",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -53238,15 +52487,6 @@
    "viaUses": 0
   },
   {
-   "name": "Steve Licking",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Steven Arzt",
    "count": 1,
    "papers": [
@@ -53341,15 +52581,6 @@
    "count": 1,
    "papers": [
     "tiramisu"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Stéphane Lafortune",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -53503,15 +52734,6 @@
    "count": 1,
    "papers": [
     "moritz:ims:2000"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Sumit Gulwani",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -53697,15 +52919,6 @@
    "viaUses": 0
   },
   {
-   "name": "Susmit Jha",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Susmita Dey Manasi",
    "count": 1,
    "papers": [
@@ -53737,15 +52950,6 @@
    "count": 1,
    "papers": [
     "taylor:isca:2004"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Sven Apel",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -53917,15 +53121,6 @@
    "count": 1,
    "papers": [
     "halide:pldi:2013"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "T. Henzinger",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -54930,15 +54125,6 @@
    "viaUses": 0
   },
   {
-   "name": "Tim Rocktäschel",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Tim SuB",
    "count": 1,
    "papers": [
@@ -54970,15 +54156,6 @@
    "count": 1,
    "papers": [
     "ariya:cc:2002"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Timotej Kapus",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -55641,15 +54818,6 @@
    "viaUses": 0
   },
   {
-   "name": "V. Saraswat",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "V. Shanmugam",
    "count": 1,
    "papers": [
@@ -55825,15 +54993,6 @@
    "count": 1,
    "papers": [
     "ansel:pact:2014"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Venkatesh Srinivasan",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -56316,15 +55475,6 @@
    "viaUses": 0
   },
   {
-   "name": "W.H. Zhang",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Wai Teng Tang",
    "count": 1,
    "papers": [
@@ -56491,15 +55641,6 @@
    "count": 1,
    "papers": [
     "olszewski:asplos:2009"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Weijiang Hong",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -57004,15 +56145,6 @@
    "count": 1,
    "papers": [
     "hall:computer:1996"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "X. Le",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -58359,15 +57491,6 @@
    "viaUses": 0
   },
   {
-   "name": "Yash Kothari",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Yashika Verma",
    "count": 1,
    "papers": [
@@ -58998,15 +58121,6 @@
    "viaUses": 0
   },
   {
-   "name": "Yu Feng",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Yu He",
    "count": 1,
    "papers": [
@@ -59227,15 +58341,6 @@
    "count": 1,
    "papers": [
     "ansel:ipdps:2009"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
-   "name": "Yuepeng Wang",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
    ],
    "viaCites": 1,
    "viaUses": 0
@@ -59934,15 +59039,6 @@
    "viaUses": 0
   },
   {
-   "name": "Zhenbang Chen",
-   "count": 1,
-   "papers": [
-    "solar-lezama:pldi:2005"
-   ],
-   "viaCites": 1,
-   "viaUses": 0
-  },
-  {
    "name": "Zheng Chen",
    "count": 1,
    "papers": [
@@ -60631,6 +59727,69 @@
    "count": 1,
    "papers": [
     "ansel:pact:2014"
+   ],
+   "viaCites": 1,
+   "viaUses": 0
+  },
+  {
+   "name": "Hongce Zhang",
+   "count": 1,
+   "papers": [
+    "halide:pldi:2013"
+   ],
+   "viaCites": 1,
+   "viaUses": 0
+  },
+  {
+   "name": "Işıl Dillig",
+   "count": 1,
+   "papers": [
+    "wilson:sigplan:1994"
+   ],
+   "viaCites": 1,
+   "viaUses": 0
+  },
+  {
+   "name": "Jyotirmoy V. Deshmukh",
+   "count": 1,
+   "papers": [
+    "thies:ecoop:2005"
+   ],
+   "viaCites": 1,
+   "viaUses": 0
+  },
+  {
+   "name": "Kaushik Sunder Rajan",
+   "count": 1,
+   "papers": [
+    "graphit"
+   ],
+   "viaCites": 1,
+   "viaUses": 0
+  },
+  {
+   "name": "M. Budiu",
+   "count": 1,
+   "papers": [
+    "wilson:sigplan:1994"
+   ],
+   "viaCites": 1,
+   "viaUses": 0
+  },
+  {
+   "name": "Thomas Reps",
+   "count": 1,
+   "papers": [
+    "wilson:sigplan:1994"
+   ],
+   "viaCites": 1,
+   "viaUses": 0
+  },
+  {
+   "name": "Yatin A. Manerkar",
+   "count": 1,
+   "papers": [
+    "kiriansky-micro18-dawg"
    ],
    "viaCites": 1,
    "viaUses": 0

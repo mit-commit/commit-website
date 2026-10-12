@@ -1674,7 +1674,7 @@
   },
   {
    "title": "Vectorization for SIMD architectures with alignment constraints",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2004,
    "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
@@ -1686,7 +1686,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “the unroll-and-pack approach first proposed by Larsen and Amarasinghe”"
+   }
   },
   {
    "title": "Cg",
@@ -1984,7 +1990,7 @@
   },
   {
    "title": "Building Abstractions for Staged DSLs in Performance-Oriented Program Generators",
-   "function": "supports-claim",
+   "function": "uses-tool",
    "split": "detailed",
    "year": 2019,
    "authors": "A. Stojanov",
@@ -1995,7 +2001,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “C2 supports autovectorization, using Superword Level Parallelism (SLP) [34].”"
+   }
   },
   {
    "title": "SIMDization of Small Tensor Multiplication Kernels for Wide SIMD Vector Processors",
@@ -2225,7 +2237,7 @@
   },
   {
    "title": "A Prototype Processing-In-Memory (PIM) Chip for the Data-Intensive Architecture (DIVA) System",
-   "function": "supports-claim",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2005,
    "venue": "The Journal of VLSI Signal Processing Systems for Signal Image and Video Technology",
@@ -2234,7 +2246,13 @@
    "cited_by": 13,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “The WideWord datapath enables superword-level parallelism on wide words of 256 bits, similar to multimedia extensions such as MMX and AltiVec.”"
+   }
   },
   {
    "title": "On the Scalability of 1- and 2-Dimensional SIMD Extensions for Multimedia Applications",
@@ -2527,7 +2545,7 @@
   },
   {
    "title": "If-Convert as Early as You Must",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2024,
    "venue": "International Conference on Compiler Construction",
@@ -2539,7 +2557,13 @@
    "secondary": [
     "supports-claim"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “The auto-vectorization passes of LLVM [15], both its Loop Vectorizer (LV) and Superword-Level-Parallelism vectorizer (SLP [13, 25]), process scalar control-flow code and refrain from vectorizing masked operations”"
+   }
   },
   {
    "title": "PresCount: Effective Register Allocation for Bank Conflict Reduction",
@@ -2724,7 +2748,7 @@
   },
   {
    "title": "Vectorizing programs with IF-statements for processors with SIMD extensions",
-   "function": "exemplifies",
+   "function": "extends",
    "split": "passing",
    "year": 2019,
    "venue": "The Journal of Supercomputing",
@@ -2733,7 +2757,13 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “basic block or superword-level parallelism (SLP) vectorization [14] transforms a group of isomorph”"
+   }
   },
   {
    "title": "WCCV",
@@ -3315,7 +3345,7 @@
   },
   {
    "title": "A flexible compilation infrastructure for VLIW and SIMD architectures",
-   "function": "exemplifies",
+   "function": "uses-tool",
    "split": "passing",
    "year": 2001,
    "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
@@ -3327,22 +3357,34 @@
    "flags": [
     "own-group"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Several useful passes, including a pass to detect superword-level parallelism in code[10], already exist in SUIF 1; there is a straightforward path to convert code from SUIF 1 to SUIF 2, and from there to Machine SUIF.”"
+   }
   },
   {
    "title": "Biscotti: An Approach to Parallel Scheduling for Vectorized Encrypted Arithmetic Circuits",
-   "function": "exemplifies",
+   "function": "adopts-idea",
    "split": "passing",
    "authors": "S. Sreekanth, Dulani Wijayarathne, Raghav Malik et al.",
    "url": "https://www.semanticscholar.org/paper/c31baf63af0689ca55c89fb688aa38ee1a935f33",
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "exemplifies",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “SLP iterates over sets of isomorphic scalar instructions and packs them into vectors [10].”"
+   }
   },
   {
    "title": "Directive-based automatic function-level vectorization for simplified SIMD exploitation",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2026,
    "venue": "CCF Transactions on High Performance Computing",
@@ -3351,7 +3393,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “The basic block vectorization, known as Superword Level Parallelism, was first introduced by Larsen and Amarasinghe ( 2000 ).”"
+   }
   },
   {
    "title": "Enhancing SLP Vectorization through Hybrid Slice Selection",
@@ -3569,7 +3617,7 @@
   },
   {
    "title": "PostSLP: Cross-Region Vectorization of Fully or Partially Vectorized Code",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2021,
    "venue": "Lecture notes in computer science",
@@ -3581,7 +3629,13 @@
    "secondary": [
     "positions"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “PostSLP: Cross-Region Vectorization of Fully or Partially Vectorized Code”"
+   }
   },
   {
    "title": "Speculative Vectorisation with Selective Replay",
@@ -3598,7 +3652,7 @@
   },
   {
    "title": "Compiler 2.0: Using Machine Learning to Modernize Compiler Technology",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2020,
    "venue": "ACM SIGPLAN Conference on Languages, Compilers, and Tools for Embedded Systems",
@@ -3611,7 +3665,13 @@
     "own-group"
    ],
    "evidence": "abstract",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “in 2000, we introduced Superword Level Parallelism (SLP) based vectorization”"
+   }
   },
   {
    "title": "Vectorization-aware loop unrolling with seed forwarding",
@@ -4002,7 +4062,7 @@
   },
   {
    "title": "Throttling Automatic Vectorization: When Less is More",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2015,
    "venue": "International Conference on Parallel Architectures and Compilation Techniques",
@@ -4014,7 +4074,13 @@
    "secondary": [
     "exemplifies"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “The most well-known straight-line code vectorizer is the Superword-Level Parallelism algorithm (SLP [3]).”"
+   }
   },
   {
    "title": "Vector data flow analysis for SIMD optimizations on OpenCL programs",
@@ -4259,7 +4325,7 @@
   },
   {
    "title": "Pack instruction generation for media pUsing multi-valued decision diagram",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2006,
    "venue": "International Conference on Hardware/Software Codesign and System Synthesis",
@@ -4271,7 +4337,13 @@
    "secondary": [
     "exemplifies"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “In [7], SIMD instructions are generated by grouping statements in a basic block.”"
+   }
   },
   {
    "title": "Efficient SIMD Code Generation for Runtime Alignment and Length Conversion",
@@ -4327,7 +4399,7 @@
   },
   {
    "title": "Increasing and detecting memory address congruence",
-   "function": "detailed-citation",
+   "function": "extends",
    "split": "detailed",
    "year": 2003,
    "venue": "Proceedings.International Conference on Parallel Architectures and Compilation Techniques",
@@ -4340,7 +4412,13 @@
     "own-group"
    ],
    "evidence": "contexts",
-   "commit": true
+   "commit": true,
+   "prev_function": "detailed-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “The SIMD compiler we presented in [13] is completely dependent on congruence information to achieve parallelization.”"
+   }
   },
   {
    "title": "Optimization and code parallelization for processors with multimedia SIMD instructions",
@@ -4714,7 +4792,7 @@
   },
   {
    "title": "A Data Layout Transformation for Vectorizing Compilers",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2018,
    "venue": "WPMVP@PPoPP",
@@ -4723,7 +4801,13 @@
    "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "low",
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “we improve the precision of these analyses by selectively splitting stack-allocated variables”"
+   }
   },
   {
    "title": "Cimple: instruction and memory level parallelism: a DSL for uncovering ILP and MLP",
@@ -4744,7 +4828,7 @@
   },
   {
    "title": "Control Flow Vectorization for ARM NEON",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2018,
    "venue": "Software and Compilers for Embedded Systems",
@@ -4753,7 +4837,13 @@
    "cited_by": 6,
    "centrality": "peripheral",
    "confidence": "low",
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “we observed that the presence of control flow poses a major problem for the vectorization on NEON. We consequently propose a set of solutions”"
+   }
   },
   {
    "title": "Improving Dynamically-Generated Code Performance on Dynamic Binary Translators",
@@ -5368,7 +5458,7 @@
   },
   {
    "title": "SIMD programming by expansion.",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2007,
    "authors": "J. Shin",
@@ -5376,7 +5466,13 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “a new technique has been developed to generate SIMD instructions from basic blocks”"
+   }
   },
   {
    "title": "Compiling for Increasing On-chip Parallelism",

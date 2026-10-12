@@ -41,7 +41,7 @@
   },
   {
    "title": "Efficient Selection of Vector Instructions Using Dynamic Programming",
-   "function": "baseline",
+   "function": "extends",
    "split": "detailed",
    "year": 2010,
    "venue": "Micro",
@@ -53,7 +53,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "baseline",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “initiates the vectorization process by identifying memory operations that operate on contiguous addresses, forms groups, and then packs the relevant instructions”"
+   }
   },
   {
    "title": "Efficient SIMD code generation for irregular kernels",

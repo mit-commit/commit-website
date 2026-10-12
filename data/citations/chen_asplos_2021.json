@@ -13,7 +13,7 @@
  "citations": [
   {
    "title": "CHEHAB RL: Learning to Optimize Fully Homomorphic Encryption Computations",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2026,
    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
@@ -22,11 +22,17 @@
    "cited_by": 0,
    "centrality": "engaged",
    "confidence": "high",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “automatically vectorize scalar FHE code while reducing instruction latency and noise growth”"
+   }
   },
   {
    "title": "CHEHAB: Automatic Compiler Code Optimization for Fully Homomorphic Encryption",
-   "function": "positions",
+   "function": "adopts-idea",
    "split": "detailed",
    "year": 2026,
    "venue": "International Conference on Compiler Construction",
@@ -35,7 +41,13 @@
    "cited_by": 0,
    "centrality": "engaged",
    "confidence": "high",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “a compiler that automatically vectorizes scalar code, optimizes it, and generates highly efficient FHE programs”"
+   }
   },
   {
    "title": "Hydride: A Retargetable and Extensible Synthesis-based Compiler for Modern Hardware Architectures",
@@ -55,7 +67,7 @@
   },
   {
    "title": "Coyote: A Compiler for Vectorizing Encrypted Arithmetic Circuits",
-   "function": "positions",
+   "function": "extends",
    "split": "detailed",
    "year": 2023,
    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
@@ -67,7 +79,13 @@
    "secondary": [
     "detailed-citation"
    ],
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "positions",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “More recent takes on SLP, such as VeGen [4] and goSLP [16], recognize the need to take the cost of data movement into account.”"
+   }
   },
   {
    "title": "Minotaur: A SIMD-Oriented Synthesizing Superoptimizer",
@@ -350,7 +368,7 @@
   },
   {
    "title": "ARMOR: Accelerating RTL Simulation by Mitigating the Front-End Bottleneck Using Node Compression",
-   "function": "passing-citation",
+   "function": "extends",
    "split": "passing",
    "year": 2026,
    "authors": "Jiaping Tang, Jianan Mu, Zhiteng Chao et al.",
@@ -358,7 +376,13 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "passing-citation",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “preventing coordinated packing across structurally equivalent regions and leading to increased data rearrangement overhead”"
+   }
   },
   {
    "title": "A Vectorization Approach for Irregular Memory Access on Sunway Processors",
@@ -618,7 +642,7 @@
   },
   {
    "title": "Co-Utilizing SIMD and Scalar to Accelerate the Data Analytics Workloads",
-   "function": "unknown",
+   "function": "extends",
    "split": null,
    "year": 2023,
    "venue": "IEEE International Conference on Data Engineering",
@@ -628,7 +652,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "abstract"
+   "evidence": "abstract",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “We also extend the concept of pack to eliminate the data dependency between adjacent instructions”"
+   }
   },
   {
    "title": "Research of progressive tools of parallel computations with the use of simd architecture",

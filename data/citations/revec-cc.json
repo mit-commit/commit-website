@@ -165,7 +165,7 @@
   },
   {
    "title": "PostSLP: Cross-Region Vectorization of Fully or Partially Vectorized Code",
-   "function": "unknown",
+   "function": "extends",
    "split": null,
    "year": 2021,
    "venue": "Lecture notes in computer science",
@@ -175,7 +175,13 @@
    "flags": [
     "polluted-contexts"
    ],
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "unknown",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “PostSLP: Cross-Region Vectorization of Fully or Partially Vectorized Code”"
+   }
   }
  ]
 }

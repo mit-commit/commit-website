@@ -312,7 +312,7 @@
   },
   {
    "title": "Compiler-controlled caching in superword register files for multimedia extension architectures",
-   "function": "supports-claim",
+   "function": "extends",
    "split": "detailed",
    "year": 2003,
    "venue": "Proceedings.International Conference on Parallel Architectures and Compilation Techniques",
@@ -321,7 +321,13 @@
    "cited_by": 12,
    "centrality": "peripheral",
    "confidence": "high",
-   "evidence": "fulltext"
+   "evidence": "fulltext",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Compiler-controlled caching in superword register files for multimedia extension architectures”"
+   }
   },
   {
    "title": "Convergent scheduling",
@@ -345,7 +351,7 @@
   },
   {
    "title": "Exploiting Superword-Level Locality in Multimedia Extension Architectures",
-   "function": "supports-claim",
+   "function": "extends",
    "split": "detailed",
    "year": 2003,
    "venue": "J. Instr. Level Parallelism",
@@ -354,7 +360,13 @@
    "cited_by": 21,
    "centrality": "peripheral",
    "confidence": "medium",
-   "evidence": "contexts"
+   "evidence": "contexts",
+   "prev_function": "supports-claim",
+   "relabel": {
+    "by": "lineage verifier (quoted citing sentence)",
+    "date": "2026-10-12",
+    "evidence": "Title/abstract: “Exploiting Superword-Level Locality in Multimedia Extension Architectures”"
+   }
   },
   {
    "title": "A Preliminary Study on the Vectorization of Multimedia Applications for Multimedia Extensions",

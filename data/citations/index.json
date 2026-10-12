@@ -673,12 +673,13 @@
    "verified": 51,
    "gscholar": null,
    "functions": {
-    "positions": 7,
+    "positions": 4,
     "supports-claim": 2,
     "exemplifies": 10,
     "detailed-citation": 3,
-    "passing-citation": 18,
-    "extends": 1
+    "passing-citation": 17,
+    "extends": 4,
+    "adopts-idea": 2
    },
    "centrality": {
     "engaged": 8,
@@ -689,12 +690,12 @@
    "verified": 26,
    "gscholar": null,
    "functions": {
-    "positions": 2,
+    "positions": 1,
     "supports-claim": 1,
     "exemplifies": 5,
     "detailed-citation": 2,
     "passing-citation": 9,
-    "extends": 2
+    "extends": 3
    },
    "centrality": {
     "engaged": 3,
@@ -943,11 +944,13 @@
    "verified": 43,
    "gscholar": null,
    "functions": {
-    "positions": 7,
+    "positions": 3,
     "supports-claim": 5,
-    "exemplifies": 6,
+    "exemplifies": 3,
     "detailed-citation": 2,
-    "passing-citation": 14
+    "passing-citation": 12,
+    "extends": 7,
+    "adopts-idea": 2
    },
    "centrality": {
     "engaged": 7,
@@ -1259,12 +1262,13 @@
    "functions": {
     "uses-tool": 2,
     "adopts-idea": 1,
-    "baseline": 1,
+    "baseline": 0,
     "positions": 1,
     "surveys": 1,
     "exemplifies": 4,
     "detailed-citation": 1,
-    "passing-citation": 11
+    "passing-citation": 11,
+    "extends": 1
    },
    "centrality": {
     "core": 1,
@@ -1276,10 +1280,10 @@
    "verified": 82,
    "gscholar": null,
    "functions": {
-    "extends": 4,
+    "extends": 6,
     "adopts-idea": 3,
     "positions": 7,
-    "supports-claim": 7,
+    "supports-claim": 5,
     "exemplifies": 1,
     "detailed-citation": 10,
     "passing-citation": 21
@@ -1294,16 +1298,16 @@
    "verified": 454,
    "gscholar": null,
    "functions": {
-    "extends": 23,
-    "uses-tool": 13,
-    "adopts-idea": 36,
+    "extends": 34,
+    "uses-tool": 16,
+    "adopts-idea": 38,
     "baseline": 4,
-    "positions": 43,
+    "positions": 42,
     "surveys": 9,
-    "supports-claim": 41,
-    "exemplifies": 62,
-    "detailed-citation": 51,
-    "passing-citation": 98
+    "supports-claim": 39,
+    "exemplifies": 58,
+    "detailed-citation": 45,
+    "passing-citation": 95
    },
    "centrality": {
     "core": 40,
@@ -1680,7 +1684,7 @@
     "exemplifies": 2,
     "detailed-citation": 1,
     "passing-citation": 5,
-    "extends": 1
+    "extends": 2
    },
    "centrality": {
     "engaged": 1,
@@ -1790,28 +1794,6 @@
     "core": 1,
     "engaged": 3,
     "peripheral": 8
-   }
-  },
-  "solar-lezama:pldi:2005": {
-   "verified": 308,
-   "gscholar": null,
-   "functions": {
-    "extends": 7,
-    "uses-tool": 8,
-    "adopts-idea": 30,
-    "uses-benchmark": 1,
-    "baseline": 2,
-    "positions": 5,
-    "surveys": 1,
-    "supports-claim": 7,
-    "exemplifies": 41,
-    "detailed-citation": 34,
-    "passing-citation": 112
-   },
-   "centrality": {
-    "core": 11,
-    "engaged": 40,
-    "peripheral": 195
    }
   },
   "soule:debs:2013": {
@@ -3122,8 +3104,9 @@
    "verified": 2,
    "gscholar": null,
    "functions": {
-    "detailed-citation": 1,
-    "adopts-idea": 1
+    "detailed-citation": 0,
+    "adopts-idea": 1,
+    "extends": 1
    },
    "centrality": {
     "peripheral": 2

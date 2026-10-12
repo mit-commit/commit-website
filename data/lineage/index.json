@@ -1,23 +1,143 @@
 {
  "schema": 1,
  "generated": "2026-10-12",
- "method": "Generation 1 is exactly this site's citation classification: every paper the Citations panel records as extending a COMMIT paper, using it as a tool, or adopting its idea. Later generations were traced through Semantic Scholar and admitted only with a quoted sentence showing the dependence and that it carries the line's idea; where a later paper also cites a COMMIT paper directly, the site's classification decides. The tracing finds an estimated 55–60% of true descendants, so later generations are lower bounds. Research areas are assigned from title and venue.",
+ "method": "Generation 1 is this site's citation classification of each COMMIT paper (extends / uses as a tool / adopts the idea), after a re-check that relabelled 349 citations with quoted evidence. Later generations were traced through Semantic Scholar and admitted only with a quoted sentence showing the dependence, or when the paper's own title or abstract names the line's technique and a judge confirms it builds on it. COMMIT papers are drawn in the COMMIT lane. Later generations are lower bounds.",
  "lines": [
+  {
+   "slug": "halide",
+   "title": "Halide lineage",
+   "count": 523,
+   "generations": 4,
+   "roots": 25,
+   "outside": 507
+  },
+  {
+   "slug": "autotuning",
+   "title": "PetaBricks and OpenTuner lineage",
+   "count": 245,
+   "generations": 4,
+   "roots": 18,
+   "outside": 230
+  },
+  {
+   "slug": "slp",
+   "title": "Superword-level parallelism (SLP) lineage",
+   "count": 146,
+   "generations": 3,
+   "roots": 13,
+   "outside": 144
+  },
+  {
+   "slug": "raw",
+   "title": "Raw lineage",
+   "count": 201,
+   "generations": 2,
+   "roots": 38,
+   "outside": 187
+  },
+  {
+   "slug": "suif",
+   "title": "SUIF lineage",
+   "count": 669,
+   "generations": 3,
+   "roots": 32,
+   "outside": 647
+  },
+  {
+   "slug": "dynamorio",
+   "title": "DynamoRIO and Program Shepherding lineage",
+   "count": 245,
+   "generations": 4,
+   "roots": 25,
+   "outside": 242
+  },
+  {
+   "slug": "metaopt",
+   "title": "Meta Optimization lineage",
+   "count": 27,
+   "generations": 2,
+   "roots": 3,
+   "outside": 27
+  },
   {
    "slug": "streamit",
    "title": "StreamIt lineage",
-   "count": 218,
+   "count": 233,
    "generations": 3,
-   "roots": 19,
-   "outside": 199
+   "roots": 37,
+   "outside": 222
   },
   {
    "slug": "taco-finch",
    "title": "TACO and Finch lineage",
-   "count": 130,
+   "count": 136,
    "generations": 2,
-   "roots": 12,
-   "outside": 116
+   "roots": 24,
+   "outside": 128
+  },
+  {
+   "slug": "dmtcp",
+   "title": "DMTCP lineage",
+   "count": 111,
+   "generations": 2,
+   "roots": 1,
+   "outside": 111
+  },
+  {
+   "slug": "bitwise",
+   "title": "Bitwidth analysis lineage",
+   "count": 90,
+   "generations": 2,
+   "roots": 3,
+   "outside": 89
+  },
+  {
+   "slug": "graphit",
+   "title": "GraphIt lineage",
+   "count": 35,
+   "generations": 1,
+   "roots": 10,
+   "outside": 30
+  },
+  {
+   "slug": "aikido-kendo",
+   "title": "Kendo and Aikido lineage",
+   "count": 41,
+   "generations": 2,
+   "roots": 1,
+   "outside": 41
+  },
+  {
+   "slug": "clearview",
+   "title": "ClearView (automatic patching) lineage",
+   "count": 13,
+   "generations": 2,
+   "roots": 1,
+   "outside": 13
+  },
+  {
+   "slug": "tiramisu",
+   "title": "Tiramisu lineage",
+   "count": 19,
+   "generations": 1,
+   "roots": 7,
+   "outside": 17
+  },
+  {
+   "slug": "commopt",
+   "title": "Distributed-memory compilation lineage",
+   "count": 72,
+   "generations": 3,
+   "roots": 5,
+   "outside": 72
+  },
+  {
+   "slug": "microfluidics",
+   "title": "Programmable microfluidics lineage",
+   "count": 40,
+   "generations": 3,
+   "roots": 5,
+   "outside": 40
   }
  ]
 }
