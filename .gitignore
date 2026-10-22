@@ -9,3 +9,9 @@
 # Local scratch
 *.pyc
 __pycache__/
+
+# Local analysis outputs and working spreadsheets (not part of the site)
+Claude outputs/
+keyword_taxonomy/
+publication_summaries.xlsx
+publication_summaries_v2.xlsx
