@@ -4,7 +4,7 @@
 - UROP roster export (kept OUT of the repo; emails and addresses never go here).
 -
 - Roles use the canonical vocabulary:
--   PhD | SM | MEng | UROP | Postdoc | Research Staff |
+-   PhD | SM | MEng | SB | UROP | Postdoc | Research Staff |
 -   Visiting Scholar | Visiting Student
 - plus Graduate Student ONLY for entries he has not yet resolved (see docs/LANES.md).
 -
@@ -12,6 +12,8 @@
 -   startyear (first year, for multi-year UROPs), title2/year2 (earlier degree
 -   here), url, position (current position, shown under the name; leave off when
 -   unknown).
+- Optional coadvisor="Name" records a co-advising faculty member. It is data
+-   only and is not rendered on the site.
 - To add a current person: <person name=".." title=".."/> under <current>.
 - To graduate someone: move under <alumni>, set title to the degree and year to
 -   the thesis year.
@@ -39,9 +41,10 @@
       url="https://manya-bansal.github.io/"
       />
     <person
-      name="Jaeyeon Won"
+      name="Akash Pardeshi"
       title="Graduate Student"
-      url="https://www.linkedin.com/in/jaeyeon-won-9385a811a/"
+      coadvisor="Wojciech Matusik"
+      url="https://www.linkedin.com/in/akashpardeshi/"
       />
     <person
       name="Theadora Fields Collin"
@@ -66,39 +69,8 @@
       name="Daniel Quach"
       title="UROP"
       />
-    
-        <person
+    <person
       name="Sophie Bunn"
-      title="UROP"
-      />
-          
-        <person
-      name="Abimalek Mekuriya"
-      title="UROP"
-      />
-    
-    <person
-      name="Paramuth (Namo) Samuthrsindh"
-      title="UROP"
-      />
-    <person
-      name="Maggie Liu"
-      title="UROP"
-      />
-    <person
-      name="Gabriela Miranda"
-      title="UROP"
-      />
-    <person
-      name="Joel Manu"
-      title="UROP"
-      />
-    <person
-      name="Jacqueline Wang"
-      title="UROP"
-      />
-    <person
-      name="Ege Kabasakaloglu"
       title="UROP"
       />
     <person
@@ -109,24 +81,74 @@
 
   <alumni>
   <person
+      name="Jaeyeon Won"
+      title="PhD"
+      year="2026"
+      title2="SM"
+      year2="2023"
+      url="https://www.linkedin.com/in/jaeyeon-won-9385a811a/"
+      />
+  <person
+      name="Arjun Barrett"
+      title="MEng"
+      year="2026"
+      />
+  <person
+      name="Rishab Parthasarathy"
+      title="MEng"
+      year="2026"
+      />
+  <person
       name="Justin Zhang"
       title="UROP"
       year="2026"
       />
+  <person
+      name="Paramuth (Namo) Samuthrsindh"
+      title="UROP"
+      year="2025"
+      />
+  <person
+      name="Maggie Liu"
+      title="UROP"
+      year="2025"
+      />
+  <person
+      name="Gabriela Miranda"
+      title="UROP"
+      year="2025"
+      />
+  <person
+      name="Joel Manu"
+      title="UROP"
+      year="2026"
+      />
+  <person
+      name="Jacqueline Wang"
+      title="UROP"
+      year="2026"
+      />
+  <person
+      name="Ege Kabasakaloglu"
+      title="UROP"
+      year="2026"
+      startyear="2025"
+      />
        <person
       name="Keming Miao"
       title="UROP"
-      year="2025"
+      year="2026"
       />
           <person
       name="Prompt Kerdphoksup"
       title="UROP"
-      year="2025"
+      year="2026"
       />
           <person
       name="Gordon Lichtstein"
       title="UROP"
-      year="2025"
+      year="2026"
+      startyear="2025"
       />
     <person
       name="Yishen &#39;Tom&#39; Chen"
@@ -177,7 +199,7 @@
     <person
       name="Shreya Chaudhary"
       title="MEng"
-      year="2025"
+      year="2026"
       position="MIT CSAIL"
       url="https://www.linkedin.com/in/shreya-chaudhary-"
       />
@@ -263,7 +285,7 @@
     <person
       name="Steven Raphael"
       title="MEng"
-      year="2025"
+      year="2026"
       position="PhD student, University of Utah"
       />
     <person
@@ -284,7 +306,7 @@
       />
     <person
       name="Ricardo Ruiz"
-      title="MEng"
+      title="SB"
       year="2025"
       position="Indeed"
       url="https://www.linkedin.com/in/ricardo-ruiz-1612a8213/"
@@ -303,7 +325,7 @@
       />
     <person
       name="Jonathan Zhou"
-      title="MEng"
+      title="SB"
       year="2025"
       startyear="2023"
       position="MIT CSAIL"
@@ -485,7 +507,7 @@
       title="PhD"
       year="2023"
       startyear="2018"
-      title2="SM"
+      title2="MEng"
       year2="2018"
       position="MIT Lincoln Laboratory"
       nourl="http://people.csail.mit.edu/charitm"
@@ -636,8 +658,8 @@
       />
     <person
       name="Zachary Holbrook"
-      title="UROP"
-      year="2020"
+      title="SB"
+      year="2021"
       startyear="2019"
       position="Software Engineer, Cursor"
       />
@@ -717,8 +739,9 @@
       />
     <person
       name="Gabriel Ramirez"
-      title="UROP"
-      year="2020"
+      title="SB"
+      year="2021"
+      startyear="2020"
       position="Technical Lead, Jump Trading"
       url="https://www.linkedin.com/in/g-ramirez/"
       />
@@ -746,6 +769,8 @@
       name="Yunming Zhang"
       title="PhD"
       year="2020"
+      title2="MEng"
+      year2="2016"
       url="http://yunmingzhang.wordpress.com"
       position="Member of Technical Staff, Microsoft AI"
       />
@@ -758,7 +783,7 @@
       />
     <person
       name="Abdurrahman Akkas"
-      title="MEng"
+      title="SM"
       year="2019"
       position="Senior Software Engineer, Meta"
       url="https://www.linkedin.com/in/abdurrahman-akkas"
@@ -1051,7 +1076,7 @@
     <person
       name="Latif Alam"
       title="UROP"
-      year="2012"
+      year="2010"
       startyear="2009"
       />
     <person
@@ -1145,7 +1170,7 @@
     <person
       name="David Wen"
       title="UROP"
-      year="2011"
+      year="2010"
       startyear="2010"
       />
     <person

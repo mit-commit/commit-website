@@ -9,7 +9,7 @@ function byLastName(a,b){
 function bucketFor(title){
   const t=(title||'').toLowerCase();
   if (t.includes('professor')) return 'faculty';
-  if (t.includes('graduate')) return 'grad';
+  if (t.includes('graduate') || t.includes('phd')) return 'grad';
   if (t.includes('meng')) return 'meng';
   if (t.includes('urop')) return 'urop';
   if (t.includes('visiting')) return 'visiting';
