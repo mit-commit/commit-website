@@ -1,5 +1,21 @@
 [
  {
+  "title": "Rethinking the Source of Truth for Programming in the Intelligence Age",
+  "summary": "This position paper asks what a software project should store when agents write the code and a compiler reads it. It anchors the question on the source of truth (SOT): the one artifact that is kept, and from which everything that runs is generated. The paper states seven properties any SOT must provide, compares six paths from human intent to execution against them, and argues for the path that keeps the compiler, adds an independent checker, and replaces languages designed for human programmers with a new SOT. It then lists twelve characteristics of such an SOT, covering what the human specifies, what agents add, its format, and its interfaces, and names the problems that remain open.\n\nThe paper proposes carrying to general-purpose software the separations demonstrated in narrow domains by <a href=\"papers/2013/halide-pldi13.pdf\">Halide</a>, which divides the algorithm from its schedule, and <a href=\"papers/2017/kjolstad-oopsla17-tensor-compiler.pdf\">TACO</a>, which divides the tensor expression from <a href=\"papers/2018/chou-oopsla18-taco-formats.pdf\">its storage format</a>.",
+  "author0": "Saman Amarasinghe",
+  "journal": "Zenodo preprint",
+  "month": "Nov",
+  "year": "2026",
+  "url": "papers/2026/amarasinghe-zenodo26-source-of-truth.pdf",
+  "bibtexKey": "zenodo:24508576",
+  "itemType": "article",
+  "topics": [
+   "Program Synthesis & LLMs"
+  ],
+  "venue": "Zenodo preprint",
+  "doi": "10.5281/zenodo.24508576"
+ },
+ {
   "title": "The Continuous Tensor Abstraction and Its High Performance Compilation",
   "summary": "This PhD thesis extends tensor programming from integer coordinates to real-valued domains. Continuous tensors reuse the language of discrete ones — convolution is the same expression over pixels on a grid or points in space — with pinpoints for isolated coordinates, intervals for regions, continuous Einsums whose reductions integrate under counting and Lebesgue measures, and a piecewise-constant representation that makes them finite and compilable. The thesis then develops format-aware reformulation, a rewrite folding format information into the expression so continuous and sparse programs become array operations executable by dense tensor infrastructure, including GPU tensor cores; native tensor-core matmul yields 2.6× over the default PyTorch compiler, and the GPU implementation is at least 5.4× faster than Finch.\n\nThe thesis is the most complete treatment of <a href=\"papers/2025/2025_OOPSLA_Continuous.pdf\">the continuous tensor abstraction</a> (OOPSLA 2025), whose first implementation extended <a href=\"papers/2025/Finch-OOPSLA-2025.pdf\">Finch</a>, and of <a href=\"papers/2026/won-asplos26-insum.pdf\">Insum</a> (ASPLOS 2026), the sparse GPU compiler supplying format-aware reformulation.",
   "author0": "Jaeyeon Won",
