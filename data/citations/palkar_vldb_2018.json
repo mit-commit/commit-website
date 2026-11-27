@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "palkar:vldb:2018",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 114,
-  "works": 105,
+  "records_raw": 122,
+  "works": 113,
   "commit": 0,
-  "judged": 92,
+  "judged": 100,
   "gscholar": null
  },
  "citations": [
@@ -97,6 +97,23 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Unifying In-Memory Data Analytics through Sparse Compilation",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Anand Jayarajan, Gennady G. Pekhimenko",
+   "url": "https://doi.org/10.48550/arxiv.2609.30497",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Declarative Sub-Operators for Universal Data Processing",
@@ -371,6 +388,32 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Breaking boundaries between programming languages and databases",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Julien Lopez",
+   "url": "https://doi.org/10.70675/1876c5a1zfde6z4d34zbfd6zabc069799fa8",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Future-Proof Data Systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Proceedings of the VLDB Endowment",
+   "authors": "Jana Giceva",
+   "url": "https://doi.org/10.14778/3827998.3838711",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "abstract+contexts"
   },
   {
    "title": "Optimizing UDF Queries in SQL Data Engines",
@@ -848,6 +891,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Complete Fusion for Stateful Streams: Equational Theory of Stateful Streams and Fusion as Normalization-by-Evaluation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Oleg Kiselyov, Tomoaki Kobayashi, Nick Palladinos",
+   "url": "https://doi.org/10.48550/arxiv.2412.15768",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Architecting Intermediate Layers for Efficient Composition of Data Management and Machine Learning Systems",
    "function": "detailed-citation",
    "split": "detailed",
@@ -862,6 +918,19 @@
     "positions"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Query Optimizations for Deep Learning Systems",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "ACM SIGMOD International Conference on Management of Data (SIGMOD)",
+   "authors": "Supun Nakandala",
+   "url": "https://doi.org/10.1145/3555041.3626249",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "User-defined operators",
@@ -1037,6 +1106,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Code generation and runtime techniques for enabling data-efficient deep learning training on GPUs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Kun Wu",
+   "url": "https://doi.org/10.48550/arxiv.2412.04747",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Enhancing Data Processing Efficiency and Scalability: A Comprehensive Study on Optimizing Data Manipulation with Pandas",
    "function": "passing-citation",
    "split": "passing",
@@ -1048,6 +1130,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Amazon Redshift Performance Tuning for Large-Scale Analytics",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Journal of Artificial Intelligence Machine Learning and Data Science",
+   "authors": "Sethu Sesha Synam Neeli",
+   "url": "https://doi.org/10.51219/jaimld/sethu-sesha-synam-neeli/467",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "AMULET: Adaptive Matrix-Multiplication-Like Tasks",
@@ -1141,6 +1236,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Leveraging Docker and Kubernetes for Enhanced Database Management",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Journal of Artificial Intelligence Machine Learning and Data Science",
+   "authors": "Sethu Sesha Synam Neeli",
+   "url": "https://doi.org/10.51219/jaimld/sethu-sesha-synam-neeli/460",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Photon: A Fast Query Engine for Lakehouse Systems",

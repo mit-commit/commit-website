@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "agrawal:cases:2005",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 48,
-  "works": 31,
+  "records_raw": 49,
+  "works": 32,
   "commit": 5,
-  "judged": 24,
+  "judged": 25,
   "gscholar": null
  },
  "citations": [
@@ -40,6 +40,22 @@
    "authors": "Olli Saarikivi, Margus Veanes, Todd Mytkowicz et al.",
    "url": "https://doi.org/10.1145/3140587.3062362",
    "cited_by": 11,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Symbolic Methods for Transducers and Testing",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "Aaltodoc (Aalto University)",
+   "authors": "Olli Saarikivi",
+   "url": "https://openalex.org/W2782813868",
+   "cited_by": 0,
    "centrality": "engaged",
    "confidence": "high",
    "secondary": [

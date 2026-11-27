@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "zhao:vee:2011",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 98,
-  "works": 85,
+  "records_raw": 104,
+  "works": 91,
   "commit": 2,
-  "judged": 70,
+  "judged": 76,
   "gscholar": null
  },
  "citations": [
@@ -242,6 +242,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "命令サンプリングによるメモリ性能問題の検出手法",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "Institutional Repositories DataBase (IRDB)",
+   "authors": "Christian Helm",
+   "url": "https://doi.org/10.15083/0002006439",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "ShaVe-ICE",
    "function": "supports-claim",
    "split": "detailed",
@@ -365,6 +381,54 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "マルチプロセッサの共有キャッシュのための資源競合に配慮した制御機構に関する研究",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Institutional Repositories DataBase (IRDB)",
+   "authors": "Jiaheng Liu",
+   "url": "https://openalex.org/W7146242978",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Rescuing Data Center Processors",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Tanvir Ahmed Khan",
+   "url": "https://doi.org/10.7302/8143",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Contribution to automatic performance analysis of parallel applications",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "HAL",
+   "authors": "François Trahay",
+   "url": "https://openalex.org/W4392497523",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Optimising Dynamic Binary Modification Across ARM Microarchitectures",
@@ -552,6 +616,32 @@
     "surveys"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Developing graph-based co-scheduling algorithms with GPU acceleration",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Warwick Research Archive Portal (University of Warwick)",
+   "authors": "Huanzhou Zhu",
+   "url": "https://doi.org/10.82444/warw.33744112",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "On the Detection and Mitigation of Cache Logic Side Channel Attacks",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "TUTL Collection",
+   "authors": "Ameer Shalabi",
+   "url": "https://doi.org/10.23658/taltech.82/2026",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
   },
   {
    "title": "RSCAAT: A Recursive Mechanism to Mitigate Cache Side Channel Attacks",

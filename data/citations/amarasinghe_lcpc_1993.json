@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "amarasinghe:lcpc:1993",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 133,
-  "works": 120,
+  "records_raw": 137,
+  "works": 124,
   "commit": 1,
-  "judged": 77,
+  "judged": 80,
   "gscholar": null
  },
  "citations": [
@@ -584,6 +584,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Joeq: A virtual machine and compiler infrastructure",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "Science of Computer Programming",
+   "authors": "John Whaley",
+   "url": "https://doi.org/10.1016/j.scico.2004.08.006",
+   "cited_by": 22,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Compiler and Runtime Optimizations for Fine-Grained Distributed Shared Memory Systems",
    "function": "detailed-citation",
    "split": "detailed",
@@ -689,6 +702,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Fluxional compiler : Seamless shift from development productivity to performance efficiency, in the case of real-time web applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "Etienne Brodu",
+   "url": "https://doi.org/10.70675/32ffd6f6z30a8z4cbfz8d12ze5720400216a",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Methodology for Introducing Concurrency into Sequential Programs",
    "function": "passing-citation",
    "split": "passing",
@@ -739,6 +768,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Bamboo: a data-centric, object-oriented approach to many-core software",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Jin Zhou, Brian Charles Demsky",
+   "url": "https://doi.org/10.1145/1809028.1806640",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "1 . 3 Intermediate Representations for Heterogeneous Systems",
@@ -1132,6 +1174,20 @@
    "authors": "Roxana E. Diaconescu",
    "url": "https://openalex.org/W1492660572",
    "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "A compiler optimization framework for Concordia parallel C",
+   "function": "unknown",
+   "split": null,
+   "year": 1998,
+   "venue": "Spectrum Research Repository (Concordia University)",
+   "authors": "Liang Wen",
+   "url": "https://openalex.org/W108650836",
+   "cited_by": 0,
    "flags": [
     "polluted-contexts"
    ],

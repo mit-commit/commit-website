@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "bruening:fddo:2000",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 31,
-  "works": 28,
+  "records_raw": 32,
+  "works": 29,
   "commit": 1,
-  "judged": 19,
+  "judged": 20,
   "gscholar": null
  },
  "citations": [
@@ -33,6 +33,19 @@
    "url": "https://doi.org/10.1007/978-3-319-43659-3_17",
    "cited_by": 5,
    "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Manejo dinámico de accesos a memoria no lineales para paralelización especulativa",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "Repositorio Hipermedial UNR (Universidad Nacional de Rosario)",
+   "authors": "Luis Esteban Campostrini",
+   "url": "https://openalex.org/W1606911222",
+   "cited_by": 0,
+   "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
   },

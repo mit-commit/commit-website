@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "drake:meng-thesis:2006",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 1,
-  "works": 1,
+  "records_raw": 2,
+  "works": 2,
   "commit": 1,
-  "judged": 1,
+  "judged": 2,
   "gscholar": null
  },
  "citations": [
@@ -26,6 +26,25 @@
    ],
    "evidence": "contexts",
    "commit": true
+  },
+  {
+   "title": "Image-based motion estimation in a stream programming language",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Abdulbasier Aziz",
+   "url": "https://openalex.org/W2134883993",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   }
  ]
 }

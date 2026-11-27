@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "key": "thies:asploswaci:2004",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 2,
+  "works": 2,
+  "commit": 0,
+  "judged": 1,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Synthesis of biochemical applications on flow-based microfluidic biochips using constraint programming",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)",
+   "authors": "Wajid Hassan Minhass, Paul Pop, Jan Madsen",
+   "url": "https://openalex.org/W1933886027",
+   "cited_by": 22,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "System-Level Modeling and Synthesis Techniques for Flow-Based Microfluidic Very Large Scale Integration Biochips",
+   "function": "unknown",
+   "split": null,
+   "year": 2012,
+   "authors": "Wajid Hassan Minhass, Paul Pop, Jan Madsen",
+   "url": "https://openalex.org/W2731628324",
+   "cited_by": 11,
+   "evidence": "abstract"
+  }
+ ]
+}

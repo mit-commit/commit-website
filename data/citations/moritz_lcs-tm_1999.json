@@ -1,0 +1,433 @@
+{
+ "schema": 1,
+ "key": "moritz:lcs-tm:1999",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 28,
+  "works": 28,
+  "commit": 1,
+  "judged": 21,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Strength Reduction of Integer Division and Modulo Operations",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2003,
+   "venue": "Lecture notes in computer science",
+   "authors": "Jeffrey Sheldon, W. Lee, Ben Greenwald et al.",
+   "url": "https://doi.org/10.1007/3-540-35767-x_17",
+   "cited_by": 12,
+   "centrality": "engaged",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Integrating data caching into the SUDS runtime system",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2000,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Kevin Wilson",
+   "url": "https://openalex.org/W2239980258",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Coupling compiler-enabled and conventional memory accessing for energy efficiency",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "ACM Transactions on Computer Systems",
+   "authors": "Raksit Ashok, Saurabh Chheda, Csaba Andras Moritz",
+   "url": "https://doi.org/10.1145/986533.986535",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Software caching using dynamic binary rewriting for embedded devices",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2003,
+   "venue": "Proceedings of the International Conference on Parallel Processing",
+   "authors": "Chad Marcus Huneycutt, Joshua B. Fryman, Kenneth MacKenzie",
+   "url": "https://doi.org/10.1109/icpp.2002.1040920",
+   "cited_by": 23,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Cool-Mem: combining statically speculative memory accessing with selective address translation for energy efficiency",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Raksit Ashok, Saurabh Chheda, Csaba Andras Moritz",
+   "url": "https://doi.org/10.1145/605397.605412",
+   "cited_by": 15,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Coarse grain reconfigurable architectures",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "Asia and South Pacific Design Automation Conference (ASP-DAC)",
+   "authors": "Reiner W. Hartenstein",
+   "url": "https://doi.org/10.1109/aspdac.2001.913368",
+   "cited_by": 63,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "The minimax cache: an energy-efficient framework for media processors",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+   "authors": "Osman Ünsal, Israel Koren, C.M. Krishna et al.",
+   "url": "https://doi.org/10.1109/hpca.2002.995704",
+   "cited_by": 34,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Technique for Compilation to Exposed Memory Hierarchy",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 1999,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Benjamin Greenwald",
+   "url": "https://openalex.org/W2126041619",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Chameleon: Virtualizing idle acceleration cores of a heterogeneous multicore processor for caching and prefetching",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2010,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Dong Hyuk Woo, Joshua B. Fryman, Allan Knies et al.",
+   "url": "https://doi.org/10.1145/1736065.1736068",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Prefetching irregular references for software cache on cell",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2008,
+   "venue": "Proceedings of the CGO/Proceedings of the ... CGO",
+   "authors": "Tong Chen, Tao Zhang, Zehra Sura et al.",
+   "url": "https://doi.org/10.1145/1356058.1356079",
+   "cited_by": 53,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Reconfigurable computing: a new business model-and its impact on SoC design",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2002,
+   "venue": "Euromicro Conference on Digital System Design (DSD)",
+   "authors": "Reiner W. Hartenstein",
+   "url": "https://doi.org/10.1109/dsd.2001.952125",
+   "cited_by": 29,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatically mapping code on an intelligent memory architecture",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2001,
+   "venue": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+   "authors": "Jae‐Jin Lee, Yan Solihin, J. Torrettas",
+   "url": "https://doi.org/10.1109/hpca.2001.903257",
+   "cited_by": 34,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Software instruction caching",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Anant Agarwal, Jason Eric Miller",
+   "url": "https://openalex.org/W2355374580",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Direct addressed caches for reduced power consumption",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+   "authors": "Emmett Witchel, Samuel Larsen, C. Scott Ananian et al.",
+   "url": "https://doi.org/10.1109/micro.2001.991111",
+   "cited_by": 17,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic code mapping on an intelligent memory architecture",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2001,
+   "venue": "IEEE Transactions on Computers",
+   "authors": "Yan Solihin, Jaejin Lee, Josep Torrellas",
+   "url": "https://doi.org/10.1109/12.966498",
+   "cited_by": 27,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Design decision in the implementation of a raw architecture workstation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 1999,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Michael Bedford Taylor",
+   "url": "https://openalex.org/W2224113243",
+   "cited_by": 22,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Runtime resource allocation in multi-core packet processing systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "IEEE International Conference on High Performance Switching and Routing (HPSR)",
+   "authors": "Qiang Wu, Tilman Wolf",
+   "url": "https://doi.org/10.1109/hpsr.2009.5307422",
+   "cited_by": 7,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Software cache support and API design for embedded DSP processor",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "International SoC Design Conference",
+   "authors": "Cheng-Yen Lin, Shao-Chung Wang, Ming-Yu Hung et al.",
+   "url": "https://doi.org/10.1109/socdc.2009.5423899",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Hybrid access-specific software cache techniques for the cell BE architecture",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2008,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Marc González, Nikola Vujić, Xavier Martorell et al.",
+   "url": "https://doi.org/10.1145/1454115.1454156",
+   "cited_by": 51,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Cool-cache for hot multimedia",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2005,
+   "venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+   "authors": "Osman Ünsal, Roshini Ashok, Israel Koren et al.",
+   "url": "https://doi.org/10.1109/micro.2001.991125",
+   "cited_by": 14,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Cool-Cache: A compiler-enabled energy efficient data caching framework for embedded/multimedia processors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "venue": "ACM Transactions on Embedded Computing Systems",
+   "authors": "Osman Ünsal, Raksit Ashok, Israel Koren et al.",
+   "url": "https://doi.org/10.1145/860176.860182",
+   "cited_by": 11,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Designing heterogeneous many-core processors to provide high performance under limited chip power budget",
+   "function": "unknown",
+   "split": null,
+   "year": 2010,
+   "venue": "SMARTech Repository (Georgia Institute of Technology)",
+   "authors": "Hsien-Hsin S. Lee, Dong Hyuk Woo",
+   "url": "https://openalex.org/W2124664609",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Morphware and Configware",
+   "function": "unknown",
+   "split": null,
+   "year": 2006,
+   "venue": "Kluwer Academic Publishers eBooks",
+   "authors": "Reiner W. Hartenstein",
+   "url": "https://doi.org/10.1007/0-387-27705-6_11",
+   "cited_by": 5,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Cooperative hardware/software caching for next-generation memory systems",
+   "function": "unknown",
+   "split": null,
+   "year": 2004,
+   "venue": "ScholarWorks@UMassAmherst (University of Massachusetts Amherst)",
+   "authors": "Zhenlin Wang, Kathryn S. McKinley",
+   "url": "https://openalex.org/W1500822167",
+   "cited_by": 6,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "SoftCache: A Technique for Power and Area Reduction in Embedded Systems",
+   "function": "unknown",
+   "split": null,
+   "year": 2003,
+   "venue": "SMARTech Repository (Georgia Institute of Technology)",
+   "authors": "Joshua B. Fryman, Hsien-Hsin S. Lee, Chad Marcus Huneycutt et al.",
+   "url": "https://openalex.org/W500487",
+   "cited_by": 4,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "A decade of reconfigurable computing: a visionary retrospective",
+   "function": "unknown",
+   "split": null,
+   "year": 2002,
+   "venue": "Design, Automation, and Test in Europe",
+   "authors": "Reiner W. Hartenstein",
+   "url": "https://doi.org/10.1109/date.2001.915091",
+   "cited_by": 323,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Embedding tree computations into the RAW chip",
+   "function": "unknown",
+   "split": null,
+   "year": 2002,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Adrian Mihail Soviani",
+   "url": "https://openalex.org/W2283734487",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Novel Object-Oriented Software Cache for Scratchpad-Based Multi-Core Clusters",
+   "function": "unclassified",
+   "split": null,
+   "year": 2014,
+   "venue": "Journal of Signal Processing Systems",
+   "authors": "Christian Pinto, L. Benini",
+   "url": "https://doi.org/10.1007/s11265-014-0881-4",
+   "cited_by": 2,
+   "evidence": "title_only"
+  }
+ ]
+}

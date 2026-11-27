@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "ansel:pldi:2011",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 114,
-  "works": 108,
+  "records_raw": 143,
+  "works": 137,
   "commit": 0,
-  "judged": 82,
+  "judged": 107,
   "gscholar": null
  },
  "citations": [
@@ -23,6 +23,23 @@
    "centrality": "core",
    "confidence": "high",
    "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Mohabi: Disaggregating and Sandboxing the Firefox JavaScript Engine",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "USENIX Symposium on Operating Systems Design and Implementation",
+   "authors": "Abhishek Sharma, Anand Balaji, Zachary Yedidia et al.",
+   "url": "https://www.semanticscholar.org/paper/d532f310376dd33d63d9ceb10ad66c4649c4bdff",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions",
     "detailed-citation"
    ],
    "evidence": "contexts"
@@ -302,6 +319,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Control flow integrity (CFI): a syrvey",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Institutional Repository Hellanicus",
+   "authors": "Βασίλειος Παπαδόπουλος",
+   "url": "https://openalex.org/W7216973208",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Estudio de viabilidad de un entorno de aprendizaje colaborativo de lenguajes de programación",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Library Open Repository (Universidad Complutense Madrid)",
+   "authors": "Enrique Martín Martín, Manuel Montenegro Montes, Adrián Riesco Rodríguez et al.",
+   "url": "https://openalex.org/W239675303",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "ISboxing: An Instruction Substitution Based Data Sandboxing for x86 Untrusted Libraries",
    "function": "supports-claim",
    "split": "detailed",
@@ -313,6 +356,48 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Securing Statically and Dynamically Compiled Programs using Software Diversity",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Andrei Homescu",
+   "url": "https://openalex.org/W2573230755",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Conceptualization and Architecture of a Content Management App for HMI apps in the Context of an Electric Car with a centralized ICT infrastructure",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "RECERCAT (Consorci de Serveis Universitaris de Catalunya)",
+   "authors": "Josep Mateu Clemente",
+   "url": "https://openalex.org/W66817618",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "MiniBox: A Two-Way Sandbox for x86 Native Code (CMU-CyLab-14-001)",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "KiltHub Repository",
+   "authors": "Yanlin Li, Adrian Perrig, Jonathan M. McCune et al.",
+   "url": "https://doi.org/10.1184/r1/6467975",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Portable Software Fault Isolation",
@@ -353,6 +438,19 @@
    "authors": "Bin Zeng, Gang Tan, Greg Morrisett",
    "url": "https://doi.org/10.1145/2046707.2046713",
    "cited_by": 102,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Agentic Large Language Models",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Max J. van Duijn, Michiel van der Meer, Aske Plaat et al.",
+   "url": "https://doi.org/10.48550/arxiv.2610.13455",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -446,6 +544,31 @@
    "evidence": "contexts"
   },
   {
+   "title": "Mind the Gap: Analyzing the Performance of WebAssembly vs. Native Code",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "authors": "Abhinav Jangda, Arjun Guha",
+   "url": "https://www.semanticscholar.org/paper/4d7c211f82e4669d6889a761028bc96ab89d7122",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "OS-level Attacks and Defenses: from Software to Hardware-based Exploits",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "venue": "TUbilio (Technical University of Darmstadt)",
+   "authors": "Gens, David",
+   "url": "https://doi.org/10.26083/tuprints-00008482",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Hardware control flow integrity",
    "function": "exemplifies",
    "split": "passing",
@@ -497,6 +620,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Ryoan: a distributed sandbox for untrusted computation on secret data",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2016,
+   "venue": "Operating Systems Design and Implementation",
+   "authors": "Tyler Hunt, Zhiting Zhu, Yuanzhong Xu et al.",
+   "url": "https://doi.org/10.5555/3026877.3026919",
+   "cited_by": 226,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "Continuous, Low Overhead, Run-Time Validation of Program Executions",
    "function": "exemplifies",
    "split": "passing",
@@ -508,6 +644,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Language-based Security for Web Browsers",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Dongseok Jang",
+   "url": "https://openalex.org/W916837809",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "STEAK : Security-Transparent Email with Automatically-managed Keys",
@@ -547,6 +699,34 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Improving computer systems security through transparent application-level sandboxing based on capability-based platforms",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2025,
+   "authors": "Mahya Soleimani Jadidi",
+   "url": "https://doi.org/10.48336/79",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Hardware security for just-in-time compilation in language virtual machines",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "theses.fr (ABES)",
+   "authors": "Quentin Ducasse",
+   "url": "https://doi.org/10.70675/1c2989a4zac63z44c2zbe6dz33453471a8d8",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "TME-Box: Scalable In-Process Isolation through Intel TME-MK Memory Encryption",
@@ -614,6 +794,34 @@
    "evidence": "fulltext"
   },
   {
+   "title": "JIT Spraying Threats on ARM and Defense by Diversification",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Wing-Soon Wilson Lian",
+   "url": "https://openalex.org/W2586873456",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Client Puzzles: Effective Defence against Resource Inflation Threats",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "International Journal of Science and Research (IJSR)",
+   "url": "https://doi.org/10.21275/v4i12.nov151929",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Communication and Capability URLs in COAST-based Decentralized Services",
    "function": "detailed-citation",
    "split": "detailed",
@@ -667,6 +875,32 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Bridging the Gap Between Pedagogical and Practical RISC-V Systems: A Reproducible FPGA Implementation and Verification Flow",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Journal of Integrated Circuits and Systems",
+   "authors": "Pedro Pereira Cecilio Ventura, Lucas Fernando de Souza Lima, Ilana Chaia Finger et al.",
+   "url": "https://doi.org/10.29292/jics.v21i2.1180",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Should Your Database Systems Use Hardware-Assisted Memory Safety Extensions in Production?",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Ilya Meignan--Masson, Martin Fink, Masanori Misono et al.",
+   "url": "https://doi.org/10.48550/arxiv.2610.11525",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Leash: A Transparent Capability-Based Sandboxing Supervisor for Unix",
    "function": "passing-citation",
    "split": "passing",
@@ -691,6 +925,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Scientific Research Methodology – 2024. Proceedings of the of the Ukrainian scientific and practical conference. Cherkasy, November, 2024",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Cherkasy State Technological University repository",
+   "authors": "Constantine Bazilo, Максим Олексійович Бондаренко, Володимир Якович Гальченко et al.",
+   "url": "https://openalex.org/W7219328172",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Analyse et optimisation dynamiques de programmes au format binaire pour la cybersécurité",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Camille Le Bon",
+   "url": "https://doi.org/10.70675/1f065835za88ez4054zbc5az4a0d15467ad9",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Relationship Between Lean Manufacturing Practice and Product Quality in a Halal Food Industry: A Case Study in Tanjung Karang, Selangor, Malaysia",
@@ -725,6 +985,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Achieving Obfuscation Through Self-Modifying Code: A Theoretical Model",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "Digital Commons (Liberty University)",
+   "authors": "Heidi Waddell",
+   "url": "https://openalex.org/W3016541989",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Elasticlave: An Efficient Memory Model for Enclaves",
    "function": "passing-citation",
    "split": "passing",
@@ -735,6 +1008,18 @@
    "cited_by": 47,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Institutional Knowledge at Singapore Management University Institutional Knowledge at Singapore Management University Software puzzle: A countermeasure to resource-inflated denial-of- Software puzzle: A countermeasure to resource-inflated denial-of-service attacks service attacks",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "authors": "Zhi-Gang Zhao, F. Bao, R. Deng",
+   "url": "https://www.semanticscholar.org/paper/f8306006e0994c9f557edc3dfeb022ae4e901b29",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "contexts"
   },
   {
@@ -762,6 +1047,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Software Datapaths for Multi-Tenant Packet Processing",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "HAL",
+   "authors": "Paul Chaignon",
+   "url": "https://openalex.org/W2960465134",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Software Datapaths for Multi-Tenant Packet Processing. (Plans de données logiciels pour les traitements réseaux en environnements partagés)",
@@ -848,6 +1146,19 @@
    "authors": "P. Larsen, A. Sadeghi, K. Braden et al.",
    "url": "https://doi.org/10.1145/3129743.3129744",
    "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Wasabi: A Framework for Dynamically Analyzing WebAssembly",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "arXiv",
+   "authors": "Daniel Lehmann, Michael Pradel",
+   "url": "https://doi.org/10.48550/arxiv.1808.10652",
+   "cited_by": 6,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -1057,6 +1368,21 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "Τεχνολογίες ανάπτυξης ασφαλούς λογισμικού",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "authors": "Δημήτριος Μητρόπουλος",
+   "url": "https://doi.org/10.12681/eadd/43152",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Canon-MPC, a system for casual non-interactive secure multi-party computation using native client",
    "function": "passing-citation",
    "split": "passing",
@@ -1093,6 +1419,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Speeding up dynamic compilation: concurrent and parallel dynamic compilation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "ERA",
+   "authors": "Igor Böhm",
+   "url": "https://openalex.org/W563611100",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "COAST: An Architectural Style for Decentralized On-Demand Tailored Services",
@@ -1132,6 +1471,20 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "A Profiling-Based Approach to Type Specialization for Dynamically Typed Languages",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "International Journal of Software Engineering and Knowledge Engineering",
+   "authors": "Haonan Guo, Hao Hao, Ziye Li et al.",
+   "url": "https://doi.org/10.1142/s0218194026420027",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
   },
   {
    "title": "Trust-V: Toward Secure and Reliable Storage for Trusted Execution Environments",
@@ -1175,6 +1528,20 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "Breaking the ISA Barrier in Modern Computing",
+   "function": "unknown",
+   "split": null,
+   "year": 2018,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Ashish Venkat",
+   "url": "https://openalex.org/W2898264962",
+   "cited_by": 3,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "The Role of Software Puzzle in Overcoming the Denial of Service Attacks",
    "function": "unknown",
    "split": null,
@@ -1215,6 +1582,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Computational State Transfer: An Architectural Style for Decentralized Systems",
+   "function": "unknown",
+   "split": null,
+   "year": 2016,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Michael M. Gorlick",
+   "url": "https://openalex.org/W2572280356",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Return to Where? You Can't Exploit What You Can't Find",
    "function": "unknown",
    "split": null,
@@ -1235,6 +1616,19 @@
    "venue": "International journal of scientific engineering and research",
    "authors": "Som Prakash Gupta Mahesh",
    "url": "https://doi.org/10.70729/j2013220",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Reducing the Costs of Proof Assistant Based Formal Verification or : Conviction without the Burden of Proof - eScholarship",
+   "function": "unknown",
+   "split": null,
+   "year": 2014,
+   "authors": "Zachary Tatlock",
+   "url": "https://openalex.org/W2776537790",
    "cited_by": 0,
    "flags": [
     "polluted-contexts"

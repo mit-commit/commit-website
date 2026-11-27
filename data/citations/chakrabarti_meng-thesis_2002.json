@@ -1,0 +1,41 @@
+{
+ "schema": 1,
+ "key": "chakrabarti:meng-thesis:2002",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 2,
+  "works": 2,
+  "commit": 0,
+  "judged": 2,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "A QoS framework to improve user satisfaction for accessing Internet in low quality connection",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "International Conference on Telecommunication Systems, Services, and Applications",
+   "authors": "Ratna Wardani, Lukito Edi Nugroho, Risanuri Hidayat et al.",
+   "url": "https://doi.org/10.1109/tssa.2011.6095416",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "DESAIN MODEL SPESIFIKASI AKSES PENGGUNA DI LINGKUNGAN JARINGAN BERKECEPATAN RENDAH",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "venue": "Optimum: Journal of Economics and Development (University of Ahmad Dahlan Yogyakarta)",
+   "authors": "Ratna Wardani, F. Soesianto, Lukito Edi Nugroho et al.",
+   "url": "https://doi.org/10.26555/jifo.v4i1.a5270",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  }
+ ]
+}

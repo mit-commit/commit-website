@@ -1,0 +1,29 @@
+{
+ "schema": 1,
+ "key": "petrov:meng-thesis:1999",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 1,
+  "works": 1,
+  "commit": 0,
+  "judged": 0,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "MAVD: MPEG-2 audio video decode system on MDSP/sup TM/",
+   "function": "unknown",
+   "split": null,
+   "year": 2005,
+   "venue": "IEEE International Symposium on Consumer Electronics (ISCE)",
+   "authors": "Gurjewar Akash Yadav, Rakesh Kumar Singh, Vipin Chaudhary",
+   "url": "https://doi.org/10.1109/isce.2004.1375897",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  }
+ ]
+}

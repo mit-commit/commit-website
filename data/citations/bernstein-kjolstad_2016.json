@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "bernstein-kjolstad:2016",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 105,
-  "works": 103,
+  "records_raw": 107,
+  "works": 105,
   "commit": 0,
-  "judged": 15,
+  "judged": 17,
   "gscholar": null
  },
  "citations": [
@@ -25,6 +25,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Theories of Mind as Domain-Specific Languages of Thought",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Kartik Chandra, Jonathan Ragan‐Kelley, Joshua B. Tenenbaum et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.19598",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "MiSo: A DSL for Robust and Efficient Solve and MInimize Problems",
    "function": "exemplifies",
    "split": "passing",
@@ -38,6 +54,19 @@
    "flags": [
     "own-group"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Theories of Mind as Languages of Thought for Thought about Thought",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "PsyArXiv (OSF Preprints)",
+   "authors": "Kartik Chandra, Jonathan Ragan‐Kelley, Joshua B. Tenenbaum",
+   "url": "https://doi.org/10.31234/osf.io/qhc6y_v1",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {

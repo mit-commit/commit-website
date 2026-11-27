@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "buildsl-cgo22",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 7,
-  "works": 7,
-  "commit": 3,
-  "judged": 7,
+  "records_raw": 8,
+  "works": 8,
+  "commit": 4,
+  "judged": 8,
   "gscholar": null
  },
  "citations": [
@@ -22,6 +22,25 @@
    "cited_by": 0,
    "centrality": "core",
    "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "Prophecy Variables, Program Analysis, Binding Times, and Staged Compilation in the BuildIt System",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2026,
+   "authors": "Ajay Brahmakshatriya, Saman P. Amarasinghe, M. Rinard",
+   "url": "https://www.semanticscholar.org/paper/93187bd016ef59899f843ebc9f48cea6d5cc68db",
+   "cited_by": 2,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "extends"
+   ],
    "flags": [
     "own-group"
    ],

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "thies:acm-sigarch-news:2002",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 15,
-  "works": 11,
+  "records_raw": 16,
+  "works": 12,
   "commit": 2,
-  "judged": 6,
+  "judged": 7,
   "gscholar": null
  },
  "citations": [
@@ -75,6 +75,19 @@
    ],
    "evidence": "contexts",
    "commit": true
+  },
+  {
+   "title": "Programming & Implementation of Streaming Applications",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "Hogskolan Ihalmstad (Halmstad University)",
+   "authors": "Johnsson, Ola, Stenemo, Magnus, Zain-ul-Abdin,",
+   "url": "https://openalex.org/W7113033559",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Code generation for WSLAs using AXpect",

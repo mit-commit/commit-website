@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "barua:toc:2001",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 41,
-  "works": 32,
+  "records_raw": 43,
+  "works": 34,
   "commit": 0,
-  "judged": 25,
+  "judged": 27,
   "gscholar": null
  },
  "citations": [
@@ -192,6 +192,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "IncSFS: Incremental Full-Sparse Flow-Sensitive Pointer Analysis for C/C++",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+   "authors": "Kunlin Liu, Zhenbang Chen, Piyi Zu et al.",
+   "url": "https://doi.org/10.1145/3832783.3837496",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Comprehensive Survey of Benchmarks for Improvement of Software's Non-Functional Properties",
    "function": "passing-citation",
    "split": "passing",
@@ -344,6 +357,19 @@
    "authors": "Ming-Yung Ko, Shuvra S. Bhattacharyya",
    "url": "https://doi.org/10.1007/978-3-540-39920-9_24",
    "cited_by": 13,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A compilation tool for automated mapping of algorithms onto fpga-based custom computing machines",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2002,
+   "venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+   "authors": "İbrahim Şahin, Clay Gloster, W.E. Alexander",
+   "url": "https://openalex.org/W2369979922",
+   "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "fulltext"

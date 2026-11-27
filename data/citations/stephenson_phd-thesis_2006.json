@@ -1,16 +1,29 @@
 {
  "schema": 1,
  "key": "stephenson:phd-thesis:2006",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 6,
-  "works": 6,
+  "records_raw": 10,
+  "works": 10,
   "commit": 0,
-  "judged": 6,
+  "judged": 7,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Effective feature set construction for SVM-based hot method prediction and optimisation",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "International Journal of Computational Science and Engineering",
+   "authors": "Sandra K. Johnson, Valli Shanmugam",
+   "url": "https://doi.org/10.1504/ijcse.2011.042023",
+   "cited_by": 6,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "abstract"
+  },
   {
    "title": "A Survey on Compiler Autotuning using Machine Learning",
    "function": "surveys",
@@ -88,6 +101,39 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "c-level programming of parallel coprocessor accelerators",
+   "function": "unknown",
+   "split": null,
+   "year": 2010,
+   "authors": "Carl Ebeling, Benjamin Ylvisaker",
+   "url": "https://openalex.org/W2309639351",
+   "cited_by": 5,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "DeepTuner : a system for search technique recommendation in program autotuning",
+   "function": "unclassified",
+   "split": null,
+   "year": 2015,
+   "authors": "Kevin Wu",
+   "url": "https://openalex.org/W2891047003",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Proceedings of the GCC Developers' Summit",
+   "function": "unclassified",
+   "split": null,
+   "year": 2008,
+   "authors": "Grigori Fursin, Cupertino Miranda, Olivier Temam et al.",
+   "url": "https://openalex.org/W2600258283",
+   "cited_by": 5,
+   "evidence": "title_only"
   }
  ]
 }

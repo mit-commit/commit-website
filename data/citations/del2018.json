@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "del2018",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 20,
-  "works": 18,
+  "records_raw": 21,
+  "works": 19,
   "commit": 3,
-  "judged": 14,
+  "judged": 15,
   "gscholar": null
  },
  "citations": [
@@ -151,6 +151,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Restructuring C code for High-Level Synthesis Targeting FPGAs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+   "authors": "Renato Campos",
+   "url": "https://doi.org/10.34626/m4v5-pe95",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Transparent Compiler and Runtime Specializations for Accelerating Managed Languages on FPGAs",

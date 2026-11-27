@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "soule:debs:2013",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 48,
-  "works": 40,
+  "records_raw": 51,
+  "works": 43,
   "commit": 1,
-  "judged": 30,
+  "judged": 33,
   "gscholar": null
  },
  "citations": [
@@ -44,6 +44,25 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Commensal compiler for high-performance stream programming",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Jeffrey Bosboom",
+   "url": "https://openalex.org/W7139310983",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "StreamJIT",
    "function": "positions",
    "split": "detailed",
@@ -63,6 +82,22 @@
    ],
    "evidence": "fulltext",
    "commit": true
+  },
+  {
+   "title": "A model of programming languages for dynamic real-time streaming applications",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "Xuan Khanh Do",
+   "url": "https://doi.org/10.70675/206cb562zbc19z4366za74czc1bda4fc164a",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Simulation and Construction of a Solar Powered Smart Irrigation System Using Internet of Things (IoT), Blynk Mobile App",
@@ -393,6 +428,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Evaluation of Energy-Optimizing Scheduling Algorithms for Streaming Computations on Massively Parallel Multicore Architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "DiVA (Linkoping University)",
+   "authors": "Johan Janzén",
+   "url": "https://openalex.org/W378403606",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Latency Minimization of Order-Preserving Distributed Event-Based Systems",

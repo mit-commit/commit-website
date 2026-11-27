@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "lerer:dev:2010",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 60,
-  "works": 54,
+  "records_raw": 63,
+  "works": 57,
   "commit": 0,
-  "judged": 41,
+  "judged": 44,
   "gscholar": null
  },
  "citations": [
@@ -179,6 +179,19 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Associations with SARS-CoV-2 Positivity Among People in Refugee Settlements: An Interactive Voice Response Survey in Uganda",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "medRxiv",
+   "authors": "Timothy R. Muwonge, Robin E. Klabbers, Scovia Ajidiru et al.",
+   "url": "https://doi.org/10.64898/2026.10.20.26365986",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "\"Everyone Brings Their Grain of Salt\"",
@@ -394,6 +407,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Understanding Challenges in the Data Pipeline for Development Data",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Fahad Pervaiz",
+   "url": "https://openalex.org/W3181531944",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Using question-specific vocabularies to support speech data collection with SALAAM",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "Open University of Cape Town (University of Cape Town)",
+   "authors": "Kayokwa Nick Chibuye",
+   "url": "https://openalex.org/W3012032521",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Voice-Based Quizzes for Measuring Knowledge Retention in Under-Connected Populations",

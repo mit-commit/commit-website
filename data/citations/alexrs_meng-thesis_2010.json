@@ -1,0 +1,64 @@
+{
+ "schema": 1,
+ "key": "alexrs:meng-thesis:2010",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 4,
+  "works": 4,
+  "commit": 0,
+  "judged": 1,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Language Support for Distributed Functional Programming",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+   "authors": "Heather Miller",
+   "url": "https://doi.org/10.5075/epfl-thesis-6784",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Spores: A Type-Based Foundation for Closures in the Age of Concurrency and Distribution",
+   "function": "unclassified",
+   "split": null,
+   "year": 2014,
+   "venue": "Lecture notes in computer science",
+   "authors": "Heather Miller, Philipp Haller, Martin Odersky",
+   "url": "https://doi.org/10.1007/978-3-662-44202-9_13",
+   "cited_by": 47,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Distributed Places",
+   "function": "unclassified",
+   "split": null,
+   "year": 2013,
+   "venue": "Lecture notes in computer science",
+   "authors": "Kevin Tew, James Swaine, Matthew Flatt et al.",
+   "url": "https://doi.org/10.1007/978-3-642-45340-3_3",
+   "cited_by": 1,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Places: parallelism for racket",
+   "function": "unclassified",
+   "split": null,
+   "year": 2013,
+   "venue": "J. Willard Marriott Library",
+   "authors": "Kevin Tew",
+   "url": "https://doi.org/10.26053/0h-4hm0-wh00",
+   "cited_by": 0,
+   "evidence": "title_only"
+  }
+ ]
+}

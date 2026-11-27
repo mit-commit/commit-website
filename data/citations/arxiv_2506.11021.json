@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "arxiv:2506.11021",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 8,
-  "works": 8,
+  "records_raw": 10,
+  "works": 10,
   "commit": 0,
-  "judged": 7,
+  "judged": 9,
   "gscholar": null
  },
  "citations": [
@@ -63,6 +63,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Adversarial Fact Editing and Active RAG Defenses for Robust Large Language Model Bash Execution",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Conference on Local Computer Networks",
+   "authors": "Erik Adler, Cilia Seitz, Laurin Holz et al.",
+   "url": "https://doi.org/10.1109/lcn67947.2026.11660783",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Diagnosing LLM Hallucinations in Process Mining Tasks: a Taxonomy and a Benchmark",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Lecture notes in computer science",
+   "authors": "Alessandro Berti, Humam Kourani",
+   "url": "https://doi.org/10.1007/978-3-032-17618-9_41",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Efficient Hallucination Detection in Automatic Code Generation",

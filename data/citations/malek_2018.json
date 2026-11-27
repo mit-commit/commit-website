@@ -1,0 +1,41 @@
+{
+ "schema": 1,
+ "key": "malek:2018",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 2,
+  "works": 2,
+  "commit": 0,
+  "judged": 2,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "A domain-extensible compiler with controllable automation of optimisations",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "arXiv",
+   "authors": "Thomas Kœhler",
+   "url": "https://doi.org/10.5525/gla.thesis.83323",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Proposition d'un modèle pour l'optimisation automatique de boucles dans le compilateur Tiramisu : cas d'optimisation de déroulage",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "arXiv",
+   "authors": "Asma Balamane, Zina Taklit",
+   "url": "https://doi.org/10.48550/arxiv.1908.01057",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  }
+ ]
+}

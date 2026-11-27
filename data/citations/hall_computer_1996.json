@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "hall:computer:1996",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 644,
-  "works": 627,
+  "records_raw": 683,
+  "works": 666,
   "commit": 6,
-  "judged": 471,
+  "judged": 506,
   "gscholar": null
  },
  "citations": [
@@ -31,6 +31,32 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Rapid Prototyping and Exploration Environment for Generating C-to-Hardware-Compilers",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "TUbilio (Technical University of Darmstadt)",
+   "authors": "Florian Stock",
+   "url": "https://doi.org/10.26083/tuprints-00008525",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Literature Survey",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "Springer eBooks",
+   "authors": "Haris Javaid, Sri Parameswaran",
+   "url": "https://doi.org/10.1007/978-3-319-01113-4_2",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Automated Mapping of the MapReduce Pattern onto Parallel Computing Platforms",
    "function": "uses-tool",
    "split": "detailed",
@@ -42,6 +68,18 @@
    "centrality": "engaged",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Μεθοδολογίες μεταγλώττισης σε επαναπροσδιοριζόμενα συστήματα αρχιτεκτονικών πίνακα.",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2012,
+   "authors": "Σταύρος Γεωργιόπουλος",
+   "url": "https://doi.org/10.12681/eadd/30331",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Performance and memory space optimizations for embedded systems",
@@ -758,6 +796,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Explicit Compiler-based Memory Management for Out-of-core Applications (CMU-CS-05-140)",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "KiltHub Repository",
+   "authors": "Angela Demke Brown",
+   "url": "https://doi.org/10.1184/r1/6619580",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Exposing disk layout to compiler for reducing energy consumption of parallel disk based systems",
    "function": "uses-tool",
    "split": "detailed",
@@ -875,6 +926,18 @@
    "url": "https://doi.org/10.1145/1086519.1086529",
    "cited_by": 16,
    "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Representações internas e geração de codigos no compilador redirecionavel Xingo",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2005,
+   "authors": "Cristiano Lino Felicio",
+   "url": "https://doi.org/10.47749/t/unicamp.2005.342788",
+   "cited_by": 0,
+   "centrality": "engaged",
    "confidence": "high",
    "evidence": "fulltext"
   },
@@ -1618,6 +1681,19 @@
    "commit": true
   },
   {
+   "title": "Software-directed register deallocation for simultaneous multithreaded processors",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 1999,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "J.L. Lo, Sujay S. Parekh, Susan J. Eggers et al.",
+   "url": "https://doi.org/10.1109/71.798316",
+   "cited_by": 58,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "SUIF Explorer: an interactive and interprocedural parallelizer",
    "function": "uses-tool",
    "split": "detailed",
@@ -1875,6 +1951,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Automatic parallelization for embedded multi-core systems using high level cost models",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "Technische Universität Dortmund Eldorado (Technische Universität Dortmund)",
+   "authors": "Daniel Cordes",
+   "url": "https://doi.org/10.17877/de290r-13183",
+   "cited_by": 18,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Parallelizing sequential applications on commodity hardware using a low-cost software transactional memory",
    "function": "positions",
    "split": "detailed",
@@ -2067,6 +2159,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Automatic Parallelization Tools",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "King Abdullah University of Science and Technology Repository (King Abdullah University of Science and Technology)",
+   "authors": "Ying Qian",
+   "url": "https://openalex.org/W3195620503",
+   "cited_by": 6,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Review of Parallel Techniques and its Implication for Java",
    "function": "surveys",
    "split": "detailed",
@@ -2246,6 +2354,18 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Reference idempotency analysis: a framework for optimizing speculative execution",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2001,
+   "authors": "Seon Wook Kim, Chong-liang Ooi, Rudolf Eigenmann et al.",
+   "url": "https://doi.org/10.1145/379539.379547",
+   "cited_by": 23,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "2 Compiling for Parallelism",
@@ -2458,6 +2578,21 @@
    "evidence": "contexts"
   },
   {
+   "title": "A DISSERTATION SUBMITTED TO THE DEPARTMENT OF MECHANICAL ENGINEERING AND THE COMMITTEE ON GRADUATE STUDIES OF STANFORD UNIVERSITY IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE DEGREE OF DOCTOR OF PHILOSOPHY",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 1995,
+   "authors": "Ming-Ju Edward Lee, W. Dally, Mark Horowitz",
+   "url": "https://www.semanticscholar.org/paper/e6c217e459f051042596700a5cc1d4aa4d85ba5e",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "contexts"
+  },
+  {
    "title": "ASIF: An Internal Representation Suitable for Program Transformation and Parallel Conversion",
    "function": "exemplifies",
    "split": "passing",
@@ -2522,6 +2657,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Soporte de Orden y Reducciones en Sistemas de Memoria Transaccional",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2018,
+   "venue": "Repositorio Institucional de la Universidad de Málaga (University of Málaga)",
+   "authors": "Manuel Pedrero",
+   "url": "https://openalex.org/W2944403277",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A FRAMEWORK FOR CONVERSION OF SERIAL PROGRAMMING PARADIGM INTO PARALLEL USING ARCHITECTURE INDEPENDENT FACTORS",
    "function": "exemplifies",
    "split": "passing",
@@ -2573,6 +2724,18 @@
     "supports-claim"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "PCubeS Type Architecture and IT Programming Language",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2016,
+   "authors": "Muhammad Nur Yanhaona",
+   "url": "https://doi.org/10.18130/v3m319",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Affine Parallelization Using Dependence and Cache Analysis in a Binary Rewriter",
@@ -2704,6 +2867,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "A parallel processing library for user-friendly applications",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "venue": "Mspace (University of Manitoba)",
+   "authors": "Nick J. Pizzi, Aleksander B. Demko",
+   "url": "https://openalex.org/W2181944453",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Automated Tool to Generate Parallel CUDA code from a Serial C Code",
    "function": "exemplifies",
    "split": "passing",
@@ -2739,6 +2915,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Factorización LU de matrices dispersas en multiprocesadores",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "venue": "Repositorio Institucional de la Universidad de Málaga (University of Málaga)",
+   "authors": "Rafael Asenjo Plaza",
+   "url": "https://openalex.org/W1689676346",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "From Serial Loops to Parallel Execution on Distributed Systems",
@@ -2948,6 +3137,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Hybrid analysis of memory references and its application to automatic parallelization",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Silvius Rus",
+   "url": "https://openalex.org/W2287285612",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "PFunc: modern task parallelism for modern high performance computing",
    "function": "exemplifies",
    "split": "passing",
@@ -3114,6 +3319,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "Synthesizing sequential programs onto reconfigurable computing systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2007,
+   "authors": "Ryan Kastner, Wenrui Gong",
+   "url": "https://openalex.org/W2416086200",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "Metacomputing on Clusters Augmented with Reconfigurable Hardware",
    "function": "exemplifies",
    "split": "passing",
@@ -3124,6 +3341,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Power-efficient data management for dynamic applications",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2006,
+   "venue": "Institution of Engineering and Technology eBooks",
+   "authors": "Pol Marchal, José Ignacio Gómez, David Atienza et al.",
+   "url": "https://doi.org/10.1049/pbcs018e_ch10",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Semi-Automatic Composition of Loop Transformations for Deep Parallelism and Memory Hierarchies",
@@ -3720,6 +3950,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Strategies and tools for the exploitation of massively parallel computer systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2000,
+   "venue": "Greenwich Academic Literature Archive (University of Greenwich)",
+   "authors": "Emyr Evans",
+   "url": "https://openalex.org/W584095206",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Towards an Integrated, Web-executable Parallel Programming Tool Environment",
    "function": "exemplifies",
    "split": "passing",
@@ -3743,6 +3986,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Analyse et transformation de programmes : du modèle polyédrique aux langages formels",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 1999,
+   "venue": "HAL",
+   "authors": "Albert Cohen",
+   "url": "https://openalex.org/W574513256",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Condensed Graphs: A Multi-level, Parallel, Intermediate Representation",
@@ -4069,6 +4325,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "A Tiger Compiler for the Cell Broadband Engine Architecture",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "University Library - University of Saskatchewan (University of Saskatchewan)",
+   "authors": "Yiqing Liu",
+   "url": "https://openalex.org/W40396292",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "AEminium Freeing Programmers from the Shackles of Sequentiality",
    "function": "detailed-citation",
    "split": "detailed",
@@ -4118,6 +4387,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "ChipCflow - uma ferramenta para execução de algoritmos utilizando o modelo a fluxo de dados dinâmico em hardware reconfigurável",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+   "authors": "Joelmir José Lopes",
+   "url": "https://doi.org/10.11606/t.55.2012.tde-05122012-154304",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "MSSPACC: Sistema d'execució paral·lela d'aplicacions amb especulació sobre entorns distribuïts",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "authors": "Joan Puiggalí",
+   "url": "https://openalex.org/W2224732171",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Quality-driven model-based design of multi-processor accelerators : an application to LDPC decoders",
@@ -4327,6 +4622,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Contributions to the Design of Reliable and Programmable High-Performance Systems: Principles, Interfaces, Algorithms and Tools",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "HAL",
+   "authors": "Albert Cohen",
+   "url": "https://openalex.org/W2294869366",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Introducing Control Flow into Vectorized Code",
    "function": "detailed-citation",
    "split": "detailed",
@@ -4366,6 +4674,18 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Xingo: compilação para uma representação intermediaria executavel",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2004,
+   "authors": "Wesley Attrot",
+   "url": "https://doi.org/10.47749/t/unicamp.2004.304106",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Advanced Symbolic Analysis for Compilers",
@@ -4520,6 +4840,32 @@
    "evidence": "fulltext"
   },
   {
+   "title": "An Automated Evolutionary Modularization Approach for Performance-Aware Parallelization of Sequential Source Code",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Computers",
+   "authors": "Kamaran Adil Ibrahim, Habib Izadkhah, Jaber Karimpour",
+   "url": "https://doi.org/10.3390/computers15090606",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "The Canonical Parallel Form as a Substrate for Parallelizing Compilers and Agentic Optimizers",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Yakup Budanaz, Pratyai Mazumder, Alexandru Calotoiu et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.28724",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Practically Correct, Just-in-Time Shell Script Parallelization",
    "function": "passing-citation",
    "split": "passing",
@@ -4593,6 +4939,32 @@
    "authors": "G. Stitt, David Campbell",
    "url": "https://doi.org/10.1145/3391899",
    "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Code optimization based on source to source transformations using profile guided metrics",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Youenn Lebras",
+   "url": "https://doi.org/10.70675/51930b8cz6c07z419az81adzcba38210a8c5",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiler Optimization on Instruction Scheduling for a Specialized Real-Time Floating Point Soft-Core Processor",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "Advances in Electrical and Computer Engineering",
+   "authors": "Michael Kirchhoff, Lothar Wagner, Wolfgang Fengler",
+   "url": "https://doi.org/10.4316/aece.2019.03007",
+   "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
@@ -4728,6 +5100,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Supporting Applications Involving Irregular Accesses and Recursive Control Flow on Emerging Parallel Environments",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Xin Huo",
+   "url": "https://openalex.org/W2522207547",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A novel compiler support for automatic parallelization on multicore systems",
    "function": "passing-citation",
    "split": "passing",
@@ -4778,6 +5163,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Evaluating computational creativity: a standardised procedure for evaluating creative systems and its application",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "Kent Academic Repository (University of Kent)",
+   "authors": "Anna Jordanous",
+   "url": "https://openalex.org/W30239163",
+   "cited_by": 69,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Exploring Irregular Reduction Support in Transactional Memory",
@@ -4859,6 +5257,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Risky Thread Extraction: An Infrastructure For Aggressive Programmer Assisted Parallelization.",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+   "authors": "Ying Yu",
+   "url": "https://openalex.org/W2526611053",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "The Kremlin Oracle for Sequential Code Parallelization",
    "function": "passing-citation",
    "split": "passing",
@@ -4883,6 +5294,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "An Integrated Program Representation for Loop Optimizations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "University Libraries (University of Maryland)",
+   "authors": "Greeshma Yellareddy",
+   "url": "https://openalex.org/W2126475858",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Automatic transformation and optimization of applications on gpus and gpu clusters",
@@ -5610,6 +6034,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Run-time optimization of adaptive irregular applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2004,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Hao Yu",
+   "url": "https://openalex.org/W2741217114",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "The value evolution graph and its use in memory reference analysis",
    "function": "passing-citation",
    "split": "passing",
@@ -5670,6 +6107,18 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Symbolic algorithms for embedded system design",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "authors": "Giovanni De Micheli, Armita Peymandoust",
+   "url": "https://openalex.org/W2419157299",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
   },
   {
    "title": "Compiler and runtime support for irregular reductions on amultithreaded architecture",
@@ -6173,6 +6622,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Studies on memory consistency and synchronization : failure detection in parallel programs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1998,
+   "venue": "Spectrum Research Repository (Concordia University)",
+   "authors": "Taiqi Fu",
+   "url": "https://openalex.org/W427043642",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "Interactive Compilation and Performance Analysis with URSA MINOR",
    "function": "passing-citation",
    "split": "passing",
@@ -6573,6 +7035,20 @@
    "evidence": "contexts"
   },
   {
+   "title": "Data partitioning‐based parallel irregular reductions",
+   "function": "unknown",
+   "split": null,
+   "year": 2004,
+   "venue": "Concurrency and Computation Practice and Experience",
+   "authors": "Eladio Gutiérrez, Óscar Plata, Emilio L. Zapata",
+   "url": "https://doi.org/10.1002/cpe.769",
+   "cited_by": 9,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "M3T: Morphable Multithreaded Memory Tiles",
    "function": "unknown",
    "split": null,
@@ -6837,6 +7313,17 @@
    "evidence": "abstract"
   },
   {
+   "title": "Performance Evaluation of OSCAR Multi-target Automatic Parallelizing Compiler on Intel, AMD, Arm and RISC-V Multicores",
+   "function": "unclassified",
+   "split": null,
+   "year": 2022,
+   "venue": "Lecture notes in computer science",
+   "authors": "Birk Martin Magnussen, Tohma Kawasumi, Hiroki Mikami et al.",
+   "url": "https://doi.org/10.1007/978-3-030-99372-6_4",
+   "cited_by": 5,
+   "evidence": "title_only"
+  },
+  {
    "title": "Autotuning for Automatic Parallelization on Heterogeneous Systems",
    "function": "unclassified",
    "split": null,
@@ -6895,6 +7382,17 @@
    "authors": "Zheng Wang, Georgios Tournavitis, Björn Franke et al.",
    "url": "https://www.semanticscholar.org/paper/98baf96d7f2775266268e6d09c1f9bc8b1615c08",
    "cited_by": 76,
+   "evidence": "title_only"
+  },
+  {
+   "title": "The Journal of Supercomputing",
+   "function": "unclassified",
+   "split": null,
+   "year": 2013,
+   "venue": "The Journal of Supercomputing",
+   "authors": "Run-Time Support For, Bryan Chan",
+   "url": "https://doi.org/10.1007/11227.1573-0484",
+   "cited_by": 3,
    "evidence": "title_only"
   },
   {
@@ -7681,6 +8179,17 @@
    "authors": "M. Mudawwar",
    "url": "https://www.semanticscholar.org/paper/41f70775991f585e174b73efb9a49ab2a38abe38",
    "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Untitled",
+   "function": "unclassified",
+   "split": null,
+   "year": 2000,
+   "venue": "Design Automation for Embedded Systems",
+   "authors": "Tanja Van Achteren, Marleen Adé, Rudy Lauwereins et al.",
+   "url": "https://doi.org/10.1023/a:1008958303888",
+   "cited_by": 3,
    "evidence": "title_only"
   },
   {

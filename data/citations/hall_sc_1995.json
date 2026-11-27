@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "hall:sc:1995",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 222,
-  "works": 176,
+  "records_raw": 228,
+  "works": 182,
   "commit": 9,
-  "judged": 137,
+  "judged": 142,
   "gscholar": null
  },
  "citations": [
@@ -106,6 +106,22 @@
    "centrality": "core",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Evaluating the Scalability of SDF Single-chip Multiprocessor Architecture Using Automatically Parallelizing Code",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "University of North Texas Digital Library (University of North Texas)",
+   "authors": "Yuhua Zhang",
+   "url": "https://doi.org/10.12794/metadc4673",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Search Space Properties for Mapping Coarse-Grain Pipelined FPGA Applications",
@@ -395,6 +411,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "A DISSERTATION SUBMITTED TO THE DEPARTMENT OF MECHANICAL ENGINEERING AND THE COMMITTEE ON GRADUATE STUDIES OF STANFORD UNIVERSITY IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE DEGREE OF DOCTOR OF PHILOSOPHY",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 1995,
+   "authors": "Ming-Ju Edward Lee, W. Dally, Mark Horowitz",
+   "url": "https://www.semanticscholar.org/paper/e6c217e459f051042596700a5cc1d4aa4d85ba5e",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "detailed-citation"
+   ],
+   "evidence": "contexts"
+  },
+  {
    "title": "Translating imperative code to MapReduce",
    "function": "adopts-idea",
    "split": "detailed",
@@ -590,6 +622,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Toward automatic programming",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Cosmin Radoi",
+   "url": "https://openalex.org/W2922561674",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Improving QoS delivered by WS-BPEL scenario adaptation through service execution parallelization",
    "function": "supports-claim",
    "split": "detailed",
@@ -650,6 +695,19 @@
    "cited_by": 13,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Hybrid analysis of memory references and its application to automatic parallelization",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Silvius Rus",
+   "url": "https://openalex.org/W2287285612",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "fulltext"
   },
   {
@@ -1551,6 +1609,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "Exploiting reconfigurable heterogenous parallel architectures in a multitasking context",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "authors": "Δημήτριος Συρίβελης",
+   "url": "https://doi.org/10.12681/eadd/17425",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Pipeline-Based Partition Exploration for Heterogeneous Multiprocessor Synthesis",
    "function": "passing-citation",
    "split": "passing",
@@ -2343,6 +2413,17 @@
    "authors": "R. Van der Wijngaart",
    "url": "https://www.semanticscholar.org/paper/c574f7ccab846fc945198ee3446f675f2252f77e",
    "cited_by": 2,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Reducing Synchronization Overhead for Compiler-Parallelized Codes",
+   "function": "unclassified",
+   "split": null,
+   "year": 1997,
+   "venue": "Languages and Compilers for Parallel Computing",
+   "authors": "Hwansoo Han, Chau‐Wen Tseng, Peter J. Keleher",
+   "url": "https://openalex.org/W1506974975",
+   "cited_by": 1,
    "evidence": "title_only"
   },
   {

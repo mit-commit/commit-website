@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "ansel:pldi:2009",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 560,
-  "works": 443,
+  "records_raw": 600,
+  "works": 483,
   "commit": 15,
-  "judged": 374,
+  "judged": 408,
   "gscholar": null
  },
  "citations": [
@@ -455,6 +455,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "ApproxHPVM: A retargetable compiler framework for accuracy-aware optimizations",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Hashim Sharif",
+   "url": "https://openalex.org/W3201542600",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "ApproxTuner",
    "function": "positions",
    "split": "detailed",
@@ -499,6 +515,22 @@
    "confidence": "high",
    "secondary": [
     "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Implicit Programming and Formal Pragmatics",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "Rice Research Repository (Rice University)",
+   "authors": "Yao-Hsiang Yang",
+   "url": "https://openalex.org/W7203520372",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
    ],
    "evidence": "fulltext"
   },
@@ -625,6 +657,38 @@
    "confidence": "high",
    "secondary": [
     "detailed-citation",
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Programming Abstractions and Optimization Techniques for GPU-based Heterogeneous Systems",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2018,
+   "authors": "Lu Li",
+   "url": "https://doi.org/10.3384/diss.diva-145304",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Toward Performance Portability for CPUs and GPUs Through Algorithmic Compositions",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Li‐Wen Chang",
+   "url": "https://openalex.org/W2766965528",
+   "cited_by": 3,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
     "surveys"
    ],
    "evidence": "fulltext"
@@ -762,6 +826,35 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Cooperative auto-tuning of parallel skeletons",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "ERA",
+   "authors": "Alexander J. Collins",
+   "url": "https://openalex.org/W2473265757",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Decision Algebra: A General Approach to Learning and Using Classifiers",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "DiVA (Linnaeus University)",
+   "authors": "Antonina Danylenko",
+   "url": "https://openalex.org/W248032268",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Enhancing the Usability and Utilization of Accelerated Architectures via Docker",
    "function": "positions",
    "split": "detailed",
@@ -860,6 +953,22 @@
    "confidence": "high",
    "secondary": [
     "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Performance-aware component composition for GPU-based systems",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "Linköping University Electronic Press eBooks",
+   "authors": "Usman Dastgeer",
+   "url": "https://doi.org/10.3384/diss.diva-104310",
+   "cited_by": 10,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
    ],
    "evidence": "fulltext"
   },
@@ -1058,6 +1167,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Program generation for Intel AES new instructions",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "Trinity's Access to Research Output (TARA) (Trinity College Dublin)",
+   "authors": "Raymond Manley",
+   "url": "https://openalex.org/W2835520238",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Patterns and statistical analysis for understanding reduced resource computing",
    "function": "positions",
    "split": "detailed",
@@ -1066,6 +1188,22 @@
    "authors": "Martin Rinard, Henry Hoffmann, Saša Misailovíc et al.",
    "url": "https://doi.org/10.1145/1932682.1869525",
    "cited_by": 44,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Tuning parallel applications in parallel",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "Parallel Computing",
+   "authors": "Ananta Tiwari, Vahid Tabatabaee, Jeffrey K. Hollingsworth",
+   "url": "https://doi.org/10.1016/j.parco.2009.07.001",
+   "cited_by": 25,
    "centrality": "engaged",
    "confidence": "high",
    "secondary": [
@@ -1116,6 +1254,22 @@
    "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Toward transparent and parsimonious methods for automatic performance tuning",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "theses.fr (ABES)",
+   "authors": "Pedro Bruel",
+   "url": "https://doi.org/10.70675/cd9bbcb1zcac6z43aezb392z14c267ac9796",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -1208,6 +1362,22 @@
     "exemplifies"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Compilation and optimizations for variable precision floating-Point arithmetic : from language and libraries to code generation",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "theses.fr (ABES)",
+   "authors": "Tiago Trevisan Jost",
+   "url": "https://doi.org/10.70675/1400bf0fz9becz42c3z9080z9fc1851cb850",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A Survey on Compiler Autotuning using Machine Learning",
@@ -1422,6 +1592,64 @@
    "evidence": "contexts"
   },
   {
+   "title": "PAK-MAN: Enhancing Parallel Bayesian Optimization of Cloud and HPC Systems via Machine Learning",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Lecture notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering",
+   "authors": "Leonardo Barone, Bruno Guindani, Roberto Sala et al.",
+   "url": "https://doi.org/10.1007/978-3-032-06818-7_18",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "RAAS: Runtime Adaptive Approximation System",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Concurrency and Computation Practice and Experience",
+   "authors": "Lucas Reis, Sandro Rigo, Lucas Wanner",
+   "url": "https://doi.org/10.1002/cpe.70797",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "ApproxTuner 2.0: Towards quality-driven approximation tuning",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Vidhi Rambhia",
+   "url": "https://openalex.org/W7220773997",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Self-adaptable operational semantics",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "theses.fr (ABES)",
+   "authors": "Gwendal Jouneaux",
+   "url": "https://doi.org/10.70675/ff8907ebzb70cz4fbdzad39z2513988c524c",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Towards Just-In-Time Software Approximations",
    "function": "exemplifies",
    "split": "passing",
@@ -1620,6 +1848,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Toward Floating-Point Run-time Variable Precision in CPU-based Architectures",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "theses.fr (ABES)",
+   "authors": "N. Ait Said",
+   "url": "https://doi.org/10.70675/8b9a1228z8bd2z417bz8c2eza11d0d7ac8f3",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Context-Aware Library for Mathematical Approximations",
    "function": "exemplifies",
    "split": "passing",
@@ -1758,6 +1999,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Automatic generation of adaptive codes",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Maxime Schmitt",
+   "url": "https://doi.org/10.70675/a6e96f95z16c1z4560zbda2zf1737e80a211",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Autotuning Under Tight Budget Constraints: A Transparent Design of Experiments Approach",
    "function": "exemplifies",
    "split": "passing",
@@ -1797,6 +2054,21 @@
    "evidence": "abstract"
   },
   {
+   "title": "A framework for context-aware approximate computing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2018,
+   "authors": "Roberto Alejandro Hidalgo Castro",
+   "url": "https://doi.org/10.47749/t/unicamp.2018.1021824",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Framework for Variable Quality in Applications through Context-Aware Approximate Computing",
    "function": "exemplifies",
    "split": "passing",
@@ -1808,6 +2080,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Adaptive Knobs for Resource Efficient Computing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2018,
+   "venue": "UTUPub (University of Turku)",
+   "authors": "Anil Kanduri",
+   "url": "https://doi.org/10.13140/rg.2.2.33163.34085",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Analytics with smart arrays",
@@ -1878,6 +2163,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "Fast static analysis for compile-time restructuring of application parallelism on Graphics Processing Units",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2018,
+   "authors": "Nicolai Stawinoga",
+   "url": "https://doi.org/10.25560/73865",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Self-Adaptive Solutions for Managing Performance and Power Consumption of Parallel Applications",
    "function": "exemplifies",
    "split": "passing",
@@ -1888,6 +2185,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Software Mechanisms for Pervasive and Autonomous Computing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2018,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Salma Elmalaki",
+   "url": "https://openalex.org/W2976946164",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "The Case for a Unified Framework for Deployment-Time Optimization",
@@ -1965,6 +2275,19 @@
    "authors": "Feng Zhang, Jidong Zhai, Xipeng Shen et al.",
    "url": "https://doi.org/10.1145/3205289.3205325",
    "cited_by": 30,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Linear Algebra Compiler for Small Problem Sizes",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2017,
+   "venue": "Repository for Publications and Research Data (ETH Zurich)",
+   "authors": "Daniele G. Spampinato",
+   "url": "https://doi.org/10.3929/ethz-b-000168796",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -2482,6 +2805,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Commensal compiler for high-performance stream programming",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Jeffrey Bosboom",
+   "url": "https://openalex.org/W7139310983",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Control strategies for predictable brownouts in cloud computing",
    "function": "exemplifies",
    "split": "passing",
@@ -2688,6 +3024,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "Automatic Tuning and Software Modularization Techniques for Optimized Large Scale Data Analytics",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "authors": "Miyuru Dayarathna",
+   "url": "https://openalex.org/W2512578715",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "Hidp: A hierarchical data parallel language",
    "function": "exemplifies",
    "split": "passing",
@@ -2800,6 +3148,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "ViperVM: a Runtime System for Parallel Functional High-Performance Computing on Heterogeneous Architectures",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "venue": "HAL",
+   "authors": "Sylvain Henry, Sylvain Henry",
+   "url": "https://openalex.org/W4298838783",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A multi-objective auto-tuning framework for parallel codes",
@@ -3252,6 +3613,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Models and Methods for Development of DSP Applications on Manycore Processors",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "venue": "Hogskolan Ihalmstad (Halmstad University)",
+   "authors": "Jerker Bengtsson",
+   "url": "https://openalex.org/W2171863405",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Using Code Perforation to Improve Performance, Reduce Energy Consumption, and Respond to Failures",
    "function": "exemplifies",
    "split": "passing",
@@ -3301,6 +3675,18 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Cross-Abstraction Equality Saturation for Idiom Recognition and Hardware Sharing",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "authors": "Jonathan Van der Cruysse",
+   "url": "https://doi.org/10.82308/55853",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Functional Approximation and Approximate Parallelization with the ACCEPT compiler",
@@ -3501,6 +3887,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "GPU Array Access Auto-Tuning",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "TUbilio (Technical University of Darmstadt)",
+   "authors": "Weber, Nicolas",
+   "url": "https://doi.org/10.26083/tuprints-00006507",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Online-Autotuning in the Presence of Algorithmic Choice",
    "function": "extends",
    "split": "detailed",
@@ -3640,6 +4042,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Architectural support for irregular programs and performance monitoring for heterogeneous systems",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "Digital Repository Service (Northeastern University)",
+   "authors": "Perhaad Mistry",
+   "url": "https://doi.org/10.17760/d20005005",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Bridging the Performance Gap between Manual and Automatic Compilers with Intent-based Compilation",
@@ -4004,6 +4419,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "On reliability and flexibility of scientific software in environmental science : towards a systematic approach to support decision-making",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "June Sallou",
+   "url": "https://doi.org/10.70675/69493707z0d77z4b23zb9c9z99fa621838fa",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Implementation of Approximate Computing Circuits for Error Tolerant Image Processing Applications",
    "function": "passing-citation",
    "split": "passing",
@@ -4291,6 +4719,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Cross-Stack Co-Design for Efficient and Adaptable Hardware Acceleration",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Thierry Moreau",
+   "url": "https://openalex.org/W2946357667",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Decoupling Algorithms and Optimizations in Network Functions",
    "function": "passing-citation",
    "split": "passing",
@@ -4447,6 +4888,32 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Contributions on approximate computing techniques and how to measure them",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "theses.fr (ABES)",
+   "authors": "Marcelino Rodriguez-Cancio",
+   "url": "https://doi.org/10.70675/3fd5a8d3zdfa3z44dcz91b7z8cd2aa543eee",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Efficient execution of irregular programs on heterogeneous systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "Texas ScholarWorks (Texas Digital Library)",
+   "authors": "Rashid Kaleem",
+   "url": "https://doi.org/10.15781/t27w67n4t",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Exploiting Heterogeneous Parallel Accelerators to Improve Performance in Graph Analytics",
@@ -4742,6 +5209,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Hardware and Software for Approximate Computing",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Adrian Sampson",
+   "url": "https://openalex.org/W2598305263",
+   "cited_by": 31,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "HetroCV: Auto-tuning Framework and Runtime for Image Processing and Computer Vision Applications on Heterogeneous Platform",
@@ -5629,6 +6109,42 @@
    "evidence": "abstract"
   },
   {
+   "title": "Notification",
+   "function": "unknown",
+   "split": null,
+   "year": 2008,
+   "venue": "Definitions",
+   "authors": "Vahnessa Espig",
+   "url": "https://doi.org/10.2116/analsci.24.435",
+   "cited_by": 80,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "RA-SpMM: Regime-aware sparse matrix multiplication for GNN workloads on GPUs",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Future Generation Computer Systems",
+   "authors": "Tariq Habib Afridi, Young-Koo Lee",
+   "url": "https://doi.org/10.1016/j.future.2026.108859",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Approximate Computing at the Algorithmic Level",
+   "function": "unclassified",
+   "split": null,
+   "year": 2022,
+   "venue": "Springer eBooks",
+   "authors": "Justine Bonnot, Alexandre Mercat, Erwan Nogues et al.",
+   "url": "https://doi.org/10.1007/978-3-030-94705-7_5",
+   "cited_by": 6,
+   "evidence": "title_only"
+  },
+  {
    "title": "Cost-effective fixed-point hardware support for RISC-V embedded systems",
    "function": "unclassified",
    "split": null,
@@ -5712,6 +6228,17 @@
    "evidence": "title_only"
   },
   {
+   "title": "Dark Silicon and the History of Computing",
+   "function": "unclassified",
+   "split": null,
+   "year": 2018,
+   "venue": "Advances in computers",
+   "authors": "Pejman Lotfi-Kamran, Hamid Sarbazi‐Azad",
+   "url": "https://doi.org/10.1016/bs.adcom.2018.03.001",
+   "cited_by": 6,
+   "evidence": "title_only"
+  },
+  {
    "title": "Enforcing Abstract Immutability",
    "function": "unclassified",
    "split": null,
@@ -5761,6 +6288,17 @@
    "authors": "Amir Yazdanbakhsh, J. Park, Hardik Sharma et al.",
    "url": "https://doi.org/10.1016/b978-0-12-803738-6.00016-1",
    "cited_by": 1,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Additional topics",
+   "function": "unclassified",
+   "split": null,
+   "year": 2017,
+   "venue": "Elsevier eBooks",
+   "authors": "João M. P. Cardoso, José G. F. Coutinho, Pedro C. Diniz",
+   "url": "https://doi.org/10.1016/b978-0-12-804189-5.00008-9",
+   "cited_by": 11,
    "evidence": "title_only"
   },
   {
@@ -5931,6 +6469,17 @@
    "year": 2013,
    "authors": "W. Tichy",
    "url": "https://www.semanticscholar.org/paper/99088dd2c1cc4ddd5e4dae89828e85ed8e9227bc",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Adaptive Software",
+   "function": "unclassified",
+   "split": null,
+   "year": 2012,
+   "venue": "Springer eBooks",
+   "authors": "Ronaldo Rodrigues Ferreira, Luigi Carro",
+   "url": "https://doi.org/10.1007/978-1-4614-1746-0_9",
    "cited_by": 0,
    "evidence": "title_only"
   },

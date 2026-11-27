@@ -1,16 +1,32 @@
 {
  "schema": 1,
  "key": "og-cgo20",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 60,
-  "works": 56,
+  "records_raw": 65,
+  "works": 61,
   "commit": 8,
-  "judged": 51,
+  "judged": 56,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Portable Parallel Algorithms and Frameworks for Exascale Graph Analytics",
+   "function": "extends",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+   "authors": "Julian Shun, Massachusetts Inst. of Tech., Cambridge, MA (United States)",
+   "url": "https://doi.org/10.2172/3012453",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "Compiling Graph Applications for GPU s with GraphIt",
    "function": "extends",
@@ -259,6 +275,23 @@
    "evidence": "fulltext"
   },
   {
+   "title": "A Speculative Hardware Scheduler Supporting Priority Updates",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Gilead Posluns",
+   "url": "https://openalex.org/W7133012412",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Toward Efficient Asynchronous Single-Source Shortest Path",
    "function": "supports-claim",
    "split": "detailed",
@@ -270,6 +303,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Optimizing Emerging Graph Applications Using Hardware-Software Co-Design",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Nishil Talati",
+   "url": "https://doi.org/10.7302/6832",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Software-defined floating-point number formats and their application to graph processing",
@@ -312,6 +358,23 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Mind the Gap: The Disconnect Between Synthetic and Natural Edge Weights in Parallel Single-Source Shortest Path",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "IEEE International Symposium on Workload Characterization",
+   "authors": "Marco D’Antonio, Thai Son Mai, Hans Vandierendonck",
+   "url": "https://doi.org/10.1109/iiswc71020.2026.00034",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "uses-benchmark",
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "WSGraph: A Framework for Tackling Redundant and Irregular Data Access in Streaming Graph Processing",
@@ -565,6 +628,19 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Semantic Relaxation of Concurrent Data Structures: Efficient and Elastic Designs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Chalmers Research (Chalmers University of Technology)",
+   "authors": "Kåre von Geijer",
+   "url": "https://openalex.org/W7205075800",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "fulltext"
   },
   {

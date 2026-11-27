@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "zhang:bigdata:2017",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 163,
-  "works": 149,
+  "records_raw": 188,
+  "works": 174,
   "commit": 11,
-  "judged": 125,
+  "judged": 146,
   "gscholar": null
  },
  "citations": [
@@ -37,6 +37,19 @@
    "url": "https://doi.org/10.1109/tpds.2025.3547356",
    "cited_by": 3,
    "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Accelerating Sequential Circuit Simulation with Spatial Locality Enhancement and Redundant Event Reduction",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Proceedings - Asian Test Symposium/Proceedings",
+   "authors": "J. F. Tang, Zizhen Liu, Jianan Mu et al.",
+   "url": "https://doi.org/10.1109/ats64447.2024.10915319",
+   "cited_by": 1,
+   "centrality": "engaged",
    "confidence": "medium",
    "evidence": "fulltext"
   },
@@ -199,6 +212,19 @@
    "secondary": [
     "exemplifies"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Fast Iterative Graph Computing with Updated Neighbor States",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "IEEE International Conference on Data Engineering (ICDE)",
+   "authors": "Yijie Zhou, Shufeng Gong, Yao Feng et al.",
+   "url": "https://doi.org/10.1109/icde60146.2024.00193",
+   "cited_by": 5,
+   "centrality": "engaged",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -558,6 +584,38 @@
    "evidence": "contexts"
   },
   {
+   "title": "ReCALL: Reordered Cache Aware Locality Based Graph Processing",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "IEEE International Conference on High Performance Computing, Data, and Analytics",
+   "authors": "Kartik Lakhotia, Shreyas G. Singapura, Rajgopal Kannan et al.",
+   "url": "https://doi.org/10.1109/hipc.2017.00039",
+   "cited_by": 39,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Reducing Pagerank Communication via Propagation Blocking",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+   "authors": "Scott Beamer, Krste Asanović, David A. Patterson",
+   "url": "https://doi.org/10.1109/ipdps.2017.112",
+   "cited_by": 94,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Survey of Graph Pre-processing Methods: From Algorithmic to Hardware Perspectives",
    "function": "surveys",
    "split": "detailed",
@@ -587,6 +645,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "The GraphGrind Framework: Fast Graph Analytics on Large Shared-Memory Systems",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Research Portal (Queen's University Belfast)",
+   "authors": "Jiawen Sun",
+   "url": "https://doi.org/10.17034/32862893",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "UpDown: A Supercomputer Co-Designed for Scalable Graph Processing",
    "function": "supports-claim",
    "split": "detailed",
@@ -610,6 +681,19 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "GRACE: An End-to-End Graph Processing Accelerator on FPGA With Graph Reordering Engine",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+   "authors": "Haishuang Fan, Rui Meng, Qichu Sun et al.",
+   "url": "https://doi.org/10.1109/tcad.2025.3555192",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "fulltext"
   },
   {
@@ -640,6 +724,22 @@
    "confidence": "medium",
    "secondary": [
     "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Interaction between computer architecture and artificial intelligence",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+   "authors": "Alexandre Valentin Jamet",
+   "url": "https://doi.org/10.5821/dissertation-2117-452757",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
    ],
    "evidence": "fulltext"
   },
@@ -680,6 +780,19 @@
    "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Characterizing the impact of graph-processing workloads on modern CPU’s cache hierarchy",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+   "authors": "Valentin Jamet, Alexandre, Alvarez, Lluc, Marc Casas",
+   "url": "https://openalex.org/W7113257763",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -880,6 +993,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "A Locality-Activated Matrix Reordering Framework for SpMV",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Mathematics",
+   "authors": "Qi Zhang, Zhengan Yao, Zhenglu Jiang et al.",
+   "url": "https://doi.org/10.3390/math14132428",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "Rebo: Locality-Aware Graph Processing via Reordering and Blocking",
    "function": "exemplifies",
    "split": "passing",
@@ -922,6 +1048,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "SoK: The Faults in our Graph Benchmarks",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Puneet Mehrotra, Vaastav Anand, Daniel Margo et al.",
+   "url": "https://doi.org/10.48550/arxiv.2404.00766",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Accelerating Parallel Applications Based on Graph Reordering for Random Network Topologies",
    "function": "exemplifies",
    "split": "passing",
@@ -962,6 +1104,32 @@
     "supports-claim"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Processing graphs and sparse matrices efficiently",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Şerif Yeşil",
+   "url": "https://openalex.org/W7220817782",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Software/Hardware Co-design of 3D NoC-based GPU Architectures for Accelerated Graph Computations",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2022,
+   "venue": "ACM Transactions on Design Automation of Electronic Systems",
+   "authors": "Dwaipayan Choudhury, Reet Barik, Aravind Sukumaran-Rajam et al.",
+   "url": "https://doi.org/10.1145/3514354",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Efficient Execution of Graph Algorithms on CPU with SIMD Extensions",
@@ -1092,6 +1260,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Locality Optimizations and Analysis for Storage Hierarchies of Graph Databases",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "UWSpace (University of Waterloo)",
+   "authors": "Zeynep Korkmaz",
+   "url": "https://openalex.org/W7235822403",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Can Graph Reordering Speed Up Graph Neural Network Training? An Experimental Study",
    "function": "detailed-citation",
    "split": "detailed",
@@ -1212,6 +1396,48 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "I/O-Efficient Graph Analytics on SSD via Activity-Aware Preprocessing",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "Xianghao Xu, Yucheng Zhang, Junlong Zhou et al.",
+   "url": "https://doi.org/10.1109/tpds.2026.3732293",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Ligra-DAT: Graph-Level Edge-Density-Based Threshold Selection for Ligra",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Tsinghua Science & Technology",
+   "authors": "Zhaoqin Ban, Xinxin Yang, Dapeng Fu et al.",
+   "url": "https://doi.org/10.26599/tst.2026.9010089",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "UltraGNN: A Sparse-Operator-Aware Framework for Accelerating Graph Neural Networks on Tensor Cores",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "Jinliang Shi, Shigang Li, Rongtian Fu et al.",
+   "url": "https://doi.org/10.1109/tpds.2026.3734005",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -1397,6 +1623,32 @@
    "commit": true
   },
   {
+   "title": "Fine-grained memory access over I/O interconnect for efficient remote sparse data access",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Seung Won Min",
+   "url": "https://openalex.org/W7220811051",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimizing Emerging Graph Applications Using Hardware-Software Co-Design",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Nishil Talati",
+   "url": "https://doi.org/10.7302/6832",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Scaling graph traversal to 281 trillion edges with 40 million cores",
    "function": "passing-citation",
    "split": "passing",
@@ -1474,6 +1726,19 @@
     "date": "2026-10-12",
     "evidence": "Title/abstract: “GraphIt programming language”"
    }
+  },
+  {
+   "title": "Designing and Developing Interactive Big Data Decision Support Systems for Performance, Scalability, Availability and Consistency",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "DalSpace (Dalhousie University)",
+   "authors": "Neil Burke",
+   "url": "https://openalex.org/W3165543377",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Dynamic Sparse Tensor Algebra Compilation",
@@ -1732,6 +1997,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Vertex Reordering for Real-World Graphs and Applications: An Empirical Evaluation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "IEEE International Symposium on Workload Characterization",
+   "authors": "Reet Barik, Marco Minutoli, Mahantesh M. Halappanavar et al.",
+   "url": "https://doi.org/10.1109/iiswc50251.2020.00031",
+   "cited_by": 31,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Επέκταση των τεχνικών δρομολόγησης του προγραμματιστικού μοντέλου OpenMP",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "DSpace - NTUA (National Technical University of Athens)",
+   "authors": "Δημήτρης Γαλανόπουλος",
+   "url": "https://doi.org/10.26240/heal.ntua.18767",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A GraphBLAS Approach for Subgraph Counting",
    "function": "passing-citation",
    "split": "passing",
@@ -1913,6 +2204,32 @@
    "evidence": "fulltext"
   },
   {
+   "title": "GoGraph: Accelerating Graph Processing Through Incremental Reordering",
+   "function": "unknown",
+   "split": null,
+   "year": 2025,
+   "venue": "IEEE Transactions on Knowledge and Data Engineering",
+   "authors": "Yijie Zhou, Shufeng Gong, Feng Yao et al.",
+   "url": "https://doi.org/10.1109/tkde.2025.3623928",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Proceedings of the 1st FastCode Programming Challenge",
+   "function": "unknown",
+   "split": null,
+   "year": 2025,
+   "url": "https://doi.org/10.1145/3711708",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "StarDist: A Code Generator for Distributed Graph Algorithms",
    "function": "unknown",
    "split": null,
@@ -2067,6 +2384,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Squeezing out all the value of loaded data: an out-of-core graph processing system with reduced disk I/O",
+   "function": "unknown",
+   "split": null,
+   "year": 2017,
+   "venue": "USENIX Annual Technical Conference",
+   "authors": "Zhiyuan Ai, Mingxing Zhang, Yongwei Wu et al.",
+   "url": "https://openalex.org/W2742149362",
+   "cited_by": 68,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Untitled",
    "function": "unknown",
    "split": null,
@@ -2087,6 +2418,17 @@
    "authors": "Jie Hu, Hongqun Yang, Fei Teng et al.",
    "url": "https://doi.org/10.1016/j.patcog.2024.110783",
    "cited_by": 18,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Fargraph+: Excavating the parallelism of graph processing workload on RDMA-based far memory system",
+   "function": "unclassified",
+   "split": null,
+   "year": 2023,
+   "venue": "Journal of Parallel and Distributed Computing",
+   "authors": "Jing Wang, Chao Li, Yibo Liu et al.",
+   "url": "https://doi.org/10.1016/j.jpdc.2023.02.015",
+   "cited_by": 6,
    "evidence": "title_only"
   },
   {

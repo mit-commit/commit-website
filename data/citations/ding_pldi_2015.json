@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "ding:pldi:2015",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 156,
-  "works": 120,
+  "records_raw": 172,
+  "works": 136,
   "commit": 1,
-  "judged": 91,
+  "judged": 103,
   "gscholar": null
  },
  "citations": [
@@ -107,6 +107,22 @@
     "positions"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Understanding and managing performance and energy consumption of applications with design space exploration",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "theses.fr (ABES)",
+   "authors": "Lana Scravaglieri",
+   "url": "https://doi.org/10.70675/cc6069d9z5594z4e49z989ezbc11321cb961",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "ApproxTuner",
@@ -245,6 +261,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Background",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "SpringerBriefs in applied sciences and technology",
+   "authors": "Amir Hossein Ashouri, Gianluca Palermo, John Cavazos et al.",
+   "url": "https://doi.org/10.1007/978-3-319-71489-9_1",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Accelerating relax-ordered task-parallel workloads using multi-level dependency checking",
    "function": "supports-claim",
    "split": "detailed",
@@ -274,6 +303,32 @@
    "evidence": "fulltext"
   },
   {
+   "title": "autotuning with machine learning of OpenMP task applications",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Luís Felipe Garlet Millani",
+   "url": "https://doi.org/10.70675/d96e045ezfde7z4a41z9aeezd80e574485a3",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Toward auto-configuration in software networks",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Wassim Sellil Atoui",
+   "url": "https://doi.org/10.70675/63932af6z2d36z43aezab7dz756af9f6d8c9",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "End-to-End Deep Learning of Optimization Heuristics",
    "function": "supports-claim",
    "split": "detailed",
@@ -297,6 +352,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Bayesian Multi-Level Performance Models for Multi-Factor Variability of Configurable Software Systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+   "authors": "Johannes Dorn, Stefan Mühlbauer, Stefan Jahns et al.",
+   "url": "https://doi.org/10.1145/3744916.3773131",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A Few Fit Most: Improving Performance Portability of SGEMM on GPUs using Multi-Versioning",
@@ -530,6 +601,25 @@
    "evidence": "contexts"
   },
   {
+   "title": "2F4T : Audio et retour de force pour l'exploration non visuelle d'une oeuvre d'art",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2017,
+   "venue": "Nottingham Trent University's Institutional Repository (Nottingham Trent Repository)",
+   "authors": "A Capiluppi, N Ajienka, N Ali et al.",
+   "url": "https://doi.org/10.1145/3652988.3696202",
+   "cited_by": 182,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "surveys"
+   ],
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Machine Learning Approach to Automatic Creation of Architecture-Sensitive Performance Heuristics",
    "function": "exemplifies",
    "split": "passing",
@@ -648,6 +738,19 @@
     "exemplifies"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Automatic generation of adaptive codes",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Maxime Schmitt",
+   "url": "https://doi.org/10.70675/a6e96f95z16c1z4560zbda2zf1737e80a211",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "COBAYN: Compiler Autotuning Framework using Bayesian Networks ACM Transactions on Architecture and Code Optimization",
@@ -806,6 +909,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Deep software variability for resilient performance models of configurable systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "theses.fr (ABES)",
+   "authors": "Luc Lesoil",
+   "url": "https://doi.org/10.70675/cd45636fz2bf1z45f2zb988zc6c6f7366971",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic Source-to-Source Optimizations using Machine Learning",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Maksim Berezov",
+   "url": "https://doi.org/10.70675/ba1152c7zadfaz4d0fzb08fz0f218d038f2a",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Automating reinforcement learning architecture design for code optimization",
    "function": "passing-citation",
    "split": "passing",
@@ -843,6 +972,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Programming systems for safe and accurate parallel programs in the face of uncertainty",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Vimuth Fernando",
+   "url": "https://openalex.org/W7220782842",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "ApproxHPVM: A retargetable compiler framework for accuracy-aware optimizations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Hashim Sharif",
+   "url": "https://openalex.org/W3201542600",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Automatic Optimization of Matrix Implementations for Distributed Machine Learning and Linear Algebra",
@@ -1017,6 +1172,19 @@
    "authors": "Benjamin Welton, Barton P. Miller",
    "url": "https://doi.org/10.1145/3392717.3392759",
    "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Many-core and heterogeneous architectures: programming models and compilation toolchains",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "PORTO@Iris",
+   "authors": "Francesco Barchi",
+   "url": "https://openalex.org/W7219335181",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -1332,6 +1500,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Making the Most of Scarce Input Data in Deep Learning-Based Source Code Classification for Heterogeneous Device Mapping",
+   "function": "unknown",
+   "split": null,
+   "year": 2021,
+   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+   "authors": "Emanuele Parisi, Francesco Barchi, Andrea Bartolini et al.",
+   "url": "https://doi.org/10.1109/tcad.2021.3114617",
+   "cited_by": 8,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Heterogeneous parallel virtual machine: A portable program representation and compiler for performance and energy optimizations on heterogeneous parallel systems",
    "function": "unknown",
    "split": null,
@@ -1363,6 +1545,20 @@
    "url": "https://doi.org/10.48550/arxiv.2008.06991",
    "cited_by": 1,
    "evidence": "abstract"
+  },
+  {
+   "title": "Chirp Generators for Millimeter-Wave FMCW Radars",
+   "function": "unknown",
+   "split": null,
+   "year": 2019,
+   "venue": "SpringerBriefs in applied sciences and technology",
+   "authors": "Dmytro Cherniak, Salvatore Levantino",
+   "url": "https://doi.org/10.1007/978-3-030-32094-2_3",
+   "cited_by": 3,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Dynamic Application Autotuning for Self-aware Approximate Computing",
@@ -1514,6 +1710,17 @@
    "evidence": "contexts"
   },
   {
+   "title": "Consumption and Runtime Automatic Software Performance Optimization on Android Smartphones",
+   "function": "unclassified",
+   "split": null,
+   "year": 2025,
+   "venue": "Communications in computer and information science",
+   "authors": "Carlos Benito Jareño, Juan Carlos de la Torre, Patricia Ruiz et al.",
+   "url": "https://doi.org/10.1007/978-3-031-98235-4_13",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
    "title": "Input sensitivity on the performance of configurable systems an empirical study",
    "function": "unclassified",
    "split": null,
@@ -1614,6 +1821,16 @@
    "venue": "Advances in computers",
    "authors": "Abdullah Alourani, Md. Abu Naser Bikas, Mark Grechanik",
    "url": "https://doi.org/10.1016/bs.adcom.2016.04.002",
+   "cited_by": 2,
+   "evidence": "title_only"
+  },
+  {
+   "title": "SpringerBriefs in Applied Sciences and Technology",
+   "function": "unclassified",
+   "split": null,
+   "year": 2014,
+   "authors": "PoliMI SpringerBriefs",
+   "url": "https://www.semanticscholar.org/paper/1e46852a2757bb49b202cdd8a7829b111f14a0c1",
    "cited_by": 2,
    "evidence": "title_only"
   },

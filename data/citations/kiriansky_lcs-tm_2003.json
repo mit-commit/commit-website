@@ -1,0 +1,103 @@
+{
+ "schema": 1,
+ "key": "kiriansky:lcs-tm:2003",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 6,
+  "works": 6,
+  "commit": 1,
+  "judged": 5,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Machine Learning in Security Vulnerability Research",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "CUB Ph.D. Dissertations (Corvinus University of Budapest)",
+   "authors": "Gábor Selján",
+   "url": "https://doi.org/10.14267/phd.2025042",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Speculative Buffer Overflows: Attacks and Defenses",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "arXiv",
+   "authors": "Vladimir Kiriansky, Carl A. Waldspurger",
+   "url": "https://doi.org/10.48550/arxiv.1807.03757",
+   "cited_by": 239,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Efficient, transparent, and comprehensive runtime code manipulation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Derek L. Bruening, Saman P. Amarasinghe",
+   "url": "https://openalex.org/W2155943969",
+   "cited_by": 356,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "Protection mechanisms against control-flow hijacking attacks",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "authors": "João Batista Corrêa Gomes Moreira",
+   "url": "https://doi.org/10.47749/t/unicamp.2016.979871",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Leveraging Optimization Methods for Dynamically Assisted Control-Flow Integrity Mechanisms",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD)",
+   "authors": "João Augusto Moreira, Lucas Teixeira, Edson Borin et al.",
+   "url": "https://doi.org/10.1109/sbac-pad.2014.35",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Efficient, Verifiable Binary Sandboxing for a CISC Architecture",
+   "function": "unknown",
+   "split": null,
+   "year": 2005,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Stephen McCamant, Greg Morrisett",
+   "url": "https://openalex.org/W2270183489",
+   "cited_by": 32,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  }
+ ]
+}

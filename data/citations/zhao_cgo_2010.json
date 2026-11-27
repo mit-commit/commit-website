@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "zhao:cgo:2010",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 87,
-  "works": 63,
+  "records_raw": 92,
+  "works": 68,
   "commit": 5,
-  "judged": 50,
+  "judged": 54,
   "gscholar": null
  },
  "citations": [
@@ -139,6 +139,22 @@
    ],
    "evidence": "contexts",
    "commit": true
+  },
+  {
+   "title": "Performance Debugging Toolbox for Binaries : Sensitivity Analysis and Dependence Profiling",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Fabian Gruber",
+   "url": "https://doi.org/10.70675/e31b6734z69bfz482fz8d3czc33ab7e6c035",
+   "cited_by": 5,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A case for unlimited watchpoints",
@@ -426,6 +442,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Addressing parallel application memory consumption",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Warwick Research Archive Portal (University of Warwick)",
+   "authors": "O. F. J. Perks",
+   "url": "https://doi.org/10.82444/warw.33634789",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Wasabi",
    "function": "detailed-citation",
    "split": "detailed",
@@ -573,6 +602,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Tools and Language Elements for Testing, Encapsulation and Controlling Abstraction in Large Scale C++ Projects",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "Eötvös Loránd Tudományegyetem",
+   "authors": "Gábor Márton",
+   "url": "https://doi.org/10.15476/elte.2019.084",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An Event-Based Language for Programmable Debugging",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Serguei Makarov",
+   "url": "https://openalex.org/W2890671018",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Enforcing Abstract Immutability",
@@ -771,6 +826,20 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Kremlin: rethinking and rebooting gprof for the multicore age",
+   "function": "unknown",
+   "split": null,
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Saturnino Garcia, Dong‐Hwan Jeon, Christopher M. Louie et al.",
+   "url": "https://doi.org/10.1145/2345156.1993553",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Parallel speedup estimates for serial programs",

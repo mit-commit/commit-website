@@ -1,0 +1,159 @@
+{
+ "schema": 1,
+ "key": "larsen:lcs-tm:2001",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 11,
+  "works": 11,
+  "commit": 0,
+  "judged": 7,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Compiler optimizations for processors with SIMD instructions",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "Software Practice and Experience",
+   "authors": "Ivan Pryanishnikov, Andreas Krall, Nigel Horspool",
+   "url": "https://doi.org/10.1002/spe.751",
+   "cited_by": 11,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Empirically Tuning HPC Kernels with iFKO",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "Louisiana State University",
+   "authors": "Md Majedul Haque Sujon",
+   "url": "https://doi.org/10.31390/gradschool_dissertations.4427",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Performance Impact of Unaligned Memory Operations in SIMD Extensions for Video Codec Applications",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+   "authors": "Mauricio A. Álvarez, Esther Salamí, Alex Ramírez et al.",
+   "url": "https://doi.org/10.1109/ispass.2007.363737",
+   "cited_by": 36,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Code optimization based on source to source transformations using profile guided metrics",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Youenn Lebras",
+   "url": "https://doi.org/10.70675/51930b8cz6c07z419az81adzcba38210a8c5",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Task sampling: computer architecture simulation in the many-core era",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Majedul Haque Sujon, R. Clint Whaley, Qing Yi",
+   "url": "https://doi.org/10.1109/pact.2013.6618831",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Parallel video decoding",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+   "authors": "Mauricio Álvarez-Mesa",
+   "url": "https://doi.org/10.5821/dissertation-2117-94561",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Vectorizing for a SIMdD DSP architecture",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "venue": "International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES)",
+   "authors": "Dorit Naishlos, Marina Biberstein, Shay Ben-David et al.",
+   "url": "https://doi.org/10.1145/951710.951714",
+   "cited_by": 73,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Vectorization past dependent branches through speculation",
+   "function": "unknown",
+   "split": null,
+   "year": 2013,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+   "authors": "Majedul Haque Sujon, R. Clint Whaley, Qing Yi",
+   "url": "https://doi.org/10.5555/2523721.2523769",
+   "cited_by": 12,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "The New C Standard (Excerpted material) An Economic and Cultural Commentary",
+   "function": "unknown",
+   "split": null,
+   "year": 2008,
+   "authors": "Derek M. Jones",
+   "url": "https://openalex.org/W2157566949",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Pack Transposition: Enhancing Superword Level Parallelism Exploitation.",
+   "function": "unknown",
+   "split": null,
+   "year": 2005,
+   "authors": "Christian Tenllado, Luís Piñuel, Manuel Prieto et al.",
+   "url": "https://openalex.org/W1557399438",
+   "cited_by": 12,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Proceedings of the GCC Developers' Summit",
+   "function": "unclassified",
+   "split": null,
+   "year": 2008,
+   "authors": "Grigori Fursin, Cupertino Miranda, Olivier Temam et al.",
+   "url": "https://openalex.org/W2600258283",
+   "cited_by": 5,
+   "evidence": "title_only"
+  }
+ ]
+}

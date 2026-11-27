@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "rawn:oopsla:2021",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 40,
-  "works": 36,
+  "records_raw": 43,
+  "works": 39,
   "commit": 9,
-  "judged": 33,
+  "judged": 36,
   "gscholar": null
  },
  "citations": [
@@ -180,6 +180,26 @@
    "evidence": "abstract"
   },
   {
+   "title": "A Compiler for Operations on Relations with Bag Semantics",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "James Dong, Fredrik Kjølstad",
+   "url": "https://doi.org/10.48550/arxiv.2502.06988",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "positions"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Intermittence-Aware Speculative Page Coloring for Secure NVM",
    "function": "uses-benchmark",
    "split": "detailed",
@@ -207,6 +227,23 @@
     "positions"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "An Expression is Worth a Thousand Words: Graph Algorithms in the Language of Extended Tensor Algebra Notation",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Toluwanimi O. Odemuyiwa",
+   "url": "https://openalex.org/W7221493579",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Finch: Sparse and Structured Tensor Programming with Control Flow",
@@ -245,6 +282,23 @@
    ],
    "flags": [
     "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "The EDGE Language: Extended General Einsums for Graph Algorithms",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Toluwanimi O. Odemuyiwa, Porumbescu, Serban D., Nayak, Nandeeka et al.",
+   "url": "https://doi.org/10.48550/arxiv.2404.11591",
+   "cited_by": 16,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea",
+    "detailed-citation"
    ],
    "evidence": "fulltext"
   },

@@ -1,16 +1,33 @@
 {
  "schema": 1,
  "key": "thies:ecoop:2005",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 178,
-  "works": 148,
+  "records_raw": 188,
+  "works": 158,
   "commit": 0,
-  "judged": 131,
+  "judged": 140,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Verification of sequential and concurrent libraries",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2010,
+   "venue": "Texas ScholarWorks (Texas Digital Library)",
+   "authors": "Jyotirmoy V. Deshmukh",
+   "url": "https://openalex.org/W1908510129",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "positions",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "Comparing the Cost-Effectiveness of Statically Analysing and Model Checking Concurrent Java Components for Deadlocks",
    "function": "uses-benchmark",
@@ -116,6 +133,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Sound Static Deadlock Analysis for C/Pthreads (Extended Version)",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "arXiv",
+   "authors": "Daniel Kroening, Daniel Poetzl, Peter Schrammel et al.",
+   "url": "https://doi.org/10.48550/arxiv.1607.06927",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Static Trace-Based Deadlock Analysis for Synchronous Mini-Go",
    "function": "positions",
    "split": "detailed",
@@ -147,6 +177,22 @@
     "exemplifies"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Enhancing Parallelism and Scalability of Database-Centric Applications in Presence of Database Deadlocks",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "Figshare",
+   "authors": "BM M. Hossain",
+   "url": "https://openalex.org/W2222873189",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Magiclock: Scalable Detection of Potential Deadlocks in Large-Scale Multithreaded Programs",
@@ -260,6 +306,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Proceedings of Formal Methods in Computer Aided Design, FMCAD 2006",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "Texas ScholarWorks (Texas Digital Library)",
+   "authors": "Formal Methods in Computer Aided Design",
+   "url": "https://openalex.org/W7208567334",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Discovering Concurrency Errors",
    "function": "surveys",
    "split": "detailed",
@@ -309,6 +368,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "Deloxide: Low-overhead real-time deadlock detection and visualization framework for Rust",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Information and Software Technology",
+   "authors": "Emirhan TALA, Şebnem Baydere",
+   "url": "https://doi.org/10.1016/j.infsof.2026.108343",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "DSPN: Deadlock Detection and Solutions of Reachability Graphs for Petri Nets",
@@ -470,6 +545,23 @@
    "secondary": [
     "uses-benchmark",
     "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Guided testing for automatic error discovery in concurrent software",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "ScholarsArchive  (Brigham Young University)",
+   "authors": "Neha Rungta",
+   "url": "https://openalex.org/W124851712",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "uses-benchmark",
+    "detailed-citation"
    ],
    "evidence": "fulltext"
   },
@@ -768,6 +860,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "The Landscape of Static-Analysis Optimizations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM Transactions on Programming Languages and Systems",
+   "authors": "Palaniappan Muthuraman, Leen Jubarah, Aashish Prajapati et al.",
+   "url": "https://doi.org/10.1145/3861012",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Language-Agnostic Static Deadlock Detection for Futures",
@@ -1075,6 +1180,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Static Analysis of Concurrent Programs Based on Behavioral Type Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "HAL",
+   "authors": "Abel García Celestrin",
+   "url": "https://doi.org/10.6092/unibo/amsdottorato/8046",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Static deadlock detection for asynchronous C# programs",
    "function": "passing-citation",
    "split": "passing",
@@ -1164,6 +1282,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Static Execution Time Analysis of Parallel Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "DiVA (Mälardalen University College)",
+   "authors": "Andreas Gustavsson",
+   "url": "https://openalex.org/W2761747974",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "SyncProf: detecting, localizing, and optimizing synchronization bottlenecks",
@@ -1809,6 +1940,20 @@
    "venue": "Software Testing Verification and Reliability",
    "authors": "Valerio Terragni, Mauro Pezzè",
    "url": "https://doi.org/10.1002/stvr.1774",
+   "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Progress of Concurrent Objects",
+   "function": "unknown",
+   "split": null,
+   "year": 2020,
+   "venue": "Foundations and Trends® in Programming Languages",
+   "authors": "Hongjin Liang, Xinyu Feng",
+   "url": "https://doi.org/10.1561/2500000041",
    "cited_by": 2,
    "flags": [
     "polluted-contexts"

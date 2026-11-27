@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "taco-lossless-cgo22",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 11,
-  "works": 11,
+  "records_raw": 14,
+  "works": 14,
   "commit": 3,
-  "judged": 10,
+  "judged": 13,
   "gscholar": null
  },
  "citations": [
@@ -86,6 +86,22 @@
    "commit": true
   },
   {
+   "title": "Computation-Friendly Compression of Matrices: Speeding up Linear and Boolean Algebra",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Gonzalo Navarro",
+   "url": "https://doi.org/10.48550/arxiv.2610.35362",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Optimizing Compression Schemes for Parallel Sparse Tensor Algebra",
    "function": "detailed-citation",
    "split": "detailed",
@@ -97,6 +113,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "A GPU Engine for Sparse Matrix-Vector Products on $k^2$-Tree-Compressed Graphs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Francesco Tosoni, Gabriele Mencagli",
+   "url": "https://doi.org/10.48550/arxiv.2611.03610",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Compressed Set Representations based on Set Difference",
@@ -148,6 +177,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Streaming Right Multiplication over Grammar-Compressed Matrices: A Memory-Bounded GPU Engine for Genotype and Graph Data",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Francesco Tosoni, Gabriele Mencagli",
+   "url": "https://doi.org/10.48550/arxiv.2607.24971",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Set-Difference Entropy",

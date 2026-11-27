@@ -1,0 +1,77 @@
+{
+ "schema": 1,
+ "key": "barua:phd-thesis:2000",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 6,
+  "works": 5,
+  "commit": 1,
+  "judged": 1,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Software orchestration of instruction level parallelism on tiled processor architectures",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2005,
+   "authors": "Anant Agarwal, Saman P. Amarasinghe, W. Lee",
+   "url": "https://openalex.org/W1595099834",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "The New C Standard (Excerpted material) An Economic and Cultural Commentary",
+   "function": "unknown",
+   "split": null,
+   "year": 2008,
+   "authors": "Derek M. Jones",
+   "url": "https://openalex.org/W2157566949",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Coarse-Grained Reconfigurable Array Architectures",
+   "function": "unclassified",
+   "split": null,
+   "year": 2018,
+   "venue": "Springer eBooks",
+   "authors": "Bjorn De Sutter, Praveen Raghavan, Andy Lambrechts",
+   "url": "https://doi.org/10.1007/978-3-319-91734-4_12",
+   "cited_by": 27,
+   "evidence": "title_only"
+  },
+  {
+   "title": "An Efficient Memory Organization for High-ILP Inner Modem Baseband SDR Processors",
+   "function": "unclassified",
+   "split": null,
+   "year": 2009,
+   "venue": "Journal of Signal Processing Systems",
+   "authors": "Bjorn De Sutter, Osman Allam, Praveen Raghavan et al.",
+   "url": "https://doi.org/10.1007/s11265-009-0412-x",
+   "cited_by": 9,
+   "evidence": "title_only"
+  },
+  {
+   "title": "A programming environment for packet-processing systems",
+   "function": "unclassified",
+   "split": null,
+   "year": 2005,
+   "venue": "Elsevier eBooks",
+   "authors": "Harrick M. Vin, Jayaram Mudigonda, Jamie Jason et al.",
+   "url": "https://doi.org/10.1016/b978-012088476-6/50009-5",
+   "cited_by": 6,
+   "evidence": "title_only"
+  }
+ ]
+}

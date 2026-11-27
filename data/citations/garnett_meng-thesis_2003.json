@@ -1,0 +1,138 @@
+{
+ "schema": 1,
+ "key": "garnett:meng-thesis:2003",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 10,
+  "works": 10,
+  "commit": 0,
+  "judged": 6,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Machine Learning in Security Vulnerability Research",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "CUB Ph.D. Dissertations (Corvinus University of Budapest)",
+   "authors": "Gábor Selján",
+   "url": "https://doi.org/10.14267/phd.2025042",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "UnSafengine64: A Safengine Unpacker for 64-Bit Windows Environments and Detailed Analysis Results on Safengine 2.4.0",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Sensors",
+   "authors": "Seokwoo Choi, Taejoo Chang, Yongsu Park",
+   "url": "https://doi.org/10.3390/s24030840",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "x64Unpack: Hybrid Emulation Unpacker for 64-bit Windows Environments and Detailed Analysis Results on VMProtect 3.4",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "IEEE Access",
+   "authors": "Seokwoo Choi, Taejoo Chang, Changhyun Kim et al.",
+   "url": "https://doi.org/10.1109/access.2020.3008900",
+   "cited_by": 14,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Dynamic register promotion of stack variables",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2011,
+   "venue": "Symposium on Code Generation and Optimization",
+   "authors": "Jianjun Li, Chenggang Wu, Wei‐Chung Hsu",
+   "url": "https://doi.org/10.5555/2190025.2190050",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Acceleration of memory accesses in dynamic binary translation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "theses.fr (ABES)",
+   "authors": "Antoine Faravelon",
+   "url": "https://doi.org/10.70675/8cd22121z3f59z4cdbzb8a7z7297dbeb7bc6",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "PolyDoc: Surveying PDF Files from the PolySwarm network",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "IEEE Security and Privacy Workshops (SPW)",
+   "authors": "Prashant Anantharaman, Robert Lathrop, Rebecca Shapiro et al.",
+   "url": "https://doi.org/10.1109/spw59333.2023.00017",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Analyzing Implementation-Based SSL/TLS Vulnerabilities with Binary Semantics Analysis",
+   "function": "unclassified",
+   "split": null,
+   "year": 2024,
+   "venue": "Lecture notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering",
+   "authors": "Li Wang, Yi Yang, Alavalapati Goutham Reddy",
+   "url": "https://doi.org/10.1007/978-3-031-64954-7_19",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Hybrid emulation for bypassing anti-reversing techniques and analyzing malware",
+   "function": "unclassified",
+   "split": null,
+   "year": 2020,
+   "venue": "The Journal of Supercomputing",
+   "authors": "Seokwoo Choi, Taejoo Chang, Sung-woo Yoon et al.",
+   "url": "https://doi.org/10.1007/s11227-020-03270-6",
+   "cited_by": 12,
+   "evidence": "title_only"
+  },
+  {
+   "title": "JumpSwitches: Restoring the Performance of Indirect Branches In the Era of Spectre",
+   "function": "unclassified",
+   "split": null,
+   "year": 2019,
+   "authors": "Nadav Amit, Fred Jacobs, Michael Wei",
+   "url": "https://openalex.org/W2955470004",
+   "cited_by": 24,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Detouring program execution in binary applications MEng Final Report",
+   "function": "unclassified",
+   "split": null,
+   "year": 2012,
+   "authors": "Mike Kwan",
+   "url": "https://openalex.org/W2606883636",
+   "cited_by": 0,
+   "evidence": "title_only"
+  }
+ ]
+}

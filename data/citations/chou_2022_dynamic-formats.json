@@ -1,16 +1,29 @@
 {
  "schema": 1,
  "key": "chou:2022:dynamic-formats",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 14,
-  "works": 13,
+  "records_raw": 19,
+  "works": 18,
   "commit": 2,
-  "judged": 12,
+  "judged": 16,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Optimizing Deep Neural Network Sparse Kernels on Multi-core CPUs",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Weiling Yang, Jianbin Fang, Dezun Dong et al.",
+   "url": "https://doi.org/10.1145/3856293",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
   {
    "title": "Accelerating Convolutional Neural Network by Exploiting Sparsity on GPUs",
    "function": "supports-claim",
@@ -20,6 +33,19 @@
    "authors": "Weizhi Xu, Yintai Sun, Shengyu Fan et al.",
    "url": "https://doi.org/10.1145/3600092",
    "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "UniRec: a unimodular-like framework for nested recursions and loops",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Kirshanthan Sundararajah, Charitha Saumya, Milind Kulkarni",
+   "url": "https://doi.org/10.1145/3563333",
+   "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "fulltext"
@@ -107,6 +133,19 @@
    "commit": true
   },
   {
+   "title": "GSPARC: A Mode-Aware GPU-Based Method for Large-Scale Sparse Tensor Contraction",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+   "authors": "Seohyeon Kim, Jihye Lee, Sungwoo Park et al.",
+   "url": "https://doi.org/10.1145/3799682.3840585",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "WingSpan: Concurrency and Dependence for Sparse and Structured Tensor Compilers",
    "function": "passing-citation",
    "split": "passing",
@@ -182,6 +221,33 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "RECom: A Compiler Approach to Accelerating Recommendation Model Inference with Massive Embedding Columns",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Zaifeng Pan, Zhen Zheng, Feng Zhang et al.",
+   "url": "https://doi.org/10.1145/3623278.3624761",
+   "cited_by": 21,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Parallel Sparse Outputs for Tensor Compilers",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adrian Gushin, Pau Sum, Willow Ahrens",
+   "url": "https://doi.org/10.48550/arxiv.2610.19308",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "SpChar: Characterizing the Sparse Puzzle via Decision Trees",

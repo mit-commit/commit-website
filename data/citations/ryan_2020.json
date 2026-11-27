@@ -1,0 +1,28 @@
+{
+ "schema": 1,
+ "key": "ryan:2020",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 1,
+  "works": 1,
+  "commit": 0,
+  "judged": 1,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "AutoHOOT: Automatic High-Order Optimization for Tensors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Linjian Ma, Jiayu Ye, Edgar Solomonik",
+   "url": "https://doi.org/10.1145/3410463.3414647",
+   "cited_by": 15,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  }
+ ]
+}

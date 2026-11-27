@@ -1,154 +1,157 @@
 {
  "schema": 1,
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "papers": {
   "halide:pldi:2013": {
-   "verified": 1483,
+   "verified": 1788,
    "gscholar": null,
    "functions": {
-    "extends": 41,
-    "uses-tool": 90,
-    "adopts-idea": 89,
-    "uses-benchmark": 21,
-    "baseline": 28,
-    "positions": 135,
-    "surveys": 19,
-    "supports-claim": 16,
-    "exemplifies": 283,
-    "detailed-citation": 170,
-    "passing-citation": 196
+    "extends": 42,
+    "uses-tool": 103,
+    "adopts-idea": 100,
+    "uses-benchmark": 25,
+    "baseline": 34,
+    "positions": 153,
+    "surveys": 23,
+    "supports-claim": 27,
+    "exemplifies": 391,
+    "detailed-citation": 202,
+    "passing-citation": 248
    },
    "centrality": {
-    "core": 87,
-    "engaged": 209,
-    "peripheral": 775
+    "core": 100,
+    "engaged": 248,
+    "peripheral": 983
    }
   },
   "netblocks-pldi24": {
-   "verified": 4,
+   "verified": 5,
    "gscholar": null,
    "functions": {
     "extends": 1,
-    "exemplifies": 2
+    "exemplifies": 3
    },
    "centrality": {
     "core": 1,
-    "peripheral": 2
+    "peripheral": 3
    }
   },
   "Kjolstad:2017:TTG:3155562.3155683": {
-   "verified": 71,
+   "verified": 80,
    "gscholar": null,
    "functions": {
     "extends": 4,
-    "uses-tool": 9,
+    "uses-tool": 10,
     "adopts-idea": 3,
     "uses-benchmark": 2,
-    "baseline": 8,
-    "positions": 2,
+    "baseline": 9,
+    "positions": 3,
     "surveys": 1,
     "supports-claim": 1,
-    "exemplifies": 15,
+    "exemplifies": 19,
     "detailed-citation": 0,
-    "passing-citation": 11
+    "passing-citation": 12
    },
    "centrality": {
-    "core": 7,
-    "engaged": 18,
-    "peripheral": 31
+    "core": 8,
+    "engaged": 20,
+    "peripheral": 36
    }
   },
   "Ragan-Kelley:2017:HDA:3176926.3150211": {
-   "verified": 380,
+   "verified": 419,
    "gscholar": null,
    "functions": {
-    "extends": 8,
+    "extends": 9,
     "uses-tool": 22,
-    "adopts-idea": 21,
+    "adopts-idea": 23,
     "uses-benchmark": 4,
-    "baseline": 8,
-    "positions": 14,
+    "baseline": 9,
+    "positions": 20,
     "surveys": 4,
-    "supports-claim": 1,
-    "exemplifies": 128,
-    "detailed-citation": 15,
-    "passing-citation": 75
+    "supports-claim": 2,
+    "exemplifies": 141,
+    "detailed-citation": 20,
+    "passing-citation": 80
    },
    "centrality": {
-    "core": 22,
-    "peripheral": 233,
-    "engaged": 44
+    "core": 23,
+    "peripheral": 256,
+    "engaged": 54
    }
   },
   "VarStudy2023": {
-   "verified": 67,
+   "verified": 94,
    "gscholar": null,
    "functions": {
     "extends": 1,
     "uses-tool": 1,
-    "uses-benchmark": 3,
+    "adopts-idea": 1,
+    "uses-benchmark": 4,
     "positions": 2,
-    "surveys": 4,
-    "supports-claim": 8,
-    "exemplifies": 7,
+    "surveys": 5,
+    "supports-claim": 15,
+    "exemplifies": 12,
     "detailed-citation": 4,
-    "passing-citation": 12
+    "passing-citation": 24
    },
    "centrality": {
-    "core": 2,
-    "engaged": 11,
-    "peripheral": 29
+    "core": 3,
+    "engaged": 14,
+    "peripheral": 52
    }
   },
   "agrawal:cases:2005": {
-   "verified": 31,
+   "verified": 32,
    "gscholar": null,
    "functions": {
-    "positions": 4,
+    "positions": 5,
     "supports-claim": 2,
     "exemplifies": 3,
     "detailed-citation": 1,
     "passing-citation": 9
    },
    "centrality": {
-    "engaged": 3,
+    "engaged": 4,
     "peripheral": 16
    }
   },
   "ahrens_autoscheduling_2022": {
-   "verified": 43,
+   "verified": 49,
    "gscholar": null,
    "functions": {
     "uses-tool": 4,
     "baseline": 2,
-    "positions": 2,
+    "positions": 3,
     "surveys": 2,
     "supports-claim": 4,
-    "exemplifies": 6,
+    "exemplifies": 10,
     "detailed-citation": 1,
     "passing-citation": 13
    },
    "centrality": {
     "core": 1,
     "engaged": 6,
-    "peripheral": 27
+    "peripheral": 32
    }
   },
   "ahrens_finch_2025": {
-   "verified": 14,
+   "verified": 30,
    "gscholar": null,
    "functions": {
     "extends": 1,
+    "uses-tool": 2,
     "baseline": 1,
-    "positions": 2,
+    "positions": 7,
     "supports-claim": 1,
-    "exemplifies": 1,
-    "passing-citation": 3
+    "exemplifies": 5,
+    "detailed-citation": 1,
+    "passing-citation": 5
    },
    "centrality": {
-    "core": 1,
-    "engaged": 3,
-    "peripheral": 5
+    "core": 3,
+    "engaged": 8,
+    "peripheral": 12
    }
   },
   "amarasinghe:cgo:2005": {
@@ -163,176 +166,176 @@
    }
   },
   "amarasinghe:lcpc:1993": {
-   "verified": 120,
+   "verified": 124,
    "gscholar": null,
    "functions": {
     "uses-tool": 22,
     "positions": 1,
     "exemplifies": 18,
-    "detailed-citation": 8,
-    "passing-citation": 27
+    "detailed-citation": 9,
+    "passing-citation": 29
    },
    "centrality": {
-    "peripheral": 54,
+    "peripheral": 57,
     "core": 16,
     "engaged": 6
    }
   },
   "amarasinghe:micro:1996": {
-   "verified": 48,
+   "verified": 51,
    "gscholar": null,
    "functions": {
-    "uses-tool": 21,
+    "uses-tool": 22,
     "baseline": 1,
     "positions": 1,
     "surveys": 1,
-    "supports-claim": 2,
+    "supports-claim": 3,
     "exemplifies": 2,
     "detailed-citation": 2,
-    "passing-citation": 6
+    "passing-citation": 7
    },
    "centrality": {
-    "peripheral": 18,
+    "peripheral": 20,
     "engaged": 5,
-    "core": 10
+    "core": 11
    }
   },
   "amarasinghe:pldi:1993": {
-   "verified": 280,
+   "verified": 299,
    "gscholar": null,
    "functions": {
     "extends": 5,
     "adopts-idea": 7,
     "baseline": 1,
-    "positions": 36,
-    "supports-claim": 7,
-    "exemplifies": 15,
-    "detailed-citation": 20,
-    "passing-citation": 108,
+    "positions": 37,
+    "supports-claim": 8,
+    "exemplifies": 17,
+    "detailed-citation": 21,
+    "passing-citation": 117,
     "uses-tool": 3
    },
    "centrality": {
     "core": 5,
-    "engaged": 44,
-    "peripheral": 152
+    "engaged": 45,
+    "peripheral": 165
    }
   },
   "amin:iccd:2009": {
-   "verified": 66,
+   "verified": 70,
    "gscholar": null,
    "functions": {
     "uses-tool": 3,
     "adopts-idea": 1,
     "positions": 7,
-    "supports-claim": 4,
+    "supports-claim": 5,
     "exemplifies": 9,
-    "detailed-citation": 11,
-    "passing-citation": 22,
+    "detailed-citation": 12,
+    "passing-citation": 24,
     "extends": 1
    },
    "centrality": {
     "engaged": 11,
     "core": 1,
-    "peripheral": 46
+    "peripheral": 50
    }
   },
   "ansel:cases:2012": {
-   "verified": 58,
+   "verified": 63,
    "gscholar": null,
    "functions": {
     "positions": 1,
     "surveys": 1,
-    "exemplifies": 8,
-    "detailed-citation": 4,
-    "passing-citation": 27
+    "exemplifies": 10,
+    "detailed-citation": 6,
+    "passing-citation": 28
    },
    "centrality": {
     "engaged": 3,
-    "peripheral": 38
+    "peripheral": 43
    }
   },
   "ansel:cgo:2011": {
-   "verified": 142,
+   "verified": 162,
    "gscholar": null,
    "functions": {
     "uses-tool": 1,
     "uses-benchmark": 4,
     "baseline": 1,
-    "positions": 9,
-    "surveys": 9,
+    "positions": 10,
+    "surveys": 10,
     "supports-claim": 2,
-    "exemplifies": 38,
-    "detailed-citation": 8,
-    "passing-citation": 47,
+    "exemplifies": 41,
+    "detailed-citation": 13,
+    "passing-citation": 53,
     "extends": 1,
     "adopts-idea": 1
    },
    "centrality": {
     "core": 1,
-    "peripheral": 107,
-    "engaged": 12
+    "peripheral": 121,
+    "engaged": 14
    }
   },
   "ansel:gecco:2011": {
-   "verified": 9,
+   "verified": 12,
    "gscholar": null,
    "functions": {
-    "uses-tool": 1,
-    "detailed-citation": 2,
-    "passing-citation": 2
+    "uses-tool": 2,
+    "detailed-citation": 3,
+    "passing-citation": 3
    },
    "centrality": {
     "engaged": 2,
-    "core": 1,
-    "peripheral": 2
+    "core": 2,
+    "peripheral": 4
    }
   },
   "ansel:ipdps:2009": {
-   "verified": 378,
+   "verified": 447,
    "gscholar": null,
    "functions": {
     "extends": 9,
-    "uses-tool": 93,
-    "adopts-idea": 6,
+    "uses-tool": 102,
+    "adopts-idea": 7,
     "uses-benchmark": 2,
-    "baseline": 6,
-    "positions": 19,
-    "surveys": 3,
-    "supports-claim": 7,
-    "exemplifies": 84,
-    "detailed-citation": 32,
-    "passing-citation": 53
+    "baseline": 7,
+    "positions": 30,
+    "surveys": 5,
+    "supports-claim": 11,
+    "exemplifies": 100,
+    "detailed-citation": 39,
+    "passing-citation": 65
    },
    "centrality": {
-    "core": 82,
-    "engaged": 46,
-    "peripheral": 185
+    "core": 92,
+    "engaged": 59,
+    "peripheral": 225
    }
   },
   "ansel:pact:2014": {
-   "verified": 705,
+   "verified": 817,
    "gscholar": null,
    "functions": {
-    "extends": 3,
-    "uses-tool": 90,
-    "adopts-idea": 4,
+    "extends": 4,
+    "uses-tool": 103,
+    "adopts-idea": 5,
     "uses-benchmark": 1,
-    "baseline": 79,
-    "positions": 61,
+    "baseline": 89,
+    "positions": 72,
     "surveys": 8,
-    "supports-claim": 9,
-    "exemplifies": 184,
-    "detailed-citation": 36,
-    "passing-citation": 117
+    "supports-claim": 11,
+    "exemplifies": 213,
+    "detailed-citation": 43,
+    "passing-citation": 147
    },
    "centrality": {
-    "core": 62,
-    "engaged": 169,
-    "peripheral": 361
+    "core": 71,
+    "engaged": 195,
+    "peripheral": 430
    }
   },
   "ansel:pldi:2009": {
-   "verified": 443,
+   "verified": 483,
    "gscholar": null,
    "functions": {
     "extends": 4,
@@ -340,114 +343,118 @@
     "adopts-idea": 6,
     "uses-benchmark": 1,
     "baseline": 2,
-    "positions": 44,
-    "surveys": 9,
-    "supports-claim": 15,
-    "exemplifies": 133,
-    "detailed-citation": 38,
-    "passing-citation": 100
+    "positions": 53,
+    "surveys": 10,
+    "supports-claim": 16,
+    "exemplifies": 148,
+    "detailed-citation": 41,
+    "passing-citation": 105
    },
    "centrality": {
     "core": 6,
-    "engaged": 55,
-    "peripheral": 298
+    "engaged": 64,
+    "peripheral": 323
    }
   },
   "ansel:pldi:2011": {
-   "verified": 108,
+   "verified": 137,
    "gscholar": null,
    "functions": {
     "uses-tool": 1,
-    "baseline": 3,
+    "baseline": 4,
     "positions": 8,
     "surveys": 3,
-    "supports-claim": 8,
-    "exemplifies": 15,
-    "detailed-citation": 9,
-    "passing-citation": 35
+    "supports-claim": 13,
+    "exemplifies": 20,
+    "detailed-citation": 13,
+    "passing-citation": 45
    },
    "centrality": {
     "core": 1,
-    "engaged": 14,
-    "peripheral": 67
+    "engaged": 17,
+    "peripheral": 89
    }
   },
   "ansel:xrds:2010": {
-   "verified": 42,
+   "verified": 45,
    "gscholar": null,
    "functions": {
     "positions": 2,
     "surveys": 1,
-    "exemplifies": 5,
+    "exemplifies": 8,
     "detailed-citation": 1,
     "passing-citation": 5
    },
    "centrality": {
-    "peripheral": 13,
+    "peripheral": 16,
     "engaged": 1
    }
   },
   "ariya:cc:2002": {
-   "verified": 33,
+   "verified": 42,
    "gscholar": null,
    "functions": {
-    "uses-tool": 6,
+    "uses-tool": 7,
     "uses-benchmark": 1,
     "baseline": 1,
-    "supports-claim": 1,
-    "exemplifies": 6,
+    "surveys": 1,
+    "supports-claim": 2,
+    "exemplifies": 8,
     "detailed-citation": 5,
-    "passing-citation": 12
+    "passing-citation": 14
    },
    "centrality": {
     "engaged": 6,
-    "core": 3,
-    "peripheral": 23
+    "core": 4,
+    "peripheral": 29
    }
   },
   "arxiv:2506.11021": {
-   "verified": 8,
+   "verified": 10,
    "gscholar": null,
    "functions": {
     "adopts-idea": 1,
     "exemplifies": 1,
     "detailed-citation": 2,
-    "passing-citation": 3
+    "passing-citation": 5
    },
    "centrality": {
-    "peripheral": 7
+    "peripheral": 9
    }
   },
   "askit-cgo24": {
-   "verified": 15,
+   "verified": 22,
    "gscholar": null,
    "functions": {
-    "supports-claim": 1,
-    "exemplifies": 1,
+    "positions": 1,
+    "supports-claim": 2,
+    "exemplifies": 3,
     "detailed-citation": 1,
-    "passing-citation": 8
+    "passing-citation": 11
    },
    "centrality": {
-    "peripheral": 11
+    "engaged": 1,
+    "peripheral": 17
    }
   },
   "asplos013": {
-   "verified": 22,
+   "verified": 25,
    "gscholar": null,
    "functions": {
     "positions": 5,
     "surveys": 1,
     "supports-claim": 2,
     "exemplifies": 2,
-    "passing-citation": 8
+    "detailed-citation": 1,
+    "passing-citation": 10
    },
    "centrality": {
-    "peripheral": 11,
+    "peripheral": 14,
     "engaged": 7
    }
   },
   "babb:fccm:1999": {
-   "verified": 129,
+   "verified": 132,
    "gscholar": null,
    "functions": {
     "uses-tool": 3,
@@ -457,13 +464,13 @@
     "supports-claim": 5,
     "exemplifies": 9,
     "detailed-citation": 16,
-    "passing-citation": 42,
+    "passing-citation": 44,
     "extends": 3
    },
    "centrality": {
     "engaged": 11,
     "core": 1,
-    "peripheral": 85
+    "peripheral": 87
    }
   },
   "barua:hpc:1998": {
@@ -482,27 +489,27 @@
    }
   },
   "barua:isca:1999": {
-   "verified": 107,
+   "verified": 109,
    "gscholar": null,
    "functions": {
     "uses-tool": 11,
     "adopts-idea": 2,
     "positions": 6,
     "surveys": 1,
-    "supports-claim": 3,
+    "supports-claim": 4,
     "exemplifies": 9,
     "detailed-citation": 6,
-    "passing-citation": 25,
+    "passing-citation": 26,
     "extends": 3
    },
    "centrality": {
     "engaged": 11,
     "core": 2,
-    "peripheral": 52
+    "peripheral": 54
    }
   },
   "barua:toc:2001": {
-   "verified": 32,
+   "verified": 34,
    "gscholar": null,
    "functions": {
     "positions": 2,
@@ -510,124 +517,124 @@
     "supports-claim": 1,
     "exemplifies": 2,
     "detailed-citation": 6,
-    "passing-citation": 13
+    "passing-citation": 15
    },
    "centrality": {
     "engaged": 6,
-    "peripheral": 19
+    "peripheral": 21
    }
   },
   "bernstein-kjolstad:2016": {
-   "verified": 103,
+   "verified": 105,
    "gscholar": null,
    "functions": {
     "surveys": 1,
-    "exemplifies": 2,
+    "exemplifies": 4,
     "detailed-citation": 3,
     "passing-citation": 9
    },
    "centrality": {
-    "peripheral": 15
+    "peripheral": 17
    }
   },
   "bhive": {
-   "verified": 36,
+   "verified": 47,
    "gscholar": null,
    "functions": {
-    "uses-tool": 1,
+    "uses-tool": 3,
     "adopts-idea": 1,
-    "uses-benchmark": 17,
-    "positions": 1,
-    "supports-claim": 3,
-    "exemplifies": 1,
+    "uses-benchmark": 19,
+    "positions": 3,
+    "supports-claim": 5,
+    "exemplifies": 2,
     "detailed-citation": 2,
-    "passing-citation": 6
+    "passing-citation": 8
    },
    "centrality": {
-    "engaged": 11,
-    "core": 10,
-    "peripheral": 11
+    "core": 12,
+    "engaged": 14,
+    "peripheral": 17
    }
   },
   "bruening:cgo:2003": {
-   "verified": 632,
+   "verified": 682,
    "gscholar": null,
    "functions": {
-    "uses-tool": 59,
+    "uses-tool": 64,
     "adopts-idea": 4,
-    "baseline": 19,
-    "positions": 19,
+    "baseline": 20,
+    "positions": 22,
     "surveys": 4,
     "supports-claim": 12,
-    "exemplifies": 219,
-    "detailed-citation": 42,
-    "passing-citation": 132,
+    "exemplifies": 236,
+    "detailed-citation": 46,
+    "passing-citation": 146,
     "extends": 1
    },
    "centrality": {
-    "peripheral": 406,
-    "core": 45,
-    "engaged": 60
+    "peripheral": 440,
+    "core": 49,
+    "engaged": 66
    }
   },
   "bruening:cgo:2005": {
-   "verified": 42,
+   "verified": 44,
    "gscholar": null,
    "functions": {
     "extends": 1,
     "positions": 4,
     "supports-claim": 6,
-    "exemplifies": 4,
+    "exemplifies": 5,
     "detailed-citation": 5,
-    "passing-citation": 14
+    "passing-citation": 15
    },
    "centrality": {
     "core": 1,
     "engaged": 8,
-    "peripheral": 25
+    "peripheral": 27
    }
   },
   "bruening:cgo:2011": {
-   "verified": 215,
+   "verified": 241,
    "gscholar": null,
    "functions": {
     "uses-tool": 3,
     "uses-benchmark": 1,
-    "baseline": 20,
+    "baseline": 22,
     "positions": 14,
     "surveys": 5,
-    "supports-claim": 11,
-    "exemplifies": 54,
-    "detailed-citation": 4,
-    "passing-citation": 67
+    "supports-claim": 14,
+    "exemplifies": 64,
+    "detailed-citation": 6,
+    "passing-citation": 75
    },
    "centrality": {
-    "engaged": 40,
-    "peripheral": 139
+    "engaged": 43,
+    "peripheral": 161
    }
   },
   "bruening:vee:2012": {
-   "verified": 146,
+   "verified": 163,
    "gscholar": null,
    "functions": {
-    "uses-tool": 20,
+    "uses-tool": 23,
     "uses-benchmark": 1,
     "baseline": 5,
-    "positions": 5,
+    "positions": 6,
     "surveys": 2,
-    "supports-claim": 15,
-    "exemplifies": 40,
+    "supports-claim": 17,
+    "exemplifies": 46,
     "detailed-citation": 7,
-    "passing-citation": 25
+    "passing-citation": 28
    },
    "centrality": {
-    "peripheral": 91,
-    "engaged": 17,
-    "core": 12
+    "core": 14,
+    "peripheral": 101,
+    "engaged": 20
    }
   },
   "buildit-cgo21": {
-   "verified": 22,
+   "verified": 24,
    "gscholar": null,
    "functions": {
     "positions": 2,
@@ -640,7 +647,7 @@
    }
   },
   "buildsl-cgo22": {
-   "verified": 7,
+   "verified": 8,
    "gscholar": null,
    "functions": {
     "surveys": 1,
@@ -652,42 +659,42 @@
    }
   },
   "chan:sc:2009": {
-   "verified": 32,
+   "verified": 34,
    "gscholar": null,
    "functions": {
     "extends": 1,
     "positions": 2,
     "supports-claim": 0,
-    "exemplifies": 7,
-    "detailed-citation": 8,
+    "exemplifies": 8,
+    "detailed-citation": 9,
     "passing-citation": 3,
     "uses-tool": 1
    },
    "centrality": {
     "core": 1,
     "engaged": 4,
-    "peripheral": 17
+    "peripheral": 19
    }
   },
   "chen:asplos:2021": {
-   "verified": 51,
+   "verified": 61,
    "gscholar": null,
    "functions": {
-    "positions": 4,
+    "positions": 5,
     "supports-claim": 2,
-    "exemplifies": 10,
-    "detailed-citation": 3,
-    "passing-citation": 17,
+    "exemplifies": 11,
+    "detailed-citation": 4,
+    "passing-citation": 22,
     "extends": 4,
     "adopts-idea": 2
    },
    "centrality": {
-    "engaged": 8,
-    "peripheral": 33
+    "engaged": 9,
+    "peripheral": 40
    }
   },
   "chen:pldi:2022": {
-   "verified": 26,
+   "verified": 28,
    "gscholar": null,
    "functions": {
     "positions": 1,
@@ -703,11 +710,11 @@
    }
   },
   "chou-pldi20-taco-conversion": {
-   "verified": 31,
+   "verified": 32,
    "gscholar": null,
    "functions": {
     "uses-tool": 2,
-    "baseline": 2,
+    "baseline": 3,
     "positions": 3,
     "supports-claim": 4,
     "exemplifies": 3,
@@ -716,42 +723,44 @@
    },
    "centrality": {
     "core": 2,
-    "engaged": 5,
+    "engaged": 6,
     "peripheral": 17
    }
   },
   "chou:2018:formats": {
-   "verified": 159,
+   "verified": 187,
    "gscholar": null,
    "functions": {
     "extends": 5,
-    "uses-tool": 14,
-    "adopts-idea": 17,
+    "uses-tool": 15,
+    "adopts-idea": 18,
     "uses-benchmark": 2,
     "baseline": 3,
     "positions": 8,
-    "supports-claim": 12,
-    "exemplifies": 28,
-    "detailed-citation": 10,
-    "passing-citation": 28
+    "supports-claim": 16,
+    "exemplifies": 36,
+    "detailed-citation": 18,
+    "passing-citation": 31,
+    "surveys": 1
    },
    "centrality": {
     "core": 14,
-    "engaged": 32,
-    "peripheral": 81
+    "engaged": 37,
+    "peripheral": 102
    }
   },
   "chou:2022:dynamic-formats": {
-   "verified": 13,
+   "verified": 18,
    "gscholar": null,
    "functions": {
-    "supports-claim": 1,
+    "supports-claim": 2,
     "exemplifies": 2,
-    "passing-citation": 6,
-    "extends": 1
+    "passing-citation": 8,
+    "extends": 1,
+    "positions": 1
    },
    "centrality": {
-    "peripheral": 10
+    "peripheral": 14
    }
   },
   "cola-dcc": {
@@ -765,70 +774,71 @@
    }
   },
   "d2x-cgo23": {
-   "verified": 6,
+   "verified": 7,
    "gscholar": null,
    "functions": {
     "positions": 1,
+    "exemplifies": 1,
     "passing-citation": 2
    },
    "centrality": {
     "engaged": 1,
-    "peripheral": 2
+    "peripheral": 3
    }
   },
   "del2017common": {
-   "verified": 21,
+   "verified": 23,
    "gscholar": null,
    "functions": {
     "surveys": 1,
     "supports-claim": 2,
     "exemplifies": 4,
-    "detailed-citation": 3,
-    "passing-citation": 7
+    "detailed-citation": 4,
+    "passing-citation": 8
    },
    "centrality": {
     "engaged": 2,
-    "peripheral": 15
+    "peripheral": 17
    }
   },
   "del2018": {
-   "verified": 18,
+   "verified": 19,
    "gscholar": null,
    "functions": {
     "positions": 1,
     "surveys": 2,
     "supports-claim": 1,
     "exemplifies": 4,
-    "detailed-citation": 3,
+    "detailed-citation": 4,
     "passing-citation": 1,
     "extends": 3
    },
    "centrality": {
-    "peripheral": 12,
+    "peripheral": 13,
     "engaged": 1
    }
   },
   "ding:pldi:2015": {
-   "verified": 120,
+   "verified": 136,
    "gscholar": null,
    "functions": {
     "adopts-idea": 6,
     "uses-benchmark": 2,
     "baseline": 1,
-    "positions": 6,
-    "surveys": 2,
-    "supports-claim": 4,
-    "exemplifies": 25,
-    "detailed-citation": 6,
-    "passing-citation": 38
+    "positions": 7,
+    "surveys": 3,
+    "supports-claim": 6,
+    "exemplifies": 27,
+    "detailed-citation": 7,
+    "passing-citation": 43
    },
    "centrality": {
-    "engaged": 14,
-    "peripheral": 76
+    "engaged": 15,
+    "peripheral": 87
    }
   },
   "drake:ipdps:2006": {
-   "verified": 48,
+   "verified": 49,
    "gscholar": null,
    "functions": {
     "adopts-idea": 1,
@@ -836,432 +846,439 @@
     "baseline": 1,
     "positions": 2,
     "supports-claim": 1,
-    "exemplifies": 13,
+    "exemplifies": 14,
     "detailed-citation": 5,
     "passing-citation": 7,
     "uses-tool": 1
    },
    "centrality": {
     "engaged": 10,
-    "peripheral": 27
+    "peripheral": 28
    }
   },
   "falsesharing:sc:2013": {
-   "verified": 37,
+   "verified": 41,
    "gscholar": null,
    "functions": {
     "baseline": 3,
-    "positions": 7,
+    "positions": 8,
     "surveys": 1,
     "supports-claim": 2,
-    "exemplifies": 8,
+    "exemplifies": 9,
     "detailed-citation": 3,
-    "passing-citation": 9
+    "passing-citation": 11
    },
    "centrality": {
-    "engaged": 10,
-    "peripheral": 23
+    "engaged": 11,
+    "peripheral": 26
    }
   },
   "g2-cgo21": {
-   "verified": 30,
+   "verified": 37,
    "gscholar": null,
    "functions": {
-    "uses-tool": 1,
+    "uses-tool": 2,
     "baseline": 3,
     "surveys": 1,
-    "supports-claim": 1,
+    "supports-claim": 2,
     "exemplifies": 7,
-    "detailed-citation": 1,
+    "detailed-citation": 3,
     "passing-citation": 8,
-    "extends": 1
+    "extends": 1,
+    "positions": 2
    },
    "centrality": {
-    "core": 1,
-    "engaged": 4,
-    "peripheral": 17
+    "core": 2,
+    "engaged": 6,
+    "peripheral": 20
    }
   },
   "gladshtein_mechanised_2024": {
-   "verified": 11,
+   "verified": 13,
    "gscholar": null,
    "functions": {
+    "extends": 1,
     "uses-tool": 1,
     "positions": 1,
+    "supports-claim": 1,
     "detailed-citation": 3,
     "passing-citation": 5
    },
    "centrality": {
-    "core": 1,
+    "core": 2,
     "engaged": 1,
-    "peripheral": 8
+    "peripheral": 9
    }
   },
   "gordon:asplos:2002": {
-   "verified": 390,
+   "verified": 420,
    "gscholar": null,
    "functions": {
     "extends": 3,
-    "uses-tool": 20,
+    "uses-tool": 21,
     "adopts-idea": 6,
-    "uses-benchmark": 14,
+    "uses-benchmark": 17,
     "baseline": 2,
-    "positions": 29,
-    "surveys": 4,
-    "supports-claim": 20,
-    "exemplifies": 89,
-    "detailed-citation": 41,
-    "passing-citation": 73
+    "positions": 34,
+    "surveys": 5,
+    "supports-claim": 23,
+    "exemplifies": 95,
+    "detailed-citation": 48,
+    "passing-citation": 77
    },
    "centrality": {
-    "core": 24,
-    "engaged": 51,
-    "peripheral": 225
+    "core": 25,
+    "engaged": 57,
+    "peripheral": 248
    }
   },
   "gordon:asplos:2006": {
-   "verified": 631,
+   "verified": 689,
    "gscholar": null,
    "functions": {
     "uses-tool": 9,
     "adopts-idea": 16,
-    "uses-benchmark": 28,
-    "baseline": 13,
-    "positions": 60,
-    "surveys": 9,
-    "supports-claim": 70,
-    "exemplifies": 101,
-    "detailed-citation": 46,
-    "passing-citation": 144
+    "uses-benchmark": 30,
+    "baseline": 15,
+    "positions": 65,
+    "surveys": 10,
+    "supports-claim": 81,
+    "exemplifies": 109,
+    "detailed-citation": 52,
+    "passing-citation": 159
    },
    "centrality": {
-    "engaged": 134,
+    "engaged": 145,
     "core": 6,
-    "peripheral": 356
+    "peripheral": 395
    }
   },
   "goslp": {
-   "verified": 43,
+   "verified": 47,
    "gscholar": null,
    "functions": {
     "positions": 3,
     "supports-claim": 5,
-    "exemplifies": 3,
+    "exemplifies": 5,
     "detailed-citation": 2,
-    "passing-citation": 12,
+    "passing-citation": 13,
     "extends": 7,
-    "adopts-idea": 2
+    "adopts-idea": 2,
+    "surveys": 1
    },
    "centrality": {
-    "engaged": 7,
-    "peripheral": 27
+    "engaged": 8,
+    "peripheral": 30
    }
   },
   "gottschlich:mapl:2018": {
-   "verified": 74,
+   "verified": 82,
    "gscholar": null,
    "functions": {
-    "supports-claim": 6,
+    "supports-claim": 8,
     "exemplifies": 11,
-    "detailed-citation": 15,
+    "detailed-citation": 17,
     "passing-citation": 30
    },
    "centrality": {
-    "peripheral": 58,
-    "engaged": 4
+    "peripheral": 61,
+    "engaged": 5
    }
   },
   "graphit": {
-   "verified": 202,
+   "verified": 256,
    "gscholar": null,
    "functions": {
-    "uses-tool": 4,
-    "adopts-idea": 6,
+    "uses-tool": 5,
+    "adopts-idea": 7,
     "uses-benchmark": 5,
-    "baseline": 15,
-    "positions": 9,
+    "baseline": 22,
+    "positions": 16,
     "surveys": 3,
-    "supports-claim": 4,
-    "exemplifies": 68,
-    "detailed-citation": 3,
-    "passing-citation": 49,
+    "supports-claim": 5,
+    "exemplifies": 84,
+    "detailed-citation": 7,
+    "passing-citation": 62,
     "extends": 2
    },
    "centrality": {
-    "core": 4,
-    "engaged": 32,
-    "peripheral": 132
+    "core": 5,
+    "engaged": 47,
+    "peripheral": 166
    }
   },
   "hall:computer:1996": {
-   "verified": 627,
+   "verified": 666,
    "gscholar": null,
    "functions": {
     "extends": 3,
-    "uses-tool": 132,
+    "uses-tool": 138,
     "adopts-idea": 1,
     "uses-benchmark": 1,
     "baseline": 4,
-    "positions": 10,
-    "surveys": 6,
-    "supports-claim": 25,
-    "exemplifies": 117,
-    "detailed-citation": 42,
-    "passing-citation": 131
+    "positions": 11,
+    "surveys": 7,
+    "supports-claim": 27,
+    "exemplifies": 126,
+    "detailed-citation": 47,
+    "passing-citation": 142
    },
    "centrality": {
-    "core": 95,
-    "engaged": 28,
-    "peripheral": 343
+    "core": 98,
+    "engaged": 32,
+    "peripheral": 371
    }
   },
   "hall:lcpc:1995": {
-   "verified": 70,
+   "verified": 73,
    "gscholar": null,
    "functions": {
     "extends": 3,
     "uses-tool": 6,
     "adopts-idea": 2,
     "positions": 3,
-    "surveys": 4,
+    "surveys": 5,
     "supports-claim": 2,
-    "exemplifies": 6,
+    "exemplifies": 7,
     "detailed-citation": 2,
-    "passing-citation": 24
+    "passing-citation": 25
    },
    "centrality": {
     "core": 6,
-    "peripheral": 37,
+    "peripheral": 40,
     "engaged": 8
    }
   },
   "hall:sc:1995": {
-   "verified": 176,
+   "verified": 182,
    "gscholar": null,
    "functions": {
     "extends": 3,
-    "uses-tool": 24,
+    "uses-tool": 26,
     "adopts-idea": 2,
     "baseline": 2,
     "positions": 5,
     "surveys": 3,
-    "supports-claim": 17,
+    "supports-claim": 19,
     "exemplifies": 19,
     "detailed-citation": 8,
-    "passing-citation": 49
+    "passing-citation": 50
    },
    "centrality": {
-    "core": 21,
+    "core": 23,
     "engaged": 16,
-    "peripheral": 94
+    "peripheral": 97
    }
   },
   "hall:toplas:2005": {
-   "verified": 76,
+   "verified": 79,
    "gscholar": null,
    "functions": {
     "extends": 1,
-    "uses-tool": 2,
+    "uses-tool": 3,
     "adopts-idea": 2,
-    "baseline": 2,
+    "baseline": 3,
     "positions": 3,
     "surveys": 1,
     "supports-claim": 11,
-    "exemplifies": 13,
+    "exemplifies": 14,
     "passing-citation": 28
    },
    "centrality": {
-    "core": 2,
-    "engaged": 11,
-    "peripheral": 50
+    "core": 3,
+    "engaged": 12,
+    "peripheral": 51
    }
   },
   "jaeyeon:asplos:2023": {
-   "verified": 39,
+   "verified": 50,
    "gscholar": null,
    "functions": {
     "extends": 1,
+    "uses-benchmark": 1,
     "baseline": 4,
-    "positions": 3,
-    "supports-claim": 2,
-    "exemplifies": 6,
-    "detailed-citation": 2,
-    "passing-citation": 15
+    "positions": 5,
+    "supports-claim": 3,
+    "exemplifies": 9,
+    "detailed-citation": 3,
+    "passing-citation": 16
    },
    "centrality": {
     "core": 1,
-    "engaged": 7,
-    "peripheral": 25
+    "engaged": 9,
+    "peripheral": 32
    }
   },
   "jaeyeon:asplos:2026": {
-   "verified": 2,
+   "verified": 7,
    "gscholar": null,
    "functions": {
     "supports-claim": 1,
-    "passing-citation": 1
+    "exemplifies": 2,
+    "passing-citation": 4
    },
    "centrality": {
-    "peripheral": 2
+    "peripheral": 7
    }
   },
   "karczmarek:lctes:2003": {
-   "verified": 66,
+   "verified": 70,
    "gscholar": null,
    "functions": {
     "uses-tool": 3,
     "adopts-idea": 2,
-    "uses-benchmark": 3,
-    "positions": 2,
+    "uses-benchmark": 4,
+    "positions": 3,
     "surveys": 1,
-    "supports-claim": 3,
+    "supports-claim": 4,
     "exemplifies": 4,
-    "detailed-citation": 9,
+    "detailed-citation": 10,
     "passing-citation": 23,
     "extends": 3
    },
    "centrality": {
-    "engaged": 8,
+    "engaged": 10,
     "core": 1,
-    "peripheral": 44
+    "peripheral": 46
    }
   },
   "kiriansky-micro18-dawg": {
-   "verified": 360,
+   "verified": 401,
    "gscholar": null,
    "functions": {
-    "adopts-idea": 3,
+    "adopts-idea": 4,
     "uses-benchmark": 1,
-    "baseline": 14,
-    "positions": 49,
-    "surveys": 18,
-    "supports-claim": 9,
-    "exemplifies": 60,
-    "detailed-citation": 24,
-    "passing-citation": 159
+    "baseline": 15,
+    "positions": 53,
+    "surveys": 20,
+    "supports-claim": 11,
+    "exemplifies": 69,
+    "detailed-citation": 30,
+    "passing-citation": 171
    },
    "centrality": {
-    "engaged": 73,
-    "peripheral": 262,
-    "core": 2
+    "engaged": 81,
+    "peripheral": 290,
+    "core": 3
    }
   },
   "kiriansky-pact18-cimple": {
-   "verified": 16,
+   "verified": 18,
    "gscholar": null,
    "functions": {
     "positions": 2,
     "supports-claim": 3,
     "detailed-citation": 4,
-    "passing-citation": 3
+    "passing-citation": 4
    },
    "centrality": {
     "engaged": 4,
-    "peripheral": 8
+    "peripheral": 9
    }
   },
   "kiriansky:pact:2016": {
-   "verified": 46,
+   "verified": 48,
    "gscholar": null,
    "functions": {
     "uses-benchmark": 1,
     "baseline": 1,
-    "positions": 5,
+    "positions": 6,
     "supports-claim": 2,
     "exemplifies": 7,
     "detailed-citation": 4,
-    "passing-citation": 13
+    "passing-citation": 14
    },
    "centrality": {
-    "peripheral": 26,
+    "peripheral": 28,
     "engaged": 6,
     "core": 1
    }
   },
   "kjolstad:2018:workspaces": {
-   "verified": 78,
+   "verified": 84,
    "gscholar": null,
    "functions": {
-    "extends": 8,
+    "extends": 9,
     "uses-tool": 7,
     "adopts-idea": 4,
     "baseline": 5,
-    "positions": 2,
+    "positions": 3,
     "exemplifies": 8,
-    "detailed-citation": 12,
-    "passing-citation": 18
+    "detailed-citation": 13,
+    "passing-citation": 19,
+    "supports-claim": 1
    },
    "centrality": {
-    "core": 14,
-    "engaged": 12,
-    "peripheral": 38
+    "core": 15,
+    "engaged": 14,
+    "peripheral": 40
    }
   },
   "kjolstad:oopsla:2017": {
-   "verified": 483,
+   "verified": 559,
    "gscholar": null,
    "functions": {
-    "extends": 13,
-    "uses-tool": 36,
-    "adopts-idea": 16,
+    "extends": 14,
+    "uses-tool": 43,
+    "adopts-idea": 18,
     "uses-benchmark": 12,
-    "baseline": 41,
-    "positions": 24,
-    "surveys": 1,
-    "supports-claim": 3,
-    "exemplifies": 155,
-    "detailed-citation": 32,
-    "passing-citation": 86
+    "baseline": 42,
+    "positions": 35,
+    "surveys": 2,
+    "supports-claim": 5,
+    "exemplifies": 181,
+    "detailed-citation": 40,
+    "passing-citation": 97
    },
    "centrality": {
-    "core": 38,
-    "peripheral": 290,
-    "engaged": 91
+    "core": 42,
+    "peripheral": 338,
+    "engaged": 109
    }
   },
   "kjolstad:tog:2016": {
-   "verified": 68,
+   "verified": 74,
    "gscholar": null,
    "functions": {
     "extends": 1,
     "uses-tool": 1,
     "baseline": 1,
-    "positions": 8,
+    "positions": 9,
     "supports-claim": 1,
-    "exemplifies": 18,
-    "detailed-citation": 3,
-    "passing-citation": 11
+    "exemplifies": 19,
+    "detailed-citation": 4,
+    "passing-citation": 12
    },
    "centrality": {
     "core": 3,
-    "engaged": 6,
-    "peripheral": 35
+    "engaged": 7,
+    "peripheral": 38
    }
   },
   "lamb:pldi:2003": {
-   "verified": 59,
+   "verified": 61,
    "gscholar": null,
    "functions": {
     "extends": 1,
     "uses-tool": 1,
     "positions": 3,
     "supports-claim": 3,
-    "exemplifies": 5,
-    "detailed-citation": 3,
+    "exemplifies": 6,
+    "detailed-citation": 4,
     "passing-citation": 17
    },
    "centrality": {
     "core": 2,
     "engaged": 4,
-    "peripheral": 27
+    "peripheral": 29
    }
   },
   "larsen:micro:2005": {
-   "verified": 27,
+   "verified": 28,
    "gscholar": null,
    "functions": {
     "uses-tool": 2,
-    "adopts-idea": 1,
+    "adopts-idea": 2,
     "baseline": 0,
     "positions": 1,
     "surveys": 1,
@@ -1273,78 +1290,79 @@
    "centrality": {
     "core": 1,
     "engaged": 3,
-    "peripheral": 17
+    "peripheral": 18
    }
   },
   "larsen:pact:2002": {
-   "verified": 82,
+   "verified": 87,
    "gscholar": null,
    "functions": {
     "extends": 6,
-    "adopts-idea": 3,
+    "adopts-idea": 4,
     "positions": 7,
-    "supports-claim": 5,
+    "supports-claim": 6,
     "exemplifies": 1,
     "detailed-citation": 10,
-    "passing-citation": 21
+    "passing-citation": 23,
+    "uses-tool": 1
    },
    "centrality": {
-    "core": 1,
-    "peripheral": 42,
-    "engaged": 9
+    "core": 2,
+    "peripheral": 45,
+    "engaged": 10
    }
   },
   "larsen:pldi:2000": {
-   "verified": 454,
+   "verified": 485,
    "gscholar": null,
    "functions": {
     "extends": 34,
     "uses-tool": 16,
-    "adopts-idea": 38,
+    "adopts-idea": 39,
     "baseline": 4,
     "positions": 42,
-    "surveys": 9,
-    "supports-claim": 39,
-    "exemplifies": 58,
-    "detailed-citation": 45,
-    "passing-citation": 95
+    "surveys": 11,
+    "supports-claim": 46,
+    "exemplifies": 65,
+    "detailed-citation": 51,
+    "passing-citation": 102
    },
    "centrality": {
     "core": 40,
-    "engaged": 92,
-    "peripheral": 247
+    "engaged": 95,
+    "peripheral": 274
    }
   },
   "lee:asplos:1998": {
-   "verified": 278,
+   "verified": 292,
    "gscholar": null,
    "functions": {
-    "extends": 5,
-    "uses-tool": 12,
+    "extends": 6,
+    "uses-tool": 13,
     "adopts-idea": 8,
     "uses-benchmark": 3,
     "baseline": 2,
     "positions": 27,
     "surveys": 6,
-    "supports-claim": 12,
-    "exemplifies": 43,
+    "supports-claim": 13,
+    "exemplifies": 46,
     "detailed-citation": 24,
-    "passing-citation": 48
+    "passing-citation": 53
    },
    "centrality": {
-    "core": 8,
+    "core": 10,
     "engaged": 32,
-    "peripheral": 147
+    "peripheral": 156
    }
   },
   "lee:micro:2002": {
-   "verified": 60,
+   "verified": 61,
    "gscholar": null,
    "functions": {
     "extends": 1,
     "adopts-idea": 2,
     "baseline": 1,
-    "positions": 6,
+    "positions": 7,
     "surveys": 1,
     "supports-claim": 3,
     "exemplifies": 3,
@@ -1353,82 +1371,82 @@
    },
    "centrality": {
     "core": 3,
-    "engaged": 8,
+    "engaged": 9,
     "peripheral": 32
    }
   },
   "lerer:dev:2010": {
-   "verified": 54,
+   "verified": 57,
    "gscholar": null,
    "functions": {
     "supports-claim": 12,
-    "exemplifies": 3,
+    "exemplifies": 4,
     "detailed-citation": 6,
-    "passing-citation": 20
+    "passing-citation": 22
    },
    "centrality": {
-    "peripheral": 36,
+    "peripheral": 39,
     "engaged": 5
    }
   },
   "looplets-cgo23": {
-   "verified": 30,
+   "verified": 35,
    "gscholar": null,
    "functions": {
     "uses-tool": 1,
-    "adopts-idea": 2,
-    "positions": 2,
-    "exemplifies": 4,
+    "adopts-idea": 3,
+    "positions": 3,
+    "exemplifies": 7,
     "detailed-citation": 2,
     "passing-citation": 7
    },
    "centrality": {
     "core": 1,
-    "engaged": 4,
-    "peripheral": 13
+    "engaged": 6,
+    "peripheral": 16
    }
   },
   "maydan:lcpc:1992": {
-   "verified": 61,
+   "verified": 68,
    "gscholar": null,
    "functions": {
     "extends": 2,
     "adopts-idea": 1,
     "positions": 3,
     "surveys": 1,
-    "supports-claim": 5,
-    "exemplifies": 3,
-    "detailed-citation": 1,
-    "passing-citation": 25
+    "supports-claim": 6,
+    "exemplifies": 4,
+    "detailed-citation": 2,
+    "passing-citation": 28
    },
    "centrality": {
     "core": 1,
-    "peripheral": 35,
+    "peripheral": 41,
     "engaged": 5
    }
   },
   "maydan:popl:1993": {
-   "verified": 209,
+   "verified": 221,
    "gscholar": null,
    "functions": {
     "extends": 2,
     "uses-tool": 5,
     "adopts-idea": 8,
-    "positions": 16,
+    "positions": 17,
     "surveys": 1,
-    "supports-claim": 13,
+    "supports-claim": 16,
     "exemplifies": 15,
-    "detailed-citation": 10,
-    "passing-citation": 68
+    "detailed-citation": 12,
+    "passing-citation": 72
    },
    "centrality": {
     "core": 6,
-    "engaged": 30,
-    "peripheral": 101
+    "engaged": 32,
+    "peripheral": 109
    }
   },
   "mendis:pldi:2015": {
-   "verified": 43,
+   "verified": 47,
    "gscholar": null,
    "functions": {
     "uses-tool": 1,
@@ -1436,139 +1454,142 @@
     "positions": 6,
     "surveys": 1,
     "exemplifies": 11,
-    "detailed-citation": 5,
-    "passing-citation": 13
+    "detailed-citation": 7,
+    "passing-citation": 15
    },
    "centrality": {
     "core": 1,
-    "engaged": 9,
-    "peripheral": 28
+    "engaged": 10,
+    "peripheral": 31
    }
   },
   "moritz:ims:2000": {
-   "verified": 51,
+   "verified": 54,
    "gscholar": null,
    "functions": {
     "uses-tool": 2,
     "baseline": 1,
-    "positions": 6,
+    "positions": 7,
     "surveys": 1,
-    "exemplifies": 6,
+    "exemplifies": 7,
     "detailed-citation": 11,
     "passing-citation": 13
    },
    "centrality": {
     "core": 2,
     "engaged": 7,
-    "peripheral": 30
+    "peripheral": 32
    }
   },
   "mueller_sparse_2020": {
-   "verified": 6,
+   "verified": 7,
    "gscholar": null,
    "functions": {
-    "positions": 2,
+    "positions": 3,
     "supports-claim": 1,
     "passing-citation": 3
    },
    "centrality": {
-    "engaged": 2,
+    "engaged": 3,
     "peripheral": 4
    }
   },
   "og-cgo20": {
-   "verified": 56,
+   "verified": 61,
    "gscholar": null,
    "functions": {
+    "extends": 1,
     "uses-tool": 1,
     "uses-benchmark": 1,
     "baseline": 4,
-    "positions": 2,
-    "supports-claim": 3,
-    "exemplifies": 11,
-    "passing-citation": 21
+    "positions": 3,
+    "supports-claim": 4,
+    "exemplifies": 12,
+    "passing-citation": 22
    },
    "centrality": {
-    "core": 1,
-    "peripheral": 35,
-    "engaged": 7
+    "core": 2,
+    "peripheral": 38,
+    "engaged": 8
    }
   },
   "olszewski:asplos:2009": {
-   "verified": 425,
+   "verified": 466,
    "gscholar": null,
    "functions": {
     "uses-tool": 4,
-    "adopts-idea": 17,
+    "adopts-idea": 19,
     "uses-benchmark": 1,
-    "baseline": 5,
-    "positions": 49,
-    "surveys": 5,
-    "supports-claim": 17,
-    "exemplifies": 42,
-    "detailed-citation": 31,
-    "passing-citation": 191,
+    "baseline": 6,
+    "positions": 52,
+    "surveys": 6,
+    "supports-claim": 23,
+    "exemplifies": 45,
+    "detailed-citation": 35,
+    "passing-citation": 209,
     "extends": 3
    },
    "centrality": {
     "core": 5,
-    "engaged": 75,
-    "peripheral": 284
+    "engaged": 84,
+    "peripheral": 313
    }
   },
   "olszewski:asplos:2012": {
-   "verified": 24,
+   "verified": 27,
    "gscholar": null,
    "functions": {
     "baseline": 1,
     "positions": 2,
     "supports-claim": 3,
-    "detailed-citation": 6,
-    "passing-citation": 5
+    "exemplifies": 1,
+    "detailed-citation": 7,
+    "passing-citation": 6
    },
    "centrality": {
     "engaged": 3,
-    "peripheral": 14
+    "peripheral": 17
    }
   },
   "pacula:evoapps:2012": {
-   "verified": 19,
+   "verified": 22,
    "gscholar": null,
    "functions": {
     "uses-tool": 1,
     "surveys": 1,
+    "supports-claim": 1,
     "exemplifies": 4,
-    "detailed-citation": 5,
-    "passing-citation": 4
+    "detailed-citation": 6,
+    "passing-citation": 5
    },
    "centrality": {
     "core": 2,
-    "peripheral": 12,
-    "engaged": 1
+    "peripheral": 14,
+    "engaged": 2
    }
   },
   "palkar:vldb:2018": {
-   "verified": 105,
+   "verified": 113,
    "gscholar": null,
    "functions": {
     "uses-tool": 2,
     "uses-benchmark": 3,
-    "baseline": 2,
+    "baseline": 3,
     "positions": 11,
     "surveys": 1,
-    "supports-claim": 4,
-    "exemplifies": 35,
-    "detailed-citation": 7,
-    "passing-citation": 27
+    "supports-claim": 5,
+    "exemplifies": 36,
+    "detailed-citation": 9,
+    "passing-citation": 30
    },
    "centrality": {
     "core": 2,
-    "engaged": 16,
-    "peripheral": 74
+    "engaged": 17,
+    "peripheral": 81
    }
   },
   "perkins:sosp:2009": {
-   "verified": 458,
+   "verified": 491,
    "gscholar": null,
    "functions": {
     "extends": 2,
@@ -1577,34 +1598,34 @@
     "baseline": 5,
     "positions": 24,
     "surveys": 7,
-    "supports-claim": 12,
-    "exemplifies": 99,
-    "detailed-citation": 75,
-    "passing-citation": 173
+    "supports-claim": 14,
+    "exemplifies": 107,
+    "detailed-citation": 83,
+    "passing-citation": 187
    },
    "centrality": {
     "core": 3,
-    "engaged": 50,
-    "peripheral": 348
+    "engaged": 52,
+    "peripheral": 378
    }
   },
   "phothilimthana:asplos:2013": {
-   "verified": 97,
+   "verified": 107,
    "gscholar": null,
    "functions": {
     "uses-tool": 1,
-    "positions": 6,
+    "positions": 7,
     "surveys": 1,
     "supports-claim": 7,
     "exemplifies": 18,
-    "detailed-citation": 13,
-    "passing-citation": 34,
+    "detailed-citation": 15,
+    "passing-citation": 39,
     "adopts-idea": 1
    },
    "centrality": {
     "core": 1,
-    "engaged": 4,
-    "peripheral": 76
+    "engaged": 5,
+    "peripheral": 83
    }
   },
   "puppin:lcpc:2003": {
@@ -1618,53 +1639,55 @@
    }
   },
   "ragankelley:halide:2012": {
-   "verified": 296,
+   "verified": 329,
    "gscholar": null,
    "functions": {
     "extends": 10,
-    "uses-tool": 49,
-    "adopts-idea": 23,
+    "uses-tool": 51,
+    "adopts-idea": 25,
     "uses-benchmark": 2,
     "baseline": 8,
-    "positions": 14,
-    "supports-claim": 6,
-    "exemplifies": 80,
-    "detailed-citation": 22,
-    "passing-citation": 29
+    "positions": 20,
+    "supports-claim": 7,
+    "exemplifies": 93,
+    "detailed-citation": 25,
+    "passing-citation": 31,
+    "surveys": 1
    },
    "centrality": {
-    "core": 41,
-    "peripheral": 150,
-    "engaged": 50
+    "core": 44,
+    "peripheral": 170,
+    "engaged": 57
    }
   },
   "randomwalk-iiswc21": {
-   "verified": 16,
+   "verified": 21,
    "gscholar": null,
    "functions": {
     "uses-tool": 2,
     "adopts-idea": 1,
     "baseline": 1,
     "positions": 1,
-    "supports-claim": 1,
-    "passing-citation": 8
+    "supports-claim": 2,
+    "detailed-citation": 1,
+    "passing-citation": 10
    },
    "centrality": {
     "core": 3,
-    "peripheral": 10,
+    "peripheral": 14,
     "engaged": 1
    }
   },
   "rawn:oopsla:2021": {
-   "verified": 36,
+   "verified": 39,
    "gscholar": null,
    "functions": {
     "extends": 3,
     "uses-tool": 3,
-    "adopts-idea": 1,
+    "adopts-idea": 2,
     "uses-benchmark": 1,
     "baseline": 1,
-    "positions": 1,
+    "positions": 3,
     "supports-claim": 1,
     "exemplifies": 2,
     "detailed-citation": 4,
@@ -1672,23 +1695,24 @@
    },
    "centrality": {
     "core": 6,
-    "engaged": 4,
+    "engaged": 7,
     "peripheral": 14
    }
   },
   "revec-cc": {
-   "verified": 12,
+   "verified": 17,
    "gscholar": null,
    "functions": {
-    "uses-benchmark": 2,
+    "uses-benchmark": 3,
     "exemplifies": 2,
     "detailed-citation": 1,
-    "passing-citation": 5,
-    "extends": 2
+    "passing-citation": 7,
+    "extends": 2,
+    "supports-claim": 2
    },
    "centrality": {
     "engaged": 1,
-    "peripheral": 10
+    "peripheral": 15
    }
   },
   "salsa": {
@@ -1703,7 +1727,7 @@
    }
   },
   "senanayake2020sparse": {
-   "verified": 74,
+   "verified": 82,
    "gscholar": null,
    "functions": {
     "extends": 2,
@@ -1713,68 +1737,69 @@
     "positions": 4,
     "surveys": 1,
     "supports-claim": 4,
-    "exemplifies": 6,
-    "detailed-citation": 2,
-    "passing-citation": 22
+    "exemplifies": 11,
+    "detailed-citation": 3,
+    "passing-citation": 24
    },
    "centrality": {
     "core": 10,
     "engaged": 17,
-    "peripheral": 33
+    "peripheral": 41
    }
   },
   "seq-nature-biotech": {
-   "verified": 17,
+   "verified": 20,
    "gscholar": null,
    "functions": {
     "extends": 1,
     "uses-tool": 2,
-    "supports-claim": 2,
+    "surveys": 1,
+    "supports-claim": 3,
     "exemplifies": 1,
-    "passing-citation": 2
+    "passing-citation": 3
    },
    "centrality": {
     "core": 3,
-    "peripheral": 5
+    "peripheral": 8
    }
   },
   "sermulins:lctes:2005": {
-   "verified": 94,
+   "verified": 99,
    "gscholar": null,
    "functions": {
     "uses-tool": 2,
     "adopts-idea": 4,
     "uses-benchmark": 3,
     "baseline": 3,
-    "positions": 7,
+    "positions": 8,
     "surveys": 1,
-    "supports-claim": 6,
+    "supports-claim": 7,
     "exemplifies": 7,
     "detailed-citation": 12,
-    "passing-citation": 22,
+    "passing-citation": 25,
     "extends": 1
    },
    "centrality": {
     "core": 2,
-    "engaged": 16,
-    "peripheral": 50
+    "engaged": 18,
+    "peripheral": 53
    }
   },
   "shajii:oopsla:2019": {
-   "verified": 21,
+   "verified": 23,
    "gscholar": null,
    "functions": {
     "uses-tool": 5,
     "baseline": 1,
-    "positions": 1,
+    "positions": 2,
     "surveys": 1,
     "exemplifies": 3,
-    "passing-citation": 1
+    "passing-citation": 2
    },
    "centrality": {
     "core": 4,
     "engaged": 3,
-    "peripheral": 5
+    "peripheral": 7
    }
   },
   "sheldon:lcpc:2001": {
@@ -1797,98 +1822,99 @@
    }
   },
   "soule:debs:2013": {
-   "verified": 40,
+   "verified": 43,
    "gscholar": null,
    "functions": {
-    "positions": 2,
+    "positions": 3,
+    "surveys": 1,
     "supports-claim": 7,
     "exemplifies": 9,
     "detailed-citation": 5,
-    "passing-citation": 6
+    "passing-citation": 7
    },
    "centrality": {
-    "peripheral": 27,
-    "engaged": 2
+    "peripheral": 29,
+    "engaged": 3
    }
   },
   "stephenson:cgo:2005": {
-   "verified": 225,
+   "verified": 238,
    "gscholar": null,
    "functions": {
     "adopts-idea": 8,
     "baseline": 3,
     "positions": 15,
     "surveys": 10,
-    "supports-claim": 10,
-    "exemplifies": 61,
-    "detailed-citation": 10,
-    "passing-citation": 76
+    "supports-claim": 13,
+    "exemplifies": 63,
+    "detailed-citation": 12,
+    "passing-citation": 78
    },
    "centrality": {
-    "engaged": 32,
+    "engaged": 34,
     "core": 2,
-    "peripheral": 159
+    "peripheral": 166
    }
   },
   "stephenson:eurogp:2003": {
-   "verified": 39,
+   "verified": 41,
    "gscholar": null,
    "functions": {
     "adopts-idea": 1,
     "positions": 4,
     "surveys": 5,
-    "supports-claim": 1,
+    "supports-claim": 3,
     "exemplifies": 9,
     "detailed-citation": 3,
     "passing-citation": 8
    },
    "centrality": {
     "engaged": 6,
-    "peripheral": 25
+    "peripheral": 27
    }
   },
   "stephenson:pldi:2000": {
-   "verified": 238,
+   "verified": 258,
    "gscholar": null,
    "functions": {
     "extends": 15,
     "uses-tool": 9,
-    "adopts-idea": 16,
+    "adopts-idea": 17,
     "uses-benchmark": 5,
     "baseline": 3,
-    "positions": 18,
-    "surveys": 4,
-    "supports-claim": 25,
-    "exemplifies": 24,
-    "detailed-citation": 18,
-    "passing-citation": 57
+    "positions": 20,
+    "surveys": 5,
+    "supports-claim": 28,
+    "exemplifies": 26,
+    "detailed-citation": 21,
+    "passing-citation": 62
    },
    "centrality": {
     "core": 7,
-    "engaged": 52,
-    "peripheral": 131
+    "engaged": 56,
+    "peripheral": 144
    }
   },
   "stephenson:pldi:2003": {
-   "verified": 315,
+   "verified": 343,
    "gscholar": null,
    "functions": {
     "adopts-idea": 9,
     "positions": 18,
-    "surveys": 8,
-    "supports-claim": 20,
-    "exemplifies": 46,
-    "detailed-citation": 31,
-    "passing-citation": 116
+    "surveys": 10,
+    "supports-claim": 22,
+    "exemplifies": 51,
+    "detailed-citation": 37,
+    "passing-citation": 124
    },
    "centrality": {
-    "engaged": 36,
+    "engaged": 38,
     "core": 3,
-    "peripheral": 209
+    "peripheral": 230
    }
   },
   "sullivan:ivme:2003": {
-   "verified": 60,
+   "verified": 66,
    "gscholar": null,
    "functions": {
     "extends": 1,
@@ -1899,29 +1925,29 @@
     "surveys": 2,
     "supports-claim": 3,
     "exemplifies": 2,
-    "detailed-citation": 6,
-    "passing-citation": 22
+    "detailed-citation": 7,
+    "passing-citation": 26
    },
    "centrality": {
     "core": 3,
     "engaged": 7,
-    "peripheral": 40
+    "peripheral": 45
    }
   },
   "taco-lossless-cgo22": {
-   "verified": 11,
+   "verified": 14,
    "gscholar": null,
    "functions": {
     "supports-claim": 1,
-    "detailed-citation": 1,
-    "passing-citation": 5
+    "detailed-citation": 2,
+    "passing-citation": 7
    },
    "centrality": {
-    "peripheral": 7
+    "peripheral": 10
    }
   },
   "taylor:hpca:2003": {
-   "verified": 175,
+   "verified": 186,
    "gscholar": null,
    "functions": {
     "adopts-idea": 7,
@@ -1929,45 +1955,45 @@
     "baseline": 1,
     "positions": 6,
     "surveys": 2,
-    "supports-claim": 25,
-    "exemplifies": 37,
-    "detailed-citation": 14,
-    "passing-citation": 39,
+    "supports-claim": 29,
+    "exemplifies": 38,
+    "detailed-citation": 15,
+    "passing-citation": 42,
     "uses-tool": 3
    },
    "centrality": {
-    "engaged": 22,
+    "engaged": 23,
     "core": 1,
-    "peripheral": 111
+    "peripheral": 119
    }
   },
   "taylor:isca:2004": {
-   "verified": 400,
+   "verified": 455,
    "gscholar": null,
    "functions": {
-    "uses-tool": 17,
+    "uses-tool": 19,
     "adopts-idea": 4,
     "uses-benchmark": 8,
     "baseline": 4,
-    "positions": 8,
-    "surveys": 6,
-    "supports-claim": 42,
-    "exemplifies": 91,
-    "detailed-citation": 25,
-    "passing-citation": 63,
+    "positions": 9,
+    "surveys": 7,
+    "supports-claim": 47,
+    "exemplifies": 111,
+    "detailed-citation": 30,
+    "passing-citation": 78,
     "extends": 2
    },
    "centrality": {
-    "core": 19,
-    "engaged": 29,
-    "peripheral": 221
+    "core": 20,
+    "engaged": 34,
+    "peripheral": 264
    }
   },
   "taylor:isscc:2003": {
-   "verified": 76,
+   "verified": 77,
    "gscholar": null,
    "functions": {
-    "uses-tool": 3,
+    "uses-tool": 4,
     "uses-benchmark": 2,
     "baseline": 3,
     "surveys": 2,
@@ -1980,21 +2006,23 @@
    "centrality": {
     "engaged": 7,
     "core": 1,
-    "peripheral": 50
+    "peripheral": 51
    }
   },
   "thies:acm-sigarch-news:2002": {
-   "verified": 11,
+   "verified": 12,
    "gscholar": null,
    "functions": {
     "uses-tool": 2,
     "positions": 1,
     "passing-citation": 1,
-    "extends": 1
+    "extends": 1,
+    "detailed-citation": 1
    },
    "centrality": {
     "core": 1,
-    "peripheral": 3
+    "peripheral": 3,
+    "engaged": 1
    }
   },
   "thies:bmc:2007": {
@@ -2032,62 +2060,63 @@
    }
   },
   "thies:ecoop:2005": {
-   "verified": 148,
+   "verified": 158,
    "gscholar": null,
    "functions": {
+    "adopts-idea": 1,
     "uses-benchmark": 1,
-    "positions": 15,
+    "positions": 18,
     "surveys": 4,
-    "supports-claim": 12,
+    "supports-claim": 14,
     "exemplifies": 9,
     "detailed-citation": 12,
-    "passing-citation": 78
+    "passing-citation": 81
    },
    "centrality": {
-    "engaged": 17,
-    "peripheral": 113,
-    "core": 1
+    "core": 2,
+    "engaged": 21,
+    "peripheral": 117
    }
   },
   "thies:ictd:2009": {
-   "verified": 167,
+   "verified": 194,
    "gscholar": null,
    "functions": {
     "uses-tool": 1,
     "baseline": 1,
     "positions": 1,
     "surveys": 3,
-    "supports-claim": 54,
+    "supports-claim": 75,
     "exemplifies": 12,
-    "detailed-citation": 5,
-    "passing-citation": 38
+    "detailed-citation": 6,
+    "passing-citation": 40
    },
    "centrality": {
-    "peripheral": 102,
-    "engaged": 13
+    "peripheral": 112,
+    "engaged": 27
    }
   },
   "thies:micro:2007": {
-   "verified": 309,
+   "verified": 361,
    "gscholar": null,
    "functions": {
     "adopts-idea": 2,
     "uses-benchmark": 4,
     "baseline": 1,
-    "positions": 12,
-    "surveys": 2,
-    "supports-claim": 4,
-    "exemplifies": 6,
-    "detailed-citation": 4,
-    "passing-citation": 79
+    "positions": 18,
+    "surveys": 4,
+    "supports-claim": 8,
+    "exemplifies": 11,
+    "detailed-citation": 12,
+    "passing-citation": 96
    },
    "centrality": {
-    "engaged": 15,
-    "peripheral": 98
+    "engaged": 23,
+    "peripheral": 132
    }
   },
   "thies:mm:2009": {
-   "verified": 10,
+   "verified": 11,
    "gscholar": null,
    "functions": {
     "surveys": 1,
@@ -2098,49 +2127,49 @@
    }
   },
   "thies:nc:2007": {
-   "verified": 177,
+   "verified": 185,
    "gscholar": null,
    "functions": {
     "uses-tool": 9,
     "adopts-idea": 2,
-    "uses-benchmark": 5,
+    "uses-benchmark": 6,
     "baseline": 8,
-    "positions": 5,
+    "positions": 6,
     "surveys": 1,
     "supports-claim": 5,
-    "exemplifies": 9,
-    "detailed-citation": 8,
-    "passing-citation": 74,
+    "exemplifies": 10,
+    "detailed-citation": 10,
+    "passing-citation": 77,
     "extends": 2
    },
    "centrality": {
-    "engaged": 25,
+    "engaged": 27,
     "core": 7,
-    "peripheral": 94
+    "peripheral": 100
    }
   },
   "thies:pact:2010": {
-   "verified": 192,
+   "verified": 221,
    "gscholar": null,
    "functions": {
-    "uses-tool": 2,
+    "uses-tool": 3,
     "adopts-idea": 3,
-    "uses-benchmark": 49,
-    "positions": 1,
+    "uses-benchmark": 58,
+    "positions": 4,
     "surveys": 1,
-    "supports-claim": 45,
-    "exemplifies": 20,
-    "detailed-citation": 6,
-    "passing-citation": 23
+    "supports-claim": 54,
+    "exemplifies": 22,
+    "detailed-citation": 8,
+    "passing-citation": 24
    },
    "centrality": {
-    "engaged": 38,
-    "core": 1,
-    "peripheral": 111
+    "engaged": 47,
+    "core": 2,
+    "peripheral": 128
    }
   },
   "thies:pldi:2001": {
-   "verified": 82,
+   "verified": 87,
    "gscholar": null,
    "functions": {
     "extends": 1,
@@ -2148,19 +2177,19 @@
     "uses-benchmark": 1,
     "positions": 6,
     "surveys": 1,
-    "supports-claim": 3,
+    "supports-claim": 4,
     "exemplifies": 1,
-    "detailed-citation": 12,
+    "detailed-citation": 13,
     "passing-citation": 33
    },
    "centrality": {
     "core": 1,
-    "peripheral": 50,
+    "peripheral": 52,
     "engaged": 8
    }
   },
   "thies:ppopp:2005": {
-   "verified": 62,
+   "verified": 67,
    "gscholar": null,
    "functions": {
     "extends": 1,
@@ -2169,14 +2198,14 @@
     "positions": 7,
     "surveys": 1,
     "supports-claim": 1,
-    "exemplifies": 9,
-    "detailed-citation": 12,
+    "exemplifies": 11,
+    "detailed-citation": 14,
     "passing-citation": 10
    },
    "centrality": {
     "core": 4,
-    "engaged": 7,
-    "peripheral": 35
+    "engaged": 8,
+    "peripheral": 38
    }
   },
   "thies:prib:2006": {
@@ -2191,25 +2220,25 @@
    }
   },
   "tiramisu": {
-   "verified": 345,
+   "verified": 413,
    "gscholar": null,
    "functions": {
-    "uses-tool": 9,
+    "uses-tool": 10,
     "adopts-idea": 1,
     "uses-benchmark": 1,
     "baseline": 4,
-    "positions": 19,
-    "surveys": 5,
-    "supports-claim": 2,
-    "exemplifies": 131,
-    "detailed-citation": 10,
-    "passing-citation": 111,
-    "extends": 1
+    "positions": 23,
+    "surveys": 6,
+    "supports-claim": 4,
+    "exemplifies": 162,
+    "detailed-citation": 15,
+    "passing-citation": 128,
+    "extends": 2
    },
    "centrality": {
-    "core": 8,
-    "engaged": 25,
-    "peripheral": 261
+    "core": 10,
+    "engaged": 28,
+    "peripheral": 318
    }
   },
   "tiramisu-li": {
@@ -2224,7 +2253,7 @@
    }
   },
   "tseng:ics:1995": {
-   "verified": 17,
+   "verified": 18,
    "gscholar": null,
    "functions": {
     "uses-tool": 2,
@@ -2240,242 +2269,247 @@
    }
   },
   "tyler:ppopp:2016": {
-   "verified": 45,
+   "verified": 50,
    "gscholar": null,
    "functions": {
     "uses-tool": 3,
     "baseline": 5,
-    "positions": 7,
-    "exemplifies": 10,
+    "positions": 9,
+    "exemplifies": 12,
     "detailed-citation": 4,
-    "passing-citation": 5,
+    "passing-citation": 6,
     "adopts-idea": 2,
     "extends": 2
    },
    "centrality": {
     "core": 1,
-    "engaged": 13,
-    "peripheral": 24
+    "engaged": 15,
+    "peripheral": 27
    }
   },
   "ugcf-isca21": {
-   "verified": 14,
+   "verified": 19,
    "gscholar": null,
    "functions": {
-    "uses-tool": 1,
+    "uses-tool": 2,
     "surveys": 1,
-    "exemplifies": 3,
-    "detailed-citation": 3,
-    "passing-citation": 2,
+    "exemplifies": 4,
+    "detailed-citation": 4,
+    "passing-citation": 3,
     "extends": 1
    },
    "centrality": {
     "engaged": 1,
-    "peripheral": 10
+    "peripheral": 14
    }
   },
   "urbanski:loc:2006": {
-   "verified": 190,
+   "verified": 207,
    "gscholar": null,
    "functions": {
     "uses-tool": 5,
     "uses-benchmark": 2,
     "positions": 2,
     "surveys": 3,
-    "supports-claim": 10,
-    "exemplifies": 26,
-    "detailed-citation": 6,
-    "passing-citation": 68
+    "supports-claim": 11,
+    "exemplifies": 27,
+    "detailed-citation": 8,
+    "passing-citation": 79
    },
    "centrality": {
     "core": 4,
-    "peripheral": 110,
-    "engaged": 8
+    "peripheral": 123,
+    "engaged": 10
    }
   },
   "waingold:computer:1997": {
-   "verified": 711,
+   "verified": 758,
    "gscholar": null,
    "functions": {
     "extends": 6,
-    "uses-tool": 14,
+    "uses-tool": 15,
     "adopts-idea": 8,
     "uses-benchmark": 1,
-    "positions": 21,
-    "surveys": 25,
-    "supports-claim": 14,
-    "exemplifies": 228,
-    "detailed-citation": 48,
-    "passing-citation": 120
+    "positions": 23,
+    "surveys": 27,
+    "supports-claim": 17,
+    "exemplifies": 249,
+    "detailed-citation": 55,
+    "passing-citation": 130
    },
    "centrality": {
-    "core": 12,
-    "engaged": 49,
-    "peripheral": 423
+    "core": 13,
+    "engaged": 54,
+    "peripheral": 463
    }
   },
   "wilson:sigplan:1994": {
-   "verified": 648,
+   "verified": 685,
    "gscholar": null,
    "functions": {
-    "uses-tool": 239,
+    "uses-tool": 245,
     "uses-benchmark": 1,
-    "positions": 15,
-    "surveys": 6,
-    "supports-claim": 7,
-    "exemplifies": 77,
-    "detailed-citation": 36,
-    "passing-citation": 75,
+    "positions": 16,
+    "surveys": 7,
+    "supports-claim": 9,
+    "exemplifies": 86,
+    "detailed-citation": 45,
+    "passing-citation": 82,
     "extends": 2
    },
    "centrality": {
-    "peripheral": 223,
-    "engaged": 34,
-    "core": 197
+    "peripheral": 253,
+    "engaged": 36,
+    "core": 200
    }
   },
   "witchel:micro:2001": {
-   "verified": 77,
+   "verified": 79,
    "gscholar": null,
    "functions": {
     "adopts-idea": 1,
     "uses-benchmark": 1,
     "baseline": 2,
-    "positions": 9,
+    "positions": 10,
     "supports-claim": 2,
     "exemplifies": 10,
     "detailed-citation": 21,
     "passing-citation": 16
    },
    "centrality": {
-    "engaged": 10,
+    "engaged": 11,
     "peripheral": 52
    }
   },
   "won_continuous_2025": {
-   "verified": 2,
+   "verified": 4,
    "gscholar": null,
-   "functions": {},
-   "centrality": {}
+   "functions": {
+    "supports-claim": 2
+   },
+   "centrality": {
+    "peripheral": 2
+   }
   },
   "zhang:bigdata:2017": {
-   "verified": 149,
+   "verified": 174,
    "gscholar": null,
    "functions": {
     "uses-tool": 1,
-    "adopts-idea": 5,
+    "adopts-idea": 6,
     "uses-benchmark": 1,
-    "baseline": 9,
-    "positions": 16,
+    "baseline": 10,
+    "positions": 18,
     "surveys": 1,
-    "supports-claim": 20,
-    "exemplifies": 15,
-    "detailed-citation": 7,
-    "passing-citation": 36,
+    "supports-claim": 24,
+    "exemplifies": 19,
+    "detailed-citation": 8,
+    "passing-citation": 44,
     "extends": 4
    },
    "centrality": {
-    "engaged": 37,
-    "peripheral": 78
+    "engaged": 44,
+    "peripheral": 92
    }
   },
   "zhang:dascmp:2007": {
-   "verified": 58,
+   "verified": 62,
    "gscholar": null,
    "functions": {
     "uses-tool": 2,
-    "positions": 8,
+    "positions": 9,
     "supports-claim": 3,
-    "exemplifies": 5,
-    "detailed-citation": 5,
+    "exemplifies": 6,
+    "detailed-citation": 7,
     "passing-citation": 19
    },
    "centrality": {
-    "engaged": 9,
+    "engaged": 10,
     "core": 1,
-    "peripheral": 32
+    "peripheral": 35
    }
   },
   "zhao:cc:2008": {
-   "verified": 59,
+   "verified": 66,
    "gscholar": null,
    "functions": {
     "positions": 4,
-    "supports-claim": 3,
+    "supports-claim": 4,
     "exemplifies": 11,
-    "detailed-citation": 3,
-    "passing-citation": 21
+    "detailed-citation": 6,
+    "passing-citation": 23
    },
    "centrality": {
-    "engaged": 5,
-    "peripheral": 37
+    "engaged": 6,
+    "peripheral": 42
    }
   },
   "zhao:cgo:2007": {
-   "verified": 25,
+   "verified": 28,
    "gscholar": null,
    "functions": {
     "positions": 3,
     "supports-claim": 3,
     "exemplifies": 1,
     "detailed-citation": 3,
-    "passing-citation": 7
+    "passing-citation": 8
    },
    "centrality": {
     "engaged": 5,
-    "peripheral": 12
+    "peripheral": 13
    }
   },
   "zhao:cgo:2008": {
-   "verified": 50,
+   "verified": 65,
    "gscholar": null,
    "functions": {
-    "adopts-idea": 5,
+    "adopts-idea": 6,
     "baseline": 2,
-    "positions": 7,
+    "positions": 8,
     "surveys": 1,
     "supports-claim": 3,
     "exemplifies": 6,
-    "detailed-citation": 6,
-    "passing-citation": 11
+    "detailed-citation": 7,
+    "passing-citation": 19
    },
    "centrality": {
-    "peripheral": 25,
+    "peripheral": 34,
     "core": 1,
-    "engaged": 15
+    "engaged": 17
    }
   },
   "zhao:cgo:2010": {
-   "verified": 63,
+   "verified": 68,
    "gscholar": null,
    "functions": {
     "uses-tool": 5,
+    "adopts-idea": 1,
     "baseline": 2,
     "positions": 3,
     "supports-claim": 4,
     "exemplifies": 9,
-    "detailed-citation": 6,
-    "passing-citation": 16
+    "detailed-citation": 7,
+    "passing-citation": 18
    },
    "centrality": {
     "core": 5,
-    "engaged": 8,
-    "peripheral": 32
+    "engaged": 9,
+    "peripheral": 35
    }
   },
   "zhao:ismm:2010": {
-   "verified": 22,
+   "verified": 23,
    "gscholar": null,
    "functions": {
     "positions": 1,
     "supports-claim": 2,
     "exemplifies": 2,
     "detailed-citation": 1,
-    "passing-citation": 6
+    "passing-citation": 7
    },
    "centrality": {
     "engaged": 2,
-    "peripheral": 10
+    "peripheral": 11
    }
   },
   "zhao:pact:2006": {
@@ -2497,19 +2531,19 @@
    }
   },
   "zhao:vee:2011": {
-   "verified": 85,
+   "verified": 91,
    "gscholar": null,
    "functions": {
     "adopts-idea": 2,
     "positions": 10,
     "surveys": 1,
-    "supports-claim": 10,
-    "exemplifies": 10,
+    "supports-claim": 11,
+    "exemplifies": 13,
     "detailed-citation": 4,
-    "passing-citation": 31
+    "passing-citation": 33
    },
    "centrality": {
-    "peripheral": 56,
+    "peripheral": 62,
     "engaged": 12
    }
   },
@@ -2651,45 +2685,58 @@
    }
   },
   "amarasinghe:siam:1995": {
-   "verified": 56,
+   "verified": 84,
    "gscholar": null,
    "functions": {
-    "uses-tool": 15,
+    "uses-tool": 22,
     "surveys": 3,
-    "exemplifies": 4,
-    "passing-citation": 12
+    "exemplifies": 7,
+    "passing-citation": 17,
+    "positions": 2,
+    "detailed-citation": 7
    },
    "centrality": {
-    "core": 10,
-    "peripheral": 20,
-    "engaged": 2
+    "core": 15,
+    "peripheral": 38,
+    "engaged": 3
    }
   },
   "anderson:ppopp:1995": {
-   "verified": 45,
+   "verified": 202,
    "gscholar": null,
    "functions": {
-    "adopts-idea": 1,
-    "positions": 7,
-    "exemplifies": 2,
-    "passing-citation": 19
+    "uses-tool": 4,
+    "adopts-idea": 4,
+    "baseline": 2,
+    "positions": 25,
+    "surveys": 1,
+    "supports-claim": 11,
+    "exemplifies": 3,
+    "detailed-citation": 1,
+    "passing-citation": 75
    },
    "centrality": {
-    "engaged": 7,
-    "peripheral": 22
+    "core": 2,
+    "peripheral": 93,
+    "engaged": 31
    }
   },
   "arxiv:2005.04091": {
-   "verified": 10,
+   "verified": 24,
    "gscholar": null,
    "functions": {
+    "uses-tool": 4,
     "adopts-idea": 1,
-    "positions": 2,
-    "passing-citation": 4
+    "baseline": 1,
+    "positions": 3,
+    "supports-claim": 1,
+    "exemplifies": 2,
+    "passing-citation": 6
    },
    "centrality": {
-    "engaged": 3,
-    "peripheral": 4
+    "core": 4,
+    "peripheral": 10,
+    "engaged": 4
    }
   },
   "arxiv:2110.00186": {
@@ -2699,32 +2746,35 @@
    "centrality": {}
   },
   "bansal:pldi:2026": {
-   "verified": 1,
+   "verified": 3,
    "gscholar": null,
    "functions": {
+    "positions": 1,
+    "exemplifies": 1,
     "passing-citation": 1
    },
    "centrality": {
-    "peripheral": 1
+    "engaged": 1,
+    "peripheral": 2
    }
   },
   "bosboom:oopsla:2014": {
-   "verified": 13,
+   "verified": 17,
    "gscholar": null,
    "functions": {
-    "exemplifies": 7,
-    "passing-citation": 2
+    "exemplifies": 8,
+    "passing-citation": 5
    },
    "centrality": {
-    "peripheral": 9
+    "peripheral": 13
    }
   },
   "bruening:fddo:2000": {
-   "verified": 28,
+   "verified": 29,
    "gscholar": null,
    "functions": {
     "adopts-idea": 1,
-    "positions": 4,
+    "positions": 5,
     "surveys": 1,
     "supports-claim": 1,
     "exemplifies": 3,
@@ -2733,25 +2783,26 @@
    },
    "centrality": {
     "engaged": 6,
-    "peripheral": 12
+    "peripheral": 13
    }
   },
   "bruening:fddo:2001": {
-   "verified": 80,
+   "verified": 118,
    "gscholar": null,
    "functions": {
-    "uses-tool": 11,
-    "baseline": 1,
-    "positions": 3,
-    "supports-claim": 1,
-    "exemplifies": 8,
-    "detailed-citation": 5,
-    "passing-citation": 11
+    "uses-tool": 14,
+    "baseline": 2,
+    "positions": 4,
+    "surveys": 1,
+    "supports-claim": 2,
+    "exemplifies": 24,
+    "detailed-citation": 7,
+    "passing-citation": 16
    },
    "centrality": {
-    "core": 13,
-    "peripheral": 23,
-    "engaged": 4
+    "core": 16,
+    "engaged": 7,
+    "peripheral": 47
    }
   },
   "chen2024framework": {
@@ -2761,13 +2812,13 @@
    "centrality": {}
   },
   "chen:graphics-hardware:2005": {
-   "verified": 18,
+   "verified": 20,
    "gscholar": null,
    "functions": {
     "uses-tool": 2,
     "adopts-idea": 1,
     "positions": 2,
-    "supports-claim": 2,
+    "supports-claim": 3,
     "exemplifies": 3,
     "detailed-citation": 0,
     "passing-citation": 1
@@ -2775,7 +2826,7 @@
    "centrality": {
     "engaged": 4,
     "core": 1,
-    "peripheral": 6
+    "peripheral": 7
    }
   },
   "chuvpilo:hpca-np:2002": {
@@ -2800,41 +2851,47 @@
    }
   },
   "kiriansky:security:2002": {
-   "verified": 501,
+   "verified": 545,
    "gscholar": null,
    "functions": {
     "uses-tool": 11,
-    "adopts-idea": 14,
+    "adopts-idea": 15,
     "baseline": 1,
-    "positions": 63,
-    "surveys": 20,
-    "supports-claim": 8,
-    "exemplifies": 54,
-    "detailed-citation": 24,
-    "passing-citation": 164
+    "positions": 67,
+    "surveys": 22,
+    "supports-claim": 12,
+    "exemplifies": 58,
+    "detailed-citation": 32,
+    "passing-citation": 179
    },
    "centrality": {
     "core": 12,
-    "engaged": 84,
-    "peripheral": 262
+    "engaged": 93,
+    "peripheral": 291
    }
   },
   "kjolstad:2018:workspace": {
-   "verified": 1,
-   "gscholar": null,
-   "functions": {},
-   "centrality": {}
-  },
-  "kotkar:hci4cid:2008": {
-   "verified": 23,
+   "verified": 4,
    "gscholar": null,
    "functions": {
-    "supports-claim": 2,
+    "baseline": 1,
+    "detailed-citation": 1
+   },
+   "centrality": {
+    "engaged": 1,
+    "peripheral": 1
+   }
+  },
+  "kotkar:hci4cid:2008": {
+   "verified": 26,
+   "gscholar": null,
+   "functions": {
+    "supports-claim": 3,
     "detailed-citation": 1,
     "passing-citation": 13
    },
    "centrality": {
-    "peripheral": 16
+    "peripheral": 17
    }
   },
   "kotkar:wisard:2008": {
@@ -2848,7 +2905,7 @@
    }
   },
   "kuo:pphec:2005": {
-   "verified": 13,
+   "verified": 14,
    "gscholar": null,
    "functions": {
     "detailed-citation": 1,
@@ -2865,62 +2922,73 @@
    "centrality": {}
   },
   "patel_systec_2025": {
-   "verified": 2,
+   "verified": 5,
    "gscholar": null,
    "functions": {
-    "uses-tool": 1
+    "uses-tool": 1,
+    "detailed-citation": 1,
+    "passing-citation": 2
    },
    "centrality": {
-    "core": 1
+    "core": 1,
+    "peripheral": 3
    }
   },
   "thies:www:2002": {
-   "verified": 39,
+   "verified": 43,
    "gscholar": null,
    "functions": {
     "positions": 6,
     "supports-claim": 2,
-    "exemplifies": 8,
+    "exemplifies": 9,
     "detailed-citation": 1,
-    "passing-citation": 14
+    "passing-citation": 15
    },
    "centrality": {
     "engaged": 7,
-    "peripheral": 24
+    "peripheral": 26
    }
   },
   "tiramisu-auto": {
-   "verified": 26,
+   "verified": 94,
    "gscholar": null,
    "functions": {
-    "extends": 1,
-    "positions": 2,
-    "exemplifies": 5,
-    "detailed-citation": 1,
-    "passing-citation": 10
+    "extends": 2,
+    "uses-tool": 2,
+    "adopts-idea": 1,
+    "baseline": 9,
+    "positions": 9,
+    "surveys": 1,
+    "supports-claim": 2,
+    "exemplifies": 18,
+    "detailed-citation": 4,
+    "passing-citation": 32
    },
    "centrality": {
-    "core": 1,
-    "peripheral": 17,
-    "engaged": 1
+    "core": 5,
+    "engaged": 19,
+    "peripheral": 56
    }
   },
   "vemal-neurips": {
-   "verified": 23,
+   "verified": 48,
    "gscholar": null,
    "functions": {
-    "positions": 1,
-    "surveys": 1,
-    "exemplifies": 6,
-    "passing-citation": 7
+    "baseline": 1,
+    "positions": 2,
+    "surveys": 2,
+    "supports-claim": 1,
+    "exemplifies": 13,
+    "detailed-citation": 2,
+    "passing-citation": 16
    },
    "centrality": {
-    "engaged": 1,
-    "peripheral": 14
+    "engaged": 4,
+    "peripheral": 33
    }
   },
   "agrawal:meng-thesis:2004": {
-   "verified": 3,
+   "verified": 4,
    "gscholar": null,
    "functions": {
     "passing-citation": 3
@@ -2940,39 +3008,48 @@
    }
   },
   "ansel:phd-thesis:2014": {
-   "verified": 4,
+   "verified": 11,
    "gscholar": null,
    "functions": {
-    "detailed-citation": 0,
-    "passing-citation": 2,
-    "adopts-idea": 1
+    "detailed-citation": 2,
+    "passing-citation": 3,
+    "adopts-idea": 1,
+    "exemplifies": 1
    },
    "centrality": {
     "engaged": 1,
-    "peripheral": 2
+    "peripheral": 6
    }
   },
   "aziz:meng-thesis:2007": {
-   "verified": 1,
-   "gscholar": null,
-   "functions": {},
-   "centrality": {}
-  },
-  "bruening:phd-thesis:2004": {
-   "verified": 41,
+   "verified": 4,
    "gscholar": null,
    "functions": {
-    "uses-tool": 13,
-    "positions": 1,
-    "exemplifies": 3,
-    "detailed-citation": 6,
-    "passing-citation": 11,
-    "extends": 1
+    "exemplifies": 2
    },
    "centrality": {
-    "engaged": 4,
-    "core": 9,
-    "peripheral": 22
+    "peripheral": 2
+   }
+  },
+  "bruening:phd-thesis:2004": {
+   "verified": 344,
+   "gscholar": null,
+   "functions": {
+    "uses-tool": 75,
+    "positions": 9,
+    "exemplifies": 70,
+    "detailed-citation": 13,
+    "passing-citation": 73,
+    "extends": 1,
+    "adopts-idea": 1,
+    "baseline": 7,
+    "surveys": 3,
+    "supports-claim": 14
+   },
+   "centrality": {
+    "engaged": 32,
+    "core": 56,
+    "peripheral": 178
    }
   },
   "chou:phd-thesis:2022": {
@@ -3022,10 +3099,14 @@
    }
   },
   "drake:meng-thesis:2006": {
-   "verified": 1,
+   "verified": 2,
    "gscholar": null,
-   "functions": {},
-   "centrality": {}
+   "functions": {
+    "supports-claim": 1
+   },
+   "centrality": {
+    "engaged": 1
+   }
   },
   "fred-taco": {
    "verified": 4,
@@ -3048,90 +3129,116 @@
    }
   },
   "jessica:2018": {
-   "verified": 1,
-   "gscholar": null,
-   "functions": {
-    "passing-citation": 1
-   },
-   "centrality": {
-    "peripheral": 1
-   }
-  },
-  "jrk:phd-thesis:2014": {
    "verified": 2,
    "gscholar": null,
    "functions": {
-    "detailed-citation": 2
+    "passing-citation": 2
    },
    "centrality": {
     "peripheral": 2
    }
   },
+  "jrk:phd-thesis:2014": {
+   "verified": 22,
+   "gscholar": null,
+   "functions": {
+    "uses-tool": 6,
+    "adopts-idea": 1,
+    "supports-claim": 3,
+    "exemplifies": 4,
+    "detailed-citation": 4,
+    "passing-citation": 2
+   },
+   "centrality": {
+    "core": 6,
+    "engaged": 4,
+    "peripheral": 10
+   }
+  },
   "karczmarek:sm-thesis:2002": {
-   "verified": 8,
+   "verified": 18,
    "gscholar": null,
    "functions": {
     "adopts-idea": 1,
-    "passing-citation": 4,
-    "extends": 1
+    "passing-citation": 5,
+    "extends": 1,
+    "uses-tool": 1,
+    "uses-benchmark": 1,
+    "positions": 1,
+    "surveys": 1,
+    "supports-claim": 1
    },
    "centrality": {
-    "engaged": 1,
-    "peripheral": 4
+    "engaged": 3,
+    "peripheral": 7,
+    "core": 1
    }
   },
   "kiriansky:meng-thesis:2003": {
-   "verified": 1,
+   "verified": 10,
    "gscholar": null,
    "functions": {
-    "passing-citation": 1
+    "passing-citation": 4
    },
    "centrality": {
-    "peripheral": 1
+    "peripheral": 4
    }
   },
   "kuo:meng-thesis:2004": {
-   "verified": 1,
+   "verified": 4,
    "gscholar": null,
    "functions": {
+    "positions": 2,
+    "supports-claim": 1,
     "detailed-citation": 1
    },
    "centrality": {
+    "engaged": 3,
     "peripheral": 1
    }
   },
   "larsen:phd-thesis:2006": {
-   "verified": 2,
+   "verified": 3,
    "gscholar": null,
    "functions": {
-    "detailed-citation": 0,
+    "detailed-citation": 1,
     "adopts-idea": 1,
     "extends": 1
+   },
+   "centrality": {
+    "peripheral": 3
+   }
+  },
+  "maze:meng-thesis:2001": {
+   "verified": 4,
+   "gscholar": null,
+   "functions": {
+    "surveys": 1,
+    "passing-citation": 1
    },
    "centrality": {
     "peripheral": 2
    }
   },
-  "maze:meng-thesis:2001": {
-   "verified": 2,
-   "gscholar": null,
-   "functions": {
-    "surveys": 1
-   },
-   "centrality": {
-    "peripheral": 1
-   }
-  },
   "mgordon:phd-thesis:2010": {
-   "verified": 8,
+   "verified": 38,
    "gscholar": null,
    "functions": {
-    "surveys": 1,
-    "passing-citation": 5
+    "uses-tool": 2,
+    "adopts-idea": 1,
+    "uses-benchmark": 1,
+    "baseline": 1,
+    "positions": 2,
+    "surveys": 2,
+    "supports-claim": 3,
+    "exemplifies": 7,
+    "detailed-citation": 4,
+    "passing-citation": 9
    },
    "centrality": {
-    "engaged": 1,
-    "peripheral": 5
+    "engaged": 7,
+    "core": 2,
+    "peripheral": 23
    }
   },
   "miketaylor:phd-thesis:2007": {
@@ -3145,13 +3252,16 @@
    }
   },
   "parker:meng-thesis:2016": {
-   "verified": 2,
+   "verified": 16,
    "gscholar": null,
    "functions": {
-    "passing-citation": 2
+    "surveys": 2,
+    "supports-claim": 7,
+    "exemplifies": 2,
+    "passing-citation": 3
    },
    "centrality": {
-    "peripheral": 2
+    "peripheral": 14
    }
   },
   "puppin:sm-thesis:2002": {
@@ -3166,49 +3276,69 @@
    }
   },
   "saman:phd-thesis:1997": {
-   "verified": 7,
+   "verified": 34,
    "gscholar": null,
    "functions": {
-    "adopts-idea": 2,
-    "passing-citation": 3
+    "adopts-idea": 3,
+    "uses-benchmark": 1,
+    "positions": 1,
+    "surveys": 1,
+    "supports-claim": 2,
+    "detailed-citation": 5,
+    "passing-citation": 8
    },
    "centrality": {
-    "engaged": 2,
-    "peripheral": 3
+    "core": 1,
+    "engaged": 4,
+    "peripheral": 16
    }
   },
   "stephenson:phd-thesis:2006": {
-   "verified": 6,
+   "verified": 10,
    "gscholar": null,
    "functions": {
+    "adopts-idea": 1,
     "surveys": 2,
     "passing-citation": 4
    },
    "centrality": {
+    "engaged": 1,
     "peripheral": 6
    }
   },
   "stephenson:sm-thesis:2000": {
-   "verified": 1,
+   "verified": 11,
    "gscholar": null,
    "functions": {
-    "passing-citation": 1
+    "positions": 1,
+    "surveys": 1,
+    "detailed-citation": 2,
+    "passing-citation": 4
    },
    "centrality": {
-    "peripheral": 1
+    "engaged": 3,
+    "peripheral": 5
    }
   },
   "thies:phd-thesis:2009": {
-   "verified": 10,
+   "verified": 108,
    "gscholar": null,
    "functions": {
-    "surveys": 1,
-    "detailed-citation": 3,
-    "passing-citation": 5
+    "uses-tool": 4,
+    "adopts-idea": 2,
+    "uses-benchmark": 8,
+    "baseline": 2,
+    "positions": 5,
+    "surveys": 2,
+    "supports-claim": 9,
+    "exemplifies": 11,
+    "detailed-citation": 10,
+    "passing-citation": 13
    },
    "centrality": {
-    "peripheral": 8,
-    "engaged": 1
+    "engaged": 17,
+    "core": 5,
+    "peripheral": 44
    }
   },
   "tony:2020": {
@@ -3218,14 +3348,371 @@
    "centrality": {}
   },
   "zhang:meng-thesis:2007": {
-   "verified": 3,
+   "verified": 12,
    "gscholar": null,
    "functions": {
+    "positions": 3,
     "detailed-citation": 1,
     "passing-citation": 1
    },
    "centrality": {
+    "engaged": 3,
     "peripheral": 2
+   }
+  },
+  "Jonathan:sb-thesis:2025": {
+   "verified": 5,
+   "gscholar": null,
+   "functions": {
+    "positions": 1,
+    "supports-claim": 2,
+    "passing-citation": 1
+   },
+   "centrality": {
+    "engaged": 1,
+    "peripheral": 3
+   }
+  },
+  "ajay:phd-thesis:2025": {
+   "verified": 1,
+   "gscholar": null,
+   "functions": {},
+   "centrality": {}
+  },
+  "akkas2019": {
+   "verified": 1,
+   "gscholar": null,
+   "functions": {
+    "supports-claim": 1
+   },
+   "centrality": {
+    "peripheral": 1
+   }
+  },
+  "alexrs:meng-thesis:2010": {
+   "verified": 4,
+   "gscholar": null,
+   "functions": {
+    "positions": 1
+   },
+   "centrality": {
+    "peripheral": 1
+   }
+  },
+  "amin:meng-thesis:2009": {
+   "verified": 4,
+   "gscholar": null,
+   "functions": {
+    "exemplifies": 2,
+    "passing-citation": 2
+   },
+   "centrality": {
+    "peripheral": 4
+   }
+  },
+  "baron:sm-thesis:2003": {
+   "verified": 5,
+   "gscholar": null,
+   "functions": {
+    "extends": 1,
+    "exemplifies": 1,
+    "passing-citation": 2
+   },
+   "centrality": {
+    "core": 1,
+    "peripheral": 3
+   }
+  },
+  "barua:phd-thesis:2000": {
+   "verified": 5,
+   "gscholar": null,
+   "functions": {},
+   "centrality": {}
+  },
+  "chakrabarti:meng-thesis:2002": {
+   "verified": 2,
+   "gscholar": null,
+   "functions": {
+    "passing-citation": 2
+   },
+   "centrality": {
+    "peripheral": 2
+   }
+  },
+  "frank:lcs-tm:1999": {
+   "verified": 8,
+   "gscholar": null,
+   "functions": {
+    "positions": 1,
+    "exemplifies": 1,
+    "passing-citation": 4
+   },
+   "centrality": {
+    "engaged": 1,
+    "peripheral": 5
+   }
+  },
+  "frank:phd-thesis:2003": {
+   "verified": 5,
+   "gscholar": null,
+   "functions": {
+    "positions": 1,
+    "passing-citation": 1
+   },
+   "centrality": {
+    "engaged": 1,
+    "peripheral": 1
+   }
+  },
+  "garnett:meng-thesis:2003": {
+   "verified": 10,
+   "gscholar": null,
+   "functions": {
+    "supports-claim": 1,
+    "exemplifies": 3,
+    "detailed-citation": 1,
+    "passing-citation": 1
+   },
+   "centrality": {
+    "peripheral": 6
+   }
+  },
+  "greenwald:sm-thesis:1999": {
+   "verified": 2,
+   "gscholar": null,
+   "functions": {},
+   "centrality": {}
+  },
+  "ithemal-icml": {
+   "verified": 170,
+   "gscholar": null,
+   "functions": {
+    "extends": 1,
+    "uses-tool": 2,
+    "adopts-idea": 1,
+    "baseline": 13,
+    "positions": 19,
+    "surveys": 1,
+    "supports-claim": 9,
+    "exemplifies": 54,
+    "detailed-citation": 9,
+    "passing-citation": 45
+   },
+   "centrality": {
+    "core": 4,
+    "engaged": 33,
+    "peripheral": 117
+   }
+  },
+  "kiriansky:lcs-tm:2003": {
+   "verified": 6,
+   "gscholar": null,
+   "functions": {
+    "supports-claim": 2,
+    "passing-citation": 2
+   },
+   "centrality": {
+    "peripheral": 4
+   }
+  },
+  "larsen:lcs-tm:2001": {
+   "verified": 11,
+   "gscholar": null,
+   "functions": {
+    "positions": 1,
+    "supports-claim": 2,
+    "passing-citation": 4
+   },
+   "centrality": {
+    "engaged": 1,
+    "peripheral": 6
+   }
+  },
+  "leger:meng-thesis:2004": {
+   "verified": 3,
+   "gscholar": null,
+   "functions": {
+    "uses-tool": 2
+   },
+   "centrality": {
+    "core": 2
+   }
+  },
+  "malek:2018": {
+   "verified": 2,
+   "gscholar": null,
+   "functions": {
+    "supports-claim": 2
+   },
+   "centrality": {
+    "peripheral": 2
+   }
+  },
+  "mendis:phd-thesis:2020": {
+   "verified": 5,
+   "gscholar": null,
+   "functions": {
+    "adopts-idea": 1,
+    "supports-claim": 1,
+    "exemplifies": 1,
+    "passing-citation": 1
+   },
+   "centrality": {
+    "engaged": 1,
+    "peripheral": 3
+   }
+  },
+  "moritz:lcs-tm:1999": {
+   "verified": 28,
+   "gscholar": null,
+   "functions": {
+    "adopts-idea": 1,
+    "positions": 3,
+    "surveys": 1,
+    "supports-claim": 2,
+    "exemplifies": 4,
+    "detailed-citation": 4,
+    "passing-citation": 5
+   },
+   "centrality": {
+    "peripheral": 15,
+    "engaged": 5
+   }
+  },
+  "petrov:meng-thesis:1999": {
+   "verified": 1,
+   "gscholar": null,
+   "functions": {},
+   "centrality": {}
+  },
+  "puppin:mteac:2001": {
+   "verified": 2,
+   "gscholar": null,
+   "functions": {
+    "supports-claim": 1,
+    "passing-citation": 1
+   },
+   "centrality": {
+    "engaged": 1,
+    "peripheral": 1
+   }
+  },
+  "rawn:2020": {
+   "verified": 1,
+   "gscholar": null,
+   "functions": {
+    "exemplifies": 1
+   },
+   "centrality": {
+    "engaged": 1
+   }
+  },
+  "reyes:meng-thesis:2004": {
+   "verified": 3,
+   "gscholar": null,
+   "functions": {
+    "positions": 1
+   },
+   "centrality": {
+    "peripheral": 1
+   }
+  },
+  "rnk:meng-thesis:2011": {
+   "verified": 2,
+   "gscholar": null,
+   "functions": {
+    "positions": 1,
+    "passing-citation": 1
+   },
+   "centrality": {
+    "peripheral": 2
+   }
+  },
+  "ryan:2020": {
+   "verified": 1,
+   "gscholar": null,
+   "functions": {
+    "passing-citation": 1
+   },
+   "centrality": {
+    "peripheral": 1
+   }
+  },
+  "suriana:meng-thesis:2016": {
+   "verified": 4,
+   "gscholar": null,
+   "functions": {
+    "uses-tool": 1,
+    "positions": 2
+   },
+   "centrality": {
+    "engaged": 3
+   }
+  },
+  "swenson:meng-thesis:2002": {
+   "verified": 1,
+   "gscholar": null,
+   "functions": {},
+   "centrality": {}
+  },
+  "tan:meng-thesis:2009": {
+   "verified": 4,
+   "gscholar": null,
+   "functions": {
+    "positions": 2,
+    "exemplifies": 1,
+    "detailed-citation": 1
+   },
+   "centrality": {
+    "engaged": 2,
+    "peripheral": 2
+   }
+  },
+  "thea:sm-thesis:2025": {
+   "verified": 1,
+   "gscholar": null,
+   "functions": {},
+   "centrality": {}
+  },
+  "thies:asploswaci:2004": {
+   "verified": 2,
+   "gscholar": null,
+   "functions": {
+    "passing-citation": 1
+   },
+   "centrality": {
+    "peripheral": 1
+   }
+  },
+  "unite:2026": {
+   "verified": 1,
+   "gscholar": null,
+   "functions": {},
+   "centrality": {}
+  },
+  "waingold:lcs-tr:1997": {
+   "verified": 24,
+   "gscholar": null,
+   "functions": {
+    "uses-tool": 2,
+    "surveys": 1,
+    "exemplifies": 6,
+    "detailed-citation": 3,
+    "passing-citation": 3
+   },
+   "centrality": {
+    "core": 2,
+    "peripheral": 13
+   }
+  },
+  "waingold:meng-thesis:2000": {
+   "verified": 1,
+   "gscholar": null,
+   "functions": {
+    "passing-citation": 1
+   },
+   "centrality": {
+    "peripheral": 1
    }
   }
  }

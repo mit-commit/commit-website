@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "buildit-cgo21",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 22,
-  "works": 22,
-  "commit": 6,
-  "judged": 20,
+  "records_raw": 24,
+  "works": 24,
+  "commit": 7,
+  "judged": 21,
   "gscholar": null
  },
  "citations": [
@@ -20,6 +20,22 @@
    "authors": "Ajay Brahmakshatriya, Saman P. Amarasinghe, Martin C. Rinard",
    "url": "https://doi.org/10.48550/arxiv.2601.02653",
    "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "Prophecy Variables, Program Analysis, Binding Times, and Staged Compilation in the BuildIt System",
+   "function": "extends",
+   "split": "detailed",
+   "year": 2026,
+   "authors": "Ajay Brahmakshatriya, Saman P. Amarasinghe, M. Rinard",
+   "url": "https://www.semanticscholar.org/paper/93187bd016ef59899f843ebc9f48cea6d5cc68db",
+   "cited_by": 2,
    "centrality": "core",
    "confidence": "high",
    "flags": [
@@ -345,6 +361,17 @@
     "polluted-contexts"
    ],
    "evidence": "fulltext"
+  },
+  {
+   "title": "From theory to practice: How partial evaluation found its niche",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Journal of Computer Languages",
+   "authors": "Xavier Sebastian Adettu, Nayan Banik, Tian Zhao",
+   "url": "https://doi.org/10.1016/j.cola.2026.101427",
+   "cited_by": 0,
+   "evidence": "title_only"
   }
  ]
 }

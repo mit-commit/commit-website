@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "ahrens_finch_2025",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 14,
-  "works": 14,
-  "commit": 2,
-  "judged": 11,
+  "records_raw": 30,
+  "works": 30,
+  "commit": 4,
+  "judged": 27,
   "gscholar": null
  },
  "citations": [
@@ -29,6 +29,67 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Data-Aware Complexity Analysis and Program Optimization",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Kyle Deeds",
+   "url": "https://openalex.org/W7126608815",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "lineage",
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Galley: Modern Query Optimization for Sparse Tensor Programs",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Proceedings of the ACM on Management of Data",
+   "authors": "Kyle Deeds, Willow Ahrens, Magdalena Bałazińska et al.",
+   "url": "https://doi.org/10.1145/3725301",
+   "cited_by": 9,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "SySTeC: A Symmetric Sparse Tensor Compiler",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Proceedings of the CGO/Proceedings of the ... CGO",
+   "authors": "Radha Patel, Willow Ahrens, Saman P. Amarasinghe",
+   "url": "https://doi.org/10.1145/3696443.3708919",
+   "cited_by": 6,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "baseline",
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
   },
   {
    "title": "The Continuous Tensor Abstraction: Where Indices Are Real",
@@ -68,6 +129,41 @@
    "evidence": "contexts"
   },
   {
+   "title": "An Expression is Worth a Thousand Words: Graph Algorithms in the Language of Extended Tensor Algebra Notation",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Toluwanimi O. Odemuyiwa",
+   "url": "https://openalex.org/W7221493579",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "JLIR: A Julia-Native MLIR-Inspired Intermediate Representation with Automatic JACC Kernel Extraction",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Narasinga Rao Miniskar, Seyong Lee, Keita Teranishi et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.04585",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Optimizing Sparse Tensor Compilation for Sparse Output",
    "function": "positions",
    "split": "detailed",
@@ -81,6 +177,52 @@
    "secondary": [
     "detailed-citation"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Parallel Sparse Outputs for Tensor Compilers",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adrian Gushin, Pau Sum, Willow Ahrens",
+   "url": "https://doi.org/10.48550/arxiv.2610.19308",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compressed and Parallelized Structured Tensor Algebra",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Mahdi Ghorbani, Emilien Bauer, Tobias Grosser et al.",
+   "url": "https://doi.org/10.1145/3720506",
+   "cited_by": 7,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Operon: Incremental Construction of Ragged Data via Named Dimensions",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Moon, Sungbin, Park, Jiho, Suyoung Hwang et al.",
+   "url": "https://doi.org/10.48550/arxiv.2511.16080",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -113,6 +255,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Acceleration of Sparse and Irregular Workloads through Energy-Efficient Stream Extensions",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Paul Scheffler",
+   "url": "https://doi.org/10.3929/ethz-c-000797338",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums",
    "function": "exemplifies",
    "split": "passing",
@@ -130,6 +285,48 @@
    "commit": true
   },
   {
+   "title": "Program lifting for acceleration",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ERA",
+   "authors": "José Wesley de Souza Magalhães",
+   "url": "https://doi.org/10.7488/era/7291",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Splyce: SIMD Vectorization of Sparse Coiteration",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Kabilan Mahathevan, Poorna Gunathilaka, Kirshanthan Sundararajah",
+   "url": "https://doi.org/10.48550/arxiv.2609.19410",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Novel Compiler Transformation for Fast Sparse Matrix Multiplication in GPUs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Hossein Albakri, Kazem Cheshmi",
+   "url": "https://doi.org/10.48550/arxiv.2506.15174",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Equality Saturation for Optimizing High-Level Julia IR",
    "function": "exemplifies",
    "split": "passing",
@@ -140,6 +337,25 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Binsparse: A Specification for Cross-Platform Storage of Sparse Matrices and Tensors",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Benjamin Brock, Willow Ahrens, Hameer Abbasi et al.",
+   "url": "https://doi.org/10.48550/arxiv.2506.19175",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "flags": [
+    "own-group"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -156,6 +372,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Analysis and Optimization of Sparse Convolutions on GPUs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "DSpace - NTUA (National Technical University of Athens)",
+   "authors": "Dionysios Adamopoulos",
+   "url": "https://doi.org/10.26240/heal.ntua.32397",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "DCC: Data-Centric Compilation of Machine Learning Kernels for Processing-In-Memory Architectures",
    "function": "passing-citation",
    "split": "passing",
@@ -163,6 +392,36 @@
    "venue": "International Symposium on Computer Architecture",
    "authors": "Peiming Yang, Sankeerth Durvasula, Ivan Fernandez et al.",
    "url": "https://doi.org/10.1109/isca66397.2026.00180",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Grassmann: The Coordinate-Independent Linear Algebra Programming Language",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Theadora Fields Collin, Gilbert Bernstein, Oded Stein et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.00182",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "SparseConflicts: Handling Conflicting Data Layouts in Sparse Tensor Contractions",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adhitha Dias, Kirshanthan Sundararajah, Artem Pelenitsyn et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.06328",
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",

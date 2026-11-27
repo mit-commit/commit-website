@@ -1,0 +1,28 @@
+{
+ "schema": 1,
+ "key": "akkas2019",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 1,
+  "works": 1,
+  "commit": 0,
+  "judged": 1,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "A graph-based real-time spatial sound framework",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "e-scholar@UOIT (University of Ontario Institute of Technology)",
+   "authors": "Brent Cowan",
+   "url": "https://openalex.org/W3081310868",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  }
+ ]
+}

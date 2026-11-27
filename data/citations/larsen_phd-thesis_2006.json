@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "larsen:phd-thesis:2006",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 3,
-  "works": 2,
+  "records_raw": 4,
+  "works": 3,
   "commit": 0,
-  "judged": 2,
+  "judged": 3,
   "gscholar": null
  },
  "citations": [
@@ -29,6 +29,19 @@
     "date": "2026-10-12",
     "evidence": "we employ a similar cost model used in [16] to estimate the potential speed-ups brought by the transformed code"
    }
+  },
+  {
+   "title": "IDISA+: A portable model for high performance SIMD programming",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "Summit (Simon Fraser University)",
+   "authors": "Huang Hua",
+   "url": "https://openalex.org/W80322541",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Compiler-controlled caching in superword register files for multimedia extension architectures",

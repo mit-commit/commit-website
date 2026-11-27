@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "g2-cgo21",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 32,
-  "works": 30,
-  "commit": 5,
-  "judged": 27,
+  "records_raw": 39,
+  "works": 37,
+  "commit": 6,
+  "judged": 34,
   "gscholar": null
  },
  "citations": [
@@ -51,6 +51,22 @@
    "commit": true
   },
   {
+   "title": "Prophecy Variables, Program Analysis, Binding Times, and Staged Compilation in the BuildIt System",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2026,
+   "authors": "Ajay Brahmakshatriya, Saman P. Amarasinghe, M. Rinard",
+   "url": "https://www.semanticscholar.org/paper/93187bd016ef59899f843ebc9f48cea6d5cc68db",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
    "title": "Voyager: Input-Adaptive Algebraic Transformations for High-Performance Graph Neural Networks",
    "function": "uses-tool",
    "split": "detailed",
@@ -65,6 +81,25 @@
     "lineage"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Compiler-Hardware Co-Design for Pervasive Parallelization",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Victor A. Ying",
+   "url": "https://openalex.org/W7123382722",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "uses-benchmark"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "EXPLORING HIGH PERFORMANCE AND ENERGY EFFICIENT GRAPH PROCESSING ON GPU",
@@ -111,6 +146,39 @@
     "supports-claim"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "An Expression is Worth a Thousand Words: Graph Algorithms in the Language of Extended Tensor Algebra Notation",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Toluwanimi O. Odemuyiwa",
+   "url": "https://openalex.org/W7221493579",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "GPU Load Balancing",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "arXiv",
+   "authors": "Muhammad Osama",
+   "url": "https://doi.org/10.48550/arxiv.2212.08964",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "GraphIt to CUDA Compiler in 2021 LOC: A Case for High-Performance DSL Implementation via Staging with BuilDSL",
@@ -160,6 +228,19 @@
    "venue": "ACM Transactions on Parallel Computing",
    "authors": "Qiang Fu, Yuede Ji, Thomas B. Rolinger et al.",
    "url": "https://doi.org/10.1145/3644712",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimizing Emerging Graph Applications Using Hardware-Software Co-Design",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Nishil Talati",
+   "url": "https://doi.org/10.7302/6832",
    "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "medium",
@@ -291,6 +372,38 @@
     "positions"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Portable Parallel Algorithms and Frameworks for Exascale Graph Analytics",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+   "authors": "Julian Shun, Massachusetts Inst. of Tech., Cambridge, MA (United States)",
+   "url": "https://doi.org/10.2172/3012453",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "The EDGE Language: Extended General Einsums for Graph Algorithms",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Toluwanimi O. Odemuyiwa, Porumbescu, Serban D., Nayak, Nandeeka et al.",
+   "url": "https://doi.org/10.48550/arxiv.2404.11591",
+   "cited_by": 16,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "DGS: A GPU-based Adaptive Graph Sampling Framework",

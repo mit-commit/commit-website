@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "zhao:cgo:2007",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 26,
-  "works": 25,
+  "records_raw": 29,
+  "works": 28,
   "commit": 4,
-  "judged": 21,
+  "judged": 22,
   "gscholar": null
  },
  "citations": [
@@ -170,6 +170,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Mecanismos de gestión de escrituras en sistemas con tecnologías de memoría no volátiles",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "authors": "Roberto Alonso Rodríguez Rodríguez",
+   "url": "https://openalex.org/W2640581260",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Optimizing Performance in Highly Utilized Multicores with Intelligent",
    "function": "passing-citation",
    "split": "passing",
@@ -320,6 +333,30 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Behavior Models For Computer Programs",
+   "function": "unknown",
+   "split": null,
+   "year": 2008,
+   "authors": "Mitsunori Ogihara, Chen Ding, Chengliang Zhang",
+   "url": "https://openalex.org/W2283305974",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "NUMAPROF, A NUMA Memory Profiler",
+   "function": "unclassified",
+   "split": null,
+   "year": 2018,
+   "venue": "Lecture notes in computer science",
+   "authors": "Sebastien Valat, Othman Bouizi",
+   "url": "https://doi.org/10.1007/978-3-030-10549-5_13",
+   "cited_by": 4,
+   "evidence": "title_only"
   },
   {
    "title": "Perf-Insight : A Simple, Scalable Approach to Optimal Data Prefetching in Multicores",

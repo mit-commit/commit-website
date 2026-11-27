@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "larsen:pldi:2000",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 559,
-  "works": 454,
+  "records_raw": 590,
+  "works": 485,
   "commit": 18,
-  "judged": 397,
+  "judged": 427,
   "gscholar": null
  },
  "citations": [
@@ -510,6 +510,19 @@
     "positions"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "A Linear Algebra Compiler for Small Problem Sizes",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "Repository for Publications and Research Data (ETH Zurich)",
+   "authors": "Daniele G. Spampinato",
+   "url": "https://doi.org/10.3929/ethz-b-000168796",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Empirically Tuning HPC Kernels with iFKO",
@@ -1708,6 +1721,32 @@
    "evidence": "fulltext"
   },
   {
+   "title": "A Review of Compiler Optimization Techniques and Comparative Analysis for RISC-V Software Development",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "International journal of parallel programming",
+   "authors": "Maria Ayub, Imran Shafi, Sajid Gul Khawaja et al.",
+   "url": "https://doi.org/10.1007/s10766-026-00829-3",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Optimizing HPC applications with vectorization and multi-criteria task scheduling on heterogeneous systems",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "theses.fr (ABES)",
+   "authors": "Hayfa Tayeb",
+   "url": "https://doi.org/10.70675/31258be0zab57z4528z9908z4610098081c7",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "Loop optimizations in C and C++ compilers: an overview",
    "function": "surveys",
    "split": "detailed",
@@ -1838,6 +1877,35 @@
    "evidence": "contexts"
   },
   {
+   "title": "A survey on fully homomorphic encryption compilers",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Cybersecurity",
+   "authors": "Zhuoyu Tian, Shengyu Fan, Xianglong Deng et al.",
+   "url": "https://doi.org/10.1186/s42400-026-00641-z",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Performance and Power Modeling of Multi-Instance GPUs",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "DSpace - NTUA (National Technical University of Athens)",
+   "authors": "Spyridon Papadopoulos",
+   "url": "https://doi.org/10.26240/heal.ntua.33347",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Graph-Based Learning Framework for Compiler Loop Auto-Vectorization",
    "function": "supports-claim",
    "split": "detailed",
@@ -1865,6 +1933,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Паралельна реалізація алгоритму сортування Tree Sort",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Repository of Vinnytsia National Technical University (Vinnytsia National Technical University)",
+   "authors": "Д. В. Коломійчук, В. О. Денисюк, V. O. Denysiuk",
+   "url": "https://openalex.org/W7213676851",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
   },
   {
    "title": "YFlows: Systematic Dataflow Exploration and Code Generation for Efficient Neural Network Inference using SIMD Architectures on CPUs",
@@ -1948,6 +2029,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Simulation of, and with, first generation quantum computers",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Oxford University Research Archive (ORA) (University of Oxford)",
+   "authors": "Tyson Jones",
+   "url": "https://doi.org/10.5287/ora-zrerqmjew",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "SpeedyIBL: A comprehensive, precise, and fast implementation of instance-based learning theory",
    "function": "supports-claim",
    "split": "detailed",
@@ -1959,6 +2053,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Nested multilevel Monte Carlo methods and a modified Euler-Maruyama scheme utilising approximate Gaussian random variables suitable for vectorised hardware and low-precisions",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "Oxford University Research Archive (ORA) (University of Oxford)",
+   "authors": "Oliver Sheridan-Methven",
+   "url": "https://doi.org/10.5287/ora-qymgdjbp6",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "SpeedyIBL: A Solution to the Curse of Exponential Growth in Instance-Based Learning Models of Decisions from Experience",
@@ -2008,6 +2115,19 @@
     "date": "2026-10-12",
     "evidence": "Title/abstract: “C2 supports autovectorization, using Superword Level Parallelism (SLP) [34].”"
    }
+  },
+  {
+   "title": "Principles, Techniques, and Tools for Explicit and Automatic Parallelization",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "NVA (Nasjonalt vitenarkiv)",
+   "authors": "Nico Reißmann",
+   "url": "https://openalex.org/W2943421648",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "SIMDization of Small Tensor Multiplication Kernels for Wide SIMD Vector Processors",
@@ -2093,6 +2213,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Application of software engineering methodologies to the development of mathematical biological models",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "Oxford University Research Archive (ORA) (University of Oxford)",
+   "authors": "Gill, Mandeep Singh",
+   "url": "https://doi.org/10.5287/ora-noyq8appr",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Using Decision Tree Voting to Select a Polyhedral Model Loop Transformation",
@@ -2544,6 +2680,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Generation of vector code for the RISC-V architecture",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Repository of the University of Ljubljana (University of Ljubljana)",
+   "authors": "Marko Zupančič Muc",
+   "url": "https://openalex.org/W7139801418",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "If-Convert as Early as You Must",
    "function": "uses-tool",
    "split": "passing",
@@ -2566,6 +2718,19 @@
    }
   },
   {
+   "title": "Optimizing Irregular Computations on Parallel Processors",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Bangtian Liu",
+   "url": "https://openalex.org/W7133014196",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "PresCount: Effective Register Allocation for Bank Conflict Reduction",
    "function": "exemplifies",
    "split": "passing",
@@ -2577,6 +2742,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Distributed Simulation of Statevectors and Density Matrices",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "arXiv",
+   "authors": "Tyson Jones, Bálint Koczor, Simon C. Benjamin",
+   "url": "https://doi.org/10.48550/arxiv.2311.01512",
+   "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "High Performance and Power Efficient Accelerator for Cloud Inference",
@@ -2668,6 +2846,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Portability across Arm NEON and SVE vector instruction sets using the NSIMD library: a case study on a Seismic Spectral-Element kernel",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "HAL",
+   "authors": "Sylvain Jubertie, Kenny Peou, Guillaume Quintin et al.",
+   "url": "https://openalex.org/W4287258398",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "NeuroVectorizer: end-to-end vectorization with deep reinforcement learning",
@@ -2880,6 +3071,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Compilation pour machines à mémoire répartie : une approche multipasse",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2017,
+   "venue": "theses.fr (ABES)",
+   "authors": "Nelson Lossing",
+   "url": "https://doi.org/10.70675/4c5009a9zfd64z4180zab63z32baa0343a0b",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Compilation pour machines à mémoire répartie: une approche multipasse. (Compilation for distributed memory machines: a multipass approach)",
    "function": "exemplifies",
    "split": "passing",
@@ -3058,6 +3262,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Towards a Systematic Exploration of the Optimization Space for Many-Core Processors",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "Research Repository (Delft University of Technology)",
+   "authors": "Jianbin Fang",
+   "url": "https://doi.org/10.4233/uuid:0b5408a7-933c-4369-8d48-1db5d3269d72",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Hybrid type legalization for a sparse SIMD instruction set",
    "function": "exemplifies",
    "split": "passing",
@@ -3153,6 +3370,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "A solution to misaligned data access in a vectorizing compiler framework",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "venue": "Research Repository (Delft University of Technology)",
+   "authors": "S. De Smalen",
+   "url": "https://openalex.org/W201352390",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "New Algorithms for SIMD Alignment",
@@ -3400,6 +3630,22 @@
     "date": "2026-10-12",
     "evidence": "Title/abstract: “The basic block vectorization, known as Superword Level Parallelism, was first introduced by Larsen and Amarasinghe ( 2000 ).”"
    }
+  },
+  {
+   "title": "Guiding Polyhedral Scheduling for Vectorization through Constraints Generated from an SLP Algorithm",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "HAL",
+   "authors": "Tom Hammer, Stéphane Genaud, Vincent Loechner",
+   "url": "https://openalex.org/W7124823059",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Enhancing SLP Vectorization through Hybrid Slice Selection",
@@ -3651,6 +3897,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Annales Mathematicae et Informaticae (51.)",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "Acta Biologica Plantarum Agriensis (Eszterházy Károly University, Hungary)",
+   "authors": "Sándor Bácsó, Sonja Gorjanc, Tibor Gyimóthy et al.",
+   "url": "https://openalex.org/W7210184620",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Compiler 2.0: Using Machine Learning to Modernize Compiler Technology",
    "function": "extends",
    "split": "detailed",
@@ -3672,6 +3931,22 @@
     "date": "2026-10-12",
     "evidence": "Title/abstract: “in 2000, we introduced Superword Level Parallelism (SLP) based vectorization”"
    }
+  },
+  {
+   "title": "Efficient utilization of vector extensions in microprocessors",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "DepositOnce",
+   "authors": "Angela Pohl",
+   "url": "https://doi.org/10.14279/depositonce-10820",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Vectorization-aware loop unrolling with seed forwarding",
@@ -3854,6 +4129,21 @@
    "evidence": "contexts"
   },
   {
+   "title": "A MATLAB to C vectoring compiler exploiting custom instructions of targeted processors",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2017,
+   "authors": "Ioannis Latifis",
+   "url": "https://doi.org/10.12681/eadd/41138",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A New Improved Algorithm for SLP",
    "function": "extends",
    "split": "detailed",
@@ -3884,6 +4174,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Estimation d'efficacité et restructuration automatisées de noyaux de calcul",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "theses.fr (ABES)",
+   "authors": "Christopher Haine",
+   "url": "https://doi.org/10.70675/71ab5fcdzab3fz43d4z8126zfba1f5eb53d2",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Explicit SIMD instructions into JVM using LMS",
@@ -3969,6 +4275,22 @@
     "date": "2026-10-12",
     "evidence": "Title/abstract: “A New Method to Exploit Superword Level Parallelism”"
    }
+  },
+  {
+   "title": "Optimisation de code pour application Java haute-performance",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "Abderrahmane Nassim Halli",
+   "url": "https://doi.org/10.70675/880b51dcz26c4z4251za2f9z7cc76c34317e",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "SIMD-aware Word Length Optimization for Floating-point to Fixed-point Conversion targeting Embedded Processors. (Optimisation de la largeur des mots pour la conversion de virgule flottante en virgule fixe ciblant des processeurs embarqués avec support SIMD)",
@@ -4502,6 +4824,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "EFFICIENCY ANALYSIS OF DATA PREPROCESSING ALGORITHM VECTORISATION FOR INTERNET OF THINGS EDGE DEVICES",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Information and Telecommunication Sciences",
+   "authors": "Дмитро Сергійович Трофімцов, Anatoliy Makarenko",
+   "url": "https://doi.org/10.20535/2411-2976.12026.4-12",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Informationtechnologyofgraphicdataprocessingforprocessor SIMDarchitectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Electronic Institutional Repository of the National Aviation University of Ukraine (National Aviation University, Ukraine)",
+   "authors": "Шевченко Андрій Костянтинович",
+   "url": "https://openalex.org/W7212342813",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Orkan: Cache-friendly simulation of quantum operations on hermitian operators",
    "function": "passing-citation",
    "split": "passing",
@@ -4525,6 +4873,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "Thinking Globally, Acting Locally: Merge Sort's Auto-Vectorization on Shuffle-Heavy ISAs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Proceedings of the International Conference on Parallel Processing",
+   "authors": "Jincheng Zhou, Jin Zhang, Xiang Zhang et al.",
+   "url": "https://doi.org/10.1145/3832810.3832882",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "HybridSIMD: A Super C++ SIMD Library with Integrated Auto-tuning Capabilities",
@@ -4587,6 +4948,19 @@
    "authors": "Devansh Jain, Marco Frigo, Jai Arora et al.",
    "url": "https://doi.org/10.1145/3725843.3756075",
    "cited_by": null,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Understanding and managing performance and energy consumption of applications with design space exploration",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "theses.fr (ABES)",
+   "authors": "Lana Scravaglieri",
+   "url": "https://doi.org/10.70675/cc6069d9z5594z4e49z989ezbc11321cb961",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -4901,6 +5275,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Pakkausmenetelmät hajautetussa aikasarjatietokannassa",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "Aaltodoc (Aalto University)",
+   "authors": "Michael Burman",
+   "url": "https://openalex.org/W7148200391",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Assisting Static Compiler Vectorization with a Speculative Dynamic Vectorizer in an HW/SW Codesigned Environment",
    "function": "passing-citation",
    "split": "passing",
@@ -4933,6 +5320,19 @@
    "authors": "Gabriel Hjort Blindell",
    "url": "https://doi.org/10.1007/978-3-319-34019-7",
    "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Towards automatic compilation for energy efficient iterative stencil computations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "Digital Collections of Colorado (Colorado State University)",
+   "authors": "Yun Zou, Sanjay V. Rajopadhye, Strout, Michelle M. et al.",
+   "url": "https://doi.org/10.25675/3.024157",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -5728,6 +6128,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Performance- und energieeffiziente Compilierung für digitale SIMD-Signalprozessoren mittels genetischer Algorithmen",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "venue": "Technische Universität Dortmund Eldorado (Technische Universität Dortmund)",
+   "authors": "Markus Lorenz",
+   "url": "https://doi.org/10.17877/de290r-14913",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Representation for Bit Section Based Analysis and Optimization",
    "function": "passing-citation",
    "split": "passing",
@@ -5862,6 +6275,20 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Automating the derivation of memory allocations for acceleration of polyhedral programs",
+   "function": "unknown",
+   "split": null,
+   "year": 2024,
+   "venue": "theses.fr (ABES)",
+   "authors": "Corentin Ferry",
+   "url": "https://doi.org/10.70675/eb413d52z4e62z4a69zae52z3a63b645c812",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
   },
   {
    "title": "Efficient and retargetable SIMD translation in a dynamic binary translator",

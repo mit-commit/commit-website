@@ -1,0 +1,87 @@
+{
+ "schema": 1,
+ "key": "baron:sm-thesis:2003",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 5,
+  "works": 5,
+  "commit": 1,
+  "judged": 5,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "An API for Dynamic Partial Evaluation under DynamoRIO",
+   "function": "extends",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Christopher Leger",
+   "url": "https://openalex.org/W2131166200",
+   "cited_by": 3,
+   "centrality": "core",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Dynamic Instrumentation Framework Based on Entity Equipment",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "International Conference on Computer and Communication Systems (ICCCS)",
+   "authors": "Zhao Jiangtao, Weiyu Dong, Haotian Zhang et al.",
+   "url": "https://doi.org/10.1109/icccs52626.2021.9449226",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Efficient, transparent, and comprehensive runtime code manipulation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Derek L. Bruening, Saman P. Amarasinghe",
+   "url": "https://openalex.org/W2155943969",
+   "cited_by": 356,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "HSESR: Hierarchical Software Execution State Representation for Ultralow-Latency Threat Alerting Over Internet of Things",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "IEEE Internet of Things Journal",
+   "authors": "Xiaoyu Yi, Gaolei Li, Bei Chen et al.",
+   "url": "https://doi.org/10.1109/jiot.2024.3433535",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Foreign Code Detection on the Windows/X86 Platform",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2006,
+   "venue": "Annual Computer Security Applications Conference",
+   "authors": "Susanta Nanda, Wei Li, Lap-chung Lam et al.",
+   "url": "https://doi.org/10.1109/acsac.2006.29",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  }
+ ]
+}

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "del2017common",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 23,
-  "works": 21,
+  "records_raw": 25,
+  "works": 23,
   "commit": 3,
-  "judged": 20,
+  "judged": 22,
   "gscholar": null
  },
  "citations": [
@@ -165,6 +165,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Modelling and characterisation of distributed hardware acceleration",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Warwick Research Archive Portal (University of Warwick)",
+   "authors": "Ryan A. Cooke",
+   "url": "https://doi.org/10.82444/warw.33823120",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Towards Automatic High-Level Code Deployment on Reconfigurable Platforms: A Survey of High-Level Synthesis Tools and Toolchains",
    "function": "detailed-citation",
    "split": "detailed",
@@ -220,6 +233,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Low power consumption focused system implementation and performance analysis on FPGA",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Dspace Repository (Marmara Üniversitesi)",
+   "authors": "Hakan Gürbüz",
+   "url": "https://openalex.org/W7132028229",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Applications and Techniques for Fast Machine Learning in Science",

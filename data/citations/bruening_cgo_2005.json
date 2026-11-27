@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "bruening:cgo:2005",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 51,
-  "works": 42,
+  "records_raw": 53,
+  "works": 44,
   "commit": 1,
-  "judged": 35,
+  "judged": 37,
   "gscholar": null
  },
  "citations": [
@@ -227,6 +227,20 @@
    "evidence": "contexts"
   },
   {
+   "title": "Tdb : A Source-level Debugger for Dynamically Translated Programs",
+   "function": "exemplifies",
+   "split": "passing",
+   "authors": "Naveen Kumar, B. Childers, M. L. Soffa",
+   "url": "https://www.semanticscholar.org/paper/0f2c2a814ffdbd162b3e81095db6a0f7ac411426",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "contexts"
+  },
+  {
    "title": "Optimizing binary translation of dynamically generated code",
    "function": "detailed-citation",
    "split": "detailed",
@@ -315,6 +329,19 @@
    "cited_by": 21,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Beware of Unknown Areas to Notify Adversaries: Detecting Dynamic Binary Instrumentation Runtimes with Low-Level Memory Scanning",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "Lecture notes in networks and systems",
+   "authors": "Federico Palmaro, Luisa Franchina",
+   "url": "https://doi.org/10.1007/978-3-030-80129-8_66",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "fulltext"
   },
   {

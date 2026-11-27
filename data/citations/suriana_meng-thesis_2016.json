@@ -1,0 +1,71 @@
+{
+ "schema": 1,
+ "key": "suriana:meng-thesis:2016",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 4,
+  "works": 4,
+  "commit": 0,
+  "judged": 3,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Quantitative static analysis of communication protocols using abstract Markov chains",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "Formal Methods in System Design",
+   "authors": "Abdelraouf Ouadjaout, Antoine Miné",
+   "url": "https://doi.org/10.1007/s10703-019-00331-2",
+   "cited_by": 3,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Simplification and runtime resolution of data dependence constraints for loop transformations",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Diogo Nunes Sampaio, Louis-Noël Pouchet, Fabrice Rastello",
+   "url": "https://doi.org/10.1145/3079079.3079098",
+   "cited_by": 10,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Profile guided hybrid compilation",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "Diogo Nunes Sampaio",
+   "url": "https://doi.org/10.70675/79e78d88z4cb3z41d6zb1cbz353858e3e7b9",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Modified Fourier-Motzkin Elimination Approach for Symbolic Wrench-Feasible Workspace Computation",
+   "function": "unclassified",
+   "split": null,
+   "year": 2025,
+   "venue": "Mechanisms and machine science",
+   "authors": "Vincent Côté, Patrice Lambert, Philippe Cardou",
+   "url": "https://doi.org/10.1007/978-3-031-94608-0_13",
+   "cited_by": 0,
+   "evidence": "title_only"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "schema": 1,
+ "key": "leger:meng-thesis:2004",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 3,
+  "works": 3,
+  "commit": 1,
+  "judged": 3,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Research on protocol reverse extraction based on DynamoRIO",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2010,
+   "venue": "International Conference on Communication Systems, Networks and Applications (ICCSNA)",
+   "authors": "Hui Shu, Yongjun He",
+   "url": "https://doi.org/10.1109/iccsna.2010.5588804",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Protocol Reverse Engineering Based on DynamoRIO",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "International Conference on Information and Multimedia Technology",
+   "authors": "Yongjun He, Hui Shu, Xiaobing Xiong",
+   "url": "https://doi.org/10.1109/icimt.2009.26",
+   "cited_by": 3,
+   "centrality": "core",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Efficient, transparent, and comprehensive runtime code manipulation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Derek L. Bruening, Saman P. Amarasinghe",
+   "url": "https://openalex.org/W2155943969",
+   "cited_by": 356,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  }
+ ]
+}

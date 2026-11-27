@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "zhao:ismm:2010",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 31,
-  "works": 22,
+  "records_raw": 32,
+  "works": 23,
   "commit": 3,
-  "judged": 15,
+  "judged": 16,
   "gscholar": null
  },
  "citations": [
@@ -187,6 +187,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Tools and Language Elements for Testing, Encapsulation and Controlling Abstraction in Large Scale C++ Projects",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "Eötvös Loránd Tudományegyetem",
+   "authors": "Gábor Márton",
+   "url": "https://doi.org/10.15476/elte.2019.084",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Information Flow Auditing in the Cloud",

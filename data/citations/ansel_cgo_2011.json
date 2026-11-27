@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "ansel:cgo:2011",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 149,
-  "works": 142,
+  "records_raw": 169,
+  "works": 162,
   "commit": 6,
-  "judged": 126,
+  "judged": 142,
   "gscholar": null
  },
  "citations": [
@@ -159,6 +159,22 @@
    "confidence": "high",
    "secondary": [
     "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Cross-Layer Approximate Computing: From Circuits to Algorithms",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "Knowledge@UChicago (University of Chicago)",
+   "authors": "Saeid Barati",
+   "url": "https://doi.org/10.6082/6dk2t-6ty37",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
    ],
    "evidence": "fulltext"
   },
@@ -320,6 +336,19 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "Contributions to the scalability of automatic precision tuning",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "theses.fr (ABES)",
+   "authors": "Van-Phu Ha",
+   "url": "https://doi.org/10.70675/912767b3zb383z4287z9ea2z71bf8a654c54",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Accuracy-Aware Compilers",
    "function": "surveys",
    "split": "detailed",
@@ -459,6 +488,36 @@
     "supports-claim"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Programming systems for safe and accurate parallel programs in the face of uncertainty",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Vimuth Fernando",
+   "url": "https://openalex.org/W7220782842",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "ApproxHPVM: A retargetable compiler framework for accuracy-aware optimizations",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Hashim Sharif",
+   "url": "https://openalex.org/W3201542600",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "positions",
+    "surveys"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "HPAC: Evaluating Approximate Computing Techniques on HPC OpenMP Applications",
@@ -777,6 +836,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Hardware and Software for Approximate Computing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Adrian Sampson",
+   "url": "https://openalex.org/W2598305263",
+   "cited_by": 31,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Rumba: An online quality management system for approximate computing",
    "function": "exemplifies",
    "split": "passing",
@@ -943,6 +1018,51 @@
    "evidence": "contexts"
   },
   {
+   "title": "Self-adaptable operational semantics",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "theses.fr (ABES)",
+   "authors": "Gwendal Jouneaux",
+   "url": "https://doi.org/10.70675/ff8907ebzb70cz4fbdzad39z2513988c524c",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "From Circuits to SoC Processors: Arithmetic Approximation Techniques & Embedded Computing Methodologies for DSP Acceleration",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "arXiv",
+   "authors": "Vasileios Leon",
+   "url": "https://doi.org/10.26240/heal.ntua.24738",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compilation and optimizations for variable precision floating-Point arithmetic : from language and libraries to code generation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "theses.fr (ABES)",
+   "authors": "Tiago Trevisan Jost",
+   "url": "https://doi.org/10.70675/1400bf0fz9becz42c3z9080z9fc1851cb850",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Security Threat Analyses and Attack Models for Approximate Computing Systems",
    "function": "detailed-citation",
    "split": "detailed",
@@ -970,6 +1090,38 @@
     "exemplifies"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Automatic generation of adaptive codes",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Maxime Schmitt",
+   "url": "https://doi.org/10.70675/a6e96f95z16c1z4560zbda2zf1737e80a211",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compilers for Portable Programming of Heterogeneous Parallel & Approximate Computing Systems",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Prakalp Srivastava",
+   "url": "https://openalex.org/W2969896934",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "mARGOt: A Dynamic Autotuning Framework for Self-Aware Approximate Computing",
@@ -1243,6 +1395,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Tuning dynamic power management for mobile devices",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "ePrints Soton (University of Southampton)",
+   "authors": "James Bantock",
+   "url": "https://openalex.org/W3158625007",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Adaptive low-overhead scheduling for periodic and reactive intermittent execution",
    "function": "passing-citation",
    "split": "passing",
@@ -1280,6 +1445,35 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Foundations of Probabilistic Programming",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "Cambridge University Press eBooks",
+   "authors": "Fredrik Dahlqvist, Alexandra Silva, Dexter C. Kozen et al.",
+   "url": "https://doi.org/10.1017/9781108770750",
+   "cited_by": 81,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Heterogeneous parallel virtual machine: A portable program representation and compiler for performance and energy optimizations on heterogeneous parallel systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Maria Kotsifakou",
+   "url": "https://openalex.org/W3123327479",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Identifying and (automatically) remedying performance problems in CPU/GPU applications",
@@ -1370,6 +1564,32 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Approximate computing for high energy-efficiency in IoT applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Geneviève Ndour",
+   "url": "https://doi.org/10.70675/276613efzee04z4db6z9c66z109338bba832",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Electronic systems for the restoration of the sense of touch in upper limb prosthetics",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "CINECA IRIS Institutial Research Information System (University of Genoa)",
+   "authors": "Marta Franceschi",
+   "url": "https://doi.org/10.15167/franceschi-marta_phd2019-02-25",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
   },
   {
    "title": "Improving Energy Efficiency of Hadoop Clusters using Approximate Computing",
@@ -1535,6 +1755,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Approximate Computing et Conception d'Opérateurs Arithmétiques Approximatifs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "HAL",
+   "authors": "Mengting Zhao",
+   "url": "https://openalex.org/W4297948404",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Big Data for LITTLE Cores Combining Learning and Control for Mobile Energy Efficiency",
@@ -1786,6 +2019,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "低消費エネルギー物体追跡システムのための適応的フレームレート制御",
+   "function": "unknown",
+   "split": null,
+   "year": 2019,
+   "venue": "Kyushu University Institutional Repository (QIR) (Kyushu University)",
+   "authors": "井上, 優良",
+   "url": "https://openalex.org/W7144869279",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "CALOREE: Learning Control for Predictable Latency and Low Energy",
    "function": "unknown",
    "split": null,
@@ -1808,6 +2055,35 @@
    "authors": "Hrishav Bakul Barua, Kartick Chandra Mondal",
    "url": "https://doi.org/10.1109/gucon.2018.8675095",
    "cited_by": 6,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Accuracy-aware optimization of approximate programs",
+   "function": "unknown",
+   "split": null,
+   "year": 2015,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Saša Misailovíc",
+   "url": "https://doi.org/10.5555/2830689.2830696",
+   "cited_by": 6,
+   "flags": [
+    "own-group",
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Iterative Information Processing on Unreliable Hardware: An Information Theoretic Approach",
+   "function": "unknown",
+   "split": null,
+   "year": 2015,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Chu-Hsiang Huang",
+   "url": "https://openalex.org/W2140729173",
+   "cited_by": 0,
    "flags": [
     "polluted-contexts"
    ],
@@ -1844,6 +2120,16 @@
    "authors": "Xiaohui Wei, Yuanyuan Liu, Xingwang Wang et al.",
    "url": "https://doi.org/10.1016/j.future.2019.07.047",
    "cited_by": 10,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Investigation of reconfigurable-accuracy approximate adder designs for image processing applications",
+   "function": "unclassified",
+   "split": null,
+   "year": 2019,
+   "authors": "Khaled Al-Maaitah",
+   "url": "https://openalex.org/W3165548239",
+   "cited_by": 1,
    "evidence": "title_only"
   },
   {

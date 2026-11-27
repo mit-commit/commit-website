@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "netblocks-pldi24",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 5,
-  "works": 4,
+  "records_raw": 6,
+  "works": 5,
   "commit": 1,
-  "judged": 4,
+  "judged": 5,
   "gscholar": null
  },
  "citations": [
@@ -56,6 +56,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Yaksha-Prashna: Bridging the Semantic Gap in eBPF Bytecode Analysis and Diagnostics",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 2,
+   "year": 2026,
+   "venue": "Proceedings of the ACM on Networking",
+   "authors": "Animesh Singh, K Shiv Kumar, S. VenkataKeerthy et al.",
+   "url": "https://doi.org/10.1145/3856981",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Yaksha-Prashna: Understanding eBPF Bytecode Network Function Behavior",

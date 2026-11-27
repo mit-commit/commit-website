@@ -1,16 +1,58 @@
 {
  "schema": 1,
  "key": "zhang:meng-thesis:2007",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 3,
-  "works": 3,
-  "commit": 1,
-  "judged": 3,
+  "records_raw": 12,
+  "works": 12,
+  "commit": 2,
+  "judged": 7,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Memory-aware algorithms : from multicores to large scale platforms",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "theses.fr (ABES)",
+   "authors": "Mathias Jacquelin",
+   "url": "https://doi.org/10.70675/3f0c5b2cz09e4z450fzb2d7z6fe013164207",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Scheduling streaming applications on a complex multicore platform",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "Concurrency and Computation Practice and Experience",
+   "authors": "Tudor David, Mathias Jacquelin, Loris Marchal",
+   "url": "https://doi.org/10.1002/cpe.1874",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Scheduling complex streaming applications on the Cell processor",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2010,
+   "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+   "authors": "Matthieu Gallet, Mathias Jacquelin, Loris Marchal",
+   "url": "https://doi.org/10.1109/ipdpsw.2010.5470684",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
   {
    "title": "Mapping Streaming Languages to General Purpose Processors through Vectorization",
    "function": "detailed-citation",
@@ -23,6 +65,26 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "contexts"
+  },
+  {
+   "title": "Language and compiler support for stream programs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Saman P. Amarasinghe, William Thies",
+   "url": "https://openalex.org/W2321248633",
+   "cited_by": 107,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
   },
   {
    "title": "A lightweight streaming layer for multicore execution",
@@ -53,6 +115,68 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Harmony: an execution model for heterogeneous systems",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "SMARTech Repository (Georgia Institute of Technology)",
+   "authors": "Sudhakar Yalamanchili, Gregory Diamos",
+   "url": "https://openalex.org/W2101882136",
+   "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Memory-Aware Algorithms and Scheduling Techniques: From Multicore Processors to Petascale Supercomputers",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+   "authors": "Mathias Jacquelin",
+   "url": "https://doi.org/10.1109/ipdps.2011.371",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Mapping Multiple Processes onto SPEs of the CELL BE Platform using the SCO Model of Computation",
+   "function": "unknown",
+   "split": null,
+   "year": 2009,
+   "authors": "Nadia Ramjiawan",
+   "url": "https://openalex.org/W2185964904",
+   "cited_by": 0,
+   "evidence": "abstract"
+  },
+  {
+   "title": "Cluster Scheduling for Explicitly-speculative Tasks (CMU-PDL-04-112)",
+   "function": "unknown",
+   "split": null,
+   "year": 2004,
+   "venue": "KiltHub Repository",
+   "authors": "David Patrou",
+   "url": "https://doi.org/10.1184/r1/6619481",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "An Execution Model and Runtime for Heterogeneous Many Core Systems",
+   "function": "unclassified",
+   "split": null,
+   "year": 2011,
+   "authors": "Gregory Diamos",
+   "url": "https://openalex.org/W2433053226",
+   "cited_by": 3,
+   "evidence": "title_only"
   }
  ]
 }

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "thies:nc:2007",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 186,
-  "works": 177,
+  "records_raw": 194,
+  "works": 185,
   "commit": 1,
-  "judged": 127,
+  "judged": 135,
   "gscholar": null
  },
  "citations": [
@@ -171,6 +171,22 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Design, Optimization, and Test Methods for Micro-Electrode-Dot-Array Digital Microfluidic Biochips",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "DukeSpace (Duke University)",
+   "authors": "Zipeng Li",
+   "url": "https://openalex.org/W2623090690",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "baseline"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Analysis of Concentration Errors in Sample Dilution Algorithms on a Digital Microfluidic Biochip",
@@ -370,6 +386,22 @@
    "cited_by": 6,
    "centrality": "engaged",
    "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Programming Safe Chemistry on Laboratories-on-a-Chip",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Jason Ott",
+   "url": "https://openalex.org/W3092818926",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "medium",
    "secondary": [
     "detailed-citation"
    ],
@@ -609,6 +641,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Automating Microfluidics: Reconfigurable Virtual Channels for Cell and Droplet Transport",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "venue": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+   "authors": "Caspar Floryan, Alex Nemiroski, Robert M. Westervelt",
+   "url": "https://openalex.org/W2110803562",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Testing of Digital Microfluidic Biochips Using Improved Eulerization Techniques and the Chinese Postman Problem",
    "function": "exemplifies",
    "split": "passing",
@@ -664,6 +709,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Advancements and Challenges in Digital Microfluidic Biochip Applications: A Comprehensive Survey",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Journal of Propulsion Technology",
+   "authors": "Nirmala N.",
+   "url": "https://openalex.org/W7217574104",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Reactant and Waste Minimization during Sample Preparation on Micro-Electrode-Dot-Array Digital Microfluidic Biochips using Splitting Trees",
    "function": "detailed-citation",
    "split": "detailed",
@@ -688,6 +746,19 @@
    "centrality": "engaged",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Heterogeneous Systems: CAD tools and applications in biology",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "HAL",
+   "authors": "Morgan Madec",
+   "url": "https://openalex.org/W7139425450",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Towards a Theory of Mixing Graphs: A Characterization of Perfect Mixability (Extended Abstract)",
@@ -791,6 +862,19 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "AI-guided Automated Sample Preparation Advantages in Micro Electrode Dot Array (MEDA)-based DMFB over Microfluidic Biochips: A Comprehensive Review",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Communications on Applied Electronics",
+   "authors": "Biswajit Mondal, Sarit Chakraborty, Pranab Roy et al.",
+   "url": "https://doi.org/10.5120/cae2026652921",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Prime Factorization-Based Mixing Algorithm for MEDA Biochip",
@@ -1172,6 +1256,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Developing futures for DNA-based computers and nanomachines",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "UniSC Research Bank (University of the Sunshine Coast)",
+   "authors": "Bradley Harding",
+   "url": "https://openalex.org/W7225671142",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Robust Multi-Target Sample Preparation on MEDA Biochips Obviating Waste Production",
    "function": "passing-citation",
    "split": "passing",
@@ -1478,6 +1575,19 @@
    "authors": "Paul Pop, Wajid Hassan Minhass, Jan Madsen",
    "url": "https://doi.org/10.1007/978-3-319-29599-2_1",
    "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Logic and Timing Analysis of Genetic Logic Circuits using D-VASim",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)",
+   "authors": "Hasan Baig, Jan Madsen",
+   "url": "https://openalex.org/W2735815698",
+   "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"

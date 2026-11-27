@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "amarasinghe:pldi:1993",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 346,
-  "works": 280,
+  "records_raw": 365,
+  "works": 299,
   "commit": 9,
-  "judged": 210,
+  "judged": 224,
   "gscholar": null
  },
  "citations": [
@@ -304,6 +304,22 @@
    "cited_by": 6,
    "centrality": "engaged",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Scalable and efficient tools for multi-level tiling",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2008,
+   "venue": "Digital Collections of Colorado (Colorado State University)",
+   "authors": "Lakshminarayanan Renganarayana, Sanjay V. Rajopadhye",
+   "url": "https://doi.org/10.25675/3.018705",
+   "cited_by": 3,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -757,6 +773,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Easing parallel programming on heterogeneous systems",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "UVaDOC UVaDOC University of Valladolid Documentary Repository (University of Valladolid)",
+   "authors": "Ana Moreton‐Fernandez",
+   "url": "https://doi.org/10.35376/10324/31397",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Parallel Bundle Adjustment of High Resolution Satellite Imagery",
    "function": "supports-claim",
    "split": "detailed",
@@ -939,6 +968,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Constructing DO loops for non-convex iteration spaces in compiling for parallel machines",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2002,
+   "venue": "International Parallel Processing Symposium",
+   "authors": "Jingling Xue",
+   "url": "https://doi.org/10.1109/ipps.1995.395957",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Compilation techniques for parallel systems",
    "function": "exemplifies",
    "split": "passing",
@@ -1007,6 +1052,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Dynamic feedback: an effective technique for adaptive computing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 1997,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Pedro C. Diniz, Martin Rinard",
+   "url": "https://doi.org/10.1145/258916.258923",
+   "cited_by": 30,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Design and Implementation of a User-interactiveParallel Programming",
@@ -1148,6 +1206,19 @@
     "surveys"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Sûreté : de l'analyse à l'instrumentation et à la synthèse de code",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "HAL",
+   "authors": "Corinne Ancourt",
+   "url": "https://openalex.org/W2736588514",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Code generation for accurate array redistribution on automatic distributed-memory parallelization",
@@ -1525,6 +1596,19 @@
    "commit": true
   },
   {
+   "title": "Enhancing the Power of Polyhedral-Based Optimizations with Coordinate-Based Hill Climbing",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Gaurav Verma, Michael Canesche, Fernando Magno Quintão Pereira",
+   "url": "https://doi.org/10.48550/arxiv.2609.03114",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Composing Distributed Computations Through Task and Kernel Fusion",
    "function": "passing-citation",
    "split": "passing",
@@ -1565,6 +1649,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Optimizations of polyhedral reductions and their use in algorithm-based fault tolerance",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "theses.fr (ABES)",
+   "authors": "Louis Narmour, Sanjay V. Rajopadhye, Pouchet, Louis-Noël et al.",
+   "url": "https://doi.org/10.25675/3.05100",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Simplification of Polyhedral Reductions in Practice",
@@ -1686,6 +1783,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Metacasanova : a high-performance meta-compiler for domain-specific languages",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "Data Archiving and Networked Services (DANS)",
+   "authors": "Di Giacomo, Francesco",
+   "url": "https://openalex.org/W2903764751",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "On the run-time cost of distributed-memory communications generated using the polyhedral model",
@@ -1921,6 +2031,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Hybrid analysis of memory references and its application to automatic parallelization",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Silvius Rus",
+   "url": "https://openalex.org/W2287285612",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Independent Loop Suppression to Reduce Message Size for Message-Passing Code",
    "function": "passing-citation",
    "split": "passing",
@@ -2076,6 +2199,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Contributions à la conception sûre des systèmes embarqués sûrs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2006,
+   "venue": "HAL",
+   "authors": "Alain Girault",
+   "url": "https://openalex.org/W2591477363",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Instruction scheduling for a tiled dataflow architecture",
    "function": "passing-citation",
    "split": "passing",
@@ -2205,6 +2341,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "CC--MPI: a compiled communication capable MPI prototype for ethernet switched clusters",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "venue": "ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+   "authors": "Amit Karwande, Xin Yuan, David K. Lowenthal",
+   "url": "https://doi.org/10.1145/781512.781514",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Compiling tiled iteration spaces for clusters",
@@ -2377,6 +2526,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "A parallel programming environment for a V-bus based PC-cluster",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2001,
+   "venue": "IEEE International Conference on Cluster Computing (CLUSTER)",
+   "authors": "Sang Seok Lim, Yunheung Paek, Kyu Ho Park et al.",
+   "url": "https://doi.org/10.1109/clustr.2001.959983",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Architectural Support for Programming-in-the-Many",
    "function": "passing-citation",
    "split": "passing",
@@ -2499,6 +2661,19 @@
    "authors": "Todd C. Mowry",
    "url": "https://doi.org/10.1145/273011.273021",
    "cited_by": 78,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Toward Optimizing Distributed Programs Directed by Configurations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1998,
+   "venue": "University Libraries (University of Maryland)",
+   "authors": "Tae-Hyung Kim",
+   "url": "https://openalex.org/W1934980023",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -2835,6 +3010,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "TITLE: A Source-Level Transformation Framwork for RPC-Based Distributed Programs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1995,
+   "venue": "University Libraries (University of Maryland)",
+   "authors": "Kim, Tae-Hyung, Purtilo, James M.",
+   "url": "https://openalex.org/W7111524850",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "An exact method for analysis of value-based array data dependences",
@@ -3249,6 +3437,20 @@
    "evidence": "contexts"
   },
   {
+   "title": "Converting best manual practice into generic automatable strategies for unstructured mesh parallelisation",
+   "function": "unknown",
+   "split": null,
+   "year": 1999,
+   "venue": "Concurrency Practice and Experience",
+   "authors": "Kevin McManus, S.P. Johnson, M. Cross",
+   "url": "https://doi.org/10.1002/(sici)1096-9128(199909)11:11<593::aid-cpe446>3.0.co;2-l",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "CRAFT: a framework for F90/HPF compiler optimizations",
    "function": "unknown",
    "split": null,
@@ -3402,6 +3604,17 @@
    "evidence": "abstract"
   },
   {
+   "title": "Parallelism",
+   "function": "unclassified",
+   "split": null,
+   "year": 2019,
+   "venue": "The Craft of Poetry",
+   "authors": "B. Backman",
+   "url": "https://doi.org/10.2307/j.ctt20q210p.17",
+   "cited_by": 92,
+   "evidence": "title_only"
+  },
+  {
    "title": "Fourier-Motzkin with non-linear symbolic constant coefficients",
    "function": "unclassified",
    "split": null,
@@ -3484,6 +3697,17 @@
    "evidence": "title_only"
   },
   {
+   "title": "Compilation for Distributed Memory Architectures",
+   "function": "unclassified",
+   "split": null,
+   "year": 2002,
+   "venue": "CRC Press eBooks",
+   "authors": "Alok Choudhary, Mahmut Kandemir",
+   "url": "https://doi.org/10.1201/9781420040579.ch11",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
    "title": "The Paraguin Compiler-Message-passing Code Generation Using SUIF",
    "function": "extends",
    "split": null,
@@ -3549,6 +3773,17 @@
    "authors": "V. Kotlyar, K. Pingali, Paul V. Stodghill",
    "url": "https://www.semanticscholar.org/paper/abc239b2d1c2096fd27dd02007c918a9a21d7d45",
    "cited_by": 7,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Locality analysis for distributed shared-memory multiprocessors",
+   "function": "unclassified",
+   "split": null,
+   "year": 1997,
+   "venue": "Lecture notes in computer science",
+   "authors": "Vivek Sarkar, Guang R. Gao, Shaohua Han",
+   "url": "https://doi.org/10.1007/bfb0017243",
+   "cited_by": 17,
    "evidence": "title_only"
   },
   {
@@ -3641,6 +3876,17 @@
    "authors": "Bernardo Rodriguez, Leslie B. Hart, Tom Henderson",
    "url": "https://doi.org/10.1006/jpdc.1996.0116",
    "cited_by": 7,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Transformations of nested loops with non-convex iteration spaces",
+   "function": "unclassified",
+   "split": null,
+   "year": 1996,
+   "venue": "Parallel Computing",
+   "authors": "Jingling Xue",
+   "url": "https://doi.org/10.1016/0167-8191(95)00069-0",
+   "cited_by": 14,
    "evidence": "title_only"
   },
   {

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "kiriansky:pact:2016",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 53,
-  "works": 46,
+  "records_raw": 55,
+  "works": 48,
   "commit": 9,
-  "judged": 42,
+  "judged": 44,
   "gscholar": null
  },
  "citations": [
@@ -40,6 +40,22 @@
    "confidence": "high",
    "secondary": [
     "uses-benchmark"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Processing graphs and sparse matrices efficiently",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Şerif Yeşil",
+   "url": "https://openalex.org/W7220817782",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
    ],
    "evidence": "fulltext"
   },
@@ -393,6 +409,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Performance Characterization and Optimizations of Traditional ML Applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Kumar, Harsh, Govindarajan, R.",
+   "url": "https://doi.org/10.48550/arxiv.2412.19051",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Representing Data Collections in an SSA Form",

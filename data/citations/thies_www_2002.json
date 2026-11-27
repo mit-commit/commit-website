@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "thies:www:2002",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 41,
-  "works": 39,
+  "records_raw": 45,
+  "works": 43,
   "commit": 1,
-  "judged": 32,
+  "judged": 34,
   "gscholar": null
  },
  "citations": [
@@ -128,6 +128,19 @@
    "secondary": [
     "passing-citation"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "The GAIUS Experience: Powering a Hyperlocal Mobile Web for Communities in Emerging Regions",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "International Conference on Information and Communication Technologies and Development (ICTD)",
+   "authors": "Rohail Asim, Arjuna Sathiaseelan, Arko Chatterjee et al.",
+   "url": "https://doi.org/10.1145/3700794.3700818",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "fulltext"
   },
   {
@@ -260,6 +273,19 @@
    ],
    "evidence": "abstract",
    "commit": true
+  },
+  {
+   "title": "MAML: Towards a Faster Web in Developing Regions",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "International World Wide Web Conference (WWW)",
+   "authors": "Ayush Pandey, Matteo Varvello, Syed Ishtiaque Ahmed et al.",
+   "url": "https://doi.org/10.1145/3696410.3714584",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "GAIUS",
@@ -485,6 +511,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Changing the pace of search: Supporting “background” information seeking",
+   "function": "unknown",
+   "split": null,
+   "year": 2006,
+   "venue": "Journal of the American Society for Information Science and Technology",
+   "authors": "Matt Jones, George Robert Buchanan, Tzu‐Chiang Cheng et al.",
+   "url": "https://doi.org/10.1002/asi.20304",
+   "cited_by": 13,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Position Paper: Mobile Phones may be the Right Devices for Supporting Developing World Accessibility, but is the WWW the Right Service Delivery Model?",
    "function": "unknown",
    "split": null,
@@ -508,6 +548,18 @@
    "cited_by": 1,
    "flags": [
     "own-group"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Big Data Analytics for Development: Events, Knowledge Graphs and Predictive Models",
+   "function": "unknown",
+   "split": null,
+   "authors": "Sunandan Chakraborty, Lakshminarayanan Subramanian, Sunandan Chakraborty",
+   "url": "https://openalex.org/W2520597069",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
    ],
    "evidence": "abstract"
   },

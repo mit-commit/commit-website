@@ -1,16 +1,35 @@
 {
  "schema": 1,
  "key": "chen:asplos:2021",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 55,
-  "works": 51,
+  "records_raw": 65,
+  "works": 61,
   "commit": 0,
-  "judged": 41,
+  "judged": 49,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Automatically Generating ML Compiler Backends from Tensor Accelerator ISA Descriptions",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Devansh Jain, Akash Pardeshi, Marco Frigo et al.",
+   "url": "https://doi.org/10.1145/3839457",
+   "cited_by": 7,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "CHEHAB RL: Learning to Optimize Fully Homomorphic Encryption Computations",
    "function": "adopts-idea",
@@ -170,6 +189,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Retargetable Compilation for Tensor Kernels via a Unified Layout Abstraction",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Likai Ma, Renze Chen, Tianqi Li et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.13741",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Decoupling Data Layouts from Bounding Volume Hierarchies",
    "function": "exemplifies",
    "split": "passing",
@@ -309,6 +341,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Transforming the Hybrid Cloud for Emerging AI Workloads",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Deming Chen, Alaa Youssef, Pendse, Ruchi et al.",
+   "url": "https://doi.org/10.48550/arxiv.2411.13239",
+   "cited_by": 46,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Autovesk: Automatic Vectorized Code Generation from Unstructured Static Kernels Using Graph Transformations",
    "function": "detailed-citation",
    "split": "detailed",
@@ -352,6 +400,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Customizing Scalable Instructions via Multi-Level E-Graph Anti-Unification",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2027,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Yitian Sun, Youwei Xiao, Yuyang Zou et al.",
+   "url": "https://doi.org/10.1145/3845814.3850048",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A Human–Machine Collaborative Tuning Framework for Triton Kernel Optimization on SIMD Platforms",
@@ -398,6 +459,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "An Arbitrary Register Grouping Scheme for RISC-V Vector Extension: Compilation Support and Hardware Implementation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+   "authors": "Limin Jiang, Siyi Xu, Yintao Liu et al.",
+   "url": "https://doi.org/10.1109/tcad.2025.3649448",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Parallel optimization techniques for ultra-large scale refined numerical simulations on Chinese supercomputers",
    "function": "passing-citation",
    "split": "passing",
@@ -422,6 +496,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "SimdBench: Benchmarking Large Language Models for SIMD-Intrinsic Code Generation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Yibo He, Zhao, Shuoran, Jiaming Huang et al.",
+   "url": "https://doi.org/10.48550/arxiv.2507.15224",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "VEGA: Automatically Generating Compiler Backends using a Pre-trained Transformer Model",
@@ -458,6 +545,19 @@
    "authors": "Aleksandar Krastev, Nikola Samardzic, Simon Langowski et al.",
    "url": "https://doi.org/10.1145/3656382",
    "cited_by": 22,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An End-to-End Programming Model for AI Engine Architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "International Symposium on Highly Efficient Accelerators and Reconfigurable Technologies (HEART)",
+   "authors": "Maksim Levental, Arham Khan, Ryan Chard et al.",
+   "url": "https://doi.org/10.1145/3665283.3665294",
+   "cited_by": 4,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -599,6 +699,17 @@
    "evidence": "contexts"
   },
   {
+   "title": "Repository ISTITUZIONALE",
+   "function": "passing-citation",
+   "split": "passing",
+   "authors": "S. Miano, Alireza Sanaee, F. Risso et al.",
+   "url": "https://www.semanticscholar.org/paper/9bc2e466856169e851511fccc0064e46e1219a43",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
    "title": "A high-performance tensor computing unit for deep learning acceleration",
    "function": "unknown",
    "split": null,
@@ -621,6 +732,20 @@
    "authors": "Wei Liu, Zhenhua Li, Feng Qian et al.",
    "url": "https://doi.org/10.1109/ase63991.2025.00040",
    "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Optimizing HPC applications with vectorization and multi-criteria task scheduling on heterogeneous systems",
+   "function": "unknown",
+   "split": null,
+   "year": 2025,
+   "venue": "theses.fr (ABES)",
+   "authors": "Hayfa Tayeb",
+   "url": "https://doi.org/10.70675/31258be0zab57z4528z9908z4610098081c7",
+   "cited_by": 1,
    "flags": [
     "polluted-contexts"
    ],
@@ -701,6 +826,17 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Accelerating DNN inference on vector accelerators through joint vectorization and scheduling",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Journal of Systems Architecture",
+   "authors": "Yaochen Han, Runhua Zhang, Hongxu Jiang et al.",
+   "url": "https://doi.org/10.1016/j.sysarc.2026.104030",
+   "cited_by": 0,
+   "evidence": "title_only"
   },
   {
    "title": "Compiler simulation for learning multiprocessor computers on a single instruction stream",

@@ -1,0 +1,40 @@
+{
+ "schema": 1,
+ "key": "rnk:meng-thesis:2011",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 2,
+  "works": 2,
+  "commit": 0,
+  "judged": 2,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "The Taint Rabbit: Optimizing Generic Taint Analysis with Dynamic Fast Path Generation",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "ACM Asia Conference on Computer and Communications Security (ASIA CCS)",
+   "authors": "John Galea, Daniel Kroening",
+   "url": "https://doi.org/10.1145/3320269.3384764",
+   "cited_by": 19,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Scalable Emulation of Heterogeneous Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "authors": "Emilio G. Cota",
+   "url": "https://doi.org/10.7916/d8-a78j-z392",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  }
+ ]
+}

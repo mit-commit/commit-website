@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "ahrens_autoscheduling_2022",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 46,
-  "works": 43,
+  "records_raw": 52,
+  "works": 49,
   "commit": 3,
-  "judged": 37,
+  "judged": 42,
   "gscholar": null
  },
  "citations": [
@@ -79,6 +79,19 @@
    "url": "https://doi.org/10.1145/3627535.3638471",
    "cited_by": 2,
    "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Turquoise: A Hardware-Accelerated Architectural Simulator for Sparse Algebra DSAs",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Francesco Pesce, Francesco Peverelli, Marco Domenico Santambrogio",
+   "url": "https://doi.org/10.1145/3860332",
+   "cited_by": 0,
+   "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
   },
@@ -248,6 +261,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "An Expression is Worth a Thousand Words: Graph Algorithms in the Language of Extended Tensor Algebra Notation",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Toluwanimi O. Odemuyiwa",
+   "url": "https://openalex.org/W7221493579",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "GRANII: Selection and Ordering of Primitives in GRAph Neural Networks using Input Inspection",
    "function": "exemplifies",
    "split": "passing",
@@ -259,6 +288,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "SparseConflicts: Handling Conflicting Data Layouts in Sparse Tensor Contractions",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adhitha Dias, Kirshanthan Sundararajah, Artem Pelenitsyn et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.06328",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "A Probabilistic Perspective on Tiling Sparse Tensor Algebra",
@@ -291,6 +333,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "Data-Aware Complexity Analysis and Program Optimization",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Kyle Deeds",
+   "url": "https://openalex.org/W7126608815",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "CoolerSpace: A Language for Physically Correct and Computationally Efficient Color Programming",
@@ -329,6 +387,22 @@
    "cited_by": 9,
    "centrality": "peripheral",
    "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "The EDGE Language: Extended General Einsums for Graph Algorithms",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Toluwanimi O. Odemuyiwa, Porumbescu, Serban D., Nayak, Nandeeka et al.",
+   "url": "https://doi.org/10.48550/arxiv.2404.11591",
+   "cited_by": 16,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "passing-citation"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -610,6 +684,17 @@
    "url": "https://doi.org/10.48550/arxiv.2307.03930",
    "cited_by": 0,
    "evidence": "abstract"
+  },
+  {
+   "title": "GPA-SpMV: A GPU-based general-purpose adaptive SpMV framework",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Future Generation Computer Systems",
+   "authors": "Jinshou Chen, Chang Liu, W. M. Yao et al.",
+   "url": "https://doi.org/10.1016/j.future.2026.108862",
+   "cited_by": 0,
+   "evidence": "title_only"
   },
   {
    "title": "ProSpec: Profile-guided Specialization for GPU Kernels",

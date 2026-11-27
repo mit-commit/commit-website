@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "sermulins:lctes:2005",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 125,
-  "works": 94,
+  "records_raw": 130,
+  "works": 99,
   "commit": 10,
-  "judged": 77,
+  "judged": 82,
   "gscholar": null
  },
  "citations": [
@@ -152,6 +152,23 @@
     "positions"
    ],
    "evidence": "abstract+contexts"
+  },
+  {
+   "title": "Complete Fusion for Stateful Streams: Equational Theory of Stateful Streams and Fusion as Normalization-by-Evaluation",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Oleg Kiselyov, Tomoaki Kobayashi, Nick Palladinos",
+   "url": "https://doi.org/10.48550/arxiv.2412.15768",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Cache-oblivious scheduling of streaming pipelines",
@@ -317,6 +334,22 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "contexts"
+  },
+  {
+   "title": "Improving the effective use of multithreaded architectures : implications on compilation, thread assignment, and timing analysis",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+   "authors": "Petar Radojković",
+   "url": "https://doi.org/10.5821/dissertation-2117-95266",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Tutorial",
@@ -795,6 +828,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Designing and Developing Interactive Big Data Decision Support Systems for Performance, Scalability, Availability and Consistency",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "DalSpace (Dalhousie University)",
+   "authors": "Neil Burke",
+   "url": "https://openalex.org/W3165543377",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "PAVER",
    "function": "passing-citation",
    "split": "passing",
@@ -841,6 +887,19 @@
    "commit": true
   },
   {
+   "title": "I/Oデバイスの分離アーキテクチャに関する研究",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "Institutional Repositories DataBase (IRDB)",
+   "authors": "Jun Suzuki",
+   "url": "https://doi.org/10.15083/0002001635",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Locality-Aware Concurrency Platforms",
    "function": "passing-citation",
    "split": "passing",
@@ -851,6 +910,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Integrating Visual Data Flow Programming with Data Stream Management",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "Uppsala University Publications (Uppsala University)",
+   "authors": "Lars Melander",
+   "url": "https://openalex.org/W2517024941",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A logical memory model for scaling parallel multimedia workloads",

@@ -1,0 +1,29 @@
+{
+ "schema": 1,
+ "key": "swenson:meng-thesis:2002",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 1,
+  "works": 1,
+  "commit": 1,
+  "judged": 1,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Increasing and detecting memory address congruence",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2003,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Samuel Larsen, Emmett Witchel, Saman P. Amarasinghe",
+   "url": "https://doi.org/10.1109/pact.2002.1105970",
+   "cited_by": 53,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext",
+   "commit": true
+  }
+ ]
+}

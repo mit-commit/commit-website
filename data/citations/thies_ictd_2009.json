@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "thies:ictd:2009",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 179,
-  "works": 167,
+  "records_raw": 206,
+  "works": 194,
   "commit": 2,
-  "judged": 117,
+  "judged": 141,
   "gscholar": null
  },
  "citations": [
@@ -135,6 +135,32 @@
    "evidence": "abstract"
   },
   {
+   "title": "Adherencia y percepciones de los pacientes sobre el proyecto COVIDA: un servicio de telemonitoreo y teleorientación liderado por voluntarios para la gestión comunitaria de COVID-19 en Perú: un estudio de métodos mixtos",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Universidad Peruana Cayetano Heredia Institutional Repository",
+   "authors": "Leonardo Ronyald Rojas Mezarina",
+   "url": "https://openalex.org/W7132072838",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automated survey collection with LLM-based conversational agents",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "JAMIA Open",
+   "authors": "Kurmanbek Kaiyrbekov, Nicholas J Dobbins, Sean David Mooney",
+   "url": "https://doi.org/10.1093/jamiaopen/ooaf103",
+   "cited_by": 19,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Intention to participate in smartphone-based data collection: the case of smallholder farmers in Uganda",
    "function": "supports-claim",
    "split": "detailed",
@@ -146,6 +172,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Utility of mHealth initiatives in the Indian context",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "International Journal of Community Medicine and Public Health",
+   "authors": "Susanna Gunamany",
+   "url": "https://doi.org/10.18203/2394-6040.ijcmph20221260",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "An Unstructured Supplementary Service Data System for Daily Tracking of Patient Samples and Diagnostic Results in a Diagnostic Network in Malawi: System Development and Field Trial",
@@ -250,6 +289,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Using a Text Message Survey to Assess Countering Violent Extremism Radio Programs in Nigeria",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "RAND Corporation eBooks",
+   "authors": "James Marrone, Todd C. Helmus, Elizabeth Bodine-Baron et al.",
+   "url": "https://doi.org/10.7249/rr4257",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "Addressing Data Accuracy and Information Integrity in mHealth Solutions Using Machine Learning Algorithms",
    "function": "supports-claim",
    "split": "detailed",
@@ -258,6 +310,19 @@
    "authors": "Zaid Zekiria Sako, Sasan Adibi, Nilmini Wickramasinghe",
    "url": "https://doi.org/10.1007/978-3-030-17347-0_16",
    "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Addressing data accuracy and information integrity in mHealth using ML",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "Own your potential (DEAKIN)",
+   "authors": "Zaid Zekiria Sako",
+   "url": "https://openalex.org/W2984350297",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -300,6 +365,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Using question-specific vocabularies to support speech data collection with SALAAM",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "Open University of Cape Town (University of Cape Town)",
+   "authors": "Kayokwa Nick Chibuye",
+   "url": "https://openalex.org/W3012032521",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A comprehensive mobile data collection and management system for industrial applications",
@@ -501,6 +582,45 @@
    "evidence": "contexts"
   },
   {
+   "title": "Continuidad de la atención de salud basada en la integración entre niveles asistenciales",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "DIGITAL REPOSITORY Economic Commission for Latin America and the Caribbean (United Nations)",
+   "authors": "Luis Sánchez, Mariano Casado",
+   "url": "https://openalex.org/W2234760108",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Gestión de la seguridad de la información en atención primaria y uso responsable de Internet y de las redes sociales",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "RePEc: Research Papers in Economics",
+   "authors": "Raúl Martínez‐Fernández, David Rojas",
+   "url": "https://openalex.org/W2238395594",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Infraestructura TIC de los sistemas de salud-e en entornos de atención primaria",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "RePEc: Research Papers in Economics",
+   "authors": "David Rojas, Raúl López Martínez",
+   "url": "https://openalex.org/W2232824401",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Knowledge and Skill Retention of a Mobile Phone Data Collection Protocol in Rural Liberia",
    "function": "supports-claim",
    "split": "detailed",
@@ -515,6 +635,110 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "La atención primaria de salud en América Latina y el Caribe: principales retos y contribución de las tecnologías de la información y de las comunicaciones",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "DIGITAL REPOSITORY Economic Commission for Latin America and the Caribbean (United Nations)",
+   "authors": "Erazo, Marcia, Fernández, Andrés",
+   "url": "https://openalex.org/W7113167207",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "La atención primaria en el Sistema Nacional de Salud de España",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "RePEc: Research Papers in Economics",
+   "authors": "Javier Carnicero, David Rojas, Carlos Amézqueta",
+   "url": "https://openalex.org/W2237316053",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "La epidemiología en la atención primaria",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "Libros y Documentos Institucionales",
+   "authors": "Rafael Fernández-Cuenca, Gloria Hernández Pezzi",
+   "url": "https://openalex.org/W2229936850",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "La gestión de la función TIC en los servicios de salud: algunos errores frecuentes de los equipos de dirección",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "Americanae (AECID Library)",
+   "authors": "Javier Carnicero, David Rojas, Óscar Blanco",
+   "url": "https://openalex.org/W2359178907",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "La informática en los servicios de urgencias extrahospitalarios",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "DIGITAL REPOSITORY Economic Commission for Latin America and the Caribbean (United Nations)",
+   "authors": "Kiko Betelu",
+   "url": "https://openalex.org/W2239677560",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "La necesidad de una arquitectura de salud-e",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "RePEc: Research Papers in Economics",
+   "authors": "Lincoln Moura, Selene Indarte, Beatriz de Faria",
+   "url": "https://openalex.org/W2224261579",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Manual de Salud Electrónica para directivos de servicios y sistemas de salud vol. II",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "Vitae: Academia Biomédica Digital",
+   "authors": "Javier Carnicero Giménez de Azcárate, Andrés Fernández Cellier, David Rojas de la Escalera",
+   "url": "https://openalex.org/W7220033195",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Marco conceptual de la educación médica continua a distancia y lecciones aprendidas",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "DIGITAL REPOSITORY Economic Commission for Latin America and the Caribbean (United Nations)",
+   "authors": "Álvaro Margolis",
+   "url": "https://openalex.org/W2235787250",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "New approaches to HIV prevention in African HIV serodiscordant couples: antiretrovirals and mobile technology",
@@ -545,6 +769,32 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Salud móvil en atención primaria",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "DIGITAL REPOSITORY Economic Commission for Latin America and the Caribbean (United Nations)",
+   "authors": "Walter H. Curioso",
+   "url": "https://openalex.org/W2239248785",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Sistemas de apoyo a la toma de decisiones clínicas y de gestión en atención primaria de salud",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "DIGITAL REPOSITORY Economic Commission for Latin America and the Caribbean (United Nations)",
+   "authors": "Vero, Alvaro, Indarte, Selene",
+   "url": "https://openalex.org/W7112125597",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Ubiquitous Mesh Networking: application to mobile communication and information dissemination in a rural context",
@@ -671,6 +921,32 @@
    "authors": "Meera Chhagan, Shuaib Kauchali, Jan Van den Broeck",
    "url": "https://doi.org/10.1007/978-94-007-5989-3_12",
    "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Cell Phones to Collect Pregnancy Data From Remote Areas in Liberia",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "Journal of Nursing Scholarship",
+   "authors": "Jody Rae Lori, Michelle L. Munro‐Kramer, Carol J. Boyd et al.",
+   "url": "https://doi.org/10.1111/j.1547-5069.2012.01451.x",
+   "cited_by": 48,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Factors affecting the use of mobile devices for remote data collection in home community based care",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "Nelson Mandela University Research Repository",
+   "authors": "Nobubele Angel Shozi",
+   "url": "https://openalex.org/W7220805410",
+   "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -999,6 +1275,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Understanding Challenges in the Data Pipeline for Development Data",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Fahad Pervaiz",
+   "url": "https://openalex.org/W3181531944",
+   "cited_by": 3,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "HOW TECHNOLOGY INNOVATIONS IN STATISTICAL DATA COLLECTION CAN MAKE A DIFFERENCE IN DEVELOPMENT 1",
    "function": "detailed-citation",
    "split": "detailed",
@@ -1081,6 +1373,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Digital Agricultural Extension: Opportunities, Constraints and Emerging Innovations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "International Journal of Agriculture Extension and Social Development",
+   "authors": "Supriya GN, K Amaresh Kumar, D Shashikalabai et al.",
+   "url": "https://doi.org/10.33545/26180723.2026.v9.i7l.3975",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Spatial Analysis of Agricultural Waste and By‐Products to Tackle the Water–Energy Nexus in Rural Mozambique",
    "function": "passing-citation",
    "split": "passing",
@@ -1105,6 +1410,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Does mHealth suitable for the Indian population? analysing criticisms and possibilities",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "International Journal of Community Medicine and Public Health",
+   "authors": "Susanna Gunamany",
+   "url": "https://doi.org/10.18203/2394-6040.ijcmph20221256",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Can Dynamic Widgets Improve Data Entry Efficiency?",
@@ -1688,6 +2009,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Système de surveillance épidémiologique au Burkina Faso : contribution à la mise en place d'un dispositif informatisé de remontée des données du paludisme et analyses géo-épidémiologiques pour la prise de décision",
+   "function": "unknown",
+   "split": null,
+   "year": 2018,
+   "venue": "theses.fr (ABES)",
+   "authors": "Boukary Ouédraogo",
+   "url": "https://doi.org/10.70675/e7101e2dzee09z4275zb408z1f54041999d6",
+   "cited_by": 3,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Mobile Phone Panel Surveys in Developing Countries: A Practical Guide for Microdata Collection",
    "function": "unknown",
    "split": null,
@@ -1822,6 +2157,34 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "A study of the fragmention of the medical record",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "Research at the University of Copenhagen (University of Copenhagen)",
+   "authors": "Jørgen P. Bansler, Erling C. Havn, Troels Mønsted et al.",
+   "url": "https://openalex.org/W4412263649",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Evaluation of National Strategies - an Analysis of Status Reports",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "VBN Forskningsportal (Aalborg Universitet)",
+   "authors": "Christian Gradhandt Nøhr, Søren Vingtoft, Pernille Bertelsen",
+   "url": "https://openalex.org/W2576677679",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "USHER: Improving data quality with dynamic forms",

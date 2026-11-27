@@ -1,0 +1,44 @@
+{
+ "schema": 1,
+ "key": "puppin:mteac:2001",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 2,
+  "works": 2,
+  "commit": 0,
+  "judged": 2,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Dynamic Simultaneous Multithreaded Architecture",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Daniel Ortíz-Arroyo, Lee, Ben",
+   "url": "https://doi.org/10.48550/arxiv.2409.07903",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Performance Evaluation of Dynamic Speculative Multithreading with the Cascadia Architecture",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "David A. Zier, Ben Lee",
+   "url": "https://doi.org/10.1109/tpds.2009.47",
+   "cited_by": 14,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  }
+ ]
+}

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "perkins:sosp:2009",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 575,
-  "works": 458,
+  "records_raw": 608,
+  "works": 491,
   "commit": 2,
-  "judged": 404,
+  "judged": 436,
   "gscholar": null
  },
  "citations": [
@@ -699,6 +699,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Automated Program Repair for UI-Centric Android Bugs: How Far Are We?",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Proceedings of the ACM on software engineering.",
+   "authors": "Junayed Mahmud, Sparsh Pandey, Nadeeshan De Silva et al.",
+   "url": "https://doi.org/10.1145/3832272",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "CORE: Resolving Code Quality Issues using LLMs",
    "function": "supports-claim",
    "split": "detailed",
@@ -783,6 +796,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Self-adaptive authorisation infrastructures",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Kent Academic Repository (University of Kent)",
+   "authors": "Christopher M. Bailey",
+   "url": "https://openalex.org/W2293447694",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Software that Learns from its Own Failures",
@@ -873,6 +899,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "Blind to What They Can Fix: A Detection Gap in Self-Improving Agents",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "authors": "Teng Cao, Yuwanqi Deng, K. Kersting",
+   "url": "https://www.semanticscholar.org/paper/d67f3fbf3a1f7055b5826cf0780ef8a2829b1139",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "abstract+contexts"
+  },
+  {
    "title": "Benchmarking Automated Program Repair: An Extensive Study on Both Real-World and Artificial Bugs",
    "function": "exemplifies",
    "split": "passing",
@@ -951,6 +989,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Scalable deep learning for bug detection",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "ERA",
+   "authors": "Rafael-Michael Karampatsis",
+   "url": "https://doi.org/10.7488/era/1074",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Self-Boosted Automated Program Repair",
    "function": "exemplifies",
    "split": "passing",
@@ -975,6 +1029,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Can automated program repair refine fault localization? a unified debugging approach",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)",
+   "authors": "Yiling Lou, Ali Ghanbari, Xia Li et al.",
+   "url": "https://doi.org/10.1145/3395363.3397351",
+   "cited_by": 127,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
   },
   {
    "title": "Fast and Precise On-the-Fly Patch Validation for All",
@@ -1014,6 +1081,21 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Predicting failures in complex multi-tier systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "authors": "Rui Xin",
+   "url": "https://openalex.org/W3155108612",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "abstract"
   },
   {
    "title": "Quality of Automated Program Repair on Real-World Defects",
@@ -1353,6 +1435,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Unifying program repair and program synthesis",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2018,
+   "venue": "Texas ScholarWorks (Texas Digital Library)",
+   "authors": "Jinru Hua",
+   "url": "https://doi.org/10.15781/t2cc0vc4g",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "100 Years of Software - Adapting Cyber-Physical Systems to the Changing World",
    "function": "exemplifies",
    "split": "passing",
@@ -1593,6 +1688,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Towards Improving the Quality of Mobile Apps by Leveraging Crowdsourced Feedback",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2016,
+   "venue": "HAL",
+   "authors": "Marı́a Engracia Gómez Requena",
+   "url": "https://openalex.org/W2580703410",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Automated Network Repair with Meta Provenance",
    "function": "exemplifies",
    "split": "passing",
@@ -1702,6 +1810,19 @@
     "surveys"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Extraction and Analysis of Knowledge for Automatic Software Repair",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "HAL",
+   "authors": "Matías Martínez",
+   "url": "https://openalex.org/W7065940335",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Extraction and Analysis of Knowledge for Automatic Software Repair. (Extraction et l'analyse de connaissance pour la réparation automatique de bugs)",
@@ -1878,6 +1999,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Artificial intelligence in computer security: Detection, temporary repair and defense",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "venue": "ThinkTech (Texas Tech University)",
+   "authors": "Arisoa S. Randrianasolo",
+   "url": "https://openalex.org/W2278163389",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Detecting and escaping infinite loops using Bolt",
@@ -2319,6 +2456,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "A Hybrid Approach to Cloud System Performance Bug Detection, Diagnosis and Fix.",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "NCSU Libraries Repository (North Carolina State University Libraries)",
+   "authors": "Ting Dai",
+   "url": "https://openalex.org/W2990540276",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Automatically Patching Vulnerabilities of Binary Programs via Code Transfer From Correct Versions",
    "function": "detailed-citation",
    "split": "detailed",
@@ -2330,6 +2480,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Software Attestation with Static and Dynamic Techniques",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "PORTO@Iris",
+   "authors": "Alessio Viticchié",
+   "url": "https://openalex.org/W2970050113",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "TFix: Automatic Timeout Bug Fixing in Production Server Systems",
@@ -2384,6 +2547,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "De l'erreur d'exécution aux correctifs:étude de la génération de correctifs en production",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "theses.fr (ABES)",
+   "authors": "Thomas Durieux",
+   "url": "https://openalex.org/W2894226173",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Exhaustive Exploration of the Failure-Oblivious Computing Search Space",
@@ -2682,6 +2858,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Fault Discovery, Localization, and Recovery in Smartphone Apps",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Tanzirul Azim",
+   "url": "https://openalex.org/W2565820975",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Fault localization using disparities of dynamic invariants",
    "function": "detailed-citation",
    "split": "detailed",
@@ -2728,6 +2920,35 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Analyse et Réparation automatique des bugs liées aux exceptions en java",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "theses.fr (ABES)",
+   "authors": "Benoit Cornu",
+   "url": "https://openalex.org/W6979912169",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Assessment and improvement of automated program repair mechanisms and components",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Digital Collections of Colorado (Colorado State University)",
+   "authors": "Fatmah Yousef Assiri, Bieman, James M., Ghosh, Sudipto et al.",
+   "url": "https://doi.org/10.25675/3.020564",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Automatic Analysis and Repair of Exception Bugs for Java Programs. (Analyse et réparation automatique des bugs liés aux exceptions dans les programmes Java)",
@@ -2949,6 +3170,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Dynamic Symbolic Data Structure Repair And Evaluation Of Program Analysis Tools With The RUGRAT Random Program Generator",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "UTA ResearchCommons (University of Texas Arlington)",
+   "authors": "Ishtiaque Hussain",
+   "url": "https://openalex.org/W2285204368",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Follow the path: Debugging state anomalies along execution histories",
@@ -3203,6 +3440,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "ウェブアプリケーションにおける性能異常の検出と原因究明に関する研究 (本文)",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "KeiO Associated Repository of Academic Resources (Keio University)",
+   "authors": "Satoshi Iwata",
+   "url": "https://openalex.org/W7220872492",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Automated fixing of programs with contracts",
    "function": "detailed-citation",
    "split": "detailed",
@@ -3304,6 +3554,45 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Backstitch: Restoring Request Causality Across a Production Microservice Fleet",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Ziyue Dang, Qiuyu Wu, Haoyun Xu et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.27538",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "DepTwin: A Digital Twin-Based Framework to Manage Deployments in Cloud",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Electronics",
+   "authors": "SP Ahlawat, Kapil Sharma",
+   "url": "https://doi.org/10.3390/electronics15194443",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Efficient Binary Micro-Patching for Legacy and Safety-Critical Avionics Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "IEEE/AIAA Digital Avionics Systems Conference (DASC)",
+   "authors": "Payas Awadhutkar, Ahmed Tamrawi, Jeremías Sauceda",
+   "url": "https://doi.org/10.1109/dasc70579.2026.11787993",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Code Reuse Detection Model for Semantic Similarity Comparison",
@@ -3536,6 +3825,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Automatic Failure Diagnosis for Distributed Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Yongle Zhang",
+   "url": "https://openalex.org/W3150746393",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "FAPR: Fast and Accurate Program Repair for Introductory Programming Courses",
@@ -3820,6 +4122,19 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Verification and Synthesis of Information Flow Secure Hardware Designs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Armaiti Ardeshiricham",
+   "url": "https://openalex.org/W3082039090",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "low",
    "evidence": "fulltext"
   },
   {
@@ -4121,6 +4436,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "オペレーティングシステムのソフトウェアバグからアプリケーションの実行を保護する手法に関する研究",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "Institutional Repositories DataBase (IRDB)",
+   "authors": "Ken Takayama",
+   "url": "https://openalex.org/W7208349911",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "\"Towards Improving the Effectiveness of Automated Program Repair",
    "function": "passing-citation",
    "split": "passing",
@@ -4352,6 +4680,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Building a Base for Cyber-autonomy",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Yan Shoshitaishvili",
+   "url": "https://openalex.org/W2946231476",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Can defects be fixed with weak test suites? An analysis of 50 defects from Defects4J",
    "function": "passing-citation",
    "split": "passing",
@@ -4375,6 +4716,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Context-aware configuration",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "reposiTUm (TU Wien)",
+   "authors": "Markus Raab",
+   "url": "https://doi.org/10.34726/hss.2017.48840",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Contract-based program repair without the contracts",
@@ -4543,6 +4897,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Uma proposta de representação e operadores genéticos para algoritmos evolucionários aplicados no reparo automatizado de software",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "authors": "Vinícius Paulo Lopes de Oliveira",
+   "url": "https://openalex.org/W2757380044",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Understanding and Generating Patches for Bugs Introduced by Third-party Library Upgrades",
    "function": "passing-citation",
    "split": "passing",
@@ -4631,6 +4998,30 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Enforcing Information Flow Policies with Type-Targeted Program Synthesis",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "authors": "Nadia Polikarpova, Jean Yang, Shachar Itzhaky et al.",
+   "url": "https://openalex.org/W2794517010",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Enhanced symbolic execution for patch testing and document recovery",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "authors": "Tomasz Kuchta",
+   "url": "https://doi.org/10.25560/58232",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Patching Logic Vulnerabilities for Web Applications using LogicPatcher",
@@ -4947,6 +5338,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "DPL: A Data Patching Language",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "Libraries and Cultural Resources (University of Calgary)",
+   "authors": "Robin Gonzalez",
+   "url": "https://doi.org/10.11575/prism/25747",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Inferring models of concurrent systems from logs of their behavior with CSight",
    "function": "passing-citation",
    "split": "passing",
@@ -5179,6 +5583,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Characterizing system failures in commercial and open source systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Zuoning Yin",
+   "url": "https://openalex.org/W2521177728",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "CloudER",
    "function": "passing-citation",
    "split": "passing",
@@ -5315,6 +5732,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Systematic editing: generating program transformations from an example",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Na Meng, Miryung Kim, Kathryn S. McKinley",
+   "url": "https://doi.org/10.1145/2345156.1993537",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Using dynamic analysis to discover polynomial and array invariants",
@@ -5824,6 +6254,20 @@
    "authors": "Maha Alqallaf",
    "url": "https://openalex.org/W2612061341",
    "cited_by": 4,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Towards improving the quality of mobile app by leveraging crowdsourced feedback",
+   "function": "unknown",
+   "split": null,
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "María Gómez Lacruz",
+   "url": "https://doi.org/10.70675/79947114z9db5z41ebzb996z0f625c151519",
+   "cited_by": 0,
    "flags": [
     "polluted-contexts"
    ],

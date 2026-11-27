@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "ansel:xrds:2010",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 48,
-  "works": 42,
+  "records_raw": 52,
+  "works": 45,
   "commit": 1,
-  "judged": 15,
+  "judged": 18,
   "gscholar": null
  },
  "citations": [
@@ -121,6 +121,35 @@
    "evidence": "abstract"
   },
   {
+   "title": "Performance engineering of multicore software : developing a science of fast code for the post-Moore era",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2016,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Tao B. Schardl",
+   "url": "https://openalex.org/W2602202063",
+   "cited_by": 13,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "De programas abstractos a cotas asintóticas precisas en forma cerrada",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "Tesis Doctorals en Xarxa (Consorci de Serveis Universitaris de Catalunya)",
+   "authors": "Diego Esteban Alonso Blas",
+   "url": "https://openalex.org/W187021085",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A system framework and API for run-time adaptable parallel software",
    "function": "exemplifies",
    "split": "passing",
@@ -131,6 +160,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Automatic algorithm derivation and exploration in linear algebra for parallelism and locality",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Alexandre Duchâteau",
+   "url": "https://openalex.org/W583056534",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Programming and mapping strategies for embedded computing runtime adaptability",

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "pacula:evoapps:2012",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 23,
-  "works": 19,
+  "records_raw": 26,
+  "works": 22,
   "commit": 2,
-  "judged": 17,
+  "judged": 20,
   "gscholar": null
  },
  "citations": [
@@ -41,6 +41,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "Raising an Abstraction Level of Compilation and Optimization for Customized Computing",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Hao Cheng Yu",
+   "url": "https://openalex.org/W2954430861",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Analysis of Perturbation Techniques in Online Learning",
@@ -156,6 +169,25 @@
    "evidence": "contexts"
   },
   {
+   "title": "System for search technique recommendation in program autotuning",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Kevin Wu",
+   "url": "https://openalex.org/W7139311040",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "OpenTuner",
    "function": "detailed-citation",
    "split": "detailed",
@@ -238,6 +270,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "GPU Array Access Auto-Tuning",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "TUbilio (Technical University of Darmstadt)",
+   "authors": "Weber, Nicolas",
+   "url": "https://doi.org/10.26083/tuprints-00006507",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "ZettaBricks: A Language Compiler and Runtime System for Anyscale Computing",

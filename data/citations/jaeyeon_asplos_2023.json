@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "jaeyeon:asplos:2023",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 39,
-  "works": 39,
+  "records_raw": 50,
+  "works": 50,
   "commit": 2,
-  "judged": 35,
+  "judged": 44,
   "gscholar": null
  },
  "citations": [
@@ -30,6 +30,19 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "HHOTuner: Efficient Performance Tuning with Harris Hawks Optimization",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Proceedings of the International Conference on Parallel Processing",
+   "authors": "Akash Dutta, Ali Jannesari",
+   "url": "https://doi.org/10.1145/3754598.3754665",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "SparseZETA: Intelligent Auto-tuner for Designing High-Performance SpMV Programs",
@@ -108,6 +121,31 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Data-Aware Complexity Analysis and Program Optimization",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Kyle Deeds",
+   "url": "https://openalex.org/W7126608815",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimizing the inference efficiency of deep neural networks on the graph and the operator level",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2024,
+   "authors": "Jingzhi Fang",
+   "url": "https://doi.org/10.14711/thesis-991013340355403412",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "STile: Searching Hybrid Sparse Formats for Sparse Deep Learning Operators Automatically",
    "function": "positions",
    "split": "detailed",
@@ -158,6 +196,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Mastering Sparse CUDA Generation through Pretrained Models and Deep Reinforcement Learning",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "International Conference on Learning Representations",
+   "authors": "Yaoyu Wang, Hankun Dai, Zhidong Yang et al.",
+   "url": "https://openalex.org/W7236533786",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "SENSEi: Input-Sensitive Compilation for Accelerating GNNs",
    "function": "supports-claim",
    "split": "detailed",
@@ -171,6 +222,19 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Program lifting for acceleration",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ERA",
+   "authors": "José Wesley de Souza Magalhães",
+   "url": "https://doi.org/10.7488/era/7291",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A Novel Compiler Transformation for Fast Sparse Matrix Multiplication in GPUs",
@@ -202,6 +266,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "A hybrid communication pattern and algorithm for distributed sparse-times-dense matrix multiplication",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Charles Block",
+   "url": "https://openalex.org/W7220788508",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "ScalFrag: Efficient Tiled-MTTKRP with Adaptive Launching on GPUs",
    "function": "exemplifies",
    "split": "passing",
@@ -226,6 +303,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "The EDGE Language: Extended General Einsums for Graph Algorithms",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Toluwanimi O. Odemuyiwa, Porumbescu, Serban D., Nayak, Nandeeka et al.",
+   "url": "https://doi.org/10.48550/arxiv.2404.11591",
+   "cited_by": 16,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Two-Face: Combining Collective and One-Sided Communication for Efficient Distributed SpMM",
@@ -258,6 +351,22 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "An Expression is Worth a Thousand Words: Graph Algorithms in the Language of Extended Tensor Algebra Notation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Toluwanimi O. Odemuyiwa",
+   "url": "https://openalex.org/W7221493579",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Minimum Cost Loop Nests for Contraction of a Sparse Tensor with a Tensor Network",
@@ -339,6 +448,19 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "SparseConflicts: Handling Conflicting Data Layouts in Sparse Tensor Contractions",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adhitha Dias, Kirshanthan Sundararajah, Artem Pelenitsyn et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.06328",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "fulltext"
   },
   {
@@ -552,6 +674,28 @@
    "venue": "Machine learning",
    "authors": "Jingzhi Fang, Zhiyuan Li",
    "url": "https://doi.org/10.1007/978-981-95-5795-0_4",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "ARROW: Adaptive Row Reorganization for Warp-Balanced SpMV",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Lecture notes in computer science",
+   "authors": "Yuxiang Zhang, Jianhua Gao, Weixing Ji",
+   "url": "https://doi.org/10.1007/978-981-92-4805-6_26",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "GPA-SpMV: A GPU-based general-purpose adaptive SpMV framework",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Future Generation Computer Systems",
+   "authors": "Jinshou Chen, Chang Liu, W. M. Yao et al.",
+   "url": "https://doi.org/10.1016/j.future.2026.108862",
    "cited_by": 0,
    "evidence": "title_only"
   },

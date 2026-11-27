@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "zhao:cgo:2008",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 62,
-  "works": 50,
+  "records_raw": 77,
+  "works": 65,
   "commit": 1,
-  "judged": 42,
+  "judged": 53,
   "gscholar": null
  },
  "citations": [
@@ -52,6 +52,19 @@
    "centrality": "engaged",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Using Multi-Core to Debug Interactive Applications",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Applied Mechanics and Materials",
+   "authors": "Edward Tsung Hsien Chu, Ming Ru Tsai",
+   "url": "https://doi.org/10.4028/www.scientific.net/amm.764-765.1007",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "abstract"
   },
   {
    "title": "Potential of Dynamic Binary Parallelization",
@@ -109,6 +122,22 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Alleria: An Advanced Memory Access Profiling Framework",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "ACM Transactions on Embedded Computing Systems",
+   "authors": "Hadi Brais, Preeti Ranjan Panda",
+   "url": "https://doi.org/10.1145/3358193",
+   "cited_by": 6,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Collecting and representing parallel programs with high performance instrumentation",
@@ -373,6 +402,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Redundancy Suppression In Time-Aware Dynamic Binary Instrumentation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "arXiv",
+   "authors": "Pansy Arafa, Hany Kashif, Sebastian Fischmeister",
+   "url": "https://doi.org/10.48550/arxiv.1703.02873",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Impact of Intrinsic Profiling Limitations on Effectiveness of Adaptive Optimizations",
    "function": "detailed-citation",
    "split": "detailed",
@@ -438,6 +480,58 @@
    "evidence": "contexts"
   },
   {
+   "title": "DevTrace: Lightweight Plug-In Design for PCIe Transaction Tracing in Edge Intelligence Workloads",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+   "authors": "Zhibai Huang, Kailiang Xu, Ziyang Zhang et al.",
+   "url": "https://doi.org/10.1109/tcad.2026.3669500",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Here is a GIFT: Enforcing User Data Isolation in LLM Serving via GPU Information Flow Tracking",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Jiacheng Shi, Xunjie Wang, Cheng Tan et al.",
+   "url": "https://doi.org/10.48550/arxiv.2608.25431",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Preservation and Literacy Transmission of Pipa and Guzheng Duets in Pu Dong Style",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "International Journal of Education and Literacy Studies",
+   "authors": "Dongmei Li, Sarawut Choatchamrat",
+   "url": "https://doi.org/10.7575/aiac.ijels.v.12n.1p.133",
+   "cited_by": 15,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Frequent background polling on a shared thread, using light-weight compiler interrupts",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+   "authors": "Nilanjana Basu, Claudio Montanari, Jakob Eriksson",
+   "url": "https://doi.org/10.1145/3453483.3454107",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Evaluating the effectiveness of program data features for guiding memory management",
    "function": "passing-citation",
    "split": "passing",
@@ -462,6 +556,44 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Time-Aware Dynamic Binary Instrumentation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "UWSpace (University of Waterloo)",
+   "authors": "Pansy Arafa",
+   "url": "https://openalex.org/W2748487247",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Casper: an efficient approach to call trace collection",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL)",
+   "authors": "Rongxin Wu, Xiao Xiao, Shing-Chi Cheung et al.",
+   "url": "https://doi.org/10.1145/2837614.2837619",
+   "cited_by": 16,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Protection mechanisms against control-flow hijacking attacks",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "authors": "João Batista Corrêa Gomes Moreira",
+   "url": "https://doi.org/10.47749/t/unicamp.2016.979871",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Spectral profiling: Observer-effect-free profiling by monitoring EM emanations",
@@ -527,6 +659,19 @@
    "authors": "Y. Song, Yann-Hang Lee",
    "url": "https://doi.org/10.1145/2656045.2656062",
    "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Performance Benchmarking of Application Monitoring Frameworks",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "MACAU: Open Access Repository of Kiel University (University Library Kiel)",
+   "authors": "Jan Waller",
+   "url": "https://openalex.org/W2097862981",
+   "cited_by": 15,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -598,6 +743,48 @@
    "cited_by": 190,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Load and MLP-Aware Thread Orchestration for Recommendation Systems Inference on CPUs",
+   "function": "unknown",
+   "split": null,
+   "year": 2025,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Rishabh Jain, Teyuh Chou, Onur Kayıran et al.",
+   "url": "https://doi.org/10.1145/3676641.3716003",
+   "cited_by": 5,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Thread-Aware Cache Simulator for HPC Application Tuning",
+   "function": "unknown",
+   "split": null,
+   "year": 2021,
+   "venue": "International Symposium on Computing and Networking Workshops (CANDARW)",
+   "authors": "Kazuki Chugo, Yukinori Sato",
+   "url": "https://doi.org/10.1109/candarw53999.2021.00078",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Cryptographic Function Detection in Obfuscated Binaries via Bit-Precise Symbolic Loop Mapping",
+   "function": "unknown",
+   "split": null,
+   "year": 2017,
+   "venue": "IEEE Symposium on Security and Privacy (S&P)",
+   "authors": "Dongpeng Xu, Jiang Ming, Dinghao Wu",
+   "url": "https://doi.org/10.1109/sp.2017.56",
+   "cited_by": 102,
+   "flags": [
+    "polluted-contexts"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -702,6 +889,17 @@
    "authors": "H. Cho, Tipp Moseley, R. Hank et al.",
    "url": "https://openalex.org/W2898991513",
    "cited_by": 11,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Dynamic Binary Modification: Tools, Techniques and Applications",
+   "function": "unclassified",
+   "split": null,
+   "year": 2011,
+   "venue": "Synthesis lectures on computer architecture",
+   "authors": "Kim Hazelwood",
+   "url": "https://doi.org/10.1007/978-3-031-01732-2",
+   "cited_by": 27,
    "evidence": "title_only"
   }
  ]

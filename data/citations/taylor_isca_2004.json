@@ -1,16 +1,29 @@
 {
  "schema": 1,
  "key": "taylor:isca:2004",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 450,
-  "works": 400,
+  "records_raw": 505,
+  "works": 455,
   "commit": 6,
-  "judged": 275,
+  "judged": 324,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "The Arsenal Tool Chain for the GreenDroid Mobile Application Processor",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Fei Jia",
+   "url": "https://openalex.org/W91502798",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
   {
    "title": "Reduction of Variation-Induced Energy Overhead in Multi-Core Processors",
    "function": "uses-tool",
@@ -224,6 +237,22 @@
     "own-group"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Load-balanced rendering on a general-purpose tiled architecture",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Jiawen Chen",
+   "url": "https://openalex.org/W1494242375",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Thermal Modeling, Characterization and Management of On-Chip Networks",
@@ -578,6 +607,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Performanceanalyse und plattformspezifische Optimierungen am Beispiel des Grid-ALU-Prozessors",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "OPUS (Augsburg University)",
+   "authors": "Ralf Jahr",
+   "url": "https://openalex.org/W2910597787",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "CGADL: An Architecture Description Language for Coarse-Grained Reconfigurable Arrays",
    "function": "positions",
    "split": "detailed",
@@ -756,6 +801,18 @@
    "evidence": "abstract"
   },
   {
+   "title": "Tiled Architectures & Recent Proposals for Chip Multiprocessors",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2005,
+   "authors": "Sandro Bartolini, Roberto Giorgi, Enrico Martinelli et al.",
+   "url": "https://openalex.org/W2801167919",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "abstract"
+  },
+  {
    "title": "Chip and Package-Scale Interconnects for General-Purpose, Domain-Specific, and Quantum Computing Systems—Overview, Challenges, and Opportunities",
    "function": "supports-claim",
    "split": "detailed",
@@ -872,6 +929,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Performance and reliability enhancement techniques for two dimensional network on chips using adaptive deflection routers",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "Dyuthi Digital Repository (Cochin University of Science and Technology)",
+   "authors": "Simi Zerine Sleeba",
+   "url": "https://openalex.org/W2913822683",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Deflection Containment for Bufferless Network-on-Chips",
    "function": "supports-claim",
    "split": "detailed",
@@ -914,6 +984,22 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Actor-oriented programming for resource constrained Multiprocessor Networks on Chip",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "White Rose eTheses Online (University of Leeds, The University of Sheffield, University of York)",
+   "authors": "Gary Plumbridge",
+   "url": "https://openalex.org/W2300800914",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Comparative evaluation of FPGA and ASIC implementations of bufferless and buffered routing algorithms for on-chip networks",
@@ -979,6 +1065,22 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An FPGA implementation of an investigative many-core processor, Fynbos : in support of a Fortran autoparallelising software pipeline",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "Open University of Cape Town (University of Cape Town)",
+   "authors": "Jane Wyngaard",
+   "url": "https://openalex.org/W2899048054",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -1074,6 +1176,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Variable-Pipeline-Stage Router",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+   "authors": "Chun‐Yi Lee, Niraj Kumar Jha",
+   "url": "https://doi.org/10.1109/tvlsi.2012.2217401",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A low-swing crossbar and link generator for low-power networks-on-chip",
@@ -1282,6 +1397,21 @@
    "evidence": "abstract"
   },
   {
+   "title": "2D-VLIW: uma arquitetura de processador baseada na geometria da computação",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2007,
+   "authors": "Ricardo Ribeiro dos Santos",
+   "url": "https://doi.org/10.47749/t/unicamp.2007.399466",
+   "cited_by": 3,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Express virtual channels",
    "function": "supports-claim",
    "split": "detailed",
@@ -1431,6 +1561,50 @@
    "evidence": "abstract"
   },
   {
+   "title": "A Tensor Processing Framework for CPU-Manycore Heterogeneous Systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+   "authors": "Lin Cheng, Peitian Pan, Zhongyuan Zhao et al.",
+   "url": "https://doi.org/10.1109/tcad.2021.3103825",
+   "cited_by": 13,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Power and chip-area aware network-on-chip simulation",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "authors": "Masoud Oveis Gharan",
+   "url": "https://doi.org/10.32920/ryerson.14654766",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Reconfigurable and heterogeneous architectures for efficient computing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Ashutosh Dhar",
+   "url": "https://openalex.org/W3214356874",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Implementing Low-Diameter On-Chip Networks for Manycore Processors Using a Tiled Physical Design Methodology",
    "function": "exemplifies",
    "split": "passing",
@@ -1458,6 +1632,19 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "The impact of data flow computing thinking on the development of computer architecture",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "Scientia Sinica Informationis",
+   "authors": "Chuliang Weng, Xiaoli GONG, Chen XU et al.",
+   "url": "https://doi.org/10.1360/ssi-2020-0092",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Bufferless Network-on-Chips With Bridged Multiple Subnetworks for Deflection Reduction and Energy Savings",
@@ -1537,6 +1724,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Heterogeneous processor composition : metrics and methods",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2016,
+   "venue": "ERA",
+   "authors": "Erik Tomusk",
+   "url": "https://openalex.org/W2684321025",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Crowdsourcing the mapping problem for design space exploration of custom reconfigurable architecture designs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "Human Computation",
+   "authors": "Anil Kumar Sistla, Krunalkumar Patel, Gayatri Mehta",
+   "url": "https://doi.org/10.15346/hc.v2i1.5",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "DynaSpAM",
    "function": "exemplifies",
    "split": "passing",
@@ -1547,6 +1760,32 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "The case for reconfigurable general purpose GPU computing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Ashutosh Dhar",
+   "url": "https://openalex.org/W2528529747",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An Embedded Architecture for Energy-Efficient Stream Computing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "IEEE Embedded Systems Letters",
+   "authors": "Amrit Panda, Karam S. Chatha",
+   "url": "https://doi.org/10.1109/les.2014.2326895",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "An embedded co-processor architecture for energy-efficient stream computing",
@@ -1561,6 +1800,32 @@
    "evidence": "abstract"
   },
   {
+   "title": "Compiler Estimation of Parallelism and Communication for Quantum Computation",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Jeffrey P. Heckey",
+   "url": "https://openalex.org/W638550321",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Design and Development from Single Core Reconfigurable Accelerators to a Heterogeneous Accelerator-Rich Platform",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "Tampere University Institutional Repository (Tampere University)",
+   "authors": "Waqar Hussain",
+   "url": "https://openalex.org/W574750401",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Design Space Exploration of Domain Specific CGRAs Using Crowd-sourcing",
    "function": "exemplifies",
    "split": "passing",
@@ -1571,6 +1836,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "FPGA synthesis of area efficient data path for reconfigurable FIR filter",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "International Conference on Control, Instrumentation, Communication and Computational Technologies",
+   "authors": "R Saranya, C. Pradeep",
+   "url": "https://doi.org/10.1109/iccicct.2014.6992985",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "HNCP-II: A 16-core 65nm microprocessor ASIC for image processing algorithms",
@@ -1623,6 +1901,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Exploiting Task- and Data-Level Parallelism in Streaming Applications Implemented in FPGAs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "venue": "ACM Transactions on Reconfigurable Technology and Systems",
+   "authors": "Franjo Plavec, Zvonko G. Vranesic, Stephen D. Brown",
+   "url": "https://doi.org/10.1145/2535932",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Partition-Based Hardware Transactional Memory for Many-Core Processors",
    "function": "exemplifies",
    "split": "passing",
@@ -1662,6 +1953,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Architectural explorations for streaming accelerators with customized memory layouts",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+   "authors": "Muhammad Shafiq",
+   "url": "https://doi.org/10.5821/dissertation-2117-94639",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Configurable fine-grain protection for multicore processor virtualization",
    "function": "exemplifies",
    "split": "passing",
@@ -1688,6 +1992,21 @@
    "cited_by": 35,
    "centrality": "peripheral",
    "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "Dpool: a distributed data structure for factored operating systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "authors": "A. Agarwal, S. Devadas, D. Wentzlaff",
+   "url": "https://www.semanticscholar.org/paper/2c532c7d652b8b37b001e3a89dc6ebbc03e7363b",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
    "flags": [
     "own-group"
    ],
@@ -1728,6 +2047,21 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "ATAC : A 1000-Core Cache Coherent Processor with On-Chip Optical Network by George Kurian",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2011,
+   "authors": "George Kurian, A. Agarwal, T. Orlando",
+   "url": "https://www.semanticscholar.org/paper/641fc4cc35ba1f2d36fba8692ea7d88ca4df5adb",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
    "evidence": "contexts"
   },
   {
@@ -2065,6 +2399,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "ASIC life extension through hardware patch interfaces",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Vladyslav Bryksin",
+   "url": "https://openalex.org/W328994269",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Power-efficient medical image processing using PUMA",
    "function": "exemplifies",
    "split": "passing",
@@ -2132,6 +2479,18 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Using Locality and Interleaving Information to Improve Shared Cache Performance",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "authors": "D. Yeung, Wanli Liu",
+   "url": "https://www.semanticscholar.org/paper/3370ef4c1a68bba20a2dd1f5c6f67d422afe7a11",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
    "title": "A Set of Models for Manycore Performance Evaluation through Abstract Interpretation of Timed Configuration Graphs",
    "function": "exemplifies",
    "split": "passing",
@@ -2190,6 +2549,19 @@
    "authors": "Dana Vantrease, Robert Schreiber, Matteo Monchiero et al.",
    "url": "https://doi.org/10.1145/1394608.1382135",
    "cited_by": 531,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Corona: System Implications of Emerging Nanophotonic Technology",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2008,
+   "venue": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+   "authors": "Dana Vantrease, Robert Schreiber, Matteo Monchiero et al.",
+   "url": "https://doi.org/10.1109/isca.2008.35",
+   "cited_by": 559,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -2269,6 +2641,32 @@
    "authors": "Behnam Robatmili, Katherine E. Coons, Doug Burger et al.",
    "url": "https://doi.org/10.1007/978-3-540-89740-8_5",
    "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Run-time Reconfigurable Multiprocessors",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2008,
+   "venue": "Habilitation Regulations of the Faculty of Mechanical Engineering (University of Paderborn)",
+   "authors": "Madhura Purnaprajna",
+   "url": "https://openalex.org/W1597069492",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Scheduling Tasks on Heterogeneous Chip Multiprocessors with Reconfigurable Hardware",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2008,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Justin Teller",
+   "url": "https://openalex.org/W2599534398",
+   "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -2638,6 +3036,38 @@
    "evidence": "contexts"
   },
   {
+   "title": "Design and Implementation of MIMO OFDM IEEE802.11n Receiver Blocks on Heterogeneous Multicore Architecture",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Tampere University of Technology Institutional Repository",
+   "authors": "Mohammad Hosseinvand",
+   "url": "https://openalex.org/W2906517032",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Resource-aware Programming in a High-level Language - Improved performance with manageable effort on clustered MPSoCs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Repository KITopen (Karlsruhe Institute of Technology)",
+   "authors": "Andreas Zwinkau",
+   "url": "https://doi.org/10.5445/ir/1000083526",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Parallel Programming Model for the Epiphany Many-Core Coprocessor Using Threaded MPI",
    "function": "detailed-citation",
    "split": "detailed",
@@ -2652,6 +3082,19 @@
     "lineage"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "A study on power saving and latency reduction methods for wireless 3D Network on Chips(本文)",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "KeiO Associated Repository of Academic Resources (Keio University)",
+   "authors": "コウ チョウ, Hao Helen Zhang, 浩 張",
+   "url": "https://openalex.org/W7139670970",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Analyzing Performance and Usability of Broadcast-Based Inter-Core Communication (ATAC) on Manycore Architecture",
@@ -2950,6 +3393,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Polymorphous architectures: a unified approach for extracting concurrency of different granularities",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "Texas ScholarWorks (Texas Digital Library)",
+   "authors": "Stephen W. Keckler, Karthikeyan Sankaralingam",
+   "url": "https://openalex.org/W1922360259",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Synchroscalar: Evaluation of an embedded, multi-core architecture for media applications",
    "function": "adopts-idea",
    "split": "detailed",
@@ -2987,6 +3446,22 @@
     "supports-claim"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Software orchestration of ILP on TPAs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "W. Lee",
+   "url": "https://openalex.org/W7139830618",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Victim replication: maximizing capacity while hiding wire delay in tiled chip multiprocessors",
@@ -3045,6 +3520,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Efficient Ageing-Aware Techniques for Emerging Low Power Multi-Core Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "NECTAR - Northampton Electronic Collection of Thesis and Research (University of Northampton)",
+   "authors": "Emmanuel Ofori-Attah, Michael Opoku Agyeman, Yinghui Zhang",
+   "url": "https://openalex.org/W7143260917",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "UpDown: Programmable fine-grained Events for Scalable Performance on Irregular Applications",
    "function": "passing-citation",
    "split": "passing",
@@ -3071,6 +3559,35 @@
    "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Review and thoughts on the development of computing architecture",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Scientia Sinica Informationis",
+   "authors": "彦钊 高, 江兴 邬, 勤让 刘 et al.",
+   "url": "https://doi.org/10.1360/ssi-2021-0163",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Architecting Quantum Computer Systems in the Presence of Noise",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "Knowledge@UChicago (University of Chicago)",
+   "authors": "Yongshan Ding",
+   "url": "https://doi.org/10.6082/uchicago.3393",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -3182,6 +3699,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "A survey of low power NoC design techniques",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "International Workshop on Advanced Interconnect Solutions and Technologies for Emerging Computing Systems (AISTECS)",
+   "authors": "Emmanuel Ofori-Attah, Michael Opoku Agyeman",
+   "url": "https://doi.org/10.1145/3073763.3073767",
+   "cited_by": 13,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Adaptive Multi-Voltage Scaling in Wireless NoC for High Performance Low Power Applications",
    "function": "passing-citation",
    "split": "passing",
@@ -3202,6 +3732,19 @@
    "authors": "Gnaneswara Rao Jonna, Vamana Murthi Thuniki, Madhu Mutyam",
    "url": "https://doi.org/10.1007/978-3-319-30695-7_3",
    "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Modular verification of hardware systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Muralidaran Vijayaraghavan",
+   "url": "https://openalex.org/W2565415549",
+   "cited_by": 6,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -3282,6 +3825,32 @@
    "evidence": "abstract"
   },
   {
+   "title": "A Systematic Design Methodology for Low-Power NoCs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "IEEE Transactions on Very Large Scale Integration (vlsi) Systems",
+   "authors": "Gursharan Reehal, M. Ismail",
+   "url": "https://doi.org/10.1109/tvlsi.2013.2296742",
+   "cited_by": 14,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Approches d'optimisation et de personnalisation des réseaux sur puce (NoC : networks on Chip",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "HAL",
+   "authors": "Abderrahim Chariete",
+   "url": "https://openalex.org/W799141794",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "CAERUS: an effective arbitration and ejection policy for routing in an unidirectional torus",
    "function": "passing-citation",
    "split": "passing",
@@ -3308,6 +3877,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Range-based dynamic routing of hierarchical on chip network traffic",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "International Workshop on System-Level Interconnect Prediction",
+   "authors": "Nancy Y. Zhou, P. Restle, Joseph Palumbo et al.",
+   "url": "https://doi.org/10.1145/2633948.2633953",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "SmartBricks: A Visual Environment to Design and Explore Novel Custom Domain-Specific Architectures",
    "function": "passing-citation",
    "split": "passing",
@@ -3329,6 +3911,22 @@
    "cited_by": 9,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Athermal Photonic Devices and Circuits on a Silicon Platform",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Vivek Raghunathan",
+   "url": "https://openalex.org/W1514936052",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -3402,6 +4000,22 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "ARCc: A case for an architecturally redundant cache-coherence architecture for large multicores",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "ICCD",
+   "authors": "O. Khan, H. Hoffmann, Mieszko Lis et al.",
+   "url": "https://doi.org/10.1109/iccd.2011.6081431",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -3493,6 +4107,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Dynamic coarse grained reconfigurable architectures.",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "venue": "OPUS (Augsburg University)",
+   "authors": "Basher Shehan",
+   "url": "https://openalex.org/W2402434824",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Efficient Address Mapping of Shared Cache for On-Chip Many-Core Architecture",
    "function": "passing-citation",
    "split": "passing",
@@ -3516,6 +4146,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "High-Level Programming of Dynamically Reconfigurable NoC-Based Heterogeneous Multicore SoCs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "venue": "IGI Global eBooks",
+   "authors": "Wim A. Vanderbauwhede",
+   "url": "https://doi.org/10.4018/978-1-61520-807-4.ch008",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "The Two-dimensional Superscalar GAP Processor Architecture",
@@ -3595,6 +4238,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Using Multi-core Processor to Support Network Parallel Image Processing Applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "International Conference on Signal Processing Systems (ICSPS)",
+   "authors": "E. Ramraj, A. Senthilrajan",
+   "url": "https://doi.org/10.1109/icsps.2009.41",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Analysis and architectural support for parallel stateful packet processing",
    "function": "passing-citation",
    "split": "passing",
@@ -3669,6 +4325,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Prefetch mechanisms by application memory access pattern",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2007,
+   "venue": "Texas ScholarWorks (Texas Digital Library)",
+   "authors": "Kartik K. Agaram",
+   "url": "https://openalex.org/W1946729291",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
   },
   {
    "title": "The Molen compiler for reconfigurable architectures",
@@ -3757,6 +4426,18 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
+  },
+  {
+   "title": "MultiCore Framework: An API for Programming Heterogeneous Multicore Processors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2006,
+   "authors": "Brian Bouzas, R. Cooper, Jon Greene et al.",
+   "url": "https://www.semanticscholar.org/paper/42e7ce2857ace77e30bdfe996f2fdac3d1395298",
+   "cited_by": 29,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
   },
   {
    "title": "Optimizing Operand Transport using Dynamic SIMDization in Multimedia Systems",
@@ -3992,6 +4673,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Conception et développement d'un circuit multiprocesseurs en ASIC dédié à une caméra intelligente",
+   "function": "unknown",
+   "split": null,
+   "year": 2015,
+   "venue": "theses.fr (ABES)",
+   "authors": "Mohamed Amine Boussadi",
+   "url": "https://doi.org/10.70675/33cc2377z3451z4976zb9f9z4317086f3a81",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "KL_GA: an application mapping algorithm for mesh-of-tree (MoT) architecture in network-on-chip design",
    "function": "unknown",
    "split": null,
@@ -4052,6 +4747,20 @@
    "authors": "Jerker Bengtsson, Bertil Svensson",
    "url": "https://openalex.org/W2107859355",
    "cited_by": 4,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "A rapid design methodology for generating of parallel image processing applications and parallel architectures for smart camera",
+   "function": "unknown",
+   "split": null,
+   "year": 2014,
+   "venue": "theses.fr (ABES)",
+   "authors": "Hanen Chenini",
+   "url": "https://doi.org/10.70675/a507e16dz6839z47adzacf4z4395f1d80603",
+   "cited_by": 1,
    "flags": [
     "polluted-contexts"
    ],
@@ -4470,6 +5179,20 @@
     "own-group"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Finite Element Model of Aero Turbine Blades Investment Casting Process Based on Hypermesh",
+   "function": "unknown",
+   "split": null,
+   "year": 2010,
+   "venue": "International Conference on Electrical and Control Engineering",
+   "authors": "Dou Yangqing, Kun Bu, Yangliu Dou",
+   "url": "https://doi.org/10.1109/icece.2010.678",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Graphite : a parallel distributed simulator for multicores",
@@ -5237,6 +5960,16 @@
    "evidence": "title_only"
   },
   {
+   "title": "Configurable energy-efficient co-processors to scale the utilization wall",
+   "function": "unclassified",
+   "split": null,
+   "year": 2011,
+   "authors": "Ganesh Venkatesh, Steven Swanson, M. Taylor et al.",
+   "url": "https://www.semanticscholar.org/paper/60c805106bed9362793d40dc70c6be409d924988",
+   "cited_by": 1,
+   "evidence": "title_only"
+  },
+  {
    "title": "Resource Sharing in Modulo-Scheduled Reconfigurable Architectures",
    "function": "unclassified",
    "split": null,
@@ -5254,6 +5987,16 @@
    "venue": "Journal of Systems Architecture",
    "authors": "Yuri Nishikawa, Michihiro Koibuchi, Masato Yoshimi et al.",
    "url": "https://doi.org/10.1016/j.sysarc.2010.10.004",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Design and architecture of automatically-generated energy- reducing coprocessors",
+   "function": "unclassified",
+   "split": null,
+   "year": 2010,
+   "authors": "Steven Swanson, M. Taylor, Jack Sampson",
+   "url": "https://www.semanticscholar.org/paper/a93c94b04d028e246e80bcbdd5b0b3cd67c6a4ec",
    "cited_by": 0,
    "evidence": "title_only"
   },
@@ -5439,6 +6182,16 @@
    "authors": "Ian Bratt",
    "url": "https://openalex.org/W1522903416",
    "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Efficient Support for All Levels of Parallelism for Complex Media Applications",
+   "function": "unclassified",
+   "split": null,
+   "year": 2004,
+   "authors": "Ruchira Sasanka",
+   "url": "https://www.semanticscholar.org/paper/8b06d7425b8c7e9982fd0f89baa023524ed1de20",
+   "cited_by": 1,
    "evidence": "title_only"
   },
   {

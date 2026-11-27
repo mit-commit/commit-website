@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "ansel:cases:2012",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 75,
-  "works": 58,
+  "records_raw": 80,
+  "works": 63,
   "commit": 2,
-  "judged": 43,
+  "judged": 48,
   "gscholar": null
  },
  "citations": [
@@ -85,6 +85,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Optimizing Distributed Systems using Machine Learning",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Ignacio Cano",
+   "url": "https://openalex.org/W2954959077",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "CALOREE",
    "function": "exemplifies",
    "split": "passing",
@@ -152,6 +165,35 @@
    "evidence": "contexts"
   },
   {
+   "title": "Machine Learning and Understanding for Intelligent Extreme Scale Scientific Computing and Discovery. DOE Workshop Report, January 7–9, 2015, Rockville, MD",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+   "authors": "Michael W. Berry, Thomas E. Potok, Prasanna Balaprakash et al.",
+   "url": "https://doi.org/10.2172/1471083",
+   "cited_by": 23,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "ApproxHPVM: A retargetable compiler framework for accuracy-aware optimizations",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Hashim Sharif",
+   "url": "https://openalex.org/W3201542600",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Machine Learning in Compiler Optimisation",
    "function": "detailed-citation",
    "split": "detailed",
@@ -191,6 +233,22 @@
     "positions"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Commensal compiler for high-performance stream programming",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Jeffrey Bosboom",
+   "url": "https://openalex.org/W7139310983",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Dynamic Autotuning of Algorithmic Skeletons Informatics Research Proposal",
@@ -309,6 +367,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "contexts"
+  },
+  {
+   "title": "Approximate computing for high energy-efficiency in IoT applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Geneviève Ndour",
+   "url": "https://doi.org/10.70675/276613efzee04z4db6z9c66z109338bba832",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Better Never Than Late: Timely Edge Video Analytics Over the Air",

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "witchel:micro:2001",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 82,
-  "works": 77,
+  "records_raw": 84,
+  "works": 79,
   "commit": 1,
-  "judged": 63,
+  "judged": 64,
   "gscholar": null
  },
  "citations": [
@@ -186,6 +186,22 @@
    "cited_by": 6,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Cool-Mem: combining statically speculative memory accessing with selective address translation for energy efficiency",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "ASPLOS X",
+   "authors": "R. Ashok, Saurabh Chheda, C. Moritz",
+   "url": "https://doi.org/10.1145/605397.605412",
+   "cited_by": 17,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -882,6 +898,20 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "An energy efficient TCAM enhanced cache architecture",
+   "function": "unknown",
+   "split": null,
+   "year": 2005,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Jesse Surprise",
+   "url": "https://openalex.org/W2289918423",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Customizable instruction cache hierarchy for embedded systems",

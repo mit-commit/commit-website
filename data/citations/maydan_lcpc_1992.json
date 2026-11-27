@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "maydan:lcpc:1992",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 68,
-  "works": 61,
+  "records_raw": 75,
+  "works": 68,
   "commit": 6,
-  "judged": 47,
+  "judged": 53,
   "gscholar": null
  },
  "citations": [
@@ -188,6 +188,19 @@
    "commit": true
   },
   {
+   "title": "Automatic Parallelization of Tiled Stencil Loop Nests on GPUs",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "UNSWorks (University of New South Wales, Sydney, Australia)",
+   "authors": "Peng Di",
+   "url": "https://doi.org/10.26190/unsworks/16812",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Extending Scalar Optimizations for Arrays",
    "function": "supports-claim",
    "split": "detailed",
@@ -287,6 +300,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Fractal Symbolic Analysis for Program Transformations (*new file*)",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2000,
+   "venue": "eCommons (Cornell University)",
+   "authors": "Nikolay Mateev, Vijay S. Menon, Keshav K. Pingali",
+   "url": "https://openalex.org/W133000837",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "SUIF EXPLORER :A N I NTERACTIVE AND INTERPROCEDURAL PARALLELIZER",
    "function": "extends",
    "split": "detailed",
@@ -305,6 +331,18 @@
    }
   },
   {
+   "title": "A DISSERTATION SUBMITTED TO THE DEPARTMENT OF MECHANICAL ENGINEERING AND THE COMMITTEE ON GRADUATE STUDIES OF STANFORD UNIVERSITY IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE DEGREE OF DOCTOR OF PHILOSOPHY",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 1995,
+   "authors": "Ming-Ju Edward Lee, W. Dally, Mark Horowitz",
+   "url": "https://www.semanticscholar.org/paper/e6c217e459f051042596700a5cc1d4aa4d85ba5e",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
    "title": "On data dependence analysis for compiling programs on distributed-memory machines (extended abstract)",
    "function": "detailed-citation",
    "split": "detailed",
@@ -313,6 +351,19 @@
    "authors": "Sandeep Sharma, Chien‐Hung Huang, P. Sadayappan",
    "url": "https://doi.org/10.1145/156668.156676",
    "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic Data Dependence Analysis by Deductive Verification",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Journal of Automated Reasoning",
+   "authors": "Asmae Heydari Tabar, Richard Bubel, Reiner Hähnle",
+   "url": "https://doi.org/10.1007/s10817-026-09769-6",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "fulltext"
@@ -396,6 +447,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Hybrid analysis of memory references and its application to automatic parallelization",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Silvius Rus",
+   "url": "https://openalex.org/W2287285612",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Choosing Method of the Most Effective Nested Loop Shearing for Parallelism",
    "function": "passing-citation",
    "split": "passing",
@@ -434,6 +498,19 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Run-time optimization of adaptive irregular applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2004,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Hao Yu",
+   "url": "https://openalex.org/W2741217114",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "The R-LRPD test: speculative parallelization of partially parallel loops",
@@ -813,6 +890,16 @@
    "authors": "T. Lawrence",
    "url": "https://www.semanticscholar.org/paper/41a3cb7d0be2887ee3e8e4c514e92e28c2520e8c",
    "cited_by": 7,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Run-time parallelization: A framework for parallel computation",
+   "function": "unclassified",
+   "split": null,
+   "year": 1995,
+   "authors": "Lawrence Rauchwerger",
+   "url": "https://www.semanticscholar.org/paper/6a39c498e08d21d95aca17190f4a052bb7ed6eb8",
+   "cited_by": 22,
    "evidence": "title_only"
   },
   {

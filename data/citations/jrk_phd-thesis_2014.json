@@ -1,16 +1,260 @@
 {
  "schema": 1,
  "key": "jrk:phd-thesis:2014",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 3,
-  "works": 2,
-  "commit": 0,
-  "judged": 2,
+  "records_raw": 23,
+  "works": 22,
+  "commit": 1,
+  "judged": 21,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Distributed Halide",
+   "function": "extends",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+   "authors": "Tyler Denniston, Shoaib Ashraf Kamil, Saman P. Amarasinghe",
+   "url": "https://doi.org/10.1145/2851141.2851157",
+   "cited_by": 25,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "A Memory-Bounded Best-First Beam Search and Its Application to Scheduling Halide Programs",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Proceedings of the International Symposium on Combinatorial Search",
+   "authors": "Chao Gao, Jingwei Chen, Tong Mo et al.",
+   "url": "https://doi.org/10.1609/socs.v15i1.21754",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Efficient Stencil Computation with Temporal Blocking by Halide DSL",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA)",
+   "authors": "Hiroki Aikawa, Toshio Endo, Tomoya Yuki et al.",
+   "url": "https://doi.org/10.1109/ispa-bdcloud-socialcom-sustaincom57177.2022.00116",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "ConvFusion: A Model for Layer Fusion in Convolutional Neural Networks",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "IEEE Access",
+   "authors": "Luc Waeijen, Savvas Sioutas, Maurice Peemen et al.",
+   "url": "https://doi.org/10.1109/access.2021.3134930",
+   "cited_by": 43,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Making Halide Efficient for Multicore Systems",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "International Conference on Big Data Computing and Communications (BigCom)",
+   "authors": "Yu Zhang, Yuxiang Zhang",
+   "url": "https://doi.org/10.1109/bigcom.2018.00041",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Fourier-Motzkin with non-linear symbolic constant coefficients",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Patricia Suriana",
+   "url": "https://openalex.org/W2592130795",
+   "cited_by": 7,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "extends"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Terapixel image processing and simulation with distributed halide",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Tyler Denniston",
+   "url": "https://openalex.org/W2479301415",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea",
+    "extends"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Astaroth: Ohjelmistokirjasto stensiililaskentaan grafiikkasuorittimilla",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "Aaltodoc (Aalto University)",
+   "authors": "Pekkilä, Johannes",
+   "url": "https://openalex.org/W7112968537",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions",
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimization of Halide Image Processing Schedules with Reinforcement Learning",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "Simpósio em Sistemas Computacionais de Alto Desempenho (SSCAD)",
+   "authors": "Marcelo Fila Pecenin, André Murbach Maidl, Daniel Weingaertner",
+   "url": "https://doi.org/10.5753/wscad.2019.8655",
+   "cited_by": 7,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Reconstructing Intensity Images from Binary Spatial Gradient Cameras",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+   "authors": "Suren Jayasuriya, Orazio Gallo, Jinwei Gu et al.",
+   "url": "https://doi.org/10.1109/cvprw.2017.47",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Unified, Cross-Platform, Open-Source Library Package for High-Performance Computing",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+   "authors": "Stephen T. Kozacik, USDOE Office of Science and Technology (ST)",
+   "url": "https://doi.org/10.2172/1357907",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Scalable communication for high-order stencil computations using CUDA-aware MPI",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Parallel Computing",
+   "authors": "Johannes Pekkilä, Miikka S. Väisälä, M. J. Korpi et al.",
+   "url": "https://doi.org/10.1016/j.parco.2022.102904",
+   "cited_by": 29,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "In-Place-Folding of Non-Scalar Hyper-Planes of Multi-Dimensional Arrays",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "Implementation and Application of Functional Languages",
+   "authors": "Gijs van Cuyck, Sven‐Bodo Scholz",
+   "url": "https://doi.org/10.1145/3544885.3544893",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Improving developer productivity with C++ embedded domain specific languages",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2017,
+   "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+   "authors": "Stephen T. Kozacik, Evenie Chao, Aaron L. Paolini et al.",
+   "url": "https://doi.org/10.1117/12.2264800",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Methods and tools for rapid and efficient parallel implementation of computer vision algorithms on embedded multiprocessors",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "V. Schwambach",
+   "url": "https://doi.org/10.70675/ccdd97a5z553bz49a2zb5afza95e8bf19539",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Accelerating Halide on an FPGA by using CIRCT and Calyx as an intermediate step to go from a high-level and software-centric IRs down to RTL",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+   "authors": "Granell Escalfet, Sergi",
+   "url": "https://openalex.org/W7112904522",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "CustomHalide – A new plugin of clang for loop optimization",
    "function": "detailed-citation",
@@ -25,6 +269,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Memory specification in a data-flow synchronous language with statically sized arrays",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "theses.fr (ABES)",
+   "authors": "Baptiste Pauget",
+   "url": "https://doi.org/10.70675/3cc8873az8175z4865zb036z6e743af935a1",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Extending Halide to Improve Software Development for Imaging DSPs",
    "function": "detailed-citation",
    "split": "detailed",
@@ -36,6 +296,43 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Languages and Visualization Tools for Data-Centric End-User Programming of Interactive Visualization Designs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Jane Hoffswell",
+   "url": "https://openalex.org/W3108841293",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic Control Flow Generation for OpenVX Graphs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "Euromicro Conference on Digital System Design (DSD)",
+   "authors": "Merten Popp, Stef Van Son, Orlando Moreira",
+   "url": "https://doi.org/10.1109/dsd.2017.31",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic Memory-Efficient Scheduling of CNNs",
+   "function": "unclassified",
+   "split": null,
+   "year": 2019,
+   "venue": "Lecture notes in computer science",
+   "authors": "Luc Waeijen, Savvas Sioutas, Yifan He et al.",
+   "url": "https://doi.org/10.1007/978-3-030-27562-4_28",
+   "cited_by": 3,
+   "evidence": "title_only"
   }
  ]
 }

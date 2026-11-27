@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "stephenson:pldi:2000",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 309,
-  "works": 238,
+  "records_raw": 329,
+  "works": 258,
   "commit": 1,
-  "judged": 191,
+  "judged": 208,
   "gscholar": null
  },
  "citations": [
@@ -136,6 +136,19 @@
     "own-group"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Toward Dynamic Precision Scaling",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "IEEE Micro",
+   "authors": "Şerif Yeşil, İsmail Aktürk, Ulya R. Karpuzcu",
+   "url": "https://doi.org/10.1109/mm.2018.043191123",
+   "cited_by": 22,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Model-based input-adaptive vectorization",
@@ -447,6 +460,19 @@
    }
   },
   {
+   "title": "Value-Deviation-Bounded Serial Data Encoding for Energy-Efficient Approximate Communication",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Phillip Stanley‐Marbell, Martin Rinard",
+   "url": "https://openalex.org/W1496264826",
+   "cited_by": 10,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Code optimizations for narrow bitwidth architectures",
    "function": "positions",
    "split": "detailed",
@@ -511,6 +537,22 @@
     "date": "2026-10-12",
     "evidence": "Title/abstract: “automated, efficient and static bit-width optimization methodology”"
    }
+  },
+  {
+   "title": "Automating transformations from floating-point to fixed-point for implementing digital signal processing algorithms",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "Texas ScholarWorks (Texas Digital Library)",
+   "authors": "Brian L. Evans, Kyungtae Han",
+   "url": "https://openalex.org/W1731657864",
+   "cited_by": 16,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Enhanced Bitwidth-Aware Register Allocation",
@@ -845,6 +887,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Error-Efficient Computing Systems",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "now publishers, Inc. eBooks",
+   "authors": "Phillip Stanley‐Marbell, Martin Rinard",
+   "url": "https://doi.org/10.1561/9781680833591",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "4 Survey on Combinatorial Register Allocation and Instruction Scheduling",
    "function": "surveys",
    "split": "detailed",
@@ -881,6 +939,35 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "Adéquation Algorithme Architecture - Approches matérielles et logicielles pour les applications de communications numériques",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "HAL",
+   "authors": "Bertrand Le Gal",
+   "url": "https://openalex.org/W4392532273",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A polynomial time exact solution to the bit-aware register binding problem",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "ACM SIGPLAN International Conference on Compiler Construction (CC)",
+   "authors": "Michael Canesche, Ricardo Ferreira, José Augusto M. Nacif et al.",
+   "url": "https://doi.org/10.1145/3497776.3517773",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "ZeroSpy: Exploring Software Inefficiency with Redundant Zeros",
@@ -1027,6 +1114,19 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Automatic Determination of May/Must Set Usage in Data-Flow Analysis",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2008,
+   "venue": "IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM)",
+   "authors": "Andrew Stone, Michelle Mills Strout, Shweta Behere",
+   "url": "https://doi.org/10.1109/scam.2008.28",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Data-Flow Analysis for Interrupt-Driven Microcontroller Software",
@@ -1373,6 +1473,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Prevenção de Ataques em Sistemas Distribuídos via Análise de Intervalos",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "Simpósio Brasileiro de Cibersegurança (SBSeg)",
+   "authors": "Vitor Mendes Paisante, Luiz Felipe Zafra Saggioro, Raphael Ernani Rodrigues et al.",
+   "url": "https://doi.org/10.5753/sbseg.2014.20132",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Efficient static checker for tainted variable attacks",
    "function": "exemplifies",
    "split": "passing",
@@ -1495,6 +1611,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Static Analysis for Efficient Affine Arithmetic on GPUs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2008,
+   "venue": "UWSpace (University of Waterloo)",
+   "authors": "Bryan Chan",
+   "url": "https://openalex.org/W1121207097",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A Software Tool for Designing Fixed-Point Implementations of Computational Data Paths",
@@ -1711,6 +1840,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Fast CAD for FPGAs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Marcel Gort",
+   "url": "https://openalex.org/W2752510804",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Data representation optimisation for reconfigurable hardware design",
    "function": "detailed-citation",
    "split": "detailed",
@@ -1725,6 +1870,37 @@
     "supports-claim"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Precision analysis for hardware acceleration of numerical algorithms",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2011,
+   "authors": "David Boland",
+   "url": "https://doi.org/10.25560/9169",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Sistema de visión bio-inspirado multi-modal. Arquitectura de procesamiento de movimiento y visión estéreo de altas prestaciones",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "Institutional Repository of the University of Granada (University of Granada)",
+   "authors": "Javier Díaz",
+   "url": "https://openalex.org/W1951132562",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Efficient optimization of memory accesses in parallel programs",
@@ -2021,6 +2197,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Synthesis of signal processing algorithms with constraints on minimal parallelism and memory space",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Sergey I. Salishev",
+   "url": "https://doi.org/10.48550/arxiv.2512.22676",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Pushing the Level of Abstraction of Digital System Design: A Survey on How to Program FPGAs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "ACM Computing Surveys",
+   "authors": "Emanuele Del Sozzo, Davide Conficconi, Alberto Zeni et al.",
+   "url": "https://doi.org/10.1145/3532989",
+   "cited_by": 84,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "ACED",
    "function": "passing-citation",
    "split": "passing",
@@ -2048,6 +2250,19 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Physical Design Methodologies for the More-than-Moore Era",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Wei-Ting Jonas Chan",
+   "url": "https://openalex.org/W2800797268",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Towards compilation of an imperative language for FPGAs",
@@ -2168,6 +2383,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Global productiveness propagation: a code optimization technique to speculatively prune useless narrow computations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Indu Bhagat, Enric Gibert, Jesús Sánchez et al.",
+   "url": "https://doi.org/10.1145/2345141.1967700",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "High-Level Synthesis for Nanoscale Integrated Circuits",
@@ -2310,6 +2538,18 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "High-level power optimisation for Digital Signal Processing in Recon gurable Logic",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2008,
+   "authors": "Clarke, Jonathan A",
+   "url": "https://doi.org/10.25560/4407",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "High-Performance 3D Image Processing Architectures for Image-Guided Interventions",
@@ -2957,6 +3197,32 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "Minicursos do XIII Simpósio Brasileiro de Segurança da Informação e de Sistemas Computacionais",
+   "function": "unknown",
+   "split": null,
+   "year": 2013,
+   "authors": "Souto Eduardo, Eduardo Feitosa, Rossana Andrade",
+   "url": "https://doi.org/10.5753/sbc.9275.1",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Segurança de Software em Sistemas Embarcados: Ataques & Defesas",
+   "function": "unknown",
+   "split": null,
+   "year": 2013,
+   "authors": "Bruno Silva, Diógenes Silva Jr., Evaldo Souza et al.",
+   "url": "https://doi.org/10.5753/sbc.9275.1.3",
+   "cited_by": 4,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Acceleration of a bioinformatics application using high-level synthesis. (Accélération d'une application en bioinformatique utilisant une synthèse de haut niveau)",
    "function": "unknown",
    "split": null,
@@ -3255,6 +3521,17 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "FPGA-Specific Compilers",
+   "function": "unclassified",
+   "split": null,
+   "year": 2024,
+   "venue": "Springer eBooks",
+   "authors": "Nitish Srivastava, Gai Liu, Yi‐Hsiang Lai et al.",
+   "url": "https://doi.org/10.1007/978-981-97-9314-3_25",
+   "cited_by": 1,
+   "evidence": "title_only"
   },
   {
    "title": "Unlocking Design Reuse with Hardware Compiler Frameworks",

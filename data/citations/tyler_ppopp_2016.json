@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "tyler:ppopp:2016",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 52,
-  "works": 45,
+  "records_raw": 57,
+  "works": 50,
   "commit": 4,
-  "judged": 42,
+  "judged": 47,
   "gscholar": null
  },
  "citations": [
@@ -180,6 +180,19 @@
    "commit": true
   },
   {
+   "title": "Mapple: A Domain-Specific Language for Mapping Distributed Programs",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Anjiang Wei, Rohan Yadav, Hang Song et al.",
+   "url": "https://doi.org/10.48550/arxiv.2507.17087",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Triton-distributed: Programming Overlapping Kernels on Distributed AI Systems with the Triton Compiler",
    "function": "positions",
    "split": "detailed",
@@ -259,6 +272,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Exploiting BSP Abstractions for Compiler Based Optimizations of GPU Applications on multi-GPU Systems",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "heiDOK (Heidelberg University)",
+   "authors": "Alexander Matz",
+   "url": "https://doi.org/10.11588/heidok.00029213",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Making Halide Efficient for Multicore Systems",
    "function": "extends",
    "split": "detailed",
@@ -333,6 +362,19 @@
    "flags": [
     "polluted-contexts"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic Distributed Parallelization and Communication Optimization for Stencils on Structured Grids",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "HAL",
+   "authors": "Anna Mittermair, Martin Schulz, Julien Remy et al.",
+   "url": "https://openalex.org/W7117209390",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -458,6 +500,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Transparent distributed programming in Julia",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Valentin Churavy",
+   "url": "https://www.semanticscholar.org/paper/fb3dbd7ec69739ad2c6d7cf02eabd8d6ff190abb",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "abstract+contexts"
   },
   {
    "title": "Extending Halide to Improve Software Development for Imaging DSPs",
@@ -604,6 +659,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "arXiv",
+   "authors": "Lianmin Zheng, Zhuohan Li, Zhang, Hao et al.",
+   "url": "https://doi.org/10.48550/arxiv.2201.12023",
+   "cited_by": 678,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Large-scale performance of a DSL-based multi-block structured-mesh application for Direct Numerical Simulation",

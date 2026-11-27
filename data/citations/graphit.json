@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "graphit",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 220,
-  "works": 202,
-  "commit": 16,
-  "judged": 184,
+  "records_raw": 274,
+  "works": 256,
+  "commit": 17,
+  "judged": 235,
   "gscholar": null
  },
  "citations": [
@@ -123,6 +123,26 @@
    "evidence": "abstract"
   },
   {
+   "title": "Compiler-Hardware Co-Design for Pervasive Parallelization",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Victor A. Ying",
+   "url": "https://openalex.org/W7123382722",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "baseline",
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "GraphIt to CUDA Compiler in 2021 LOC: A Case for High-Performance DSL Implementation via Staging with BuilDSL",
    "function": "uses-tool",
    "split": "detailed",
@@ -192,6 +212,22 @@
     "positions"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Tiga: Compiling Graph Message Passing at Scale",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Michael Chi",
+   "url": "https://doi.org/10.48550/arxiv.2609.24802",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Decoupling Data Layouts from Bounding Volume Hierarchies",
@@ -335,6 +371,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Ligra-DAT: Graph-Level Edge-Density-Based Threshold Selection for Ligra",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Tsinghua Science & Technology",
+   "authors": "Zhaoqin Ban, Xinxin Yang, Dapeng Fu et al.",
+   "url": "https://doi.org/10.26599/tst.2026.9010089",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Persistency-Driven Parallelism: Boosting Large Chunk-Based Graph Processing via Asynchronous NUMA Staging",
    "function": "baseline",
    "split": "detailed",
@@ -367,6 +419,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Parallel graph algorithms on a RISCV-based many-core",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "International Journal of Reconfigurable and Embedded Systems (IJRES)",
+   "authors": "A. S. Ravikumar, A. Vinay, Krishna K. Nagar et al.",
+   "url": "https://doi.org/10.11591/ijres.v14.i3.pp843-854",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Single Machine System for Querying Big Graphs with PRAM",
    "function": "baseline",
    "split": "detailed",
@@ -377,6 +445,35 @@
    "cited_by": 1,
    "centrality": "engaged",
    "confidence": "medium",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Accelerating SpMV for Scale-Free Graphs with Optimized Bins",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "IEEE International Conference on Data Engineering (ICDE)",
+   "authors": "YuAng Chen, Jeffrey Xu Yu",
+   "url": "https://doi.org/10.1109/icde60146.2024.00190",
+   "cited_by": 5,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "CGgraph: An Ultra-Fast Graph Processing System on Modern Commodity CPU-GPU Co-processor",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Proceedings of the VLDB Endowment",
+   "authors": "Pengjie Cui, Haotian Liu, Bo Tang et al.",
+   "url": "https://doi.org/10.14778/3648160.3648179",
+   "cited_by": 30,
+   "centrality": "engaged",
+   "confidence": "low",
    "evidence": "abstract"
   },
   {
@@ -535,6 +632,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Graptor: efficient pull and push style vectorized graph processing",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Hans Vandierendonck",
+   "url": "https://doi.org/10.1145/3392717.3392753",
+   "cited_by": 10,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Single machine graph analytics on massive datasets using Intel optane DC persistent memory",
    "function": "baseline",
    "split": "detailed",
@@ -549,6 +662,22 @@
     "positions"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "LAGraph: A Community Effort to Collect Graph Algorithms Built on Top of the GraphBLAS",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+   "authors": "Tim Mattson, Timothy A. Davis, Manoj Kumar et al.",
+   "url": "https://doi.org/10.1109/ipdpsw.2019.00053",
+   "cited_by": 61,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Single Machine Graph Analytics on Massive Datasets Using Intel ® Optane TM DC Persistent Memory",
@@ -567,6 +696,56 @@
    "evidence": "contexts"
   },
   {
+   "title": "Heterogeneous Memory Subsystem for Natural Graph Analytics",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "IEEE International Symposium on Workload Characterization",
+   "authors": "Abraham Addisie, Hiwot Tadese Kassa, Opeoluwa Matthews et al.",
+   "url": "https://doi.org/10.1109/iiswc.2018.8573480",
+   "cited_by": 32,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Algorithm Support for Graph Databases, Done Right",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Daan de Graaf, Robert Brijder, Soham Sundar Chakraborty et al.",
+   "url": "https://doi.org/10.48550/arxiv.2601.06705",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An Expression is Worth a Thousand Words: Graph Algorithms in the Language of Extended Tensor Algebra Notation",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Toluwanimi O. Odemuyiwa",
+   "url": "https://openalex.org/W7221493579",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Backend Code Generation for Graph DSLs Targeting Diverse Accelerator Platforms",
    "function": "positions",
    "split": "detailed",
@@ -579,6 +758,40 @@
    "confidence": "high",
    "secondary": [
     "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Multi-target Compiler Analyses, Optimization, and Code Generation Framework for Graph DSLs",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Ashwina Kumar, Naveen LS, Shriram Chandran et al.",
+   "url": "https://doi.org/10.1007/s10766-026-00832-8",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Performant combinatorial optimization algorithms through lattice linear predicates",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "authors": "David Ribeiro Alves",
+   "url": "https://doi.org/10.26153/tsw/64538",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "flags": [
+    "polluted-contexts"
    ],
    "evidence": "fulltext"
   },
@@ -599,6 +812,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Morphling: Fast, Fused, and Flexible GNN Training at Scale",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Anubhab, Rupesh Nasre",
+   "url": "https://doi.org/10.48550/arxiv.2512.01678",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "SRSparse: Generating Codes for High-Performance Sparse Matrix-Vector Semiring Computations",
    "function": "positions",
    "split": "detailed",
@@ -610,6 +839,38 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Kimbap: A Node-Property Map System for Distributed Graph Analytics",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Hochan Lee, Roshan Dathathri, Keshav K. Pingali",
+   "url": "https://doi.org/10.1145/3620665.3640421",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "The EDGE Language: Extended General Einsums for Graph Algorithms",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Toluwanimi O. Odemuyiwa, Porumbescu, Serban D., Nayak, Nandeeka et al.",
+   "url": "https://doi.org/10.48550/arxiv.2404.11591",
+   "cited_by": 16,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "StarPlat: A Versatile DSL for Graph Analytics",
@@ -751,6 +1012,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Synthesizing specialized sparse tensor accelerators for reconfigurable hardware using high-level functional abstractions",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "eScholarship@McGill (McGill)",
+   "authors": "Javed, Hamza",
+   "url": "https://doi.org/10.82308/12260",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Voyager: Input-Adaptive Algebraic Transformations for High-Performance Graph Neural Networks",
    "function": "supports-claim",
    "split": "detailed",
@@ -806,6 +1080,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "A common parallel framework for LLP combinatorial problems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "David Ribeiro Alves, Vijay K. Garg",
+   "url": "https://doi.org/10.48550/arxiv.2603.13147",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "DGS: A GPU-based Adaptive Graph Sampling Framework",
    "function": "exemplifies",
    "split": "passing",
@@ -817,6 +1104,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Exo-GPU: Safe, Imperative, User-schedulable Programming for Tensor Cores",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "David Zhao Akeley, Yuka Ikarashi, Jonathan Ragan‐Kelley",
+   "url": "https://doi.org/10.48550/arxiv.2609.16389",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "FaaSBoard: Efficient Graph Processing with a Disaggregated Architecture on Serverless Services",
@@ -896,6 +1196,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Physical Execution Plans for Model-Driven Engineering: Decoupling DSL Design from Runtime-Specific Representations",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS)",
+   "authors": "Francisco Martínez-Lasaca, Juan de Lara",
+   "url": "https://doi.org/10.1145/3822455.3838772",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Multi-level Compiler Backend for Accelerated Micro-kernels Targeting RISC-V ISA Extensions",
    "function": "exemplifies",
    "split": "passing",
@@ -909,6 +1225,18 @@
    "evidence": "abstract"
   },
   {
+   "title": "Acceleration of Parallel Graph Processing on FPGAs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "authors": "Chunyou Su",
+   "url": "https://doi.org/10.14711/thesis-hdl152306",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "An Efficient Memoization Engine for Concurrent Graph Query Processing",
    "function": "exemplifies",
    "split": "passing",
@@ -920,6 +1248,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "AutoSAGE: Input-Aware CUDA Scheduling for Sparse GNN Aggregation (SpMM/SDDMM) and CSR Attention",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Stankovic, Aleksandar",
+   "url": "https://doi.org/10.48550/arxiv.2511.17594",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "BerryBees: Breadth First Search by Bit-Tensor-Cores",
@@ -1024,6 +1365,22 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "BYO: A Unified Framework for Benchmarking Large-Scale Graph Containers",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Proceedings of the VLDB Endowment",
+   "authors": "Brian Wheatman, Xiaojun Dong, Zheqi Shen et al.",
+   "url": "https://doi.org/10.14778/3665844.3665859",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "uses-benchmark"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "FaaSGraph: Enabling Scalable, Efficient, and Cost-Effective Graph Processing with Serverless Computing",
@@ -1239,6 +1596,19 @@
    "commit": true
   },
   {
+   "title": "Performance study of the architecture-independent VGL framework for efficient implementation of graph algorithms",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Vyčislitelʹnye metody i programmirovanie",
+   "authors": "Dmitry I. Lichmanov, И.В. Афанасьев, Vadim Voevodin",
+   "url": "https://doi.org/10.26089/nummet.v24r433",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Rethinking Design Paradigm of Graph Processing System with a CXL-like Memory Semantic Fabric",
    "function": "exemplifies",
    "split": "passing",
@@ -1302,6 +1672,19 @@
    "authors": "Samuel Arch, Xiaowen Hu, David Zhao et al.",
    "url": "https://doi.org/10.1007/978-3-031-16767-6_5",
    "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Building blocks for high-performance languages",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Justin Szaday",
+   "url": "https://openalex.org/W7220802178",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -1502,6 +1885,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Fifer: Practical Acceleration of Irregular Applications on Reconfigurable Architectures",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+   "authors": "Quan Minh Nguyen, Daniel Sánchez",
+   "url": "https://doi.org/10.1145/3466752.3480048",
+   "cited_by": 78,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "GLIST: Towards In-Storage Graph Learning",
    "function": "exemplifies",
    "split": "passing",
@@ -1526,6 +1922,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Holistic Runtime Scheduling for the Distributed Computing Landscape",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "TUbilio (Technical University of Darmstadt)",
+   "authors": "Marcel Blöcher",
+   "url": "https://doi.org/10.26083/tuprints-00018576",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Intermediate Representations for Explicitly Parallel Programs",
@@ -1568,6 +1977,19 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Single-node partitioned-memory for huge graph analytics: cost and performance trade-offs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+   "authors": "Sayan Ghosh, Nathan R. Tallent, Marco Minutoli et al.",
+   "url": "https://doi.org/10.1145/3458817.3476156",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "SpZip: Architectural Support for Effective Data Compression In Irregular Applications",
@@ -1652,6 +2074,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "An Extensible Graph Query Language for Model-Based Information Retrieval in Intelligent Environments",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "PUB – Publications at Bielefeld University (Bielefeld University)",
+   "authors": "Norman Köster",
+   "url": "https://doi.org/10.4119/unibi/2948662",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "C-SAW: A Framework for Graph Sampling and Random Walk on GPUs",
    "function": "exemplifies",
    "split": "passing",
@@ -1720,6 +2155,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "GPOP: A Scalable Cache- and Memory-efficient Framework for Graph Processing over Parts",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "ACM Transactions on Parallel Computing",
+   "authors": "Kartik Lakhotia, Rajgopal Kannan, Sourav Pati et al.",
+   "url": "https://doi.org/10.1145/3380942",
+   "cited_by": 47,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "GraphABCD: Scaling Out Graph Analytics with Asynchronous Block Coordinate Descent",
    "function": "exemplifies",
    "split": "passing",
@@ -1744,6 +2192,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Intrepydd: performance, productivity, and portability for data science application kernels",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward!)",
+   "authors": "Tong Zhou, Jun Shirako, Anirudh Jain et al.",
+   "url": "https://doi.org/10.1145/3426428.3426915",
+   "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Parallelizing pruned landmark labeling: dealing with dependencies in graph algorithms",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Ruoming Jin, Zhen Peng, Wendell Wu et al.",
+   "url": "https://doi.org/10.1145/3392717.3392745",
+   "cited_by": 15,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Practical parallel hypergraph algorithms",
@@ -1856,6 +2330,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Streaming Temporal Graphs: Subgraph Matching",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "venue": "IEEE International Conference on Big Data (BigData)",
+   "authors": "Eric L. Goodman, Dirk C. Grunwald",
+   "url": "https://doi.org/10.1109/bigdata47090.2019.9006429",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code",
    "function": "exemplifies",
    "split": "passing",
@@ -1888,6 +2375,67 @@
    ],
    "evidence": "abstract",
    "commit": true
+  },
+  {
+   "title": "High-Performance Graph Processing",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "heiDOK (Heidelberg University)",
+   "authors": "Matthias Hauck",
+   "url": "https://doi.org/10.11588/heidok.00038128",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Runtime and compilation optimizations for GPU-based subgraph matching",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Iowa Research Online (The University of Iowa)",
+   "authors": "Yihua Wei",
+   "url": "https://doi.org/10.25820/etd.008420",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Scheduling Language Chronology: Past, Present, and Future",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Mary W. Hall, Cosmin E. Oancea, Anne Cathrine Elster et al.",
+   "url": "https://doi.org/10.1145/3743135",
+   "cited_by": 10,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Portable Parallel Algorithms and Frameworks for Exascale Graph Analytics",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+   "authors": "Julian Shun, Massachusetts Inst. of Tech., Cambridge, MA (United States)",
+   "url": "https://doi.org/10.2172/3012453",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Hypergraph-based locality-enhancing methods for graph operations in Big Data applications",
@@ -1961,6 +2509,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "A Compilation Model for Divergent Parallel Workloads",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Alexander J Root, Christophe Gyurgyik, Devanshu Ladsaria et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.22183",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Survey of Large-Scale Out-of-Core Graph Processing",
    "function": "passing-citation",
    "split": "passing",
@@ -2000,6 +2564,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Prophecy Variables, Program Analysis, Binding Times, and Staged Compilation in the BuildIt System",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "authors": "Ajay Brahmakshatriya, Saman P. Amarasinghe, M. Rinard",
+   "url": "https://www.semanticscholar.org/paper/93187bd016ef59899f843ebc9f48cea6d5cc68db",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
    "title": "Cache-optimized BFS on multi-core CPUs",
    "function": "passing-citation",
    "split": "passing",
@@ -2034,6 +2614,19 @@
    "authors": "Jesun Firoz, Hyungro Lee, Luanzheng Guo et al.",
    "url": "https://doi.org/10.1145/3733723.3733735",
    "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Generating Dynamic Graph Algorithms for Multiple Backends for a Graph DSL",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Nibedita Behera, Ashwina Kumar, Atharva Chougule et al.",
+   "url": "https://doi.org/10.48550/arxiv.2507.11094",
+   "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -2115,6 +2708,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "How Can Large Language Models Help Humans in Design and Manufacturing? Part 1: Elements of the LLM-Enabled Computational Design and Manufacturing Pipeline",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Harvard Data Science Review",
+   "authors": "Liane Makatura, Michael Foshey, Bohan Wang et al.",
+   "url": "https://doi.org/10.1162/99608f92.cc80fe30",
+   "cited_by": 137,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "IncBoost: Scaling Incremental Graph Processing for Edge Deletions and Weight Updates",
    "function": "passing-citation",
    "split": "passing",
@@ -2123,6 +2729,32 @@
    "authors": "Xizhe Yin, Zhijia Zhao, Rajiv Gupta",
    "url": "https://doi.org/10.1145/3698038.3698524",
    "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Tools and Algorithms for the Construction and Analysis of Systems: 30th International Conference, TACAS 2024, Held as Part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2024, Luxembourg City, Luxembourg, April 6–11, 2024, Proceedings, Part III",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Lecture notes in computer science",
+   "authors": "Bernd Finkbeiner, Laura Kovács",
+   "url": "https://doi.org/10.1007/978-3-031-57256-2",
+   "cited_by": 14,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "WiseGraph: Optimizing GNN with Joint Workload Partition of Graph and Operations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "European Conference on Computer Systems",
+   "authors": "Kezhao Huang, Jidong Zhai, Liyan Zheng et al.",
+   "url": "https://doi.org/10.1145/3627703.3650063",
+   "cited_by": 20,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -2164,6 +2796,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Domain-Specific Architectures for Improving Memory Bandwidth Usage in Sparse Data Applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Institutional Repositories DataBase (IRDB)",
+   "authors": "思已 胡",
+   "url": "https://doi.org/10.15083/0002012362",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Efficient Multi-GPU Graph Processing with Remote Work Stealing",
@@ -2218,6 +2863,19 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "Phloem: Automatic Acceleration of Irregular Applications with Fine-Grain Pipeline Parallelism",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+   "authors": "Quan Minh Nguyen, Daniel Sánchez",
+   "url": "https://doi.org/10.1109/hpca56546.2023.10071026",
+   "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "uGrapher: High-Performance Graph Operator Computation via Unified Abstraction for Graph Neural Networks",
    "function": "passing-citation",
    "split": "passing",
@@ -2268,6 +2926,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "High-Performance Big Data Computing",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "The MIT Press eBooks",
+   "authors": "Dhabaleswar K. DK Panda, Xiaoyi Lü, Dipti Shankar",
+   "url": "https://doi.org/10.7551/mitpress/11451.001.0001",
+   "cited_by": 15,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimizing Emerging Graph Applications Using Hardware-Software Co-Design",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Nishil Talati",
+   "url": "https://doi.org/10.7302/6832",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "SpDISTAL: Compiling Distributed Sparse Tensor Computations",
@@ -2486,6 +3170,19 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "Deep learning for compilers",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "ERA",
+   "authors": "Christopher Edward Cummins",
+   "url": "https://doi.org/10.7488/era/168",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Exploiting Gustavson’s Algorithm to Accelerate Sparse Matrix Multiplication Extended Abstract",
    "function": "passing-citation",
    "split": "passing",
@@ -2591,6 +3288,19 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "HeteroMap: A Runtime Performance Predictor for Efficient Processing of Graph Analytics on Heterogeneous Multi-Accelerators",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+   "authors": "Masab Ahmad, Halit Dogan, Christopher J. Michael et al.",
+   "url": "https://doi.org/10.1109/ispass.2019.00039",
+   "cited_by": 21,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Seq: a high-performance language for bioinformatics",
    "function": "passing-citation",
    "split": "passing",
@@ -2621,6 +3331,32 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Timeloop: A Systematic Approach to DNN Accelerator Evaluation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+   "authors": "Angshuman Parashar, Priyanka Raina, Yakun Sophia Shao et al.",
+   "url": "https://doi.org/10.1109/ispass.2019.00042",
+   "cited_by": 842,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "VEBO: a vertex- and edge-balanced ordering heuristic to load balance parallel graph processing",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+   "authors": "Jiawen Sun, Hans Vandierendonck, Dimitrios S. Nikolopoulos",
+   "url": "https://doi.org/10.1145/3293883.3295703",
+   "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Preliminary Study of Compiler Transformations for Graph Applications on the Emu System",
    "function": "passing-citation",
    "split": "passing",
@@ -2631,6 +3367,20 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
+  },
+  {
+   "title": "A Star-Based Graph Partitioning Approach to Support “Master–Slave” Parallel Computing",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "Applied Sciences",
+   "authors": "Guosun Zeng, Tengteng Cheng, Yufei Jin",
+   "url": "https://doi.org/10.3390/app162110457",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
   },
   {
    "title": "Accl++ : A high-productivity programming language for performance and code portability on heterogeneous systems",
@@ -2702,6 +3452,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "GPOP: a cache and memory-efficient framework for graph processing over partitions",
+   "function": "unknown",
+   "split": null,
+   "year": 2019,
+   "venue": "ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+   "authors": "Kartik Lakhotia, Rajgopal Kannan, Sourav Pati et al.",
+   "url": "https://doi.org/10.1145/3293883.3299108",
+   "cited_by": 15,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Sage: Parallel Semi-Asymmetric Graph Algorithms for NVRAMs",
    "function": "unknown",
    "split": null,
@@ -2739,6 +3503,17 @@
    "venue": "Future Generation Computer Systems",
    "authors": "Yiming Sun, Jiaqi Zhang, Jie Zhang et al.",
    "url": "https://doi.org/10.1016/j.future.2026.108575",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Enable cross-iteration parallelism for PIM-based graph processing with vertex-level synchronization",
+   "function": "unclassified",
+   "split": null,
+   "year": 2025,
+   "venue": "Parallel Computing",
+   "authors": "Xiang Zhao, Haitao Du, Yi Kang",
+   "url": "https://doi.org/10.1016/j.parco.2025.103149",
    "cited_by": 0,
    "evidence": "title_only"
   },

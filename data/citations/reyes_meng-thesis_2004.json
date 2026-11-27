@@ -1,0 +1,55 @@
+{
+ "schema": 1,
+ "key": "reyes:meng-thesis:2004",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 3,
+  "works": 3,
+  "commit": 0,
+  "judged": 1,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Visualizing Large-Scale Streaming Applications",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "Information Visualization",
+   "authors": "Wim De Pauw, Henrique C. M. Andrade",
+   "url": "https://doi.org/10.1057/ivs.2009.5",
+   "cited_by": 17,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Design And Implementation Of An Interactive Interface For Power Plant Simulation.",
+   "function": "unknown",
+   "split": null,
+   "year": 2009,
+   "authors": "Zygmunt L. Szpak, Jules‐Raymond Tapamo, Joe Roy-Aikins",
+   "url": "https://openalex.org/W2395652103",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Tools and strategies for debugging distributed stream processing applications",
+   "function": "unknown",
+   "split": null,
+   "year": 2009,
+   "venue": "Software Practice and Experience",
+   "authors": "Buğra Gedik, Henrique C. M. Andrade, Andy Frenkiel et al.",
+   "url": "https://doi.org/10.1002/spe.941",
+   "cited_by": 13,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  }
+ ]
+}

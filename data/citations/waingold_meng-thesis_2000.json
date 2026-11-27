@@ -1,0 +1,28 @@
+{
+ "schema": 1,
+ "key": "waingold:meng-thesis:2000",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 1,
+  "works": 1,
+  "commit": 0,
+  "judged": 1,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Parallel bubble sort using stream programming paradigm",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "International Conference on Application of Information and Communication Technologies",
+   "authors": "Rahim Rashidy, Saeid Yousefpour, Mohamad Koohi",
+   "url": "https://doi.org/10.1109/icaict.2011.6111024",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  }
+ ]
+}

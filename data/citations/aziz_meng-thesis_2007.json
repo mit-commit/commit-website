@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "aziz:meng-thesis:2007",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 1,
-  "works": 1,
-  "commit": 1,
-  "judged": 1,
+  "records_raw": 4,
+  "works": 4,
+  "commit": 2,
+  "judged": 4,
   "gscholar": null
  },
  "citations": [
@@ -26,6 +26,49 @@
    ],
    "evidence": "contexts",
    "commit": true
+  },
+  {
+   "title": "Language and compiler support for stream programs",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Saman P. Amarasinghe, William Thies",
+   "url": "https://openalex.org/W2321248633",
+   "cited_by": 107,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "A hybrid static/dynamic approach to scheduling stream programs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Ceryen Tan",
+   "url": "https://openalex.org/W1527499625",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Streaming Computation Framework for the Cell Processor",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2007,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Xin David Zhang",
+   "url": "https://openalex.org/W2146172931",
+   "cited_by": 13,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   }
  ]
 }

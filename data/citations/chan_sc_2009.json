@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "chan:sc:2009",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 46,
-  "works": 32,
+  "records_raw": 48,
+  "works": 34,
   "commit": 3,
-  "judged": 25,
+  "judged": 27,
   "gscholar": null
  },
  "citations": [
@@ -190,6 +190,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "Automatic Tuning and Software Modularization Techniques for Optimized Large Scale Data Analytics",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "authors": "Miyuru Dayarathna",
+   "url": "https://openalex.org/W2512578715",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "A Fully Empirical Autotuned Dense QR Factorization for Multicore Architectures",
    "function": "exemplifies",
    "split": "passing",
@@ -243,6 +255,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "GPU Array Access Auto-Tuning",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "TUbilio (Technical University of Darmstadt)",
+   "authors": "Weber, Nicolas",
+   "url": "https://doi.org/10.26083/tuprints-00006507",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Surrogate-Assisted Tuning for Computer Experiments with Qualitative and Quantitative Parameters",

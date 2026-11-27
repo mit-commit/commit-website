@@ -1,0 +1,348 @@
+{
+ "schema": 1,
+ "key": "waingold:lcs-tr:1997",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 24,
+  "works": 24,
+  "commit": 2,
+  "judged": 16,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Language and Compiler Design for Streaming Applications",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Saman P. Amarasinghe, Michael I. Gordon, Michal Karczmarek et al.",
+   "url": "https://doi.org/10.1007/s10766-005-3590-6",
+   "cited_by": 61,
+   "centrality": "core",
+   "confidence": "high",
+   "flags": [
+    "lineage",
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Constrained and phased scheduling of synchronous data flow graphs for StreamIt language",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Michal Karczmarek",
+   "url": "https://openalex.org/W2201804245",
+   "cited_by": 24,
+   "centrality": "core",
+   "confidence": "low",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Short range wireless connectivity for next generation architectures",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2001,
+   "venue": "ScholarWorks@UMassAmherst (University of Massachusetts Amherst)",
+   "authors": "Maninder Singh, S Thampuran, Payal Jain et al.",
+   "url": "https://openalex.org/W1875586540",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Architect-R: uma ferramenta para o desenvolvimento de robôs móveis configuráveis",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+   "authors": "Richard A. Gonçalves",
+   "url": "https://doi.org/10.11606/d.55.2018.tde-03062015-142611",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Improving parallelism through communication, partitioning and load balancing optimizations",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2016,
+   "venue": "Trinity's Access to Research Output (TARA) (Trinity College Dublin)",
+   "authors": "Servesh Muralidharan",
+   "url": "https://openalex.org/W2891694595",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Dynamic coarse grained reconfigurable architectures.",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2010,
+   "venue": "OPUS (Augsburg University)",
+   "authors": "Basher Shehan",
+   "url": "https://openalex.org/W2402434824",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "High-Performance Crossbar Designs for Network-on-Chips (NoCs)",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2010,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Yixuan Zhang",
+   "url": "https://openalex.org/W2601602564",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "CRD: um co-processador reconfiguravel dinamicamente para a melhoria de desempenho",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2004,
+   "authors": "Felipe Joffre Romano Renon",
+   "url": "https://doi.org/10.47749/t/unicamp.2004.328168",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Not available",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2002,
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "authors": "Richard A. Gonçalves",
+   "url": "https://openalex.org/W7120464834",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Reconfigurabilidade dinâmica e remota de FPGAs.",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2002,
+   "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+   "authors": "Alexandre Alves de Lima Ribeiro",
+   "url": "https://doi.org/10.11606/d.55.2002.tde-11092002-041043",
+   "cited_by": 14,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Application d'un langage de programmation de type flot de données à la synthèse haut-niveau de système de vision en temps-réel sur matériel reconfigurable",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "theses.fr (ABES)",
+   "authors": "Sameer Ahmed",
+   "url": "https://doi.org/10.70675/273f6a36z5d8cz4585zb0eezc2baf15ef782",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Analysis of Field Programmable Gate Array-Based Kalman Filter Architectures",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2010,
+   "venue": "Digital Commons - USU (Utah State University)",
+   "authors": "Arvind Sudarsanam",
+   "url": "https://doi.org/10.26076/a468-1263",
+   "cited_by": 7,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Architectures flot de données dédiées au traitement d'images par morphologie mathématique",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "HAL",
+   "authors": "Christophe Clienti",
+   "url": "https://openalex.org/W160595119",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Orchestrating stream graphs using model checking",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Avinash Malik, David Gregg",
+   "url": "https://doi.org/10.1145/2512435",
+   "cited_by": 17,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "CHALLENGING THE COMPUTATIONAL METAPHOR: IMPLICATIONS FOR HOW WE THINK",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1999,
+   "venue": "Cybernetics & Systems",
+   "authors": "Lynn Andrea Stein",
+   "url": "https://doi.org/10.1080/019697299125073",
+   "cited_by": 82,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Applications Performance on Reconfigurable Computers by",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1997,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Jang Don Kim, A Ccepted, Arthur Clarke Smith et al.",
+   "url": "https://openalex.org/W2241890002",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An Infrastructure for Privacy-Enabled Sharing of Context Data",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "Arrow@dit (Dublin Institute of Technology)",
+   "authors": "Gearoid Hynes",
+   "url": "https://doi.org/10.13025/15893",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Harmony: an execution model for heterogeneous systems",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "SMARTech Repository (Georgia Institute of Technology)",
+   "authors": "Sudhakar Yalamanchili, Gregory Diamos",
+   "url": "https://openalex.org/W2101882136",
+   "cited_by": 2,
+   "evidence": "abstract"
+  },
+  {
+   "title": "ChipCFlow - Partição e protocolo de comunicação no grafo a fluxo de dados dinâmico",
+   "function": "unknown",
+   "split": null,
+   "year": 2010,
+   "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+   "authors": "Lucas Sanches",
+   "url": "https://doi.org/10.11606/d.55.2010.tde-22062010-141534",
+   "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "StreamIt: A Language for Streaming Applications",
+   "function": "unknown",
+   "split": null,
+   "year": 2002,
+   "venue": "Lecture notes in computer science",
+   "authors": "William Thies, Michal Karczmarek, Saman P. Amarasinghe",
+   "url": "https://doi.org/10.1007/3-540-45937-5_14",
+   "cited_by": 1170,
+   "flags": [
+    "own-group",
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "The RAW benchmark suite: computation structures for general purpose computing",
+   "function": "unknown",
+   "split": null,
+   "year": 2002,
+   "venue": "IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM)",
+   "authors": "Jonathan William Babb, Matthew I. Frank, V. Lee et al.",
+   "url": "https://doi.org/10.1109/fpga.1997.624613",
+   "cited_by": 59,
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "MorphoSys: An Integrated Re-configurable Architecture",
+   "function": "unknown",
+   "split": null,
+   "year": 2000,
+   "authors": "Hartej Singh, Ming-Hau Lee, Guangming Lu et al.",
+   "url": "https://openalex.org/W73093023",
+   "cited_by": 43,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "An Execution Model and Runtime for Heterogeneous Many Core Systems",
+   "function": "unclassified",
+   "split": null,
+   "year": 2011,
+   "authors": "Gregory Diamos",
+   "url": "https://openalex.org/W2433053226",
+   "cited_by": 3,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Space-efficient mapping of 2D-DCT onto dynamically configurable coarse-grained architectures",
+   "function": "unclassified",
+   "split": null,
+   "year": 1998,
+   "venue": "Lecture notes in computer science",
+   "authors": "Andreas Dandalis, Viktor K. Prasanna",
+   "url": "https://doi.org/10.1007/bfb0055283",
+   "cited_by": 2,
+   "evidence": "title_only"
+  }
+ ]
+}

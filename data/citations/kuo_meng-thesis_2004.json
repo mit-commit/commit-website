@@ -1,16 +1,64 @@
 {
  "schema": 1,
  "key": "kuo:meng-thesis:2004",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 1,
-  "works": 1,
+  "records_raw": 5,
+  "works": 4,
   "commit": 0,
-  "judged": 1,
+  "judged": 4,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Programming-Model Centric Debugging for Multicore Embedded Systems",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "theses.fr (ABES)",
+   "authors": "Kevin Pouget",
+   "url": "https://doi.org/10.70675/e209710ezd774z4d83z9a20zaf74fa4ab706",
+   "cited_by": 8,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Interactive Debugging of Dynamic Dataflow Embedded Applications",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+   "authors": "Kevin Pouget, Patricia López Cueva, Miguel Santana et al.",
+   "url": "https://doi.org/10.1109/ipdpsw.2013.23",
+   "cited_by": 10,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic testing of StreamBits",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "Hogskolan Ihalmstad (Halmstad University)",
+   "authors": "Erik Agrell, Tim Rosenkrantz",
+   "url": "https://openalex.org/W276757679",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "Debugging for reactive programming",
    "function": "detailed-citation",

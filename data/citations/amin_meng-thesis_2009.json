@@ -1,0 +1,67 @@
+{
+ "schema": 1,
+ "key": "amin:meng-thesis:2009",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 5,
+  "works": 4,
+  "commit": 0,
+  "judged": 4,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Print-Aware Synthesis and Physical Design Methodologies for 3D-Printed Microfluidic Biochips",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Yushen Zhang, Tsun‐Ming Tseng, Ulf Schlichtmann",
+   "url": "https://doi.org/10.48550/arxiv.2608.16267",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Open-source interactive design platform for 3D-printed microfluidic devices",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Communications Engineering",
+   "authors": "Yushen Zhang, Mengchu Li, Tsun‐Ming Tseng et al.",
+   "url": "https://doi.org/10.1038/s44172-024-00217-0",
+   "cited_by": 31,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Vespa: Logic-Level Constraint-Based Validation for Continuous-Flow Microfluidic Devices",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+   "authors": "Yangruirui Zhou, Samuel M. D. Oliveira, Radhakrishna Sanka et al.",
+   "url": "https://doi.org/10.1109/tcad.2024.3435706",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Pin count-aware biochemical application compilation for mVLSI biochips",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "Symposium on Design, Test, Integration and Packaging of MEMS/MOEMS",
+   "authors": "Michael Lander Raagaard, Paul Pop",
+   "url": "https://doi.org/10.1109/dtip.2015.7161026",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  }
+ ]
+}

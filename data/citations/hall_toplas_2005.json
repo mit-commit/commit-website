@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "hall:toplas:2005",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 104,
-  "works": 76,
+  "records_raw": 107,
+  "works": 79,
   "commit": 0,
-  "judged": 63,
+  "judged": 66,
   "gscholar": null
  },
  "citations": [
@@ -44,6 +44,22 @@
    "confidence": "medium",
    "flags": [
     "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Techniques d'exploration architecturale de design a usage specifique pour l'acceleration de boucles",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2010,
+   "venue": "PolyPublie (École Polytechnique de Montréal)",
+   "authors": "Mame Maria Mbaye",
+   "url": "https://openalex.org/W142404023",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "passing-citation"
    ],
    "evidence": "fulltext"
   },
@@ -115,6 +131,22 @@
    "confidence": "high",
    "secondary": [
     "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Hybrid analysis of memory references and its application to automatic parallelization",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Silvius Rus",
+   "url": "https://openalex.org/W2287285612",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
    ],
    "evidence": "fulltext"
   },
@@ -513,6 +545,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "PMap: Unlocking the performance genes of HPC applications",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2011,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Jiahua He",
+   "url": "https://openalex.org/W102729988",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Transparent runtime parallelization of the R scripting language",

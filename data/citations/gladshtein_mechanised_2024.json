@@ -1,16 +1,35 @@
 {
  "schema": 1,
  "key": "gladshtein_mechanised_2024",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 13,
-  "works": 11,
+  "records_raw": 15,
+  "works": 13,
   "commit": 0,
-  "judged": 10,
+  "judged": 12,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Infinitary Relational Logic",
+   "function": "extends",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Vladimir Gladshtein, Qiyuan Zhao, Yuxi Ling et al.",
+   "url": "https://doi.org/10.1145/3839520",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "uses-tool"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "Lazy Proof Automation for Separation Logic",
    "function": "uses-tool",
@@ -41,6 +60,19 @@
    "secondary": [
     "supports-claim"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Operon: Incremental Construction of Ragged Data via Named Dimensions",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Moon, Sungbin, Park, Jiho, Suyoung Hwang et al.",
+   "url": "https://doi.org/10.48550/arxiv.2511.16080",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {

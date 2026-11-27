@@ -1,16 +1,45 @@
 {
  "schema": 1,
  "key": "won_continuous_2025",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 2,
-  "works": 2,
+  "records_raw": 4,
+  "works": 4,
   "commit": 1,
-  "judged": 1,
+  "judged": 3,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "An Expression is Worth a Thousand Words: Graph Algorithms in the Language of Extended Tensor Algebra Notation",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Toluwanimi O. Odemuyiwa",
+   "url": "https://openalex.org/W7221493579",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Infinitary Relational Logic",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Vladimir Gladshtein, Qiyuan Zhao, Yuxi Ling et al.",
+   "url": "https://doi.org/10.1145/3839520",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
   {
    "title": "Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums",
    "function": "passing-citation",

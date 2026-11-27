@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "gordon:asplos:2006",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 799,
-  "works": 631,
-  "commit": 9,
-  "judged": 504,
+  "records_raw": 857,
+  "works": 689,
+  "commit": 10,
+  "judged": 555,
   "gscholar": null
  },
  "citations": [
@@ -394,6 +394,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "ChordMap: Automated Mapping of Streaming Applications Onto CGRA",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+   "authors": "Zhaoying Li, Dhananjaya Wijerathne, Xianzhang Chen et al.",
+   "url": "https://doi.org/10.1109/tcad.2021.3058313",
+   "cited_by": 48,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Code-size-aware Scheduling of Synchronous Dataflow Graphs on Multicore Systems",
    "function": "uses-benchmark",
    "split": "detailed",
@@ -607,6 +620,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Improving the effective use of multithreaded architectures : implications on compilation, thread assignment, and timing analysis",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+   "authors": "Petar Radojković",
+   "url": "https://doi.org/10.5821/dissertation-2117-95266",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Methods and Tools for Mapping Process Networks onto Multi-Processor Systems-On-Chip",
    "function": "uses-benchmark",
    "split": "detailed",
@@ -810,6 +839,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Adaptive heterogeneous parallelism for semi-empirical lattice dynamics in computational materials science.",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Open Access Institutional Repository at Robert Gordon University (Robert Gordon University)",
+   "authors": "Michael T. Garba",
+   "url": "https://openalex.org/W1928141278",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A communication model and partitioning algorithm for streaming applications for an embedded MPSoC",
    "function": "baseline",
    "split": "detailed",
@@ -889,6 +934,22 @@
     "uses-benchmark"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Orchestration by approximation: mapping stream programs onto multicore architectures",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Sardar M. Farhad, Yousun Ko, Bernd Burgstaller et al.",
+   "url": "https://doi.org/10.1145/2248487.1950406",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Dynamic Fine-Grain Scheduling of Pipeline Parallelism",
@@ -1045,6 +1106,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Contributions pour l’utilisation des machines parallèles, réparties et hétérogènes à travers le prisme de la gestion des données partagées",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "HAL",
+   "authors": "Loïc Cudennec",
+   "url": "https://openalex.org/W4392491704",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Piper: Pipelining OpenMP Offloading Execution Through Compiler Optimization For Performance",
    "function": "positions",
    "split": "detailed",
@@ -1055,6 +1132,22 @@
    "cited_by": 0,
    "centrality": "engaged",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Performance and Power Optimization of Multi-kernel Applications on Multi-FPGA Platforms",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "PORTO@Iris",
+   "authors": "Junnan Shan",
+   "url": "https://openalex.org/W3180074189",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -1228,6 +1321,38 @@
    "cited_by": 30,
    "centrality": "engaged",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "System-Level Architectural Hardware Synthesis for Digital Signal Processing Sub-Systems",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "KTH Publication Database DiVA (KTH Royal Institute of Technology)",
+   "authors": "Shuo Li",
+   "url": "https://openalex.org/W2261000165",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Computation Model Based Automatic Design Space Exploration",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Kyoungwon Kim",
+   "url": "https://openalex.org/W2765484113",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "passing-citation"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -1985,6 +2110,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Modeling Multigrain Parallelism on Heterogeneous Multi-core Processors",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "Computer Science Technical Reports (Virginia Tech)",
+   "authors": "Filip Blagojević, Xizhou Feng, Kirk W. Cameron et al.",
+   "url": "https://openalex.org/W653742652",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Stream Scheduling: A Framework to Manage Bulk Operations in a Memory Hierarchy",
    "function": "positions",
    "split": "detailed",
@@ -2066,6 +2207,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Literature Survey",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "Springer eBooks",
+   "authors": "Haris Javaid, Sri Parameswaran",
+   "url": "https://doi.org/10.1007/978-3-319-01113-4_2",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Tutorial",
    "function": "surveys",
    "split": "detailed",
@@ -2145,6 +2302,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "ARSys: An Efficient and Cross-Platform Development, Deployment, and Runtime System for Mobile Augmented Reality",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "IEEE Transactions on Mobile Computing",
+   "authors": "Chengfei Lv, Chaoyue Niu, Yu Cai et al.",
+   "url": "https://doi.org/10.1109/tmc.2025.3586797",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Method for Software Pipelining on Graphical Processing Units",
    "function": "supports-claim",
    "split": "detailed",
@@ -2156,6 +2329,45 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "$$Bimpactos Da Programação Paralela Em Dispositivos Com Recursos Limitados",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "authors": "Renato Barreto Hoffmann Filho",
+   "url": "https://openalex.org/W7120462706",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Evaluating the graphics processing unit for digital audio synthesis and the development of HyperModels",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "UWE Research Repository (UWE Bristol)",
+   "authors": "Harri Renney",
+   "url": "https://openalex.org/W7204336446",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Abstracting Hardware Architectures for Agile Design of High-performance Applications on FPGA",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Jean Bruant",
+   "url": "https://doi.org/10.70675/c4b5ba99z67abz428ezafbaz6147f58304dd",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
   },
   {
    "title": "Techniques to Improve Energy Eﬃciency on Heterogeneous Multiprocessors under Timing and Quality Constraints",
@@ -2183,6 +2395,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Deployment of loop-intensive applications on heterogeneous multiprocessor architectures",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Philippe Glanon",
+   "url": "https://doi.org/10.70675/a54daae5z5f73z4642zb7b6z977855f1da8d",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "GlobalSearchRegression.jl: \\ Building bridges between Machine Learning and Econometrics in Fat-Data scenarios",
    "function": "supports-claim",
    "split": "detailed",
@@ -2194,6 +2419,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Modeling, Scheduling, Pipelining and Configuration of Synchronous Dataflow Graphs with Throughput Constraints",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Alexandre Honorat",
+   "url": "https://doi.org/10.70675/6f1bb95ez3f2fz485fz94f7z7b9e2575e76a",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "R-TOD: Real-Time Object Detector with Minimized End-to-End Delay for Autonomous Driving",
@@ -2236,6 +2477,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Acceleration of streaming applications on FPGAs: architectures, performance strategies and models",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "Ghent University Academic Bibliography (Ghent University)",
+   "authors": "Bruno da Silva",
+   "url": "https://openalex.org/W2973554569",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Exact and Heuristic Allocation of Multi-kernel Applications to Multi-FPGA Platforms",
@@ -2316,6 +2570,19 @@
    "commit": true
   },
   {
+   "title": "Parametrização do paralelismo de stream em Benchmarks da suíte Parsec",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Americanae (AECID Library)",
+   "authors": "Carlos Alberto Franco Maron",
+   "url": "https://openalex.org/W2944173050",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Hybrid MPI-OpenMP Strategy to Speedup the Compression of Big Next-Generation Sequencing Datasets",
    "function": "supports-claim",
    "split": "detailed",
@@ -2326,6 +2593,21 @@
    "cited_by": 19,
    "centrality": "peripheral",
    "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Associative transducers for the parallel processing of streaming data",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2017,
+   "authors": "Peter Ogden",
+   "url": "https://doi.org/10.25560/50190",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -2419,6 +2701,19 @@
    "cited_by": 4,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Reconfigurable Accelerators in the World of General-Purpose Computing",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "Amtliche Mitteilungen (Universitätsbibliothek Paderborn)",
+   "authors": "Tobias Kenter",
+   "url": "https://openalex.org/W2921186242",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "fulltext"
   },
   {
@@ -2623,6 +2918,19 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Communication inter-cœurs optimisée pour le parallélisme de flux.",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "HAL",
+   "authors": "Thomas Preud'Homme",
+   "url": "https://openalex.org/W831826939",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Compiler optimization for data-driven task parallelism on distributed memory systems",
@@ -3275,6 +3583,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "On-Chip-Netzwerk-Architekturen für eingebettete hierarchische Multiprozessoren",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "venue": "PUB – Publications at Bielefeld University (Bielefeld University)",
+   "authors": "Johannes Ax",
+   "url": "https://doi.org/10.4119/unibi/2937273",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "uses-tool"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Optimization in the parallelism extraction algorithm with spanning tree on a multi‐GPU environment",
    "function": "exemplifies",
    "split": "passing",
@@ -3356,6 +3680,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Scientific Workflows for Hadoop",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2018,
+   "venue": "edoc Publication server (Humboldt University of Berlin)",
+   "authors": "Marc Bux",
+   "url": "https://doi.org/10.18452/19321",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A Region-Based Approach to Pipeline Parallelism in Java Programs on Multicores",
@@ -3448,6 +3785,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "A systematic multi-layered approach for optimizing and parallelizing real-time media and audio applications",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2016,
+   "venue": "Institutional Repository University of Antwerp (University of Antwerp)",
+   "authors": "Siegfried Mercelis",
+   "url": "https://openalex.org/W7236509454",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "CSDFa",
    "function": "exemplifies",
    "split": "passing",
@@ -3459,6 +3812,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Entwurfsraumexploration eng gekoppelter paralleler Rechnerarchitekturen",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2016,
+   "venue": "PUB – Publications at Bielefeld University (Bielefeld University)",
+   "authors": "Gregor Sievers",
+   "url": "https://doi.org/10.13140/rg.2.2.17032.01282",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Increasing the Throughput of Pipe-and-Filter Architectures by Integrating the Task Farm Parallelization Pattern",
@@ -3557,6 +3923,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Processing Multimedia Workloads on Heterogeneous Multicore Architectures",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "NORA - Norwegian Open Research Archives",
+   "authors": "Håkon Kvale Stensland",
+   "url": "https://openalex.org/W2616786577",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Run Time Approximation of Non-blocking Service Rates for Streaming Systems",
    "function": "exemplifies",
    "split": "passing",
@@ -3571,6 +3950,22 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "An Extensible Parallel Computing Framework for Ultra-Fast X-Ray Imaging",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "Repository KITopen (Karlsruhe Institute of Technology)",
+   "authors": "Matthias Vogelgesang",
+   "url": "https://doi.org/10.5445/ir/1000048019",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Modeling memory system performance of NUMA multicore-multiprocessors",
@@ -3659,6 +4054,21 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Automatic Tuning and Software Modularization Techniques for Optimized Large Scale Data Analytics",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "authors": "Miyuru Dayarathna",
+   "url": "https://openalex.org/W2512578715",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "abstract"
   },
   {
    "title": "Autopipelining for Data Stream Processing",
@@ -3871,6 +4281,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Sponge: portable stream programming on graphics engines",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Amir H. Hormati, Mehrzad Samadi, Mark Woh et al.",
+   "url": "https://doi.org/10.1145/2248487.1950409",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Supporting a process-oriented model in MPI through fine-grain mapping",
@@ -4536,6 +4962,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Model Based Granularity Optimization for High-Performance Computing Systems in Astronomy",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "theses.fr (ABES)",
+   "authors": "Ophélie Renaud",
+   "url": "https://doi.org/10.70675/202a5ce2z626az4b57zb563za2e299a327b2",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Hierarchical Scheduling of an SDF/L Graph onto Multiple Processors",
    "function": "detailed-citation",
    "split": "detailed",
@@ -4549,6 +4988,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Dynamic resource allocation for distributed stream processing engines",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "RMIT Research Repository (RMIT University Library)",
+   "authors": "Y Wang",
+   "url": "https://doi.org/10.25439/rmt.27596772",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Modeling Nested for Loops with Explicit Parallelism in Synchronous DataFlow Graphs",
    "function": "detailed-citation",
    "split": "detailed",
@@ -4560,6 +5015,32 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Minimising communication costs impact when scheduling real-time applications on multi-core architectures",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "HAL",
+   "authors": "Benjamin Rouxel",
+   "url": "https://openalex.org/W2908326617",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Minimising shared resource contention when scheduling real-time applications on multi-core architectures",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "theses.fr (ABES)",
+   "authors": "Benjamin Rouxel",
+   "url": "https://doi.org/10.70675/714cfccfz5715z4059zacfbzdf7c8d93a2d1",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "S Stream Query Optimization",
@@ -4843,6 +5324,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Parallelize streaming applications on Microgrid CPUs: A novel application on a scalable, multicore architecture.",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Abhishek Kumar Mishra",
+   "url": "https://openalex.org/W2625866550",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Partial expansion of dataflow graphs for resource-aware scheduling of multicore signal processing systems",
    "function": "detailed-citation",
    "split": "detailed",
@@ -4854,6 +5351,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Exploiting non-traditional parallelization for application performance and energy efficiency in parallel systems",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Kamruzzaman",
+   "url": "https://openalex.org/W80529879",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Influences on Throughput and Latency in Stream Programs",
@@ -5059,6 +5569,26 @@
    "evidence": "contexts"
   },
   {
+   "title": "Language and compiler support for stream programs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Saman P. Amarasinghe, William Thies",
+   "url": "https://openalex.org/W2321248633",
+   "cited_by": 107,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
    "title": "Partitioning strategies: Spatiotemporal patterns of program decomposition",
    "function": "detailed-citation",
    "split": "detailed",
@@ -5226,6 +5756,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Practical Performance Guarantees for Pipelined DNN Inference",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "International Conference on Machine Learning",
+   "authors": "Aaron F. Archer, Matthew Fahrbach, Liu, Kuikui et al.",
+   "url": "https://doi.org/10.48550/arxiv.2311.03703",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Scaling Deep Learning Computation over the Inter-Core Connected Intelligence Processor with T10",
    "function": "passing-citation",
    "split": "passing",
@@ -5263,6 +5806,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Secure distributed workflows for biomedical data analytics",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "theses.fr (ABES)",
+   "authors": "Wilmer Garzón",
+   "url": "https://doi.org/10.70675/a7ba9522za51cz429fzbc77zd3a33d4772e2",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A domain-extensible compiler with controllable automation of optimisations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "arXiv",
+   "authors": "Thomas Kœhler",
+   "url": "https://doi.org/10.5525/gla.thesis.83323",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A Pipeline Pattern Detection Technique in Polly",
@@ -5541,6 +6110,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Efficient Execution of Linear Pipelines",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "Repository for Publications and Research Data (ETH Zurich)",
+   "authors": "Aristeidis Mastoras",
+   "url": "https://doi.org/10.3929/ethz-b-000376047",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Eine Compiler-Infrastruktur für eingebettete Multicore-SoCs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "RWTH Publications (RWTH Aachen)",
+   "authors": "Weihua, Sheng",
+   "url": "https://doi.org/10.18154/rwth-2019-11475",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Refactoring for introducing and tuning parallelism for heterogeneous multicore machines in Erlang",
    "function": "passing-citation",
    "split": "passing",
@@ -5552,6 +6147,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "A Fine-grain Parallel Execution Model for Homogeneous/Heterogeneous Many-core Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Tongsheng Geng",
+   "url": "https://openalex.org/W2933178321",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "A survey of state management in big data processing systems",
@@ -5629,6 +6237,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Parallélisation de la ligne de partage des eaux dans le cadre des graphes à arêtes valuées sur architecture multi-cœurs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "theses.fr (ABES)",
+   "authors": "Yosra Braham",
+   "url": "https://doi.org/10.70675/471467e5z6ec2z4aabz98bczbed01d0f0092",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
   },
   {
    "title": "Recent Advancements in Event Processing",
@@ -5733,6 +6354,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Modelo de conciencia situacional para el análisis de datos en redes móviles 5G: arquitectura selfNET",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "authors": "Lorena Isabel Barona López",
+   "url": "https://openalex.org/W2768363131",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Synchronization and Coordination in Heterogeneous Processors",
    "function": "passing-citation",
    "split": "passing",
@@ -5785,6 +6419,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Resource and Data Management in Accelerator-Rich Architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Muhuan Huang",
+   "url": "https://openalex.org/W2904857996",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Tolérance aux pannes des circuits FPGAs à base de mémoire SRAM",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "Farid Lahrach",
+   "url": "https://doi.org/10.70675/a21aeefaz90b5z44fbz9a2ez1b01063d366f",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Analysis and Optimization for Efficient Streaming Software Synthesis",
    "function": "passing-citation",
    "split": "passing",
@@ -5795,6 +6455,18 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Asynchronous and Synchronous Approaches for Developing Software on Embedded Multicore Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "International Workshop on Computer Science and Engineering (WCSE)",
+   "url": "https://doi.org/10.18178/wcse.2015.04.080",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Converting data-parallelism to task-parallelism by rewrites: purely functional programs across multiple GPUs",
@@ -5808,6 +6480,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Cooperative Execution of Parallel Tasks with Synchronization Constraints",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "Rice Research Repository (Rice University)",
+   "authors": "Shams Imam",
+   "url": "https://openalex.org/W2563524394",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Data-aware process networks",
@@ -6073,6 +6758,19 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Multi-scale scheduling techniques for signal processing systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "University Libraries (University of Maryland)",
+   "authors": "Zheng Zhou",
+   "url": "https://openalex.org/W1841833584",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
    "evidence": "fulltext"
   },
   {
@@ -6509,6 +7207,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Adaptable OS services for distributed reconfigurable systems on chip",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "venue": "Habilitation Regulations of the Faculty of Mechanical Engineering (University of Paderborn)",
+   "authors": "Sufyan Samara",
+   "url": "https://openalex.org/W2402533428",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "An analytical model to exploit memory task scheduling",
    "function": "passing-citation",
    "split": "passing",
@@ -6831,6 +7542,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Code-Optimierung im Polyedermodell - Effizienzsteigerung von parallelen Schleifensätzen",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2008,
+   "venue": "OPUS (University of Passau)",
+   "authors": "Faber, Peter",
+   "url": "https://openalex.org/W7112331464",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Combining Coarse-Grained Software Pipelining with DVS for Scheduling Real-Time Periodic Dependent Tasks on Multi-Core Embedded Systems",
    "function": "passing-citation",
    "split": "passing",
@@ -7078,6 +7802,20 @@
    "evidence": "contexts"
   },
   {
+   "title": "STREAMLINE: Dynamic and Resource-Efficient Auto-Tuning of Stream Processing Data Pipeline Ensembles",
+   "function": "unknown",
+   "split": null,
+   "year": 2025,
+   "venue": "Internet of Things",
+   "authors": "Stefan Pedratscher, Zahra Najafabadi Samani, Juan Aznar-Poveda et al.",
+   "url": "https://doi.org/10.1016/j.iot.2025.101731",
+   "cited_by": 7,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Systematic search space design for energy-efficient static scheduling of moldable tasks",
    "function": "unknown",
    "split": null,
@@ -7118,6 +7856,20 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Parallel Computing Optimization for Ground-based TT&C Network Situational Data Processing",
+   "function": "unknown",
+   "split": null,
+   "year": 2021,
+   "venue": "International Conference on Computer Science and Management Technology (ICCSMT)",
+   "authors": "Junchao Chen, Yibing Dong, Yuanyuan Li et al.",
+   "url": "https://doi.org/10.1109/iccsmt54525.2021.00063",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A Parallel Hybrid Technique for Multi-Noise Removal from Grayscale Medical Images",
@@ -7188,6 +7940,20 @@
    "evidence": "fulltext"
   },
   {
+   "title": "A Stream Tilling Approach to Surface Area Estimation for Large Scale Spatial Data in a Shared Memory System",
+   "function": "unknown",
+   "split": null,
+   "year": 2017,
+   "venue": "Open Geosciences",
+   "authors": "Jiping Liu, Xiaochen Kang, Chun Dong et al.",
+   "url": "https://doi.org/10.1515/geo-2017-0047",
+   "cited_by": 3,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Algorithms and Framework for Energy Efficient Parallel Stream Computing on Many-Core Architectures",
    "function": "unknown",
    "split": null,
@@ -7243,6 +8009,19 @@
    "authors": "Albert Cohen, Alain Darte, Paul Feautrier",
    "url": "https://openalex.org/W2303909156",
    "cited_by": 5,
+   "evidence": "abstract"
+  },
+  {
+   "title": "Thread-level speculation on hardware transactional memory architectures",
+   "function": "unknown",
+   "split": null,
+   "year": 2016,
+   "authors": "Juan Jesús Salamanca Guillén",
+   "url": "https://doi.org/10.47749/t/unicamp.2016.979996",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
    "evidence": "abstract"
   },
   {
@@ -7646,6 +8425,20 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Extraktion und Identifikation von Entitäten in Textdaten im Umfeld der Enterprise Search",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "publish.UP (University of Potsdam)",
+   "authors": "Falk Brauer",
+   "url": "https://openalex.org/W2406824262",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Harmony: an execution model for heterogeneous systems",
@@ -8324,6 +9117,17 @@
    "evidence": "title_only"
   },
   {
+   "title": "Introduction",
+   "function": "unclassified",
+   "split": null,
+   "year": 2013,
+   "venue": "Springer eBooks",
+   "authors": "Haris Javaid, Sri Parameswaran",
+   "url": "https://doi.org/10.1007/978-3-319-01113-4_1",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
    "title": "Machine learning of compiler heuristics for parallel architectures",
    "function": "unclassified",
    "split": null,
@@ -8586,6 +9390,15 @@
    "year": 2007,
    "authors": "Severin Hacker, R. Simmons, C. Varming",
    "url": "https://www.semanticscholar.org/paper/aeb25ff202cf2f75026549ab2f0e0b633e5eb2d3",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Kent Academic Repository",
+   "function": "unclassified",
+   "split": null,
+   "authors": "B. Joel",
+   "url": "https://www.semanticscholar.org/paper/12d8de5e75febccbf9f393f492212f7d98717327",
    "cited_by": 0,
    "evidence": "title_only"
   },

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "lamb:pldi:2003",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 67,
-  "works": 59,
+  "records_raw": 70,
+  "works": 61,
   "commit": 11,
-  "judged": 41,
+  "judged": 43,
   "gscholar": null
  },
  "citations": [
@@ -269,6 +269,38 @@
    ],
    "evidence": "contexts",
    "commit": true
+  },
+  {
+   "title": "A shared-memory multiprocessor system using the raw tiled architecture",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2004,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Levente Jakab",
+   "url": "https://openalex.org/W2264733111",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Structured Parallel Programming with Trees",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Institutional Repositories DataBase (IRDB)",
+   "authors": "Shigeyuki Sato",
+   "url": "https://openalex.org/W7146586363",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Compiler techniques for scalable performance of stream programs on multicore architectures",

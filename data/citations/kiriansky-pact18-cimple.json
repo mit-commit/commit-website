@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "kiriansky-pact18-cimple",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 17,
-  "works": 16,
-  "commit": 3,
-  "judged": 15,
+  "records_raw": 19,
+  "works": 18,
+  "commit": 4,
+  "judged": 17,
   "gscholar": null
  },
  "citations": [
@@ -42,6 +42,23 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "A Python-based programming language for high-performance computational genomics",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "Nature Biotechnology",
+   "authors": "Ariya Shajii, Ibrahim Numanagić, Alexander T. Leighton et al.",
+   "url": "https://doi.org/10.1038/s41587-021-00985-6",
+   "cited_by": 22,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
   },
   {
    "title": "A Python-based optimization framework for high-performance genomics",
@@ -204,6 +221,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "High-performance computing: Transitioning from Instruction-Level Parallelism to heterogeneous hybrid architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Applied and Computational Engineering",
+   "authors": "Mingtao Zhang",
+   "url": "https://doi.org/10.54254/2755-2721/42/20230775",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Bridging the Latency Gap between NVM and DRAM for Latency-bound Operations",

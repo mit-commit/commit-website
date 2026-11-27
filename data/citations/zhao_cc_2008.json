@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "zhao:cc:2008",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 74,
-  "works": 59,
+  "records_raw": 81,
+  "works": 66,
   "commit": 6,
-  "judged": 46,
+  "judged": 52,
   "gscholar": null
  },
  "citations": [
@@ -87,6 +87,19 @@
    "secondary": [
     "detailed-citation"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Securely extending and running low-code applications with C#",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "arXiv",
+   "authors": "Brüggemann, Lennart",
+   "url": "https://doi.org/10.48550/arxiv.2307.06340",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -292,6 +305,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Vérification dynamique ciblée et interactive de programmes grâce à une architecture modulaire",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "PolyPublie (École Polytechnique de Montréal)",
+   "authors": "Paul Naert",
+   "url": "https://openalex.org/W3144813298",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Debugging Nondeterministic Failures in Linux Programs through Replay Analysis",
    "function": "detailed-citation",
    "split": "detailed",
@@ -321,6 +347,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "User-centered Program Analysis Tools",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "University Libraries (University of Maryland)",
+   "authors": "Yit Phang Khoo",
+   "url": "https://openalex.org/W195879296",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Efficient Memory Shadowing for 64-bit Architectures Citation",
    "function": "detailed-citation",
    "split": "detailed",
@@ -338,6 +377,18 @@
    ],
    "evidence": "contexts",
    "commit": true
+  },
+  {
+   "title": "System challenges and opportunities for transactional memory",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2008,
+   "authors": "Jaewoong Chung",
+   "url": "https://www.semanticscholar.org/paper/522374cb1632778c30c9ecb913f77d0e0c5e8710",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
   },
   {
    "title": "Maya: Hardware Enhanced Customizable Defenses at the User-Kernel Interface",
@@ -377,6 +428,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Increasing developer productivity by improving build performance and automating logging code injection (本文)",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "KeiO Associated Repository of Academic Resources (Keio University)",
+   "authors": "タカフミ クボタ, Takafumi Kubota, 貴文 窪田",
+   "url": "https://openalex.org/W7134304703",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "IoTSIT: A Static Instrumentation Tool for IoT Devices",
    "function": "passing-citation",
    "split": "passing",
@@ -413,6 +477,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "A foundation for multi-paradigm modelling",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "Institutional Repository University of Antwerp (University of Antwerp)",
+   "authors": "Yentl Van Tendeloo",
+   "url": "https://openalex.org/W7236533189",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "An Empirical Evaluation of Feedback-Driven Software Development",
@@ -645,6 +722,20 @@
    ],
    "evidence": "contexts",
    "commit": true
+  },
+  {
+   "title": "Débogage multivers de spécifications non déterministes",
+   "function": "unknown",
+   "split": null,
+   "year": 2024,
+   "venue": "theses.fr (ABES)",
+   "authors": "Matthias Pasquier",
+   "url": "https://doi.org/10.70675/414c834ez77acz4f65zac77z9ad61da71030",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
   },
   {
    "title": "Reverse Engineering of an Obfuscated Binary",

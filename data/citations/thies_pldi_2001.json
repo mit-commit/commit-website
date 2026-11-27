@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "thies:pldi:2001",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 113,
-  "works": 82,
+  "records_raw": 119,
+  "works": 87,
   "commit": 5,
-  "judged": 64,
+  "judged": 66,
   "gscholar": null
  },
  "citations": [
@@ -214,6 +214,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Contributions aux environnements de programmation pour le calcul intensif",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "HAL",
+   "authors": "Pierre Boulet",
+   "url": "https://openalex.org/W2289394885",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Bee+Cl@k",
    "function": "exemplifies",
    "split": "passing",
@@ -346,6 +359,22 @@
    "confidence": "medium",
    "flags": [
     "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Register Pressure in Instruction Level Parallelism",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "HAL",
+   "authors": "Sid Ahmed Ali Touati",
+   "url": "https://openalex.org/W5670727",
+   "cited_by": 27,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
    ],
    "evidence": "fulltext"
   },
@@ -1004,6 +1033,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Contributions to the Design of Reliable and Programmable High-Performance Systems: Principles, Interfaces, Algorithms and Tools",
+   "function": "unknown",
+   "split": null,
+   "year": 2007,
+   "venue": "HAL",
+   "authors": "Albert Cohen",
+   "url": "https://openalex.org/W2294869366",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Loop Optimization using Hierarchical Compilation and Kernel Decomposition",
    "function": "unknown",
    "split": null,
@@ -1026,6 +1069,17 @@
    "url": "https://openalex.org/W2142655718",
    "cited_by": 142,
    "evidence": "abstract"
+  },
+  {
+   "title": "An Affine Scheduling Framework for Integrating Data Layout and Loop Transformations",
+   "function": "unclassified",
+   "split": null,
+   "year": 2022,
+   "venue": "Lecture notes in computer science",
+   "authors": "Jun Shirako, Vivek Sarkar",
+   "url": "https://doi.org/10.1007/978-3-030-95953-1_1",
+   "cited_by": 10,
+   "evidence": "title_only"
   },
   {
    "title": "Compilation optimisante pour processeurs extensibles",
@@ -1077,6 +1131,16 @@
    "authors": "Mahmut Kandemir",
    "url": "https://doi.org/10.1016/j.jpdc.2004.12.004",
    "cited_by": 6,
+   "evidence": "title_only"
+  },
+  {
+   "title": "References",
+   "function": "unclassified",
+   "split": null,
+   "year": 2005,
+   "venue": "Elsevier eBooks",
+   "url": "https://doi.org/10.1016/b978-012385251-9/50034-7",
+   "cited_by": 0,
    "evidence": "title_only"
   },
   {

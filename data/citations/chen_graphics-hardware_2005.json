@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "chen:graphics-hardware:2005",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 19,
-  "works": 18,
+  "records_raw": 21,
+  "works": 20,
   "commit": 2,
-  "judged": 13,
+  "judged": 14,
   "gscholar": null
  },
  "citations": [
@@ -92,6 +92,19 @@
    "flags": [
     "own-group"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "From software to hardware: making dynamic multi-core processors practical",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "ERA",
+   "authors": "Paul-Jules Micolet",
+   "url": "https://openalex.org/W2976103062",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "fulltext"
   },
   {
@@ -282,6 +295,19 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Leveraging static dataflow in dynamically-compiled pipeline-parallel text-parsing programs using the Parabix framework",
+   "function": "unknown",
+   "split": null,
+   "venue": "Summit (Simon Fraser University)",
+   "authors": "Nigel Medforth",
+   "url": "https://openalex.org/W7137748579",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   }
  ]
 }

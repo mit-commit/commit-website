@@ -1,16 +1,117 @@
 {
  "schema": 1,
  "key": "arxiv:2005.04091",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 10,
-  "works": 10,
-  "commit": 0,
-  "judged": 7,
+  "records_raw": 24,
+  "works": 24,
+  "commit": 2,
+  "judged": 20,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "A Data-driven Analysis of Code Optimizations",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "IEEE/ACS International Conference on Computer Systems and Applications (AICCSA)",
+   "authors": "Yacine Hakimi, Riyadh Baghdadi",
+   "url": "https://doi.org/10.1109/aiccsa66935.2025.11315210",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Agentic Auto-Scheduling: An Experimental Study of LLM-Guided Loop Optimization",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Massinissa Merouani, Islem Kara Bernou, Riyadh Baghdadi",
+   "url": "https://doi.org/10.1109/pact65351.2025.00027",
+   "cited_by": 14,
+   "centrality": "core",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Constraints on the finite volume two-nucleon spectrum at m π ≈ 806 MeV",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Physical review. D/Physical review. D.",
+   "authors": "William Detmold, Marc Illa, William I. Jay et al.",
+   "url": "https://doi.org/10.1103/physrevd.111.114501",
+   "cited_by": 23,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Pearl: Automatic Code Optimization Using Deep Reinforcement Learning",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Djamel Rassem Lamouri, Iheb Nassim Aouadj, Smail Kourta et al.",
+   "url": "https://doi.org/10.1145/3721145.3725766",
+   "cited_by": 12,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "baseline"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Variational study of two-nucleon systems with lattice QCD",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "Physical review. D/Physical review. D.",
+   "authors": "Saman P. Amarasinghe, Riyadh Baghdadi, Zohreh Davoudi et al.",
+   "url": "https://doi.org/10.1103/physrevd.107.094508",
+   "cited_by": 95,
+   "centrality": "core",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "A Deep Learning Based Cost Model for Automatic Code Optimization",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "arXiv",
+   "authors": "Riyadh Baghdadi, Massinissa Merouani, Mohamed-Hicham Leghettas et al.",
+   "url": "https://doi.org/10.48550/arxiv.2104.04955",
+   "cited_by": 99,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
   {
    "title": "CHEHAB: Automatic Compiler Code Optimization for Fully Homomorphic Encryption",
    "function": "adopts-idea",
@@ -24,6 +125,38 @@
    "flags": [
     "own-group"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "LOOPer: A Learned Automatic Code Optimizer For Polyhedral Compilers",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Massinissa Merouani, Afif Boudaoud, Iheb Nassim Aouadj et al.",
+   "url": "https://doi.org/10.1109/pact65351.2025.00028",
+   "cited_by": 22,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Zihao Ye, Ruihang Lai, Junru Shao et al.",
+   "url": "https://doi.org/10.1145/3582016.3582047",
+   "cited_by": 166,
+   "centrality": "engaged",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -52,6 +185,80 @@
    "secondary": [
     "exemplifies"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Reinforcement Learning Environment for Automatic Code Optimization in the MLIR Compiler",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Proceedings of the CGO/Proceedings of the ... CGO",
+   "authors": "Mohammed Tirichine, Nassim Ameur, Nazim Bendib et al.",
+   "url": "https://doi.org/10.1109/cgo68049.2026.11394838",
+   "cited_by": 10,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Enhancing the Power of Polyhedral-Based Optimizations with Coordinate-Based Hill Climbing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Gaurav Verma, Michael Canesche, Fernando Magno Quintão Pereira",
+   "url": "https://doi.org/10.48550/arxiv.2609.03114",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Efficient Phase-Functioned Real-time Character Control in Mobile Games: A TVM Enabled Approach",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Proceedings of the International Conference on Parallel Processing",
+   "authors": "Haidong Lan, Wenxi Zhu, Du Wu et al.",
+   "url": "https://doi.org/10.1145/3545008.3545095",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Dependence-Driven, Scalable Quantum Circuit Mapping with Affine Abstractions",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Proceedings of the CGO/Proceedings of the ... CGO",
+   "authors": "Marouane Benbetka, Merwan Bekkar, Riyadh Baghdadi et al.",
+   "url": "https://doi.org/10.1109/cgo68049.2026.11394841",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "DNNOPT: A Framework for Efficiently Selecting On-chip Memory Loop Optimizations of DNN Accelerators",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "ACM International Conference on Computing Frontiers (CF)",
+   "authors": "Piyumal Ranawaka, Muhammad Waqar Azhar, Per Stenström",
+   "url": "https://doi.org/10.1145/3649153.3649196",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -106,6 +313,21 @@
     "own-group"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Neural Architecture Search and Automatic Code Optimization: Techniques, trends, and challenges",
+   "function": "unknown",
+   "split": null,
+   "year": 2025,
+   "venue": "Journal of Systems Architecture",
+   "authors": "Inas Bachiri, Smaïl Niar, Riyadh Baghdadi et al.",
+   "url": "https://doi.org/10.1016/j.sysarc.2025.103645",
+   "cited_by": 4,
+   "flags": [
+    "own-group",
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "CANDLES: Channel-Aware Novel Dataflow-Microarchitecture Co-Design for Low Energy Sparse Neural Network Acceleration",

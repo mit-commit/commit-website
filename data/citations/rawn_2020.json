@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "key": "rawn:2020",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 1,
+  "works": 1,
+  "commit": 0,
+  "judged": 1,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "SpComp: A Sparsity Structure-Specific Compilation of Matrix Operations",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "arXiv",
+   "authors": "Barnali Basak, Uday P. Khedker, Supratim Biswas",
+   "url": "https://doi.org/10.48550/arxiv.2307.06109",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "baseline"
+   ],
+   "evidence": "fulltext"
+  }
+ ]
+}

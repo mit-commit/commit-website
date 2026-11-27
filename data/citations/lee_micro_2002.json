@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "lee:micro:2002",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 64,
-  "works": 60,
+  "records_raw": 65,
+  "works": 61,
   "commit": 5,
-  "judged": 48,
+  "judged": 49,
   "gscholar": null
  },
  "citations": [
@@ -214,6 +214,19 @@
    "centrality": "engaged",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "A spatial path scheduling algorithm for EDGE architectures",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Katherine E. Coons, Xia Chen, Doug Burger et al.",
+   "url": "https://doi.org/10.1145/1168857.1168875",
+   "cited_by": 48,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Cooperative Data and Computation Partitioning for Decentralized Architectures",

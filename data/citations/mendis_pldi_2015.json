@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "mendis:pldi:2015",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 48,
-  "works": 43,
+  "records_raw": 52,
+  "works": 47,
   "commit": 0,
-  "judged": 38,
+  "judged": 42,
   "gscholar": null
  },
  "citations": [
@@ -296,6 +296,39 @@
    "evidence": "abstract"
   },
   {
+   "title": "Program lifting for acceleration",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "ERA",
+   "authors": "José Wesley de Souza Magalhães",
+   "url": "https://doi.org/10.7488/era/7291",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Tensor program optimization through program synthesis",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "ERA",
+   "authors": "Brauckmann, Alexander",
+   "url": "https://doi.org/10.7488/era/6825",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "surveys",
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "QRANE: lifting QASM programs to an affine IR",
    "function": "detailed-citation",
    "split": "detailed",
@@ -415,6 +448,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "Towards assessing and enhancing modern software reverse engineering",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "authors": "Zhibo Liu",
+   "url": "https://doi.org/10.14711/thesis-991013222942403412",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Bind the gap: compiling real software to hardware FFT accelerators",
    "function": "passing-citation",
    "split": "passing",
@@ -523,6 +568,17 @@
    "split": "passing",
    "authors": "Alexander Brauckmann, Elizabeth Polgreen, Tobias Grosser et al.",
    "url": "https://www.semanticscholar.org/paper/ac66b1c93cbe8be26a6d9fb093e8110421ff7236",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Semantics Lifting for Scientific Kernels",
+   "function": "passing-citation",
+   "split": "passing",
+   "authors": "Naifeng Zhang",
+   "url": "https://www.semanticscholar.org/paper/c8d26479d00b2fe1243d867626b60493e962d182",
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",

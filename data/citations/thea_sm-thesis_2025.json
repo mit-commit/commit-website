@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "key": "thea:sm-thesis:2025",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 2,
+  "works": 1,
+  "commit": 1,
+  "judged": 1,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Grassmann: The Coordinate-Independent Linear Algebra Programming Language",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Theadora Fields Collin, Gilbert Bernstein, Oded Stein et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.00182",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  }
+ ]
+}

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "goslp",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 46,
-  "works": 43,
+  "records_raw": 50,
+  "works": 47,
   "commit": 6,
-  "judged": 39,
+  "judged": 43,
   "gscholar": null
  },
  "citations": [
@@ -125,6 +125,22 @@
    "cited_by": 0,
    "centrality": "engaged",
    "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "A Review of Compiler Optimization Techniques and Comparative Analysis for RISC-V Software Development",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Maria Ayub, Imran Shafi, Sajid Gul Khawaja et al.",
+   "url": "https://doi.org/10.1007/s10766-026-00829-3",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
    "evidence": "contexts"
   },
   {
@@ -247,6 +263,19 @@
    "commit": true
   },
   {
+   "title": "Guiding Polyhedral Scheduling for Vectorization through Constraints Generated from an SLP Algorithm",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "HAL",
+   "authors": "Tom Hammer, Stéphane Genaud, Vincent Loechner",
+   "url": "https://openalex.org/W7124823059",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Lightweight, Modular Verification for WebAssembly-to-Native Instruction Selection",
    "function": "exemplifies",
    "split": "passing",
@@ -277,6 +306,19 @@
     "date": "2026-10-12",
     "evidence": "Title/abstract: “We also extend the concept of pack to eliminate the data dependency between adjacent instructions”"
    }
+  },
+  {
+   "title": "Superloop Scheduling: Loop Optimization via Direct Statement Instance Reordering",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "HAL",
+   "authors": "Cédric Bastoul, Alain Ketterlin, Vincent Loechner",
+   "url": "https://openalex.org/W4390963215",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A Survey of Machine Learning for Computer Architecture and Systems",
@@ -533,6 +575,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Portability across Arm NEON and SVE vector instruction sets using the NSIMD library: a case study on a Seismic Spectral-Element kernel",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "HAL",
+   "authors": "Sylvain Jubertie, Kenny Peou, Guillaume Quintin et al.",
+   "url": "https://openalex.org/W4287258398",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "PostSLP: Cross-Region Vectorization of Fully or Partially Vectorized Code",

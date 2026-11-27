@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "sullivan:ivme:2003",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 94,
-  "works": 60,
+  "records_raw": 100,
+  "works": 66,
   "commit": 1,
-  "judged": 51,
+  "judged": 56,
   "gscholar": null
  },
  "citations": [
@@ -320,6 +320,19 @@
    }
   },
   {
+   "title": "Tracing Algorithmic Primitives in RSqueak/VM",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "publish.UP (University of Potsdam)",
+   "authors": "Lars Wassermann, Tim Felgentreff, Tobias Pape et al.",
+   "url": "https://openalex.org/W2590158173",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Adaptive just-in-time value class optimization",
    "function": "adopts-idea",
    "split": "detailed",
@@ -553,6 +566,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Contrôle de flux d'information par utilisation conjointe d'analyse statique et dynamique accélérée matériellement",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Mounir Nasr Allah",
+   "url": "https://doi.org/10.70675/5a6a11d4zcb0bz439dza0b2z4a68e0d359e7",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An Optimized Intermediate Representation for Binary Rewriting at Runtime",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "mediaTUM (Technical University of Munich)",
+   "authors": "David Hildenbrand",
+   "url": "https://openalex.org/W2972945767",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
    "title": "B-SEFI: A Binary Level Soft Error Fault Injection Tool",
    "function": "passing-citation",
    "split": "passing",
@@ -637,6 +676,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "PROFILE- AND INSTRUMENTATION- DRIVEN METHODS FOR EMBEDDED SIGNAL PROCESSING",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "University Libraries (University of Maryland)",
+   "authors": "Ilya Chukhman",
+   "url": "https://doi.org/10.13016/m2233f",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Unipycation",
@@ -775,6 +830,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Adding limited reconfigurability to superscalar processors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2004,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Marc Epalza, Paolo Ienne, D. Mlynek",
+   "url": "https://doi.org/10.1109/pact.2004.1342541",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Dynamic Reallocation of Functional Units in Superscalar Processors",
    "function": "passing-citation",
    "split": "passing",
@@ -867,6 +935,17 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "From theory to practice: How partial evaluation found its niche",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Journal of Computer Languages",
+   "authors": "Xavier Sebastian Adettu, Nayan Banik, Tian Zhao",
+   "url": "https://doi.org/10.1016/j.cola.2026.101427",
+   "cited_by": 0,
+   "evidence": "title_only"
   },
   {
    "title": "New techniques for adaptive program optimization",

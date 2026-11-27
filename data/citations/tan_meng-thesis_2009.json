@@ -1,0 +1,72 @@
+{
+ "schema": 1,
+ "key": "tan:meng-thesis:2009",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 4,
+  "works": 4,
+  "commit": 0,
+  "judged": 4,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "A Monitoring System for Runtime Adaptations of Streaming Applications",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)",
+   "authors": "Manuel Selva, Lionel Morel, Kévin Marquet et al.",
+   "url": "https://doi.org/10.1109/pdp.2015.53",
+   "cited_by": 7,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Performance monitoring of throughput constrained dataflow programs executed on shared-memory multi-core architectures",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "theses.fr (ABES)",
+   "authors": "Manuel Selva",
+   "url": "https://doi.org/10.70675/735dedb0zb1dfz4fc4za721z8bd427534742",
+   "cited_by": 9,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compilation d'applications flot de données paramétriques pour MPSoC dédiés à la radio logicielle",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "theses.fr (ABES)",
+   "authors": "Mickaël Dardaillon",
+   "url": "https://doi.org/10.70675/2ca52b28z0d32z4506z9095z26bd05d2a15d",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compilation of SDR data-flow applications for dedicated MPSoC",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "authors": "Mickaël Dardaillon",
+   "url": "https://openalex.org/W4400164027",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  }
+ ]
+}

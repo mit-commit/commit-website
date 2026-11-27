@@ -1,16 +1,32 @@
 {
  "schema": 1,
  "key": "mueller_sparse_2020",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 6,
-  "works": 6,
+  "records_raw": 8,
+  "works": 7,
   "commit": 0,
-  "judged": 6,
+  "judged": 7,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "SparseConflicts: Handling Conflicting Data Layouts in Sparse Tensor Contractions",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adhitha Dias, Kirshanthan Sundararajah, Artem Pelenitsyn et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.06328",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "Compilation of Modular and General Sparse Workspaces",
    "function": "positions",

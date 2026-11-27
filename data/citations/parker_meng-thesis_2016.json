@@ -1,16 +1,168 @@
 {
  "schema": 1,
  "key": "parker:meng-thesis:2016",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 2,
-  "works": 2,
+  "records_raw": 16,
+  "works": 16,
   "commit": 0,
-  "judged": 2,
+  "judged": 14,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Hardware Acceleration of Sparse and Irregular Tensor Computations of ML Models: A Survey and Insights",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "Proceedings of the IEEE",
+   "authors": "Shail Dave, Riyadh Baghdadi, Tony Nowatzki et al.",
+   "url": "https://doi.org/10.1109/jproc.2021.3098483",
+   "cited_by": 142,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Space-Efficient k-d Tree-Based Storage Format for Sparse Tensors",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC)",
+   "authors": "Ivan Šimeček, Claudio Kozický, Daniel Langr et al.",
+   "url": "https://doi.org/10.1145/3369583.3392692",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Efficient Human-Contact Representation for Human-Scene Interaction",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Nghia Vu, Tuong Do, Binh X. Nguyen et al.",
+   "url": "https://doi.org/10.48550/arxiv.2608.09388",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Spatiotemporal Learning for Motion Estimation and Visual Recognition",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Linköping studies in science and technology. Dissertations",
+   "authors": "Yushan Zhang",
+   "url": "https://doi.org/10.3384/9789181182323",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Theoretical Analysis of the Memory-Efficient Matrix Storage Method for Quantum Emulation Accelerators with Gate Fusion on FPGAs",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "IEEE International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
+   "authors": "Le Tran Xuan Hieu, Pham Hoai Luan, Vu Tuan Hai et al.",
+   "url": "https://doi.org/10.1109/mcsoc64144.2024.00067",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Inverse reinforcement learning for autonomous navigation via differentiable semantic mapping and planning",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "Autonomous Robots",
+   "authors": "Tianyu Wang, Vikas Dhiman, Nikolay Atanasov",
+   "url": "https://doi.org/10.1007/s10514-023-10118-4",
+   "cited_by": 14,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Sparse PointPillars: Maintaining and Exploiting Input Sparsity to Improve Runtime on Embedded Systems",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+   "authors": "Kyle Vedder, Eric Eaton",
+   "url": "https://doi.org/10.1109/iros47612.2022.9981550",
+   "cited_by": 15,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Sparse Tucker Tensor Decomposition on a Hybrid FPGA–CPU Platform",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+   "authors": "Weiyun Jiang, Kaiqi Zhang, Colin Yu Lin et al.",
+   "url": "https://doi.org/10.1109/tcad.2020.3032626",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings - IEEE Computer Society Conference on Computer Vision and Pattern Recognition/Proceedings",
+   "authors": "Christopher Choy, JunYoung Gwak, Silvio Savarese",
+   "url": "https://doi.org/10.1109/cvpr.2019.00319",
+   "cited_by": 3070,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "NVR: Vector Runahead on NPUs for Sparse Memory Access",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "ACM/IEEE Design Automation Conference (DAC)",
+   "authors": "Hui Wang, Zhengpeng Zhao, Jing Wang et al.",
+   "url": "https://doi.org/10.1109/dac63849.2025.11132724",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Delta Tensor: Efficient Vector and Tensor Storage in Delta Lake",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Bao, Zhiwei, Liu Liao-Liao, Zhiyu Wu et al.",
+   "url": "https://doi.org/10.48550/arxiv.2405.03708",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "Tensor Algebra on an Optoelectronic Microchip",
    "function": "passing-citation",
@@ -36,6 +188,44 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Live Semantic 3D Perception for Immersive Augmented Reality",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "IEEE Transactions on Visualization and Computer Graphics",
+   "authors": "Lei Han, Tian Zheng, Yinheng Zhu et al.",
+   "url": "https://doi.org/10.1109/tvcg.2020.2973477",
+   "cited_by": 81,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Mining Multimodal Big Data: Tensor Methods and Applications",
+   "function": "unknown",
+   "split": null,
+   "year": 2018,
+   "venue": "Advances in data mining and database management book series",
+   "authors": "Sujoy Roy, Michael W. Berry",
+   "url": "https://doi.org/10.4018/978-1-5225-3142-5.ch023",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "swTensor: accelerating tensor decomposition on Sunway architecture",
+   "function": "unclassified",
+   "split": null,
+   "year": 2019,
+   "venue": "CCF Transactions on High Performance Computing",
+   "authors": "Xiaogang Zhong, Hailong Yang, Zhongzhi Luan et al.",
+   "url": "https://doi.org/10.1007/s42514-019-00017-5",
+   "cited_by": 4,
+   "evidence": "title_only"
   }
  ]
 }

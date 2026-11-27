@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "d2x-cgo23",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 6,
-  "works": 6,
+  "records_raw": 7,
+  "works": 7,
   "commit": 1,
-  "judged": 4,
+  "judged": 5,
   "gscholar": null
  },
  "citations": [
@@ -46,6 +46,22 @@
     "detailed-citation"
    ],
    "evidence": "abstract+contexts"
+  },
+  {
+   "title": "Combining Datalog and SAT-Based Solving in Code-Reasoning Tools",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+   "authors": "Bembenek, Aaron",
+   "url": "https://openalex.org/W7112650127",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "More than Marketing? On the Information Value of AI Benchmarks for Practitioners",

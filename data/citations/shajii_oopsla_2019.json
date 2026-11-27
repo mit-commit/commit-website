@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "shajii:oopsla:2019",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 21,
-  "works": 21,
+  "records_raw": 23,
+  "works": 23,
   "commit": 5,
-  "judged": 16,
+  "judged": 18,
   "gscholar": null
  },
  "citations": [
@@ -149,6 +149,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Filtr: Compiling Bioinformatics Recurrences",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Bala Vinaithirthan, Shiv Sundram, Sneha D. Goenka et al.",
+   "url": "https://doi.org/10.1145/3839504",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Design of a New Language Seeks Literature Survey",
    "function": "surveys",
    "split": "detailed",
@@ -266,6 +279,18 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "fulltext"
+  },
+  {
+   "title": "A Bibliography of Publications about the Python Scripting and Programming Language",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "authors": "Nelson H. F. Beebe",
+   "url": "https://openalex.org/W2183796494",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
   },
   {
    "title": "Machine-learning models integrating preoperative clinical factors and circulating tumor DNA features predict lymph node metastasis in esophageal carcinoma",

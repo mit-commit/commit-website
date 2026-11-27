@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "olszewski:asplos:2012",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 35,
-  "works": 24,
+  "records_raw": 38,
+  "works": 27,
   "commit": 0,
-  "judged": 17,
+  "judged": 20,
   "gscholar": null
  },
  "citations": [
@@ -103,6 +103,35 @@
    "evidence": "contexts"
   },
   {
+   "title": "HMTRace: Hardware-Assisted Memory-Tagging based Dynamic Data Race Detection",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Jaidev Shastri, Xiaoguang Wang, Basavesh Ammanaghatta Shivakumar et al.",
+   "url": "https://doi.org/10.48550/arxiv.2404.19139",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Practical Dependable Systems with OS/Hypervisor Support",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Diyu Zhou",
+   "url": "https://openalex.org/W3136277577",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Operator, number please : mediating access to shared resources for efficiency and isolation",
    "function": "detailed-citation",
    "split": "detailed",
@@ -183,6 +212,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Exploring Expertise, in Kumite Karate Through Biomechanical Analysis and Cognitive Tactics",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Preprints.org",
+   "authors": "Francesco Alessi Longa",
+   "url": "https://doi.org/10.20944/preprints202503.0020.v1",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Autotuning programs with algorithmic choice",

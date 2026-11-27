@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "kiriansky-micro18-dawg",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 398,
-  "works": 360,
+  "records_raw": 439,
+  "works": 401,
   "commit": 0,
-  "judged": 337,
+  "judged": 374,
   "gscholar": null
  },
  "citations": [
@@ -20,6 +20,19 @@
    "authors": "Yao Hsiao, Nikos Nikoleris, Artem Khyzha et al.",
    "url": "https://doi.org/10.1109/micro61859.2024.00045",
    "cited_by": 11,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Rethinking computer architecture and operating system abstractions for good & evil",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Dimitrios Skarlatos",
+   "url": "https://openalex.org/W3188810598",
+   "cited_by": 0,
    "centrality": "engaged",
    "confidence": "high",
    "evidence": "fulltext"
@@ -101,6 +114,23 @@
    "confidence": "high",
    "secondary": [
     "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Synthesis-Enabled Reasoning: Scalable Automated Formal Verification for Hardware-Software Security",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Adwait Godbole",
+   "url": "https://openalex.org/W7213477036",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "supports-claim"
    ],
    "evidence": "fulltext"
   },
@@ -486,6 +516,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Domain Specific Architectural Support to improve Security, Persistence, and Performance in General-Purpose Microprocessors",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "Lehigh Preserve",
+   "authors": "Abhishek Samar Singh",
+   "url": "https://openalex.org/W7133063258",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Protecting Cache States Against Both Speculative Execution Attacks and Side-channel Attacks",
    "function": "positions",
    "split": "detailed",
@@ -628,6 +674,22 @@
     "supports-claim"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Strategies for securing cache memories against software side-channel attacks",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Amine Jaamoum",
+   "url": "https://doi.org/10.70675/d8e5f724zd18bz416fza565zfc810b5316db",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Under the Dome: Preventing Hardware Timing Information Leakage",
@@ -847,6 +909,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "New Cache Attacks and Defenses",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "D-Scholarship@Pitt (University of Pittsburgh)",
+   "authors": "Yanan Guo",
+   "url": "https://openalex.org/W3048732404",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Secure automatic bounds checking: prevention is simpler than cure",
    "function": "positions",
    "split": "detailed",
@@ -1051,6 +1129,17 @@
    "evidence": "abstract"
   },
   {
+   "title": "Compute eXpress Leak: New Cache Attacks Using CXL Devices",
+   "function": "positions",
+   "split": "detailed",
+   "authors": "AliAqdas, ZhengZhang, YuePan et al.",
+   "url": "https://www.semanticscholar.org/paper/e81872128a4a234a4096d99fbe5cd08dc84b1980",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
    "title": "Untitled",
    "function": "positions",
    "split": "detailed",
@@ -1063,6 +1152,35 @@
     "surveys"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "A Comprehensive Survey of Transient Execution Vulnerabilities: from Meltdown and Specter to Modern Variants",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "International Journal of Advanced Science Computing and Engineering",
+   "authors": "Faisal Mushtaq",
+   "url": "https://doi.org/10.62527/ijasce.8.2.304",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Modern Techniques for Securing Microarchitectures",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "University of Minnesota Digital Conservancy (University of Minnesota)",
+   "authors": "Kartik Ramkrishnan",
+   "url": "https://openalex.org/W7201929184",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A Decade in Software-Based Side and Covert Channel Attacks and Countermeasures: A Survey",
@@ -1321,6 +1439,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "KeyMem: Temporal Occupancy Control for Robust Streaming VideoLLM Memory",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Wei Song, Yuxin Cao, Xiao Cheng et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.25649",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "CacheGuardian: A Timing Side-Channel Resilient LLC Design",
    "function": "supports-claim",
    "split": "detailed",
@@ -1354,6 +1488,22 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Evaluating the security of novel microarchitecture",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Jose Rodrigo Sanchez Vicarte",
+   "url": "https://openalex.org/W7220796106",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A New Side-Channel Vulnerability on Modern Computers by Exploiting Electromagnetic Emanations from the Power Management Unit",
@@ -1453,6 +1603,45 @@
    "evidence": "contexts"
   },
   {
+   "title": "Cryptography for long term secret storage and protocols over quantum key distribution",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "theses.fr (ABES)",
+   "authors": "Thomas Prévost",
+   "url": "https://doi.org/10.70675/9558152bz0f4dz4782za0b3za6d75c982e18",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Learning-Augmented Side-Channel Security: Validation and Exploitation",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Donayam Benti",
+   "url": "https://doi.org/10.7302/dspace/30424",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Novel Microarchitectural Side-Channel Attacks on Open-Source RISC-V Cores",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Chips",
+   "authors": "Jyotiprakash Mishra, Sanjay K. Sahay, Swati Mishra et al.",
+   "url": "https://doi.org/10.3390/chips5030029",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "abstract"
+  },
+  {
    "title": "Supporting Secured Integration of Microarchitectural Defenses",
    "function": "exemplifies",
    "split": "passing",
@@ -1495,6 +1684,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Exploiting and generalizing relative speculative leakage",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Rutvik Choudhary",
+   "url": "https://openalex.org/W7220779439",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Exploiting ARMeD Channels By Reverse Engineering ARM Memory Disambiguation Unit",
    "function": "exemplifies",
    "split": "passing",
@@ -1506,6 +1711,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Haunt Me No Longer! Finding Meaningful Solutions to Speculative Side-Channel Attacks",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "NVA (Nasjonalt vitenarkiv)",
+   "authors": "Amund Bergland Kvalsvik",
+   "url": "https://openalex.org/W7236904889",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Modern Hardware Security: A Review of Attacks and Countermeasures",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Jyotiprakash Mishra, Sanjay K. Sahay",
+   "url": "https://doi.org/10.48550/arxiv.2501.04394",
+   "cited_by": 49,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "SpectrePrefetch: Undermining Cache-Centric Secure Speculation with Modern Hardware Prefetchers",
@@ -1584,6 +1815,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "You share, you leak: Practical side-channel attacks and defenses in modern clouds",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Zirui Zhao",
+   "url": "https://openalex.org/W7220804144",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "ASM: An Adaptive Secure Multicore for Co-located Mutually Distrusting Processes",
    "function": "exemplifies",
    "split": "passing",
@@ -1650,6 +1894,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Research of RISC-V Out-of-order Processor Cache-Based Side-Channel Attacks -Systematic Analysis,Security Models and Countermeasures-",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Institutional Repositories DataBase (IRDB)",
+   "authors": "Anh-Tien Le",
+   "url": "https://doi.org/10.18952/00010347",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Secure cloud-based mobile apps: attack taxonomy, requirements, mechanisms, tests and automation",
@@ -2049,6 +2306,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Securing the Memory Hierarchy from Speculative Side-Channel Attack",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "Uppsala University Publications (Uppsala University)",
+   "authors": "Christos Sakalis",
+   "url": "https://openalex.org/W3008015936",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "SgxPectre: Stealing Intel Secrets From SGX Enclaves via Speculative Execution",
    "function": "exemplifies",
    "split": "passing",
@@ -2247,6 +2520,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Mitigating spectre vulnerabilites in modern out-of-order cores",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "theses.fr (ABES)",
+   "authors": "Herinomena Henintsoa Andrianatrehina",
+   "url": "https://doi.org/10.70675/5c959425z6fc9z4e8ezaea5zd980f0740a16",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "SPARTON: Secure Dynamic Partition Scheme for Last-Level Cache",
    "function": "detailed-citation",
    "split": "detailed",
@@ -2261,6 +2547,45 @@
     "positions"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "ToolPulse: Side-Channel Eavesdropping on Tool-Using LLM Agents",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Zihao Dan, Jinyu Zhang, Jinzhao Lian et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.25470",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Computer Aided Verification: 37th International Conference, CAV 2025, Zagreb, Croatia, July 23–25, 2025, Proceedings, Part III",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Lecture notes in computer science",
+   "authors": "Ružica Piskač, Zvonimir Rakamarić",
+   "url": "https://doi.org/10.1007/978-3-031-98682-6",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Protection microarchitecturale d’un coeur de processeur RISC-V",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "theses.fr (ABES)",
+   "authors": "J. Pottier",
+   "url": "https://doi.org/10.70675/f42c1e00z90b4z449bzb2d8zc21d43dc9a3f",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "IOS: A Low Cost Defense to Mitigate Meltdown and Spectre Like Attacks",
@@ -2350,6 +2675,23 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Principled approaches for mitigating micro-architectural side-channel attacks",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Jiyong Yu",
+   "url": "https://openalex.org/W7220793025",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Dynamic Linking in Trusted Execution Environments in RISC-V",
@@ -2519,6 +2861,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Semestre SILM : livre blanc",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "HAL",
+   "authors": "Guillaume Hiet",
+   "url": "https://openalex.org/W4397024401",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Analysis of Secure Caches Using a Three-Step Model for Timing-Based Attacks",
    "function": "detailed-citation",
    "split": "detailed",
@@ -2629,6 +2984,45 @@
    "evidence": "contexts"
   },
   {
+   "title": "Lattice: Enabling Scalable Enclaves for Commercial RISC-V Platforms",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Yu Zhao, Jiabei He, Mingru Xu et al.",
+   "url": "https://doi.org/10.1145/3844614",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Making Data-Oblivious Programming Practical",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Biniyam Mengist Tiruye",
+   "url": "https://doi.org/10.7302/dspace/30816",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "On the Detection and Mitigation of Cache Logic Side Channel Attacks",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "TUTL Collection",
+   "authors": "Ameer Shalabi",
+   "url": "https://doi.org/10.23658/taltech.82/2026",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Protean: A Programmable Spectre Defense",
    "function": "passing-citation",
    "split": "passing",
@@ -2640,6 +3034,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Robust & Scalable Website Fingerprinting via Minimal DRAM Traffic",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Shubham Roy, Samar Parwez, Biswabandan Panda",
+   "url": "https://doi.org/10.48550/arxiv.2611.09422",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "RSCAAT: A Recursive Mechanism to Mitigate Cache Side Channel Attacks",
@@ -2679,6 +3086,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Binary analysis for microarchitectural security",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "theses.fr (ABES)",
+   "authors": "Antoine Geimer",
+   "url": "https://doi.org/10.70675/12a6e351zb75bz43b2zab6ezfb6df8dbcf81",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "BLACKOUT: Data-Oblivious Computation with Blinded Capabilities",
@@ -2796,6 +3216,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Hardware-Assisted Defenses for Data Integrity and Confidentiality",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "UWSpace (University of Waterloo)",
+   "authors": "Hossam ElAtali",
+   "url": "https://openalex.org/W7235829401",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Microarchitecture Evaluation Framework for Transient Execution Attack Vulnerability: Metrics, Fuzzing, and Sensitivity Analysis",
@@ -2964,6 +3397,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Eclipse: Preventing Speculative Memory-error Abuse with Artificial Data Dependencies",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+   "authors": "Neophytos Christou, Alexander J. Gaidis, Vaggelis Atlidakis et al.",
+   "url": "https://doi.org/10.1145/3658644.3690201",
+   "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "IvLeague: Side Channel-Resistant Secure Architectures Using Isolated Domains of Dynamic Integrity Trees",
@@ -3161,6 +3607,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "Uncovering New Classes of Kernel Vulnerabilities",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "authors": "Jakob Koschel",
+   "url": "https://doi.org/10.5463/thesis.833",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Write+Sync: Software Cache Write Covert Channels Exploiting Memory-Disk Synchronization",
    "function": "passing-citation",
    "split": "passing",
@@ -3299,6 +3757,32 @@
    "year": 2023,
    "authors": "Thore Tiemann, Zane Weissman, Thomas Eisenbarth et al.",
    "url": "https://doi.org/10.1007/978-3-031-45395-3_8",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Mitigating Microarchitectural Vulnerabilities to Improve Cloud Security and Reliability",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Kevin R. Loughlin",
+   "url": "https://doi.org/10.7302/8188",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Processor Memory System Design for Performance and Security",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Gino Augusto Chacon",
+   "url": "https://openalex.org/W7236524743",
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
@@ -3487,6 +3971,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Attack surface reduction in contemporary operating systems via practical kernel debloating",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Hsuan-Chi Kuo",
+   "url": "https://openalex.org/W7220786377",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Augury: Using Data Memory-Dependent Prefetchers to Leak Data at Rest",
@@ -4525,6 +5022,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Detecting speculative information flows on large code-bases",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "Archivo Digital UPM (Universidad Politécnica de Madrid)",
+   "authors": "Andrés Sánchez Marín",
+   "url": "https://openalex.org/W2998322269",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "EA-PLRU",
    "function": "passing-citation",
    "split": "passing",
@@ -4676,6 +5186,21 @@
    "evidence": "abstract"
   },
   {
+   "title": "Citadel: Simple Spectre-Safe Isolation For Real-World Programs That Share Memory",
+   "function": "unknown",
+   "split": null,
+   "year": 2023,
+   "venue": "arXiv",
+   "authors": "Jules Drean, Miguel Gomez-Garcia, Jepsen, Fisher et al.",
+   "url": "https://doi.org/10.48550/arxiv.2306.14882",
+   "cited_by": 2,
+   "flags": [
+    "own-group",
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Timing-based side-channel attack and mitigation on PCIe connected distributed embedded systems",
    "function": "unknown",
    "split": null,
@@ -4723,6 +5248,17 @@
    "evidence": "abstract"
   },
   {
+   "title": "Software-based Detection and Mitigation of Microarchitectural Attacks on Intel’s x86 Architecture",
+   "function": "unknown",
+   "split": null,
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Maria Mushtaq",
+   "url": "https://doi.org/10.70675/f4d33b0azf0daz4285z83b6z83477b3610aa",
+   "cited_by": 3,
+   "evidence": "abstract"
+  },
+  {
    "title": "A Noise-resilient Detection Method against Advanced Cache Timing Channel Attack",
    "function": "unknown",
    "split": null,
@@ -4743,6 +5279,28 @@
    "year": 2026,
    "authors": "Martin Schwarzl, Haocheng Xiao, Albert Pedersen et al.",
    "url": "https://www.semanticscholar.org/paper/2c070649c696e54e7b5c9a5f9fb222f386f569cd",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Reverse Engineering and Systematic Evaluation of Prefetcher-Based Security Vulnerabilities in Commercial RISC-V Processors",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Lecture notes in computer science",
+   "authors": "Wenxin Mao, Quancheng Wang, Ke Xu et al.",
+   "url": "https://doi.org/10.1007/978-3-032-42936-0_11",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Sentinel: An Isolation Framework for Security Services on TrustZone",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Lecture notes in computer science",
+   "authors": "Nian Liu, Kun Lu, Fengwei Zhang",
+   "url": "https://doi.org/10.1007/978-3-032-42936-0_5",
    "cited_by": 0,
    "evidence": "title_only"
   },

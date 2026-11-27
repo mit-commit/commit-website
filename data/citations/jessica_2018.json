@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "jessica:2018",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 1,
-  "works": 1,
+  "records_raw": 2,
+  "works": 2,
   "commit": 0,
-  "judged": 1,
+  "judged": 2,
   "gscholar": null
  },
  "citations": [
@@ -23,6 +23,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Proposition d'un modèle pour l'optimisation automatique de boucles dans le compilateur Tiramisu : cas d'optimisation de déroulage",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "arXiv",
+   "authors": "Asma Balamane, Zina Taklit",
+   "url": "https://doi.org/10.48550/arxiv.1908.01057",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   }
  ]
 }

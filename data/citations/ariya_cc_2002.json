@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "ariya:cc:2002",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 34,
-  "works": 33,
+  "records_raw": 43,
+  "works": 42,
   "commit": 1,
-  "judged": 33,
+  "judged": 40,
   "gscholar": null
  },
  "citations": [
@@ -26,6 +26,19 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "On-site, Non-speculative Failure Diagnosis with CLODS",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "ACM SIGOPS Symposium on Operating Systems Principles (SOSP)",
+   "authors": "Rishikesh Devsot, Yi Yu, ChenXing Yang et al.",
+   "url": "https://doi.org/10.1145/3830418.3843912",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Secure distributed multiple imputation enables missing data inference for private data proprietors",
@@ -156,6 +169,18 @@
    "evidence": "abstract"
   },
   {
+   "title": "A Bibliography of Publications about the Python Scripting and Programming Language",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2015,
+   "authors": "Nelson H. F. Beebe",
+   "url": "https://openalex.org/W2183796494",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "abstract"
+  },
+  {
    "title": "Automatic Python code generation for Embedded/Cyber-Physical Systems",
    "function": "supports-claim",
    "split": "detailed",
@@ -164,6 +189,31 @@
    "authors": "Pedro Vale, Fernando Pereira",
    "url": "https://doi.org/10.1109/yef-ece58420.2023.10209340",
    "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Sull'automazione del rilevamento dei problemi di prestazioni nei sistemi software attraverso l'analisi empirica",
+   "function": "supports-claim",
+   "split": "detailed",
+   "venue": "Archivio Istituzionale della Ricerca - Università degli Studi dell Aquila",
+   "authors": "MUHAMMAD IMRAN",
+   "url": "https://openalex.org/W7217366765",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Static Metrics Are Insufficient: Predicting Java Method Energy Usage with Execution Time",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Muhammad Imran, Vincenzo Stoico, Ivano Malavolta",
+   "url": "https://doi.org/10.48550/arxiv.2607.06124",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -193,6 +243,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "An End-to-End Programming Model for AI Engine Architectures",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "International Symposium on Highly Efficient Accelerators and Reconfigurable Technologies (HEART)",
+   "authors": "Maksim Levental, Arham Khan, Ryan Chard et al.",
+   "url": "https://doi.org/10.1145/3665283.3665294",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "JACC: Leveraging HPC Meta-Programming and Performance Portability with the Just-in-Time and LLVM-based Julia Language",
@@ -313,6 +376,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "PopPy: Opportunistically Exploiting Parallelism in Python Agentic Workflows",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "authors": "Stephen Mell, David Mell, Harry Y. H. Li et al.",
+   "url": "https://www.semanticscholar.org/paper/1cea3529a62ba0629181740234e937f989d182fa",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "abstract+contexts"
+  },
+  {
    "title": "PopPy: Opportunistically Exploiting Parallelism in Python Compound AI Applications",
    "function": "passing-citation",
    "split": "passing",
@@ -324,6 +399,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Practical parse-time grammar extension in LR parsers",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Journal of Systems and Software",
+   "authors": "Walter Cazzola, Luca Favalli",
+   "url": "https://doi.org/10.1016/j.jss.2026.113137",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Easy Acceleration with Distributed Arrays",
@@ -468,6 +556,31 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Full-stack control system for ultracold Rydberg atom quantum computers and simulators",
+   "function": "unknown",
+   "split": null,
+   "year": 2024,
+   "venue": "theses.fr (ABES)",
+   "authors": "Manuel Morgado",
+   "url": "https://doi.org/10.70675/7167d192z0d6fz4a56z8675zebc27d8e972e",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Program performance optimization",
+   "function": "unclassified",
+   "split": null,
+   "year": 2025,
+   "venue": "Theoretical and computational chemistry",
+   "authors": "Qiming Sun",
+   "url": "https://doi.org/10.1016/b978-0-44-323837-6.00018-1",
+   "cited_by": 1,
+   "evidence": "title_only"
   }
  ]
 }

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "falsesharing:sc:2013",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 45,
-  "works": 37,
+  "records_raw": 49,
+  "works": 41,
   "commit": 0,
-  "judged": 33,
+  "judged": 37,
   "gscholar": null
  },
  "citations": [
@@ -92,6 +92,23 @@
    "confidence": "medium",
    "secondary": [
     "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "命令サンプリングによるメモリ性能問題の検出手法",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "Institutional Repositories DataBase (IRDB)",
+   "authors": "Christian Helm",
+   "url": "https://doi.org/10.15083/0002006439",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "baseline"
    ],
    "evidence": "fulltext"
   },
@@ -207,6 +224,22 @@
     "exemplifies"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Rescuing Data Center Processors",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Tanvir Ahmed Khan",
+   "url": "https://doi.org/10.7302/8143",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "HPC Ontology: Towards a Unified Ontology for Managing Training Datasets and AI Models for High-Performance Computing",
@@ -360,6 +393,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Accelerating HPC Performance Modeling Via Diffusion-Based Synthetic Data Generation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "IEEE International Conference on Cluster Computing (CLUSTER)",
+   "authors": "Mohammad Ali, Apan Qasem",
+   "url": "https://doi.org/10.1109/cluster68337.2026.00044",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Multi-Tiered Autotuner for Portable Heterogeneous-Compute Interfaces",
    "function": "passing-citation",
    "split": "passing",
@@ -371,6 +417,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Contribution to automatic performance analysis of parallel applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "HAL",
+   "authors": "François Trahay",
+   "url": "https://openalex.org/W4392497523",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Performance profilers and debugging tools for openMP applications",

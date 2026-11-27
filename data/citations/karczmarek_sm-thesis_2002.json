@@ -1,16 +1,32 @@
 {
  "schema": 1,
  "key": "karczmarek:sm-thesis:2002",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 12,
-  "works": 8,
-  "commit": 3,
-  "judged": 8,
+  "records_raw": 23,
+  "works": 18,
+  "commit": 6,
+  "judged": 17,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Stream Programming for Image and Video Compression",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Matthew Drake",
+   "url": "https://openalex.org/W2145791143",
+   "cited_by": 3,
+   "centrality": "core",
+   "confidence": "low",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract"
+  },
   {
    "title": "Efficient Compilation of Stream Programs for Heterogeneous Architectures",
    "function": "adopts-idea",
@@ -23,6 +39,107 @@
    "centrality": "engaged",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Orchestration by approximation: mapping stream programs onto multicore architectures",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Sardar M. Farhad, Yousun Ko, Bernd Burgstaller et al.",
+   "url": "https://doi.org/10.1145/2248487.1950406",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "From Cyclo-Static Process Networks to Code Generation for Multidimensional Software Pipelining",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "theses.fr (ABES)",
+   "authors": "Mohammed Fellahi",
+   "url": "https://doi.org/10.70675/7aef2368z3e6cz4ce2z9827z502a3dd630d6",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A hybrid static/dynamic approach to scheduling stream programs",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Ceryen Tan",
+   "url": "https://openalex.org/W1527499625",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Commensal compiler for high-performance stream programming",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Jeffrey Bosboom",
+   "url": "https://openalex.org/W7139310983",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "StreamJIT: a commensal compiler for high-performance stream programming",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+   "authors": "Jeffrey Bosboom, Sumanaruban Rajadurai, Weng‐Fai Wong et al.",
+   "url": "https://doi.org/10.1145/2660193.2660236",
+   "cited_by": 15,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Teleport messaging for distributed stream programs",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+   "authors": "William Thies, Michal Karczmarek, Janis Sermulins et al.",
+   "url": "https://doi.org/10.1145/1065944.1065975",
+   "cited_by": 54,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
   },
   {
    "title": "Exploiting coarse-grained task, data, and pipeline parallelism in stream programs",
@@ -63,6 +180,23 @@
     "date": "2026-10-12",
     "evidence": "Title/abstract: “Our input language is StreamIt”"
    }
+  },
+  {
+   "title": "StreamIt: A Language and Compiler for Communication-Exposed Architectures",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2003,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "William Thies, Michael I. Gordon, Michal Karczmarek et al.",
+   "url": "https://openalex.org/W1529775534",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
   },
   {
    "title": "StreamJIT",
@@ -118,6 +252,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Cyclic Scheduling for the Synthesis of Embedded Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "Chapman & Hall/CRC computational science series/Chapman & Hall/CRC computational science",
+   "authors": "Olivier Marchetti, Alix Munier-Kordon",
+   "url": "https://doi.org/10.1201/9781420072747-c6",
+   "cited_by": 14,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "Code-size conscious pipelining of imperfectly nested loops",
    "function": "passing-citation",
    "split": "passing",
@@ -129,6 +276,20 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Architecture of a stream processing system",
+   "function": "unknown",
+   "split": null,
+   "year": 2014,
+   "venue": "Cambridge University Press eBooks",
+   "authors": "Henrique C. M. Andrade, Buğra Gedik, Deepak S. Turaga",
+   "url": "https://doi.org/10.1017/cbo9781139058940.009",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
   }
  ]
 }

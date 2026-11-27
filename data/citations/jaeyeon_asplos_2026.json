@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "jaeyeon:asplos:2026",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 2,
-  "works": 2,
+  "records_raw": 7,
+  "works": 7,
   "commit": 0,
-  "judged": 2,
+  "judged": 7,
   "gscholar": null
  },
  "citations": [
@@ -26,6 +26,76 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "An Expression is Worth a Thousand Words: Graph Algorithms in the Language of Extended Tensor Algebra Notation",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Toluwanimi O. Odemuyiwa",
+   "url": "https://openalex.org/W7221493579",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "TileMaxSim: Roofline Regimes and Compression Limits for Fused GPU MaxSim Scoring",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "authors": "Ashutosh Sharma",
+   "url": "https://www.semanticscholar.org/paper/360c5f0919fb09bee4dab8772ab09a04740971a2",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Decoupling Logical Masks from GPU Execution for Dynamic Block-Sparse Attention",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Shanghao Liu, Xiaoyun Yu, Wanting Li et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.25869",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "ForgeMegakernel: A General Framework for Efficient Auto-Regressive Model Decode Megakernels",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Leshan Li, Zhui Zhu, Xianglong Deng et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.12379",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Parallel Sparse Outputs for Tensor Compilers",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adrian Gushin, Pau Sum, Willow Ahrens",
+   "url": "https://doi.org/10.48550/arxiv.2610.19308",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Partitioning Unstructured Sparse Tensor Algebra for Load-Balanced Parallel Execution",

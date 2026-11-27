@@ -1,16 +1,33 @@
 {
  "schema": 1,
  "key": "halide:pldi:2013",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 1706,
-  "works": 1483,
-  "commit": 40,
-  "judged": 1103,
+  "records_raw": 2011,
+  "works": 1788,
+  "commit": 44,
+  "judged": 1367,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "User-Schedulable Approximations for Quantized Tensor Programs",
+   "function": "extends",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Alex Reinking",
+   "url": "https://doi.org/10.48550/arxiv.2611.17526",
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea",
+    "uses-tool"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "MISAAL: Synthesis-Based Automatic Generation of Efficient and Retargetable Semantics-Driven Optimizations",
    "function": "extends",
@@ -518,6 +535,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Applications of novel programming languages and compilation techniques to accelerating quantum many-body science",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "Radboud Repository (Radboud University)",
+   "authors": "Westerhout, T.",
+   "url": "https://openalex.org/W7112839825",
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Multi-Architecture Halide Template-Driven Automatic Library Function Generation for Simulink Models",
    "function": "uses-tool",
    "split": "detailed",
@@ -542,6 +572,21 @@
    "centrality": "core",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Proceedings of the 25th Conference on Formal Methods in Computer-Aided Design \u2013 FMCAD 2025",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "Directory of Open access Books (OAPEN Foundation)",
+   "url": "https://openalex.org/W7208888530",
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A hierarchical data partitioning strategy for irregular applications: a case study in digital pathology",
@@ -609,6 +654,38 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Verifying a Radio Telescope Pipeline Using HaliVer: Solving Nonlinear and Quantifier Challenges",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 3,
+   "year": 2024,
+   "venue": "Lecture notes in computer science",
+   "authors": "Lars B. van den Haak, Anton Wijs, Marieke Huisman et al.",
+   "url": "https://doi.org/10.1007/978-3-031-68150-9_9",
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Accelerating Halide on an FPGA by using CIRCT and Calyx as an intermediate step to go from a high-level and software-centric IRs down to RTL",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 2,
+   "year": 2023,
+   "venue": "UPCommons institutional repository (Universitat Polit\u00e8cnica de Catalunya)",
+   "authors": "Granell Escalfet, Sergi",
+   "url": "https://openalex.org/W7112904522",
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Accelerating OpenVX through Halide and MLIR",
    "function": "uses-tool",
    "split": "detailed",
@@ -620,6 +697,22 @@
    "centrality": "core",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "AKGF: Automatic Kernel Generation for DNN on CPU-FPGA",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 5,
+   "year": 2023,
+   "venue": "The Computer Journal",
+   "authors": "Dong Dong, Hongxu Jiang, Boyu Diao",
+   "url": "https://doi.org/10.1093/comjnl/bxad086",
+   "centrality": "core",
+   "confidence": "medium",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "abstract"
   },
   {
    "title": "Amber: A 16-nm System-on-Chip With a Coarse- Grained Reconfigurable Array for Flexible Acceleration of Dense Linear Algebra",
@@ -695,6 +788,19 @@
    "centrality": "engaged",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Implementing scalable matrix-vector products for the exact diagonalization methods in quantum many-body physics",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 5,
+   "year": 2023,
+   "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+   "authors": "Tom Westerhout, Bradford L. Chamberlain",
+   "url": "https://doi.org/10.1145/3624062.3624597",
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Performance evaluation of halide auto-scheduler with directional cubic convolution interpolation",
@@ -816,6 +922,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Proceedings of the 22nd Conference on Formal Methods in Computer-Aided Design \u2013 FMCAD 2022",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 32,
+   "year": 2022,
+   "venue": "arXiv",
+   "authors": "Vigouroux, Thomas, Cristian Ene, David P. Monniaux et al.",
+   "url": "https://doi.org/10.34727/2022/isbn.978-3-85448-053-2",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Synthesizing Instruction Selection Rewrite Rules from RTL using SMT",
    "function": "uses-tool",
    "split": "detailed",
@@ -830,6 +949,23 @@
     "uses-benchmark"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Translation validation of tensor compilers",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 3,
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Basile Cl\u00e9ment",
+   "url": "https://doi.org/10.70675/0467c7a2ze4a9z4754z9e5eze9e51447e92d",
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "extends",
+    "uses-benchmark"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Vector instruction selection for digital signal processors using program synthesis",
@@ -1006,6 +1142,23 @@
    "evidence": "contexts"
   },
   {
+   "title": "Automatic scheduling of image processing pipelines",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2020,
+   "venue": "TU/e Research Portal",
+   "authors": "Savvas Sioutas",
+   "url": "https://openalex.org/W3137300089",
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Compiler Abstractions and Runtime for Extreme-scale SAR and CFD Workloads",
    "function": "uses-tool",
    "split": "detailed",
@@ -1073,6 +1226,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "HETEROGENEOUS SYSTEM DESIGN AND OPTIMISATION FOR EMBEDDED VISION SYSTEMS",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2020,
+   "venue": "Research Explorer (The University of Manchester)",
+   "authors": "Chao Jiang",
+   "url": "https://openalex.org/W7127550946",
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "extends"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "iPIM: Programmable In-Memory Image Processing Accelerator Using Near-Bank Architecture",
    "function": "uses-tool",
    "split": "detailed",
@@ -1096,6 +1265,19 @@
    "centrality": "engaged",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Perceptual Optimizations for Video Capture, Processing, and Storage Systems",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2020,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Amrita Mazumdar",
+   "url": "https://openalex.org/W3180198826",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "SMAUG",
@@ -1308,6 +1490,27 @@
    "evidence": "contexts"
   },
   {
+   "title": "Domain Specific Language for Exascale",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 0,
+   "commit": true,
+   "year": 2018,
+   "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+   "authors": "Massachusetts Inst. of Tech., Cambridge, MA (United States), Saman P. Amarasinghe",
+   "url": "https://doi.org/10.2172/1458388",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Energy efficient accelerators for autonomous navigation in miniaturized robots",
    "function": "uses-tool",
    "split": "detailed",
@@ -1343,6 +1546,22 @@
    "centrality": "engaged",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Learning efficient image processing pipelines",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2018,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Micha\u00ebl Gharbi",
+   "url": "https://openalex.org/W2914618780",
+   "centrality": "core",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Making Halide Efficient for Multicore Systems",
@@ -1658,6 +1877,17 @@
    "evidence": "contexts"
   },
   {
+   "title": "Kent Academic Repository",
+   "function": "uses-tool",
+   "split": "detailed",
+   "cited_by": 0,
+   "authors": "Dominic A. Orchard, Matthew Danish, Mistral Contrastin et al.",
+   "url": "https://www.semanticscholar.org/paper/3428a8efa166262b61e37e9948d5ca50c7ea7912",
+   "centrality": "core",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
    "title": "Parallelizing Neural Network Models E ! ectively on GPU by Implementing Reductions Atomically",
    "function": "uses-tool",
    "split": "detailed",
@@ -1670,6 +1900,25 @@
     "lineage"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "A Compilation Model for Divergent Parallel Workloads",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Alexander J Root, Christophe Gyurgyik, Devanshu Ladsaria et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.22183",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Architecture-Aware Synthesis of Fused Linear Algebra Kernels",
@@ -1739,6 +1988,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Filtr: Compiling Bioinformatics Recurrences",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Bala Vinaithirthan, Shiv Sundram, Sneha D. Goenka et al.",
+   "url": "https://doi.org/10.1145/3839504",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "High-performance matrix multiplication micro-kernel generation for GPDSPs via MLIR progressive lowering",
    "function": "adopts-idea",
    "split": "detailed",
@@ -1765,6 +2030,38 @@
    "evidence": "contexts"
   },
   {
+   "title": "Performance Prediction Techniques for Deep Learning Systems: A Survey",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Yanghai Wang, Enda Yu, Xing Su et al.",
+   "url": "https://doi.org/10.1145/3862625",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Physical Execution Plans for Model-Driven Engineering: Decoupling DSL Design from Runtime-Specific Representations",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS)",
+   "authors": "Francisco Mart\u00ednez-Lasaca, Juan de Lara",
+   "url": "https://doi.org/10.1145/3822455.3838772",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Piper: A Programmable Distributed Training System",
    "function": "adopts-idea",
    "split": "detailed",
@@ -1789,6 +2086,55 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Tensor Program Compilation for Deep Learning on Modern GPUs",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Yaoyao Ding",
+   "url": "https://openalex.org/W7204020891",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "The Canonical Parallel Form as a Substrate for Parallelizing Compilers and Agentic Optimizers",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Yakup Budanaz, Pratyai Mazumder, Alexandru Calotoiu et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.28724",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Tiling-Aware Vectorization Framework for Perfect Loop Nests in MLIR",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Lecture notes in computer science",
+   "authors": "Chenchen Hong, Zhong Liu, Hongli Zhong et al.",
+   "url": "https://doi.org/10.1007/978-981-95-8399-7_30",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "VectorWeaver: A Stage-Aware Automated Optimization Framework for LLM Inference on Edge Platform",
@@ -1860,6 +2206,18 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Building Bridges: Julia as an MLIR Frontend",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "cited_by": 2,
+   "year": 2025,
+   "authors": "Jules Merckx",
+   "url": "https://www.semanticscholar.org/paper/49766ef4da58aba694c018bc5060a5e65f6ecf8b",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "abstract+contexts"
   },
   {
    "title": "GALA: A High Performance Graph Neural Network Acceleration LAnguage and Compiler",
@@ -2217,6 +2575,19 @@
    "centrality": "engaged",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Generating Work Efficient Scan Implementations for GPUs the Functional Way",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "cited_by": 4,
+   "year": 2022,
+   "venue": "Lecture notes in computer science",
+   "authors": "Federico Pizzuti, Michel Steuwer, Christophe Dubach",
+   "url": "https://doi.org/10.1007/978-3-031-12597-3_21",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "GraphIt to CUDA Compiler in 2021 LOC: A Case for High-Performance DSL Implementation via Staging with BuilDSL",
@@ -2599,6 +2970,36 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Program locality analysis based on reuseintervals",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2019,
+   "venue": "UR Research (University of Rochester)",
+   "authors": "Dong Chen",
+   "url": "https://openalex.org/W3201382364",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Scalable and Intelligent Learning Systems",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "cited_by": 7,
+   "year": 2019,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Tianqi Chen",
+   "url": "https://openalex.org/W3167613392",
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Supporting Very Large Models using Automatic Dataflow Graph Partitioning",
@@ -2986,6 +3387,54 @@
    "evidence": "contexts"
   },
   {
+   "title": "Conditional Rewrite Rule Synthesis Using E-Graphs and Implication Propagation",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "reposiTUm (TU Wien)",
+   "authors": "Andrew Cheung, Chandrakana Nandi, Sorin Lerner",
+   "url": "https://doi.org/10.34727/2026/isbn.978-3-85448-093-8_43",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "HPCAgent-Bench: A Framework for Sound Benchmarking of Code-Optimizing Agents, Harnesses, and Skills",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Yakup Budanaz, Lorenzo Paleari, Marcin Copik et al.",
+   "url": "https://doi.org/10.48550/arxiv.2610.20673",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Meta Build Systems as Logic Programs",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Alex Reinking",
+   "url": "https://doi.org/10.48550/arxiv.2611.17672",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Automated Translation Validation of a Compiler for Statically Scheduled Accelerators",
    "function": "uses-benchmark",
    "split": "detailed",
@@ -3078,6 +3527,22 @@
    "centrality": "engaged",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "GenMAT: A General-Purpose Machine Learning-Driven Auto-Tuner for Heterogeneous Platforms",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2021,
+   "authors": "Naifeng Zhang, Ajitesh Srivastava, Rajgopal Kannan et al.",
+   "url": "https://doi.org/10.1109/pehc54839.2021.00006",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "baseline"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "MPU: Towards Bandwidth-abundant SIMT Processor via Near-bank Computing",
@@ -3269,6 +3734,70 @@
    "evidence": "contexts"
   },
   {
+   "title": "AROMA : Augmented Reality Optimized Tone Mapping",
+   "function": "baseline",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "ACM Transactions on Graphics",
+   "authors": "Alexandre Chapiro, Krzysztof Wolski, Edgar Vel\u00e1zquez\u2010Armend\u00e1riz et al.",
+   "url": "https://doi.org/10.1145/3842539",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "ForgeStencil: Automating Per-Case Stencil Specialization from Kernels to 100+ Real Applications",
+   "function": "baseline",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Yaojian Chen, Yuxuan Li, Wubing Wan et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.06694",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Parallel Sparse Outputs for Tensor Compilers",
+   "function": "baseline",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adrian Gushin, Pau Sum, Willow Ahrens",
+   "url": "https://doi.org/10.48550/arxiv.2610.19308",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Retargetable Compilation for Tensor Kernels via a Unified Layout Abstraction",
+   "function": "baseline",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Likai Ma, Renze Chen, Tianqi Li et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.13741",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Efficient Locality-aware Instruction Stream Scheduling for Stencil Computation on ARM Processors",
    "function": "baseline",
    "split": "detailed",
@@ -3324,6 +3853,23 @@
    "evidence": "contexts"
   },
   {
+   "title": "Decoupling the optimization space of tensor computation for a better understanding of performance on Intel CPU",
+   "function": "baseline",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Nicolas Tollenaere",
+   "url": "https://doi.org/10.70675/f94898efz24f8z4784zbc06z2b1f62951a91",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "GCD2: A Globally Optimizing Compiler for Mapping DNNs to Mobile DSPs",
    "function": "baseline",
    "split": "detailed",
@@ -3352,6 +3898,22 @@
    "confidence": "high",
    "secondary": [
     "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Analyse de donn\u00e9es g\u00e9om\u00e9triques, au del\u00e0 des convolutions",
+   "function": "baseline",
+   "split": "detailed",
+   "cited_by": 76,
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Jean Feydy",
+   "url": "https://doi.org/10.70675/e788178aze133z4951zb8b4zf9614c9e629c",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "uses-tool"
    ],
    "evidence": "fulltext"
   },
@@ -3751,6 +4313,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Closing the Prediction Gap: Completing Machine Shape So That Predicted Time, Power, Energy, and Mapping Match What Real Hardware Does",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Lenore Mullin, Ga\u00e9tan Hains",
+   "url": "https://doi.org/10.48550/arxiv.2610.03197",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "CommILP: Synthesizing Communication Infrastructure for Domain Computing Platforms",
    "function": "positions",
    "split": "detailed",
@@ -3762,6 +4340,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Comparing Performance of GPU Abstractions in Bioimaging Pipelines",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "IEEE International Conference on eScience",
+   "authors": "Wouter Jan van den Berg, Rob V. van Nieuwpoort, Kristian F. D. Rietveld",
+   "url": "https://doi.org/10.1109/escience70237.2026.00015",
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Fast and Memory-Efficient Wavelet Convolutions via I/O-Aware Reformulation",
@@ -3789,6 +4380,48 @@
    "evidence": "contexts"
   },
   {
+   "title": "Hardware-Attributed Operator Profiling for PyTorch",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Logan Chu, Dong Li",
+   "url": "https://doi.org/10.48550/arxiv.2609.11938",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "JLIR: A Julia-Native MLIR-Inspired Intermediate Representation with Automatic JACC Kernel Extraction",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Narasinga Rao Miniskar, Seyong Lee, Keita Teranishi et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.04585",
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "tgLang: A Domain-Specific Language for Geometry Processing and Computational Imaging Workflows",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Journal of Imaging",
+   "authors": "Vijai Kumar Suriyababu, C. Vuik, Matthias M\u00f6ller",
+   "url": "https://doi.org/10.3390/jimaging12090406",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "UniTe: A Universal Tensor Abstraction for Capturing Spatial Relationships",
    "function": "positions",
    "split": "detailed",
@@ -3804,6 +4437,22 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Enabling Hardware-efficient On-Device Learning on Microcontroller-powered Ultra-low-power IoT Nodes",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "PORTO@Iris",
+   "authors": "Davide Nadalini",
+   "url": "https://doi.org/10.13121/polito/porto/3002988",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Exo 2: Growing a Scheduling Language",
@@ -3972,6 +4621,23 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Configurable Polyhedral Scheduling for All-Scenario Deep Learning Compilers",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2024,
+   "venue": "theses.fr (ABES)",
+   "authors": "Gianpietro Consolaro",
+   "url": "https://doi.org/10.70675/d6848fa8z8279z4addzbe70zd3aeb8bf1959",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "CrossRT: A cross platform programming technology for hardware-accelerated ray tracing in CG and CV applications",
    "function": "positions",
    "split": "detailed",
@@ -3983,6 +4649,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Fasor: A Fast Tensor Program Optimization Framework for Efficient DNN Deployment",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 5,
+   "year": 2024,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Han-Xian Huang, Xin Chen, Ji-Shen Zhao",
+   "url": "https://doi.org/10.1145/3650200.3656631",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Mirage: A Multi-Level Superoptimizer for Tensor Programs",
@@ -4043,6 +4725,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "A no-API approach to massive-parallel architectures",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2023,
+   "venue": "Keldysh Institute Preprints",
+   "authors": "Vladimir Alexandrovich Frolov, Vladimir Alexandrovich Galaktionov",
+   "url": "https://doi.org/10.20948/prepr-2023-58",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Code Generation for In-Place Stencils",
    "function": "positions",
    "split": "detailed",
@@ -4090,6 +4788,23 @@
    "evidence": "contexts"
   },
   {
+   "title": "A domain-extensible compiler with controllable automation of optimisations",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 4,
+   "year": 2022,
+   "venue": "arXiv",
+   "authors": "Thomas K\u0153hler",
+   "url": "https://doi.org/10.5525/gla.thesis.83323",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "baseline"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Modern C++ Point of View of Programming in Image Processing",
    "function": "positions",
    "split": "detailed",
@@ -4114,6 +4829,18 @@
    "centrality": "engaged",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Correct optimized GPU programs",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2022,
+   "authors": "Mohsen Safari",
+   "url": "https://doi.org/10.3990/1.9789036553421",
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Declarative Specification for Unstructured Mesh Editing Algorithms",
@@ -4153,6 +4880,35 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Performance optimization for the LHCb experiment",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 5,
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Arthur Marius Hennequin",
+   "url": "https://doi.org/10.70675/62ec1de1z4856z4b5dzb11ezc7022dbd7ff1",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "PULP-TrainLib: Enabling On-Device Training for RISC-V Multi-core MCUs Through Performance-Driven Autotuning",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 37,
+   "year": 2022,
+   "venue": "Lecture notes in computer science",
+   "authors": "Davide Nadalini, Manuele Rusci, Giuseppe Tagliavini et al.",
+   "url": "https://doi.org/10.1007/978-3-031-15074-6_13",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Specialized Accelerators and Compiler Flows: Replacing Accelerator APIs with a Formal Software/Hardware Interface",
@@ -4244,6 +5000,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Development in Vulkan: a domain-specific approach",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 3,
+   "year": 2021,
+   "venue": "Proceedings of the Institute for System Programming of RAS",
+   "authors": "Vladimir Alexandrovich Frolov, \u0412\u0430\u0434\u0438\u043c \u0421\u0430\u043d\u0436\u0430\u0440\u043e\u0432, Vladimir Alexandrovich Galaktionov et al.",
+   "url": "https://doi.org/10.15514/ispras-2021-33(5)-11",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "HWTool: Fully Automatic Mapping of an Extensible C++ Image Processing Language to Hardware",
@@ -4410,6 +5182,21 @@
    "evidence": "contexts"
   },
   {
+   "title": "High-performance backpropagation for structured-grid solvers",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2020,
+   "authors": "Navjot Kukreja",
+   "url": "https://doi.org/10.25560/88445",
+   "centrality": "engaged",
+   "confidence": "medium",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "MERIT: Tensor Transform for Memory-Efficient Vision Processing on Parallel Architectures",
    "function": "positions",
    "split": "detailed",
@@ -4468,6 +5255,23 @@
    "evidence": "contexts"
   },
   {
+   "title": "A Model-driven Framework for High-level Adaptation of Algorithms to Computing Architectures",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2019,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Alireza Heidar-Barghi",
+   "url": "https://openalex.org/W3088072420",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "AFFIX",
    "function": "positions",
    "split": "detailed",
@@ -4510,6 +5314,19 @@
    "secondary": [
     "exemplifies"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic performance optimisation of parallel programs for GPUs via rewrite rules",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2019,
+   "venue": "ERA",
+   "authors": "Toomas Remmelg",
+   "url": "https://openalex.org/W2995872452",
+   "centrality": "engaged",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -5055,6 +5872,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Toward Performance Portability for CPUs and GPUs Through Algorithmic Compositions",
+   "function": "positions",
+   "split": "detailed",
+   "cited_by": 3,
+   "year": 2017,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Li\u2010Wen Chang",
+   "url": "https://openalex.org/W2766965528",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Unrolled Memory Inner-Products: An Abstract GPU Operator for Efficient Vision-Related Computations",
@@ -5638,6 +6471,23 @@
    "evidence": "contexts"
   },
   {
+   "title": "Gezamenlijk ontwerp van Compilers en Hardware voor Versnelling van Deep Learning",
+   "function": "surveys",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Lirias",
+   "authors": "Josse Van Delm",
+   "url": "https://openalex.org/W7225360533",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Scheduling Language Chronology: Past, Present, and Future",
    "function": "surveys",
    "split": "detailed",
@@ -5874,6 +6724,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Approche de conception haut-niveau pour l'acc\u00e9l\u00e9ration mat\u00e9rielle de calcul haute performance en finance",
+   "function": "surveys",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2017,
+   "venue": "theses.fr (ABES)",
+   "authors": "Valentin Mena Morales",
+   "url": "https://doi.org/10.70675/dd1acde8z7b9bz4c07z9d51z044f51c66b0f",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "High-Performance Computing Programming for Image Processing Based on Computer Architecture",
    "function": "surveys",
    "split": "detailed",
@@ -5884,6 +6750,90 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Programming methodologies for ADAS applications in parallel heterogeneous architectures",
+   "function": "surveys",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2017,
+   "venue": "theses.fr (ABES)",
+   "authors": "Djamila Dekkiche",
+   "url": "https://doi.org/10.70675/a593f93bz1c10z4114z9eeez1b24a422f0a6",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Tools for improving performance portability in heterogeneous environments",
+   "function": "surveys",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2017,
+   "venue": "RUC (Universidade Da Coru\u00f1a)",
+   "authors": "Jorge Fern\u00e1ndez-Fabeiro",
+   "url": "https://openalex.org/W2739318117",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiling Semi-Ring Dynamic Programming to Tier-Aware 3D-DRAM Processing-in-Memory",
+   "function": "supports-claim",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Mahbod Afarin, Tsung-Han Lu, Tajana Rosing",
+   "url": "https://doi.org/10.48550/arxiv.2610.09156",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Hardware-Aware Code Generation for Energy-Efficient Neural Network Accelerators",
+   "function": "supports-claim",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Journal of Advanced Artificial Intelligence Research",
+   "authors": "Riya Narula, Julita Wietecha, Hans Dieter Siering",
+   "url": "https://openalex.org/W7234669825",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "LLM-Prior-Guided Bayesian Optimization for Efficient Fused Kernel Scheduling",
+   "function": "supports-claim",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "2026 5th International Conference on Artificial Intelligence, Internet of Things and Cloud Computing Technology (AIoTC)",
+   "authors": "Tian-Yu Yu, Ping-Fei Cui",
+   "url": "https://doi.org/10.1109/aiotc71250.2026.11688782",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Scaly: an Optimizing Compiler for Optimal Control",
+   "function": "supports-claim",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Tudor Andrei Oancea, Colin Neil Jones",
+   "url": "https://doi.org/10.48550/arxiv.2610.41762",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "HYPERF: End-to-End Autotuning Framework for High-Performance Computing",
@@ -5898,6 +6848,19 @@
    "secondary": [
     "exemplifies"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Preserving provability over GPU program optimizations with annotation-aware transformations",
+   "function": "supports-claim",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2025,
+   "venue": "Formal Methods in System Design",
+   "authors": "\u00d6mer \u015eakar, Mohsen Safari, Marieke Huisman et al.",
+   "url": "https://doi.org/10.1007/s10703-025-00480-7",
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -5927,6 +6890,19 @@
    "secondary": [
     "passing-citation"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "On the Efficiency of Convolutional Neural Networks",
+   "function": "supports-claim",
+   "split": "detailed",
+   "cited_by": 6,
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Andrew Lavin",
+   "url": "https://doi.org/10.48550/arxiv.2404.03617",
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -5969,6 +6945,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Progress Report: A Deep Learning Guided Exploration of Affine Unimodular Loop Transformations",
+   "function": "supports-claim",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2022,
+   "venue": "arXiv",
+   "authors": "Massinissa Merouani, Khaled Afif Boudaoud, Iheb Nassim Aouadj et al.",
+   "url": "https://doi.org/10.48550/arxiv.2206.03684",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture",
    "function": "supports-claim",
    "split": "detailed",
@@ -5983,6 +6972,32 @@
     "adopts-idea"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Tools and Algorithms for the Construction and Analysis of Systems: 28th International Conference, TACAS 2022, Held as Part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2022, Munich, Germany, April 2\u20137, 2022, Proceedings, Part II",
+   "function": "supports-claim",
+   "split": "detailed",
+   "cited_by": 30,
+   "year": 2022,
+   "venue": "Lecture notes in computer science",
+   "authors": "Dana Fisman, Grigore Ro\u015fu",
+   "url": "https://doi.org/10.1007/978-3-030-99527-0",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Image color correction, enhancement, and editing",
+   "function": "supports-claim",
+   "split": "detailed",
+   "cited_by": 2,
+   "year": 2021,
+   "venue": "arXiv",
+   "authors": "Mahmoud Afifi",
+   "url": "https://doi.org/10.48550/arxiv.2107.13117",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Survey and design of paleozoic: a high-performance compiler tool chain for deep learning inference accelerator",
@@ -6098,6 +7113,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "\u0391\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u03c4\u03b7\u03c2 \u03b1\u03c0\u03cc\u03c3\u03c4\u03b1\u03c3\u03b7\u03c2 \u03b5\u03c0\u03b1\u03bd\u03b1\u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7\u03c2 \u03b4\u03b5\u03b4\u03bf\u03bc\u03ad\u03bd\u03c9\u03bd \u03c3\u03b5 \u03b5\u03c0\u03af\u03c0\u03b5\u03b4\u03bf \u03c0\u03b7\u03b3\u03b1\u03af\u03bf\u03c5 \u03ba\u03ce\u03b4\u03b9\u03ba\u03b1 \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03b2\u03b5\u03bb\u03c4\u03b9\u03c3\u03c4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03c4\u03b7\u03c2 \u03c4\u03bf\u03c0\u03b9\u03ba\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 \u03b1\u03bd\u03b1\u03c6\u03bf\u03c1\u03ac\u03c2 \u03c3\u03b5 \u03b1\u03bb\u03b3\u03bf\u03c1\u03af\u03b8\u03bc\u03bf\u03c5\u03c2 \u03cc\u03c0\u03bf\u03c5 \u03ba\u03c5\u03c1\u03b9\u03b1\u03c1\u03c7\u03bf\u03cd\u03bd \u03b2\u03c1\u03cc\u03c7\u03bf\u03b9 \u03b5\u03c0\u03b1\u03bd\u03ac\u03bb\u03b7\u03c8\u03b7\u03c2",
+   "function": "supports-claim",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2018,
+   "authors": "Christakis Lezos",
+   "url": "https://doi.org/10.12681/eadd/45200",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Program Analysis and Compilation Techniques for Speeding up Transactional Database Workloads",
    "function": "supports-claim",
    "split": "detailed",
@@ -6142,6 +7169,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Commensal compiler for high-performance stream programming",
+   "function": "supports-claim",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2014,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Jeffrey Bosboom",
+   "url": "https://openalex.org/W7139310983",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "StreamJIT",
    "function": "supports-claim",
    "split": "detailed",
@@ -6170,6 +7210,45 @@
    "evidence": "contexts"
   },
   {
+   "title": "Impeller: Scalable and Efficient Zero-Knowledge Proof Computation Framework via Graph Compilation",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2027,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Liukun Yu, Xinwei Qiang, Shixuan Sun et al.",
+   "url": "https://doi.org/10.1145/3845814.3850027",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "TIRx: A Unified Tile Primitive ML Compiler Across Heterogeneous Backends",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 4,
+   "year": 2027,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Bohan Hou, Hongyi Jin, Guanjie Wang et al.",
+   "url": "https://doi.org/10.1145/3845814.3850059",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Building as a Repository: KIR, a Typed Intermediate Representation for Agent-Authored Building Information Models",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Dmitry Kuklev",
+   "url": "https://doi.org/10.48550/arxiv.2609.14578",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Decoupled Analytical Model for Tile Size Selection in Affine Programs",
    "function": "exemplifies",
    "split": "passing",
@@ -6181,6 +7260,35 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "abstract+contexts"
+  },
+  {
+   "title": "A Language Approach to Fine-Grained Microarchitectural Observation",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Guokai Chen, Sergi Soler Arrufat, Cl\u00e9ment Pit-Claudel et al.",
+   "url": "https://doi.org/10.1145/3839486",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Novel AI-Native GPU Kernel Programming Language for Autonomous Kernel Tuning",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Proceedings of the 2026 ACM SIGOPS Annual Technical Conference",
+   "authors": "Heng Shi, Xiao-Feng Guan, Si-Jie Wu et al.",
+   "url": "https://doi.org/10.1145/3828523.3857041",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A Two-Stage GPU Kernel Tuner Combining Semantic Refactoring and Search-Based Optimization",
@@ -6196,6 +7304,100 @@
    "evidence": "contexts"
   },
   {
+   "title": "A ve: Guiding Agentic GPU Optimization Using Data-Flow Invariants",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 5,
+   "year": 2026,
+   "venue": "ACM SIGOPS Symposium on Operating Systems Principles (SOSP)",
+   "authors": "Haohui Mai, Xiaoyan Guo, Xiangyun Ding et al.",
+   "url": "https://doi.org/10.1145/3830418.3843902",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Adaptive Operator Fusion with Subproblem Decomposition for Enhanced Memory Efficiency",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Proceedings of the International Conference on Parallel Processing",
+   "authors": "Heng Shi, Xiaofeng Guan, Jianguo Yao",
+   "url": "https://doi.org/10.1145/3832810.3832848",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "AlphaCu: A Transformation-Driven Synthesis Framework for LLM-Based GPU Kernel Generation",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
+   "authors": "Yang-Jie Zhou, Xing-Chen Ma, Zi-Han Liu et al.",
+   "url": "https://doi.org/10.1145/3832783.3837433",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An Arbitrary Register Grouping Scheme for RISC-V Vector Extension: Compilation Support and Hardware Implementation",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 3,
+   "year": 2026,
+   "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+   "authors": "Li-Min Jiang, Siyi Xu, Yintao Liu et al.",
+   "url": "https://doi.org/10.1109/tcad.2025.3649448",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An Expression is Worth a Thousand Words: Graph Algorithms in the Language of Extended Tensor Algebra Notation",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Toluwanimi O. Odemuyiwa",
+   "url": "https://openalex.org/W7221493579",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "AscendKernelGen: A Systematic Study of LLM-Based Kernel Generation for Neural Processing Units",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 20,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Xinzi Cao, Jianyang Zhai, Pengfei Li et al.",
+   "url": "https://doi.org/10.48550/arxiv.2601.07160",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "AscendKernelGen: LLM-Driven Kernel Generation for NPUs",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "Findings of the Association for Computational Linguistics: ACL (Findings of ACL)",
+   "authors": "Xinzi Cao, Jianyang Zhai, Pengfei Li et al.",
+   "url": "https://doi.org/10.18653/v1/2026.findings-acl.1533",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "AscendOptimizer: Episodic Agent for Ascend NPU Operator Optimization",
    "function": "exemplifies",
    "split": "passing",
@@ -6207,6 +7409,58 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "AsmEvo: Agentic Assembly-Level Optimization of AMD GPU Kernels with Functional Equivalence Verification",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Ji Liu, Puyuan Yang, Rongzhang Zheng et al.",
+   "url": "https://doi.org/10.48550/arxiv.2608.20711",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Astaroth: A scientific computing framework for accelerating stencil computations.",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "The Journal of Open Source Software",
+   "authors": "Touko Puro, Johannes Pekkil\u00e4, Miikka S. V\u00e4is\u00e4l\u00e4 et al.",
+   "url": "https://doi.org/10.21105/joss.10631",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic Generation of Portable RVV Micro-Kernels through a Hybrid MLIR\u2013xDSL Compilation Framework",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD)",
+   "authors": "Jie Lei, H\u00e8ctor Mart\u00ednez, Adri\u00e1n Castell\u00f3",
+   "url": "https://doi.org/10.1109/sbac-pad70266.2026.00038",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "CCom: A Compiler Framework for Linear Algebra on CXL-Attached Memory",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Proceedings of the 5th Workshop on Heterogeneous Composable and Disaggregated Systems",
+   "authors": "Zhen Peng, R. Gioiosa, Gokcen Kestor et al.",
+   "url": "https://doi.org/10.1145/3832472.3832475",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "CKTI: A Domain-Specific Compiler for Lowering CUDA Kernels to Triton-IR",
@@ -6222,6 +7476,105 @@
    "evidence": "contexts"
   },
   {
+   "title": "Clockwork: A Compiler for Composable Network Simulation Schedulers",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "authors": "Hui Li, Yihan Dang, Danfeng Shan et al.",
+   "url": "https://doi.org/10.1145/3828523.3857018",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Comparing Parallel Functional Array Languages: Programming and Performance",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Journal of Parallel and Distributed Computing",
+   "authors": "D. V. van Balen, Tiziano De Matteis, C. Grelck et al.",
+   "url": "https://doi.org/10.1016/j.jpdc.2026.105375",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Composable Rewrites for Layouts of Algebraic Data Types",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Christophe Gyurgyik, Alexander J Root, Benjamin Driscoll et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.19113",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Cross-Abstraction Equality Saturation for Idiom Recognition and Hardware Sharing",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "authors": "Jonathan Van der Cruysse",
+   "url": "https://doi.org/10.82308/55853",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Cross3DGS: Unified Vulkan-Based 3D Gaussian Splatting Training from Workstations to Mobile Devices",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Hiroyuki Sato, Yusuke Takimoto",
+   "url": "https://doi.org/10.48550/arxiv.2611.22240",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "DLCB: Ahead-of-Time Compilation for Dynamic Deep Learning",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "A. Collins, Bin Fan, Evghenii Gaburov et al.",
+   "url": "https://doi.org/10.48550/arxiv.2610.10547",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Effect of Abstractions and Prompting Strategies on LLM-Guided High-Performance Optimizations",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Ji\u0159\u00ed Klepl, Maty\u00e1\u0161 Brabec, Martin Kruli\u0161",
+   "url": "https://doi.org/10.48550/arxiv.2608.08085",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "baseline"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Enabling RISC-V Vector Code Generation in MLIR through Custom xDSL Lowerings",
    "function": "exemplifies",
    "split": "passing",
@@ -6233,6 +7586,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Enhancing the Power of Polyhedral-Based Optimizations with Coordinate-Based Hill Climbing",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Gaurav Verma, Michael Canesche, Fernando Magno Quint\u00e3o Pereira",
+   "url": "https://doi.org/10.48550/arxiv.2609.03114",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Enhancing transformer performance and portability through auto-tuning frameworks",
@@ -6287,6 +7653,45 @@
    "evidence": "contexts"
   },
   {
+   "title": "GLASS: Architecture-Tuned, Composable, Device-Side Linear Algebra for Edge Robotics and Beyond",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Brian Plancher",
+   "url": "https://doi.org/10.48550/arxiv.2609.28179",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "GPU Goldmines: Tunable WebGPU Kernels for Edge LLM Inference",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Rithik Sharma, Reese Levine, Zheyuan Chen et al.",
+   "url": "https://doi.org/10.48550/arxiv.2610.17321",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "HexVIO: Towards All-Day Stereo-Inertial Tracking Through Commodity DSPs",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Patrick Wolf, Mateo de Mayo, Daniel Cremers",
+   "url": "https://doi.org/10.48550/arxiv.2610.03283",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "High-level Programming of Vulkan-based GPUs Through OpenMP",
    "function": "exemplifies",
    "split": "passing",
@@ -6330,6 +7735,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Aheli Poddar, Sanskar Prasad, Arindam Samanta et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.30059",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Kuiper: Correct and Efficient GPU Programming with Dependent Types and Separation Logic",
    "function": "exemplifies",
    "split": "passing",
@@ -6341,6 +7759,45 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "LLM4LLM: Bridging Kernel Benchmarks and Real Deployment via Closed-Loop Agentic Optimization",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+   "authors": "Hui Zeng, Pengfei Yang, Yanxin Chen et al.",
+   "url": "https://doi.org/10.18653/2026.emnlp-main.859",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "MaxKernel: Agentic Kernel Generation for TPUs",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 3,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Shangkun Wang, Nina Cai, Charles Hoong et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.04523",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "M\u00e9thodologie de mod\u00e9lisation bas\u00e9e sur l'apprentissage machine pour l'estimation rapide de m\u00e9triques de performances des acc\u00e9l\u00e9rateurs embarqu\u00e9s de r\u00e9seaux de neurones convolutionnels",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "theses.fr (ABES)",
+   "authors": "William Fabre",
+   "url": "https://doi.org/10.70675/db647663z889cz43c2z832fz9914a2b7b1ad",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Nautilus: An Auto-Scheduling Tensor Compiler for Efficient Tiled GPU Kernels",
@@ -6369,6 +7826,48 @@
    "evidence": "contexts"
   },
   {
+   "title": "Program lifting for acceleration",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "ERA",
+   "authors": "Jos\u00e9 Wesley de Souza Magalh\u00e3es",
+   "url": "https://doi.org/10.7488/era/7291",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Programming Languages for Artificial Intelligence and Machine Learning: An Updated Analysis with Original Benchmarks on Emerging Contenders, Systems Performance Evaluation, AI Tooling Sociology Perspective, and Quantified LLM Bias",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "TechRxiv",
+   "authors": "Chetan Mukhopadhyay",
+   "url": "https://doi.org/10.36227/techrxiv.176789887.71347340/v1",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "P\u00eal\u03b1\u03b3os: An Adaptive GPU Decoder for Error Correction Simulations of Quantum LDPC Codes",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "IEEE International Conference on Quantum Software (QSW)",
+   "authors": "Dionysios Diamantopoulos, Luc von Niederh\u00e4usern, Andreea Simona Anghel et al.",
+   "url": "https://doi.org/10.1109/qsw72780.2026.00025",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "RADI: A High-Performance Reconfigurable Array-Based Accelerator for DNN Implementations",
    "function": "exemplifies",
    "split": "passing",
@@ -6380,6 +7879,45 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "RECURSUM: Automated Code Generation for Recurrence Relations Exceeds Expert Optimization via LayeredCodegen",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 3,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Rub\u00e9n Dar\u00edo Guerrero",
+   "url": "https://doi.org/10.48550/arxiv.2604.18585",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Runtime and compilation optimizations for GPU-based subgraph matching",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Iowa Research Online (The University of Iowa)",
+   "authors": "Yihua Wei",
+   "url": "https://doi.org/10.25820/etd.008420",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "SimDSL: A Domain-Specific Language for Large-Scale GPU-Resident Simulation",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Software",
+   "authors": "Anisha Tasnim, Tian Zhao",
+   "url": "https://doi.org/10.3390/software5030037",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "abstract+contexts"
   },
   {
    "title": "SmartDispatch: Dynamic Substitution of NumPy-Style APIs on Heterogeneous CPU-GPU Systems",
@@ -6395,6 +7933,106 @@
    "evidence": "contexts"
   },
   {
+   "title": "Source-to-Source Transformations for GPU Code Generation",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Julien de Castelnau, Thomas K\u0153hler, Arthur Chargu\u00e9raud et al.",
+   "url": "https://doi.org/10.48550/arxiv.2605.13864",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Stencil Computation at the Intersection of AI and HPC",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Timoth\u00e9e Ewart, Mauricio Araya-Polo",
+   "url": "https://doi.org/10.48550/arxiv.2609.10368",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Tenon: A Unified Programming Framework for Retargetable PIM Compilation",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Niansong Zhang, Shiran Guo, Zhiru Zhang",
+   "url": "https://doi.org/10.48550/arxiv.2611.25636",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "TileCas: Cascading Kernel Development Across Programming Abstractions",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Xinyu Xiao, Zihe Song, Dezhi Ran et al.",
+   "url": "https://doi.org/10.48550/arxiv.2610.14740",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "TileLang: Bridge Programmability and Performance in Modern Neural Kernels",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 21,
+   "year": 2026,
+   "venue": "International Conference on Learning Representations",
+   "authors": "Lei Wang, Yu Cheng, Yining Shi et al.",
+   "url": "https://openalex.org/W7236508383",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Topological and Geometric Native Coding for Higher Dimensional Programming",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "authors": "Elias Oulad Brahim",
+   "url": "https://doi.org/10.2139/ssrn.7536578",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "TQP++: Bridging ML Compilers and Analytical Query Processing on GPUs",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "Proceedings of the VLDB Endowment",
+   "authors": "Wei Cui, Peng Cheng, Carlo Curino et al.",
+   "url": "https://doi.org/10.14778/3827998.3828020",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "abstract+contexts"
+  },
+  {
    "title": "TTX: Towards Autotuning Triton Kernels via Latency Prediction with XGBoost",
    "function": "exemplifies",
    "split": "passing",
@@ -6408,6 +8046,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Unleashing the Power of Equality Saturation for Tensor Program Superoptimization",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Qi Zhan, Xing Hu, Xin Xia et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.12330",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Vectorizer: Vectorizing NumPy Programs with Shape-Guided Rewrite",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Jingqian Liu, Xiaoyu Liu, Yuepeng Wang",
+   "url": "https://doi.org/10.48550/arxiv.2609.08088",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "VelKoz: Generating Accelerators for Rigid-Flexible Robots through Domain Specific High-level Synthesis",
    "function": "exemplifies",
    "split": "passing",
@@ -6419,6 +8083,47 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Verification of Compiler-to-Accelerator Mappings for Machine Learning Accelerators",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Akash Gaonkar, Mike He, Li Yi et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.30651",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Vx: A Programming Language for Scalable, Maintainable and Secure Systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "authors": "Aditya Kumar",
+   "url": "https://www.semanticscholar.org/paper/fbfc7c7b6dd25411e25047b2552792e7bb2dbd4a",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "abstract+contexts"
+  },
+  {
+   "title": "Yaksha-Prashna: Bridging the Semantic Gap in eBPF Bytecode Analysis and Diagnostics",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 2,
+   "year": 2026,
+   "venue": "Proceedings of the ACM on Networking",
+   "authors": "Animesh Singh, K Shiv Kumar, S. VenkataKeerthy et al.",
+   "url": "https://doi.org/10.1145/3856981",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Yaksha-Prashna: Understanding eBPF Bytecode Network Function Behavior",
@@ -6557,6 +8262,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Autocomp: A Powerful and Portable Code Optimizer for Tensor Accelerators",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 36,
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Hong, Charles, Bhatia, Sahil, Alvin Cheung et al.",
+   "url": "https://doi.org/10.48550/arxiv.2505.18574",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Beethoven: A Heterogeneous Multi-Core Accelerator System Composer",
    "function": "exemplifies",
    "split": "passing",
@@ -6568,6 +8286,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "abstract+contexts"
+  },
+  {
+   "title": "Challenges and Paths Towards AI for Software Engineering",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 50,
+   "year": 2025,
+   "venue": "Qeios",
+   "authors": "Alex Gu, Naman Jain, Weizhong Li et al.",
+   "url": "https://doi.org/10.32388/vv1661",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Compiler-aware AI Hardware Design for Edge Devices",
@@ -6594,6 +8325,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Data-Aware Complexity Analysis and Program Optimization",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2025,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Kyle Deeds",
+   "url": "https://openalex.org/W7126608815",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Dynamic Operator Optimization for Efficient Multi-Tenant LoRA Model Serving",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 9,
+   "year": 2025,
+   "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+   "authors": "Changhai Zhou, Yuhua Zhou, Shiyang Zhang et al.",
+   "url": "https://doi.org/10.1609/aaai.v39i21.34453",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "EDAS: Enabling Fast Data Loading for GPU Serverless Computing",
@@ -6633,6 +8390,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "ELTC: An End-to-End Large Language Model-Based Tensor Compilation Optimization Framework",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "Lecture notes in computer science",
+   "authors": "Wenbo Ma, Qingzeng Song, Fei Qiao et al.",
+   "url": "https://doi.org/10.1007/978-981-95-3585-9_12",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Evaluation Tool for Stencil Application Memory Usage",
@@ -6752,6 +8522,32 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Implementation of Hybrid CPU-GPU Programs in a Backtracking-based Load Balancing Framework",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2025,
+   "venue": "Journal of Information Processing",
+   "authors": "Jing Xu, Tasuku Hiraishi, Zhengyang Bai et al.",
+   "url": "https://doi.org/10.2197/ipsjjip.33.494",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Large language model enabled program synthesis",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "Edinburgh Research Archive (University of Edinburgh)",
+   "authors": "Yixuan Li",
+   "url": "https://doi.org/10.7488/era/6860",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Leonid: Exploring Automated Kernel Fusion in Performance-Portable Programming Models for Scientific Computation",
    "function": "exemplifies",
    "split": "passing",
@@ -6804,6 +8600,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Optimization Method for High-performance Libraries Targeting RISC-V Vector Extension",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2025,
+   "venue": "International Journal of Software and Informatics",
+   "authors": "Liutong Han, Hongbin Zhang, Mingjie Xing et al.",
+   "url": "https://doi.org/10.21655/ijsi.1673-7288.00354",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "ORCHA - A Performance Portability System for Post-Exascale Systems",
    "function": "exemplifies",
    "split": "passing",
@@ -6815,6 +8624,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "ORCHA: A performance portability system for extreme heterogeneity",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2025,
+   "venue": "The international journal of high performance computing applications",
+   "authors": "Youngjun Lee, K. Weide, Wesley Kwiecinski et al.",
+   "url": "https://doi.org/10.1177/10943420261465929",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "PEAK: A Performance Engineering AI-Assistant for GPU Kernels Powered by Natural Language Transformations",
@@ -6843,6 +8665,33 @@
    "evidence": "contexts"
   },
   {
+   "title": "Position: Future Research and Challenges Remain Towards AI for Software Engineering",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2025,
+   "venue": "International Conference on Machine Learning",
+   "authors": "Alex Gu, Naman Jain, Wen-Ding Li et al.",
+   "url": "https://openalex.org/W7238568856",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Proceedings of the 8th International Workshop on Edge Systems, Analytics and Networking",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2025,
+   "url": "https://doi.org/10.1145/3721888",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "RACAM: Enhancing DRAM with Reuse-Aware Computation and Automated Mapping for ML Inference",
    "function": "exemplifies",
    "split": "passing",
@@ -6854,6 +8703,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Research on Compiler Optimization Technology Based on Reinforcement Learning",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "International Conference on Electronic Information Engineering and Computer Science (EIECS)",
+   "authors": "Pingfei Cui, Shanhong He, Mengyao Chen et al.",
+   "url": "https://doi.org/10.1109/eiecs67708.2025.11283571",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Scaling Instruction-Selection Verification against Authoritative ISA Semantics",
@@ -6890,6 +8752,19 @@
    "venue": "Proceedings of the ACM on Programming Languages",
    "authors": "Mingyi Li, Junmin Xiao, Siyan Chen et al.",
    "url": "https://doi.org/10.1145/3763159",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Stream-K++: Adaptive GPU GEMM Kernel Selection and Scheduling for AI Using Bloom Filters",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "Lecture notes in computer science",
+   "authors": "Harisankar Sadasivan, Murat \u00d6ZT\u00dcRK, Muhammad Osama et al.",
+   "url": "https://doi.org/10.1007/978-3-032-07612-0_37",
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -6947,6 +8822,23 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Tensor program optimization through program synthesis",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "ERA",
+   "authors": "Brauckmann, Alexander",
+   "url": "https://doi.org/10.7488/era/6825",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "adopts-idea",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "TileLoom: Automatic Dataflow Planning for Tile-Based Languages on Spatial Dataflow Accelerators",
    "function": "exemplifies",
    "split": "passing",
@@ -6985,6 +8877,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Towards Hybrid CPU-GPU Computing in a Backtracking-based Load Balancing Framework",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "Bulletin of Networking, Computing, Systems, and Software",
+   "authors": "Jing Xu, Tasuku Hiraishi, Zhengyang Bai et al.",
+   "url": "https://openalex.org/W7220556319",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "VeriLocc: End-to-End Cross-Architecture Register Allocation via LLM",
    "function": "exemplifies",
    "split": "passing",
@@ -6996,6 +8901,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "A Performance-Portable MultiGPU Implementation of 3D Euler Equations using ProtoX and IRIS",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 3,
+   "year": 2024,
+   "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+   "authors": "Het Mankad, Mohammad Alaul Haque Monil, Sanil Rao et al.",
+   "url": "https://doi.org/10.1109/scw63240.2024.00215",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A Verified Compiler for a Functional Tensor Language",
@@ -7029,6 +8947,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Architectural strategies to enhance the latency and energy efficiency of mobile continuous visual localization systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2024,
+   "venue": "UPCommons institutional repository (Universitat Polit\u00e8cnica de Catalunya)",
+   "authors": "Ra\u00fal Taranco",
+   "url": "https://doi.org/10.5821/dissertation-2117-415317",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "autoGEMM: Pushing the Limits of Irregular Matrix Multiplication on Arm Architectures",
@@ -7067,6 +8998,32 @@
    "url": "https://doi.org/10.1145/3617232.3624873",
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "BOOM: Use your Desktop to Accurately Predict the Performance of Large Deep Neural Networks",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2024,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Qidong Su, Jiacheng Yang, Gennady G. Pekhimenko",
+   "url": "https://doi.org/10.1145/3656019.3676950",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Design of a data layout and memory access abstraction layer for heterogeneous architectures",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2024,
+   "venue": "Qucosa (Saxon State and University Library Dresden)",
+   "authors": "Gruber, Bernhard Manfred",
+   "url": "https://openalex.org/W7111903850",
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "fulltext"
   },
   {
@@ -7122,6 +9079,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Fearless and Zero-Cost Parallelism: Rust Promises and Performance Across Various Types of Parallelism",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2024,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "MohammadJavad Abdi",
+   "url": "https://openalex.org/W7133014333",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Felix: Optimizing Tensor Programs with Gradient Descent",
    "function": "exemplifies",
    "split": "passing",
@@ -7151,6 +9121,23 @@
    "evidence": "contexts"
   },
   {
+   "title": "Generation of Compiler Backends from Formal Models of Hardware",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Gus Henry Smith",
+   "url": "https://doi.org/10.48550/arxiv.2408.15429",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Guided Equality Saturation",
    "function": "exemplifies",
    "split": "passing",
@@ -7162,6 +9149,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Hardware and Software Optimizations for Deep Learning Workloads on Graphics Processing Units",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2024,
+   "venue": "University of North Texas Digital Library (University of North Texas)",
+   "authors": "Justin Garrigus",
+   "url": "https://doi.org/10.12794/metadc2415982",
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
   },
   {
    "title": "High-Performance FFT Code Generation via MLIR Linalg Dialect and SIMD Micro-Kernels",
@@ -7284,6 +9284,51 @@
    "evidence": "contexts"
   },
   {
+   "title": "The EDGE Language: Extended General Einsums for Graph Algorithms",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 16,
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Toluwanimi O. Odemuyiwa, Porumbescu, Serban D., Nayak, Nandeeka et al.",
+   "url": "https://doi.org/10.48550/arxiv.2404.11591",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "The First Tri-Lab Workshop on Formal Verification: Capabilities, Challenges, Research Opportunities, and Exemplars",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 2,
+   "year": 2024,
+   "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+   "authors": "Samuel D. Pollard, USDOE National Nuclear Security Administration (NNSA), Jon M. Aytac et al.",
+   "url": "https://doi.org/10.2172/2430026",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Towards Systematic and Precise Compilation of Domain-Specific Modelling Languages",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2024,
+   "venue": "Advances in intelligent systems and computing",
+   "authors": "Federico Ciccozzi",
+   "url": "https://doi.org/10.1007/978-3-031-56599-1_55",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "UFO Instruction Graphs Are Machine Knittable",
    "function": "exemplifies",
    "split": "passing",
@@ -7308,6 +9353,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "A Generic, Efficient, and Interactive Approach to Image Processing with Applications in Mathematical Morphology",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2023,
+   "venue": "theses.fr (ABES)",
+   "authors": "Baptiste Esteban",
+   "url": "https://doi.org/10.70675/9d684bd7z3372z4e01z95f8z3923a9627a16",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A GPU optimization workflow for real-time execution of ultra-high frame rate computer vision applications",
@@ -7828,6 +9886,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "A Cost Model for Compilers Based on Transfer Learning",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 3,
+   "year": 2022,
+   "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+   "authors": "Yuta Sasaki, Keichi Takahashi, Yoichi Shimomura et al.",
+   "url": "https://doi.org/10.1109/ipdpsw55747.2022.00152",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "uses-benchmark"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A framework for low communication approaches for large scale 3D convolution",
    "function": "exemplifies",
    "split": "passing",
@@ -7916,6 +9990,19 @@
    "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems",
    "authors": "E. Hellsten, Artur L. F. Souza, Johannes Lenfers et al.",
    "url": "https://doi.org/10.1145/3623278.3624770",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Building a Join Optimizer for Souffl\u00e9",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 26,
+   "year": 2022,
+   "venue": "Lecture notes in computer science",
+   "authors": "Samuel Arch, Xiaowen Hu, David Zhao et al.",
+   "url": "https://doi.org/10.1007/978-3-031-16767-6_5",
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -8075,6 +10162,19 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "GPU Load Balancing",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 4,
+   "year": 2022,
+   "venue": "arXiv",
+   "authors": "Muhammad Osama",
+   "url": "https://doi.org/10.48550/arxiv.2212.08964",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Just-In-Time Compiler System in Aspect-Oriented Programming based Building Block Platform for constructing Domain-Specific Language for HPC Application",
    "function": "exemplifies",
    "split": "passing",
@@ -8153,6 +10253,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "SODA-OPT: enabling system-level design in MLIR for HLS and beyond",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2022,
+   "venue": "Digital Repository Service (Northeastern University)",
+   "authors": "N\u00edcolas Bohm Agostini",
+   "url": "https://doi.org/10.17760/d20476846",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Sparsity-Specific Code Optimization using Expression Trees",
    "function": "exemplifies",
    "split": "passing",
@@ -8208,6 +10321,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Techniques for Managing Polyhedral Dataflow Graphs",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2022,
+   "venue": "Lecture notes in computer science",
+   "authors": "Ravi Shankar, Aaron Orenstein, Anna Rift et al.",
+   "url": "https://doi.org/10.1007/978-3-030-99372-6_9",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Tensor Program Optimization with Probabilistic Programs",
@@ -8277,6 +10406,23 @@
    "evidence": "contexts"
   },
   {
+   "title": "A Python-based programming language for high-performance computational genomics",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 22,
+   "commit": true,
+   "year": 2021,
+   "venue": "Nature Biotechnology",
+   "authors": "Ariya Shajii, Ibrahim Numanagi\u0107, Alexander T. Leighton et al.",
+   "url": "https://doi.org/10.1038/s41587-021-00985-6",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Reinforcement Learning Environment for Polyhedral Optimizations",
    "function": "exemplifies",
    "split": "passing",
@@ -8313,6 +10459,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Abstraction Raising in General-Purpose Compilers",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2021,
+   "venue": "TU/e Research Portal",
+   "authors": "Lorenzo Chelini",
+   "url": "https://openalex.org/W3197779198",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Automatically exploiting the memory hierarchy of GPUs through just-in-time compilation",
@@ -8397,6 +10559,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "From the algorithm to the targets, optimization flow for high performance computing on embedded GPUs",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2021,
+   "venue": "theses.fr (ABES)",
+   "authors": "Micka\u00ebl Seznec",
+   "url": "https://doi.org/10.70675/b4e4b92dz6eacz4629z98eaz7f54eed75a57",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Generating high performance code for irregular data structures using dependent types",
    "function": "exemplifies",
    "split": "passing",
@@ -8477,6 +10652,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "On Performance portability Via Runtime Adaptation for VO/VSLAMs",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2021,
+   "venue": "Research Explorer (The University of Manchester)",
+   "authors": "Abdullah Khalufa",
+   "url": "https://openalex.org/W7127555199",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "On-stack replacement for program generators and source-to-source compilers",
@@ -8666,6 +10854,19 @@
     "own-group"
    ],
    "evidence": "abstract+contexts"
+  },
+  {
+   "title": "Accelerating Deep Learning Inference with Cross-Layer Data Reuse on GPUs",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 17,
+   "year": 2020,
+   "venue": "Lecture notes in computer science",
+   "authors": "Xueying Wang, Guangli Li, Xiao ming Dong et al.",
+   "url": "https://doi.org/10.1007/978-3-030-57675-2_14",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Accelerating Nested Data Parallelism: Preserving Regularity",
@@ -8920,6 +11121,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Optimal Fusion in Data-Parallel Languages: From Diagonal Fusion to Code Generation",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2020,
+   "venue": "Utrecht University Repository (Utrecht University)",
+   "authors": "David P. van Balen",
+   "url": "https://openalex.org/W3089205242",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "QuickETC2",
    "function": "exemplifies",
    "split": "passing",
@@ -8944,6 +11158,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Restructuring C code for High-Level Synthesis Targeting FPGAs",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2020,
+   "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+   "authors": "Renato Campos",
+   "url": "https://doi.org/10.34626/m4v5-pe95",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Rethinking Divide and Conquer\u2014Towards Holistic Interfaces of the Computing Stack",
@@ -8972,6 +11199,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Techniques for enabling GPU code generation of low-level optimizations and dynamic parallelism from high-level abstractions",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2020,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Garcia de Gonzalo, P\u00e1l Simon",
+   "url": "https://openalex.org/W3096250264",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Arc: an IR for batch and stream programming",
    "function": "exemplifies",
    "split": "passing",
@@ -8996,6 +11239,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Automatic Parallelization for Heterogeneous Embedded Systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Rokiatou Diarra",
+   "url": "https://doi.org/10.70675/935f042dz0737z4200z8610z9dd73072a7a9",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic Performance Optimization of Stencil Codes",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 4,
+   "year": 2019,
+   "venue": "OPUS (University of Passau)",
+   "authors": "Stefan Kronawitter",
+   "url": "https://openalex.org/W3020291857",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "ClangJIT: Enhancing C++ with Just-in-Time Compilation",
@@ -9116,6 +11385,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "GPU Data Structures and Code Generation for Modeling, Simulation, and Visualization",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 2,
+   "year": 2019,
+   "venue": "TUbilio (Technical University of Darmstadt)",
+   "authors": "Johannes Sebastian Mueller-Roemer",
+   "url": "https://doi.org/10.2312/diss.20192632878",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Model-Based Design for High-Performance Signal Processing Applications",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2019,
+   "venue": "University Libraries (University of Maryland)",
+   "authors": "Jiahao Wu",
+   "url": "https://doi.org/10.13016/0b8v-efj8",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Optimizing data-intensive computations in existing libraries with split annotations",
    "function": "exemplifies",
    "split": "passing",
@@ -9124,6 +11419,19 @@
    "venue": "Symposium on Operating Systems Principles",
    "authors": "Shoumik Palkar, Matei Zaharia",
    "url": "https://doi.org/10.1145/3341301.3359652",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Parall\u00e9lisation et passage \u00e0 l'\u00e9chelle durable d'une cha\u00efne de traitement graphique pour l'impression professionnelle",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Paul Godard",
+   "url": "https://doi.org/10.70675/196b1a95za1f3z4349z89e3z5fdf510248a6",
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -9140,6 +11448,38 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Persisting and scalable parallelization of graphics processing for digital printing",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2019,
+   "venue": "HAL",
+   "authors": "Paul Godard",
+   "url": "https://openalex.org/W4393211720",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Polyhedral Compilation for Domain Specific Languages",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2019,
+   "venue": "HAL",
+   "authors": "Chandan Reddy",
+   "url": "https://openalex.org/W2992034195",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Polystore++: Accelerated Polystore System for Heterogeneous Workloads",
@@ -9222,6 +11562,23 @@
    "evidence": "contexts"
   },
   {
+   "title": "A combined language and polyhedral approach to heterogeneous parallelism",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2018,
+   "venue": "theses.fr (ABES)",
+   "authors": "Jie Zhao",
+   "url": "https://doi.org/10.70675/9a4b7e14za7f4z4a6ezb5f1z795b20080783",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Compiler-Compiler for DSL Embedding",
    "function": "exemplifies",
    "split": "passing",
@@ -9233,6 +11590,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "A Strategy for Automatic Performance Tuning of Stencil Computations on GPUs",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 7,
+   "year": 2018,
+   "venue": "Scientific Programming",
+   "authors": "Joseph D. Garvey, Tarek S. Abdelrahman",
+   "url": "https://doi.org/10.1155/2018/6093054",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A vision of post-exascale programming",
@@ -9402,6 +11772,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Reconciling Abstraction with High Performance: A MetaOCaml approach",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 30,
+   "year": 2018,
+   "venue": "Foundations and Trends\u00ae in Programming Languages",
+   "authors": "Oleg Kiselyov",
+   "url": "https://doi.org/10.1561/2500000038",
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "Special issue on heterogeneous real-time image processing",
    "function": "exemplifies",
    "split": "passing",
@@ -9490,6 +11873,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Accelerating interpreted programming languages on GPUs with just-in-time compilation and runtime optimisations",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 5,
+   "year": 2017,
+   "venue": "ERA",
+   "authors": "Fumero Alfonso, Juan Jos\u00e9",
+   "url": "https://openalex.org/W2787855223",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Collaborative Computing for Heterogeneous Integrated Systems",
    "function": "exemplifies",
    "split": "passing",
@@ -9511,6 +11907,19 @@
    "venue": "FHPC@ICFP",
    "authors": "Amir Shaikhha, Andrew Fitzgibbon, Simon Peyton Jones et al.",
    "url": "https://doi.org/10.1145/3122948.3122949",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Efficient Scalable Median Filtering Using Histogram-Based Operations",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 32,
+   "year": 2017,
+   "venue": "IEEE Transactions on Image Processing",
+   "authors": "Oded Green",
+   "url": "https://doi.org/10.1109/tip.2017.2781375",
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -9540,6 +11949,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "GPU Array Access Auto-Tuning",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2017,
+   "venue": "TUbilio (Technical University of Darmstadt)",
+   "authors": "Weber, Nicolas",
+   "url": "https://doi.org/10.26083/tuprints-00006507",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "LIFT: A functional data-parallel IR for high-performance GPU code generation",
@@ -9642,6 +12064,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Software/Hardware Co-Design to Improve Productivity, Portability, and Performance of Loop-Task Parallel Applications",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2017,
+   "venue": "eCommons (Cornell University)",
+   "authors": "Kim, Ji Yun",
+   "url": "https://doi.org/10.7298/x4nc5z64",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A Metric for Performance Portability",
@@ -9750,6 +12188,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Fluxional compiler : Seamless shift from development productivity to performance efficiency, in the case of real-time web applications",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "Etienne Brodu",
+   "url": "https://doi.org/10.70675/32ffd6f6z30a8z4cbfz8d12ze5720400216a",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Latte: a language, compiler, and runtime for elegant and efficient deep neural networks",
    "function": "exemplifies",
    "split": "passing",
@@ -9787,6 +12238,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Methods and tools for rapid and efficient parallel implementation of computer vision algorithms on embedded multiprocessors",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "V. Schwambach",
+   "url": "https://doi.org/10.70675/ccdd97a5z553bz49a2zb5afza95e8bf19539",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Performance engineering of multicore software: developing a science of fast code for the post-Moore era",
@@ -9827,6 +12291,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Towards Interactive Visual Exploration of Parallel Programs using a Domain-Specific Language",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2016,
+   "venue": "International Workshop on OpenCL",
+   "authors": "Tobias Robert Klein, Stefan Br\u00fcckner, Eduard M. Groller et al.",
+   "url": "https://doi.org/10.1145/2909437.2909459",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Using Destination-Passing Style to Compile a Functional Language into Efficient Low-Level Code",
    "function": "exemplifies",
    "split": "passing",
@@ -9837,6 +12317,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Communication avoiding parallel algorithms for amorphous problems",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2015,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Saeed Maleki",
+   "url": "https://openalex.org/W2543685769",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Improving tiling, reducing compilation time, and extending the scope of polyhedral compilation. (Am\u00e9lioration du tuilage, r\u00e9duction du temps de compilation, et extension de l'utilisabilit\u00e9 de la compilation poly\u00e9drique)",
@@ -9908,6 +12401,19 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "System for search technique recommendation in program autotuning",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2015,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Kevin Wu",
+   "url": "https://openalex.org/W7139311040",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "The Support of an Experimental OpenCL Compiler on HSA Environments",
    "function": "exemplifies",
    "split": "passing",
@@ -9918,6 +12424,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "A CUDA Back-End for the Equelle Compiler.",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2014,
+   "venue": "NVA (Nasjonalt vitenarkiv)",
+   "authors": "H\u00e5vard Heitlo Holm",
+   "url": "https://openalex.org/W432892186",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A Scala prototype to generate multigrid solver implementations for different problems and target multi-core platforms",
@@ -9944,6 +12463,18 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Untitled",
+   "function": "exemplifies",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2014,
+   "venue": "Queue",
+   "url": "https://doi.org/10.1145/2611429",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "From dataflow-based video coding tools to dedicated embedded multi-core platforms",
@@ -10072,6 +12603,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "A Cross-Layer Survey of Low-Power Machine Learning From Algorithm to Hardware",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "IEEE Access",
+   "authors": "Zuxiong Tan, Ali Karkehabadi, Ning Miao et al.",
+   "url": "https://doi.org/10.1109/access.2026.3734236",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Correct but Slow: An Empirical Study of the GPU Kernel Evaluation Gap in Modern Domain-Specific Languages",
    "function": "detailed-citation",
    "split": "detailed",
@@ -10082,6 +12626,35 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Cyclotron: A Recurrence Language for Expressing Interprocessor Communication",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Shiv Sundram, Akhilesh Balasingam, Nathan Zhang et al.",
+   "url": "https://doi.org/10.48550/arxiv.2610.20981",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "E$^{2}$ Gensor: An Enhanced Elastic Graph-based Construction Tensor Compilation Method for On-device Deep Learning",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "IEEE Transactions on Mobile Computing",
+   "authors": "Hangda Liu, Boyu Diao, Jiashuo Luo et al.",
+   "url": "https://doi.org/10.1109/tmc.2026.3738556",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Evaluating CUDA Tile for AI Workloads on Hopper and Blackwell GPUs",
@@ -10110,6 +12683,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Joint Optimization of Deep Neural Networks with Dynamic Programming and Spatial Compression",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Samuel J. Kaufman",
+   "url": "https://openalex.org/W7213481250",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "KernelEvolve: Scaling Agentic Kernel Coding for Heterogeneous AI Accelerators at Meta",
    "function": "detailed-citation",
    "split": "detailed",
@@ -10121,6 +12710,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Pipelined Microarchitecture for VTA With Circuit and Instruction Co-Optimization",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "IEEE Transactions on Very Large Scale Integration (vlsi) Systems",
+   "authors": "Xu-Hui Wang, Cheng-Long Zeng, Ying-Hai Zhao et al.",
+   "url": "https://doi.org/10.1109/tvlsi.2026.3720317",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Semantics for 2D Rasterization",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Bhargav Kulkarni, Henry Whiting, Pavel Panchekha",
+   "url": "https://doi.org/10.1145/3839471",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "UniEP: Unified Expert-Parallel MoE MegaKernel for LLM Training",
@@ -10162,6 +12777,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "When Compilation Breaks Your GNN: A Numerical Stability Perspective",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Knowledge Discovery and Data Mining",
+   "authors": "Jia-Wei Gu, Ze-Chao Li",
+   "url": "https://doi.org/10.1145/3770855.3817799",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "ASight: Fine-Tuning Auto-Scheduling Optimizations for Model Deployment via Visual Analytics",
    "function": "detailed-citation",
    "split": "detailed",
@@ -10190,6 +12821,38 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Deep learning compilers for signal processing kernel generation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2025,
+   "authors": "Jo\u00e3o Ser\u00f3dio",
+   "url": "https://doi.org/10.47749/t/unicamp.2025.1523642",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Interactive compilation via trustworthy source-to-source transformations",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2025,
+   "venue": "theses.fr (ABES)",
+   "authors": "Guillaume Bertholon",
+   "url": "https://doi.org/10.70675/c96ce4b6z259cz4adez8d3azfb9185492a3f",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions",
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Introducing Instruction-Accurate Simulators for Performance Estimation of Autotuning Workloads",
@@ -10228,6 +12891,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Optimizing Cache Utilization in CPU Compilation Through Compiler Autotuning",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "IFIP advances in information and communication technology",
+   "authors": "Vlad Mihai Mih\u0103escu, Paul \u0218tefan Popescu, Marian Cristian Mih\u0103escu",
+   "url": "https://doi.org/10.1007/978-3-031-96239-4_28",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "PerfDojo: Automated ML Library Generation for Heterogeneous Architectures",
@@ -10288,6 +12964,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Assisting Cloud System Development with Automated Insight Generation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2024,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Yiming Qiu",
+   "url": "https://doi.org/10.7302/25688",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Automated Code Generation of High-Order Stencils for a Dataflow Architecture",
    "function": "detailed-citation",
    "split": "detailed",
@@ -10300,6 +12992,22 @@
    "confidence": "medium",
    "secondary": [
     "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automating Energy-Efficient GPU Kernel Generation: A Fast Search-Based Compilation Approach",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 2,
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Yijia Zhang, Zhihong Gou, Shijie Cao et al.",
+   "url": "https://doi.org/10.48550/arxiv.2411.18873",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
    ],
    "evidence": "fulltext"
   },
@@ -10411,6 +13119,35 @@
    "evidence": "contexts"
   },
   {
+   "title": "LitP: Language-integrated Tensor Parallelism",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2023,
+   "venue": "Chronicle of computing",
+   "authors": "Philipp Kramer",
+   "url": "https://doi.org/10.55432/978-1-6692-0003-1_4",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Mapping of a Machine Learning Algorithm Representation to Distributed Disaggregated FPGAs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2023,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": "Burkhard Ringlein",
+   "url": "https://doi.org/10.5281/zenodo.7957658",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "MaxEVA: Maximizing the Efficiency of Matrix Multiplication on Versal AI Engine",
    "function": "detailed-citation",
    "split": "detailed",
@@ -10422,6 +13159,23 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Memory specification in a data-flow synchronous language with statically sized arrays",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2023,
+   "venue": "theses.fr (ABES)",
+   "authors": "Baptiste Pauget",
+   "url": "https://doi.org/10.70675/3cc8873az8175z4865zb036z6e743af935a1",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea",
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Modelling linear algebra kernels as polyhedral volume operations",
@@ -10491,6 +13245,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Sparse Format Conversion and Code Synthesis",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2023,
+   "venue": "ScholarWorks (Boise State University)",
+   "authors": "Tobi Popoola",
+   "url": "https://doi.org/10.18122/td.2075.boisestate",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Syncfree optimizers and compiler improvements for efficient model training",
    "function": "detailed-citation",
    "split": "detailed",
@@ -10533,6 +13303,37 @@
    "evidence": "contexts"
   },
   {
+   "title": "Towards assessing and enhancing modern software reverse engineering",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2023,
+   "authors": "Zhibo Liu",
+   "url": "https://doi.org/10.14711/thesis-991013222942403412",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "TVM_T: \u57fa\u4e8eTVM \u7684\u9ad8\u6027\u80fd\u795e\u7ecf\u7f51\u7edc\u8bad\u7ec3\u7f16\u8bd1\u5668",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2023,
+   "venue": "Scientia Sinica Informationis",
+   "authors": "Jun Ceng, Mingyang Kou, Xiyuan Zheng et al.",
+   "url": "https://doi.org/10.1360/ssi-2022-0140",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "AMOS",
    "function": "detailed-citation",
    "split": "detailed",
@@ -10570,6 +13371,25 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Benchmarking, Profiling and White-box Performance Modeling for DNN Training",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2022,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Hongyu Zhu",
+   "url": "https://openalex.org/W7132970710",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Compiler-Driven Simulation of Reconfigurable Hardware Accelerators",
@@ -10787,6 +13607,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Reconfigurable Architectures: The Shift from General Systems to Domain Specific Solutions",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 21,
+   "year": 2022,
+   "venue": "Computer architecture and design methodologies",
+   "authors": "Eleonora D\u2019Arnese, Davide Conficconi, Marco Domenico Santambrogio et al.",
+   "url": "https://doi.org/10.1007/978-981-16-7487-7_14",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Reducing FPGA Memory Footprint of Stencil Codes through Automatic Extraction of Memory Patterns",
    "function": "detailed-citation",
    "split": "detailed",
@@ -10824,6 +13660,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "(WiP) LLTFI: Low-Level Tensor Fault Injector",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2021,
+   "venue": "IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)",
+   "authors": "Abraham Chan, Udit Kumar Agarwal, Karthik Pattabiraman",
+   "url": "https://doi.org/10.1109/issrew53611.2021.00045",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A Full-stack Accelerator Search Technique for Vision Applications",
@@ -10868,6 +13720,21 @@
    "evidence": "contexts"
   },
   {
+   "title": "Accelerated pooling: devising a hardware accelerated implementation based on Im2col and Col2im",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2021,
+   "authors": "Caio Salvador Rohwedder",
+   "url": "https://doi.org/10.47749/t/unicamp.2021.1166643",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Accelerating Finite Impulse Response Filtering Using Tensor Cores",
    "function": "detailed-citation",
    "split": "detailed",
@@ -10907,6 +13774,22 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Analytical characterization and design space exploration for optimization of CNNs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 70,
+   "year": 2021,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Rui Li, Yufan Xu, Aravind Sukumaran-Rajam et al.",
+   "url": "https://doi.org/10.1145/3445814.3446759",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Analyzing and improving MAESTRO's analytical modeling APPROVED BY SUPERVISING COMMITTEE:",
@@ -10951,6 +13834,22 @@
     "lineage"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Convolutional Neural Network\u2013Based Deep Learning Model for Predicting Differential Suicidality in Depressive Patients Using Brain Generalized q-Sampling Imaging",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 20,
+   "year": 2021,
+   "venue": "The Journal of Clinical Psychiatry",
+   "authors": "Vincent Chin\u2010Hung Chen, Fu-Te Wong, Yuan\u2010Hsiung Tsai et al.",
+   "url": "https://doi.org/10.4088/jcp.19m13225",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "CoSA: Scheduling by Constrained Optimization for Spatial Accelerators",
@@ -11257,6 +14156,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Contr\u00f4le s\u00fbr de cha\u00eenes d'obfuscation logicielle",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Nicolas Szlifierski",
+   "url": "https://doi.org/10.70675/64a8b4aezef9az43a1zb5a0z800c661ed5b2",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "DNN-Chip Predictor: An Analytical Performance Predictor for DNN Accelerators with Various Dataflows and Hardware Architectures",
    "function": "detailed-citation",
    "split": "detailed",
@@ -11312,6 +14227,22 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "Hardware Accelerators for Machine Learning Applications. Case Study : Autonomous Vehicles",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Mohamed Ayoub Neggaz",
+   "url": "https://doi.org/10.70675/09cf40c0z17a0z4efbz8c0fzb956e149d59c",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Heterogeneous Dataflow Accelerators for Multi-DNN Workloads",
    "function": "detailed-citation",
    "split": "detailed",
@@ -11323,6 +14254,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Implementing Binary Neural Networks.",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2020,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Joshua Fromm",
+   "url": "https://openalex.org/W3147791105",
+   "centrality": "engaged",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Learning to Correct Overexposed and Underexposed Photos",
@@ -11382,6 +14329,23 @@
    "evidence": "contexts"
   },
   {
+   "title": "Optimizing Machine Learning Inference Systems with White Box Approaches",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2020,
+   "venue": "Seoul National University Open Repository (Seoul National University)",
+   "authors": "\uc774\uc724\uc131",
+   "url": "https://openalex.org/W3033371738",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "lineage",
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Predictable accelerator design with time-sensitive affine types",
    "function": "detailed-citation",
    "split": "detailed",
@@ -11392,6 +14356,25 @@
    "url": "https://doi.org/10.1145/3385412.3385974",
    "centrality": "peripheral",
    "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Principled Optimization Of Dynamic Neural Networks",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 1,
+   "year": 2020,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Jared Roesch",
+   "url": "https://openalex.org/W3170432282",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
    "flags": [
     "lineage"
    ],
@@ -11571,6 +14554,23 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Raising an Abstraction Level of Compilation and Optimization for Customized Computing",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2019,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Hao Cheng Yu",
+   "url": "https://openalex.org/W2954430861",
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "uses-tool"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Relay: A High-Level Compiler for Deep Learning",
@@ -12100,6 +15100,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Enhancing productivity and performance portability of OpenCL applications on heterogeneous systems using runtime optimizations",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "year": 2015,
+   "venue": "ERA",
+   "authors": "Thibaut Lutz",
+   "url": "https://openalex.org/W2295621056",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Generate and offshore: type-safe and modular code generation for low-level optimization",
    "function": "detailed-citation",
    "split": "detailed",
@@ -12389,6 +15402,20 @@
    "evidence": "contexts"
   },
   {
+   "title": "Semantics Lifting for Scientific Kernels",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "cited_by": 0,
+   "authors": "Naifeng Zhang",
+   "url": "https://www.semanticscholar.org/paper/c8d26479d00b2fe1243d867626b60493e962d182",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "contexts"
+  },
+  {
    "title": "This paper is included in the Proceedings of the 16th USENIX Symposium on Operating Systems Design and Implementation.",
    "function": "detailed-citation",
    "split": "detailed",
@@ -12417,6 +15444,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Programmable Data Layouts via On-The-Fly Data Transformation",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2027,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Cole Ridge Strickler, Renato Mancuso, Manos Athanassoulis et al.",
+   "url": "https://doi.org/10.1145/3845814.3850077",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Barrier-Free Synchronization Algorithm for Multi-Engine AI Accelerators",
    "function": "passing-citation",
    "split": "passing",
@@ -12427,6 +15467,44 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "A Simplified Layout Algebra for GPU Kernels",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "authors": "Nan An, Xiao-Tian Zhou",
+   "url": "https://www.semanticscholar.org/paper/6c1fa08c7ea021d5d210389133ec9ada265baedf",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "abstract+contexts"
+  },
+  {
+   "title": "AI as a Compiler: Compiling Triton kernels without the Triton compiler",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Fran\u00e7ois Costa, Charly Castes, Thomas Bourgeat et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.36800",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "Findings of the Association for Computational Linguistics: EMNLP (Findings of EMNLP)",
+   "authors": "Ji Liu, Saptarshi Majumder, Yiqing Huang et al.",
+   "url": "https://doi.org/10.18653/2026.findings-emnlp.1493",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "AutoLALA: Automatic Loop Algebraic Locality Analysis for AI and HPC Kernels",
@@ -12440,6 +15518,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Beyond Experience: Knowledge-Guided Evolution for NPU Kernel Generation",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Xi Chen, Ming Shen, Haotian Yan et al.",
+   "url": "https://doi.org/10.48550/arxiv.2610.27588",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Cache-Resident LLM Inference in GB-Scale Last-Level Caches",
@@ -12467,6 +15558,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Convolution Sum-Product Queries",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Kyle Deeds, Timo Camillo Merkl, Dan Mircea Suciu",
+   "url": "https://doi.org/10.48550/arxiv.2609.03672",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "CROPHE: Cross-Operator Dataflow Optimization for Fully Homomorphic Encryption Accelerators",
    "function": "passing-citation",
    "split": "passing",
@@ -12480,6 +15584,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "D2K-Bench: Can LLM Agents Turn Expert Designs into Efficient GPU Kernels?",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Daifeng Li, Huiqiang Jiang, Chengruidong Zhang et al.",
+   "url": "https://doi.org/10.48550/arxiv.2610.03226",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Deep Learning Compilers: Architecture, Optimization, and Empirical Characterization",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Jinghao Wen, Ruixuan Wang, Xun Jiao",
+   "url": "https://doi.org/10.48550/arxiv.2611.04273",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "DGS: A GPU-based Adaptive Graph Sampling Framework",
    "function": "passing-citation",
    "split": "passing",
@@ -12491,6 +15621,58 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Dynamic Operator Fusion and Vectorized Code Generation for Custom Tensor Languages in MLIR",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "International Conference on Electronics Technology and Artificial Intelligence (ETAI)",
+   "authors": "Angyang Fu, Dong Liang",
+   "url": "https://doi.org/10.1109/etai68332.2026.11485267",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Eyas: Fast and accurate power estimation at compile time for machine learning applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Journal of Systems Architecture",
+   "authors": "Kyunam Park, William J. Song",
+   "url": "https://doi.org/10.1016/j.sysarc.2026.104005",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "FlashBoB: I/O-Efficient Exact Backward-over-Backward for Softmax Attention",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Anthony Givans, Michael Crawshaw, Mingrui Liu",
+   "url": "https://doi.org/10.48550/arxiv.2609.24089",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "ForgeMegakernel: A General Framework for Efficient Auto-Regressive Model Decode Megakernels",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 3,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Leshan Li, Zhui Zhu, Xianglong Deng et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.12379",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "General Purpose AI Computing: Opportunities and Challenges",
@@ -12507,6 +15689,36 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Gint: A Device-Side Bytecode Interpreter for Portable GPU Kernel Programming",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "SIGGRAPH Asia Conference Papers",
+   "authors": "Ruoxi Shi, Fanbo Xiang, Zexiang Xu et al.",
+   "url": "https://doi.org/10.1145/3829340.3842218",
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Grassmann: The Coordinate-Independent Linear Algebra Programming Language",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 1,
+   "commit": true,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Theadora Fields Collin, Gilbert Bernstein, Oded Stein et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.00182",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Hexagon-MLIR: An AI Compilation Stack For Qualcomm's Neural Processing Units (NPUs)",
@@ -12561,6 +15773,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "MAGSAT: Memory-Access-Guided Fusion and Shape-Adaptive Auto-Tuning for Dynamic Tensor Programs",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "International Conference on Parallel Processing",
+   "authors": "Hao-Dong Deng, Jia-Nuo Sheng, Wen-Hao Dai et al.",
+   "url": "https://doi.org/10.1145/3832810.3832874",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Mambalaya: Einsum-Based Fusion Optimizations on State-Space Models",
    "function": "passing-citation",
    "split": "passing",
@@ -12572,6 +15797,61 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Optimizing Dynamic-Shape Neural Networks: A Unified Approach to Adaptive Tuning",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "ACM/IEEE Design Automation Conference (DAC)",
+   "authors": "Zheng Zhang, Donglin Yang, Xiaobo Zhou et al.",
+   "url": "https://doi.org/10.1145/3770743.3803908",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Programming In-Storage Computing with Located, Stateful Dataflow",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Yuyue Wang, Zhenyu Zhang, Glenn Reinman et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.19206",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Programming Languages for Artificial Intelligence and Machine Learning: An Updated Analysis with Original Benchmarks and LLM Bias Quantification",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Research Square",
+   "authors": "Chetan Mukhopadhyay",
+   "url": "https://doi.org/10.21203/rs.3.rs-9410893/v1",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Prophecy Variables, Program Analysis, Binding Times, and Staged Compilation in the BuildIt System",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 2,
+   "commit": true,
+   "year": 2026,
+   "authors": "Ajay Brahmakshatriya, Saman P. Amarasinghe, M. Rinard",
+   "url": "https://www.semanticscholar.org/paper/93187bd016ef59899f843ebc9f48cea6d5cc68db",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract"
   },
   {
    "title": "RAPO: Retrieval-Augmented Phase Ordering",
@@ -12600,6 +15880,112 @@
    "evidence": "contexts"
   },
   {
+   "title": "Reconstructing Fine-grained Memory Reuse Structure in GPU Kernels",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "authors": "Yan-Bo Zhao, Yue-Ming Hao, Ze-Cheng Li et al.",
+   "url": "https://www.semanticscholar.org/paper/fc7a2c897beca607f05670c0b337355e21796f75",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "abstract+contexts"
+  },
+  {
+   "title": "SparseGraph-I2P: Consistency-Guided Hypothesis Selection for Efficient Image-to-Point-Cloud Registration",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Ziyang Yu, Xiang Li, Qiong Chang et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.04591",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Synthesizing Hardware-Specific Instructions for Efficient Code Generation of Simulink",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+   "authors": "Ze-Hong Yu, Zhuo Su, Rui Wang et al.",
+   "url": "https://doi.org/10.1145/3744916.3764536",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Tensor Program Superoptimization through Cost-Guided Symbolic Program Synthesis",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 2,
+   "year": 2026,
+   "venue": "Proceedings of the CGO/Proceedings of the ... CGO",
+   "authors": "Alexander Brauckmann, Aarsh Chaube, Jos\u00e9 Wesley de Souza Magalh\u00e3es et al.",
+   "url": "https://doi.org/10.1109/cgo68049.2026.11395198",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "The Art of Closed-Formula Defaults: Search-Free Code Generation for Tensor Operators",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Paolo D'Alberto, Ashish Sirasao",
+   "url": "https://doi.org/10.48550/arxiv.2609.10937",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "The Case for Automated Hyperspecialization: Evidence from SAT",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Harrison Green, Claire Le Goues, Fraser Brown",
+   "url": "https://doi.org/10.48550/arxiv.2609.14836",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Validity-Aware Multi-Level Autotuning for Efficient Tensor Program Generation",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "ACM Transactions on Embedded Computing Systems",
+   "authors": "Jungwon Cha, Munyoung Lee, Jinse Kwon et al.",
+   "url": "https://doi.org/10.1145/3830240",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Wavel: A Fast and Efficient Compilation System for Wafer-Scale Accelerators",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Proceedings of the ACM SIGOPS 32nd Symposium on Operating Systems Principles",
+   "authors": "Ye-Qi Huang, Cong-Jie He, Hao-Cheng Xiao et al.",
+   "url": "https://doi.org/10.1145/3830418.3843884",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Accurate Latency Predictor for Triton-Based GPU Kernels with PTX Features and XGBoost",
    "function": "passing-citation",
    "split": "passing",
@@ -12621,6 +16007,19 @@
    "venue": "International Symposium on Computer Architecture",
    "authors": "Jian Weng, Boyang Han, Derui Gao et al.",
    "url": "https://doi.org/10.1145/3695053.3731004",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "FastFlow: Rapid Workflow Response By Prioritizing Critical Data Flows and their Interactions",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 2,
+   "year": 2025,
+   "venue": "International Conference on Scalable Scientific Data Management (SSDBM)",
+   "authors": "Jesun Firoz, Hyungro Lee, Luanzheng Guo et al.",
+   "url": "https://doi.org/10.1145/3733723.3733735",
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -12665,6 +16064,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Generative AI Through CAS Lens: An Integrated Overview of Algorithmic Optimizations, Architectural Advances, and Automated Designs",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 14,
+   "year": 2025,
+   "venue": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",
+   "authors": "Chuan Zhang, You You, Naigang Wang et al.",
+   "url": "https://doi.org/10.1109/jetcas.2025.3575272",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "HEC: Equivalence Verification Checking for Code Transformation via Equality Saturation",
    "function": "passing-citation",
    "split": "passing",
@@ -12676,6 +16088,32 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs with Heterogeneous AI Accelerators",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 11,
+   "year": 2025,
+   "venue": "Preprints.org",
+   "authors": "Le Chen, Dahu Feng, Erhu Feng et al.",
+   "url": "https://doi.org/10.20944/preprints202501.0901.v1",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Hexcute: A Tile-based Programming Language with Automatic Layout and Task-Mapping Synthesis",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Xiao Zhang",
+   "url": "https://openalex.org/W7133025700",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Inductive Loop Analysis for Practical HPC Application Optimization",
@@ -12702,6 +16140,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "MACO: Model Anti-Extraction via Compiler Obfuscation",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 4,
+   "year": 2025,
+   "venue": "IEEE Transactions on Dependable and Secure Computing",
+   "authors": "Yang Li, Minghui Li, Hao Han et al.",
+   "url": "https://doi.org/10.1109/tdsc.2025.3601219",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Mosaic: Exploiting Instruction-Level Parallelism on Deep Learning Accelerators with iTex Tessellation",
@@ -12766,6 +16217,19 @@
    "url": "https://doi.org/10.1145/3731599.3768148",
    "centrality": "peripheral",
    "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Resource-Efficient Machine Learning (Dagstuhl Seminar 24311)",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2025,
+   "venue": "Dagstuhl reports",
+   "authors": "Oana Balmau, Matthias B\u00f6ehm, Ana Klimovic et al.",
+   "url": "https://doi.org/10.3929/ethz-c-000793203",
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -13032,6 +16496,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "LCM: LLM-focused Hybrid SPM-cache Architecture with Cache Management for Multi-Core AI Accelerators",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 20,
+   "year": 2024,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Chengtao Lai, Zhongchun Zhou, Akash Poptani et al.",
+   "url": "https://doi.org/10.1145/3650200.3656592",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Lightweight, Modular Verification for WebAssembly-to-Native Instruction Selection",
    "function": "passing-citation",
    "split": "passing",
@@ -13221,6 +16698,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Accelerating deep learning in the post-Moore\u2019s era of computing",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2023,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Kartik Hegde",
+   "url": "https://openalex.org/W7220779564",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Automatic multi-dimensional pipelining for high-level synthesis of dataflow accelerators",
    "function": "passing-citation",
    "split": "passing",
@@ -13245,6 +16735,32 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Design and Implementation of Domain-Specific Programmable Spatial Accelerators",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2023,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Kuan-Yu Chen",
+   "url": "https://doi.org/10.7302/22872",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Design space exploration of image processing algorithms on FPGAs",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2023,
+   "venue": "theses.fr (ABES)",
+   "authors": "Ilias Bournias",
+   "url": "https://doi.org/10.70675/7954fab8ze891z46eeza55az2fc9177718dc",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Foveated Attention for Neural Nets",
@@ -13283,6 +16799,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Learned Query Superoptimization",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 5,
+   "year": 2023,
+   "venue": "CEUR Workshop Proceedings",
+   "authors": "Ryan Marcus",
+   "url": "https://doi.org/10.48550/arxiv.2303.15308",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Learned Query Superoptimization (Extended Abstract)",
@@ -13453,6 +16982,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "A survey on hardware accelerators: Taxonomy, trends, challenges, and perspectives",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 158,
+   "year": 2022,
+   "venue": "Journal of Systems Architecture",
+   "authors": "Biagio Peccerillo, Mirco Mannino, Andrea Mondelli et al.",
+   "url": "https://doi.org/10.1016/j.sysarc.2022.102561",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic Source-to-Source Optimizations using Machine Learning",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Maksim Berezov",
+   "url": "https://doi.org/10.70675/ba1152c7zadfaz4d0fzb08fz0f218d038f2a",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "CompilerGym: Robust, Performant Compiler Optimization Environments for AI Research",
    "function": "passing-citation",
    "split": "passing",
@@ -13480,6 +17035,35 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Cost-Aware TVM (CAT) Tensorization for Modern Deep Learning Accelerators",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2022,
+   "venue": "IEEE International Conference on Computer Design: VLSI in Computers and Processors (ICCD)",
+   "authors": "Yahang Hu, Yaohua Wang, Xiaoqiang Dan et al.",
+   "url": "https://doi.org/10.1109/iccd56317.2022.00058",
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Data Locality in High Performance Computing, Big Data, and Converged Systems: An Analysis of the Cutting Edge and a Future System Architecture",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 48,
+   "year": 2022,
+   "venue": "Electronics",
+   "authors": "Sardar Usman, Rashid Mehmood, Iyad A. Katib et al.",
+   "url": "https://doi.org/10.3390/electronics12010053",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Demystifying Map Space Exploration for NPUs",
@@ -13512,6 +17096,19 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Generic programming in modern C++ for Image Processing",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Micha\u00ebl Roynard",
+   "url": "https://doi.org/10.70675/7930167czf941z4bb7z81cbza0fe483a3527",
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
   },
   {
    "title": "GMI-DRL: Empowering Multi-GPU Deep Reinforcement Learning with GPU Spatial Multiplexing",
@@ -13723,6 +17320,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Transforming Sparse Matrix Computations",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 6,
+   "year": 2022,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Kazem Cheshmi",
+   "url": "https://openalex.org/W7132883308",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "UPIR: Toward the Design of Unified Parallel Intermediate Representation for Parallel Programming Models",
    "function": "passing-citation",
    "split": "passing",
@@ -13737,6 +17347,19 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "\u03bcgrind: A framework for dynamically instrumenting and verifying HLS-generated RTL",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2022,
+   "venue": "Summit (Simon Fraser University)",
+   "authors": "Parmida Vahdatniya",
+   "url": "https://openalex.org/W7137441903",
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "A Dense Tensor Accelerator with Data Exchange Mesh for DNN and Vision Workloads",
@@ -13816,6 +17439,32 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Compiler Auto-tuning For Code Optimization",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2021,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Sunghyun Park",
+   "url": "https://doi.org/10.7302/3840",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "DRStencil: Exploiting Data Reuse within Low-order Stencil on GPU",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 19,
+   "year": 2021,
+   "venue": "IEEE International Conference on High Performance Computing and Communications; IEEE International Conference on Smart City; IEEE International Conference on Data Science and Systems (HPCC/SmartCity/DSS)",
+   "authors": "Xin You, Hailong Yang, Zhonghui Jiang et al.",
+   "url": "https://doi.org/10.1109/hpcc-dss-smartcity-dependsys53884.2021.00036",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Exploiting Online Locality and Reduction Parallelism for Sampled Dense Matrix Multiplication on GPUs",
    "function": "passing-citation",
    "split": "passing",
@@ -13830,6 +17479,32 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Exploration of reconfigurable tiles of computing-in-memory architecture for data-intensive applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 4,
+   "year": 2021,
+   "venue": "theses.fr (ABES)",
+   "authors": "Roman Gauchi",
+   "url": "https://doi.org/10.70675/a1119a93z2b7cz4b90z90d1z27aeb520b937",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Flacc: Towards OpenACC support for Fortran in the LLVM Ecosystem",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 5,
+   "year": 2021,
+   "venue": "IEEE/ACM Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC)",
+   "authors": "Valentin Cl\u00e9ment, Jeffrey S. Vetter",
+   "url": "https://doi.org/10.1109/llvmhpc54804.2021.00007",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "FOVEA: Foveated Image Magnification for Autonomous Navigation",
@@ -14201,6 +17876,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Usuba, Optimizing Bitslicing Compiler",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 6,
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Darius Mercadier",
+   "url": "https://doi.org/10.70675/41ca56f6z320bz469czadb4zdc104c312e3b",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "An introduction to algorithmic differentiation",
    "function": "passing-citation",
    "split": "passing",
@@ -14490,6 +18178,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Cross-Stack Co-Design for Efficient and Adaptable Hardware Acceleration",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2018,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Thierry Moreau",
+   "url": "https://openalex.org/W2946357667",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Decoupling GPU Programming Models from Resource Management for Enhanced Programming Ease, Portability, and Performance",
    "function": "passing-citation",
    "split": "passing",
@@ -14711,6 +18412,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "A Linear Algebra Compiler for Small Problem Sizes",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "year": 2017,
+   "venue": "Repository for Publications and Research Data (ETH Zurich)",
+   "authors": "Daniele G. Spampinato",
+   "url": "https://doi.org/10.3929/ethz-b-000168796",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Cavs: A Vertex-centric Programming Interface for Dynamic Neural Networks",
    "function": "passing-citation",
    "split": "passing",
@@ -14855,6 +18569,19 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Fixed-Point Image Orthorectification Algorithms for Reduced Computational Cost",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 1,
+   "year": 2016,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Joseph C. French",
+   "url": "https://openalex.org/W2602985464",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Generating Configurable Hardware from Parallel Patterns",
@@ -15261,6 +18988,31 @@
    "evidence": "contexts"
   },
   {
+   "title": "Torchy: A Tracing JIT Compiler for PyTorch (Extended Version)",
+   "function": "passing-citation",
+   "split": "passing",
+   "cited_by": 0,
+   "authors": "Nuno P. Lopes",
+   "url": "https://www.semanticscholar.org/paper/bfe4c8e842d58c178ad5e92154d279ed586c13c2",
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "Application-Defined Abstractions to Separate Numerical Intent from Computation Orchestration",
+   "function": "unknown",
+   "split": null,
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Elena Aschmann, Anshu Dubey, Mohamed Wahib et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.11100",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Automatic Data Enumeration for Fast Collections",
    "function": "unknown",
    "split": null,
@@ -15269,6 +19021,34 @@
    "venue": "IEEE/ACM International Symposium on Code Generation and Optimization",
    "authors": "Tommy McMichen, Simone Campanoni",
    "url": "https://doi.org/10.1109/cgo68049.2026.11395196",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Characterizing the Performance and Usability of GPU JIT Compilation Interfaces using Proteus",
+   "function": "unknown",
+   "split": null,
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "ISC High Performance (ISC)",
+   "authors": "Zane Fink, Konstantinos Parasyris, David A. Beckingsale et al.",
+   "url": "https://doi.org/10.23919/isc.2026.11520491",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Fast implementation of SSIMULACRA2 for image quality assessment",
+   "function": "unknown",
+   "split": null,
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "International Workshop on Advanced Imaging Technology (IWAIT)",
+   "authors": "Yamato Kanetaka, Soshi Asamura, Akira Hasegawa et al.",
+   "url": "https://doi.org/10.1117/12.3100969",
+   "flags": [
+    "polluted-contexts"
+   ],
    "evidence": "abstract"
   },
   {
@@ -15336,6 +19116,63 @@
    "evidence": "abstract"
   },
   {
+   "title": "Accelerating Seismic Attribute Computation with Machine Learning Compilers",
+   "function": "unknown",
+   "split": null,
+   "cited_by": 2,
+   "year": 2024,
+   "venue": "EAGE Annual Conference & Exhibition",
+   "authors": "Jo\u00e3o Ser\u00f3dio, Ot\u00e1vio O. Napoli, Julio Cesar Faracco et al.",
+   "url": "https://doi.org/10.3997/2214-4609.2024101442",
+   "flags": [
+    "lineage",
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Automating the derivation of memory allocations for acceleration of polyhedral programs",
+   "function": "unknown",
+   "split": null,
+   "cited_by": 1,
+   "year": 2024,
+   "venue": "theses.fr (ABES)",
+   "authors": "Corentin Ferry",
+   "url": "https://doi.org/10.70675/eb413d52z4e62z4a69zae52z3a63b645c812",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Bridging the Gap Between Domain-specific Frameworks and Multiple Hardware Devices",
+   "function": "unknown",
+   "split": null,
+   "cited_by": 0,
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Xu Wen, Wanling Gao, L. Wang et al.",
+   "url": "https://doi.org/10.48550/arxiv.2405.12491",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Efficient data compression for high-performance PDE solvers",
+   "function": "unknown",
+   "split": null,
+   "cited_by": 0,
+   "year": 2024,
+   "venue": "theses.fr (ABES)",
+   "authors": "Cl\u00e9ment Flint",
+   "url": "https://doi.org/10.70675/e7ca5091z143fz471czb61az057c9be1397d",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Efficient training of large language models on distributed infrastructures: a survey",
    "function": "unknown",
    "split": null,
@@ -15373,6 +19210,20 @@
    "authors": "Yuki Naganawa, Hirokazu Kamei, Yamato Kanetaka et al.",
    "url": "https://doi.org/10.1109/access.2024.3354720",
    "evidence": "abstract"
+  },
+  {
+   "title": "Tools and Algorithms for the Construction and Analysis of Systems: 30th International Conference, TACAS 2024, Held as Part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2024, Luxembourg City, Luxembourg, April 6\u201311, 2024, Proceedings, Part III",
+   "function": "unknown",
+   "split": null,
+   "cited_by": 14,
+   "year": 2024,
+   "venue": "Lecture notes in computer science",
+   "authors": "Bernd Finkbeiner, Laura Kov\u00e1cs",
+   "url": "https://doi.org/10.1007/978-3-031-57256-2",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Differentiable visual computing for inverse problems and machine learning",
@@ -15430,6 +19281,34 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Reliable Domain\u2010Specific Exclusive Logic Gates Using Reconfigurable Sequential Logic Based on Antiparallel Bipolar Memristors",
+   "function": "unknown",
+   "split": null,
+   "cited_by": 9,
+   "year": 2022,
+   "venue": "Advanced Intelligent Systems",
+   "authors": "Taegyun Park, Yeong Rok Kim, Jihun Kim et al.",
+   "url": "https://doi.org/10.1002/aisy.202100267",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Unified Modeling for Emulating Electric Energy Systems: Toward Digital Twin That Might Work",
+   "function": "unknown",
+   "split": null,
+   "cited_by": 4,
+   "year": 2022,
+   "venue": "IGI Global eBooks",
+   "authors": "Marija Ili\u0107, Rupamathi Jaddivada, Assefaw Hadish Gebremedhin",
+   "url": "https://doi.org/10.4018/978-1-6684-7548-5.ch007",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Domain-Specific Multi-Level IR Rewriting for GPU: The Open Earth Compiler for GPU-accelerated Climate Simulation",
    "function": "unknown",
    "split": null,
@@ -15466,6 +19345,20 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Learning From Generated Stencil Programs",
+   "function": "unknown",
+   "split": null,
+   "cited_by": 2,
+   "year": 2020,
+   "venue": "Repository for Publications and Research Data (ETH Zurich)",
+   "authors": "Jakub Lichman",
+   "url": "https://doi.org/10.3929/ethz-b-000413211",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A Hardware\u2013Software Blueprint for Flexible Deep Learning Specialization",
@@ -15529,6 +19422,20 @@
    "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
    "authors": "Adilla Susungi, Albert Cohen, Claude Tadonki",
    "url": "https://openalex.org/W2739718454",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Acc\u00e9l\u00e9ration Algorithmique et Logicielle del\u2019Analyse Vid\u00e9o du Mouvement",
+   "function": "unknown",
+   "split": null,
+   "cited_by": 0,
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "Matthieu Garrigues",
+   "url": "https://doi.org/10.70675/b8ebac2czaf83z4620zaf4ezc91dae533b55",
+   "flags": [
+    "polluted-contexts"
+   ],
    "evidence": "abstract"
   },
   {
@@ -15668,6 +19575,17 @@
    "evidence": "contexts"
   },
   {
+   "title": "6G computing for sensing: universal memcomputing using memristor cellular neural networks",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 1,
+   "year": 2026,
+   "venue": "Elsevier eBooks",
+   "authors": "Dimitrios A. Prousalis, Ioannis Messaris, Asif Ali Khan et al.",
+   "url": "https://doi.org/10.1016/b978-0-44-327410-7.00029-6",
+   "evidence": "title_only"
+  },
+  {
    "title": "A rapid, sensitive, and quantitative high plex biomarker digital detection platform enabled by Hypercoding",
    "function": "unclassified",
    "split": null,
@@ -15676,6 +19594,17 @@
    "venue": "bioRxiv",
    "authors": "Madhavi Bathina, Angela P. Blum, J. Brodin et al.",
    "url": "https://doi.org/10.64898/2026.03.23.711448",
+   "evidence": "title_only"
+  },
+  {
+   "title": "Abstraction at What Cost? Evaluating Python DSLs for Transformer GPU Kernel Primitives on Nvidia Blackwell",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Lecture notes in computer science",
+   "authors": "Tanmay Nandanikar, Bartosz Sawicki",
+   "url": "https://doi.org/10.1007/978-3-032-35248-4_7",
    "evidence": "title_only"
   },
   {
@@ -15853,6 +19782,17 @@
    "evidence": "title_only"
   },
   {
+   "title": "Memory\u2013compute co-optimization for stencil computation on multi-core DSPs",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "CCF Transactions on High Performance Computing",
+   "authors": "Tianci Zhu, Jianbin Fang, Peng Zhang",
+   "url": "https://doi.org/10.1007/s42514-026-00297-8",
+   "evidence": "title_only"
+  },
+  {
    "title": "MIX-PC: Enabling Efficient DNN Inference with Mixed Numeric Precision Compilation Optimization",
    "function": "unclassified",
    "split": null,
@@ -15871,6 +19811,39 @@
    "year": 2026,
    "authors": "Adwaid Suresh, Aparna A Harshini, Jona Delcy et al.",
    "url": "https://www.semanticscholar.org/paper/176e8f7f1e1b434a46c0ba5f54f77df026317cd6",
+   "evidence": "title_only"
+  },
+  {
+   "title": "Orchestrating Intelligence: System-Level Execution, Memory-Conscious Data Structures, and Software-Defined Compiler Abstractions for Heavy Neural Workloads",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "authors": "Vijay M. Rakhade, Atmeshkumar Patel, Trushna Bhanarkar et al.",
+   "url": "https://doi.org/10.2139/ssrn.7661620",
+   "evidence": "title_only"
+  },
+  {
+   "title": "ParSolGen (Parallel Solvers Generator) - An Automated Numerical Parallel Programs Generator for Distributed Memory Parallel Computers",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Lecture notes in computer science",
+   "authors": "Nikolay Belyaev",
+   "url": "https://doi.org/10.1007/978-3-032-19144-1_45",
+   "evidence": "title_only"
+  },
+  {
+   "title": "Processing of High-Speed Imaging Data with Galaxy and Cwltool",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "year": 2026,
+   "venue": "Lecture notes in computer science",
+   "authors": "I. P. Baranov, Maxim Gorodnichev, Sergey V. Starinskiy et al.",
+   "url": "https://doi.org/10.1007/978-3-032-13127-0_4",
    "evidence": "title_only"
   },
   {
@@ -15983,6 +19956,17 @@
    "evidence": "title_only"
   },
   {
+   "title": "VLMSysTrojan: Stealthy System-Aware Backdoor Attacks Against Vision-Language Models",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 2,
+   "year": 2026,
+   "venue": "Lecture notes in computer science",
+   "authors": "Yezheng Cheng, Zexin Li, Jiaqi Wu et al.",
+   "url": "https://doi.org/10.1007/978-3-032-37718-0_25",
+   "evidence": "title_only"
+  },
+  {
    "title": "A Compute Graph Simulation and Implementation Framework Targeting AMD Versal AI Engines",
    "function": "unclassified",
    "split": null,
@@ -16002,6 +19986,17 @@
    "venue": "International Conference on Software Composition",
    "authors": "Yangjie Zhou, Honglin Zhu, Qian Qiu et al.",
    "url": "https://doi.org/10.1145/3712285.3759779",
+   "evidence": "title_only"
+  },
+  {
+   "title": "A Unified Synthesis Framework for Dataflow Accelerators Through Multi-level Software and Hardware Intermediate Representations",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "Lecture notes in computer science",
+   "authors": "Xiaochen Hao, Ruifan Xu, Yun Eric Liang",
+   "url": "https://doi.org/10.1007/978-981-95-1021-4_6",
    "evidence": "title_only"
   },
   {
@@ -16071,6 +20066,17 @@
    "evidence": "title_only"
   },
   {
+   "title": "Domain-specific language engineering for large-scale graph analytics using Spoofax: An industry report",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "Science of Computer Programming",
+   "authors": "Houda Boukham, Guido H. Wachsmuth, Oskar van Rest et al.",
+   "url": "https://doi.org/10.1016/j.scico.2025.103377",
+   "evidence": "title_only"
+  },
+  {
    "title": "Evaluation of RVV-Enabled COTS Platforms with Matrix Multiplication and Exo",
    "function": "unclassified",
    "split": null,
@@ -16079,6 +20085,17 @@
    "venue": "Lecture notes in computer science",
    "authors": "Adri\u00e1n Castell\u00f3, H\u00e8ctor Mart\u00ednez, Sandra Catal\u00e1n et al.",
    "url": "https://doi.org/10.1007/978-3-032-07612-0_41",
+   "evidence": "title_only"
+  },
+  {
+   "title": "FGSMS: Fine-Grained SM Scheduling for Efficient Deep Learning Computing",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "Lecture notes in computer science",
+   "authors": "Nanjian Zhou, Fan Wu, Zhizhuo Liu et al.",
+   "url": "https://doi.org/10.1007/978-981-95-0006-2_43",
    "evidence": "title_only"
   },
   {
@@ -16213,6 +20230,17 @@
    "venue": "Proceedings of the ACM on Programming Languages",
    "authors": "Yifan Zhao, Egan Johnson, Prasanth Chatarasi et al.",
    "url": "https://doi.org/10.1145/3808298",
+   "evidence": "title_only"
+  },
+  {
+   "title": "ParSolGen - A Language and Automated Parallel Programs Construction Tool for Numerical Algorithms",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "year": 2025,
+   "venue": "Lecture notes in computer science",
+   "authors": "Nikolay Belyaev",
+   "url": "https://doi.org/10.1007/978-3-032-06751-7_7",
    "evidence": "title_only"
   },
   {
@@ -16424,6 +20452,17 @@
    "evidence": "title_only"
   },
   {
+   "title": "Accelerator Design with High-Level Synthesis",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 1,
+   "year": 2024,
+   "venue": "Springer eBooks",
+   "authors": "Christian Pilato, Stephanie Soldavini",
+   "url": "https://doi.org/10.1007/978-981-97-9314-3_19",
+   "evidence": "title_only"
+  },
+  {
    "title": "Advancing the state of the art of directive-based programming for GPUs: runtime and compilation",
    "function": "unclassified",
    "split": null,
@@ -16489,6 +20528,17 @@
    "evidence": "title_only"
   },
   {
+   "title": "FPGA-Specific Compilers",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 1,
+   "year": 2024,
+   "venue": "Springer eBooks",
+   "authors": "Nitish Srivastava, Gai Liu, Yi\u2010Hsiang Lai et al.",
+   "url": "https://doi.org/10.1007/978-981-97-9314-3_25",
+   "evidence": "title_only"
+  },
+  {
    "title": "HiEval: A scheduling performance estimation approach for spatial accelerators via hierarchical abstraction",
    "function": "unclassified",
    "split": null,
@@ -16497,6 +20547,28 @@
    "venue": "Journal of systems architecture",
    "authors": "Zhipeng Wu, Yue Hu, Ning Li et al.",
    "url": "https://doi.org/10.1016/j.sysarc.2024.103079",
+   "evidence": "title_only"
+  },
+  {
+   "title": "High-Level Synthesis",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 1,
+   "year": 2024,
+   "venue": "Springer eBooks",
+   "authors": "Kaihui Tu, Xifan Tang, Cunxi Yu et al.",
+   "url": "https://doi.org/10.1007/978-981-99-7755-0_8",
+   "evidence": "title_only"
+  },
+  {
+   "title": "ImageMap: Enabling Efficient Mapping from Image Processing DSL to CGRA",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 2,
+   "year": 2024,
+   "venue": "Lecture notes in computer science",
+   "authors": "Bizhao Shi, Tuo Dai, Sunan Zou et al.",
+   "url": "https://doi.org/10.1007/978-3-031-69577-3_5",
    "evidence": "title_only"
   },
   {
@@ -16615,6 +20687,17 @@
    "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis",
    "authors": "Zaifeng Pan, Zhen Zheng, Feng Zhang et al.",
    "url": "https://doi.org/10.1109/sc41406.2024.00047",
+   "evidence": "title_only"
+  },
+  {
+   "title": "Retargetable Compilation",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "year": 2024,
+   "venue": "Springer eBooks",
+   "authors": "Gert Goossens, Dirk Lanneer, Johan Van Praet et al.",
+   "url": "https://doi.org/10.1007/978-981-97-9314-3_67",
    "evidence": "title_only"
   },
   {
@@ -16804,6 +20887,17 @@
    }
   },
   {
+   "title": "AI programming language for AI computing systems",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 2,
+   "year": 2023,
+   "venue": "Elsevier eBooks",
+   "authors": "Yunji Chen, Ling Li, Wei Li et al.",
+   "url": "https://doi.org/10.1016/b978-0-32-395399-3.00014-7",
+   "evidence": "title_only"
+  },
+  {
    "title": "Algorithm 1039: Automatic Generators for a Family of Matrix Multiplication Routines with Apache TVM",
    "function": "unclassified",
    "split": null,
@@ -16958,6 +21052,28 @@
    "evidence": "title_only"
   },
   {
+   "title": "Irregular Workloads at Risk of Losing the Hardware Lottery",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "year": 2023,
+   "venue": "Springer eBooks",
+   "authors": "Nimish Shah, Wannes Meert, Marian Verhelst",
+   "url": "https://doi.org/10.1007/978-3-031-33136-7_1",
+   "evidence": "title_only"
+  },
+  {
+   "title": "Language Agnostic Approach for Unification of Implementation Variants for Different Computing Devices",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 4,
+   "year": 2023,
+   "venue": "Lecture notes in computer science",
+   "authors": "Anshu Dubey, Tom Klosterman",
+   "url": "https://doi.org/10.1007/978-3-031-30442-2_21",
+   "evidence": "title_only"
+  },
+  {
    "title": "Mosaic: An Interoperable Compiler for Tensor Algebra",
    "function": "unclassified",
    "split": null,
@@ -17088,6 +21204,17 @@
    "evidence": "title_only"
   },
   {
+   "title": "A fast and concise parallel implementation of the 8x8 2D forward and inverse DCTs using halide",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 3,
+   "year": 2022,
+   "venue": "Journal of Parallel and Distributed Computing",
+   "authors": "Martin J. Johnson, Daniel Peter Playne",
+   "url": "https://doi.org/10.1016/j.jpdc.2022.01.014",
+   "evidence": "title_only"
+  },
+  {
    "title": "A full-stack search technique for domain optimized deep learning accelerators",
    "function": "unclassified",
    "split": null,
@@ -17175,6 +21302,17 @@
    "evidence": "title_only"
   },
   {
+   "title": "Domain-Specific Runtime to Orchestrate Computation on Heterogeneous Platforms",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 10,
+   "year": 2022,
+   "venue": "Lecture notes in computer science",
+   "authors": "Jared O\u2019Neal, Mohamed Wahib, Anshu Dubey et al.",
+   "url": "https://doi.org/10.1007/978-3-031-06156-1_13",
+   "evidence": "title_only"
+  },
+  {
    "title": "Efficient and Sound Differentiable Programming in a Functional Array-Processing Language",
    "function": "unclassified",
    "split": null,
@@ -17183,6 +21321,17 @@
    "venue": "arXiv.org",
    "authors": "Amir Shaikhha, Mathieu Huot, Shabnam Ghasemirad et al.",
    "url": "https://doi.org/10.48550/arxiv.2212.10307",
+   "evidence": "title_only"
+  },
+  {
+   "title": "Efficient microscopy image analysis on CPU-GPU systems with cost-aware irregular data partitioning",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 8,
+   "year": 2022,
+   "venue": "Journal of Parallel and Distributed Computing",
+   "authors": "Willian Barreiros, Alba Cristina Magalh\u00e3es Alves de Melo, Jun Kong et al.",
+   "url": "https://doi.org/10.1016/j.jpdc.2022.02.004",
    "evidence": "title_only"
   },
   {
@@ -17229,6 +21378,17 @@
     "date": "2026-10-12",
     "evidence": "We present the first formalization and metatheory of language soundness for a user-schedulable language, the widely used array processing language Halide."
    }
+  },
+  {
+   "title": "Generating C: System Description",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 3,
+   "year": 2022,
+   "venue": "Lecture notes in computer science",
+   "authors": "Oleg Kiselyov",
+   "url": "https://doi.org/10.1007/978-3-030-99461-7_5",
+   "evidence": "title_only"
   },
   {
    "title": "Kernel Fusion in OpenCL",
@@ -17642,6 +21802,17 @@
    "evidence": "title_only"
   },
   {
+   "title": "The Lower Limit of Energy Consumption",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "year": 2021,
+   "venue": "Springer eBooks",
+   "authors": "Junichiro Makino",
+   "url": "https://doi.org/10.1007/978-3-030-76871-3_3",
+   "evidence": "title_only"
+  },
+  {
    "title": "Toward Code Generation: A Survey and Lessons from Semantic Parsing",
    "function": "unclassified",
    "split": null,
@@ -17682,6 +21853,17 @@
    "venue": "Principles of High-Performance Processor Design",
    "authors": "Junichiro Makino",
    "url": "https://doi.org/10.1007/978-3-030-76871-3_2",
+   "evidence": "title_only"
+  },
+  {
+   "title": "\u201cNear-Optimal\u201d Designs",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 1,
+   "year": 2021,
+   "venue": "Springer eBooks",
+   "authors": "Junichiro Makino",
+   "url": "https://doi.org/10.1007/978-3-030-76871-3_5",
    "evidence": "title_only"
   },
   {
@@ -18547,6 +22729,17 @@
    "venue": "Lecture notes in electrical engineering",
    "authors": "Mengqin Li, Xiaopin Zhong",
    "url": "https://doi.org/10.1007/978-981-10-4154-9_15",
+   "evidence": "title_only"
+  },
+  {
+   "title": "A compiler approach to map algebra: automatic parallelization, locality optimization, and GPU acceleration of raster spatial analysis",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 9,
+   "year": 2017,
+   "venue": "GeoInformatica",
+   "authors": "Jes\u00fas Caraba\u00f1o, Jan Westerholm, Tapani Sarjakoski",
+   "url": "https://doi.org/10.1007/s10707-017-0312-3",
    "evidence": "title_only"
   },
   {
@@ -19441,6 +23634,14 @@
    "evidence": "title_only"
   },
   {
+   "title": "Compass: Synthesis of Term Rewriting Systems with Bounded Completeness",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "url": "https://www.semanticscholar.org/paper/f50825939d89dd3c35e60be9cddf596dde925cce",
+   "evidence": "title_only"
+  },
+  {
    "title": "Convex Programming Approach For Unified Image Enhancement And White Balancing",
    "function": "unclassified",
    "split": null,
@@ -19465,6 +23666,14 @@
    "cited_by": 0,
    "authors": "\u2217. OanaBalmau, \u2217. MatthiasBoehm, \u2217. AnaKlimovic et al.",
    "url": "https://www.semanticscholar.org/paper/f629f105cd08a15ee6020ecec65b9e184327cf14",
+   "evidence": "title_only"
+  },
+  {
+   "title": "SALT: Symbolic Analysis of Loop Tiling",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "url": "https://www.semanticscholar.org/paper/15c57293f8d822ab338fca775756067a2e33f671",
    "evidence": "title_only"
   },
   {
@@ -19509,6 +23718,14 @@
    "cited_by": 5,
    "authors": "Bruce Collie, Philip Ginsbach, Michael O\u2019Boyle",
    "url": "https://openalex.org/W2987290330",
+   "evidence": "title_only"
+  },
+  {
+   "title": "XPU-RT: Feedback-Driven Realtime Deployment of Robotic Workloads on Heterogeneous SoCs",
+   "function": "unclassified",
+   "split": null,
+   "cited_by": 0,
+   "url": "https://www.semanticscholar.org/paper/1dc8fcb609d3202a99d858d104ba923799bd69ed",
    "evidence": "title_only"
   }
  ],

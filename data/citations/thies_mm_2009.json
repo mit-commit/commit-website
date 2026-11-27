@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "key": "thies:mm:2009",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 11,
-  "works": 10,
+  "records_raw": 12,
+  "works": 11,
   "commit": 2,
   "judged": 6,
   "gscholar": null
@@ -127,6 +127,20 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Kremlin: rethinking and rebooting gprof for the multicore age",
+   "function": "unknown",
+   "split": null,
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Saturnino Garcia, Dong‐Hwan Jeon, Christopher M. Louie et al.",
+   "url": "https://doi.org/10.1145/2345156.1993553",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Kremlin",

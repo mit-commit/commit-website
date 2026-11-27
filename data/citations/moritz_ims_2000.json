@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "moritz:ims:2000",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 57,
-  "works": 51,
+  "records_raw": 60,
+  "works": 54,
   "commit": 1,
-  "judged": 40,
+  "judged": 42,
   "gscholar": null
  },
  "citations": [
@@ -45,6 +45,22 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Automated Compilation Framework for Scratchpad-based Real-Time Systems",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "UWSpace (University of Waterloo)",
+   "authors": "Muhammad Refaat Sedky Soliman",
+   "url": "https://openalex.org/W2970340206",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Power-Efficient and Low-Latency Memory Access for CMP Systems with Heterogeneous Scratchpad On-Chip Memory",
@@ -176,6 +192,19 @@
    "secondary": [
     "supports-claim"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Architecture Support for Customizable Domain-Specific Computing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Chunyue Liu",
+   "url": "https://openalex.org/W290900147",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -596,6 +625,20 @@
    "url": "https://doi.org/10.70675/99a3f74az999fz4999z87e4z324cadb9046e",
    "cited_by": 0,
    "evidence": "abstract"
+  },
+  {
+   "title": "Machine virtuelle universelle pour codage vidéo reconfigurable",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "theses.fr (ABES)",
+   "authors": "Jérôme Gorin",
+   "url": "https://doi.org/10.70675/6bb7af7cz1e90z4116zaeefz4d702821da0d",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Hardware/software techniques for memory power optimizations in embedded processors.",

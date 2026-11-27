@@ -1,16 +1,74 @@
 {
  "schema": 1,
  "key": "kiriansky:meng-thesis:2003",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 1,
-  "works": 1,
-  "commit": 0,
-  "judged": 1,
+  "records_raw": 10,
+  "works": 10,
+  "commit": 1,
+  "judged": 5,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Efficient, transparent, and comprehensive runtime code manipulation",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Derek L. Bruening, Saman P. Amarasinghe",
+   "url": "https://openalex.org/W2155943969",
+   "cited_by": 356,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "positions"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "Cinnamon: A Domain-Specific Language for Binary Profiling and Monitoring",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "Proceedings of the CGO/Proceedings of the ... CGO",
+   "authors": "Mahwish Arif, Ruoyu Zhou, Hsi-Ming Ho et al.",
+   "url": "https://doi.org/10.1109/cgo51591.2021.9370313",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Architectural Support for Automated Software Attack Detection, Recovery, and Prevention",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "authors": "Jesse Sathre, Alex Baumgarten, Joseph Zambreno",
+   "url": "https://doi.org/10.1109/cse.2009.49",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Hardware-based Architecture to Support Flexible Real-Time Parallel Intrusion Detection",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2007,
+   "venue": "International Conference on System of Systems Engineering",
+   "authors": "Stephen Mott, Samuel Hart, David Montminy et al.",
+   "url": "https://doi.org/10.1109/sysose.2007.4304258",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
   {
    "title": "Identity Boxing: A New Technique for Consistent Global Identity",
    "function": "passing-citation",
@@ -22,6 +80,71 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "contexts"
+  },
+  {
+   "title": "Architectural support for secure and survivable embedded software",
+   "function": "unknown",
+   "split": null,
+   "year": 2008,
+   "venue": "Iowa State University Digital Repository (Iowa State University)",
+   "authors": "Jesse Sathre",
+   "url": "https://doi.org/10.31274/rtd-180813-16077",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Practical Verification & Safeguard Tools for C/C++",
+   "function": "unknown",
+   "split": null,
+   "year": 2007,
+   "authors": "Frédéric Michaud, Riccardo Carbone",
+   "url": "https://openalex.org/W9693037",
+   "cited_by": 7,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Sub-Identities: A Hierarchical Identity Model for Practical Containment",
+   "function": "unknown",
+   "split": null,
+   "year": 2007,
+   "venue": "Figshare",
+   "authors": "Phil Snowberger",
+   "url": "https://doi.org/10.7274/ft848p60v2w",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "AUTOMATIC VULNERABILITY DETECTION USING STATIC SOURCE CODE ANALYSIS",
+   "function": "unknown",
+   "split": null,
+   "year": 2005,
+   "authors": "Alexander Ivanov Sotirov",
+   "url": "https://openalex.org/W2107593769",
+   "cited_by": 42,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Automated software attack recovery using rollback and huddle",
+   "function": "unclassified",
+   "split": null,
+   "year": 2008,
+   "venue": "Design Automation for Embedded Systems",
+   "authors": "Jesse Sathre, Joseph Zambreno",
+   "url": "https://doi.org/10.1007/s10617-008-9020-4",
+   "cited_by": 1,
+   "evidence": "title_only"
   }
  ]
 }

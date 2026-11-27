@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "key": "ajay:phd-thesis:2025",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 1,
+  "works": 1,
+  "commit": 1,
+  "judged": 1,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Prophecy Variables, Program Analysis, Binding Times, and Staged Compilation in the BuildIt System",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Ajay Brahmakshatriya, Saman P. Amarasinghe, Martin Rinard",
+   "url": "https://doi.org/10.48550/arxiv.2601.02653",
+   "cited_by": 2,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  }
+ ]
+}

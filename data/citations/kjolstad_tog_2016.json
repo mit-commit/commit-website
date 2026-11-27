@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "kjolstad:tog:2016",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 76,
-  "works": 68,
-  "commit": 13,
-  "judged": 56,
+  "records_raw": 82,
+  "works": 74,
+  "commit": 15,
+  "judged": 62,
   "gscholar": null
  },
  "citations": [
@@ -99,6 +99,22 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "tgLang: A Domain-Specific Language for Geometry Processing and Computational Imaging Workflows",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Journal of Imaging",
+   "authors": "Vijai Kumar Suriyababu, C. Vuik, Matthias Möller",
+   "url": "https://doi.org/10.3390/jimaging12090406",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Weber: An Efficient and Interactive Framework for Crafting and Simulating Physics in the Web Browser",
@@ -256,6 +272,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Mastering Sparse CUDA Generation through Pretrained Models and Deep Reinforcement Learning",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "International Conference on Learning Representations",
+   "authors": "Yaoyu Wang, Hankun Dai, Zhidong Yang et al.",
+   "url": "https://openalex.org/W7236533786",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "YASPS: A Symbolic Framework for Extensible, High-Performance IPC Simulation",
    "function": "exemplifies",
    "split": "passing",
@@ -384,6 +413,23 @@
     "own-group"
    ],
    "evidence": "fulltext"
+  },
+  {
+   "title": "A Python-based programming language for high-performance computational genomics",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "Nature Biotechnology",
+   "authors": "Ariya Shajii, Ibrahim Numanagić, Alexander T. Leighton et al.",
+   "url": "https://doi.org/10.1038/s41587-021-00985-6",
+   "cited_by": 22,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
   },
   {
    "title": "I♥LA",
@@ -587,6 +633,23 @@
    "commit": true
   },
   {
+   "title": "Tiga: Compiling Graph Message Passing at Scale",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Michael Chi",
+   "url": "https://doi.org/10.48550/arxiv.2609.24802",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "MeshTaichi",
    "function": "detailed-citation",
    "split": "detailed",
@@ -610,6 +673,23 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Domain Specific Language for Exascale",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+   "authors": "Massachusetts Inst. of Tech., Cambridge, MA (United States), Saman P. Amarasinghe",
+   "url": "https://doi.org/10.2172/1458388",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
   },
   {
    "title": "GraphIt: a high-performance graph DSL",
@@ -729,6 +809,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Transforming Sparse Matrix Computations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Kazem Cheshmi",
+   "url": "https://openalex.org/W7132883308",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "BuildIt: A Type-Based Multi-stage Programming Framework for Code Generation in C++",

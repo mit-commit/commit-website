@@ -1,16 +1,35 @@
 {
  "schema": 1,
  "key": "lee:asplos:1998",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 317,
-  "works": 278,
+  "records_raw": 331,
+  "works": 292,
   "commit": 23,
-  "judged": 208,
+  "judged": 219,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Software orchestration of ILP on TPAs",
+   "function": "extends",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "W. Lee",
+   "url": "https://openalex.org/W7139830618",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "Software orchestration of instruction level parallelism on tiled processor architectures",
    "function": "extends",
@@ -205,6 +224,22 @@
     "polluted-contexts"
    ],
    "evidence": "abstract+contexts"
+  },
+  {
+   "title": "A Technique for Compilation to Exposed Memory Hierarchy",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 1999,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Benjamin Greenwald",
+   "url": "https://openalex.org/W2126041619",
+   "cited_by": 2,
+   "centrality": "core",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Maps",
@@ -869,6 +904,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "재구성형 구조에서의 효율적인 조건실행 기법",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "Seoul National University Open Repository (Seoul National University)",
+   "authors": "한규승",
+   "url": "https://openalex.org/W7169928131",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Performance of a Hardware Scheduler for Many-core Architecture",
    "function": "supports-claim",
    "split": "detailed",
@@ -1411,6 +1459,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Kremlin: rethinking and rebooting gprof for the multicore age",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Saturnino Garcia, Dong‐Hwan Jeon, Christopher M. Louie et al.",
+   "url": "https://doi.org/10.1145/2345156.1993553",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Dynamic Binary Parallelization",
    "function": "exemplifies",
    "split": "passing",
@@ -1466,6 +1527,19 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "ChipCflow - em hardware dinamicamente reconfigurável",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+   "authors": "Vitor Fiorotto Astolfi",
+   "url": "https://doi.org/10.11606/d.55.2009.tde-05032010-203142",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Polymorphic pipeline array",
@@ -1655,6 +1729,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "ADAM : a decentralized parallel computer architecture featuring fast thread and data migration and a uniform hardware abstraction",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2002,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Andrew Huang",
+   "url": "https://openalex.org/W1533697193",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Architectural implications of bit-level computation in communication applications",
@@ -2389,6 +2476,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Design and Implementation of Domain-Specific Programmable Spatial Accelerators",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Kuan-Yu Chen",
+   "url": "https://doi.org/10.7302/22872",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Towards unified and transparent general-purpose hardware acceleration",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Dong Kai Wang",
+   "url": "https://openalex.org/W7220792831",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "DiAG: a dataflow-inspired architecture for general-purpose processors",
    "function": "passing-citation",
    "split": "passing",
@@ -2413,6 +2526,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Modeling, Scheduling, Pipelining and Configuration of Synchronous Dataflow Graphs with Throughput Constraints",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Alexandre Honorat",
+   "url": "https://doi.org/10.70675/6f1bb95ez3f2fz485fz94f7z7b9e2575e76a",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "A Formal Semantics of Exposed Datapath Architectures with Buffered Processing Units",
@@ -2493,6 +2619,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "On the Optimization of Multiple Applications for Sensor Networks",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "KiltHub Repository",
+   "authors": "Vikram Gupta",
+   "url": "https://doi.org/10.1184/r1/6720920",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "An FPGA-Based Reconfigurable Mesh Many-Core",
    "function": "passing-citation",
    "split": "passing",
@@ -2554,6 +2693,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Gerenciamento de tags na arquitetura ChipCflow - uma máquina a fluxo de dados dinâmica",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+   "authors": "Bruno de Abreu Silva",
+   "url": "https://doi.org/10.11606/d.55.2011.tde-17052011-085128",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "High Throughput Data Mapping for Coarse-Grained Reconfigurable Architectures",
@@ -3046,6 +3198,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Code Generation for Synchronous Control Asynchronous Dataflow Architectures",
+   "function": "unknown",
+   "split": null,
+   "year": 2021,
+   "venue": "Publication Server of Kaiserslautern University of Technology (Kaiserslautern University of Technology)",
+   "authors": "Anoop Bhagyanath",
+   "url": "https://doi.org/10.26204/kluedo/6242",
+   "cited_by": 6,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Reconciling performance and predictability on a NoC-based MPSsoC using off-line scheduling techniques",
    "function": "unknown",
    "split": null,
@@ -3373,6 +3539,17 @@
    "evidence": "contexts"
   },
   {
+   "title": "Hardware Architectures and Circuits",
+   "function": "unclassified",
+   "split": null,
+   "year": 2022,
+   "venue": "Springer eBooks",
+   "authors": "Shaojun Wei, Leibo Liu, Jianfeng Zhu et al.",
+   "url": "https://doi.org/10.1007/978-981-19-6994-2_3",
+   "cited_by": 1,
+   "evidence": "title_only"
+  },
+  {
    "title": "Program diagramming and fundamental programming patterns for a polymorphic computing dataflow processor",
    "function": "unclassified",
    "split": null,
@@ -3686,6 +3863,16 @@
    "authors": "James Psota",
    "url": "https://www.semanticscholar.org/paper/34e10b7514de6a2024414eeedb7fde431c8345cd",
    "cited_by": 4,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Efficient Support for All Levels of Parallelism for Complex Media Applications",
+   "function": "unclassified",
+   "split": null,
+   "year": 2004,
+   "authors": "Ruchira Sasanka",
+   "url": "https://www.semanticscholar.org/paper/8b06d7425b8c7e9982fd0f89baa023524ed1de20",
+   "cited_by": 1,
    "evidence": "title_only"
   },
   {

@@ -1,16 +1,52 @@
 {
  "schema": 1,
  "key": "saman:phd-thesis:1997",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 8,
-  "works": 7,
-  "commit": 2,
-  "judged": 7,
+  "records_raw": 35,
+  "works": 34,
+  "commit": 3,
+  "judged": 24,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Strength Reduction of Integer Division and Modulo Operations",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2003,
+   "venue": "Lecture notes in computer science",
+   "authors": "Jeffrey Sheldon, W. Lee, Ben Greenwald et al.",
+   "url": "https://doi.org/10.1007/3-540-35767-x_17",
+   "cited_by": 12,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Automatic code generation of data decomposition",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "Scalable Information Systems",
+   "authors": "Ya-Nan Shen, Rongcai Zhao, Jianmin Pang",
+   "url": "https://doi.org/10.1145/1146847.1146859",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "Search Space Properties for Mapping Coarse-Grain Pipelined FPGA Applications",
    "function": "adopts-idea",
@@ -41,6 +77,119 @@
    "evidence": "fulltext"
   },
   {
+   "title": "ompVerify: Polyhedral Analysis for the OpenMP Programmer",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "Lecture notes in computer science",
+   "authors": "Vamshi Basupalli, Tomofumi Yuki, Sanjay V. Rajopadhye et al.",
+   "url": "https://doi.org/10.1007/978-3-642-21487-5_4",
+   "cited_by": 59,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Scalable and efficient tools for multi-level tiling",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2008,
+   "venue": "Digital Collections of Colorado (Colorado State University)",
+   "authors": "Lakshminarayanan Renganarayana, Sanjay V. Rajopadhye",
+   "url": "https://doi.org/10.25675/3.018705",
+   "cited_by": 3,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Dependence Analysis and Parallelizing Transformations",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "CRC Press eBooks",
+   "authors": "Sanjay V. Rajopadhye",
+   "url": "https://doi.org/10.1201/9781420040579.ch10",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Code generation for accurate array redistribution on automatic distributed-memory parallelization",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "The International journal of networked and distributed computing",
+   "authors": "Bo Zhao, Rui Ding, Lin Han et al.",
+   "url": "https://doi.org/10.2991/ijndc.2014.2.1.2",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Multilevel tiling for non-rectangular interation spaces",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 1999,
+   "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+   "authors": "Marta Jiménez Castells",
+   "url": "https://doi.org/10.5821/dissertation-2117-93321",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Monoparametric Tiling of Polyhedral Programs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Guillaume Iooss, Christophe Alias, Sanjay V. Rajopadhye",
+   "url": "https://doi.org/10.1007/s10766-021-00694-2",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An Overview on Loop Tiling Techniques for Code Generation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "IEEE/ACS International Conference on Computer Systems and Applications (AICCSA)",
+   "authors": "Emna Hammami, Yosr Slama",
+   "url": "https://doi.org/10.1109/aiccsa.2017.168",
+   "cited_by": 18,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Detection of linear algebra operations in polyhedral programs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "Guillaume Iooss",
+   "url": "https://doi.org/10.70675/3cde6274ze889z4b94zb3c6z60783d4685c6",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Interprocedural parallelization analysis in SUIF",
    "function": "detailed-citation",
    "split": "detailed",
@@ -58,6 +207,32 @@
    "commit": true
   },
   {
+   "title": "A cost-effective implementation of multilevel tiling",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2003,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "M Manuel Jimenez, José María Llabería, Agustín Fernández",
+   "url": "https://doi.org/10.1109/tpds.2003.1239869",
+   "cited_by": 17,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Loop bounds computation for multilevel tiling",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)",
+   "authors": "M Manuel Jimenez, José María Llabería, Agustín Fernández",
+   "url": "https://doi.org/10.1109/empdp.1998.647232",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Memory bank disambiguation using modulo unrolling for Raw machines",
    "function": "detailed-citation",
    "split": "detailed",
@@ -73,6 +248,45 @@
    ],
    "evidence": "contexts",
    "commit": true
+  },
+  {
+   "title": "On the Verification of Polyhedral Program Transformations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "HAL",
+   "authors": "Christophe Alias, Guillaume Iooss, Sanjay V. Rajopadhye",
+   "url": "https://openalex.org/W3118795116",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "HAWKEYE: effective discovery of dataflow impediments to parallelization",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
+   "authors": "Omer Tripp, Greta Yorsh, John Field et al.",
+   "url": "https://doi.org/10.1145/2048066.2048085",
+   "cited_by": 22,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Data Layout Transformation for Enhancing Data Locality on NUCA Chip Multiprocessors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Qingda Lu, Christophe Alias, Uday Kumar Reddy Bondhugula et al.",
+   "url": "https://doi.org/10.1109/pact.2009.36",
+   "cited_by": 79,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Parameterized tiled loops for free",
@@ -101,6 +315,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Bottlenecks in multimedia processing with SIMD style extensions and architectural enhancements",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "venue": "IEEE Transactions on Computers",
+   "authors": "Deependra Talla, Lizy K. John, Doug Burger",
+   "url": "https://doi.org/10.1109/tc.2003.1223637",
+   "cited_by": 118,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Performance modeling and measurement of parallelized code for distributed shared memory multiprocessors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2002,
+   "venue": "Proceedings - International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",
+   "authors": "Abdul Waheed, Jerry C. Yan",
+   "url": "https://doi.org/10.1109/mascot.1998.693690",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Evaluation of predicated array data-flow analysis for automatic parallelization",
    "function": "passing-citation",
    "split": "passing",
@@ -112,6 +352,128 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "contexts"
+  },
+  {
+   "title": "Exposed-set Calculating Algorithm for Eliminating Redundant Communication",
+   "function": "unknown",
+   "split": null,
+   "year": 2009,
+   "venue": "Jisuanji gongcheng",
+   "authors": "Ling Liang",
+   "url": "https://openalex.org/W2355403422",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "On extracting coarse-grained function parallelism from c programs",
+   "function": "unknown",
+   "split": null,
+   "year": 2006,
+   "authors": "Wen‐mei Hwu, Chien-Wei Li",
+   "url": "https://openalex.org/W1151039648",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Analysing the behaviour of neural networks",
+   "function": "unknown",
+   "split": null,
+   "year": 2004,
+   "authors": "Stephan Breutel",
+   "url": "https://openalex.org/W144883304",
+   "cited_by": 4,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Evaluating automatic parallelization in SUIF",
+   "function": "unknown",
+   "split": null,
+   "year": 2000,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "Sungdo Moon, Byoungro So, Mary W. Hall",
+   "url": "https://doi.org/10.1109/71.824639",
+   "cited_by": 16,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiling for parallel multithreaded computation on symmetric multiprocessors",
+   "function": "unknown",
+   "split": null,
+   "year": 1998,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Andrew Shaw, Arvind Arvind",
+   "url": "https://openalex.org/W1536472226",
+   "cited_by": 0,
+   "evidence": "abstract"
+  },
+  {
+   "title": "Automatic Computation and Data Decomposition for Multiprocessors",
+   "function": "unknown",
+   "split": null,
+   "year": 1997,
+   "authors": "Monica S. Lam, Jennifer-Ann M. Anderson",
+   "url": "https://openalex.org/W1564418300",
+   "cited_by": 32,
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Memory state flow analysis and its application",
+   "function": "unclassified",
+   "split": null,
+   "year": 2011,
+   "venue": "Library, Museums and Press - UDSpace (University of Delaware)",
+   "authors": "AN Xiao-mi",
+   "url": "https://openalex.org/W2139974734",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Polynomial Time Array Dataflow Analysis",
+   "function": "unclassified",
+   "split": null,
+   "year": 2003,
+   "venue": "Lecture notes in computer science",
+   "authors": "Robert Morrison Seater, David Wonnacott",
+   "url": "https://doi.org/10.1007/3-540-35767-x_27",
+   "cited_by": 5,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Generation of Efficient Nested Loops from Polyhedra",
+   "function": "unclassified",
+   "split": null,
+   "year": 2000,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Fabien Quilleré, Sanjay V. Rajopadhye, Doran K. Wilde",
+   "url": "https://doi.org/10.1023/a:1007554627716",
+   "cited_by": 212,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Compilation techniques for parallel systems",
+   "function": "unclassified",
+   "split": null,
+   "year": 1999,
+   "venue": "Parallel Computing",
+   "authors": "Rajiv Gupta, Santosh Pande, Kleanthis Psarris et al.",
+   "url": "https://doi.org/10.1016/s0167-8191(99)00086-1",
+   "cited_by": 41,
+   "evidence": "title_only"
   }
  ]
 }

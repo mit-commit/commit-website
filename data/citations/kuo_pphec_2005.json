@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "key": "kuo:pphec:2005",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 13,
-  "works": 13,
+  "records_raw": 14,
+  "works": 14,
   "commit": 1,
   "judged": 6,
   "gscholar": null
@@ -181,6 +181,17 @@
    "authors": "Maik Nijhuis",
    "url": "https://openalex.org/W2130563583",
    "cited_by": 2,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Automatic Code Parallelization and Optimization",
+   "function": "unclassified",
+   "split": null,
+   "year": 2008,
+   "venue": "CRC Press eBooks",
+   "authors": "Nadya T. Bliss",
+   "url": "https://doi.org/10.1201/9781420006667.ch19",
+   "cited_by": 0,
    "evidence": "title_only"
   }
  ]

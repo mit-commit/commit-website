@@ -1,16 +1,130 @@
 {
  "schema": 1,
  "key": "anderson:ppopp:1995",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 47,
-  "works": 45,
-  "commit": 0,
-  "judged": 29,
+  "records_raw": 205,
+  "works": 202,
+  "commit": 7,
+  "judged": 132,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Improving last level cache locality by integrating loop and data transformations",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2012,
+   "authors": "Wei Ding, Mahmut Kandemir",
+   "url": "https://doi.org/10.1145/2429384.2429398",
+   "cited_by": 6,
+   "centrality": "core",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Hybrid Strategy Based on Data Distribution and Migration for Optimizing Memory Locality",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "Lecture notes in computer science",
+   "authors": "I. Kadayif, Mahmut Kandemir, Alok Choudhary",
+   "url": "https://doi.org/10.1007/11596110_8",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiler parallelization of C programs for multi-core DSPs with multiple address spaces",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "International Conference on Hardware/Software Codesign and System Synthesis",
+   "authors": "Björn Franke, Michael F. P. O’boyle",
+   "url": "https://doi.org/10.1109/codess.2003.1275287",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Strength Reduction of Integer Division and Modulo Operations",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2003,
+   "venue": "Lecture notes in computer science",
+   "authors": "Jeffrey Sheldon, W. Lee, Ben Greenwald et al.",
+   "url": "https://doi.org/10.1007/3-540-35767-x_17",
+   "cited_by": 12,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Efficient Machine-Independent Programming of High-Performance Multiprocessors",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 1998,
+   "venue": "University Libraries (University of Maryland)",
+   "authors": "Chau‐Wen Tseng",
+   "url": "https://openalex.org/W1557715966",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Unified compilation techniques for shared and distributed address space machines",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 1995,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Chau‐Wen Tseng, Jennifer-Ann M. Anderson, Saman P. Amarasinghe et al.",
+   "url": "https://doi.org/10.1145/224538.224546",
+   "cited_by": 14,
+   "centrality": "core",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Exploiting Multi-Level Parallelism in Streaming Applications for Heterogeneous Platforms with GPUs",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "Leiden Repository (Leiden University)",
+   "authors": "Ana Balevic",
+   "url": "https://openalex.org/W2582174938",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Traffic steering between a low-latency unswitched TL ring and a high-throughput switched on-chip interconnect",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Wei Ding, Jun Liu, Mahmut Kandemir et al.",
+   "url": "https://doi.org/10.1109/pact.2013.6618820",
+   "cited_by": 9,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
   {
    "title": "Data layout transformation exploiting memory-level parallelism in structured grid many-core applications",
    "function": "adopts-idea",
@@ -22,6 +136,131 @@
    "cited_by": 100,
    "centrality": "engaged",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Data distribution support on distributed shared memory multiprocessors",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 1997,
+   "venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+   "authors": "Rohit Chandra, Ding-Kai Chen, Robert Cox et al.",
+   "url": "https://doi.org/10.1145/258915.258945",
+   "cited_by": 52,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An Automatic Computation and Data Decomposition Algorithm of Prioritized Dominant Array",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "International Conference on Parallel and Distributed Computing, Applications and Technologies (PDCAT)",
+   "authors": "Rui Ding, Rongcai Zhao, Lin Han",
+   "url": "https://doi.org/10.1109/pdcat.2012.42",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimizing data locality using array tiling",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2011,
+   "authors": "Wei Ding, Yuanrui Zhang, Jun Liu et al.",
+   "url": "https://doi.org/10.1109/iccad.2011.6105318",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Analysis of Parallel Algorithms on SMP Node and Cluster of Workstations Using Parallel Programming Models with New Tile-based Method for Large Biological Datasets",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "Bioinformatics and Biology Insights",
+   "authors": "Deepti D. Shrimankar, Shailesh R. Sathe",
+   "url": "https://doi.org/10.4137/bbi.s40744",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Data Layout Transformation for Stencil Computations on Short-Vector SIMD Architectures",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "Lecture notes in computer science",
+   "authors": "Tom Henretty, Kevin Stock, Louis-Noël Pouchet et al.",
+   "url": "https://doi.org/10.1007/978-3-642-19861-8_13",
+   "cited_by": 141,
+   "centrality": "engaged",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimizing shared cache behavior of chip multiprocessors",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+   "authors": "Mahmut Kandemir, Sai Prashanth Muralidhara, Sri Hari Krishna Narayanan et al.",
+   "url": "https://doi.org/10.1145/1669112.1669176",
+   "cited_by": 42,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Combining program recovery, auto-parallelisation and locality analysis for C programs on multi-processor embedded systems",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "MTS/IEEE OCEANS Conference (OCEANS)",
+   "authors": "Björn Franke, Michael F. P. O’boyle",
+   "url": "https://doi.org/10.1109/pact.2003.1238007",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compilation Techniques for High-Performance Embedded Systems with Multiple Processors",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "ERA",
+   "authors": "Björn Franke",
+   "url": "https://openalex.org/W315527393",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "detailed-citation"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -40,6 +279,51 @@
    "evidence": "abstract"
   },
   {
+   "title": "A graph based framework to detect optimal memory layouts for improving data locality",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2003,
+   "venue": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+   "authors": "M. Kandemir, Alok Choudhary, Jagannathan Ramanujam et al.",
+   "url": "https://doi.org/10.1109/ipps.1999.760558",
+   "cited_by": 10,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "On reducing false sharing while improving locality on shared memory multiprocessors",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2003,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Mahmut Kandemir, A. Choudhary, J. Ramaujam et al.",
+   "url": "https://doi.org/10.1109/pact.1999.807529",
+   "cited_by": 3,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A heuristic approach for finding a solution to the constant-degree parallelism alignment problem",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Claude Diderich, Marc Gengler",
+   "url": "https://doi.org/10.1109/pact.1996.552656",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A matrix-based approach to the global locality optimization problem",
    "function": "positions",
    "split": "detailed",
@@ -53,6 +337,19 @@
     "adopts-idea"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Automatic partitioning of data and computations on scalable shared memory multiprocessors",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "Proceedings of the International Conference on Parallel Processing",
+   "authors": "Sudarsan Tandri, Tarek S. Abdelrahman",
+   "url": "https://doi.org/10.1109/icpp.1997.622557",
+   "cited_by": 22,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Compiler algorithms for optimizing locality and parallelism on shared and distributed memory machines",
@@ -97,6 +394,122 @@
    "evidence": "abstract"
   },
   {
+   "title": "A layout-conscious iteration space transformation technique",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2001,
+   "venue": "IEEE Transactions on Computers",
+   "authors": "Mahmut Kandemir, Jagannathan Ramanujam, Alok Choudhary et al.",
+   "url": "https://doi.org/10.1109/tc.2001.970571",
+   "cited_by": 30,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Static and dynamic locality optimizations using integer linear programming",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2001,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "Mahmut Kandemir, P. Banerjee, Alok Choudhary et al.",
+   "url": "https://doi.org/10.1109/tpds.2001.1184186",
+   "cited_by": 10,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A unified framework for optimizing locality, parallelism, and communication in out-of-core computations",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2000,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "Mahmut Kandemir, Alok Choudhary, Jagannathan Ramanujam et al.",
+   "url": "https://doi.org/10.1109/71.877759",
+   "cited_by": 26,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A linear algebra framework for automatic determination of optimal data layouts",
+   "function": "positions",
+   "split": "detailed",
+   "year": 1999,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "Mahmut Kandemir, Alok Choudhary, N. Shenoy et al.",
+   "url": "https://doi.org/10.1109/71.752779",
+   "cited_by": 59,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An affine partitioning algorithm to maximize parallelism and minimize communication",
+   "function": "positions",
+   "split": "detailed",
+   "year": 1999,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Amy W. Lim, Gerald Cheong, Monica S. Lam",
+   "url": "https://doi.org/10.1145/305138.305197",
+   "cited_by": 195,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Improving cache locality by a combination of loop and data transformations",
+   "function": "positions",
+   "split": "detailed",
+   "year": 1999,
+   "venue": "IEEE Transactions on Computers",
+   "authors": "Mahmut Kandemir, Jagannathan Ramanujam, Alok Choudhary",
+   "url": "https://doi.org/10.1109/12.752657",
+   "cited_by": 120,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A compiler optimization algorithm for shared-memory multiprocessors",
+   "function": "positions",
+   "split": "detailed",
+   "year": 1998,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "Kathryn S. McKinley",
+   "url": "https://doi.org/10.1109/71.706049",
+   "cited_by": 34,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A hyperplane based approach for optimizing spatial locality in loop nests",
+   "function": "positions",
+   "split": "detailed",
+   "year": 1998,
+   "venue": "International Conference on Supercomputing",
+   "authors": "M. Kandemir, Alok Choudhary, N. Shenoy et al.",
+   "url": "https://doi.org/10.1145/277830.277849",
+   "cited_by": 38,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Enhancing spatial locality via data layout optimizations",
    "function": "positions",
    "split": "detailed",
@@ -125,6 +538,205 @@
    "evidence": "abstract"
   },
   {
+   "title": "A Data Layout Optimization Technique Based on Hyperplanes",
+   "function": "positions",
+   "split": "detailed",
+   "authors": "Mahmut Kandemir, Alok Choudhary, A. Choudhary et al.",
+   "url": "https://openalex.org/W181332335",
+   "cited_by": 3,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Current status of the SUIF research project",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 1996,
+   "venue": "Lecture notes in computer science",
+   "authors": "Monica S. Lam",
+   "url": "https://doi.org/10.1007/3-540-61736-1_43",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Modelling elevations, inundation extent and hazard risk for extreme flood events",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "ORCA Online Research @Cardiff (Cardiff University)",
+   "authors": "Davor Kvočka",
+   "url": "https://openalex.org/W2732474253",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Systematic Design Methods for Efficient Off-Chip DRAM Access",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2012,
+   "authors": "Samuel Bayliss",
+   "url": "https://doi.org/10.25560/11160",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Locality optimizations on irregular algorithms and data structures",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "RepositóriUM (Universidade do Minho)",
+   "authors": "Nuno Faria",
+   "url": "https://openalex.org/W2249829576",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Forma: A framework for safe automatic array reshaping",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "ACM Transactions on Programming Languages and Systems",
+   "authors": "Peng Zhao, Shimin Cui, Yaoqing Gao et al.",
+   "url": "https://doi.org/10.1145/1290520.1290522",
+   "cited_by": 33,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Array regrouping and structure splitting using whole-program reference affinity",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+   "authors": "Yutao Zhong, Maksim Orlovich, Xipeng Shen et al.",
+   "url": "https://doi.org/10.1145/996841.996872",
+   "cited_by": 143,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiler optimizations for I/O-intensive computations",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2003,
+   "venue": "Proceedings of the International Conference on Parallel Processing",
+   "authors": "M. Kandemir, Alok Choudhary, Jagannathan Ramanujam",
+   "url": "https://doi.org/10.1109/icpp.1999.797401",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiler optimizations for eliminating cache conflict misses",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 1997,
+   "venue": "University Libraries (University of Maryland)",
+   "authors": "Gabriel Rivera, Chau‐Wen Tseng",
+   "url": "https://openalex.org/W2143887339",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimizing communication in HPF programs on fine-grain distributed shared memory",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 1997,
+   "venue": "ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+   "authors": "Satish Chandra, James R. Larus",
+   "url": "https://doi.org/10.1145/263764.263780",
+   "cited_by": 27,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiler-directed page coloring for multiprocessors",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 1996,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Edouard Bugnion, Jennifer-Ann M. Anderson, Todd C. Mowry et al.",
+   "url": "https://doi.org/10.1145/237090.237195",
+   "cited_by": 98,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Minimizing communication while preserving parallelism",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 1996,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Wayne Kelly, William Plugh",
+   "url": "https://doi.org/10.1145/237578.237585",
+   "cited_by": 39,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Recovering Logical Data and Code Structures",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 1995,
+   "venue": "UR Research (University of Rochester)",
+   "authors": "Michał Cierniak, Wei Li",
+   "url": "https://openalex.org/W1580866559",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Performance and memory space optimizations for embedded systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2011,
+   "authors": "Mahmut Kandemir, Kishan G. Mehrotra, Taylan Yemliha",
+   "url": "https://openalex.org/W2162510448",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "Quasidynamic layout optimizations for improving data locality",
    "function": "exemplifies",
    "split": "passing",
@@ -148,6 +760,98 @@
    "authors": "Hironori Kasahara, Motoki Obata, Kazuhisa Ishizaka et al.",
    "url": "https://doi.org/10.1109/pcee.2002.1115213",
    "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Modelado analítico del comportamiento de memorias caché",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 1999,
+   "venue": "Tesis Doctorals en Xarxa (Consorci de Serveis Universitaris de Catalunya)",
+   "authors": "Basilio B. Fraguela",
+   "url": "https://openalex.org/W1485209054",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Parallelizing Compiler Techniques Based on Linear Inequalities",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 1997,
+   "authors": "Saman P. Amarasinghe",
+   "url": "https://openalex.org/W2134788617",
+   "cited_by": 36,
+   "centrality": "core",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "Maximizing multiprocessor performance with the SUIF compiler",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 1996,
+   "venue": "Computer",
+   "authors": "Mary W. Hall, Jennifer-Ann M. Anderson, Saman P. Amarasinghe et al.",
+   "url": "https://doi.org/10.1109/2.546613",
+   "cited_by": 598,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "uses-tool"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Multiprocessors from a software perspective",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 1996,
+   "venue": "IEEE Micro",
+   "authors": "Saman P. Amarasinghe, Jennifer-Ann M. Anderson, Christopher S. Wilson et al.",
+   "url": "https://doi.org/10.1109/40.502406",
+   "cited_by": 53,
+   "centrality": "engaged",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Analytical modelling for the performance prediction and optimisation of near-neighbour structured grid hydrodynamics",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Warwick Research Archive Portal (University of Warwick)",
+   "authors": "James A. Davis",
+   "url": "https://doi.org/10.82444/warw.33744799",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "ARACHNE: Optimizing Distributed Parallel Applications with Reduced Inter-Process Communication",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Yifu He, Han Zhao, Weihao Cui et al.",
+   "url": "https://doi.org/10.1145/3716871",
+   "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -190,6 +894,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "A framework for group locality aware multithreading",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "Library, Museums and Press - UDSpace (University of Delaware)",
+   "authors": "Sunil Shrestha",
+   "url": "https://doi.org/10.58088/vvc8-w027",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A logical memory model for scaling parallel multimedia workloads",
    "function": "passing-citation",
    "split": "passing",
@@ -197,6 +914,148 @@
    "authors": "Preben N. Olsen, Martin Nyhus, Pål Halvorsen et al.",
    "url": "https://doi.org/10.1145/2736084.2736096",
    "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic Parallelization of Kernels in Shared-Memory Multi-GPU Nodes",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Javier Cabezas, Lluís Vilanova, Isaac Gelado et al.",
+   "url": "https://doi.org/10.1145/2751205.2751218",
+   "cited_by": 31,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimizing off-chip accesses in multicores",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+   "authors": "Wei Ding, Xulong Tang, Mahmut Kandemir et al.",
+   "url": "https://doi.org/10.1145/2737924.2737989",
+   "cited_by": 19,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Reactive tiling",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "authors": "Jithendra Srinivas, W. Ding, Mahmut Kandemir",
+   "url": "https://doi.org/10.5555/2738600.2738612",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Synthesizing imperative distributed-memory implementations from functional data-parallel programs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "ePrints Soton (University of Southampton)",
+   "authors": "Tristan Aubrey-Jones",
+   "url": "https://openalex.org/W1469352018",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "CApRI: CAche-conscious data reordering for irregular codes",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)",
+   "authors": "Wei Ding, Mahmut Kandemir",
+   "url": "https://doi.org/10.1145/2591971.2591992",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic parallelization of affine loops using dependence and cache analysis in a binary rewriter",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "University Libraries (University of Maryland)",
+   "authors": "Aparna Kotha",
+   "url": "https://openalex.org/W71460633",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Compiling affine loop nests for distributed-memory parallel architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+   "authors": "Uday Kumar Reddy Bondhugula",
+   "url": "https://doi.org/10.1145/2503210.2503289",
+   "cited_by": 88,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A data layout optimization framework for NUCA-based multicores",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+   "authors": "Yuanrui Zhang, Wei Ding, Mahmut Kandemir et al.",
+   "url": "https://doi.org/10.1145/2155620.2155677",
+   "cited_by": 20,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimizing Data Layouts for Parallel Computation on Multicores",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Yuanrui Zhang, Wei Ding, Jun Liu et al.",
+   "url": "https://doi.org/10.1109/pact.2011.20",
+   "cited_by": 30,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Parallelization of DNA sequence alignment using OpenMP",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "International Conference on Communication, Computing & Security",
+   "authors": "Shailesh R. Sathe, Deepti D. Shrimankar",
+   "url": "https://doi.org/10.1145/1947940.1947983",
+   "cited_by": 7,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Modeling and exploiting spatial locality trade-offs in wavelet-based applications under varying resource requirements",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "venue": "ACM Transactions on Embedded Computing Systems",
+   "authors": "Bert Geelen, Vissarion Ferentinos, Francky Catthoor et al.",
+   "url": "https://doi.org/10.1145/1698772.1698775",
+   "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -239,6 +1098,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Dynamic parallelization of single-threaded binary programs using speculative slicing",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Cheng Wang, Youfeng Wu, Edson Borin et al.",
+   "url": "https://doi.org/10.1145/1542275.1542302",
+   "cited_by": 38,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Tile Reduction: The First Step towards Tile Aware Parallelization in OpenMP",
    "function": "passing-citation",
    "split": "passing",
@@ -265,6 +1137,44 @@
    "evidence": "abstract"
   },
   {
+   "title": "Lightweight barrier-based parallelization support for non-cache-coherent MPSoC platforms",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2007,
+   "venue": "International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES)",
+   "authors": "Andrea Marongiu, L. Benini, Mahmut Kandemir",
+   "url": "https://doi.org/10.1145/1289881.1289908",
+   "cited_by": 14,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Applying Data Copy to Improve Memory Performance of General Array Computations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2006,
+   "venue": "Lecture notes in computer science",
+   "authors": "Qing Yi",
+   "url": "https://doi.org/10.1007/978-3-540-69330-7_7",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Large-Scale Program Behavior Analysis for Adaptation and Parallelization",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2006,
+   "authors": "Xipeng Shen",
+   "url": "https://openalex.org/W2181950021",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "A complete compiler approach to auto-parallelizing C programs for multi-DSP systems",
    "function": "passing-citation",
    "split": "passing",
@@ -275,6 +1185,19 @@
    "cited_by": 14,
    "centrality": "peripheral",
    "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Cache Miss Characterization and Data Locality Optimization for Imperfectly Nested Loops on Shared Memory Multiprocessors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2005,
+   "venue": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+   "authors": "Sanjaya Kumar Sahoo, R. Panuganti, Sriram Krishnamoorthy et al.",
+   "url": "https://doi.org/10.1109/ipdps.2005.134",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -302,6 +1225,127 @@
    "evidence": "abstract"
   },
   {
+   "title": "Interprocedural parallelization analysis in SUIF",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2005,
+   "venue": "ACM Transactions on Programming Languages and Systems",
+   "authors": "Mary W. Hall, Saman P. Amarasinghe, Brian R. Murphy et al.",
+   "url": "https://doi.org/10.1145/1075382.1075385",
+   "cited_by": 65,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Lightweight reference affinity analysis",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2005,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Xipeng Shen, Yaoqing Gao, Chen Ding et al.",
+   "url": "https://doi.org/10.1145/1088149.1088167",
+   "cited_by": 33,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Performance of OSCAR Multigrain Parallelizing Compiler on SMP Servers",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2005,
+   "venue": "Lecture notes in computer science",
+   "authors": "Kazuhisa Ishizaka, Takamichi Miyamoto, Jun Shirako et al.",
+   "url": "https://doi.org/10.1007/11532378_23",
+   "cited_by": 17,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Software Methods to Improve Data Locality and Cache Behavior",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2004,
+   "venue": "Ghent University Academic Bibliography (Ghent University)",
+   "authors": "Kristof E. Beyls",
+   "url": "https://openalex.org/W59802732",
+   "cited_by": 31,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Auto-FCD: efficiently parallelizing CFD applications on clusters",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "venue": "IEEE International Conference on Cluster Computing (CLUSTER)",
+   "authors": "Li Xiao, Xiadong Zhang, Zhengqian Kuang et al.",
+   "url": "https://doi.org/10.1109/clustr.2003.1253298",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Coarse Grain Task Parallel Processing with Cache Optimization on Shared Memory Multiprocessor",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "venue": "Lecture notes in computer science",
+   "authors": "Kazuhisa Ishizaka, Motoki Obata, Hironori Kasahara",
+   "url": "https://doi.org/10.1007/3-540-35767-x_23",
+   "cited_by": 15,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Efficient parallelisation using combined loop and data transformations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Michael F. P. O’boyle, Peter M. W. Knijnenburg",
+   "url": "https://doi.org/10.1109/pact.1999.807573",
+   "cited_by": 11,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Improving server software support for simultaneous multithreaded processors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "venue": "ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+   "authors": "Luke K. McDowell, Susan J. Eggers, Steven D. Gribble",
+   "url": "https://doi.org/10.1145/781498.781504",
+   "cited_by": 21,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Layer assignment techniques for low energy in multi-layered memory organisations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "venue": "Design, Automation, and Test in Europe",
+   "authors": "Erik Brockmeyer, M. Miranda, Francky Catthoor",
+   "url": "https://doi.org/10.1109/date.2003.1253746",
+   "cited_by": 42,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Reducing cache conflicts by partitioning and privatizing shared arrays",
    "function": "passing-citation",
    "split": "passing",
@@ -309,6 +1353,19 @@
    "authors": "Zhiyuan Li",
    "url": "https://doi.org/10.1109/pact.1999.807525",
    "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Reducing false sharing and improving spatial locality in a unified compilation framework",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "Mahmut Kandemir, Alok Choudhary, Jagannathan Ramanujam et al.",
+   "url": "https://doi.org/10.1109/tpds.2003.1195407",
+   "cited_by": 6,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -327,6 +1384,225 @@
    "evidence": "abstract"
   },
   {
+   "title": "Integrating loop and data transformations for global optimisation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2002,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Michael F. P. O’boyle, Peter M. W. Knijnenburg",
+   "url": "https://doi.org/10.1109/pact.1998.727131",
+   "cited_by": 24,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Interprocedural array remapping",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2002,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Michał Cierniak, Wei Li",
+   "url": "https://doi.org/10.1109/pact.1997.644011",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Precise Data Locality Optimization of",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2002,
+   "authors": "Vincent Loechner, Philippe Clauss",
+   "url": "https://openalex.org/W2189146660",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Program partitioning optimizations in an HPF prototype compiler",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2002,
+   "venue": "IEEE Annual International Computer Software and Applications Conference (COMPSAC)",
+   "authors": "Makoto Sato, Takashi Hirooka, K. Wada et al.",
+   "url": "https://doi.org/10.1109/cmpsac.1996.542436",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Programming shared virtual memory multiprocessors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2002,
+   "venue": "Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)",
+   "authors": "Michael Gerndt",
+   "url": "https://doi.org/10.1109/empdp.1996.500561",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A compiler technique for improving whole-program locality",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2001,
+   "venue": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (POPL)",
+   "authors": "Mahmut Kandemir",
+   "url": "https://doi.org/10.1145/360204.360219",
+   "cited_by": 21,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A dynamic locality optimization algorithm for linear algebra codes",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2001,
+   "venue": "ACM Symposium on Applied Computing",
+   "authors": "Mahmut Kandemir",
+   "url": "https://doi.org/10.1145/372202.372788",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic Coarse Grain Task Parallel Processing on SMP Using OpenMP",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2001,
+   "venue": "Lecture notes in computer science",
+   "authors": "Hironori Kasahara, Motoki Obata, Kazuhisa Ishizaka",
+   "url": "https://doi.org/10.1007/3-540-45574-4_13",
+   "cited_by": 36,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Hardware/compiler codevelopment for an embedded media processor",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2001,
+   "venue": "Proceedings of the IEEE",
+   "authors": "Christos Kozyrakis, D. Judd, Joe Gebis et al.",
+   "url": "https://doi.org/10.1109/5.964446",
+   "cited_by": 48,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Loop optimization for a class of memory-constrained computations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2001,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Daniel Cociorva, John W. Wilkins, C. Lam et al.",
+   "url": "https://doi.org/10.1145/377792.377814",
+   "cited_by": 38,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Cacheminer: A runtime approach to exploit cache locality on SMP",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2000,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "Yong Yan, Xiaodong Zhang",
+   "url": "https://doi.org/10.1109/71.850833",
+   "cited_by": 20,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Volume Driven Data Distribution for NUMA-Machines",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2000,
+   "venue": "Lecture notes in computer science",
+   "authors": "Felix Heine, Adrian Slowik",
+   "url": "https://doi.org/10.1007/3-540-44520-x_53",
+   "cited_by": 10,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Υψηλού επιπέδου μέθοδοι μείωσης της κατανάλωσης ενέργειας σε εφαρμογές πολυμέσων",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2000,
+   "authors": "Κωνσταντίνος Μασσέλος",
+   "url": "https://doi.org/10.12681/eadd/31102",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Improving cache performance in dynamic applications through data and computation reorganization at run time",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1999,
+   "venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+   "authors": "Chen Ding, Ken Kennedy",
+   "url": "https://doi.org/10.1145/301618.301670",
+   "cited_by": 234,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "New tiling techniques to improve cache temporal locality",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1999,
+   "venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+   "authors": "Yonghong Song, Zhiyuan Li",
+   "url": "https://doi.org/10.1145/301618.301668",
+   "cited_by": 185,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Nonlinear array layouts for hierarchical memory systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1999,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Siddhartha Chatterjee, Vibhor Jain, Alvin R. Lebeck et al.",
+   "url": "https://doi.org/10.1145/305138.305231",
+   "cited_by": 171,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimal replacements in caches with two miss costs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1999,
+   "venue": "ACM Symposium on Parallelism in Algorithms and Architectures (SPAA)",
+   "authors": "Jaeheon Jeong, Michel Dubois",
+   "url": "https://doi.org/10.1145/305619.305636",
+   "cited_by": 30,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Data distribution at run-time: Re-using execution plans",
    "function": "passing-citation",
    "split": "passing",
@@ -340,6 +1616,72 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Data transformations for eliminating conflict misses",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1998,
+   "venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+   "authors": "Gabriel Rivera, Chau‐Wen Tseng",
+   "url": "https://doi.org/10.1145/277650.277661",
+   "cited_by": 226,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Eliminating conflict misses for high performance architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1998,
+   "venue": "International Conference on Supercomputing",
+   "authors": "Gabriel Rivera, Chau‐Wen Tseng",
+   "url": "https://doi.org/10.1145/277830.277917",
+   "cited_by": 57,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Exploiting thread-level parallelism on simultaneous multithreaded processors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1998,
+   "authors": "Jack L. Lo, Susan J. Eggers, Henry M. Levy",
+   "url": "https://openalex.org/W45645208",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Schedule-independent storage mapping for loops",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1998,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Michelle Mills Strout, Larry Carter, Jeanne Ferrante et al.",
+   "url": "https://doi.org/10.1145/291069.291015",
+   "cited_by": 66,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A unified compiler algorithm for optimizing locality, parallelism and communication in out-of-core computations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1997,
+   "authors": "Mahmut Kandemir, Alok Choudhary, Jagannathan Ramanujam et al.",
+   "url": "https://doi.org/10.1145/266220.266228",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Auto-blocking matrix-multiplication or tracking BLAS3 performance from source code",
    "function": "passing-citation",
    "split": "passing",
@@ -348,6 +1690,32 @@
    "authors": "Jeremy D. Frens, David S. Wise",
    "url": "https://doi.org/10.1145/263767.263789",
    "cited_by": 114,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic computation and data partitioning on scalable shared-memory multiprocessors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1997,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Tarek S. Abdelrahman, Sudarsan Tandri",
+   "url": "https://openalex.org/W2285615828",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic inline allocation of objects",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1997,
+   "venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+   "authors": "Julian Dolby",
+   "url": "https://doi.org/10.1145/258915.258918",
+   "cited_by": 80,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -366,6 +1734,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Data-centric multi-level blocking",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1997,
+   "venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+   "authors": "Induprakas Kodukula, Nawaaz Ahmed, Keshav K. Pingali",
+   "url": "https://doi.org/10.1145/258915.258946",
+   "cited_by": 239,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "ADDT: automatic data distribution tool for porting programs to PVM",
    "function": "passing-citation",
    "split": "passing",
@@ -373,6 +1754,19 @@
    "authors": "Hari Sivaraman, C.S. Raghavendra",
    "url": "https://doi.org/10.1109/hicss.1996.495506",
    "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Array restructuring for cache locality",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1996,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Shun-Tak A. Leung, John Zahorjan",
+   "url": "https://openalex.org/W1561400650",
+   "cited_by": 10,
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
@@ -388,6 +1782,58 @@
    "cited_by": 73,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiler optimizations for eliminating barrier synchronization",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1995,
+   "venue": "ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
+   "authors": "Chau‐Wen Tseng",
+   "url": "https://doi.org/10.1145/209936.209952",
+   "cited_by": 113,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Localizing Non-affine Array References",
+   "function": "passing-citation",
+   "split": "passing",
+   "authors": "Nicholas Mitchell, Larry Carter, Jeanne Ferrante",
+   "url": "https://openalex.org/W1993464114",
+   "cited_by": 39,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Low-Power Data Storage and Communication for SoC",
+   "function": "unknown",
+   "split": null,
+   "year": 2018,
+   "venue": "CRC Press eBooks",
+   "authors": "Miguel Miranda, Erik Brockmeyer, Tycho van Meeuwen et al.",
+   "url": "https://doi.org/10.1201/9781315220581-12",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "The Ramachandran Number: An Order Parameter for Protein Geometry",
+   "function": "unknown",
+   "split": null,
+   "year": 2016,
+   "venue": "PLoS ONE",
+   "authors": "Ranjan V. Mannige, Joyjit Kundu, Stephen Whitelam",
+   "url": "https://doi.org/10.1371/journal.pone.0160023",
+   "cited_by": 55,
+   "flags": [
+    "polluted-contexts"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -417,6 +1863,76 @@
    "evidence": "abstract"
   },
   {
+   "title": "Parallel programming by transformation",
+   "function": "unknown",
+   "split": null,
+   "year": 2015,
+   "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+   "authors": "Rui C. Gonçalves",
+   "url": "https://openalex.org/W2183335716",
+   "cited_by": 36,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Data layout transformation through in-place transposition",
+   "function": "unknown",
+   "split": null,
+   "year": 2013,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "I-Jui Sung",
+   "url": "https://openalex.org/W2224273441",
+   "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Reshaping cache misses to improve row-buffer locality in multicore systems",
+   "function": "unknown",
+   "split": null,
+   "year": 2013,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques",
+   "authors": "W. Ding, Jun Liu, Mahmut Kandemir et al.",
+   "url": "https://doi.org/10.5555/2523721.2523754",
+   "cited_by": 4,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "A Lattice Model for the Optimization of Communication in Parallel Algorithms",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "viXra",
+   "authors": "Sven de Smet",
+   "url": "https://openalex.org/W607702784",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Efficient OpenMP Extension for Embedded Multicore Platform",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "Jisuanji kexue yu tansuo",
+   "authors": "Tao Liu",
+   "url": "https://openalex.org/W2363677236",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "LcVc: Low-complexity vector-core for executing scalar/vector instructions",
    "function": "unknown",
    "split": null,
@@ -428,6 +1944,34 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "A grid-based programming approach for distributed linear algebra applications",
+   "function": "unknown",
+   "split": null,
+   "year": 2010,
+   "venue": "Multiagent and Grid Systems",
+   "authors": "Lamine M. Aouad, Serge G. Petiton",
+   "url": "https://doi.org/10.3233/mgs-2010-0148",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Memory-efficient, scalable ray tracing",
+   "function": "unknown",
+   "split": null,
+   "year": 2010,
+   "venue": "Texas ScholarWorks (Texas Digital Library)",
+   "authors": "Paul Navrátil",
+   "url": "https://openalex.org/W1779560321",
+   "cited_by": 7,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Restructuring parallel loops to curb false sharing on multicore architectures",
@@ -508,6 +2052,44 @@
    "evidence": "abstract"
   },
   {
+   "title": "Code and data outlining",
+   "function": "unknown",
+   "split": null,
+   "year": 2005,
+   "venue": "ERA: Education and Research Archive (University of Alberta)",
+   "authors": "Peng Zhao",
+   "url": "https://doi.org/10.7939/r3-s98x-va85",
+   "cited_by": 3,
+   "evidence": "abstract"
+  },
+  {
+   "title": "Power aware data and memory management for dynamic applications",
+   "function": "unknown",
+   "split": null,
+   "year": 2005,
+   "venue": "IEE Proceedings - Computers and Digital Techniques",
+   "authors": "P. Marchal, José Ignacio Gómez, David Atienza et al.",
+   "url": "https://doi.org/10.1049/ip-cdt:20045077",
+   "cited_by": 3,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Resource management in single-chip multiprocessors",
+   "function": "unknown",
+   "split": null,
+   "year": 2005,
+   "authors": "W.J. Dally, Kelly A. Shaw",
+   "url": "https://openalex.org/W2471250713",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Dynamic tiling for effective use of shared caches on multithreaded processors",
    "function": "unknown",
    "split": null,
@@ -548,6 +2130,34 @@
    "evidence": "abstract"
   },
   {
+   "title": "Bridging the Gap between Compilation and Synthesis in the DEFACTO System",
+   "function": "unknown",
+   "split": null,
+   "year": 2003,
+   "venue": "Lecture notes in computer science",
+   "authors": "Pedro C. Diniz, Mary W. Hall, Joon-Seok Park et al.",
+   "url": "https://doi.org/10.1007/3-540-35767-x_4",
+   "cited_by": 27,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Matrix bidiagonalization: implementation and evaluation on the Trident processor",
+   "function": "unknown",
+   "split": null,
+   "year": 2003,
+   "venue": "Neural, Parallel & Scientific Computations archive",
+   "authors": "Mostafa I. Soliman, Stanislav G. Sedukhin",
+   "url": "https://openalex.org/W1488575454",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Code transformations for low power caching in embedded multimedia processors",
    "function": "unknown",
    "split": null,
@@ -574,6 +2184,74 @@
    "evidence": "abstract"
   },
   {
+   "title": "The alignment problem in a linear algebra framework",
+   "function": "unknown",
+   "split": null,
+   "year": 2002,
+   "venue": "Hawaii International Conference on System Sciences (HICSS)",
+   "authors": "Claude Diderich, Marc Gengler",
+   "url": "https://doi.org/10.1109/hicss.1997.667406",
+   "cited_by": 4,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Data Locality Optimization for Multigrid Methods on Structured Grids",
+   "function": "unknown",
+   "split": null,
+   "year": 2001,
+   "venue": "mediaTUM (Technical University of Munich)",
+   "authors": "Christian H. Weiß",
+   "url": "https://openalex.org/W1559624914",
+   "cited_by": 5,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Software Support For Improving Locality in Scientific Codes",
+   "function": "unknown",
+   "split": null,
+   "year": 2001,
+   "authors": "Hwansoo Han, Gabriel Rivera, Chau‐Wen Tseng",
+   "url": "https://openalex.org/W59750972",
+   "cited_by": 8,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "An automatic object inlining optimization and its evaluation",
+   "function": "unknown",
+   "split": null,
+   "year": 2000,
+   "venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+   "authors": "Julian Dolby, Andrew A. Chien",
+   "url": "https://doi.org/10.1145/349299.349344",
+   "cited_by": 102,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Guiding program transformations with modal performance models",
+   "function": "unknown",
+   "split": null,
+   "year": 2000,
+   "authors": "Nicholas Mitchell, Larry Carter, Jeanne Ferrante",
+   "url": "https://openalex.org/W1594896933",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Multilevel tiling for non-rectangular interation spaces",
    "function": "unknown",
    "split": null,
@@ -584,6 +2262,94 @@
    "evidence": "abstract"
   },
   {
+   "title": "Compiling for the multiscalar architecture",
+   "function": "unknown",
+   "split": null,
+   "year": 1998,
+   "venue": "Minds at UW (University of Wisconsin)",
+   "authors": "T. N. Vijaykumar, Gurindar S. Sohi",
+   "url": "https://openalex.org/W2097230158",
+   "cited_by": 42,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Program transformations for cache locality enhancement on shared-memory multiprocessors",
+   "function": "unknown",
+   "split": null,
+   "year": 1997,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Tarek S. Abdelrahman, Naraig Manjikian",
+   "url": "https://openalex.org/W2410710988",
+   "cited_by": 2,
+   "evidence": "abstract"
+  },
+  {
+   "title": "Computation and Data Partitioning on Scalable Shared Memory Multiprocessors.",
+   "function": "unknown",
+   "split": null,
+   "year": 1995,
+   "venue": "Parallel and Distributed Processing Techniques and Applications",
+   "authors": "Sudarsan Tandri, Tarek S. Abdelrahman",
+   "url": "https://openalex.org/W1590714121",
+   "cited_by": 8,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Detecting coarse-grain parallelism using an interprocedural parallelizing compiler",
+   "function": "unknown",
+   "split": null,
+   "year": 1995,
+   "venue": "ACM/IEEE Conference on Supercomputing (SC)",
+   "authors": "Mary W. Hall, Saman P. Amarasinghe, Brian R. Murphy et al.",
+   "url": "https://doi.org/10.1145/224170.224337",
+   "cited_by": 144,
+   "flags": [
+    "own-group",
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Memory Partitioning in the Limit",
+   "function": "unclassified",
+   "split": null,
+   "year": 2015,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Emre Kültürsay, Kemal Ebcioğlu, Gürhan Küçük et al.",
+   "url": "https://doi.org/10.1007/s10766-015-0380-7",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "A Memory Complexity Model for Circular Sentences",
+   "function": "unclassified",
+   "split": null,
+   "year": 2012,
+   "venue": "Lecture notes in electrical engineering",
+   "authors": "Xu Hai Yan",
+   "url": "https://doi.org/10.1007/978-3-642-28744-2_1",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Empirical performance model-driven data layout optimization and library call selection for tensor contraction expressions",
+   "function": "unclassified",
+   "split": null,
+   "year": 2011,
+   "venue": "Journal of Parallel and Distributed Computing",
+   "authors": "Qingda Lu, Xiaoyang Gao, Sriram Krishnamoorthy et al.",
+   "url": "https://doi.org/10.1016/j.jpdc.2011.09.006",
+   "cited_by": 23,
+   "evidence": "title_only"
+  },
+  {
    "title": "Data locality and parallelism optimization using a constraint-based approach",
    "function": "unclassified",
    "split": null,
@@ -592,6 +2358,314 @@
    "authors": "Özcan Öztürk",
    "url": "https://doi.org/10.1016/j.jpdc.2010.08.005",
    "cited_by": 10,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Layer Assignment Techniques for Low Energy in Multi-Layered Memory Organizations",
+   "function": "unclassified",
+   "split": null,
+   "year": 2007,
+   "venue": "Springer eBooks",
+   "authors": "Erik Brockmeyer, Bart Durinck, Henk Corporaal et al.",
+   "url": "https://doi.org/10.1007/978-1-4020-5869-1_7",
+   "cited_by": 15,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Auto-CFD-NOW: A pre-compiler for effectively parallelizing CFD applications on networks of workstations",
+   "function": "unclassified",
+   "split": null,
+   "year": 2006,
+   "venue": "The Journal of Supercomputing",
+   "authors": "Li Xiao, Xiaodong Zhang, Zhengqian Kuang et al.",
+   "url": "https://doi.org/10.1007/s11227-006-8324-z",
+   "cited_by": 2,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Empirical Performance-Model Driven Data Layout Optimization",
+   "function": "unclassified",
+   "split": null,
+   "year": 2005,
+   "venue": "Lecture notes in computer science",
+   "authors": "Qingda Lu, Xiaoyang Gao, Sriram Krishnamoorthy et al.",
+   "url": "https://doi.org/10.1007/11532378_7",
+   "cited_by": 4,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Improving whole-program locality using intra-procedural and inter-procedural transformations",
+   "function": "unclassified",
+   "split": null,
+   "year": 2005,
+   "venue": "Journal of Parallel and Distributed Computing",
+   "authors": "Mahmut Kandemir",
+   "url": "https://doi.org/10.1016/j.jpdc.2004.12.004",
+   "cited_by": 7,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Improving effective bandwidth through compiler enhancement of global cache reuse",
+   "function": "unclassified",
+   "split": null,
+   "year": 2003,
+   "venue": "Journal of Parallel and Distributed Computing",
+   "authors": "Chen Ding, Ken Kennedy",
+   "url": "https://doi.org/10.1016/j.jpdc.2003.09.005",
+   "cited_by": 94,
+   "evidence": "title_only"
+  },
+  {
+   "title": "An I/O-Conscious Tiling Strategy for Disk-Resident Data Sets",
+   "function": "unclassified",
+   "split": null,
+   "year": 2002,
+   "venue": "The Journal of Supercomputing",
+   "authors": "Mahmut Kandemir, Alok Choudhary, Jagannathan Ramanujam",
+   "url": "https://doi.org/10.1023/a:1014156327748",
+   "cited_by": 9,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Integrating Loop and Data Transformations for Global Optimization",
+   "function": "unclassified",
+   "split": null,
+   "year": 2002,
+   "venue": "Journal of Parallel and Distributed Computing",
+   "authors": "Michael F. P. O’boyle, Peter M. W. Knijnenburg",
+   "url": "https://doi.org/10.1006/jpdc.2001.1815",
+   "cited_by": 33,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Precise Data Locality Optimization of Nested Loops",
+   "function": "unclassified",
+   "split": null,
+   "year": 2002,
+   "venue": "The Journal of Supercomputing",
+   "authors": "Vincent Loechner, Benoît Meister, Philippe Clauss",
+   "url": "https://doi.org/10.1023/a:1013535431127",
+   "cited_by": 59,
+   "evidence": "title_only"
+  },
+  {
+   "title": "A Fast Parallel Algorithm for the Poisson Equation on a Disk",
+   "function": "unclassified",
+   "split": null,
+   "year": 2001,
+   "venue": "Journal of Computational Physics",
+   "authors": "Leonardo Borges, Prabir K. Daripa",
+   "url": "https://doi.org/10.1006/jcph.2001.6720",
+   "cited_by": 41,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Data-Centric Transformations for Locality Enhancement",
+   "function": "unclassified",
+   "split": null,
+   "year": 2001,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Induprakas Kodukula, Keshav K. Pingali",
+   "url": "https://doi.org/10.1023/a:1011172104768",
+   "cited_by": 18,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Modeling and improving locality for the sparse-matrix–vector product on cache memories",
+   "function": "unclassified",
+   "split": null,
+   "year": 2001,
+   "venue": "Future Generation Computer Systems",
+   "authors": "Dora B. Heras, Vicente Blanco, Jose Carlos Cabaleiro et al.",
+   "url": "https://doi.org/10.1016/s0167-739x(00)00075-3",
+   "cited_by": 15,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Parallel Data Mining for Association Rules on Shared-Memory Systems",
+   "function": "unclassified",
+   "split": null,
+   "year": 2001,
+   "venue": "Knowledge and Information Systems",
+   "authors": "Srinivasan Parthasarathy, Mohammed Javeed Zaki, Mitsunori Ogihara et al.",
+   "url": "https://doi.org/10.1007/pl00011656",
+   "cited_by": 138,
+   "evidence": "title_only"
+  },
+  {
+   "title": "A Loop Transformation Algorithm for Communication Overlapping",
+   "function": "unclassified",
+   "split": null,
+   "year": 2000,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Kazuaki Ishizaki, Hideaki Komatsu, Toshio Nakatani",
+   "url": "https://doi.org/10.1023/a:1007554715418",
+   "cited_by": 13,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Coarse-grain Task Parallel Processing Using the OpenMP Backend of the OSCAR Multigrain Parallelizing Compiler",
+   "function": "unclassified",
+   "split": null,
+   "year": 2000,
+   "venue": "Lecture notes in computer science",
+   "authors": "Kazuhisa Ishizaka, Motoki Obata, Hironori Kasahara",
+   "url": "https://doi.org/10.1007/3-540-39999-2_43",
+   "cited_by": 8,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Inter-array Data Regrouping",
+   "function": "unclassified",
+   "split": null,
+   "year": 2000,
+   "venue": "Lecture notes in computer science",
+   "authors": "Chen Ding, Ken Kennedy",
+   "url": "https://doi.org/10.1007/3-540-44905-1_10",
+   "cited_by": 40,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Untitled",
+   "function": "unclassified",
+   "split": null,
+   "year": 2000,
+   "venue": "Design Automation for Embedded Systems",
+   "authors": "Tanja Van Achteren, Marleen Adé, Rudy Lauwereins et al.",
+   "url": "https://doi.org/10.1023/a:1008958303888",
+   "cited_by": 3,
+   "evidence": "title_only"
+  },
+  {
+   "title": "A Matrix-Based Approach to Global Locality Optimization",
+   "function": "unclassified",
+   "split": null,
+   "year": 1999,
+   "venue": "Journal of Parallel and Distributed Computing",
+   "authors": "Mahmut Kandemir, Alok Choudhary, Jagannathan Ramanujam et al.",
+   "url": "https://doi.org/10.1006/jpdc.1999.1552",
+   "cited_by": 16,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Nonsingular Data Transformations: Definition, Validity, and Applications",
+   "function": "unclassified",
+   "split": null,
+   "year": 1999,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Michael F. P. O’boyle, Peter M. W. Knijnenburg",
+   "url": "https://doi.org/10.1023/a:1018744411700",
+   "cited_by": 20,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Restructuring I/O-intensive computations for locality",
+   "function": "unclassified",
+   "split": null,
+   "year": 1999,
+   "venue": "Lecture notes in computer science",
+   "authors": "M. Kandemir, A. Choudhary, Jagannathan Ramanujam",
+   "url": "https://doi.org/10.1007/bfb0100670",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "System-Level Energy-Delay Exploration for Multimedia Applications on Embedded Cores with Hardware Cache",
+   "function": "unclassified",
+   "split": null,
+   "year": 1999,
+   "venue": "The Journal of VLSI Signal Processing Systems for Signal Image and Video Technology",
+   "authors": "Chidamber Kulkarni, Dennis Moolenaar, Lode Nachtergaele et al.",
+   "url": "https://doi.org/10.1023/a:1008121818984",
+   "cited_by": 7,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Evaluating the Effectiveness of a Parallelizing Compiler",
+   "function": "unclassified",
+   "split": null,
+   "year": 1998,
+   "venue": "Lecture notes in computer science",
+   "authors": "Dixie M. Hisley, Gagan Agrawal, Lori Pollock",
+   "url": "https://doi.org/10.1007/3-540-49530-4_14",
+   "cited_by": 2,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Exploiting contemporary memory techniques in reconfigurable accelerators",
+   "function": "unclassified",
+   "split": null,
+   "year": 1998,
+   "venue": "Lecture notes in computer science",
+   "authors": "Reiner W. Hartenstein, M. Herz, Thomas Hoffmann et al.",
+   "url": "https://doi.org/10.1007/bfb0055246",
+   "cited_by": 2,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Hardware cache optimization for parallel multimedia applications",
+   "function": "unclassified",
+   "split": null,
+   "year": 1998,
+   "venue": "Lecture notes in computer science",
+   "authors": "Chidamber Kulkarni, Francky Catthoor, H. De Man",
+   "url": "https://doi.org/10.1007/bfb0057949",
+   "cited_by": 19,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Interprocedural analysis for loop scheduling and data allocation",
+   "function": "unclassified",
+   "split": null,
+   "year": 1998,
+   "venue": "Parallel Computing",
+   "authors": "Trung Ngoc Nguyen, Zhiyuan Li",
+   "url": "https://doi.org/10.1016/s0167-8191(98)00022-2",
+   "cited_by": 4,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Locality optimization for program instances",
+   "function": "unclassified",
+   "split": null,
+   "year": 1998,
+   "venue": "Lecture notes in computer science",
+   "authors": "Claudia Leopold",
+   "url": "https://doi.org/10.1007/3-540-64359-1_692",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "An algorithm for automatic detection of loop indices for communication overlapping",
+   "function": "unclassified",
+   "split": null,
+   "year": 1997,
+   "venue": "Lecture notes in computer science",
+   "authors": "Kazuaki Ishizaki, Hideaki Komatsu, Toshio Nakatani",
+   "url": "https://doi.org/10.1007/bfb0024218",
+   "cited_by": 1,
+   "evidence": "title_only"
+  },
+  {
+   "title": "HPF on fine-grain distributed shared memory: Early experience",
+   "function": "unclassified",
+   "split": null,
+   "year": 1997,
+   "venue": "Lecture notes in computer science",
+   "authors": "Satish Chandra, James R. Larus",
+   "url": "https://doi.org/10.1007/bfb0017269",
+   "cited_by": 4,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Recovering logical structures of data",
+   "function": "unclassified",
+   "split": null,
+   "year": 1996,
+   "venue": "Lecture notes in computer science",
+   "authors": "Michał Cierniak, Wei Li",
+   "url": "https://doi.org/10.1007/bfb0014211",
+   "cited_by": 3,
    "evidence": "title_only"
   }
  ]

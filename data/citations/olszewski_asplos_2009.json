@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "olszewski:asplos:2009",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 571,
-  "works": 425,
+  "records_raw": 612,
+  "works": 466,
   "commit": 2,
-  "judged": 366,
+  "judged": 404,
   "gscholar": null
  },
  "citations": [
@@ -78,6 +78,22 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Bunshin: Compositing Security Mechanisms through Diversification (with Appendix)",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "arXiv",
+   "authors": "Meng Xu, Kangjie Lu, Taesoo Kim et al.",
+   "url": "https://doi.org/10.48550/arxiv.1705.09165",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Deterministic Browser",
@@ -224,6 +240,23 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Deterministic execution for arbitrary multithreaded programs",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "ResearchWorks at the University of Washington (University of Washington)",
+   "authors": "Luís Ceze, Joseph L. Devietti",
+   "url": "https://openalex.org/W2284756213",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "RReplay: A Record and Replay System Based on Restricted Multi-threading",
    "function": "adopts-idea",
    "split": "detailed",
@@ -300,6 +333,22 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Galois : a system for parallel execution of irregular algorithms",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Texas ScholarWorks (Texas Digital Library)",
+   "authors": "Donald D. Nguyen",
+   "url": "https://openalex.org/W2403525913",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Can we put concurrency back into redundant multithreading?",
@@ -542,6 +591,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Intention preservation in deterministic multithreading: a partial solution",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "IET Software",
+   "authors": "Wenbing Zhao, Xiong Luo, Yueqin Zhu et al.",
+   "url": "https://doi.org/10.1049/iet-sen.2015.0132",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Samsara: efficient deterministic replay in multiprocessor environments with hardware virtualization extensions",
    "function": "positions",
    "split": "detailed",
@@ -589,6 +654,39 @@
     "baseline"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Designing for the simple case in a parallel scripting language",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "UR Research (University of Rochester)",
+   "authors": "Lu, Li, Michael L. Scott",
+   "url": "https://openalex.org/W2520071046",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Deterministic execution of multithreaded applications for reliability of multicore systems",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Research Repository (Delft University of Technology)",
+   "authors": "Hamid Mushtaq",
+   "url": "https://doi.org/10.4233/uuid:2b48115c-19b0-4301-bcbe-b3e8ce6aacba",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "High-performance determinism with total store order consistency",
@@ -1205,6 +1303,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Um framework para avaliação sistemática de técnicas de teste no contexto de programação concorrente",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+   "authors": "Silvana Morita Melo",
+   "url": "https://doi.org/10.11606/t.55.2018.tde-10102018-085404",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Deterministic Replay",
    "function": "surveys",
    "split": "detailed",
@@ -1337,6 +1448,64 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Reverse Engineering of an Obfuscated Binary",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "Open Access Victoria University of Wellington | Te Herenga Waka (Figshare)",
+   "authors": "Kaishuo Yang",
+   "url": "https://doi.org/10.26686/wgtn.17149193.v1",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Verification and Enforcement of Safe Schedules for Concurrent Programs",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "Technischen Universität Darmstadt",
+   "authors": "Patrick Metzler",
+   "url": "https://doi.org/10.25534/tuprints-00013432",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Component, Cache replacement, Multithreading, LIRS, Weak Determinism",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "Electrical engineering and computer science",
+   "authors": "Kaiyu Wang",
+   "url": "https://doi.org/10.33969/eecs.v3.015",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Access Classification For Race Detection Optimization",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Dustin Rhodes",
+   "url": "https://openalex.org/W2936562913",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Engineering Record and Replay for Deployability",
    "function": "supports-claim",
    "split": "detailed",
@@ -1348,6 +1517,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Engineering Record And Replay For Deployability: Extended Technical Report",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "arXiv",
+   "authors": "Robert O'Callahan, Jones, Chris, Nathan Froyd et al.",
+   "url": "https://doi.org/10.48550/arxiv.1705.05937",
+   "cited_by": 38,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Proactively detecting unreliable tests",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Alex Gyori",
+   "url": "https://openalex.org/W2785512924",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Reviving Sequential Program Birthmarking for Multithreaded Software Plagiarism Detection",
@@ -1511,6 +1706,19 @@
    ],
    "evidence": "contexts",
    "commit": true
+  },
+  {
+   "title": "Early scheduling on steroids: Boosting parallel state machine replication",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Journal of Parallel and Distributed Computing",
+   "authors": "Eliã Batista, Eduardo Alchieri, Fernando Luís Dotti et al.",
+   "url": "https://doi.org/10.1016/j.jpdc.2022.02.001",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Sharing is caring",
@@ -1992,6 +2200,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Proving the Correctness of Nonblocking Data Structures: So you’ve decided to use a nonblocking data structure, and now you need to be certain of its correctness. How can this be achieved?",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "venue": "Queue",
+   "authors": "Mathieu Desnoyers",
+   "url": "https://doi.org/10.1145/2488364.2490873",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "System Support for Concurrent Software Reliability",
    "function": "exemplifies",
    "split": "passing",
@@ -2005,6 +2226,19 @@
     "supports-claim"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Use of deterministic execution in testing and debugging of distributed software",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Chia‐Chi Lin",
+   "url": "https://openalex.org/W2524492335",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A Model of Parallel Deterministic Real-Time Computation",
@@ -2167,6 +2401,23 @@
    "evidence": "contexts"
   },
   {
+   "title": "New Tools for Evaluating Parallel and Heterogeneous Architectures",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Mario Badr",
+   "url": "https://openalex.org/W3160356959",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Parallel Solvers for Mixed Integer Linear Optimization",
    "function": "detailed-citation",
    "split": "detailed",
@@ -2318,6 +2569,23 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Microkernel Mechanisms for Improving the Trustworthiness of Commodity Hardware",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "European Dependable Computing Conference",
+   "authors": "Yanyan Shen, Kevin J. Elphinstone",
+   "url": "https://doi.org/10.1109/edcc.2015.16",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Pegasus: automatic barrier inference for stable multithreaded systems",
    "function": "detailed-citation",
    "split": "detailed",
@@ -2440,6 +2708,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Utilizing multicore architectures to enhance software verification in real-time embedded systems",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "University of Limerick Institutional Repository (University of Limerick)",
+   "authors": "Padraig Fogarty",
+   "url": "https://doi.org/10.34961/3542",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "BDDT:",
    "function": "detailed-citation",
    "split": "detailed",
@@ -2505,6 +2789,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Temporal meta-programming: treating time as a spatial dimension",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "Digital Repository Service (Northeastern University)",
+   "authors": "Ana-Maria Visan",
+   "url": "https://doi.org/10.17760/d20002935",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "D 2 C : A Deterministic , Deadlock-free Concurrent Programming Model",
@@ -2579,6 +2879,35 @@
    "evidence": "contexts"
   },
   {
+   "title": "The Invisible Throttle: Running on Borrowed Time in Scratch",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Xinyue Feng, Hanyuan Shi, Yuan Si",
+   "url": "https://doi.org/10.48550/arxiv.2609.36152",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Zephon: Elastic Determinism for Online, Stateful Foundation Model Data Loading Pipelines",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Maximilian Böther, Josh Wills, Ties Robroek et al.",
+   "url": "https://doi.org/10.48550/arxiv.2610.03087",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Fray: An Efficient General-Purpose Concurrency Testing Platform for the JVM",
    "function": "passing-citation",
    "split": "passing",
@@ -2613,6 +2942,19 @@
    "authors": "Mingkai Dong, Fangnuo Wu, Gequan Mo et al.",
    "url": "https://doi.org/10.1145/3742425",
    "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Ensuring State Continuity for Confidential Computing: A Blockchain-Based Approach",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "IEEE Transactions on Dependable and Secure Computing",
+   "authors": "Wei Peng, Xiang Li, Jianyu Niu et al.",
+   "url": "https://doi.org/10.1109/tdsc.2024.3381973",
+   "cited_by": 20,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -2665,6 +3007,19 @@
    "authors": "Gansen Hu, Zhaoguo Wang, Chuzhe Tang et al.",
    "url": "https://doi.org/10.1145/3639319",
    "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Contribuições para escalabilidade em replicação máquina de estados",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "authors": "Tarcisio Ceolin",
+   "url": "https://openalex.org/W7120664547",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -2854,6 +3209,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Increasing developer productivity by improving build performance and automating logging code injection (本文)",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "KeiO Associated Repository of Academic Resources (Keio University)",
+   "authors": "タカフミ クボタ, Takafumi Kubota, 貴文 窪田",
+   "url": "https://openalex.org/W7134304703",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Parallel State Machine Replication from Generalized Consensus",
    "function": "passing-citation",
    "split": "passing",
@@ -2865,6 +3233,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Practical Dependable Systems with OS/Hypervisor Support",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Diyu Zhou",
+   "url": "https://openalex.org/W3136277577",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Sthread: In-Vivo Model Checking of Multithreaded Programs",
@@ -2968,6 +3349,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Testable code detection tool for object oriented programming. A tool for novice programmer",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "Universiti Putra Malaysia Institutional Repository (Universiti Putra Malaysia)",
+   "authors": "Saiful Bahri Hisamudin",
+   "url": "https://openalex.org/W3207786388",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Attacking dynamic code",
@@ -3088,6 +3482,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Spawn & Merge - Eine Programmierabstraktion zur deterministischen Synchronisation verteilter Systeme",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "DuEPublico (University of Duisburg-Essen)",
+   "authors": "Christopher Boelmann",
+   "url": "https://openalex.org/W2941626838",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Stopping Memory Disclosures via Diversification and Replicated Execution",
@@ -3436,6 +3843,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Emociones en robots sociales",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "Archivo Digital UPM (Universidad Politécnica de Madrid)",
+   "authors": "Ruzafa Costas, Francisco Javier Sánchez Manuel",
+   "url": "https://openalex.org/W2526748879",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Executing Dynamic Data-Graph Computations Deterministically Using Chromatic Scheduling",
    "function": "passing-citation",
    "split": "passing",
@@ -3720,6 +4140,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Otimizando o teste estrutural de programas concorrentes: uma abordagem determinística e paralela",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+   "authors": "Raphael N. Batista",
+   "url": "https://doi.org/10.11606/d.55.2015.tde-03082015-110554",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Parallélisations de méthodes de programmation par contraintes",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "theses.fr (ABES)",
+   "authors": "Tarek Menouer",
+   "url": "https://doi.org/10.70675/cb8e3c9bzfd24z452cz8bd2z22de5dfaacf8",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Record and Replay of Multithreaded Applications",
@@ -4411,6 +4857,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "NDSeq: runtime checking for nondeterministic sequential specifications of parallel correctness",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Jacob S. Burnim, Tayfun Elmas, George C. Necula et al.",
+   "url": "https://doi.org/10.1145/2345156.1993545",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Operating system support for redundant multithreading",
    "function": "passing-citation",
    "split": "passing",
@@ -4434,6 +4893,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "RCDC: a relaxed consistency deterministic computer",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Joseph L. Devietti, Jacob Nelson, Tom Bergan et al.",
+   "url": "https://doi.org/10.1145/2248487.1950376",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Sound and precise analysis of parallel programs through schedule specialization",
@@ -4460,6 +4932,18 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
+  },
+  {
+   "title": "1 Key Idea 1 : Using Directed Acyclic Graph to Order Episodes During Replay",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "authors": "Arkaprava Basu",
+   "url": "https://www.semanticscholar.org/paper/a8ebc8faf65fe4e03718d415c3a865eb31e47138",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
   },
   {
    "title": "A programming model for deterministic task parallelism",
@@ -4498,6 +4982,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Computer Science & Technology Series: XVI Argentine Congress of Computer Science - Selected papers",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "El Servicio de Difusión de la Creación Intelectual (National University of La Plata)",
+   "authors": "Red de Universidades con Carreras en Informática (RedUNCI), Simari, Guillermo, Padovani, Hugo",
+   "url": "https://doi.org/10.35537/10915/18411",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "ConSeq",
@@ -4720,6 +5217,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Two for the price of one: a model for parallel and incremental computation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Sebastian Burckhardt, Daan Leijen, Caitlin Sadowski et al.",
+   "url": "https://doi.org/10.1145/2076021.2048101",
+   "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Types for Precise Thread Interference",
    "function": "passing-citation",
    "split": "passing",
@@ -4775,6 +5285,19 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Arquitecturas multiprocesador distribuidas",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "venue": "CIC-Digital (Comisión de Investigaciones Científicas de la Provincia de Buenos Aires)",
+   "authors": "Armando Eduardo De Giusti, Fernando Gustavo Tinetti, Marcelo Naiouf et al.",
+   "url": "https://openalex.org/W1596916238",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Automatic Verification of Determinism for Structured Parallel Programs",
@@ -5037,6 +5560,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Sistemas paralelos sobre arquitecturas distribuidas",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2008,
+   "venue": "CIC-Digital (Comisión de Investigaciones Científicas de la Provincia de Buenos Aires)",
+   "authors": "Armando Eduardo De Giusti, Marcelo Naiouf, Laura Cristina De Giusti et al.",
+   "url": "https://openalex.org/W1515858936",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "kSTEP: Characterization and Deterministic Testing of Linux CPU Scheduler Bugs",
    "function": "passing-citation",
    "split": "passing",
@@ -5110,6 +5646,20 @@
     "polluted-contexts"
    ],
    "evidence": "abstract+contexts"
+  },
+  {
+   "title": "Open Dynamic Interaction Network: a cell-phone based platform for responsive EMA",
+   "function": "unknown",
+   "split": null,
+   "year": 2020,
+   "venue": "Lincoln (University of Nebraska)",
+   "authors": "Gisela Font Sayeras",
+   "url": "https://openalex.org/W3020394938",
+   "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "TimelyRep: Timing deterministic replay for Android web applications",
@@ -5342,6 +5892,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "DoublePlay: parallelizing sequential logging and replay",
+   "function": "unknown",
+   "split": null,
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Kaushik Veeraraghavan, Dongyoon Lee, Benjamin Wester et al.",
+   "url": "https://doi.org/10.1145/2248487.1950370",
+   "cited_by": 5,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Hardware error detection in multicore parallel programs",
    "function": "unknown",
    "split": null,
@@ -5566,6 +6130,16 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "The Case for Determinism on the Edge",
+   "function": "unclassified",
+   "split": null,
+   "year": 2019,
+   "authors": "Matthew Furlong, Andrew Quinn, Jason Flinn",
+   "url": "https://openalex.org/W2963151679",
+   "cited_by": 8,
+   "evidence": "title_only"
   },
   {
    "title": "Distributed management system for infocommunication networks based on TM Forum Framework",

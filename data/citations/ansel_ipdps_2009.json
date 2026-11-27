@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "ansel:ipdps:2009",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 422,
-  "works": 378,
+  "records_raw": 491,
+  "works": 447,
   "commit": 0,
-  "judged": 313,
+  "judged": 376,
   "gscholar": null
  },
  "citations": [
@@ -92,6 +92,19 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Modelización y gestión del consumo energético en un sistema de computación de altas prestaciones con tolerancia a fallos",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "El Servicio de Difusión de la Creación Intelectual (National University of La Plata)",
+   "authors": "Marina Morán",
+   "url": "https://doi.org/10.35537/10915/180599",
+   "cited_by": 2,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "DCU-CHK: checkpointing for large-scale CPU-DCU heterogeneous computing systems",
@@ -214,6 +227,19 @@
     "positions"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Stateful application migration in geo-distributed systems",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Paulo R. R. De Souza",
+   "url": "https://doi.org/10.70675/5bfc3a5ez39d2z41c6z8ba1z1f03a194f6bb",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Approaches to stateful fuzzing of the IRC protocol",
@@ -567,6 +593,35 @@
    "evidence": "contexts"
   },
   {
+   "title": "SEDAR: Detectando y recuperando fallos transitorios en aplicaciones de HPC",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "El Servicio de Difusión de la Creación Intelectual (National University of La Plata)",
+   "authors": "Diego Miguel Montezanti, Enzo Rucci, Dolores Isabel Rexachs et al.",
+   "url": "https://openalex.org/W3010737579",
+   "cited_by": 3,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Approche autonomique basée sur la sémantique et le checkpointing pour la gestion des systèmes de l'internet des objets",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Toulouse 1 Capitole Publications (Université Toulouse I Capitole)",
+   "authors": "François Aïssaoui",
+   "url": "https://openalex.org/W2946770074",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "CRUM: Checkpoint-Restart Support for CUDA's Unified Memory",
    "function": "uses-tool",
    "split": "detailed",
@@ -678,6 +733,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "A lightweight process migration based computational offloading framework for mobile device augmentation / Abdullah",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "University of Malaya Students Repository",
+   "authors": "Abdullah Abdullah",
+   "url": "https://openalex.org/W2773204612",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Expedite any Simulation with DMTCP and Save Decades of Computation",
    "function": "uses-tool",
    "split": "detailed",
@@ -768,6 +836,22 @@
     "supports-claim"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "A Checkpointing Methodology for Android Smartphone",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Yunhao Bai",
+   "url": "https://openalex.org/W2542790882",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A Performance and Energy Comparison of Fault Tolerance Techniques for Exascale Computing Systems",
@@ -1282,6 +1366,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Optimization of memory management on distributed machine",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "theses.fr (ABES)",
+   "authors": "Viet Hai Ha",
+   "url": "https://doi.org/10.70675/214d50ddz89c5z4e86zb734z7e8b92ec4b0b",
+   "cited_by": 2,
+   "centrality": "core",
+   "confidence": "medium",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Source-level transformation of legacy sequential programs into scalable thread-parallel code",
    "function": "uses-tool",
    "split": "detailed",
@@ -1329,6 +1429,19 @@
     "own-group"
    ],
    "evidence": "abstract+contexts"
+  },
+  {
+   "title": "Analysis and implementation of a fault tolerance mechanism and restoration for distributed computaton infrastructure at univeristy networks.",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "Universidad Industrial de Santander",
+   "authors": "Rosemberg José Uribe Espinosa",
+   "url": "https://openalex.org/W7133467140",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "low",
+   "evidence": "fulltext"
   },
   {
    "title": "Distributed Speculative Parallelization using Checkpoint Restart",
@@ -1385,6 +1498,21 @@
    "evidence": "contexts"
   },
   {
+   "title": "Temporal Debugging: Automating Time Travel Debugging with URDB",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2010,
+   "authors": "Ana-Maria Visan, Artem Y. Polyakov, X. Dong et al.",
+   "url": "https://openalex.org/W2187940907",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Unibus: Aspects of heterogeneity and fault tolerance in cloud computing",
    "function": "uses-tool",
    "split": "detailed",
@@ -1396,6 +1524,19 @@
    "centrality": "core",
    "confidence": "high",
    "evidence": "abstract+contexts"
+  },
+  {
+   "title": "Firework: Efficient and Transparent DSM with Hardware-Coherent CXL Shared Memory",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Shu Anzai, Shi Liu, Shan Yu et al.",
+   "url": "https://doi.org/10.1145/3845814.3850034",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Combining Checkpoint/Restart and Replication for Fault Tolerance with High Performance",
@@ -1481,6 +1622,23 @@
     "positions"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Performance Evaluation of Checkpoint/Restart Techniques",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "arXiv",
+   "authors": "Basma Abdel Azeem, Manal Helal",
+   "url": "https://doi.org/10.48550/arxiv.2311.17545",
+   "cited_by": 2,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "VERIFIABLE APPLICATION-LEVEL CHECKPOINT AND RESTART FRAMEWORK FOR PARALLEL COMPUTING",
@@ -1611,6 +1769,117 @@
    "evidence": "contexts"
   },
   {
+   "title": "LLM Agents as Resilience Engineers for Scientific Applications",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "IEEE International Conference on eScience",
+   "authors": "Hai Duc Nguyen, Tekin Biçer, Kyle Chard et al.",
+   "url": "https://doi.org/10.1109/escience70237.2026.00014",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Planarian: Managing Agent State with Statepoints",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Jinnan Guo, Hao Mark Chen, Kapil Vaswani et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.35366",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "RASER: Resilient Agent Scheduling and Execution Runtime for HPC Clusters",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Sima Attar-Khorasani, Matthias Lieber, Siavash Ghiasvand",
+   "url": "https://doi.org/10.48550/arxiv.2609.03598",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Relight: Simple User-Level Checkpointing and Fast-Forward Replay for Distributed Task-Based Systems",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Elliott Slaughter, Rupanshu Soi, Michael Bauer et al.",
+   "url": "https://doi.org/10.1145/3839482",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "StateFork: Branchable Infrastructure for Agent Exploration",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Jiakai Xu, Tianle Zhou, Georgios Liargkovas et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.38648",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Taming Revocable Spot VM Instances with Diffused",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "IEEE International Conference on Software Maintenance (ICSM)",
+   "authors": "Zhao Zhang, Zeying Zhu, Micah Sherr et al.",
+   "url": "https://doi.org/10.1109/icsme67971.2026.00030",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "XMPIaaS: Towards Cloud Native MPI via Cooperative Process Migration",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Shunyu Yao, Dimitrios S. Nikolopoulos, Ali R. Butt",
+   "url": "https://doi.org/10.48550/arxiv.2609.16531",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A checkpointing mechanism for virtual clusters using memory-bound time-multiplexed data transfers",
    "function": "positions",
    "split": "detailed",
@@ -1657,6 +1926,35 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "HPC - Big Data Convergence : Managing theDiversity of Application Profiles on HPC Facilities",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Valentin Honoré",
+   "url": "https://doi.org/10.70675/b3edb0f7z1fe1z4db2zb185zcf2cafcd0e44",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "MigrOS: Transparent Operating Systems Live Migration Support for Containerised RDMA-applications",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "arXiv",
+   "authors": "Maksym Planeta, Jan Bierbaum, Leo Sahaya Daphne Antony et al.",
+   "url": "https://doi.org/10.48550/arxiv.2009.06988",
+   "cited_by": 8,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "ROS Rescue: Fault Tolerance System for Robot Operating System",
@@ -1861,6 +2159,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Fault tolerance and dynamic reconfiguration for large scale distributed applications",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2010,
+   "venue": "Open Repository and Bibliography (University of Luxembourg)",
+   "authors": "Xavier Besseron, Thierry Gautier, Denis Trystram",
+   "url": "https://openalex.org/W4394966708",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "CheCUDA: A Checkpoint/Restart Tool for CUDA Applications",
    "function": "positions",
    "split": "detailed",
@@ -1872,6 +2183,22 @@
    "centrality": "engaged",
    "confidence": "low",
    "evidence": "abstract+contexts"
+  },
+  {
+   "title": "Services et protocoles pour l'exécution fiable d'applications distribuées dans les grilles de calcul",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "HAL",
+   "authors": "Thomas Ropars",
+   "url": "https://openalex.org/W2616393621",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Services et protocoles pour l'exécution fiable d'applications distribuées dans les grilles de calcul. (Services and protocols for reliable execution of distributed applications in computational grids)",
@@ -1920,6 +2247,35 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Fault Aware Energy Efficient Mechanisms in Cloud A Comprehensive Survey",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "International Journal of Computer Sciences and Engineering",
+   "authors": "Sunila ., Kamaljit Kaur",
+   "url": "https://doi.org/10.26438/ijcse/v6i5.556568",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Checkpointing-based testing",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Repository for Publications and Research Data (ETH Zurich)",
+   "authors": "Tristan Buchs",
+   "url": "https://doi.org/10.3929/ethz-a-010437857",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A survey of fault tolerance mechanisms and checkpoint/restart implementations for high performance computing systems",
    "function": "surveys",
    "split": "detailed",
@@ -1936,6 +2292,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Memorix: Managing Memory Selections for AI Agents",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Jing Zhang, Xiaguannan Song, Dong Du et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.00060",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Energy Saving in Data Centers Through Traffic and Application Scheduling",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Liang Zhou",
+   "url": "https://openalex.org/W3094163453",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Selective Symbolic Type-Guided Checkpointing and Restoration for Autonomous Vehicle Repair",
    "function": "supports-claim",
    "split": "detailed",
@@ -1949,6 +2331,32 @@
    "secondary": [
     "exemplifies"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Autonomic resilience of distributed IoT applications in the Fog",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Umar Ozeer",
+   "url": "https://doi.org/10.70675/68c4ac2ez36bcz4e3fz9e82ze4e08af18c09",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Industrial Experiences in Applying Domain Specific Languages for System Evolution",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "Radboud Repository (Radboud University)",
+   "authors": "Mathijs Schuts",
+   "url": "https://openalex.org/W2747071712",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -2047,6 +2455,50 @@
    "evidence": "contexts"
   },
   {
+   "title": "AgentRewind: Recoverable Execution for Long-Horizon LLM Agents",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Yu Zhuang, Kefei Chen, Yitong Duan et al.",
+   "url": "https://doi.org/10.48550/arxiv.2608.14380",
+   "cited_by": 17,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "DeltaBox: Millisecond-Scale Sandbox Checkpoint and Rollback for Stateful AI Agents",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "authors": "Yunpeng Dong, Jingkai He, Shiqi Liu et al.",
+   "url": "https://doi.org/10.1145/3828523.3857015",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "FAILBENCH: Evaluating Fault Tolerance Across Distributed Training Architectures",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Khaled Aljbab, Amine Barrak",
+   "url": "https://doi.org/10.48550/arxiv.2610.07688",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Fast Warm-Start Techniques for Large Language Model Inference",
    "function": "exemplifies",
    "split": "passing",
@@ -2071,6 +2523,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Record and Replay Methods for Software Engineering Reproducibility: A Cross-Layer Survey and Taxonomy",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM Conference on Reproducibility and Replicability (ACM REP)",
+   "authors": "Chenxi Hou, Chun Jie Chong, Mahya Sam Daliri et al.",
+   "url": "https://doi.org/10.1145/3820002.3828587",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "User Experiences with MPI RMA and ULFM in a Resilient Key-Value Store Implementation",
@@ -2148,6 +2616,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "DataStates-LLM: Lazy Asynchronous Checkpointing for Large Language Models",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC)",
+   "authors": "Avinash Maurya, Robert Underwood, M. Mustafa Rafique et al.",
+   "url": "https://doi.org/10.1145/3625549.3658685",
+   "cited_by": 76,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Extending the Legio Resilience Framework to Handle Critical Process Failures in MPI",
@@ -2397,6 +2881,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Checkpoint-Restart Libraries Must Become More Fault Tolerant",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "arXiv",
+   "authors": "Anthony Skjellum, Derek Schafer",
+   "url": "https://doi.org/10.48550/arxiv.2112.10814",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Checkpointing vs. Supervision Resilience Approaches for Dynamic Independent Tasks",
    "function": "exemplifies",
    "split": "passing",
@@ -2460,6 +2960,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Advanced Simulation for Resource Management",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Adrien Fauré",
+   "url": "https://doi.org/10.70675/53ade50cz0b5dz4f38zbbc0zb42243ac531c",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
   },
   {
    "title": "CoSim: A Simulator for Co-Scheduling of Batch and On-Demand Jobs in HPC Datacenters",
@@ -2579,6 +3092,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "A container-based lightweight fault tolerance framework for high performance computing workloads",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Mohamad Sindi",
+   "url": "https://openalex.org/W3015922374",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Goldilocks: Adaptive Resource Provisioning in Containerized Data Centers",
    "function": "adopts-idea",
    "split": "passing",
@@ -2634,6 +3160,18 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Static analysis for facilitating secure and reliable software",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "authors": "Miltiadis Siavvas",
+   "url": "https://doi.org/10.12681/eadd/57422",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "The technique of locking memory on Linux operating system - Application in checkpointing",
@@ -2713,6 +3251,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Dependable and Scalable FPGA Computing Using HDL-based Checkpointing.",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2018,
+   "venue": "Institutional Repositories DataBase (IRDB)",
+   "authors": "Hoang-Gia Vu",
+   "url": "https://doi.org/10.34413/dr.01507",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Static Analysis-Based Approaches for Secure Software Development",
    "function": "exemplifies",
    "split": "passing",
@@ -2764,6 +3315,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Distributed Checkpointing with Docker Containers in High Performance Computing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2017,
+   "venue": "DiVA (Digitala Vetenskapliga Arkivet)",
+   "authors": "Gustaf Berg, Magnus Brattlöf",
+   "url": "https://openalex.org/W2869866802",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "ITALC",
    "function": "exemplifies",
    "split": "passing",
@@ -2774,6 +3338,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Konzeption und Umsetzung von Live-Migration für Docker-Container",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2017,
+   "venue": "OPen Access Repositorium der Universität Ulm (OPARU) (Ulm University)",
+   "authors": "Sascha Winkelhofer",
+   "url": "https://doi.org/10.18725/oparu-12223",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Selective Checkpointing for Minimizing Recovery Efforts of Smartphone Apps",
@@ -3039,6 +3616,38 @@
    "evidence": "contexts"
   },
   {
+   "title": "I/O Coordination to Improve HEC System Performance: A Marriage of Analytical Modeling, Control Theory, and Differentiated I/O Performance",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+   "authors": "Patricia J. Teller, Sarala Arunagiri",
+   "url": "https://doi.org/10.2172/1122130",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "On the Dependability of Transient Neuron Simulations",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "DSpace - NTUA (National Technical University of Athens)",
+   "authors": "Mavrogiannis, Alexandros D.",
+   "url": "https://doi.org/10.26240/heal.ntua.5710",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Towards an Energy-Efficient Tool for Processing the Big Data",
    "function": "exemplifies",
    "split": "passing",
@@ -3148,6 +3757,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Ordonnancement des sauvegardes/reprises d'applications de calcul haute performance dans les environnements dynamiques",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2011,
+   "venue": "theses.fr (ABES)",
+   "authors": "Blaise Omer Yenké",
+   "url": "https://doi.org/10.70675/0b4d35deza273z47e8z81abzc167c903d891",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Parallel Compression Checkpointing for Socket-Level Heterogeneous Systems",
    "function": "exemplifies",
    "split": "passing",
@@ -3203,6 +3825,37 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "JUMP: Uma política de escalonamento unificada com migração de processos",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+   "authors": "Juliano Ferraz Ravasi",
+   "url": "https://doi.org/10.11606/d.55.2009.tde-14052009-164103",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Checkpointing Parallel Applications for Azure Spot Virtual Machines: Tools, Runtimes, and Storage Trade-offs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "authors": "Lucas Serrano, Miguel de Lima, Alan Lira Nunes et al.",
+   "url": "https://doi.org/10.5753/sscad.2026.34929",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "OneBarrier: What a Network Must Provide for Transparent Fault Tolerance to Be Free",
@@ -3301,6 +3954,19 @@
     "date": "2026-10-12",
     "evidence": "DMTCP’s robust checkpointing capability is vital for the continuation of long-duration computations, offering resilience against system failures and providing the flexibility to pause, migrate, or resume computations across different machines or environments"
    }
+  },
+  {
+   "title": "A design and implementation of user-PC computing system platform using Docker",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Okayama University Scientific Achievement Repository (Okayama University)",
+   "authors": "Hein Htet",
+   "url": "https://doi.org/10.18926/64084",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Computation algorithms for workload-dependent optimal checkpoint placement",
@@ -3412,6 +4078,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Systèmes résilients pour l'automobile : d'une approche à composants à une approche à objets de la tolérance aux fautes adaptative sur ROS",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Matthieu Amy",
+   "url": "https://doi.org/10.70675/ed807f6dz8a24z42abz9aebz30a55b46a9e7",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "TardiS: Migrating Containers with RDMA Networks",
    "function": "detailed-citation",
    "split": "detailed",
@@ -3426,6 +4105,22 @@
     "positions"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Transparent live migration of container deployments in userspace",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+   "authors": "Carlos Segarra",
+   "url": "https://openalex.org/W3100535748",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Analysis and Optimisation of PBS/TORQUE Fault Tolerance Tools",
@@ -3514,6 +4209,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Process migration in a parallel environment",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "OPUS Publication Server of the University of Stuttgart (University of Stuttgart)",
+   "authors": "Adrian Reber",
+   "url": "https://doi.org/10.18419/opus-8791",
+   "cited_by": 5,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "CCNCheck: Enabling Checkpointed Distributed Applications in Content Centric Networks",
@@ -3745,6 +4456,41 @@
    "evidence": "contexts"
   },
   {
+   "title": "О восстановлении программ из контрольных точек",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2010,
+   "venue": "Электронный архив ЮУрГУ (South Ural State University)",
+   "authors": "А. Ю. Поляков",
+   "url": "https://openalex.org/W1546335242",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Temporal Debugging using URDB",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "arXiv",
+   "authors": "Ana-Maria Visan, Artem Y. Polyakov, Praveen S. Solanki et al.",
+   "url": "https://doi.org/10.48550/arxiv.0910.5046",
+   "cited_by": 7,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "uses-tool"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Future Generation Computer Systems",
    "function": "uses-tool",
    "split": "detailed",
@@ -3760,6 +4506,19 @@
     "date": "2026-10-12",
     "evidence": "MANA utilizes DMTCP (Distributed MultiThreaded Check-Pointing, [38]), a process-checkpointing library for Linux to save the current state of the upper-half"
    }
+  },
+  {
+   "title": "AI Infrastructure in Space: How Far Can We Go?",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Qing Li, Qiyang Zhang, Daliang Xu et al.",
+   "url": "https://doi.org/10.48550/arxiv.2608.21034",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Beyond Fixed Budgets: Characterizing the Inelasticity and Limitations of Tree-of-Thought Reasoning Strategies",
@@ -3986,6 +4745,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Élasticité des infrastructures HPC conteneurisées : résonance entre le HPC et le Cloud",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "theses.fr (ABES)",
+   "authors": "Nicolas Grenèche",
+   "url": "https://doi.org/10.70675/5d0f7019zcbf6z415dz9a3fz735a28073f97",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Exploring the Benefits of Resource Disaggregation for Service Reliability in Data Centers",
    "function": "passing-citation",
    "split": "passing",
@@ -3994,6 +4766,22 @@
    "authors": "Chao Guo, Xinyu Wang, Gangxiang Shen et al.",
    "url": "https://doi.org/10.1109/tcc.2022.3151923",
    "cited_by": 16,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Integrating process, control-flow, and data resiliency layers - Using a hybrid Fenix/Kokkosa approach.",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "IEEE International Conference on Cluster Computing (CLUSTER)",
+   "authors": "Matthew C. Whitlock, Nicolás Morales, George Bosilca et al.",
+   "url": "https://doi.org/10.2172/2004517",
+   "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "low",
    "flags": [
@@ -4053,6 +4841,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Research on Serverless Cold Start Optimization Methods Based on Init-Less Mode",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "Computer Science and Application",
+   "authors": "畅 刘",
+   "url": "https://doi.org/10.12677/csa.2021.1112317",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "CRState: checkpoint/restart of OpenCL program for in-kernel applications",
    "function": "passing-citation",
    "split": "passing",
@@ -4079,6 +4880,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "A Survey on Energy-Aware Fault Tolerant Strategies in Cloud Computing",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "International Journal of Computer Sciences and Engineering",
+   "authors": "Kamaljit Kaur, Kuljit Kaur",
+   "url": "https://doi.org/10.26438/ijcse/v7i5.787800",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Fault-Tolerant Regularity-Based Real-Time Virtual Resources",
    "function": "passing-citation",
    "split": "passing",
@@ -4090,6 +4904,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Autonomic Approach based on Semantics and Checkpointing for IoT System Management",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "theses.fr (ABES)",
+   "authors": "François Aïssaoui",
+   "url": "https://doi.org/10.70675/07618b66z8980z4a1dz9fc2zc610d50b983d",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
   },
   {
    "title": "Block-Checksum-Based Fault Tolerance for Matrix Multiplication on Large-Scale Parallel Systems",
@@ -4129,6 +4956,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Optimization of checkpointing and execution model for an implementation of OpenMP on distributed memory architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2018,
+   "venue": "theses.fr (ABES)",
+   "authors": "Van Long Tran",
+   "url": "https://doi.org/10.70675/061ce157z3e0cz49f4z90f9zd1dea71887ec",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Prospects and challenges of virtual machine migration in HPC",
@@ -4289,6 +5129,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Εικονικοποίηση ενσωματωμένων συστημάτων : Xen σε επεξεργαστή ARM",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "Dione (University of Piraeus)",
+   "authors": "Κοκκίνης, Αθανάσιος Κ.",
+   "url": "https://openalex.org/W2601011025",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Comparing Containers versus Virtual Machines for Achieving High Availability",
    "function": "passing-citation",
    "split": "passing",
@@ -4318,6 +5171,19 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "Mitigation of performance variability induced by Checkpoint-Restart using DVFS",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "DSpace - NTUA (National Technical University of Athens)",
+   "authors": "Kokolis, Apostolos",
+   "url": "https://doi.org/10.26240/heal.ntua.11434",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Fault Tolerance on Large Scale Systems using Adaptive Process Replication",
    "function": "passing-citation",
    "split": "passing",
@@ -4342,6 +5208,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Model Checking of Distributed Multi-Threaded Java Applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "YorkSpace (York University)",
+   "authors": "Nastaran Shafiei",
+   "url": "https://openalex.org/W2563503723",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Mutable checkpoint-restart",
@@ -4384,6 +5263,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "abstract+contexts"
+  },
+  {
+   "title": "Preventing data loss using rollback-recovery : A proof-of-concept study at Bolagsverket",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "Publications (Mid Sweden University)",
+   "authors": "Max Sjölinder",
+   "url": "https://openalex.org/W658189541",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
   },
   {
    "title": "International Conference on Computational Science , ICCS 2012 A d FT : An Adaptive Framework for Fault Tolerance on Large Scale Systems using Application Malleability",
@@ -4460,6 +5352,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Propuestas para integrar la arquitectura RADIC de forma transparente",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "El Servicio de Difusión de la Creación Intelectual (National University of La Plata)",
+   "authors": "Hugo Meyer, Marcela Castro-León, Dolores Isabel Rexachs et al.",
+   "url": "https://openalex.org/W1556102399",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Effect of Pipelining on Resource-Aware Application-Level Checkpointing System for Malleable MPI Applications",
@@ -4542,6 +5447,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Practical Dependable Systems with OS/Hypervisor Support",
+   "function": "unknown",
+   "split": null,
+   "year": 2020,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Diyu Zhou",
+   "url": "https://openalex.org/W3136277577",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Sthread: In-Vivo Model Checking of Multithreaded Programs",
    "function": "unknown",
    "split": null,
@@ -4621,6 +5540,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Libro de Actas JCC&BD 2018",
+   "function": "unknown",
+   "split": null,
+   "year": 2018,
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "authors": "Marisa Raquel De Giusti, Armando Eduardo",
+   "url": "https://openalex.org/W2903448505",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Memory Subsystems for Security, Consistency, and Scalability",
    "function": "unknown",
    "split": null,
@@ -4660,6 +5593,19 @@
     "polluted-contexts"
    ],
    "evidence": "abstract+contexts"
+  },
+  {
+   "title": "System software techniques to enhance reliability of modern platforms",
+   "function": "unknown",
+   "split": null,
+   "year": 2018,
+   "authors": "Κωνσταντίνος Παρασύρης",
+   "url": "https://doi.org/10.12681/eadd/44414",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A Methodology for Soft Errors Detection and Automatic Recovery",
@@ -4725,6 +5671,20 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "C-RAM: Breaking Mobile Device Memory Barriers Using the Cloud",
+   "function": "unknown",
+   "split": null,
+   "year": 2015,
+   "venue": "IEEE Transactions on Mobile Computing",
+   "authors": "Andreas Pamboris, Peter R. Pietzuch",
+   "url": "https://doi.org/10.1109/tmc.2015.2513040",
+   "cited_by": 4,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Computer Science & Technology Series",
@@ -4921,6 +5881,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Dissecting a Small InfiniBand Application Using the Verbs API",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "arXiv",
+   "authors": "Gregory Kerr",
+   "url": "https://doi.org/10.48550/arxiv.1105.1827",
+   "cited_by": 14,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Hypervisor-assisted application checkpointing in virtualized environments",
    "function": "unknown",
    "split": null,
@@ -5015,6 +5989,17 @@
    "venue": "National Academy Science Letters",
    "authors": "Priyanka Anant Chorey, Sonika Anant Chorey, Nilesh Satyavijay Pohokar",
    "url": "https://doi.org/10.1007/s40009-026-02113-x",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Lightweight fault tolerance for MPI record-and-replay via mode-aware checkpoint/restart",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Future Generation Computer Systems",
+   "authors": "Xiang Fu, Guoyuan Jia, Hui Li et al.",
+   "url": "https://doi.org/10.1016/j.future.2026.108868",
    "cited_by": 0,
    "evidence": "title_only"
   },

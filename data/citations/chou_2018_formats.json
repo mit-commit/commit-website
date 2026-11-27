@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "chou:2018:formats",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 175,
-  "works": 159,
+  "records_raw": 203,
+  "works": 187,
   "commit": 22,
-  "judged": 149,
+  "judged": 175,
   "gscholar": null
  },
  "citations": [
@@ -451,6 +451,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Reliable Computation of the Singularities of the Projection in R3 of a Generic Surface of R4",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "HAL",
+   "authors": "Sény Diatta, Guillaume Moroz, Marc Pouget",
+   "url": "https://openalex.org/W3021132524",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Compiler for Fused Relational Operations on Multisets",
    "function": "adopts-idea",
    "split": "detailed",
@@ -513,6 +526,22 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Tiga: Compiling Graph Message Passing at Scale",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Michael Chi",
+   "url": "https://doi.org/10.48550/arxiv.2609.24802",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Coruscant: Co-Designing GPU Kernel and Sparse Tensor Core to Advocate Unstructured Sparsity in Efficient LLM Inference",
@@ -972,6 +1001,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "An Expression is Worth a Thousand Words: Graph Algorithms in the Language of Extended Tensor Algebra Notation",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Toluwanimi O. Odemuyiwa",
+   "url": "https://openalex.org/W7221493579",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Insum: Sparse GPU Kernels Simplified and Optimized with Indirect Einsums",
    "function": "supports-claim",
    "split": "detailed",
@@ -990,6 +1035,22 @@
    ],
    "evidence": "fulltext",
    "commit": true
+  },
+  {
+   "title": "Parallel Sparse Outputs for Tensor Compilers",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adrian Gushin, Pau Sum, Willow Ahrens",
+   "url": "https://doi.org/10.48550/arxiv.2610.19308",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Accelerating Sparse Tensor Decomposition Using Adaptive Linearized Representation",
@@ -1019,6 +1080,35 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "A hybrid communication pattern and algorithm for distributed sparse-times-dense matrix multiplication",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Charles Block",
+   "url": "https://openalex.org/W7220788508",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Accelerating deep learning in the post-Moore’s era of computing",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Kartik Hegde",
+   "url": "https://openalex.org/W7220779564",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework",
@@ -1110,6 +1200,22 @@
    "confidence": "high",
    "secondary": [
     "exemplifies",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Efficient memory access in modern accelerators",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Hadi Asghari-Moghaddam",
+   "url": "https://openalex.org/W7220785326",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
     "detailed-citation"
    ],
    "evidence": "fulltext"
@@ -1232,6 +1338,32 @@
    }
   },
   {
+   "title": "Bullseye Hash: An Efficient Hash-Table for Sparse Tensor Contraction",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Guofeng Feng, Zecheng Li, Mingzhen Li et al.",
+   "url": "https://doi.org/10.1145/3847109",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Computation-Friendly Compression of Matrices: Speeding up Linear and Boolean Algebra",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Gonzalo Navarro",
+   "url": "https://doi.org/10.48550/arxiv.2610.35362",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "The Einsum-Enabled Design Space for Graph Algorithms: A BFS Case Study",
    "function": "exemplifies",
    "split": "passing",
@@ -1242,6 +1374,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "User-Schedulable Approximations for Quantized Tensor Programs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Alex Reinking",
+   "url": "https://doi.org/10.48550/arxiv.2611.17526",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "WingSpan: Concurrency and Dependence for Sparse and Structured Tensor Compilers",
@@ -1258,6 +1403,22 @@
     "supports-claim"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Algorithms and software for efficient tensor decompositions",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Navjot Singh",
+   "url": "https://openalex.org/W7220771039",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "CROSS: Compiler-Driven Optimization of Sparse DNNs Using Sparse/Dense Computation Kernels",
@@ -1317,6 +1478,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "SPLAT: A Framework for Optimised GPU Code-Generation for SParse reguLar ATtention",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Ahan Gupta, Yueming Yuan, Devansh Jain et al.",
+   "url": "https://doi.org/10.1145/3720503",
+   "cited_by": 17,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "SpMM-Bench: Performance Characterization of Sparse Formats for Sparse-Dense Matrix Multiplication",
    "function": "exemplifies",
    "split": "passing",
@@ -1363,6 +1537,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Algebraic data structures and approximations for efficient geometric modeling",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "HAL",
+   "authors": "Guillaume Moroz",
+   "url": "https://openalex.org/W4406826774",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "AutoSparse: A Source-to-Source Format and Schedule Auto- Tuning Framework for Sparse Tensor Program",
@@ -1607,6 +1797,31 @@
    "evidence": "contexts"
   },
   {
+   "title": "Really Embedding Domain-Specific Languages into C++",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "authors": "Hal Finkel, Alexander McCaskey, Tobi Popoola et al.",
+   "url": "https://doi.org/10.1109/llvmhpchipar51896.2020.00012",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Synergistic CPU-FPGA Acceleration of Sparse Linear Algebra",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "arXiv",
+   "authors": "Mohammadreza Soltaniyeh, Richard P. Martin, Santosh Nagarakatte",
+   "url": "https://doi.org/10.48550/arxiv.2004.13907",
+   "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Enabling Distributed-Memory Tensor Completion in Python using New Sparse Tensor Kernels",
    "function": "exemplifies",
    "split": "passing",
@@ -1647,6 +1862,103 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Hardware-software co-design for accelerating sparse tensor algebra",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+   "authors": "Marco Siracusa",
+   "url": "https://doi.org/10.5821/dissertation-2117-479847",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Representing Tensors as Compositions for Efficient Computation on Sparse and Structured Data",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Valérian Rey, Praneth Paruchuri",
+   "url": "https://doi.org/10.48550/arxiv.2611.10855",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "SparseConflicts: Handling Conflicting Data Layouts in Sparse Tensor Contractions",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adhitha Dias, Kirshanthan Sundararajah, Artem Pelenitsyn et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.06328",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Splyce: SIMD Vectorization of Sparse Coiteration",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Kabilan Mahathevan, Poorna Gunathilaka, Kirshanthan Sundararajah",
+   "url": "https://doi.org/10.48550/arxiv.2609.19410",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Turquoise: A Hardware-Accelerated Architectural Simulator for Sparse Algebra DSAs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Francesco Pesce, Francesco Peverelli, Marco Domenico Santambrogio",
+   "url": "https://doi.org/10.1145/3860332",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Compiler for Operations on Relations with Bag Semantics",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "James Dong, Fredrik Kjølstad",
+   "url": "https://doi.org/10.48550/arxiv.2502.06988",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "ASaP: Automatic Software Prefetching for Sparse Tensor Computations in MLIR",
@@ -1711,6 +2023,18 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Optimizing the inference efficiency of deep neural networks on the graph and the operator level",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "authors": "Jingzhi Fang",
+   "url": "https://doi.org/10.14711/thesis-991013340355403412",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "ScalFrag: Efficient Tiled-MTTKRP with Adaptive Launching on GPUs",
    "function": "detailed-citation",
    "split": "detailed",
@@ -1741,6 +2065,23 @@
     "date": "2026-10-12",
     "evidence": "Title/abstract: “General sparse tensor algebra compilers are not always versatile enough to generate asymptotically optimal code for sparse tensor contractions”"
    }
+  },
+  {
+   "title": "The EDGE Language: Extended General Einsums for Graph Algorithms",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Toluwanimi O. Odemuyiwa, Porumbescu, Serban D., Nayak, Nandeeka et al.",
+   "url": "https://doi.org/10.48550/arxiv.2404.11591",
+   "cited_by": 16,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Optimizing Compression Schemes for Parallel Sparse Tensor Algebra",
@@ -1977,6 +2318,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Composable Rewrites for Layouts of Algebraic Data Types",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Christophe Gyurgyik, Alexander J Root, Benjamin Driscoll et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.19113",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Efficient Human-Contact Representation for Human-Scene Interaction",
    "function": "passing-citation",
    "split": "passing",
@@ -2202,6 +2559,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Acceleration Techniques of Sparse Linear Algebra on Emerging Architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Siying Feng",
+   "url": "https://doi.org/10.7302/6904",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Algorithmic advancements in correlated electron and quantum information simulation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Ryan Levy",
+   "url": "https://openalex.org/W7220752179",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Sparse Deep Neural Network Inference Using Different Programming Models",
    "function": "passing-citation",
    "split": "passing",
@@ -2363,6 +2746,20 @@
    "evidence": "contexts"
   },
   {
+   "title": "Acceleration of Sparse and Irregular Workloads through Energy-Efficient Stream Extensions",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Paul Scheffler",
+   "url": "https://doi.org/10.3929/ethz-c-000797338",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "C-3PQ: A Closeness Centrality-based Circuit Partitioner for Quantum Simulations",
    "function": "unknown",
    "split": null,
@@ -2370,6 +2767,20 @@
    "venue": "International Conference on Supercomputing",
    "authors": "Doru Thom Popovici, Harlin Lee, Naoki Yoshioka et al.",
    "url": "https://doi.org/10.1145/3797905.3807864",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "TIDE-MC: Two-Sided Interpolative Decomposition for Billion-Scale GPU Matrix Completion",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Chengying Huan, Yubo Wang, Pinhuan Wang et al.",
+   "url": "https://doi.org/10.48550/arxiv.2608.00977",
    "cited_by": 0,
    "flags": [
     "polluted-contexts"

@@ -1,16 +1,36 @@
 {
  "schema": 1,
  "key": "agrawal:meng-thesis:2004",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 3,
-  "works": 3,
-  "commit": 0,
-  "judged": 3,
+  "records_raw": 5,
+  "works": 4,
+  "commit": 1,
+  "judged": 4,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Language and compiler support for stream programs",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Saman P. Amarasinghe, William Thies",
+   "url": "https://openalex.org/W2321248633",
+   "cited_by": 107,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
   {
    "title": "DSL Stream Programming on Multicore Architectures",
    "function": "passing-citation",

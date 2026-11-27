@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "bruening:cgo:2011",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 216,
-  "works": 215,
+  "records_raw": 242,
+  "works": 241,
   "commit": 2,
-  "judged": 181,
+  "judged": 206,
   "gscholar": null
  },
  "citations": [
@@ -294,6 +294,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "From Static Analysis to Runtime Verification with Frama-C and E-ACSL",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "HAL",
+   "authors": "Julien Signoles",
+   "url": "https://openalex.org/W4392498539",
+   "cited_by": 9,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Spindle: Informed Memory Access Monitoring",
    "function": "baseline",
    "split": "detailed",
@@ -374,6 +390,22 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Advanced debugging and program visualization for novice C programmers",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "UWA Profiles and Research Repository (University of Western Australia)",
+   "authors": "Matthew Heinsen Egan",
+   "url": "https://openalex.org/W7139724786",
+   "cited_by": 5,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "MemorySanitizer: Fast detector of uninitialized memory use in C++",
@@ -702,6 +734,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Mitigating Risks to Dependability from Vibe-Coding C for Embedded Systems",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "UWSpace (University of Waterloo)",
+   "authors": "Murray Dunne",
+   "url": "https://openalex.org/W7235817546",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Memory Safety Instrumentations in Practice: Usability, Performance, and Security Guarantees",
    "function": "supports-claim",
    "split": "detailed",
@@ -760,6 +805,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Detecting Memory Errors in a Constrained Embedded Linux System",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "Lund University Publications Student Papers (Lund University)",
+   "authors": "Fredrik Nyberg, Emil Bengtsson",
+   "url": "https://openalex.org/W3092903140",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Binary Debloating for Security via Demand Driven Loading",
    "function": "supports-claim",
    "split": "detailed",
@@ -795,6 +856,22 @@
    "cited_by": 7,
    "centrality": "peripheral",
    "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Securing Stella: A Platform for Real-Time Data Monitoring and Code Generation",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Libraries and Cultural Resources (University of Calgary)",
+   "authors": "Etienne Kyle Pitout",
+   "url": "https://doi.org/10.11575/prism/31991",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "secondary": [
     "exemplifies"
    ],
@@ -866,6 +943,48 @@
    "evidence": "contexts"
   },
   {
+   "title": "Mind the Heap: Preventing Capability Leakage Across CHERI Compartments",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+   "authors": "Seyedhamed Ghavamnia, Maurice D. Hanisch, Julien Vanegue",
+   "url": "https://doi.org/10.1145/3830454.3846803",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Understanding the Performance-Effectiveness Trade-Offs of AddressSanitizer in Real-World Programs: An Empirical Study",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "IEEE/ACM International Conference on Automated Software Engineering (ASE)",
+   "authors": "JiaXin Xi, Cheng Wen, Zhiwei Lin et al.",
+   "url": "https://doi.org/10.1145/3832783.3834469",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Kritieke vragen in geheugenveiligheid belicht: van programmeertaal tot hardware",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Lirias",
+   "authors": "Gülmez, Merve",
+   "url": "https://openalex.org/W7114832124",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "LeakGuard: Detecting Memory Leaks Accurately and Scalably",
    "function": "exemplifies",
    "split": "passing",
@@ -890,6 +1009,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "Tech-ASan: Two-stage check for Address Sanitizer",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Asia-Pacific Symposium on Internetware",
+   "authors": "Yixuan Cao, Yuhong Feng, Huafeng Li et al.",
+   "url": "https://doi.org/10.1145/3755881.3755918",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A Dynamic Memory Leak Detection Method for Linux Based on eBPF Uprobe and LKM",
@@ -945,6 +1077,18 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Uncovering New Classes of Kernel Vulnerabilities",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "authors": "Jakob Koschel",
+   "url": "https://doi.org/10.5463/thesis.833",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Benchmarking Software Vulnerability Detection Techniques: A Survey",
@@ -1026,6 +1170,18 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Untitled",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Proceedings of the Institute for System Programming of RAS",
+   "url": "https://doi.org/10.15514/ispras-2023-35(4)",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
   },
   {
    "title": "Forward-Mode Automatic Differentiation of Compiled Programs",
@@ -1164,6 +1320,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Efficient state retention in transiently powered computing systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "venue": "ePrints Soton (University of Southampton)",
+   "authors": "Theodoros D. Verykios",
+   "url": "https://openalex.org/W3004042239",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Method for Reducing Overhead of Shared Memory Access Instrumentation",
    "function": "exemplifies",
    "split": "passing",
@@ -1175,6 +1344,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Tools and Language Elements for Testing, Encapsulation and Controlling Abstraction in Large Scale C++ Projects",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "venue": "Eötvös Loránd Tudományegyetem",
+   "authors": "Gábor Márton",
+   "url": "https://doi.org/10.15476/elte.2019.084",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "ATPG Binning and SAT-Based Approach to Hardware Trojan Detection for Safety-Critical Systems",
@@ -1198,6 +1380,19 @@
    "authors": "Eyasu Getahun Chekole, Sudipta Chattopadhyay, Martín Ochoa et al.",
    "url": "https://doi.org/10.1007/978-3-319-94496-8_2",
    "cited_by": 16,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Guided Automatic Binary Parallelisation",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2018,
+   "venue": "Apollo (University of Cambridge)",
+   "authors": "Ruoyu Zhou",
+   "url": "https://doi.org/10.17863/cam.21890",
+   "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -1436,6 +1631,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "A Model, Algorithms and Software Tool for Vulnerabilities Detection in Machine Code",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "Informatics and Automation",
+   "authors": "Maksim Olegovich Shudrak, Vyacheslav Vladimirovich Zolotarev",
+   "url": "https://doi.org/10.15622/sp.42.11",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "On Efficiency and Accuracy of Data Flow Tracking Systems",
    "function": "exemplifies",
    "split": "passing",
@@ -1591,6 +1799,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "LeakGuard: Accurate and scalable memory leak detection in real-world projects",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Journal of Systems and Software",
+   "authors": "Guohao Wu, Luming Yin, anonymous et al.",
+   "url": "https://doi.org/10.1016/j.jss.2026.113074",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Preliminary Study on Open-Source Memory Vulnerability Detectors",
    "function": "detailed-citation",
    "split": "detailed",
@@ -1630,6 +1854,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Evaluation And Analysis Of Dynamic Memory Debugging Tools For C/C++",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "DiVA at Umeå University (Umeå University)",
+   "authors": "Masoud Shofahi",
+   "url": "https://openalex.org/W3048525922",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A recompilation and instrumentation-free monitoring architecture for detecting heap memory errors and exploits",
    "function": "detailed-citation",
    "split": "detailed",
@@ -1642,6 +1879,84 @@
    "secondary": [
     "positions"
    ],
+   "evidence": "contexts"
+  },
+  {
+   "title": "ACCELERATING LATENCY-SENSITIVE SYMBOLIC EXECUTION WITH TRANSACTIONAL HARDWARE AND MACHINE LEARNING",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Carolina Digital Repository (University of North Carolina at Chapel Hill)",
+   "authors": "Adam Humphries",
+   "url": "https://doi.org/10.17615/srqk-mv53",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Assessing and Improving Prompting Large Language Models for Software Vulnerability Analysis",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM Transactions on Software Engineering and Methodology",
+   "authors": "Yu Nong, Guangbei Yi, Mohammed Shujaa Aldeen et al.",
+   "url": "https://doi.org/10.1145/3821416",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Backpropagation Through Compiled Code",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM Transactions on Mathematical Software",
+   "authors": "M. Aehle, Johannes Blühdorn, M. Sagebaum et al.",
+   "url": "https://doi.org/10.1145/3849487",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Improving Reliability for Networked Systems and Software Execution",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "UWSpace (University of Waterloo)",
+   "authors": "Haoyu Gu",
+   "url": "https://openalex.org/W7235830581",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "MallocSan: A Memory Safety Tool for Native Closed-Source Applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adel Belkhiri, Michel Dagenais, Maxime Lamothe",
+   "url": "https://doi.org/10.48550/arxiv.2609.38499",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "OLASan: practical object-level sanitization through memory access aggregation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Automated Software Engineering",
+   "authors": "Xiaolei Wang, Dehua Zhou",
+   "url": "https://doi.org/10.1007/s10515-026-00690-1",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "contexts"
   },
   {
@@ -1752,6 +2067,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "CASET: Complexity Analysis using Simple Execution Traces for CS* submissions",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Mehta, Aaryen, Gagan Aryan",
+   "url": "https://doi.org/10.48550/arxiv.2410.15419",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Proceedings of the 23rd ACM SIGPLAN International Workshop on Erlang",
@@ -1891,6 +2219,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Formalisation d'un vérificateur dynamique de propriétés mémoire pour programmes C",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Dara Ly",
+   "url": "https://doi.org/10.70675/ddc22cbbzfc89z4a72z81baz0cda52048917",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "MVD",
@@ -2768,6 +3109,16 @@
    "year": 2018,
    "authors": "Scott D. Constable",
    "url": "https://www.semanticscholar.org/paper/6bfd66001f69bb73405ead7406f4be97c1359097",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "THE PURDUE UNIVERSITY GRADUATE SCHOOL STATEMENT OF DISSERTATION APPROVAL",
+   "function": "unclassified",
+   "split": null,
+   "year": 2018,
+   "authors": "Hyunmin Lee, Chung-Pyeong Kim, Taegyu Kim",
+   "url": "https://www.semanticscholar.org/paper/d8eadfa6e7663b49f2c32d5875be7a9909a8b5ef",
    "cited_by": 0,
    "evidence": "title_only"
   },

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "ugcf-isca21",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 15,
-  "works": 14,
-  "commit": 2,
-  "judged": 13,
+  "records_raw": 20,
+  "works": 19,
+  "commit": 3,
+  "judged": 18,
   "gscholar": null
  },
  "citations": [
@@ -20,6 +20,22 @@
    "authors": "Ajay Brahmakshatriya, Saman P. Amarasinghe, Martin C. Rinard",
    "url": "https://doi.org/10.48550/arxiv.2601.02653",
    "cited_by": 0,
+   "centrality": "core",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract",
+   "commit": true
+  },
+  {
+   "title": "Prophecy Variables, Program Analysis, Binding Times, and Staged Compilation in the BuildIt System",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2026,
+   "authors": "Ajay Brahmakshatriya, Saman P. Amarasinghe, M. Rinard",
+   "url": "https://www.semanticscholar.org/paper/93187bd016ef59899f843ebc9f48cea6d5cc68db",
+   "cited_by": 2,
    "centrality": "core",
    "confidence": "medium",
    "flags": [
@@ -49,6 +65,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "The Performance Cost of Disintegrated Manycores: Which Applications Lose and Why?",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Isidor R. Brkić",
+   "url": "https://openalex.org/W7132897393",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Domain-Specific Languages for Algorithmic Graph Processing: A Systematic Literature Review",
    "function": "surveys",
    "split": "detailed",
@@ -60,6 +89,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "Multi-target Compiler Analyses, Optimization, and Code Generation Framework for Graph DSLs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Ashwina Kumar, Naveen LS, Shriram Chandran et al.",
+   "url": "https://doi.org/10.1007/s10766-026-00832-8",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Graphitron: A Domain Specific Language for FPGA-based Graph Processing Accelerator Generation",
@@ -140,6 +185,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Portable Parallel Algorithms and Frameworks for Exascale Graph Analytics",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+   "authors": "Julian Shun, Massachusetts Inst. of Tech., Cambridge, MA (United States)",
+   "url": "https://doi.org/10.2172/3012453",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Multi-target, Multi-paradigm DSL Compiler for Algorithmic Graph Processing",
    "function": "detailed-citation",
    "split": "detailed",
@@ -193,6 +254,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "A Speculative Hardware Scheduler Supporting Priority Updates",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Gilead Posluns",
+   "url": "https://openalex.org/W7133012412",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "ADA, the Center for Applications Driving Architectures: Accomplishments and Vision Forward",

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "chou-pldi20-taco-conversion",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 34,
-  "works": 31,
+  "records_raw": 35,
+  "works": 32,
   "commit": 7,
-  "judged": 31,
+  "judged": 32,
   "gscholar": null
  },
  "citations": [
@@ -67,6 +67,23 @@
    ],
    "flags": [
     "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "SparseConflicts: Handling Conflicting Data Layouts in Sparse Tensor Contractions",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adhitha Dias, Kirshanthan Sundararajah, Artem Pelenitsyn et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.06328",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions",
+    "detailed-citation"
    ],
    "evidence": "fulltext"
   },

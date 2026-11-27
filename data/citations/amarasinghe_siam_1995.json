@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "amarasinghe:siam:1995",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 64,
-  "works": 56,
+  "records_raw": 92,
+  "works": 84,
   "commit": 1,
-  "judged": 33,
+  "judged": 57,
   "gscholar": null
  },
  "citations": [
@@ -38,6 +38,19 @@
    "flags": [
     "polluted-contexts"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimal topology exploration for application-specific 3D architectures",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "Asia and South Pacific Design Automation Conference (ASP-DAC)",
+   "authors": "Özcan Öztürk, Feng Wang, Mahmut Kandemir et al.",
+   "url": "https://doi.org/10.1145/1118299.1118396",
+   "cited_by": 21,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "fulltext"
   },
   {
@@ -82,6 +95,83 @@
     "extends"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Compiler-directed scratch pad memory hierarchy design and management",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "ACM/IEEE Design Automation Conference (DAC)",
+   "authors": "Mahmut Kandemir, Alok Choudhary",
+   "url": "https://doi.org/10.1145/513918.514077",
+   "cited_by": 144,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Exploiting scratch-pad memory using Presburger formulas",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "International Symposium on System Synthesis (ISSS)",
+   "authors": "Mahmut Kandemir, I. Kadayif, U. Sezer",
+   "url": "https://doi.org/10.1109/isss.2001.957905",
+   "cited_by": 3,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Exploiting shared scratch pad memory space in embedded multiprocessor systems",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "ACM/IEEE Design Automation Conference (DAC)",
+   "authors": "Mahmut Kandemir, Jagannathan Ramanujam, Alok Choudhary",
+   "url": "https://doi.org/10.1145/513918.513974",
+   "cited_by": 71,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimizing inter-nest data locality",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "International Conference on Compilers, Architecture, and Synthesis for Embedded Systems (CASES)",
+   "authors": "Mahmut Kandemir, I. Kadayif, Alok Choudhary et al.",
+   "url": "https://doi.org/10.1145/581630.581650",
+   "cited_by": 18,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Contention elimination by replication of sequential sections in distributed shared memory programs",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2001,
+   "authors": "Honghui Lu, Alan L. Cox, Willy Zwaenepoel",
+   "url": "https://doi.org/10.1145/379539.379568",
+   "cited_by": 9,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Data relation vectors: a new abstraction for data optimizations",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2001,
+   "venue": "IEEE Transactions on Computers",
+   "authors": "Mahmut Kandemir, Jagannathan Ramanujam",
+   "url": "https://doi.org/10.1109/tc.2001.947008",
+   "cited_by": 11,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Adaptive Parallelism for OpenMP Task Parallel Programs",
@@ -199,6 +289,32 @@
    "evidence": "abstract"
   },
   {
+   "title": "Automatically Leveraging MapReduce Frameworks for Data-Intensive Applications",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "ACM SIGMOD International Conference on Management of Data (SIGMOD)",
+   "authors": "Maaz Bin Safeer Ahmad, Alvin Cheung",
+   "url": "https://doi.org/10.1145/3183713.3196891",
+   "cited_by": 55,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Annotating user-defined abstractions for optimization",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+   "authors": "Daniel J. Quinlan, Markus Schordan, Richard W. Vuduc et al.",
+   "url": "https://doi.org/10.1109/ipdps.2006.1639722",
+   "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Review of Parallelization Tools and Introduction to Easypar",
    "function": "surveys",
    "split": "detailed",
@@ -276,6 +392,48 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Analyse des pointeurs pour le langage C",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "venue": "theses.fr (ABES)",
+   "authors": "Amira Mensi",
+   "url": "https://doi.org/10.70675/a8b66b1fz8d95z4230zb43bz8b8cf9f473a3",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A parallel processing library for user-friendly applications",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "venue": "Mspace (University of Manitoba)",
+   "authors": "Nick J. Pizzi, Aleksander B. Demko",
+   "url": "https://openalex.org/W2181944453",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Polynomial approximations in the polytope model: Bringing the power of quasi-polynomials to the masses",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2008,
+   "venue": "Lirias",
+   "authors": "Benoît Meister, Sven Verdoolaege",
+   "url": "https://openalex.org/W2520810317",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Low Power Engineering",
    "function": "exemplifies",
    "split": "passing",
@@ -289,6 +447,106 @@
    "secondary": [
     "supports-claim"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Using just-in-time code generation to transparently accelerate applications in heterogeneous systems",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "Habilitation Regulations of the Faculty of Mechanical Engineering (University of Paderborn)",
+   "authors": "Gavin Vaz",
+   "url": "https://doi.org/10.17619/unipb/1-817",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Definição de uma Metodologia para o Desenvolvimento de Aplicações Paralelas",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+   "authors": "André Luís Olivete",
+   "url": "https://doi.org/10.11606/d.55.2018.tde-26022018-141916",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A decoupled approach to high-level loop optimization : tile shapes, polyhedral building blocks and low-level compilers",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "theses.fr (ABES)",
+   "authors": "Tobias Grosser",
+   "url": "https://doi.org/10.70675/b2acb1f0zf5a6z4a0cz94a9zfc2cee8b4571",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic Sequential to Parallel Code Conversion",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "Open Journal Systems (Global Science & Technology Forum)",
+   "authors": "Aditi Athavale, Priti Ranadive, M. Naresh Babu et al.",
+   "url": "https://openalex.org/W2175260781",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An Approach to Fully Recognizing Addressable Expression",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "Asia-Pacific Conference on Quality Software (APAQS)",
+   "authors": "Yukun Dong, Ying Xing, Dahai Jin et al.",
+   "url": "https://doi.org/10.1109/qsic.2013.64",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiler Support for Fine-grain Software-only Checkpointing",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Cheng Yan Zhao",
+   "url": "https://openalex.org/W3148480778",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Evaluating the performance of software distributed shared memory as a target for parallelizing compilers",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "International Parallel Processing Symposium",
+   "authors": "Alan L. Cox, Sandhya Dwarkadas, Hong Bing Lu et al.",
+   "url": "https://doi.org/10.1109/ipps.1997.580943",
+   "cited_by": 26,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -409,6 +667,58 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Symbolic Polynomial Maximization Over Convex Sets and Its Application to Memory Requirement Estimation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+   "authors": "Philippe Clauss, F.J. Fernandez, Diego Garbervetsky et al.",
+   "url": "https://doi.org/10.1109/tvlsi.2008.2002049",
+   "cited_by": 44,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiler-Guided data compression for reducing memory consumption of embedded applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2006,
+   "venue": "Asia and South Pacific Design Automation Conference (ASP-DAC)",
+   "authors": "Özcan Öztürk, Guangyu Chen, Mahmut Kandemir et al.",
+   "url": "https://doi.org/10.1145/1118299.1118485",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Conception des interfaces logiciel-matériel pour l'intégration des mémoires globales dans les systèmes monopuces",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2005,
+   "venue": "Techniques et sciences informatiques",
+   "authors": "Ferid Gharsalli, Frédéric Rousseau, Ahmed Amine Jerraya",
+   "url": "https://doi.org/10.3166/tsi.24.369-394",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Gestion des unités de mémorisation pour la synthèse d'architecture",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2005,
+   "venue": "HAL",
+   "authors": "Gwenolé Corre",
+   "url": "https://openalex.org/W42405379",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Optimizing data intensive window-based image processing on reconfigurable hardware boards",
    "function": "passing-citation",
    "split": "passing",
@@ -418,6 +728,19 @@
    "cited_by": 10,
    "centrality": "peripheral",
    "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A scalable MPEG-4 wavelet-based visual texture compression system with optimized memory organization",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2003,
+   "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+   "authors": "B. Vanhoof, Lode Nachtergaele, Gauthier Lafruit et al.",
+   "url": "https://doi.org/10.1109/tcsvt.2003.811427",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -589,6 +912,19 @@
    }
   },
   {
+   "title": "Compiler-Based Checkpointing and the Potential for Tolerating Delinquent Loads",
+   "function": "unknown",
+   "split": null,
+   "year": 2009,
+   "authors": "J. Gregory Steffan, Cristiana Amza",
+   "url": "https://openalex.org/W188372552",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Automatic Parallelization for Graphics Processing Units in JikesRVM",
    "function": "unknown",
    "split": null,
@@ -735,6 +1071,28 @@
    "evidence": "title_only"
   },
   {
+   "title": "Low-Power Processor-Level Data Transfer and Storage Exploration",
+   "function": "unclassified",
+   "split": null,
+   "year": 2000,
+   "venue": "Springer eBooks",
+   "authors": "Erik Brockmeyer, Cedric Ghez, Wim Baetens et al.",
+   "url": "https://doi.org/10.1007/978-1-4757-3182-8_3",
+   "cited_by": 1,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Untitled",
+   "function": "unclassified",
+   "split": null,
+   "year": 2000,
+   "venue": "Design Automation for Embedded Systems",
+   "authors": "Tanja Van Achteren, Marleen Adé, Rudy Lauwereins et al.",
+   "url": "https://doi.org/10.1023/a:1008958303888",
+   "cited_by": 3,
+   "evidence": "title_only"
+  },
+  {
    "title": "Strategy for power efficient combined task and data parallelism exploration illustrated on a QSDPCM video codec",
    "function": "unclassified",
    "split": null,
@@ -743,6 +1101,17 @@
    "authors": "Koen Danckaert, K. Masselos, Francky Catthoor et al.",
    "url": "https://doi.org/10.1016/s1383-7621(98)00039-3",
    "cited_by": 8,
+   "evidence": "title_only"
+  },
+  {
+   "title": "A Comparison of Implicitly Parallel Multithreaded and Data-Parallel Implementations of an Ocean Model",
+   "function": "unclassified",
+   "split": null,
+   "year": 1998,
+   "venue": "Journal of Parallel and Distributed Computing",
+   "authors": "Andrew Shaw, Arvind Arvind, Kyoo-Chan Cho et al.",
+   "url": "https://doi.org/10.1006/jpdc.1997.1390",
+   "cited_by": 6,
    "evidence": "title_only"
   },
   {

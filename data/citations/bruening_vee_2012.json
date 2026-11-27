@@ -1,16 +1,32 @@
 {
  "schema": 1,
  "key": "bruening:vee:2012",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 174,
-  "works": 146,
+  "records_raw": 191,
+  "works": 163,
   "commit": 3,
-  "judged": 122,
+  "judged": 137,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "A Characterization of Google Workload Traces",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "IEEE International Symposium on Workload Characterization",
+   "authors": "Matthew Giordano, Akanksha Jain, Enrico Deiana et al.",
+   "url": "https://doi.org/10.1109/iiswc71020.2026.00043",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "Evaluating Disassembly Errors With Only Binaries",
    "function": "uses-tool",
@@ -216,6 +232,19 @@
    "commit": true
   },
   {
+   "title": "Taint-based Analysis Techniques against Evasive Malware",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Institutional Repositories DataBase (IRDB)",
+   "authors": "裕平 川古谷, Yuhei Kawakoya",
+   "url": "https://openalex.org/W7146649888",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "dynStruct: An automatic reverse engineering tool for structure recovery and memory use analysis",
    "function": "uses-tool",
    "split": "detailed",
@@ -307,6 +336,18 @@
    "centrality": "core",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Mangosteen: Fast Transparent Durability for Linearizable Applications using NVM",
+   "function": "uses-tool",
+   "split": "detailed",
+   "venue": "University of Surrey Open Research repository",
+   "authors": "Sergey Egorov, Gregory V. Chockler, Brijesh Dongol et al.",
+   "url": "https://openalex.org/W7233678179",
+   "cited_by": 2,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Reduzindo a Superfície de Ataque dos Frameworks de Instrumentação Binária Dinâmica",
@@ -440,6 +481,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Binary instrumentation and transformation for software security applications",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Purdue e-Pubs (Purdue University System)",
+   "authors": "Zhui Deng",
+   "url": "https://openalex.org/W2227836152",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Comprehensive Multiplatform Dynamic Program Analysis for Java and Android",
    "function": "positions",
    "split": "detailed",
@@ -501,6 +558,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Time-accurate network simulation interconnecting virtual machines with hardware virtualization towards stealth analysis",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "theses.fr (ABES)",
+   "authors": "Léo Cosseron",
+   "url": "https://doi.org/10.70675/0093fdc2z83e0z4014z852fz2a1134ea9afc",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Overhead Comparison of Instrumentation Frameworks",
    "function": "supports-claim",
    "split": "detailed",
@@ -543,6 +616,19 @@
    "flags": [
     "polluted-contexts"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Transformation binaire de niveau de fonction dynamique axée sur les performances",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Arif Ali Anapparakkal",
+   "url": "https://doi.org/10.70675/142031fcz7033z4d9cz8278z6230c974cac7",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "fulltext"
   },
   {
@@ -703,6 +789,32 @@
    "evidence": "abstract"
   },
   {
+   "title": "DFIT: A Framework for Building Instrumentation Tools Across Heterogeneous Dataflow Accelerators",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Md. Azahar Alam, Abrar Hossain, Kishwar Ahmed",
+   "url": "https://doi.org/10.48550/arxiv.2610.14280",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Heterogeneous Memory Pool Tuning",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
+   "authors": "Filip Vaverka, Ondřej Vysocký, Lubomír Říha",
+   "url": "https://doi.org/10.1109/ipdpsw66978.2025.00141",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "QMSan: Efficiently Detecting Uninitialized Memory Errors During Fuzzing",
    "function": "exemplifies",
    "split": "passing",
@@ -753,6 +865,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "The Reversing Machine: Reconstructing Memory Assumptions",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Mohammad Sina Karvandi, Soroush Meghdadizanjani, Sima Arasteh et al.",
+   "url": "https://doi.org/10.48550/arxiv.2405.00298",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Versatile Binary-Level Concolic Testing",
@@ -909,6 +1034,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Diseño e Implementación de un Analizador de Vulnerabilidades",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "RUA, Repositorio Institucional de la Universidad de Alicante (Universidad de Alicante)",
+   "authors": "Cristopher Octavio España Romero",
+   "url": "https://openalex.org/W3088758251",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Fuzzing Binaries for Memory Safety Errors with QASan",
    "function": "exemplifies",
    "split": "passing",
@@ -1030,6 +1168,35 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Acceleration of memory accesses in dynamic binary translation",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2018,
+   "venue": "theses.fr (ABES)",
+   "authors": "Antoine Faravelon",
+   "url": "https://doi.org/10.70675/8cd22121z3f59z4cdbzb8a7z7297dbeb7bc6",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "An Event-Based Language for Programmable Debugging",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2018,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Serguei Makarov",
+   "url": "https://openalex.org/W2890671018",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "CRETE: A Versatile Binary-Level Concolic Testing Framework",
@@ -1428,6 +1595,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Analysis and optimizations for partitioned global address space based HPC applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Célia Tassadit Ait Kaci",
+   "url": "https://doi.org/10.70675/a081577bz6515z4ac4z8ef9zd25b667fd480",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "SaBRe: load-time selective binary rewriting",
    "function": "passing-citation",
    "split": "passing",
@@ -1506,6 +1686,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "An Optimized Intermediate Representation for Binary Rewriting at Runtime",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "mediaTUM (Technical University of Munich)",
+   "authors": "David Hildenbrand",
+   "url": "https://openalex.org/W2972945767",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "One Engine To Serve 'em All: Inferring Taint Rules Without Architectural Semantics",
    "function": "passing-citation",
    "split": "passing",
@@ -1543,6 +1736,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Formal Approaches for Automatic Deobfuscation and Reverse-engineering of Protected Codes",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "theses.fr (ABES)",
+   "authors": "Robin David",
+   "url": "https://doi.org/10.70675/593210c1z1b70z48cfzaecdzb4182684bafa",
+   "cited_by": 7,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Análise Transparente de Malware com Suporte por Hardware",
@@ -1731,6 +1937,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Nouvelles approches de la sécurité informatique reposant sur la vision offensive et bas-niveau des systèmes",
+   "function": "unknown",
+   "split": null,
+   "year": 2021,
+   "venue": "theses.fr (ABES)",
+   "authors": "Baptiste David",
+   "url": "https://doi.org/10.70675/3bd29a14z8653z4c04za697zd5c86ede204d",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Identifying Bugs in Make and JVM-Oriented Builds",
    "function": "unknown",
    "split": null,
@@ -1837,6 +2057,17 @@
    "flags": [
     "polluted-contexts"
    ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Recherche de vulnérabilités logicielles par combinaison d'analyses de code binaire et de frelatage (Fuzzing)",
+   "function": "unknown",
+   "split": null,
+   "year": 2013,
+   "venue": "theses.fr (ABES)",
+   "authors": "Sofia Bekrar",
+   "url": "https://doi.org/10.70675/4c2a17b6zd6f3z4c8fza8a4zb2528e7f5a11",
+   "cited_by": 1,
    "evidence": "abstract"
   },
   {

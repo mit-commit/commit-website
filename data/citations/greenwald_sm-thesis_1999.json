@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "key": "greenwald:sm-thesis:1999",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 2,
+  "works": 2,
+  "commit": 2,
+  "judged": 1,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Strength Reduction of Integer Division and Modulo Operations",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2003,
+   "venue": "Lecture notes in computer science",
+   "authors": "Jeffrey Sheldon, W. Lee, Ben Greenwald et al.",
+   "url": "https://doi.org/10.1007/3-540-35767-x_17",
+   "cited_by": 12,
+   "centrality": "engaged",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "Hot Pages: Software Caching for Raw Microprocessors",
+   "function": "unknown",
+   "split": null,
+   "year": 1999,
+   "authors": "Csaba Andras Moritz, Matthew I. Frank, W. Lee et al.",
+   "url": "https://openalex.org/W1812749193",
+   "cited_by": 33,
+   "evidence": "abstract",
+   "commit": true
+  }
+ ]
+}

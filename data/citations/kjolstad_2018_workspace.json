@@ -1,16 +1,45 @@
 {
  "schema": 1,
  "key": "kjolstad:2018:workspace",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 1,
-  "works": 1,
+  "records_raw": 4,
+  "works": 4,
   "commit": 1,
-  "judged": 0,
+  "judged": 2,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Acorns: A Framework for Accelerating Deep Neural Networks with Input Sparsity",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Xiao Dong, Lei Liu, Peng Zhao et al.",
+   "url": "https://doi.org/10.1109/pact.2019.00022",
+   "cited_by": 12,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Tensaurus: A Versatile Accelerator for Mixed Sparse-Dense Tensor Computations",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+   "authors": "Nitish Srivastava, Hanchen Jin, Shaden Smith et al.",
+   "url": "https://doi.org/10.1109/hpca47549.2020.00062",
+   "cited_by": 157,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
   {
    "title": "Sparse Tensor Transpositions",
    "function": "unknown",
@@ -25,6 +54,16 @@
    ],
    "evidence": "abstract",
    "commit": true
+  },
+  {
+   "title": "Methods for Accelerating Machine Learning in High Performance Computing",
+   "function": "unclassified",
+   "split": null,
+   "year": 2019,
+   "authors": "Robert Lim",
+   "url": "https://openalex.org/W2934205910",
+   "cited_by": 9,
+   "evidence": "title_only"
   }
  ]
 }

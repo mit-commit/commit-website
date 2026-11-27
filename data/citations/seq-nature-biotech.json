@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "seq-nature-biotech",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 18,
-  "works": 17,
+  "records_raw": 21,
+  "works": 20,
   "commit": 1,
-  "judged": 9,
+  "judged": 12,
   "gscholar": null
  },
  "citations": [
@@ -64,6 +64,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "A Systematic Review of Multi-Objective Evolutionary Algorithms Optimization Frameworks",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Processes",
+   "authors": "Andrei Pătrăuşanu, Adrian Florea, Mihai Neghină et al.",
+   "url": "https://doi.org/10.3390/pr12050869",
+   "cited_by": 50,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Efficient mapping of accurate long reads in minimizer space with mapquik",
    "function": "supports-claim",
    "split": "detailed",
@@ -78,6 +94,19 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Desarrollo de herramientas informáticas para el análisis de SARS-CoV-2 mediante Python",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Rovira & Virgili repository",
+   "authors": "Pedro Manuel López Zarzuela",
+   "url": "https://openalex.org/W7219406765",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "mapquik: Efficient low-divergence mapping of long reads in minimizer space",
@@ -131,6 +160,22 @@
    ],
    "evidence": "fulltext",
    "commit": true
+  },
+  {
+   "title": "Metagenomic survey of tick RNA viruses from pastoral regions of Kenya in 2022–2024",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Discover Viruses.",
+   "authors": "Lydia Mwasi, Samoel Ashimosi Khamadi, Wallace Bulimo et al.",
+   "url": "https://doi.org/10.1007/s44370-026-00062-z",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "NeuroSimo: an open-source software for closed-loop EEG- or EMG-guided TMS",

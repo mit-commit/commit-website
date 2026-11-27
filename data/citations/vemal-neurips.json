@@ -1,16 +1,32 @@
 {
  "schema": 1,
  "key": "vemal-neurips",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 25,
-  "works": 23,
+  "records_raw": 50,
+  "works": 48,
   "commit": 1,
-  "judged": 16,
+  "judged": 38,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "A Graph-Based Learning Framework for Compiler Loop Auto-Vectorization",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Intelligent Computing",
+   "authors": "Yao Xiao, Nesreen K. Ahmed, Mihai Capotă et al.",
+   "url": "https://doi.org/10.34133/icomputing.0113",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "abstract"
+  },
   {
    "title": "Reinforcement Learning assisted Loop Distribution for Locality and Vectorization",
    "function": "positions",
@@ -27,6 +43,38 @@
    "evidence": "fulltext"
   },
   {
+   "title": "A Learned Performance Model for Tensor Processing Units",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "arXiv",
+   "authors": "Samuel J. Kaufman, Phitchaya Mangpo Phothilimthana, Yanqi Zhou et al.",
+   "url": "https://doi.org/10.48550/arxiv.2008.01040",
+   "cited_by": 120,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Enabling Automatic Compiler-Driven Vectorization of Transformers",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Proceedings of the CGO/Proceedings of the ... CGO",
+   "authors": "Shreya Alladi, Alberto Ros, Alexandra Jimborean",
+   "url": "https://doi.org/10.1109/cgo68049.2026.11395226",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Survey of Machine Learning for Computer Architecture and Systems",
    "function": "surveys",
    "split": "detailed",
@@ -38,6 +86,80 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "Evaluating Language Models for Efficient Code Generation",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Jiawei Liu, Songrun Xie, Junhao Wang et al.",
+   "url": "https://doi.org/10.48550/arxiv.2408.06450",
+   "cited_by": 154,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "AutoVecCoder: Teaching LLMs to Generate Explicitly Vectorized Code",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Shangzhan Li, Xinyu Yin, Xuanyu Jin et al.",
+   "url": "https://doi.org/10.48550/arxiv.2605.17978",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "HintPilot: LLM-based Compiler Hint Synthesis for Code Optimization",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Findings of the Association for Computational Linguistics: ACL (Findings of ACL)",
+   "authors": "Hanyun Jiang, Peisen Yao, Kaiyue Li et al.",
+   "url": "https://doi.org/10.18653/v1/2026.findings-acl.1251",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Neural abstract interpretation: Leveraging neural networks for automated, efficient and differentiable abstract interpretation",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Shaurya Gomber",
+   "url": "https://openalex.org/W7220828428",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "COMET: Neural Cost Model Explanation Framework",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "arXiv",
+   "authors": "Isha Chaudhary, Alex Renda, Charith Mendis et al.",
+   "url": "https://doi.org/10.48550/arxiv.2302.06836",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "The Next 700 ML-Enabled Compiler Optimizations",
@@ -53,6 +175,18 @@
    "evidence": "abstract"
   },
   {
+   "title": "Transfer Learning Across Heterogeneous Features For Efficient Tensor Program Generation",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "authors": "Gaurav Verma, Siddhisanket Raskar, Zhen Xie et al.",
+   "url": "https://doi.org/10.1145/3587278.3595644",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Improving Vectorization Heuristics in a Dynamic Compiler with Machine Learning Models",
    "function": "exemplifies",
    "split": "passing",
@@ -66,6 +200,19 @@
     "supports-claim"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Learning to Combine Instructions in LLVM Compiler",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2022,
+   "venue": "arXiv",
+   "authors": "Sandya S. Mannarswamy, Das, Dibyendu",
+   "url": "https://doi.org/10.48550/arxiv.2202.12379",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "ProGraML: A Graph-based Program Representation for Data Flow Analysis and Compiler Optimizations",
@@ -122,6 +269,48 @@
    "evidence": "abstract"
   },
   {
+   "title": "IR2V EC: LLVM IR Based Scalable Program Embeddings",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "S. VenkataKeerthy, Rohit Aggarwal, Shalini Jain et al.",
+   "url": "https://doi.org/10.1145/3418463",
+   "cited_by": 132,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "LLM-Vectorizer: LLM-Based Verified Loop Vectorizer",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Proceedings of the CGO/Proceedings of the ... CGO",
+   "authors": "Jubi Taneja, Avery Laird, Cong Yan et al.",
+   "url": "https://doi.org/10.1145/3696443.3708929",
+   "cited_by": 61,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Evaluation of Compilers’ Capability of Automatic Vectorization Based on Source Code Analysis",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "Scientific Programming",
+   "authors": "Jing Ge Feng, Ye Ping He, Qiuming Tao",
+   "url": "https://doi.org/10.1155/2021/3264624",
+   "cited_by": 21,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Compiler 2.0",
    "function": "detailed-citation",
    "split": "detailed",
@@ -136,6 +325,45 @@
    ],
    "evidence": "abstract",
    "commit": true
+  },
+  {
+   "title": "Accelerating C/C++ Pointer Analysis via Compiler-Based Offline Simplifications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Zinan Gu, Peisen Yao, Kui Ren",
+   "url": "https://doi.org/10.48550/arxiv.2608.04466",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "PrediPrune: Reducing Verification Overhead in Souper with Machine Learning Driven Pruning",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Ange-Thierry Ishimwe, R. Shivakumar, Kim, Heewoo et al.",
+   "url": "https://doi.org/10.48550/arxiv.2509.16497",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "RVISmith: Fuzzing Compilers for RVV Intrinsics",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+   "authors": "Yibo He, Cunjian Huang, Xianmiao Qu et al.",
+   "url": "https://doi.org/10.1145/3719027.3744790",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Supporting Dynamic Program Sizes in Deep Learning-Based Cost Models for Code Optimization",
@@ -167,6 +395,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Designing and Implementing a Generator Framework for a SIMD Abstraction Library",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Johannes Pietrzyk, Alexander Krause, Dirk Habich et al.",
+   "url": "https://doi.org/10.48550/arxiv.2407.18728",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Felix: Optimizing Tensor Programs with Gradient Descent",
    "function": "passing-citation",
    "split": "passing",
@@ -174,6 +415,45 @@
    "authors": "Yifan Zhao, Hashim Sharif, Vikram Adve et al.",
    "url": "https://doi.org/10.1145/3620666.3651348",
    "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Learning Performance-Improving Code Edits",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "International Conference on Learning Representations",
+   "authors": "Alexander Shypula, Aman Madaan, Zeng, Yimeng et al.",
+   "url": "https://doi.org/10.48550/arxiv.2302.07867",
+   "cited_by": 273,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Moses: Exploiting Cross-Device Transferable Features for on-Device Tensor Program Optimization",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "IEEE Workshop on Mobile Computing Systems and Applications (WMCSA)",
+   "authors": "Zhihe Zhao, Xian Shuai, Neiwen Ling et al.",
+   "url": "https://doi.org/10.1145/3572864.3580330",
+   "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Performance Optimization using Multimodal Modeling and Heterogeneous GNN",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC)",
+   "authors": "Akash Dutta, Jordi Alcaraz, Ali TehraniJamsaz et al.",
+   "url": "https://doi.org/10.1145/3588195.3592984",
+   "cited_by": 22,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -202,6 +482,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "A framework for intelligence augmented computing systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Subho Sankar Banerjee",
+   "url": "https://openalex.org/W7220820569",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Data-Driven Synthesis of Provably Sound Side Channel Analyses",
    "function": "passing-citation",
    "split": "passing",
@@ -225,6 +518,33 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "ProTuner: Tuning Programs with Monte Carlo Tree Search",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "arXiv",
+   "authors": "Ameer Haj-Ali, Hasan Genc, Qijing Huang et al.",
+   "url": "https://doi.org/10.48550/arxiv.2005.13685",
+   "cited_by": 30,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiler Optimizations-based SMT Simplifications: An In-Depth Study",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "ACM Transactions on Software Engineering and Methodology",
+   "authors": "Hanyun Jiang, Peisen Yao, Jiachen Lu et al.",
+   "url": "https://doi.org/10.1145/3795879",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Evaluation of Graph Neural Networks for code pattern detection and autotuning of OpenMP loops",
@@ -307,6 +627,17 @@
    "evidence": "abstract"
   },
   {
+   "title": "A Review of Compiler Optimization Techniques and Comparative Analysis for RISC-V Software Development",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Maria Ayub, Imran Shafi, Sajid Gul Khawaja et al.",
+   "url": "https://doi.org/10.1007/s10766-026-00829-3",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
    "title": "TenSet: A Large-scale Program Performance Dataset for Learned Tensor Compilers",
    "function": "unclassified",
    "split": null,
@@ -315,6 +646,17 @@
    "authors": "Lianmin Zheng, Ruochen Liu, Junru Shao et al.",
    "url": "https://openalex.org/W3207748736",
    "cited_by": 11,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Towards parallelism detection of sequential programs with graph neural network",
+   "function": "unclassified",
+   "split": null,
+   "year": 2021,
+   "venue": "Future Generation Computer Systems",
+   "authors": "Yuanyuan Shen, Manman Peng, Shiling Wang et al.",
+   "url": "https://doi.org/10.1016/j.future.2021.07.001",
+   "cited_by": 17,
    "evidence": "title_only"
   }
  ]

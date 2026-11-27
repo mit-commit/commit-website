@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "babb:fccm:1999",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 164,
-  "works": 129,
+  "records_raw": 167,
+  "works": 132,
   "commit": 3,
-  "judged": 99,
+  "judged": 101,
   "gscholar": null
  },
  "citations": [
@@ -955,6 +955,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "The Arsenal Tool Chain for the GreenDroid Mobile Application Processor",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Fei Jia",
+   "url": "https://openalex.org/W91502798",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Quality-driven model-based design of multi-processor accelerators : an application to LDPC decoders",
    "function": "passing-citation",
    "split": "passing",
@@ -965,6 +978,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Architecture reconfigurable de système embarqué auto-organisé",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "theses.fr (ABES)",
+   "authors": "Slaviša Jovanović",
+   "url": "https://doi.org/10.70675/802f851czf102z4b0bz8888z914844e059f5",
+   "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Mapping streaming architectures on reconfigurable platforms",
@@ -1721,6 +1747,16 @@
    "authors": "A. Choudhary, M. Haldar",
    "url": "https://www.semanticscholar.org/paper/99a41186b13c3b7e005824229a52de86219d3a30",
    "cited_by": 1,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Credible Compilation",
+   "function": "unclassified",
+   "split": null,
+   "year": 1999,
+   "authors": "D. Marinov",
+   "url": "https://www.semanticscholar.org/paper/7000d21ebb85d4121d2853ae8c9a0dc90f61c24f",
+   "cited_by": 75,
    "evidence": "title_only"
   },
   {

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "gottschlich:mapl:2018",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 96,
-  "works": 74,
+  "records_raw": 104,
+  "works": 82,
   "commit": 1,
-  "judged": 63,
+  "judged": 67,
   "gscholar": null
  },
  "citations": [
@@ -23,6 +23,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Test Driven Regular Expression Program Synthesis",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Stella H Yang",
+   "url": "https://openalex.org/W7236554274",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Neural Machine Translation for Code Generation",
@@ -81,6 +94,19 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Artificial Intelligence and Digital Transformation in Supply Chain Management: Innovative Approaches for Supply Chains. Proceedings of the Hamburg International Conference of Logistics (HICL), Vol. 27",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "RePEc: Research Papers in Economics",
+   "authors": "Moroff, Nikolas Ulrich, Sardesai, Saskia",
+   "url": "https://openalex.org/W7112259135",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Machine learning in demand planning: Cross-industry overview",
@@ -255,6 +281,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Integrating AI into Software Development Life Cycle : A Case Study of Software Developers' Experiences",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Tampere University Institutional Repository (Tampere University)",
+   "authors": "Ahmad Imam",
+   "url": "https://openalex.org/W7133047603",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Are machine programming systems using right source-code measures to select code repositories?",
    "function": "detailed-citation",
    "split": "detailed",
@@ -384,6 +423,25 @@
     "supports-claim"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Simulation Intelligence: Towards a New Generation of Scientific Methods",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "CaltechAUTHORS (California Institute of Technology)",
+   "authors": "Alexander Lavin, David C. Krakauer, Héctor Zenil et al.",
+   "url": "https://doi.org/10.48550/arxiv.2112.03235",
+   "cited_by": 220,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Toward Code Generation: A Survey and Lessons from Semantic Parsing",
@@ -948,6 +1006,34 @@
    "evidence": "abstract"
   },
   {
+   "title": "Correctness Firewalls for Synthesized Database Components",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Mohammad Javad Amiri, Carsten Binnig, Andreas Kipf et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.05173",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Comparative Analysis of Four Programming Languages for Machine Learning",
+   "function": "unknown",
+   "split": null,
+   "year": 2025,
+   "venue": "Ingénierie des systèmes d information",
+   "authors": "Alaa Falah Hasan, Saadya F. Jabba, Firas Saadallah Raheem",
+   "url": "https://doi.org/10.18280/isi.300603",
+   "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Towards instance-optimized data systems",
    "function": "unknown",
    "split": null,
@@ -1014,6 +1100,17 @@
    "evidence": "abstract"
   },
   {
+   "title": "Automation’s Role in Sustainable Aquaculture Practices",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Springer water",
+   "authors": "Shivam Pandey, Gajender Singh, R. K. Gupta et al.",
+   "url": "https://doi.org/10.1007/978-3-032-16605-0_19",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
    "title": "Konzeptionelle Grenzen",
    "function": "unclassified",
    "split": null,
@@ -1054,6 +1151,17 @@
    "authors": "Hossein Hajipour, Apratim Bhattacharyya, Mario Fritz",
    "url": "https://www.semanticscholar.org/paper/b7f6f4ced1901c5ce78aa2d09ca16d5088220a1f",
    "cited_by": 14,
+   "evidence": "title_only"
+  },
+  {
+   "title": "The Elephant in the Room: Towards the Application of Genetic Programming to Automatic Programming",
+   "function": "unclassified",
+   "split": null,
+   "year": 2019,
+   "venue": "Genetic and evolutionary computation",
+   "authors": "Michael O’Neill, David Fagan",
+   "url": "https://doi.org/10.1007/978-3-030-04735-1_9",
+   "cited_by": 8,
    "evidence": "title_only"
   },
   {

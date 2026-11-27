@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "key": "chen:pldi:2022",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 26,
-  "works": 26,
+  "records_raw": 28,
+  "works": 28,
   "commit": 2,
   "judged": 23,
   "gscholar": null
@@ -343,6 +343,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Unleashing Triton on CPUs: Compilation and Runtime Co-Optimization for Scalable Vector Architectures",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "Computers",
+   "authors": "Jianan Li, Xiaonan Chai, Wei Gao",
+   "url": "https://doi.org/10.3390/computers15070406",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Democratizing the Cryptocurrency Ecosystem by Just-In-Time Transformation of Mining Programs",
    "function": "unknown",
    "split": null,
@@ -369,6 +383,17 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "A Review of Compiler Optimization Techniques and Comparative Analysis for RISC-V Software Development",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Maria Ayub, Imran Shafi, Sajid Gul Khawaja et al.",
+   "url": "https://doi.org/10.1007/s10766-026-00829-3",
+   "cited_by": 0,
+   "evidence": "title_only"
   },
   {
    "title": "Compiler-based loop unrolling optimization for dual-SIMD extensions",

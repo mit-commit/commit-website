@@ -1,16 +1,29 @@
 {
  "schema": 1,
  "key": "revec-cc",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 12,
-  "works": 12,
+  "records_raw": 17,
+  "works": 17,
   "commit": 0,
-  "judged": 11,
+  "judged": 16,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Optimizing Irregular Computations on Parallel Processors",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Bangtian Liu",
+   "url": "https://openalex.org/W7133014196",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
   {
    "title": "Vector-Processing for Mobile Devices: Benchmark and Analysis",
    "function": "uses-benchmark",
@@ -39,6 +52,31 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "fulltext"
+  },
+  {
+   "title": "Does GCC Compiler Development Pay for Itself? GCC Versions' Impact on Energy Consumption",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "DROPS (Schloss Dagstuhl – Leibniz Center for Informatics)",
+   "authors": "Brage Isak Bakkane Keiserås, Bo Markussen, Ingrid Chieh Yu et al.",
+   "url": "https://doi.org/10.4230/lipics.esem.2026.38",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "KernelShift: Benchmarking Kernel Optimization Across Evolving Hardware",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "authors": "Shuai-Wei Huang, Weihua Du, Allen Wu et al.",
+   "url": "https://www.semanticscholar.org/paper/a06867dd86c8af15935f274db6280ec10e7fe0c6",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "abstract+contexts"
   },
   {
    "title": "Code Rejuvenation: From Vector Compiler Intrinsics to Portable Standardized SIMD",
@@ -91,6 +129,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Modular Data and Parallelization Abstractions for Programming Heterogeneous Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "VUBIR (Vrije Universiteit Brussel)",
+   "authors": "Jonas Sys",
+   "url": "https://openalex.org/W7154659917",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Rewriting and Optimizing Vector Length Agnostic Intrinsics from Arm SVE to RVV",
@@ -162,6 +213,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Methodology for code-optimization of memory data layouts by adaptation to high-performance-system architectures with complex memory hierarchies",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Riyane Sid Lakhdar",
+   "url": "https://doi.org/10.70675/704f2b7czeefbz426bz9168z1bf608d808c4",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "PostSLP: Cross-Region Vectorization of Fully or Partially Vectorized Code",

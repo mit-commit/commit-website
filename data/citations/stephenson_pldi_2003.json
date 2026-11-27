@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "stephenson:pldi:2003",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 328,
-  "works": 315,
+  "records_raw": 356,
+  "works": 343,
   "commit": 4,
-  "judged": 252,
+  "judged": 275,
   "gscholar": null
  },
  "citations": [
@@ -418,6 +418,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "New Frontiers in Machine Learning Optimization",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Advances in computational intelligence and robotics book series",
+   "authors": "Pooja Dehankar, Susanta Das",
+   "url": "https://doi.org/10.4018/979-8-3693-7352-1.ch018",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "Machine Learning in Compilers: Past, Present and Future",
    "function": "surveys",
    "split": "detailed",
@@ -481,6 +494,22 @@
     "exemplifies"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Genetic Programming",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Springer eBooks",
+   "authors": "James McDermott, Una-May O’Reilly",
+   "url": "https://doi.org/10.1007/978-3-662-43505-2_43",
+   "cited_by": 11,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Search-based software engineering",
@@ -583,6 +612,22 @@
     "passing-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Compiler Auto-tuning For Code Optimization",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Sunghyun Park",
+   "url": "https://doi.org/10.7302/3840",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Using Ensemble Learning to Improve Automatic Vectorization of Tensor Contraction Program",
@@ -816,6 +861,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Contributions to the Design of Reliable and Programmable High-Performance Systems: Principles, Interfaces, Algorithms and Tools",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "HAL",
+   "authors": "Albert Cohen",
+   "url": "https://openalex.org/W2294869366",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Fast and effective solutions to the phase ordering problem",
    "function": "supports-claim",
    "split": "detailed",
@@ -844,6 +905,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "AutoPSO: A Meta-Framework for Automated Particle Swarm Optimization",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "IEEE Transactions on Evolutionary Computation",
+   "authors": "Xinmeng Yu, Jiaxin Gao, Jianguo Zhang et al.",
+   "url": "https://doi.org/10.1109/tevc.2026.3718908",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Compiler Optimization-Based SMT Simplifications: An In-Depth Study",
    "function": "exemplifies",
    "split": "passing",
@@ -855,6 +929,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Metaheuristics and Machine Learning Convergence: A Comprehensive Survey and Future Prospects",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Advances in systems analysis, software engineering, and high performance computing book series",
+   "authors": "Ghita Bencheikh",
+   "url": "https://doi.org/10.4018/979-8-3693-7842-7.ch015",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
   },
   {
    "title": "Uncovering the performance bottleneck of modern HPC processor with static code analyzer: a case study on Kunpeng 920",
@@ -1140,6 +1227,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Stokastik paralel montaj hattı dengeleme problemine üst sezgisel yaklaşım",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "Erciyes University - AVESIS",
+   "authors": "Gökhan SEÇME",
+   "url": "https://openalex.org/W7239479835",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Analyzing and addressing false interactions during compiler optimization phase ordering",
    "function": "exemplifies",
    "split": "passing",
@@ -1151,6 +1251,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Hyper-heuristics: a survey of the state of the art",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "venue": "Journal of the Operational Research Society",
+   "authors": "Edmund K. Burke, Michel Gendreau, Matthew Hyde et al.",
+   "url": "https://doi.org/10.1057/jors.2013.71",
+   "cited_by": 1479,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Using machine learning to partition streaming programs",
@@ -1364,6 +1477,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Metaheurísticas e ingeniería del software",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2007,
+   "venue": "Repositorio Institucional de la Universidad de Málaga (University of Málaga)",
+   "authors": "Francisco Chicano",
+   "url": "https://openalex.org/W1567401860",
+   "cited_by": 25,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "MiDataSets: Creating the Conditions for a More Realistic Evaluation of Iterative Optimization",
    "function": "exemplifies",
    "split": "passing",
@@ -1475,6 +1601,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Efficient learning methods to tune algorithm parameters",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Warwick Research Archive Portal (University of Warwick)",
+   "authors": "Jawad Elomari",
+   "url": "https://doi.org/10.82444/warw.33635938",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic Source-to-Source Optimizations using Machine Learning",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Maksim Berezov",
+   "url": "https://doi.org/10.70675/ba1152c7zadfaz4d0fzb08fz0f218d038f2a",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "AutoPhase: Juggling HLS Phase Orderings in Random Forests with Deep Reinforcement Learning",
    "function": "detailed-citation",
    "split": "detailed",
@@ -1529,6 +1681,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Background",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "SpringerBriefs in applied sciences and technology",
+   "authors": "Amir Hossein Ashouri, Gianluca Palermo, John Cavazos et al.",
+   "url": "https://doi.org/10.1007/978-3-319-71489-9_1",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Compiler and Runtime Optimization Techniques for Implementation Scalable Parallel Applications",
    "function": "detailed-citation",
    "split": "detailed",
@@ -1539,6 +1707,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "ML4JIT- um arcabouço para pesquisa com aprendizado de máquina em compiladores JIT.",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "Digital Library of Theses and Dissertations  (Universidade de São Paulo)",
+   "authors": "Alexandre dos Santos Mignon",
+   "url": "https://doi.org/10.11606/t.3.2017.tde-05092017-101617",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Analysis and parameter prediction of compiler transformation for graphics processors",
@@ -1707,6 +1891,23 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Predictive Modeling in a Polyhedral Optimization Space",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Eun‐Jung Park, John Cavazos, Louis-Noël Pouchet et al.",
+   "url": "https://doi.org/10.1007/s10766-013-0241-1",
+   "cited_by": 70,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions",
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Meta-optimization for parameter tuning with a flexible computing budget",
@@ -1890,6 +2091,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Méthodologie d'optimisation de programmes pour architectures complexes de processeurs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "HAL",
+   "authors": "David Parello",
+   "url": "https://openalex.org/W611551489",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Predicting Unroll Factors Using Nearest Neighbors",
    "function": "detailed-citation",
    "split": "detailed",
@@ -1932,6 +2146,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Adaptive Data Augmentation with Bayesian Optimization for Basic Block Throughput Prediction",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Lecture notes in computer science",
+   "authors": "Xiabing Hu, Xuezheng Xu, Deheng Yang et al.",
+   "url": "https://doi.org/10.1007/978-3-032-35248-4_12",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Multiple Compiler Framework for Improved Performance",
    "function": "passing-citation",
    "split": "passing",
@@ -1971,6 +2198,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Using Greedy-Enhanced Heuristic to Optimize Instruction Scheduling for RISC-V DSP",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "IEEE International Symposium on Circuits and Systems proceedings",
+   "authors": "Chen Xu, Yuanyang Xiang, Qingchen Zhai et al.",
+   "url": "https://doi.org/10.1109/iscas56072.2025.11043662",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Guided Equality Saturation",
    "function": "passing-citation",
    "split": "passing",
@@ -1982,6 +2222,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Interference Graph Dataset for Machine Learning-Based Register Allocation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "IEEE Access",
+   "authors": "Pedro Zaffalon da Silva, Helen C. de Mattos Senefonte, Wesley Attrot",
+   "url": "https://doi.org/10.1109/access.2024.3481358",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Online and Offline Compiler Performance Comparison and Optimization",
@@ -2021,6 +2274,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Deep software variability for resilient performance models of configurable systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "theses.fr (ABES)",
+   "authors": "Luc Lesoil",
+   "url": "https://doi.org/10.70675/cd45636fz2bf1z45f2zb988zc6c6f7366971",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Facile: Fast, Accurate, and Interpretable Basic-Block Throughput Prediction",
@@ -2505,6 +2771,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Finding representative sets of optimizations for adaptive multiversioning applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "arXiv",
+   "authors": "Lianjie Luo, Chen, Yang, Chengyong Wu et al.",
+   "url": "https://doi.org/10.48550/arxiv.1407.4075",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Optimizing Code by Selecting Compiler Flags using Parallel Genetic Algorithm on Multicore CPUs",
    "function": "passing-citation",
    "split": "passing",
@@ -2708,6 +2987,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Evaluación de parámetros de optimización GCC",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "Ingenierías USBmed",
+   "authors": "Rodrigo Escobar, Alekya R. Angula, Mark Corsi",
+   "url": "https://doi.org/10.21500/20275846.272",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Finding near‐perfect parameters for hardware and code optimizations with automatic multi‐objective design space explorations",
    "function": "passing-citation",
    "split": "passing",
@@ -2899,6 +3191,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Transforming GCC into a research-friendly environment: plugins for optimization tuning and reordering, function cloning and program instrumentation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "venue": "HAL",
+   "authors": "Yuanjie Huang, Peng Liang, Chengyong Wu et al.",
+   "url": "https://openalex.org/W967038947",
+   "cited_by": 12,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Workload characterization supporting the development of domain-specific compiler optimizations using decision trees for data mining",
    "function": "passing-citation",
    "split": "passing",
@@ -2923,6 +3228,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Collective Tuning Initiative: automating and accelerating development and optimization of computing systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "HAL",
+   "authors": "Grigori Fursin",
+   "url": "https://openalex.org/W1518588399",
+   "cited_by": 37,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Examining Committee",
@@ -3453,6 +3771,34 @@
    "evidence": "abstract"
   },
   {
+   "title": "Electrode Material Dependence, Ion Pairing, and Progressive Increase in Complexity of the α-[S2W18O62]4–/5–/6–/7–/8–/9–/10–Reduction Processes in Acetonitrile Containing [n-Bu4N][PF6] as the Supporting Electrolyte",
+   "function": "unknown",
+   "split": null,
+   "year": 2020,
+   "venue": "The Journal of Physical Chemistry C",
+   "authors": "Md Anisur Rahman, Luke Gundry, Tadaharu Ueda et al.",
+   "url": "https://doi.org/10.1021/acs.jpcc.0c04735",
+   "cited_by": 6,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Mechanistic Subtleties in the Voltammetry of Polyoxometalates",
+   "function": "unknown",
+   "split": null,
+   "year": 2020,
+   "venue": "Monash University",
+   "authors": "Anisur Rahman",
+   "url": "https://doi.org/10.26180/12704573",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Optimization for Risk Decision-Making Through Simulated Annealing",
    "function": "unknown",
    "split": null,
@@ -3582,6 +3928,17 @@
    "evidence": "abstract"
   },
   {
+   "title": "Statistical compiler tuning",
+   "function": "unknown",
+   "split": null,
+   "year": 2006,
+   "venue": "Leiden Repository (Leiden University)",
+   "authors": "M. Haneda",
+   "url": "https://openalex.org/W1597127505",
+   "cited_by": 1,
+   "evidence": "abstract"
+  },
+  {
    "title": "Generating new general compiler optimization settings",
    "function": "unknown",
    "split": null,
@@ -3697,6 +4054,17 @@
    "authors": "A. H. Ashouri",
    "url": "https://www.semanticscholar.org/paper/8f914d9ed223489795b415d754fdb7181e12bf17",
    "cited_by": 1,
+   "evidence": "title_only"
+  },
+  {
+   "title": "An efficient tile size selection model based on machine learning",
+   "function": "unclassified",
+   "split": null,
+   "year": 2018,
+   "venue": "Journal of Parallel and Distributed Computing",
+   "authors": "Song Liu, Yuanzhen Cui, Qing Jiang et al.",
+   "url": "https://doi.org/10.1016/j.jpdc.2018.06.005",
+   "cited_by": 17,
    "evidence": "title_only"
   },
   {
@@ -3929,6 +4297,17 @@
    "authors": "Albert Cohen",
    "url": "https://www.semanticscholar.org/paper/5758289a01a616007b454d343c1be2d034f298a7",
    "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "High Performance Embedded Architectures and Compilers: Second International Conference, HiPEAC 2007, Ghent, Belgium, January 28-30, 2007. Proceedings",
+   "function": "unclassified",
+   "split": null,
+   "year": 2007,
+   "venue": "Lecture notes in computer science",
+   "authors": "Koen De Bosschere, David B. Whalley, Ungerer, Theo et al.",
+   "url": "https://doi.org/10.1007/978-3-540-69338-3",
+   "cited_by": 5,
    "evidence": "title_only"
   },
   {

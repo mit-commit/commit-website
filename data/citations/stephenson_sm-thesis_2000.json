@@ -1,16 +1,76 @@
 {
  "schema": 1,
  "key": "stephenson:sm-thesis:2000",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 1,
-  "works": 1,
+  "records_raw": 11,
+  "works": 11,
   "commit": 0,
-  "judged": 1,
+  "judged": 8,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Variable precision analysis for fpga synthesis",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2004,
+   "authors": "Mark L. Chang, Scott Hauck",
+   "url": "https://openalex.org/W1836912112",
+   "cited_by": 5,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Reconfigurable computing: architectures and design methods",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "IEE Proceedings - Computers and Digital Techniques",
+   "authors": "Tim Todman, George Anthony Constantinides, Steven J. E. Wilton et al.",
+   "url": "https://doi.org/10.1049/ip-cdt:20045086",
+   "cited_by": 410,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "Précis: A Usercentric Word-Length Optimization Tool",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "IEEE Design & Test of Computers",
+   "authors": "M.L. Chang, Scott Hauck",
+   "url": "https://doi.org/10.1109/mdt.2005.92",
+   "cited_by": 21,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Precis: a design-time precision analysis tool",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2003,
+   "venue": "IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM)",
+   "authors": "M.L. Chang, Scott Hauck",
+   "url": "https://doi.org/10.1109/fpga.2002.1106677",
+   "cited_by": 34,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "CoSense: Compiler Optimizations using Sensor Technical Specifications",
    "function": "passing-citation",
@@ -23,6 +83,83 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "contexts"
+  },
+  {
+   "title": "Optimum and heuristic synthesis of multiple word-length architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2005,
+   "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+   "authors": "George Anthony Constantinides, Peter Y. K. Cheung, Wayne W. Luk",
+   "url": "https://doi.org/10.1109/tvlsi.2004.840398",
+   "cited_by": 30,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Variable resizing for area improvement in behavioral synthesis",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2005,
+   "venue": "International Conference on VLSI Design",
+   "authors": "R. Gopalakrishnan, Rajat Moona",
+   "url": "https://doi.org/10.1109/icvd.2005.168",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automated Least-Significant Bit Datapath Optimization for FPGAs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2004,
+   "venue": "IEEE International Symposium on Field-Programmable Custom Computing Machines (FCCM)",
+   "authors": "M.L. Chang, Scott Hauck",
+   "url": "https://doi.org/10.1109/fccm.2004.18",
+   "cited_by": 11,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Using data flow analysis for the reliability assessment of safety-critical software systems",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "International Conference on Circuits",
+   "authors": "Josef Börcsök, Sebastian Schaefer",
+   "url": "https://openalex.org/W64740615",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "The New C Standard (Excerpted material) An Economic and Cultural Commentary",
+   "function": "unknown",
+   "split": null,
+   "year": 2008,
+   "authors": "Derek M. Jones",
+   "url": "https://openalex.org/W2157566949",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Retaining Path-Sensitive Relations Across Control-Flow Merges",
+   "function": "unknown",
+   "split": null,
+   "year": 2003,
+   "venue": "Chalmers Research (Chalmers University of Technology)",
+   "authors": "Douglas Gregor, Sibylle Schupp",
+   "url": "https://openalex.org/W146286300",
+   "cited_by": 4,
+   "evidence": "abstract"
   }
  ]
 }

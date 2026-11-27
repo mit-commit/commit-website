@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "kiriansky:security:2002",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 530,
-  "works": 501,
+  "records_raw": 574,
+  "works": 545,
   "commit": 4,
-  "judged": 362,
+  "judged": 400,
   "gscholar": null
  },
  "citations": [
@@ -199,6 +199,22 @@
    "commit": true
   },
   {
+   "title": "Modelo Multicamadas para Detecção de Ataques ROP",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Simpósio Brasileiro de Cibersegurança (SBSeg)",
+   "authors": "Hugo Araújo de Sousa, Mateus Tymburibá, Fernando Magno Quintão Pereira",
+   "url": "https://doi.org/10.5753/sbseg.2018.4256",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Efficient Monitoring of Untrusted Kernel-Mode Execution.",
    "function": "adopts-idea",
    "split": "detailed",
@@ -352,6 +368,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "TrustGuard: Standalone FPGA-Based Security Monitoring Through Power Side-Channel",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+   "authors": "Tao Zhang, Mark Mohammad Tehranipoor, Farimah Farahmandi",
+   "url": "https://doi.org/10.1109/tvlsi.2023.3335876",
+   "cited_by": 33,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Multilayer ROP Protection Via Microarchitectural Units Available in Commodity Hardware",
    "function": "positions",
    "split": "detailed",
@@ -439,6 +471,22 @@
    "evidence": "abstract"
   },
   {
+   "title": "Securing Statically and Dynamically Compiled Programs using Software Diversity",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Andrei Homescu",
+   "url": "https://openalex.org/W2573230755",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A defense framework against malware and vulnerability exploits",
    "function": "positions",
    "split": "detailed",
@@ -465,6 +513,19 @@
    "centrality": "engaged",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "DCFI: Control Flow Integrity for Modern Windows Applications",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Byron Hawkins",
+   "url": "https://openalex.org/W897606416",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Control flow integrity for COTS binaries",
@@ -901,6 +962,22 @@
    "authors": "Arvind Seshadri, Mark Luk, Ning Qu et al.",
    "url": "https://doi.org/10.1145/1294261.1294294",
    "cited_by": 632,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "SecVisor: a tiny hypervisor to provide lifetime kernel code integrity for commodity OSes",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "ACM SIGOPS Operating Systems Review",
+   "authors": "Arvind Seshadri, Mark Luk, Ning Qu et al.",
+   "url": "https://doi.org/10.1145/1323293.1294294",
+   "cited_by": 105,
    "centrality": "engaged",
    "confidence": "high",
    "secondary": [
@@ -1447,6 +1524,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Monitoring Buffer Overflow Attacks: A Perennial Task",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "IGI Global eBooks",
+   "authors": "Hossain Shahriar, Mohammad Zulkernine",
+   "url": "https://doi.org/10.4018/978-1-4666-1580-9.ch008",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "abstract"
+  },
+  {
    "title": "Runtime countermeasures for code injection attacks against C and C++ programs",
    "function": "surveys",
    "split": "detailed",
@@ -1471,6 +1561,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "Security Policy Enforcement in Service-Oriented Middleware",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "Unitn-eprints PhD (University of Trento)",
+   "authors": "Gabriela Gheorghe",
+   "url": "https://doi.org/10.15168/11572_368918",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Classification of Buffer Overflow Vulnerability Monitors",
@@ -1572,6 +1678,35 @@
    "evidence": "abstract"
   },
   {
+   "title": "Dynamic Binary Translation for SGX Enclaves",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "ACM Transactions on Privacy and Security",
+   "authors": "Jinhua Cui, Shweta Shinde, Satyaki Sen et al.",
+   "url": "https://doi.org/10.1145/3532862",
+   "cited_by": 17,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "LAMBDA: Lightweight Assessment of Malware for emBeddeD Architectures",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "ACM Transactions on Embedded Computing Systems",
+   "authors": "Sai Praveen Kadiyala, Manaar Alam, Yash Shrivastava et al.",
+   "url": "https://doi.org/10.1145/3390855",
+   "cited_by": 10,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Protecting Legacy Code against Control Hijacking via Execution Location Equivalence Checking",
    "function": "supports-claim",
    "split": "detailed",
@@ -1584,6 +1719,19 @@
    "secondary": [
     "detailed-citation"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Protection in commodity monolithic operating systems",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Nathan Dautenhahn",
+   "url": "https://openalex.org/W2606303659",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -1636,6 +1784,19 @@
     "positions"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Defense against buffer overflow attack by software design diversity",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "Digital Scholarship - UNLV (University of Nevada Reno)",
+   "authors": "Kunal Metkar",
+   "url": "https://doi.org/10.25669/ut94-6zdw",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "An Integrated Framework for Dependable and Revivable Architectures Using Multicore Processors",
@@ -1846,6 +2007,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Securing Virtualized System via Active Protection",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "Purdue e-Pubs (Purdue University System)",
+   "authors": "Zhongshu Gu",
+   "url": "https://openalex.org/W2223925549",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "The Meaning of Attack-Resistant Programs.",
    "function": "exemplifies",
    "split": "passing",
@@ -1888,6 +2062,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Towards an Efficient Prolog System by Code Introspection",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "arXiv",
+   "authors": "George Souza Oliveira, Anderson Faustino da Silva",
+   "url": "https://doi.org/10.48550/arxiv.1405.2564",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Light-weight kernel instrumentation framework using dynamic binary translation",
@@ -1977,6 +2164,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "USB Communication Security: Threats and Countermeasures",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "venue": "Repository for Publications and Research Data (ETH Zurich)",
+   "authors": "Der-Yeuan Yu",
+   "url": "https://doi.org/10.3929/ethz-a-010624676",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "DYNAMIC BINARY TRANSLATION FOR EMBEDDED SYSTEMS WITH SCRATCHPAD MEMORY",
@@ -2077,6 +2277,19 @@
     "date": "2026-10-12",
     "evidence": "similar to the one used in Program Shepherding [44], used in the prototype"
    }
+  },
+  {
+   "title": "Improving dynamic analysis with data flow analysis",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2010,
+   "venue": "Texas ScholarWorks (Texas Digital Library)",
+   "authors": "Walter Chang",
+   "url": "https://openalex.org/W19943085",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "PiPA",
@@ -2405,6 +2618,35 @@
    "evidence": "abstract"
   },
   {
+   "title": "An In-Depth Survey of Bypassing Buffer Overflow Mitigation Techniques",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Applied Sciences",
+   "authors": "Muhammad Arif Butt, Zarafshan Ajmal, Zafar Iqbal Khan et al.",
+   "url": "https://doi.org/10.3390/app12136702",
+   "cited_by": 40,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Analyse et optimisation dynamiques de programmes au format binaire pour la cybersécurité",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Camille Le Bon",
+   "url": "https://doi.org/10.70675/1f065835za88ez4054zbc5az4a0d15467ad9",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Multi-variant execution environments",
    "function": "detailed-citation",
    "split": "detailed",
@@ -2466,6 +2708,54 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Code-Reuse Attacks and Defenses",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Technischen Universität Darmstadt",
+   "authors": "Lucas Davi",
+   "url": "https://doi.org/10.26083/tuprints-00004622",
+   "cited_by": 13,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Secure Control Applications in Smart Homes and Buildings",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "JUCS - Journal of Universal Computer Science",
+   "authors": "Friedrich Praus, Peter Pálenský, Wolfgang Kästner",
+   "url": "https://doi.org/10.3217/jucs-022-09-1249",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "AMYNA: A Security Generator and Performance Estimator Framework Against Memory-Based Attacks",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Anna Trikalinou",
+   "url": "https://openalex.org/W2801412347",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Heap Management for Trusted Operating Environments",
    "function": "detailed-citation",
    "split": "detailed",
@@ -2490,6 +2780,18 @@
    "cited_by": 0,
    "centrality": "engaged",
    "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Τεχνολογίες ανάπτυξης ασφαλούς λογισμικού",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "authors": "Δημήτριος Μητρόπουλος",
+   "url": "https://doi.org/10.12681/eadd/43152",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -2546,6 +2848,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Security and privacy in automotive on-board networks",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "theses.fr (ABES)",
+   "authors": "Hendrik Schweppe",
+   "url": "https://doi.org/10.70675/26fcce49z3569z4481z89a0zf68b0bdf75f8",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Transparent dynamic instrumentation",
    "function": "detailed-citation",
    "split": "detailed",
@@ -2560,6 +2875,19 @@
    ],
    "evidence": "fulltext",
    "commit": true
+  },
+  {
+   "title": "Cruiser: concurrent heap buffer overflow monitoring using lock-free data structures",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+   "authors": "Qiang Zeng, Dinghao Wu, Peng Liu",
+   "url": "https://doi.org/10.1145/1993498.1993541",
+   "cited_by": 39,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Process-level virtualization for runtime adaptation of embedded software",
@@ -2769,6 +3097,45 @@
    "commit": true
   },
   {
+   "title": "DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Yuxuan Wang, Dadi Guo, Weijie Guo et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.04196",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Scribe: Practical Static Binary Patching via Binary-Aware Recompilation of Decompiled Code",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "IEEE European Symposium on Security and Privacy",
+   "authors": "Han Dai, Soumyakant Priyadarshan, Abdullah Imran et al.",
+   "url": "https://doi.org/10.1109/eurosp68448.2026.00079",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Causal Graph-Based Approach for APT Predictive Analytics",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Electronics",
+   "authors": "Haitian Liu, Rong Jiang",
+   "url": "https://doi.org/10.3390/electronics12081849",
+   "cited_by": 19,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Enabling Faster Security Assessment of Re-hosted Firmware",
    "function": "passing-citation",
    "split": "passing",
@@ -2961,6 +3328,58 @@
    "evidence": "abstract"
   },
   {
+   "title": "Detecção de ataques por controle de fluxo de execução em sistemas embarcados : uma abordagem em hardware",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "authors": "Bruno Casagrande Porcher",
+   "url": "https://openalex.org/W2769074902",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Introspective Intrusion Detection",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Byron Hawkins",
+   "url": "https://openalex.org/W2768003418",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Metrics for security activities assisted by argumentative logic",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "theses.fr (ABES)",
+   "authors": "Tarek Bouyahia",
+   "url": "https://doi.org/10.70675/f28a8747z7d9fz4e95z8ef2z3169c4141ba7",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Security Investigation in Encrypted Environment",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2017,
+   "venue": "mediaTUM (Technical University of Munich)",
+   "authors": "Fatih Kılıç",
+   "url": "https://openalex.org/W2966355420",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Automatic Contract Insertion with CCBot",
    "function": "passing-citation",
    "split": "passing",
@@ -3009,6 +3428,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Spectrum-based Diagnosis for Run-time Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+   "authors": "José Nuno de Pinho Cardoso",
+   "url": "https://doi.org/10.34626/bs8t-7985",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Efficient Privilege De-Escalation for Ad Libraries in Mobile Apps",
@@ -3202,6 +3634,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Utilizing Source Information to Detect and Prevent Online-Based Fraud",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2014,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Qing Zhang",
+   "url": "https://openalex.org/W2407843920",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A simple client-side defense against environment-dependent web-based malware",
    "function": "passing-citation",
    "split": "passing",
@@ -3348,6 +3793,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "The Red Book",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "Chalmers Research (Chalmers University of Technology)",
+   "authors": "Evangelos P. Markatos, Davide Balzarotti, Magnus Almgren et al.",
+   "url": "https://openalex.org/W111834762",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A dynamic detection method against ROP and JOP",
    "function": "passing-citation",
    "split": "passing",
@@ -3486,6 +3944,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Principles of Security and Trust: First International Conference, POST 2012, Held as Part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2012, Tallinn, Estonia, March 24 - April 1, 2012, Proceedings",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "Lecture notes in computer science",
+   "authors": "Philippe Darondeau, Eike Best",
+   "url": "https://doi.org/10.1007/978-3-642-28641-4",
+   "cited_by": 15,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Protecting applications against TOCTTOU races by user-space caching of file metadata",
    "function": "passing-citation",
    "split": "passing",
@@ -3520,6 +3991,19 @@
    "cited_by": 3,
    "centrality": "peripheral",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Software-based Encryption Pattern Bootstrap for Secure Execution Environment",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "Journal of IKEEE",
+   "authors": "Hwa-Soon Choi, Jae-Heung Lee",
+   "url": "https://doi.org/10.7471/ikeee.2012.16.4.389",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
    "evidence": "fulltext"
   },
   {
@@ -3684,6 +4168,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Analyse de codes auto-modifiants pour la sécurité logicielle",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "venue": "theses.fr (ABES)",
+   "authors": "Daniel Reynaud-Plantey",
+   "url": "https://doi.org/10.70675/ca10a8b8z25e5z4d66z88b1z880ce351c8e9",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Analyzing Parallel Programs with Pin",
@@ -4405,6 +4902,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Software instruction caching",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2007,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Anant Agarwal, Jason Eric Miller",
+   "url": "https://openalex.org/W2355374580",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "SuperPin: Parallelizing Dynamic Instrumentation for Real-Time Performance",
    "function": "passing-citation",
    "split": "passing",
@@ -4439,6 +4949,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "デバッガのためのプログラム実行制御・監視環境の設計と実装 (本文)",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2007,
+   "venue": "KeiO Associated Repository of Academic Resources (Keio University)",
+   "authors": "Toshihiko Koju, 俊彦 孝壽",
+   "url": "https://openalex.org/W7220879150",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Argos",
@@ -5245,6 +5768,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Debugging memory issues in Embedded Linux: A case study",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "IEEE Students’ Technology Symposium",
+   "authors": "P P Ray, A Banerjee",
+   "url": "https://doi.org/10.1109/techsym.2011.5783857",
+   "cited_by": 3,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Enhanced Heterogeneous Code Cache management scheme for Dynamic Binary Translation",
    "function": "unknown",
    "split": null,
@@ -5617,6 +6154,19 @@
    "authors": "Zhiqiang Lin, Xiangyu Zhang, Dongyan Xu",
    "url": "https://doi.org/10.1109/dsn.2008.4630093",
    "cited_by": 28,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Data Randomization",
+   "function": "unknown",
+   "split": null,
+   "year": 2008,
+   "authors": "Manuel Costa, Jean‐Philippe Martin, Miguel Castro",
+   "url": "https://openalex.org/W3100376658",
+   "cited_by": 16,
    "flags": [
     "polluted-contexts"
    ],
@@ -5996,6 +6546,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Protecting global and static variables from buffer overflow attacks without overhead",
+   "function": "unknown",
+   "split": null,
+   "year": 2006,
+   "authors": "Yves Younan, Frank Piessens, Wouter Joosen",
+   "url": "https://openalex.org/W2524444197",
+   "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Software-based instruction caching for embedded processors",
    "function": "unknown",
    "split": null,
@@ -6273,6 +6836,28 @@
    "evidence": "title_only"
   },
   {
+   "title": "Practical and effective sandboxing for Linux containers",
+   "function": "unclassified",
+   "split": null,
+   "year": 2019,
+   "venue": "Empirical Software Engineering",
+   "authors": "Zhiyuan Wan, David Lo, Xin Xia et al.",
+   "url": "https://doi.org/10.1007/s10664-019-09737-2",
+   "cited_by": 30,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Unleashing the power of learning: An enhanced learning-based approach for dynamic binary translation",
+   "function": "unclassified",
+   "split": null,
+   "year": 2019,
+   "venue": "USENIX Annual Technical Conference",
+   "authors": "Changheng Song, Wenwen Wang, Pen-Chung Yew et al.",
+   "url": "https://openalex.org/W2953299866",
+   "cited_by": 15,
+   "evidence": "title_only"
+  },
+  {
    "title": "Efficient monitoring and forensic analysis via accurate network-attached provenance collection with minimal storage overhead",
    "function": "unclassified",
    "split": null,
@@ -6373,6 +6958,17 @@
    "authors": "J.M. Slowinska",
    "url": "https://openalex.org/W1506857391",
    "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Dynamic Binary Modification: Tools, Techniques and Applications",
+   "function": "unclassified",
+   "split": null,
+   "year": 2011,
+   "venue": "Synthesis lectures on computer architecture",
+   "authors": "Kim Hazelwood",
+   "url": "https://doi.org/10.1007/978-3-031-01732-2",
+   "cited_by": 27,
    "evidence": "title_only"
   },
   {

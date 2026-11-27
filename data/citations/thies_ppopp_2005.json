@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "thies:ppopp:2005",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 84,
-  "works": 62,
+  "records_raw": 89,
+  "works": 67,
   "commit": 8,
-  "judged": 54,
+  "judged": 58,
   "gscholar": null
  },
  "citations": [
@@ -346,6 +346,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "A model of programming languages for dynamic real-time streaming applications",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "Xuan Khanh Do",
+   "url": "https://doi.org/10.70675/206cb562zbc19z4366za74czc1bda4fc164a",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Architectural support for irregular programs and performance monitoring for heterogeneous systems",
    "function": "exemplifies",
    "split": "passing",
@@ -362,6 +378,22 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Commensal compiler for high-performance stream programming",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2014,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Jeffrey Bosboom",
+   "url": "https://openalex.org/W7139310983",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Comparing the StreamIt and SC Languages for Manycore Processors",
@@ -441,6 +473,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "A Dataflow Framework For Developing Flexible Embedded Accelerators A Computer Vision Case Study.",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "AMS Dottorato Institutional Doctoral Theses Repository (University of Bologna)",
+   "authors": "Arthur Stoutchinin",
+   "url": "https://doi.org/10.6092/unibo/amsdottorato/9026",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Kahn Process Networks and a Reactive Extension",
@@ -629,6 +674,22 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Conception et implantation d’un environnement de développement de logiciels à base de composants, applications aux systèmes multiprocesseurs sur puce",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2007,
+   "venue": "HAL",
+   "authors": "Ali Özcan",
+   "url": "https://openalex.org/W370255536",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Optimizing stream programs using linear state space analysis",
@@ -835,6 +896,20 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Machine virtuelle universelle pour codage vidéo reconfigurable",
+   "function": "unknown",
+   "split": null,
+   "year": 2011,
+   "venue": "theses.fr (ABES)",
+   "authors": "Jérôme Gorin",
+   "url": "https://doi.org/10.70675/6bb7af7cz1e90z4116zaeefz4d702821da0d",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "c-level programming of parallel coprocessor accelerators",

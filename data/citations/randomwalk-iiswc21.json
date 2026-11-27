@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "randomwalk-iiswc21",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 16,
-  "works": 16,
+  "records_raw": 21,
+  "works": 21,
   "commit": 0,
-  "judged": 14,
+  "judged": 18,
   "gscholar": null
  },
  "citations": [
@@ -100,6 +100,38 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Combating Randomness: Towards Efficient Data-Intensive Applications Using Software-Hardware Co-Design",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Haojie Ye",
+   "url": "https://doi.org/10.7302/24988",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Optimizing Emerging Graph Applications Using Hardware-Software Co-Design",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Nishil Talati",
+   "url": "https://doi.org/10.7302/6832",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Efficient Temporal Graph Network Training via Unified Redundancy Elimination",
    "function": "passing-citation",
    "split": "passing",
@@ -126,6 +158,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Cascade: A Dependency-aware Efficient Training Framework for Temporal Graph Neural Network",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Yue Dai, Xulong Tang, Youtao Zhang",
+   "url": "https://doi.org/10.1145/3676641.3716250",
+   "cited_by": 10,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "HealthGAT: Node Classifications in Electronic Health Records using Graph Attention Networks",
    "function": "passing-citation",
    "split": "passing",
@@ -137,6 +182,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Optimizing Emerging Applications Through Software Hardware Co-Design",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Chen, Yuhan",
+   "url": "https://doi.org/10.7302/23772",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "From random-walks to graph-sprints: a low-latency node embedding framework on continuous-time dynamic graphs",
@@ -234,6 +292,17 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Security Assessment in Optical Networks: A Path Graph-Based Framework for Attack-Induced Fault Diagnosis",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Lecture notes in computer science",
+   "authors": "Gang Qu, Liang Zhang, Hongjia Liu",
+   "url": "https://doi.org/10.1007/978-981-95-3551-4_26",
+   "cited_by": 0,
+   "evidence": "title_only"
   }
  ]
 }

@@ -1,16 +1,32 @@
 {
  "schema": 1,
  "key": "taylor:isscc:2003",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 89,
-  "works": 76,
+  "records_raw": 90,
+  "works": 77,
   "commit": 0,
-  "judged": 58,
+  "judged": 59,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "The Arsenal Tool Chain for the GreenDroid Mobile Application Processor",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Fei Jia",
+   "url": "https://openalex.org/W91502798",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "Abstract Machines for Polymorphous Computing",
    "function": "uses-tool",

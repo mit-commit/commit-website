@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "key": "tseng:ics:1995",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 24,
-  "works": 17,
+  "records_raw": 25,
+  "works": 18,
   "commit": 0,
   "judged": 12,
   "gscholar": null
@@ -224,6 +224,16 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "References",
+   "function": "unclassified",
+   "split": null,
+   "year": 2005,
+   "venue": "Elsevier eBooks",
+   "url": "https://doi.org/10.1016/b978-012385251-9/50034-7",
+   "cited_by": 0,
+   "evidence": "title_only"
   },
   {
    "title": "A Compiler Driven Out-of-Core Programming Approach for Optimizing Data Locality in Loop Nests",

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "Kjolstad:2017:TTG:3155562.3155683",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 74,
-  "works": 71,
-  "commit": 8,
-  "judged": 64,
+  "records_raw": 83,
+  "works": 80,
+  "commit": 9,
+  "judged": 73,
   "gscholar": null
  },
  "citations": [
@@ -87,6 +87,22 @@
    "cited_by": 3,
    "centrality": "core",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Large language model enabled program synthesis",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Edinburgh Research Archive (University of Edinburgh)",
+   "authors": "Yixuan Li",
+   "url": "https://doi.org/10.7488/era/6860",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -281,6 +297,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "STCG: Sparse Tensor Code Generation via Adaptive Tile Scheduling on GPUs with Tensor Cores",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "ACM/IEEE Design Automation Conference (DAC)",
+   "authors": "H P Wang, Yan Ding, Huilong Pi et al.",
+   "url": "https://doi.org/10.1145/3770743.3804171",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "WingSpan: Concurrency and Dependence for Sparse and Structured Tensor Compilers",
    "function": "baseline",
    "split": "detailed",
@@ -420,6 +452,23 @@
    "evidence": "contexts"
   },
   {
+   "title": "Parallel Sparse Outputs for Tensor Compilers",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Adrian Gushin, Pau Sum, Willow Ahrens",
+   "url": "https://doi.org/10.48550/arxiv.2610.19308",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "EC-SpMM: Efficient Compilation of SpMM Kernel on GPUs",
    "function": "positions",
    "split": "detailed",
@@ -494,6 +543,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Acceleration of Sparse and Irregular Workloads through Energy-Efficient Stream Extensions",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Paul Scheffler",
+   "url": "https://doi.org/10.3929/ethz-c-000797338",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Fast and Fusiest: An Optimal Fusion-Aware Mapper for Accelerator Design",
    "function": "exemplifies",
    "split": "passing",
@@ -504,6 +566,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Optimizing Deep Neural Network Sparse Kernels on Multi-core CPUs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM Transactions on Architecture and Code Optimization",
+   "authors": "Weiling Yang, Jianbin Fang, Dezun Dong et al.",
+   "url": "https://doi.org/10.1145/3856293",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Ace-of-Spade s: Accelerating Spatially Sparse Convolution for 3D Scene Understanding",
@@ -558,6 +636,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Tensor program optimization through program synthesis",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "ERA",
+   "authors": "Brauckmann, Alexander",
+   "url": "https://doi.org/10.7488/era/6825",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Tensorize: Fast Synthesis of Tensor Programs from Legacy Code using Symbolic Tracing, Sketching and Solving",
    "function": "exemplifies",
    "split": "passing",
@@ -568,6 +659,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "Utilizing Partitioning for Distributed Tensor Network Contraction",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "SIAM Journal on Scientific Computing",
+   "authors": "Manuel Geiger, Qun-Sheng Huang, C. Mendl",
+   "url": "https://doi.org/10.1137/25m1788488",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "abstract+contexts"
   },
   {
    "title": "A Coordinated Strategy for GNN Combining Computational Graph and Operator Optimizations",
@@ -659,6 +763,23 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
+  },
+  {
+   "title": "A Python-based programming language for high-performance computational genomics",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "Nature Biotechnology",
+   "authors": "Ariya Shajii, Ibrahim Numanagić, Alexander T. Leighton et al.",
+   "url": "https://doi.org/10.1038/s41587-021-00985-6",
+   "cited_by": 22,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext",
+   "commit": true
   },
   {
    "title": "Domain-Specific Language Abstractions for Compression",
@@ -957,6 +1078,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Benchmarking, Profiling and White-box Performance Modeling for DNN Training",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Hongyu Zhu",
+   "url": "https://openalex.org/W7132970710",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "High-Performance Architecture Aware Sparse Convolutional Neural Networks for GPUs",

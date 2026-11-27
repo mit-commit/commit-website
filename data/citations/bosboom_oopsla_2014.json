@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "bosboom:oopsla:2014",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 14,
-  "works": 13,
+  "records_raw": 18,
+  "works": 17,
   "commit": 0,
-  "judged": 9,
+  "judged": 13,
   "gscholar": null
  },
  "citations": [
@@ -76,6 +76,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Online Modeling and Tuning of Parallel Stream Processing Systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "Open Scholarship Institutional Repository (Washington University in St. Louis)",
+   "authors": "Jonathan Curtis Beard",
+   "url": "https://doi.org/10.7936/k7w37tkj",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "RaftLib",
    "function": "exemplifies",
    "split": "passing",
@@ -99,6 +112,48 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "A domain-extensible compiler with controllable automation of optimisations",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "arXiv",
+   "authors": "Thomas Kœhler",
+   "url": "https://doi.org/10.5525/gla.thesis.83323",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Enhancing Stream Processing and Complex Event Processing Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Abderrahmen Kammoun",
+   "url": "https://doi.org/10.70675/9f0ff085zcc38z40a7zb91dz4d51ef846bcd",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "From software to hardware: making dynamic multi-core processors practical",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2019,
+   "venue": "ERA",
+   "authors": "Paul-Jules Micolet",
+   "url": "https://openalex.org/W2976103062",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Dataflow Programming for Stream Processing",

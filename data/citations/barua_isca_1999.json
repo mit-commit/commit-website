@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "barua:isca:1999",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 137,
-  "works": 107,
+  "records_raw": 139,
+  "works": 109,
   "commit": 20,
-  "judged": 81,
+  "judged": 83,
   "gscholar": null
  },
  "citations": [
@@ -350,6 +350,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Models and Methods for Development of DSP Applications on Manycore Processors",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2009,
+   "venue": "Hogskolan Ihalmstad (Halmstad University)",
+   "authors": "Jerker Bengtsson",
+   "url": "https://openalex.org/W2171863405",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Reconflgurable Computing Systems Cost/Beneflt Analysis Model",
@@ -885,6 +898,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Reconfigurable Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "Springer eBooks",
+   "authors": "Antonio Carlos Schneider Beck, Monica Magalhaes Pereira",
+   "url": "https://doi.org/10.1007/978-1-4614-1746-0_3",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Deployment of Reconfigurable Systems",

@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "maze:meng-thesis:2001",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 2,
-  "works": 2,
-  "commit": 1,
-  "judged": 2,
+  "records_raw": 4,
+  "works": 4,
+  "commit": 2,
+  "judged": 4,
   "gscholar": null
  },
  "citations": [
@@ -40,6 +40,37 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Convergent scheduling",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2003,
+   "venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+   "authors": "W. Lee, Diégo Puppin, Shane Michael Swenson et al.",
+   "url": "https://doi.org/10.1109/micro.2002.1176243",
+   "cited_by": 19,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "own-group",
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext",
+   "commit": true
+  },
+  {
+   "title": "On the automated compilation of UML notation to a VLIW chip multiprocessor",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "Loughborough University Research Repository (Loughborough University)",
+   "authors": "David Stevens",
+   "url": "https://openalex.org/W990851075",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   }
  ]
 }

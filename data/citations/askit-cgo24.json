@@ -1,16 +1,46 @@
 {
  "schema": 1,
  "key": "askit-cgo24",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 15,
-  "works": 15,
+  "records_raw": 22,
+  "works": 22,
   "commit": 0,
-  "judged": 11,
+  "judged": 18,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Sharing State Between Prompts and Programs",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "International Conference on Learning Representations",
+   "authors": "Cheng, Ellie Y., Weber, Logan, Jin, Tian et al.",
+   "url": "https://doi.org/10.48550/arxiv.2512.14805",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Fuzzy Logic Prompting Framework for Large Language Models in Adaptive and Uncertain Tasks",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "Figueiredo, Vanessa",
+   "url": "https://doi.org/10.48550/arxiv.2508.06754",
+   "cited_by": 7,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
   {
    "title": "Can ChatGPT predict stock prices? Evaluating artificial intelligence-driven financial forecasting and risk management",
    "function": "supports-claim",
@@ -37,6 +67,35 @@
    "evidence": "contexts"
   },
   {
+   "title": "AI Integration in the IT Professional Workplace: A Scoping Review and Interview Study with Implications for Education and Professional Competencies",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "ACM Conference on Innovation and Technology in Computer Science Education (ITiCSE)",
+   "authors": "Tony Clear, Åsa Cajander, Alison Clear et al.",
+   "url": "https://doi.org/10.1145/3689187.3709607",
+   "cited_by": 46,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Towards Semantic Web Integration in Authoring Tools for XR Educational Content Development",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2024,
+   "venue": "CEUR Workshop Proceedings",
+   "authors": "Alex Gabriel",
+   "url": "https://openalex.org/W4399553221",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Enhancing JavaScript Code Autocompletion by Fine-Tuning StarCoder",
    "function": "detailed-citation",
    "split": "detailed",
@@ -60,6 +119,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Towards Reliable and Practical Language-Model Agents: Evaluation and Development",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Honghua Dong",
+   "url": "https://openalex.org/W7148192674",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "DSL-Xpert 2.0: Enhancing LLM-driven code generation for domain-specific languages",
@@ -114,6 +186,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Survey on User Interface Design and Interactions for Generative AI Applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Foundations and Trends® in Human–Computer Interaction",
+   "authors": "Reuben Luera, Ryan Rossi, Alexa Fay Siu et al.",
+   "url": "https://doi.org/10.1561/1100000106",
+   "cited_by": 33,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "APPL: A Prompt Programming Language for Harmonious Integration of Programs and Large Language Model Prompts",
    "function": "passing-citation",
    "split": "passing",
@@ -138,6 +223,22 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "DSL-Xpert: LLM-driven Generic DSL Code Generation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MODELS)",
+   "authors": "Victor Lamas, Miguel R. Luaces, Daniel Garcia-Gonzalez",
+   "url": "https://doi.org/10.1145/3652620.3687782",
+   "cited_by": 26,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Survey of User Interface Design and Interaction Techniques in Generative AI Applications",

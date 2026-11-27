@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "maydan:popl:1993",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 262,
-  "works": 209,
+  "records_raw": 274,
+  "works": 221,
   "commit": 14,
-  "judged": 151,
+  "judged": 161,
   "gscholar": null
  },
  "citations": [
@@ -312,6 +312,23 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Analyse du flot de données pour tableaux en présence de contraintes non-affines",
+   "function": "positions",
+   "split": "detailed",
+   "year": 1998,
+   "venue": "HAL",
+   "authors": "Denis Barthou",
+   "url": "https://openalex.org/W2620893827",
+   "cited_by": 4,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Array Dataflow Analysis in Presence of Non-affine Constraints",
    "function": "positions",
    "split": "detailed",
@@ -510,6 +527,32 @@
    "centrality": "engaged",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "Compiler-Hardware Co-Design for Pervasive Parallelization",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Victor A. Ying",
+   "url": "https://openalex.org/W7123382722",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A combined language and polyhedral approach to heterogeneous parallelism",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "theses.fr (ABES)",
+   "authors": "Jie Zhao",
+   "url": "https://doi.org/10.70675/9a4b7e14za7f4z4a6ezb5f1z795b20080783",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Technical Report about Tiramisu: a Three-Layered Abstraction for Hiding Hardware Complexity from DSL Compilers",
@@ -756,6 +799,17 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
+  },
+  {
+   "title": "Open Research Online",
+   "function": "supports-claim",
+   "split": "detailed",
+   "authors": "T. Than, Tun Yijun, Yu Robin et al.",
+   "url": "https://www.semanticscholar.org/paper/bbef12bd2251ef5963fa914effaa7643829d3534",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
   },
   {
    "title": "AsyncTaichi: Whole-Program Optimizations for Megakernel Sparse Computation and Differentiable Programming",
@@ -1052,6 +1106,23 @@
    "evidence": "contexts"
   },
   {
+   "title": "Analyse et transformation de programmes : du modèle polyédrique aux langages formels",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 1999,
+   "venue": "HAL",
+   "authors": "Albert Cohen",
+   "url": "https://openalex.org/W574513256",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Communication generation for data-parallel languages",
    "function": "uses-tool",
    "split": "detailed",
@@ -1098,6 +1169,18 @@
    "authors": "Vincent Lefebvre, P. Feautrier",
    "url": "https://openalex.org/W1583386943",
    "cited_by": 16,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
+   "title": "A DISSERTATION SUBMITTED TO THE DEPARTMENT OF MECHANICAL ENGINEERING AND THE COMMITTEE ON GRADUATE STUDIES OF STANFORD UNIVERSITY IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE DEGREE OF DOCTOR OF PHILOSOPHY",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 1995,
+   "authors": "Ming-Ju Edward Lee, W. Dally, Mark Horowitz",
+   "url": "https://www.semanticscholar.org/paper/e6c217e459f051042596700a5cc1d4aa4d85ba5e",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
@@ -1495,6 +1578,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Hybrid analysis of memory references and its application to automatic parallelization",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Silvius Rus",
+   "url": "https://openalex.org/W2287285612",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Effective automatic parallelization and locality optimization using the polyhedral model",
    "function": "passing-citation",
    "split": "passing",
@@ -1558,6 +1654,19 @@
    "authors": "Mohammed Fellahi, Albert Cohen, Sid Touati",
    "url": "https://doi.org/10.1145/1327171.1327177",
    "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Contributions to the Design of Reliable and Programmable High-Performance Systems: Principles, Interfaces, Algorithms and Tools",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2007,
+   "venue": "HAL",
+   "authors": "Albert Cohen",
+   "url": "https://openalex.org/W2294869366",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -1773,6 +1882,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Contributions aux environnements de programmation pour le calcul intensif",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2002,
+   "venue": "HAL",
+   "authors": "Pierre Boulet",
+   "url": "https://openalex.org/W2289394885",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Data-Flow Frameworks for Worst-Case Execution Time Analysis",
    "function": "passing-citation",
    "split": "passing",
@@ -1862,6 +1984,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Analyse de flot de données pour programmes récursifs à l'aide de langages algébriques",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1999,
+   "venue": "HAL",
+   "authors": "Albert Cohen",
+   "url": "https://openalex.org/W2522436401",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Causal Distributed Assert Statements",
@@ -2434,6 +2569,17 @@
    "evidence": "title_only"
   },
   {
+   "title": "Parallelism",
+   "function": "unclassified",
+   "split": null,
+   "year": 2019,
+   "venue": "The Craft of Poetry",
+   "authors": "B. Backman",
+   "url": "https://doi.org/10.2307/j.ctt20q210p.17",
+   "cited_by": 92,
+   "evidence": "title_only"
+  },
+  {
    "title": "A Combined Language and Polyhedral Approach for Heterogeneous Parallelism. (Une Approche Combinée Langage-Polyédrique pour la Programmation Parallèle Hétérogène)",
    "function": "unclassified",
    "split": null,
@@ -2697,6 +2843,17 @@
    "authors": "B. Apvrille-Creusillet",
    "url": "https://www.semanticscholar.org/paper/74d206f78898c3be4e25b6d6b7a02381359c53bb",
    "cited_by": 4,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Compiling for Massively Parallel Architectures",
+   "function": "unclassified",
+   "split": null,
+   "year": 1995,
+   "venue": "Elsevier eBooks",
+   "authors": "Paul Feautrier",
+   "url": "https://doi.org/10.1016/b978-044482106-5/50023-5",
+   "cited_by": 7,
    "evidence": "title_only"
   },
   {

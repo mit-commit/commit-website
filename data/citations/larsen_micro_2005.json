@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "larsen:micro:2005",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 37,
-  "works": 27,
+  "records_raw": 38,
+  "works": 28,
   "commit": 0,
-  "judged": 21,
+  "judged": 22,
   "gscholar": null
  },
  "citations": [
@@ -38,6 +38,19 @@
     "positions"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Program generation for Intel AES new instructions",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "Trinity's Access to Research Output (TARA) (Trinity College Dublin)",
+   "authors": "Raymond Manley",
+   "url": "https://openalex.org/W2835520238",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Efficient Selection of Vector Instructions Using Dynamic Programming",

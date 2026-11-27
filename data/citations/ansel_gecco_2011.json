@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "ansel:gecco:2011",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 11,
-  "works": 9,
+  "records_raw": 14,
+  "works": 12,
   "commit": 2,
-  "judged": 7,
+  "judged": 10,
   "gscholar": null
  },
  "citations": [
@@ -65,6 +65,41 @@
    "evidence": "fulltext"
   },
   {
+   "title": "High level algorithmic auto-tuning for scientific applications",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Cy P. Chan",
+   "url": "https://openalex.org/W7139819144",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "GPU Array Access Auto-Tuning",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "TUbilio (Technical University of Darmstadt)",
+   "authors": "Weber, Nicolas",
+   "url": "https://doi.org/10.26083/tuprints-00006507",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Autotuning programs with algorithmic choice",
    "function": "detailed-citation",
    "split": "detailed",
@@ -94,6 +129,19 @@
     "exemplifies"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Panoptes: A Profile Clustering Framework for Context-Aware Binary Optimization",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM/IEEE International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)",
+   "authors": "Edwin P. Kayang, Eric Jahns, Mishel Jyothis Paul et al.",
+   "url": "https://doi.org/10.1145/3744916.3787767",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Bliss: auto-tuning complex applications using a pool of diverse lightweight learning models",

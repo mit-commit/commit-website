@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "waingold:computer:1997",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 925,
-  "works": 711,
+  "records_raw": 972,
+  "works": 758,
   "commit": 34,
-  "judged": 513,
+  "judged": 559,
   "gscholar": null
  },
  "citations": [
@@ -298,6 +298,25 @@
    "commit": true
   },
   {
+   "title": "Spatial instruction scheduling for raw machines",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2002,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Shane Michael Swenson",
+   "url": "https://openalex.org/W2249794205",
+   "cited_by": 3,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Compiler support for scalable and efficient memory systems",
    "function": "uses-tool",
    "split": "detailed",
@@ -519,6 +538,39 @@
    "authors": "S. Ghosh, Graham Gobieski, Keyi Zhang et al.",
    "url": "https://doi.org/10.1145/3695053.3731061",
    "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Reconciling performance and predictability on a NoC-based MPSsoC using off-line scheduling techniques",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "theses.fr (ABES)",
+   "authors": "Manel Fakhfakh",
+   "url": "https://doi.org/10.70675/61a94e8cz2873z4aebz82bfz8c910deb5582",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Programmable routers for efficient mapping of applications onto NoC-based MPSoCs",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "HAL",
+   "authors": "Manel Djemal, François Pêcheux, Dumitru Potop‐Butucaru et al.",
+   "url": "https://openalex.org/W1566414661",
+   "cited_by": 11,
    "centrality": "engaged",
    "confidence": "high",
    "secondary": [
@@ -1015,6 +1067,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Ressourceneffiziente Schaltungstechnik eingebetteter Parallelrechner - GigaNetIC",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2008,
+   "venue": "Amtliche Mitteilungen (Universitätsbibliothek Paderborn)",
+   "authors": "Niemann, Jörg-Christian",
+   "url": "https://openalex.org/W2403795086",
+   "cited_by": 6,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "High performance and energy efficient multi-core systems for DSP applications",
    "function": "surveys",
    "split": "detailed",
@@ -1041,6 +1109,22 @@
    "centrality": "engaged",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Javarray : uma arquitetura reconfigurável para o aumento de performance e economia de energia de aplicações embarcadas baseadas em Java",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "Lume (Universidade Federal do Rio Grande do Sul)",
+   "authors": "João Cláudio Soares Otero",
+   "url": "https://openalex.org/W2277228330",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Mapping Applications to Coarse-Grained Reconfigurable Architectures",
@@ -1212,6 +1296,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Task-Level Pipelining in Configurable Multicore Architectures",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)",
+   "authors": "Ali Azarian",
+   "url": "https://doi.org/10.34626/mqrd-f561",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Affine Loop Optimization Based on Modulo Unrolling in Chapel",
    "function": "adopts-idea",
    "split": "detailed",
@@ -1235,6 +1332,19 @@
     "date": "2026-10-12",
     "evidence": "Our optimiza­tion for message aggregation is based on a technique known as modulo unrolling, pioneered by Barua [3]"
    }
+  },
+  {
+   "title": "Improving Energy Efficiency of Network-on-Chips Using Emerging Wireless Technology and Router Optimizations",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Dominic DiTomaso",
+   "url": "https://openalex.org/W2605935716",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Data flow graph mapping techniques of computer architecture with data driven computation model",
@@ -1267,6 +1377,21 @@
     "own-group"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Compilation efficace pour FPGA reconfigurable dynamiquement",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2008,
+   "authors": "Étienne Bergeron",
+   "url": "https://doi.org/10.71781/10549",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Reducing NoC energy consumption through compiler-directed channel voltage scaling",
@@ -1441,6 +1566,19 @@
     "date": "2026-10-12",
     "evidence": "This very fine grained approach was inspired by the RAW project [17]."
    }
+  },
+  {
+   "title": "HyperFPGA: A Scalable Reconfigurable Platform for Computing Paradigms Research",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "IEEE Access",
+   "authors": "Werner Florian, M.L. Crespo, Sergio Carrato et al.",
+   "url": "https://doi.org/10.1109/access.2025.3637300",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Performance Modeling and Analysis of Exposed Datapath Architectures",
@@ -1653,6 +1791,25 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Code Generation for Synchronous Control Asynchronous Dataflow Architectures",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "Publication Server of Kaiserslautern University of Technology (Kaiserslautern University of Technology)",
+   "authors": "Anoop Bhagyanath",
+   "url": "https://doi.org/10.26204/kluedo/6242",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "surveys"
+   ],
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "The nanoPU: A Nanosecond Network Stack for Datacenters",
    "function": "exemplifies",
    "split": "passing",
@@ -1705,6 +1862,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Modeling, Scheduling, Pipelining and Configuration of Synchronous Dataflow Graphs with Throughput Constraints",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Alexandre Honorat",
+   "url": "https://doi.org/10.70675/6f1bb95ez3f2fz485fz94f7z7b9e2575e76a",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Accelerating Synchronization Using Moving Compute to Data Model at 1,000-core Multicore Scale",
    "function": "exemplifies",
    "split": "passing",
@@ -1752,6 +1922,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Future High Performance Computing Capabilities: Summary Report of the Advanced Scientific Computing Advisory Committee (ASCAC) Subcommittee",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+   "authors": "K. Bergman, Thomas Martin Conte, Al Gara et al.",
+   "url": "https://doi.org/10.2172/1570693",
+   "cited_by": 9,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Rethinking the Memory Hierarchy for Modern Languages",
@@ -1833,6 +2019,19 @@
    "flags": [
     "polluted-contexts"
    ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Conception de systèmes programmables basés sur les NoC par synthèse de haut niveau : analyse symbolique et contrôle distribué",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "Matthieu Payet",
+   "url": "https://doi.org/10.70675/46fc46b0z651dz452eza392z0826b64a7410",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
    "evidence": "fulltext"
   },
   {
@@ -1933,6 +2132,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Contribuição para o desenvolvimento de uma arquitetura de computação própria ao paradigma orientado a notificações",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "Americanae (AECID Library)",
+   "authors": "Robson Ribeiro Linhares",
+   "url": "https://openalex.org/W1267829004",
+   "cited_by": 23,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Efficient parallel packet processing using a shared memory many-core processor with hardware support to accelerate communication",
    "function": "exemplifies",
    "split": "passing",
@@ -1960,6 +2172,19 @@
     "uses-benchmark"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Methoden und Werkzeuge zum Einsatz von rekonfigurierbaren Akzeleratoren in Mehrkernsystemen",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "Repository KITopen (Karlsruhe Institute of Technology)",
+   "authors": "Fabian Nowak",
+   "url": "https://doi.org/10.5445/ir/1000048026",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Register allocation for fine grain threads on multicore processor",
@@ -2194,6 +2419,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Off-line mapping of real-time applications onto massively parallel processor arrays",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "venue": "HAL",
+   "authors": "Thomas Carle, Manel Djemal, Dumitru Potop‐Butucaru et al.",
+   "url": "https://openalex.org/W4299909202",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Orchestrating stream graphs using model checking",
    "function": "exemplifies",
    "split": "passing",
@@ -2246,6 +2484,21 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Dpool: a distributed data structure for factored operating systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "authors": "A. Agarwal, S. Devadas, D. Wentzlaff",
+   "url": "https://www.semanticscholar.org/paper/2c532c7d652b8b37b001e3a89dc6ebbc03e7363b",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "contexts"
+  },
+  {
    "title": "Emulating a large memory sequential machine with a collection of small memory ones",
    "function": "exemplifies",
    "split": "passing",
@@ -2273,6 +2526,19 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Exploiting Heterogeneous Multicore Processors Through Fine-Grained Scheduling and Low-Overhead Thread Migration",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2012,
+   "venue": "SHAREOK (University of Oklahoma; University of Central Oklahoma)",
+   "authors": "Lina Sawalha",
+   "url": "https://openalex.org/W365673492",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "FlexRAM: Toward an advanced Intelligent Memory system",
@@ -2392,6 +2658,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Déploiement d'applications multimédia sur architecture reconfigurable à gros grain : modélisation avec la programmation par contraintes",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2011,
+   "venue": "HAL",
+   "authors": "Erwan Raffin",
+   "url": "https://openalex.org/W130825123",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Efficient execution of sequential applications on multicore systems",
@@ -2585,6 +2864,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Multi-core architectures with coarse-grained dynamically reconfigurable processors for broadband wireless access technologies",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2010,
+   "venue": "ERA",
+   "authors": "Wei Han",
+   "url": "https://openalex.org/W1487527940",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Sorting as a Streaming Application Executing on Chip Multiprocessors",
    "function": "exemplifies",
    "split": "passing",
@@ -2662,6 +2954,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Janus: a recongurable system for scientic computing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "venue": "EprintsUnife",
+   "authors": "Filippo Mantovani",
+   "url": "https://openalex.org/W605687580",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Loop-Aware Instruction Scheduling with Dynamic Contention Tracking for Tiled Dataflow Architectures",
    "function": "exemplifies",
    "split": "passing",
@@ -2683,6 +2988,32 @@
    "authors": "Paul Carpenter, Alex Ramírez, Eduard Ayguadé",
    "url": "https://doi.org/10.1145/1629395.1629406",
    "cited_by": 35,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "PROPEL: Power & Area-Efficient, Scalable Opto-Electronic Network-on-Chip",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Randy Morris",
+   "url": "https://openalex.org/W2623580623",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "RISPP: A run-time adaptive reconfigurable embedded processor",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "venue": "International Conference on Field Programmable Logic and Applications (FPL)",
+   "authors": "Lars Bauer, Muhammad Shafique, Jörg Henkel",
+   "url": "https://doi.org/10.1109/fpl.2009.5272323",
+   "cited_by": 15,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -2956,6 +3287,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Intelligent co-operative processor-in-memory",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2007,
+   "venue": "University of Hertfordshire Research Archive (University of Hertfordshire)",
+   "authors": "Reza Sotudeh, Ziauddin Ahmad, Fayçal Bensaali",
+   "url": "https://openalex.org/W2245263454",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "INTELLIGENT CO-OPERATIVE PROCESSOR-IN-MEMORY ARCHITECTURES",
    "function": "exemplifies",
    "split": "passing",
@@ -3007,6 +3351,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Single event upset hardened embedded domain specific reconfigurable architecture",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2007,
+   "venue": "Edinburgh Research Archive (University of Edinburgh)",
+   "authors": "Sajid Baloch",
+   "url": "https://openalex.org/W2337814296",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Stream Image Processing on a Dual-Core Embedded System",
@@ -3586,6 +3943,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Online placement and scheduling algorithms and methodologies for reconfigurable computing systems",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2004,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Manish Handa, Ranga R. Vemuri",
+   "url": "https://openalex.org/W2243298799",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Portable video supercomputing",
    "function": "exemplifies",
    "split": "passing",
@@ -3728,6 +4098,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Design and Evaluation of the Hamal Parallel Computer",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2003,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "J.P. Grossman",
+   "url": "https://openalex.org/W1556807633",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Dissecting Cyclops",
@@ -3973,6 +4356,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Hierarchical memory synthesis in reconfigurable computers",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2002,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Iyad Ouaiss, Ranga R. Vemuri",
+   "url": "https://openalex.org/W2467591352",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "NAPA C: compiling for a hybrid RISC/FPGA architecture",
    "function": "exemplifies",
    "split": "passing",
@@ -4075,6 +4471,22 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Object-Oriented Development for Reconfigurable Architectures",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2001,
+   "venue": "Qucosa (Saxon State and University Library Dresden)",
+   "authors": "Dominik Fröhlich",
+   "url": "https://openalex.org/W2394766572",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "One-Step Compilation of Image Processing Applications to FPGAs",
@@ -4551,6 +4963,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Blocks, a reconﬁgurable architecture combining energy eﬃciency and ﬂexibility",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "TU/e Research Portal",
+   "authors": "Mark Wijtvliet",
+   "url": "https://openalex.org/W3085913204",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "On the Relevance of Architectural Awareness for Efficient Fork/Join Support on Cluster-Based Manycores",
    "function": "detailed-citation",
    "split": "detailed",
@@ -4580,6 +5005,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Application d'un langage de programmation de type flot de données à la synthèse haut-niveau de système de vision en temps-réel sur matériel reconfigurable",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "theses.fr (ABES)",
+   "authors": "Sameer Ahmed",
+   "url": "https://doi.org/10.70675/273f6a36z5d8cz4585zb0eezc2baf15ef782",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Innovative Operating Memory Architecture for Computers using the Data Driven Computation Model",
    "function": "detailed-citation",
    "split": "detailed",
@@ -4591,6 +5029,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Smart scheduling : optimizing Tilera's process scheduling via reinforcement learning",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Deborah Hanus",
+   "url": "https://openalex.org/W2246708603",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "lineage"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Cogene: An Automated Design Framework for Domain-Specific Architectures",
@@ -4945,6 +5399,22 @@
    }
   },
   {
+   "title": "Exploration de l'espace de conception des architectures reconfigurables",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "Techniques et sciences informatiques",
+   "authors": "Lilian Bossuet, Guy Gogniat, Jean-Luc Philippe",
+   "url": "https://doi.org/10.3166/tsi.25.921-946",
+   "cited_by": 7,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Mapping Applications to a Coarse-Grained Reconfigurable Architecture",
    "function": "detailed-citation",
    "split": "detailed",
@@ -4959,6 +5429,19 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Polymorphous architectures: a unified approach for extracting concurrency of different granularities",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2006,
+   "venue": "Texas ScholarWorks (Texas Digital Library)",
+   "authors": "Stephen W. Keckler, Karthikeyan Sankaralingam",
+   "url": "https://openalex.org/W1922360259",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Time-Multiplexed FPGA Overlay Networks on Chip",
@@ -5019,6 +5502,22 @@
    ],
    "evidence": "fulltext",
    "commit": true
+  },
+  {
+   "title": "Software orchestration of ILP on TPAs",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "W. Lee",
+   "url": "https://openalex.org/W7139830618",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "ACRES Architecture and Compilation",
@@ -5393,6 +5892,19 @@
    "commit": true
   },
   {
+   "title": "Automatic compilation of field programmable custom compute accelerators",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 1999,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "David M Lewis, Qiang Wang",
+   "url": "https://openalex.org/W2273714943",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Design decision in the implementation of a raw architecture workstation",
    "function": "adopts-idea",
    "split": "detailed",
@@ -5712,6 +6224,32 @@
    "evidence": "abstract"
   },
   {
+   "title": "Embracing Explicit Communication in Work-Stealing Runtime Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "EPub Bayreuth (University of Bayreuth)",
+   "authors": "Andreas Prell",
+   "url": "https://openalex.org/W2525952475",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Semantic-Preserving Transformations for Stream Program Orchestration on Multicore Architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2016,
+   "venue": "The Sydney eScholarship Repository (The University of Sydney)",
+   "authors": "Yousun Ko",
+   "url": "https://openalex.org/W2563147835",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Asynchronous Logic Platform with Dynamic Leakage Control using Null Convention Logic",
    "function": "passing-citation",
    "split": "passing",
@@ -5725,6 +6263,19 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Real-Time Systems Compilation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "HAL",
+   "authors": "Dumitru Potop‐Butucaru",
+   "url": "https://openalex.org/W2701246292",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Methodology of exploring ESL/RTL many-core platforms for developing embedded parallel applications",
@@ -5792,6 +6343,22 @@
    "cited_by": 24,
    "centrality": "peripheral",
    "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "The Arsenal Tool Chain for the GreenDroid Mobile Application Processor",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Fei Jia",
+   "url": "https://openalex.org/W91502798",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "lineage"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -5901,6 +6468,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Orchestration by approximation: mapping stream programs onto multicore architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Sardar M. Farhad, Yousun Ko, Bernd Burgstaller et al.",
+   "url": "https://doi.org/10.1145/2248487.1950406",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "P-double operators in the pipeline system of DF-KPI architecture",
    "function": "passing-citation",
    "split": "passing",
@@ -5968,6 +6548,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Génération automatique d'extensions de jeux d'instructions de processeurs",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "venue": "HAL",
+   "authors": "Kevin J. M. Martin",
+   "url": "https://openalex.org/W399886221",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Handbook of FPGA Design Security",
    "function": "passing-citation",
    "split": "passing",
@@ -6033,6 +6626,19 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Accelerating numerical applications using ESL methodologies",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2008,
+   "venue": "OpenGrey (Institut de l'Information Scientifique et Technique)",
+   "authors": "Yibin Li",
+   "url": "https://openalex.org/W2912107874",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Compiler assisted architectural exploration framework for coarse grained reconfigurable arrays",
@@ -6131,6 +6737,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Domain specific high performance reconfigurable architecture for a communication platform",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2007,
+   "venue": "ERA",
+   "authors": "Imran Ahmed",
+   "url": "https://openalex.org/W2276685252",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Fast: a flexible architecture for simulation and testing of multiprocessor and cmp systems",
    "function": "passing-citation",
    "split": "passing",
@@ -6219,6 +6838,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Architectures Reconfigurables et Cryptographie: Une Analyse de Robustesse et Contremesures Face aux Attaques par Canaux Cachés",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2006,
+   "venue": "HAL",
+   "authors": "Daniel Mesquita, Michel Robert, Lionel Torres",
+   "url": "https://openalex.org/W4392518379",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Compiling for EDGE Architectures",
@@ -7063,6 +7695,19 @@
    ],
    "evidence": "abstract",
    "commit": true
+  },
+  {
+   "title": "On Dynamic Speculative Thread Partitioning and the MEM-Slicing Algorithm",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2000,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": "D. Scott Wills, Lucian Codrescu",
+   "url": "https://doi.org/10.3217/jucs-006-10-0908",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Performance analysis and optimization of latency insensitive systems",
@@ -9107,6 +9752,17 @@
    "split": null,
    "year": 2006,
    "cited_by": null,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Multiprocessors",
+   "function": "unclassified",
+   "split": null,
+   "year": 2005,
+   "venue": "Elsevier eBooks",
+   "authors": "Peter Y. K. Cheung, George Anthony Constantinides, Wayne W. Luk",
+   "url": "https://doi.org/10.1016/b978-012170960-0/50028-1",
+   "cited_by": 0,
    "evidence": "title_only"
   },
   {

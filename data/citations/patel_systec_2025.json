@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "patel_systec_2025",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 2,
-  "works": 2,
+  "records_raw": 5,
+  "works": 5,
   "commit": 0,
-  "judged": 1,
+  "judged": 4,
   "gscholar": null
  },
  "citations": [
@@ -22,6 +22,48 @@
    "centrality": "core",
    "confidence": "medium",
    "evidence": "abstract"
+  },
+  {
+   "title": "Seyrek Alt Üçgen Matris Çözümü Optimizasyonu İçin Verimli Graf Dönüşüm Stratejileri",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Deu Muhendislik Fakultesi Fen ve Muhendislik",
+   "authors": "Buse Yılmaz",
+   "url": "https://doi.org/10.21205/deufmd.2026288408",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "surveys"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Reinforcement Learning-Guided Graph Transformations for SpTRSV Optimization",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Buse Yılmaz",
+   "url": "https://doi.org/10.48550/arxiv.2609.40159",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "STCG: Sparse Tensor Code Generation via Adaptive Tile Scheduling on GPUs with Tensor Cores",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM/IEEE Design Automation Conference (DAC)",
+   "authors": "H P Wang, Yan Ding, Huilong Pi et al.",
+   "url": "https://doi.org/10.1145/3770743.3804171",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "QIGen: A Kernel Generator for Inference on Nonuniformly Quantized Large Language Models",

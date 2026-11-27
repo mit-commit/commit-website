@@ -1,0 +1,87 @@
+{
+ "schema": 1,
+ "key": "mendis:phd-thesis:2020",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 5,
+  "works": 5,
+  "commit": 0,
+  "judged": 4,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "VTC: DNN Compilation with Virtual Tensors for Data Movement Elimination",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Muyan Hu, Ahan Gupta, Jiachen Yuan et al.",
+   "url": "https://doi.org/10.48550/arxiv.2604.09558",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Programming with neural surrogates of programs",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software (Onward!)",
+   "authors": "Alex Renda, Yi Ding, Michael Carbin",
+   "url": "https://doi.org/10.1145/3486607.3486748",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Turaco: Complexity-Guided Data Sampling for Training Neural Surrogates of Programs",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Proceedings of the ACM on Programming Languages",
+   "authors": "Alex Renda, Yi Ding, Michael Carbin",
+   "url": "https://doi.org/10.1145/3622856",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "PIdARCI: Using Assembly Instruction Patterns to Identify, Annotate, and Revert Compiler Idioms",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "Conference on Privacy, Security and Trust",
+   "authors": "Steffen Enders, Mariia Rybalka, Elmar Padilla",
+   "url": "https://doi.org/10.1109/pst52912.2021.9647781",
+   "cited_by": 7,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Review of Compiler Optimization Techniques and Comparative Analysis for RISC-V Software Development",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "International Journal of Parallel Programming",
+   "authors": "Maria Ayub, Imran Shafi, Sajid Gul Khawaja et al.",
+   "url": "https://doi.org/10.1007/s10766-026-00829-3",
+   "cited_by": 0,
+   "evidence": "title_only"
+  }
+ ]
+}

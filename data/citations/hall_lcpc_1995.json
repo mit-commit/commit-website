@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "hall:lcpc:1995",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 78,
-  "works": 70,
+  "records_raw": 81,
+  "works": 73,
   "commit": 3,
-  "judged": 53,
+  "judged": 56,
   "gscholar": null
  },
  "citations": [
@@ -209,6 +209,22 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Towards GPU program verification : instruction-level semantics, tensor core analysis, and bounds check optimization",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "UR Research (University of Rochester)",
+   "authors": "Benjamin Valpey, Sreepathi Pai",
+   "url": "https://openalex.org/W7165281754",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Review of Parallelization Tools and Introduction to Easypar",
    "function": "surveys",
    "split": "detailed",
@@ -326,6 +342,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Hybrid analysis of memory references and its application to automatic parallelization",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2009,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Silvius Rus",
+   "url": "https://openalex.org/W2287285612",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Hierarchical Parallelism Control for Multigrain Parallel Processing",
@@ -772,6 +804,18 @@
    "year": 1996,
    "authors": "MODELINGGregory R. Carmichael, Adrian Sandu, F. Potra et al.",
    "url": "https://www.semanticscholar.org/paper/f50d7f734ea7165253cff2645b78b32eb94aa2e4",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "contexts"
+  },
+  {
+   "title": "A DISSERTATION SUBMITTED TO THE DEPARTMENT OF MECHANICAL ENGINEERING AND THE COMMITTEE ON GRADUATE STUDIES OF STANFORD UNIVERSITY IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE DEGREE OF DOCTOR OF PHILOSOPHY",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1995,
+   "authors": "Ming-Ju Edward Lee, W. Dally, Mark Horowitz",
+   "url": "https://www.semanticscholar.org/paper/e6c217e459f051042596700a5cc1d4aa4d85ba5e",
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",

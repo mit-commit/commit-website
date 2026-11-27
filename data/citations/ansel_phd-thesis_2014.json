@@ -1,16 +1,55 @@
 {
  "schema": 1,
  "key": "ansel:phd-thesis:2014",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 4,
-  "works": 4,
+  "records_raw": 11,
+  "works": 11,
   "commit": 0,
-  "judged": 3,
+  "judged": 7,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "A Parameter Selection Process by Data Analysis for Tuning Multi-threaded Time-Stepping Algorithms",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "International Conference on Software Defined Systems (SDS)",
+   "authors": "Thomas Rauber, Gudula Rünger",
+   "url": "https://doi.org/10.1109/sds49854.2020.9143911",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Autotuning for Automatic Parallelization on Heterogeneous Systems",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "Repository KITopen (Karlsruhe Institute of Technology)",
+   "authors": "Philip Pfaffe",
+   "url": "https://doi.org/10.5445/ir/1000119646",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "GPU Array Access Auto-Tuning",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2017,
+   "venue": "TUbilio (Technical University of Darmstadt)",
+   "authors": "Weber, Nicolas",
+   "url": "https://doi.org/10.26083/tuprints-00006507",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
   {
    "title": "Online-Autotuning in the Presence of Algorithmic Choice",
    "function": "adopts-idea",
@@ -57,6 +96,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Predicting data structures for energy efficient computing",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "International Green and Sustainable Computing Conference",
+   "authors": "Junya Michanan, Rinku Dewri, Matthew J. Rutherford",
+   "url": "https://doi.org/10.1109/igcc.2015.7393698",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "GPU concurrency choices in graph analytics",
    "function": "unknown",
    "split": null,
@@ -69,6 +121,42 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Optimization and uncertainty handling in air traffic management",
+   "function": "unknown",
+   "split": null,
+   "year": 2014,
+   "venue": "theses.fr (ABES)",
+   "authors": "Gaétan Marceau",
+   "url": "https://doi.org/10.70675/4086c431zc2f7z4db7zbafcz8d586238b3df",
+   "cited_by": 4,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Approximate Computing at the Algorithmic Level",
+   "function": "unclassified",
+   "split": null,
+   "year": 2022,
+   "venue": "Springer eBooks",
+   "authors": "Justine Bonnot, Alexandre Mercat, Erwan Nogues et al.",
+   "url": "https://doi.org/10.1007/978-3-030-94705-7_5",
+   "cited_by": 6,
+   "evidence": "title_only"
+  },
+  {
+   "title": "GreenC5: An adaptive, energy-aware collection for green software development",
+   "function": "unclassified",
+   "split": null,
+   "year": 2016,
+   "venue": "Sustainable Computing Informatics and Systems",
+   "authors": "Junya Michanan, Rinku Dewri, Matthew J. Rutherford",
+   "url": "https://doi.org/10.1016/j.suscom.2016.11.004",
+   "cited_by": 29,
+   "evidence": "title_only"
   }
  ]
 }

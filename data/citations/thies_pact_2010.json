@@ -1,16 +1,36 @@
 {
  "schema": 1,
  "key": "thies:pact:2010",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 239,
-  "works": 192,
+  "records_raw": 268,
+  "works": 221,
   "commit": 1,
-  "judged": 151,
+  "judged": 178,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Commensal compiler for high-performance stream programming",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Jeffrey Bosboom",
+   "url": "https://openalex.org/W7139310983",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "medium",
+   "secondary": [
+    "positions",
+    "baseline"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "Rate types for stream programs",
    "function": "uses-tool",
@@ -79,6 +99,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Reuse-Aware Temporal Partitioning of Data-Flow Graphs on a Coarse-Grained Reconfigurable Array",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Nikhil Sambhus",
+   "url": "https://openalex.org/W7132942326",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "LAMP: Load-Balanced Multipath Parallel Transmission in Point-to-Point NoCs",
    "function": "uses-benchmark",
    "split": "detailed",
@@ -87,6 +120,19 @@
    "authors": "Hui Chen, Peng Chen, Xiangzhong Luo et al.",
    "url": "https://doi.org/10.1109/tcad.2022.3151021",
    "cited_by": 14,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Real-time and reliable design for safety-critical embedded systems",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "HAL",
+   "authors": "Angeliki S. Kritikakou",
+   "url": "https://openalex.org/W4392494795",
+   "cited_by": 2,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -217,6 +263,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Modeling, Scheduling, Pipelining and Configuration of Synchronous Dataflow Graphs with Throughput Constraints",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Alexandre Honorat",
+   "url": "https://doi.org/10.70675/6f1bb95ez3f2fz485fz94f7z7b9e2575e76a",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Cache-conscious off-line real-time scheduling for multi-core platforms: algorithms and implementation",
    "function": "uses-benchmark",
    "split": "detailed",
@@ -278,6 +340,19 @@
    "url": "https://doi.org/10.1109/tcad.2018.2801242",
    "cited_by": 21,
    "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Ordonnancement temps-réel conscient des caches dans des architectures multi-cœurs : algorithmes et réalisation",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "theses.fr (ABES)",
+   "authors": "Viet Anh Nguyen",
+   "url": "https://openalex.org/W2901951113",
+   "cited_by": 0,
+   "centrality": "engaged",
    "confidence": "high",
    "evidence": "fulltext"
   },
@@ -401,6 +476,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Resource Management in Real-time Multicore Embedded Systems: Performance and Energy Perspectives",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "mediaTUM (Technical University of Munich)",
+   "authors": "Gang Chen",
+   "url": "https://openalex.org/W2757060409",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Semantic-Preserving Transformations for Stream Program Orchestration on Multicore Architectures",
    "function": "uses-benchmark",
    "split": "detailed",
@@ -412,6 +500,19 @@
    "centrality": "engaged",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Symbolic Analysis of Dataflow Graphs (Extended Version)",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "HAL",
+   "authors": "Adnan Bouakaz, Pascal Fradet, Alain Girault",
+   "url": "https://openalex.org/W2603885208",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Symbolic Buffer Sizing for Throughput-Optimal Scheduling of Dataflow Graphs",
@@ -483,6 +584,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Cooperative Execution of Parallel Tasks with Synchronization Constraints",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Rice Research Repository (Rice University)",
+   "authors": "Shams Imam",
+   "url": "https://openalex.org/W2563524394",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Effectively mapping linguistic abstractions for message-passing concurrency to threads on the Java virtual machine",
@@ -666,6 +780,32 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "Proceedings of the 7th Junior Researcher Workshop on Real-Time Computing: JRWRTC 2013: Sophia Antipolis, France, October 16-18, 2013",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "UvA-DARE (University of Amsterdam)",
+   "authors": "Sue Altmeyer",
+   "url": "https://openalex.org/W2253367020",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Real-time scheduling of dataflow graphs",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "theses.fr (ABES)",
+   "authors": "Adnan Bouakaz",
+   "url": "https://doi.org/10.70675/836e09b8z06f1z44d6zb493z43824c574168",
+   "cited_by": 13,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Using machine learning to partition streaming programs",
    "function": "uses-benchmark",
    "split": "detailed",
@@ -738,6 +878,52 @@
    "evidence": "fulltext"
   },
   {
+   "title": "$$Bfacilitando A Avaliação Do Processamento Paralelo De Stream Em Arquiteturas Multi-Núcleo",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "authors": "Adriano Marques Garcia",
+   "url": "https://openalex.org/W7120651149",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Avaliação do uTP em Aplicações de Alto Desempenho",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "Anais da Escola Regional de Alto Desempenho da Região Sul (ERAD-RS)",
+   "authors": "Tiago Heinrich, Rafael R. Obelheiro, Guilherme P. Koslovski",
+   "url": "https://openalex.org/W7234644507",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Benchmark Paramétrico para o Domínio do Paralelismo de Stream: Um Estudo de Caso com o Ferret da Suíte PARSEC",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "Anais da Escola Regional de Alto Desempenho da Região Sul (ERAD-RS)",
+   "authors": "Dalvan Griebler, Luiz Gustavo Fernandes, Carlos Alberto Franco Maron",
+   "url": "https://openalex.org/W3215649452",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Q100",
    "function": "positions",
    "split": "detailed",
@@ -764,6 +950,23 @@
    "evidence": "abstract"
   },
   {
+   "title": "Complete Fusion for Stateful Streams: Equational Theory of Stateful Streams and Fusion as Normalization-by-Evaluation",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Oleg Kiselyov, Tomoaki Kobayashi, Nick Palladinos",
+   "url": "https://doi.org/10.48550/arxiv.2412.15768",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "SPBench: a framework for creating benchmarks of stream processing applications",
    "function": "supports-claim",
    "split": "detailed",
@@ -788,6 +991,19 @@
    "authors": "Paul Metzger, Murray Cole, Christian Fensch et al.",
    "url": "https://doi.org/10.1109/rtas48715.2020.000-7",
    "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Eine Compiler-Infrastruktur für eingebettete Multicore-SoCs",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "RWTH Publications (RWTH Aachen)",
+   "authors": "Weihua, Sheng",
+   "url": "https://doi.org/10.18154/rwth-2019-11475",
+   "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -820,6 +1036,19 @@
     "detailed-citation"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Parametrização do paralelismo de stream em Benchmarks da suíte Parsec",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Americanae (AECID Library)",
+   "authors": "Carlos Alberto Franco Maron",
+   "url": "https://openalex.org/W2944173050",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Resource Optimization for Real-Time Streaming Applications Using Task Replication",
@@ -874,6 +1103,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "A model of programming languages for dynamic real-time streaming applications",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "theses.fr (ABES)",
+   "authors": "Xuan Khanh Do",
+   "url": "https://doi.org/10.70675/206cb562zbc19z4366za74czc1bda4fc164a",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "uses-benchmark"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A modular design space exploration framework for multiprocessor real-time systems",
@@ -998,6 +1243,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Allocation et ordonnancement sur des processeurs multi-coeur avec des solveurs SMT",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "theses.fr (ABES)",
+   "authors": "Pranav Tendulkar",
+   "url": "https://doi.org/10.70675/ea3f8a25z0709z4128za391z19741e2d5039",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Dynamic Orchestration of Massively Data Parallel Execution.",
    "function": "supports-claim",
    "split": "detailed",
@@ -1063,6 +1321,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "매니코어 가속기의 결함을 고려한 태스크 매핑 및 자원 관리 기법",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "Seoul National University Open Repository (Seoul National University)",
+   "authors": "이찬희",
+   "url": "https://openalex.org/W7169964115",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A compiler infrastructure for embedded heterogeneous MPSoCs",
    "function": "supports-claim",
    "split": "detailed",
@@ -1086,6 +1357,21 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Automatic Tuning and Software Modularization Techniques for Optimized Large Scale Data Analytics",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2013,
+   "authors": "Miyuru Dayarathna",
+   "url": "https://openalex.org/W2512578715",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "abstract"
   },
   {
    "title": "Cache Topology Aware Mapping of Stream Processing Applications onto CMPs",
@@ -1310,6 +1596,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Orchestration by approximation: mapping stream programs onto multicore architectures",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Sardar M. Farhad, Yousun Ko, Bernd Burgstaller et al.",
+   "url": "https://doi.org/10.1145/2248487.1950406",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Profile-guided deployment of stream programs on multicores",
    "function": "supports-claim",
    "split": "detailed",
@@ -1336,6 +1638,22 @@
     "uses-benchmark"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Sponge: portable stream programming on graphics engines",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Amir H. Hormati, Mehrzad Samadi, Mark Woh et al.",
+   "url": "https://doi.org/10.1145/2248487.1950409",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Application-Agnostic Generation of Synthetic Task Graphs for Stream Computing Applications",
@@ -1439,6 +1757,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Melhorando A Avaliação Da Programação Paralela: Desafios, Métodos E Oportunidades Na Produtividade De Codificação",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2023,
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "authors": "Gabriella Lopes Andrade",
+   "url": "https://openalex.org/W7120379424",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Micro-batch and data frequency for stream processing on multi-cores",
@@ -1591,6 +1925,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "CODIPHY - Composing On-Demand Intelligent Physical La yers",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "venue": "CU Scholar (University of Colorado Boulder)",
+   "authors": "Aveek Dutta, Dola Saha, Dirk C. Grunwald et al.",
+   "url": "https://openalex.org/W2517952360",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Dynamic translation of runtime environments for heterogeneous computing",
    "function": "exemplifies",
    "split": "passing",
@@ -1702,6 +2049,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Hybrid scheduling of streaming applications to account for interprocessor communication in embedded manycores",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "theses.fr (ABES)",
+   "authors": "Amira Dkhil",
+   "url": "https://doi.org/10.70675/e18232bcz43c6z4d1fz8260ze5b76657ee33",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Multi-objective Framework for Characterization of Software Specifications",
    "function": "detailed-citation",
    "split": "detailed",
@@ -1767,6 +2127,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Hardware/Software Partitioning of Dataflow Programs : Rapid Prototyping of Computer Systems in the CAL Actor Language",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2011,
+   "venue": "KTH Publication Database DiVA (KTH Royal Institute of Technology)",
+   "authors": "Boris Traskov",
+   "url": "https://openalex.org/W402229947",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Polyhedral Scheduling and Relaxation of Synchronous Reactive Systems",
    "function": "detailed-citation",
    "split": "detailed",
@@ -1827,6 +2200,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Optimization and parallelization methods for software-defined radio",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2020,
+   "venue": "theses.fr (ABES)",
+   "authors": "Adrien Cassagne",
+   "url": "https://doi.org/10.70675/ee5f60d9za1fcz4612z8286zcd16cf9c17ff",
+   "cited_by": 6,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "Stream Parallelism on the LZSS Data Compression Application for Multi-Cores with GPUs",
@@ -2238,6 +2624,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "Self-adaptivity of applications on network on chip multiprocessors: the case of fault-tolerant Kahn process networks",
+   "function": "unknown",
+   "split": null,
+   "year": 2015,
+   "authors": "Onur Derin",
+   "url": "https://openalex.org/W3152728850",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
    "title": "Specification and Compilation of Real-Time Stream Processing Applications",
    "function": "unknown",
    "split": null,
@@ -2557,6 +2956,15 @@
    "authors": "A. Bouakaz",
    "url": "https://www.semanticscholar.org/paper/fa95434b141ae71f06a805fa4a9dc0af4c3be45a",
    "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Symmetry Breaking for Multi-criteria Mapping and Scheduling on Multicores Symmetry Breaking for Multi-criteria Mapping and Scheduling on Multicores @techreport {tr-2013-3, Title = {symmetry Breaking for Multi-criteria Mapping and Scheduling on Multicores}, Author =",
+   "function": "unclassified",
+   "split": null,
+   "authors": "Pranav Tendulkar, P. Poplavko, O. Maler et al.",
+   "url": "https://www.semanticscholar.org/paper/960fe9d626ee0afd2f55c52591d2419fc6dd8b0e",
+   "cited_by": 1,
    "evidence": "title_only"
   }
  ]

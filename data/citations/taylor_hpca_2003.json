@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "taylor:hpca:2003",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 220,
-  "works": 175,
+  "records_raw": 231,
+  "works": 186,
   "commit": 5,
-  "judged": 139,
+  "judged": 148,
   "gscholar": null
  },
  "citations": [
@@ -260,6 +260,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Consensus Based Value Caching Network-on-Chip (CVC-NoC))",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "OakTrust (Texas A&M University Libraries)",
+   "authors": "Kushagra Gupta",
+   "url": "https://openalex.org/W7236525381",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "FlitZip: Effective Packet Compression for NoC in MultiProcessor System-on-Chip",
    "function": "supports-claim",
    "split": "detailed",
@@ -334,6 +347,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Dodec: A Random-link Approach for Low-radix On-chip Networks",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "TSpace (University of Toronto)",
+   "authors": "Haofan Yang",
+   "url": "https://openalex.org/W2735462985",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Introduction",
@@ -510,6 +536,25 @@
    "evidence": "contexts"
   },
   {
+   "title": "A shared-memory multiprocessor system using the raw tiled architecture",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Levente Jakab",
+   "url": "https://openalex.org/W2264733111",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "High-level power analysis for on-chip networks",
    "function": "supports-claim",
    "split": "detailed",
@@ -536,6 +581,22 @@
    "cited_by": 0,
    "centrality": "peripheral",
    "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "The design and implementation of a 3D graphics pipeline for the raw reconfigurable architecture",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2004,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Kenneth W. Taylor",
+   "url": "https://openalex.org/W2222996107",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -984,6 +1045,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Mesh-of-trees interconnection network for an explicitly multi-threaded parallel computer architecture",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2008,
+   "venue": "University Libraries (University of Maryland)",
+   "authors": "Uzi Vishkin, Aydin O. Balkan",
+   "url": "https://openalex.org/W10193521",
+   "cited_by": 7,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Network-on-chip implementation and performance improvement through workload characterization and congestion awareness",
    "function": "exemplifies",
    "split": "passing",
@@ -1127,6 +1201,22 @@
     "polluted-contexts"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "A RISC-V Implementation of the Sharing Architecture",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Minh Bui",
+   "url": "https://openalex.org/W7213485350",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "DPU-v2: Energy-efficient execution of irregular directed acyclic graphs",
@@ -1449,6 +1539,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "SlowPoke: Understanding and Detecting On-Chip Fail-Slow Failures in Many-Core Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "arXiv.org",
+   "authors": "Jun-Chi Wu, Xin Wan, Zhuo-Ran Li et al.",
+   "url": "https://doi.org/10.48550/arxiv.2510.24112",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
    "title": "Canalis: A Throughput-Optimized Framework for Real-Time Stream Processing of Wireless Communication",
    "function": "passing-citation",
    "split": "passing",
@@ -1486,6 +1589,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Design and Implementation of Domain-Specific Programmable Spatial Accelerators",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Kuan-Yu Chen",
+   "url": "https://doi.org/10.7302/22872",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "CryoWire: wire-driven microarchitecture designs for cryogenic computing",
@@ -1567,6 +1683,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Time-Division-Multiplexing Based Hybrid-Switched NoC for Heterogeneous Multicore Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "University of Minnesota Digital Conservancy (University of Minnesota)",
+   "authors": "Jieming Yin",
+   "url": "https://openalex.org/W2336189974",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A non-blocking switching network and routing algorithms for on-chip networks",
@@ -1964,6 +2093,20 @@
    "evidence": "contexts"
   },
   {
+   "title": "HCARLE: A Hardware-Efficient Reinforcement Learning Engine for Adaptive Network-on-Chip Packet Compression",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "IEEE International Conference on Signal Processing, Informatics, Communication and Energy Systems (SPICES)",
+   "authors": "Lakshmi Maniram, Reshma Raj R S",
+   "url": "https://doi.org/10.1109/spices70425.2026.11789443",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "NP-CGRA: Extending CGRAs for Efficient Processing of Light-weight Deep Neural Networks",
    "function": "unknown",
    "split": null,
@@ -2167,6 +2310,17 @@
     "polluted-contexts"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "DAG Processing Unit Version 2 (DPU-v2): Efficient Execution of Irregular Workloads on a Spatial Datapath",
+   "function": "unclassified",
+   "split": null,
+   "year": 2023,
+   "venue": "Springer eBooks",
+   "authors": "Nimish Shah, Wannes Meert, Marian Verhelst",
+   "url": "https://doi.org/10.1007/978-3-031-33136-7_5",
+   "cited_by": 0,
+   "evidence": "title_only"
   },
   {
    "title": "A novel Wireless Network-on-Chip architecture with distributed directories for faster execution and minimal energy",

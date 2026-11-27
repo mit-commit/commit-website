@@ -1,0 +1,128 @@
+{
+ "schema": 1,
+ "key": "frank:lcs-tm:1999",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 8,
+  "works": 8,
+  "commit": 0,
+  "judged": 6,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "The STAMPede approach to thread-level speculation",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2005,
+   "venue": "ACM Transactions on Computer Systems",
+   "authors": "J. Gregory Steffan, Christopher B. Colohan, Antonia Zhai et al.",
+   "url": "https://doi.org/10.1145/1082469.1082471",
+   "cited_by": 207,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Hardware support for thread-level speculation",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2003,
+   "authors": "J. Gregory Steffan, Todd C. Mowry",
+   "url": "https://openalex.org/W143088316",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "Hybrid Dataflow/von-Neumann Architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2013,
+   "venue": "IEEE Transactions on Parallel and Distributed Systems",
+   "authors": "Fahimeh Yazdanpanah, Carlos Álvarez, Daniel Jiménez-González et al.",
+   "url": "https://doi.org/10.1109/tpds.2013.125",
+   "cited_by": 88,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Core-Selectability in Chip Multiprocessors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2009,
+   "venue": "International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+   "authors": "Hashem H. Najaf-abadi, Niket K. Choudhary, Eric Rotenberg",
+   "url": "https://doi.org/10.1109/pact.2009.44",
+   "cited_by": 26,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Compiler optimization of value communication for thread-level speculation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2005,
+   "authors": "Antonia Zhai, Todd C. Mowry",
+   "url": "https://openalex.org/W2119452361",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
+   "title": "SoftSpec : software-based speculative parallelism via stride prediction",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 1999,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Devabhaktuni Srikrishna",
+   "url": "https://openalex.org/W1534867207",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Discovering and exploiting parallelism in DOACROSS loops",
+   "function": "unknown",
+   "split": null,
+   "year": 2016,
+   "venue": "CL Technical Reports",
+   "authors": "Niall Murphy",
+   "url": "https://doi.org/10.48456/tr-882",
+   "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "System Support for Implicitly Parallel Programming",
+   "function": "unknown",
+   "split": null,
+   "year": 2007,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Matthew I. Frank",
+   "url": "https://openalex.org/W2592879510",
+   "cited_by": 1,
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "abstract"
+  }
+ ]
+}

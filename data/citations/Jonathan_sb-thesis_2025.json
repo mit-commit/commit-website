@@ -1,0 +1,84 @@
+{
+ "schema": 1,
+ "key": "Jonathan:sb-thesis:2025",
+ "generated": "2026-11-27",
+ "codebook": "0.2",
+ "counts": {
+  "records_raw": 5,
+  "works": 5,
+  "commit": 0,
+  "judged": 4,
+  "gscholar": null
+ },
+ "citations": [
+  {
+   "title": "Above the Inner Loop: Exceeding Accelerate at LLM Prefill GEMM on the M1 AMX",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Deyvik Bhan",
+   "url": "https://doi.org/10.48550/arxiv.2606.25426",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "A Super Fast K-means for Indexing Vector Embeddings",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Leonardo Kuffò, Sven Hepkema, Peter A. Boncz",
+   "url": "https://doi.org/10.48550/arxiv.2603.20009",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Beating vDSP: A 138 GFLOPS Radix-8 Stockham FFT on Apple Silicon via Two-Tier Register-Threadgroup Memory Decomposition",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Mohamed Amine Bergach",
+   "url": "https://doi.org/10.48550/arxiv.2603.27569",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Evaluation of Domain-Specific Architectures for General-Purpose Applications in Apple Silicon",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "venue": "arXiv",
+   "authors": "López, Álvaro Corrochano, Sánchez, Carlos García",
+   "url": "https://doi.org/10.48550/arxiv.2511.13450",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "L1 Augmented Attention as an Improved Vector Similarity Metric",
+   "function": "unknown",
+   "split": null,
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Kurt Godden",
+   "url": "https://doi.org/10.48550/arxiv.2607.18027",
+   "cited_by": 0,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  }
+ ]
+}

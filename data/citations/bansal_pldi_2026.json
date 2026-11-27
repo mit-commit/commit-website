@@ -1,16 +1,45 @@
 {
  "schema": 1,
  "key": "bansal:pldi:2026",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 1,
-  "works": 1,
+  "records_raw": 3,
+  "works": 3,
   "commit": 0,
-  "judged": 1,
+  "judged": 3,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Source-to-Source Transformations for GPU Code Generation",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Julien de Castelnau, Thomas Kœhler, Arthur Charguéraud et al.",
+   "url": "https://doi.org/10.48550/arxiv.2605.13864",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "adopts-idea"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "SPMW: A Grid-Based Programming Model for Scalable Accelerator Design",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Hongzheng Chen, Shihan Fang, Niansong Zhang et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.12944",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
   {
    "title": "Fearless Concurrency on the GPU",
    "function": "passing-citation",

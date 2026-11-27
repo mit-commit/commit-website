@@ -1,16 +1,29 @@
 {
  "schema": 1,
  "key": "kotkar:hci4cid:2008",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 25,
-  "works": 23,
+  "records_raw": 28,
+  "works": 26,
   "commit": 1,
-  "judged": 17,
+  "judged": 18,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "Development of noise resilient ASR framework for isolated Kannada word recognition",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "International Journal of Speech Technology",
+   "authors": "G P Raghudathesh, C B Chandrakala, B. Dinesh Rao et al.",
+   "url": "https://doi.org/10.1007/s10772-026-10293-6",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
   {
    "title": "Enhancements in automatic Kannada speech recognition system by background noise elimination and alternate acoustic modelling",
    "function": "supports-claim",
@@ -236,6 +249,20 @@
    "evidence": "abstract"
   },
   {
+   "title": "Learner Generated Content Using Web 2.0 Technologies",
+   "function": "unknown",
+   "split": null,
+   "year": 2013,
+   "venue": "Loughborough University Institutional Repository (Loughborough University)",
+   "authors": "Christine Turner",
+   "url": "https://openalex.org/W995550345",
+   "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Human-Centered Design for Development",
    "function": "unknown",
    "split": null,
@@ -300,6 +327,17 @@
     "polluted-contexts"
    ],
    "evidence": "fulltext"
+  },
+  {
+   "title": "A spoken query system to access the real time agricultural commodity prices and weather information in Kannada language/dialects",
+   "function": "unclassified",
+   "split": null,
+   "year": 2023,
+   "venue": "Multimedia Tools and Applications",
+   "authors": "Thimmaraja Yadava G, B. G. Nagaraja, H. S. Jayanna et al.",
+   "url": "https://doi.org/10.1007/s11042-023-16554-9",
+   "cited_by": 2,
+   "evidence": "title_only"
   },
   {
    "title": "Language independent search in MediaEval's Spoken Web Search task",

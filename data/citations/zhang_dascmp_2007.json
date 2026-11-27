@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "zhang:dascmp:2007",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 79,
-  "works": 58,
+  "records_raw": 83,
+  "works": 62,
   "commit": 2,
-  "judged": 44,
+  "judged": 48,
   "gscholar": null
  },
  "citations": [
@@ -110,6 +110,22 @@
    "confidence": "high",
    "secondary": [
     "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Orchestration by approximation: mapping stream programs onto multicore architectures",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "ACM SIGPLAN Notices",
+   "authors": "Sardar M. Farhad, Yousun Ko, Bernd Burgstaller et al.",
+   "url": "https://doi.org/10.1145/2248487.1950406",
+   "cited_by": 2,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "uses-benchmark"
    ],
    "evidence": "fulltext"
   },
@@ -268,6 +284,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Accelerating Component-Based Dataflow Middleware with Adaptivity and Heterogeneity",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2011,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Timothy D. R. Hartley",
+   "url": "https://openalex.org/W2612304275",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "CellPilot: A Seamless Communication Solution for Hybrid Cell Clusters",
    "function": "exemplifies",
    "split": "passing",
@@ -292,6 +321,35 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Methoden und Werkzeuge zum Einsatz von rekonfigurierbaren Akzeleratoren in Mehrkernsystemen",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2015,
+   "venue": "Repository KITopen (Karlsruhe Institute of Technology)",
+   "authors": "Fabian Nowak",
+   "url": "https://doi.org/10.5445/ir/1000048026",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Commensal compiler for high-performance stream programming",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2014,
+   "venue": "DSpace@MIT (Massachusetts Institute of Technology)",
+   "authors": "Jeffrey Bosboom",
+   "url": "https://openalex.org/W7139310983",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Reusable Software Infrastructure for Stream Processing",

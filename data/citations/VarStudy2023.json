@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "VarStudy2023",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 74,
-  "works": 67,
+  "records_raw": 101,
+  "works": 94,
   "commit": 0,
-  "judged": 42,
+  "judged": 69,
   "gscholar": null
  },
  "citations": [
@@ -42,6 +42,39 @@
     "own-group"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Doubly Charmed $H$-like dibaryon $\\Lambda_c \\Lambda_c$ scattering from Lattice QCD",
+   "function": "adopts-idea",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "International Symposium on Lattice Field Theory (LATTICE)",
+   "authors": "Yiqi Geng, Liuming Liu, Peng Sun et al.",
+   "url": "https://doi.org/10.22323/1.466.0307",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Excited-state uncertainties in lattice-QCD calculations of multi-hadron systems",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "William Detmold, Anthony V. Grebe, Daniel C. Hackett et al.",
+   "url": "https://doi.org/10.48550/arxiv.2601.22272",
+   "cited_by": 8,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation",
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Form-factor dependence of neutrino-nucleus cross sections using microscopic methods",
@@ -175,6 +208,25 @@
    "evidence": "abstract"
   },
   {
+   "title": "Nuclear Forces for Precision Nuclear Physics: A Collection of Perspectives",
+   "function": "surveys",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Few-Body Systems",
+   "authors": "Ingo Tews, Zohreh Davoudi, Andreas Ekström et al.",
+   "url": "https://doi.org/10.1007/s00601-022-01749-x",
+   "cited_by": 70,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Spectroscopy and Hadron Interactions",
    "function": "surveys",
    "split": "detailed",
@@ -206,6 +258,35 @@
    "evidence": "contexts"
   },
   {
+   "title": "First-principles determination of the proton-proton fusion matrix element from lattice QCD",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Physical review. D/Physical review. D.",
+   "authors": "Zi-Yu Wang, Xu Feng, Bo-Hao Jian et al.",
+   "url": "https://doi.org/10.1103/mmfv-94zl",
+   "cited_by": 5,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Multi-Particle Spectroscopy and Structure from Lattice Quantum Field Theory",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "Carolina Digital Repository (University of North Carolina at Chapel Hill)",
+   "authors": "Joseph Moscoso",
+   "url": "https://doi.org/10.17615/zthn-7443",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Quark-Mass Dependence of Light-Nuclei Masses from Lattice QCD and Trace-Anomaly Contributions to Nuclear Bindings",
    "function": "supports-claim",
    "split": "detailed",
@@ -229,6 +310,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Theoretical tools for neutrino scattering: interplay between lattice QCD, EFTs, nuclear physics, phenomenology, and neutrino event generators",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Journal of Physics G Nuclear and Particle Physics",
+   "authors": "Luis Alvarez-Ruso, Artur M. Ankowski, Sonia Bacca et al.",
+   "url": "https://doi.org/10.1088/1361-6471/adae26",
+   "cited_by": 88,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Improved constraints on the variation of the weak scale from Big Bang nucleosynthesis",
@@ -281,6 +378,70 @@
    "evidence": "contexts"
   },
   {
+   "title": "Two-body double pole and three-body bound states: Physical and unphysical quark masses",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "Physics Letters B",
+   "authors": "V. S. Timóteo, U. van Kolck",
+   "url": "https://doi.org/10.1016/j.physletb.2024.138619",
+   "cited_by": 4,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Theoretical Developments in Lattice Gauge Theory for Applications in Double-beta Decay Processes and Quantum Simulation",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "arXiv",
+   "authors": "Saurabh V. Kadam",
+   "url": "https://doi.org/10.13016/dspace/cvbq-c4jt",
+   "cited_by": 6,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Finite volume analysis on systematics of the derivative expansion in HAL QCD method",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "International Symposium on Lattice Field Theory (LATTICE)",
+   "authors": "Takumi Doi, Yan Lyu, Hui Tong et al.",
+   "url": "https://doi.org/10.22323/1.396.0564",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Finite-volume pionless effective field theory for few-nucleon systems with differentiable programming",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "Physical review. D/Physical review. D.",
+   "authors": "Xiangkai Sun, William Detmold, Di Luo et al.",
+   "url": "https://doi.org/10.1103/physrevd.105.074508",
+   "cited_by": 13,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Strongly Bound Dibaryon with Maximal Beauty Flavor from Lattice QCD.",
    "function": "supports-claim",
    "split": "detailed",
@@ -316,6 +477,45 @@
    "evidence": "abstract"
   },
   {
+   "title": "Analytic decomposition of two-body electroweak processes with left-hand cuts",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Physical review. D/Physical review. D.",
+   "authors": "André Baião-Raposo, Raúl A. Briceño, Nicolas Lang et al.",
+   "url": "https://doi.org/10.1103/p6sm-g6z3",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Quark-mass dependence of two-nucleon scattering",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Jorge Baeza-Ballesteros, André Baião-Raposo, Davide Laudicina et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.07864",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Two-nucleon scattering amplitudes at light quark masses from lattice QCD",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Jorge Baeza-Ballesteros, André Baião-Raposo, Davide Laudicina et al.",
+   "url": "https://doi.org/10.3204/pubdb-2026-03075",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Two-nucleon systems at m π ≈ 292 MeV from lattice QCD",
    "function": "exemplifies",
    "split": "passing",
@@ -340,6 +540,22 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Solar fusion III: New data and theory for hydrogen-burning stars",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Reviews of Modern Physics",
+   "authors": "B. Acharya, M. Aliotta, A. B. Balantekin et al.",
+   "url": "https://doi.org/10.1103/8lm7-gs18",
+   "cited_by": 69,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "secondary": [
+    "passing-citation"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Multiparticle interpolating operators in quantum field theories with cubic symmetry",
@@ -415,6 +631,25 @@
    "evidence": "abstract"
   },
   {
+   "title": "Report of the Snowmass 2021 Topical Group on Lattice Gauge Theory",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2022,
+   "venue": "arXiv",
+   "authors": "Zohreh Davoudi, Ethan T. Neil, C. Bauer et al.",
+   "url": "https://doi.org/10.48550/arxiv.2209.10758",
+   "cited_by": 59,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Wave-function-based operator optimization for two-hadron systems in lattice QCD",
    "function": "detailed-citation",
    "split": "detailed",
@@ -483,6 +718,19 @@
    "evidence": "abstract"
   },
   {
+   "title": "An analysis of nuclear parton distribution function based on relative entropy*",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Chinese Physics C",
+   "authors": "Shu-Man Hu, Ao-Sheng Xiong, Ji Xu et al.",
+   "url": "https://doi.org/10.1088/1674-1137/ae6da1",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Decoding two-particle states in QCD with spatial wavefunctions",
    "function": "passing-citation",
    "split": "passing",
@@ -496,6 +744,32 @@
    "evidence": "contexts"
   },
   {
+   "title": "Diffusion Monte Carlo study of deuteronlike fully light hexaquarks",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Physical review. D/Physical review. D.",
+   "authors": "M. C. Gordillo, Jorge Segovia",
+   "url": "https://doi.org/10.1103/624f-mztg",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Forward deuteron breakup on carbon and hydrogen: Coulomb effects and the high-momentum excess",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Ya. D. Krivenko-Emetov, B. I. Sidorenko",
+   "url": "https://doi.org/10.48550/arxiv.2607.17222",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Inclusion of the longitudinal component of the transferred momentum Qz and the transverse relative momentum p⊥ in the diffraction approach to the H(d, p)X reactions",
    "function": "passing-citation",
    "split": "passing",
@@ -507,6 +781,32 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Resolving the $T_{cc}^+$ with $π$ Exchange from Lattice QCD",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Nelson Pitanga Lachini, Raúl A. Briceño",
+   "url": "https://doi.org/10.48550/arxiv.2607.19009",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Resolving the structure of bound states using lattice quantum field theories",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Physical review. D/Physical review. D.",
+   "authors": "Joseph Moscoso, Felipe G. Ortega-Gama, Raúl A. Briceño et al.",
+   "url": "https://doi.org/10.1103/nhbl-t2hv",
+   "cited_by": 8,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Interaction between two hadrons in lattice QCD",
@@ -562,6 +862,19 @@
    "evidence": "abstract+contexts"
   },
   {
+   "title": "High Energy Physics from Low Energy Physics",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Roland C. Farrell",
+   "url": "https://doi.org/10.48550/arxiv.2409.03123",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Quantum simulations of hadron dynamics in the Schwinger model using 112 qubits",
    "function": "passing-citation",
    "split": "passing",
@@ -576,6 +889,19 @@
     "own-group"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Toward Nuclear Physics from Lattice QCD on Quantum Computers",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Progress of Theoretical and Experimental Physics",
+   "authors": "Arata Yamamoto, Takumi Doi",
+   "url": "https://doi.org/10.1093/ptep/ptae019",
+   "cited_by": 11,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Nucleon-nucleon scattering from distillation",
@@ -619,6 +945,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Optimized two-baryon operators in lattice QCD",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Physical review. D/Physical review. D.",
+   "authors": "Yan Lyu, Hui Tong, Takuya Sugiura et al.",
+   "url": "https://doi.org/10.1103/physrevd.105.074512",
+   "cited_by": 15,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Pushing the Periodic Boundaries",
    "function": "passing-citation",
    "split": "passing",
@@ -630,6 +969,45 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Spectrum of light nuclei in a finite volume",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Physical review. D/Physical review. D.",
+   "authors": "Roee Yaron, Betzalel Bazak, M. Schäfer et al.",
+   "url": "https://doi.org/10.1103/physrevd.106.014511",
+   "cited_by": 11,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Status of Lattice QCD Determination of Nucleon Form Factors and Their Relevance for the Few-GeV Neutrino Program",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Annual Review of Nuclear and Particle Science",
+   "authors": "Aaron S. Meyer, André Walker-Loud, Callum Wilkinson",
+   "url": "https://doi.org/10.1146/annurev-nucl-010622-120608",
+   "cited_by": 84,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Towards high partial waves in lattice QCD with an extended two-hadron operator",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Physical review. D/Physical review. D.",
+   "authors": "Jia-Jun Wu, Waseem Kamleh, Derek B. Leinweber et al.",
+   "url": "https://doi.org/10.1103/physrevd.105.074506",
+   "cited_by": 5,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Towards precise and accurate calculations of neutrinoless double-beta decay",
@@ -646,6 +1024,19 @@
     "own-group"
    ],
    "evidence": "abstract"
+  },
+  {
+   "title": "Towards high partial waves in lattice QCD with a dumbbell-like operator",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "arXiv",
+   "authors": "Jia-Jun Wu, Waseem Kamleh, Derek B. Leinweber et al.",
+   "url": "https://doi.org/10.3204/pubdb-2021-03614",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Position-space sampling for local multiquark operators in lattice QCD using distillation and the importance of tetraquark operators for T c c ( 3875 ) +",

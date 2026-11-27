@@ -1,16 +1,48 @@
 {
  "schema": 1,
  "key": "bhive",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 37,
-  "works": 36,
+  "records_raw": 48,
+  "works": 47,
   "commit": 1,
-  "judged": 33,
+  "judged": 44,
   "gscholar": null
  },
  "citations": [
+  {
+   "title": "DeepPM: Predicting Performance and Energy Consumption of Program Binaries Using Transformers",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "ACM Transactions on Design Automation of Electronic Systems",
+   "authors": "Jun S. Shim, Hyeonji Chang, Yeseong Kim et al.",
+   "url": "https://doi.org/10.1145/3725887",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Towards automatic characterization of microarchitectural behaviour form performance modeling of computing kernels : an analysis of the Cortex A72 and Intel microarchitectures",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "theses.fr (ABES)",
+   "authors": "Théophile Bastian",
+   "url": "https://doi.org/10.70675/74a82989z4167z4762z9d2fzb0a9e8ec16d9",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
   {
    "title": "DeepPM: Transformer-based Power and Performance Prediction for Energy-Aware Software",
    "function": "uses-tool",
@@ -40,6 +72,19 @@
     "supports-claim"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Assessing trustworthiness of neural networks for computer systems",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Isha Chaudhary",
+   "url": "https://openalex.org/W7220824494",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "CesASMe and Staticdeps: static detection of memory-carried dependencies for code analyzers",
@@ -107,6 +152,22 @@
    "centrality": "engaged",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Machine learning for timing estimation",
+   "function": "uses-benchmark",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "theses.fr (ABES)",
+   "authors": "Abderaouf Nassim Amalou",
+   "url": "https://doi.org/10.70675/d276d583z0ce4z41b2za54azf081cb28f62c",
+   "cited_by": 3,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "A Parametric Microarchitecture Model for Accurate Basic Block Throughput Prediction on Recent Intel CPUs",
@@ -318,6 +379,35 @@
    "evidence": "contexts"
   },
   {
+   "title": "Enabling Behavior-Based Energy Consumption and Memory Footprint Optimizations in Native Contexts",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "DSpace - NTUA (National Technical University of Athens)",
+   "authors": "Christos Panagiotis Lamprakos",
+   "url": "https://doi.org/10.26240/heal.ntua.31489",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Het mogelijk maken van gedragsgebaseerde optimalisaties voor energieverbruik en geheugenvoetafdruk in native omgevingen",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "Lirias",
+   "authors": "Lamprakos, Christos",
+   "url": "https://openalex.org/W7113749014",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Fast and Accurate Context-Aware Basic Block Timing Prediction using Transformers",
    "function": "positions",
    "split": "detailed",
@@ -333,6 +423,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Finding Performance Regressions in GPU Compilers",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2027,
+   "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+   "authors": "Wai Kin Wong, Dongwei Xiao, Ping Fan Ke et al.",
+   "url": "https://doi.org/10.1145/3845814.3850066",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "A Neural Network Based GCC Cost Model for Faster Compiler Tuning",
    "function": "supports-claim",
    "split": "detailed",
@@ -344,6 +447,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Input-Gen: Guided Generation of Stateful Inputs for Testing, Tuning, and Training",
+   "function": "supports-claim",
+   "split": "detailed",
+   "year": 2024,
+   "venue": "arXiv",
+   "authors": "Ivanov, Ivan R., Meyer, Joachim, Grossman, Aiden et al.",
+   "url": "https://doi.org/10.48550/arxiv.2406.08843",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Uncovering the performance bottleneck of modern HPC processor with static code analyzer: a case study on Kunpeng 920",
@@ -409,6 +525,19 @@
    "commit": true
   },
   {
+   "title": "Efficient utilization of vector extensions in microprocessors",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "DepositOnce",
+   "authors": "Angela Pohl",
+   "url": "https://doi.org/10.14279/depositonce-10820",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "nanoBench: A Low-Overhead Tool for Running Microbenchmarks on x86 Systems",
    "function": "detailed-citation",
    "split": "detailed",
@@ -472,6 +601,35 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Throughput optimization techniques for heterogeneous architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "HAL",
+   "authors": "Nicolas Derumigny, Pouchet, Louis-Noël, Fabrice Rastello et al.",
+   "url": "https://doi.org/10.25675/3.02989",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "flags": [
+    "own-group"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Automatic generation of performance model for heterogeneous architectures",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2023,
+   "venue": "theses.fr (ABES)",
+   "authors": "Nicolas Derumigny",
+   "url": "https://doi.org/10.70675/3da18693z2629z44c3z8134z3408115e531d",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "ComPile: A Large IR Dataset from Production Sources",

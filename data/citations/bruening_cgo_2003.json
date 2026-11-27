@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "key": "bruening:cgo:2003",
- "generated": "2026-08-24",
+ "generated": "2026-11-27",
  "codebook": "0.2",
  "counts": {
-  "records_raw": 650,
-  "works": 632,
+  "records_raw": 700,
+  "works": 682,
   "commit": 6,
-  "judged": 517,
+  "judged": 561,
   "gscholar": null
  },
  "citations": [
@@ -23,6 +23,32 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "BranchSherpa: A Fast and Accurate Analytical Modeling Framework for Branch Predictors",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "IEEE International Symposium on Workload Characterization",
+   "authors": "Dongin Lee, Trevor E. Carlson",
+   "url": "https://doi.org/10.1109/iiswc71020.2026.00014",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Lodestone: Automated Semantic Discovery of Datacenter Hardware Specialization",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Peizhe Liu, Akanksha Jain, Gerasimos Gerogiannis et al.",
+   "url": "https://doi.org/10.48550/arxiv.2611.23663",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "ATR: Out-of-Order Register Release Exploiting Atomic Regions",
@@ -307,6 +333,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Runtime Systems for Persistent Memories",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2019,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Vaibhav Gogte",
+   "url": "https://openalex.org/W3137449526",
+   "cited_by": 0,
+   "centrality": "core",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Software Wear Management for Persistent Memories",
    "function": "uses-tool",
    "split": "detailed",
@@ -330,6 +369,22 @@
    "cited_by": 5,
    "centrality": "core",
    "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Guided Automatic Binary Parallelisation",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2018,
+   "venue": "Apollo (University of Cambridge)",
+   "authors": "Ruoyu Zhou",
+   "url": "https://doi.org/10.17863/cam.21890",
+   "cited_by": 1,
+   "centrality": "core",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
    "evidence": "fulltext"
   },
   {
@@ -497,6 +552,23 @@
    ],
    "evidence": "fulltext",
    "commit": true
+  },
+  {
+   "title": "Composable and reusable whole-system offline dynamic analysis",
+   "function": "uses-tool",
+   "split": "detailed",
+   "year": 2012,
+   "venue": "cIRcle (University of British Columbia)",
+   "authors": "Geoffrey Lefebvre",
+   "url": "https://doi.org/10.14288/1.0052156",
+   "cited_by": 1,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions",
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "DDGacc: boosting dynamic DDG-based binary optimizations through specialized hardware support",
@@ -887,6 +959,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Robust Low-Overhead Binary Rewriting: Design, Extensibility, And Customizability",
+   "function": "baseline",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "University Libraries (University of Maryland)",
+   "authors": "Amir Majlesi-Kupaei",
+   "url": "https://doi.org/10.13016/g1lq-8iey",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "medium",
+   "secondary": [
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Egalito",
    "function": "baseline",
    "split": "detailed",
@@ -1197,6 +1285,39 @@
    "evidence": "contexts"
   },
   {
+   "title": "Rescuing Data Center Processors",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2023,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Tanvir Ahmed Khan",
+   "url": "https://doi.org/10.7302/8143",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies",
+    "supports-claim"
+   ],
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Analyse et optimisation dynamiques de programmes au format binaire pour la cybersécurité",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Camille Le Bon",
+   "url": "https://doi.org/10.70675/1f065835za88ez4054zbc5az4a0d15467ad9",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "detailed-citation"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "OCOLOS: Online COde Layout OptimizationS",
    "function": "positions",
    "split": "detailed",
@@ -1256,6 +1377,18 @@
     "exemplifies"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Scheduling and performance characterization on heterogeneous computing systems",
+   "function": "positions",
+   "split": "detailed",
+   "year": 2016,
+   "authors": "Giorgis Georgakoudis",
+   "url": "https://doi.org/10.12681/eadd/40218",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Simulation and Analysis Engine for Scale-Out Workloads",
@@ -1681,6 +1814,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "ATT: High-Fidelity System-Level CPU Profiling with Accurate Basic-Block Timing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2027,
+   "venue": "Proceedings of the 32nd ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1",
+   "authors": "C. Zhang, Tian-Rui Wei, Ansh Maroo et al.",
+   "url": "https://doi.org/10.1145/3845814.3850029",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "DeepMalScan: An AI-Driven Framework for Executable Threat Detection and Risk Assessment",
    "function": "exemplifies",
    "split": "passing",
@@ -1689,6 +1835,45 @@
    "authors": "Lalith Mandarapu, Yalla Gautam Srinivas Manikanta, M. Chandralekha",
    "url": "https://doi.org/10.1007/978-3-032-31526-7_22",
    "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Deterministic Fully-Static Whole-Binary Translation without Heuristics",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "ACM Transactions on Architecture and Code Optimization (TACO)",
+   "authors": "Hong-Yu Chen, James McGowan, Michael Franz",
+   "url": "https://doi.org/10.1145/3849874",
+   "cited_by": 2,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Fuzz Testing of Exposed Components in the Qt Framework",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "NVA (Nasjonalt vitenarkiv)",
+   "authors": "Thomas Wærenskjold Skårer, Johan Fredrik Wilvang, Sofie Thire",
+   "url": "https://openalex.org/W7236982956",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Write Once, Instrument Anywhere: Portable, Sandboxed Tooling with WebAssembly Components",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Elizabeth Gilbert, Chris Fallin, Heather Miller et al.",
+   "url": "https://doi.org/10.48550/arxiv.2610.38682",
+   "cited_by": 1,
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "fulltext"
@@ -1799,6 +1984,19 @@
    "centrality": "peripheral",
    "confidence": "low",
    "evidence": "abstract"
+  },
+  {
+   "title": "Measurement and Analysis of GPU-accelerated Applications at Exascale",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2025,
+   "venue": "Rice Research Repository (Rice University)",
+   "authors": "Yumeng Liu",
+   "url": "https://openalex.org/W7214136616",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "PEAK: Cost-Adaptive Profiling in a Heartbeat",
@@ -2038,6 +2236,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "City, University of London Institutional Repository",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2022,
+   "authors": "Javad Zarrin, R. Aguiar, J. P. Barraca",
+   "url": "https://www.semanticscholar.org/paper/72aa99e59d6befa72ad282ac2e3eb0b5e71ce5b7",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
    "title": "DynaPyt: a dynamic analysis framework for Python",
    "function": "exemplifies",
    "split": "passing",
@@ -2062,6 +2272,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Just in time compilation for high performance computing",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2022,
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "authors": "Tarun Prabhu",
+   "url": "https://openalex.org/W7220807601",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A Novel Dynamic Analysis Infrastructure to Instrument Untrusted Execution Flow Across User-Kernel Spaces",
@@ -2171,6 +2394,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Unveiling and mitigating common pitfalls in malware analysis",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2021,
+   "venue": "theses.fr (ABES)",
+   "authors": "Dario Nisi",
+   "url": "https://doi.org/10.70675/5008c2f6z8776z418fza571z2db1be2e835e",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Using Non-Intrusive Instrumentation to Analyze any Distributed Middleware in Real-Time",
    "function": "exemplifies",
    "split": "passing",
@@ -2251,6 +2487,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Efficient Dependability Assessment of Systems Software",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2020,
+   "venue": "TUbilio (Technical University of Darmstadt)",
+   "authors": "Nicolas Coppik",
+   "url": "https://doi.org/10.25534/tuprints-00011829",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "I-SPY: Context-Driven Conditional Instruction Prefetching with Coalescing",
    "function": "exemplifies",
    "split": "passing",
@@ -2325,6 +2574,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "An Optimized Intermediate Representation for Binary Rewriting at Runtime",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "venue": "mediaTUM (Technical University of Munich)",
+   "authors": "David Hildenbrand",
+   "url": "https://openalex.org/W2972945767",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Automatically Patching Vulnerabilities of Binary Programs via Code Transfer From Correct Versions",
    "function": "exemplifies",
    "split": "passing",
@@ -2390,6 +2652,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Outils de débogage et d'optimisation des calculs flottants dans le contexte HPC",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2019,
+   "venue": "theses.fr (ABES)",
+   "authors": "Yohan Chatelain",
+   "url": "https://doi.org/10.70675/803eac26z5cfez4fd0zb3b2zc751c148ba86",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Performance analyses and code transformations for MATLAB applications. (Analyses de performances et transformations de code pour les applications MATLAB)",
@@ -2605,6 +2880,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Elastic Program Transformations : Automatically Optimizing the Reliability/Performance Trade-off in Systems Software",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2017,
+   "venue": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+   "authors": "Jonas Benedict Wagner",
+   "url": "https://doi.org/10.5075/epfl-thesis-7745",
+   "cited_by": 10,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "ExanaDBT: A Dynamic Compilation System for Transparent Polyhedral Optimizations at Runtime",
@@ -2915,6 +3203,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "From high level architecture descriptions to fast instruction set simulators",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "ERA",
+   "authors": "Harry Wagstaff",
+   "url": "https://openalex.org/W2325039191",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Generalization of the decremental performance analysis to differential analysis. (Généralisation de l'analyse de performance décrémentale vers l'analyse différentielle)",
    "function": "exemplifies",
    "split": "passing",
@@ -3016,6 +3317,22 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Securing Statically and Dynamically Compiled Programs using Software Diversity",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2015,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Andrei Homescu",
+   "url": "https://openalex.org/W2573230755",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Static slack-based instrumentation of programs",
@@ -3238,6 +3555,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Framework for Evaluating Dynamic Memory Allocators Including a New Equivalence Class Based Cache-conscious Allocator",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2013,
+   "venue": "University of North Texas Digital Library (University of North Texas)",
+   "authors": "Tomislav Janjusic",
+   "url": "https://doi.org/10.12794/metadc500151",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
   },
   {
    "title": "INSTEP: A static instrumentation framework for preserving extra-functional properties",
@@ -4214,6 +4544,19 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Java Just-in-Timeコンパイラにおける動的最適化の設計と評価",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2007,
+   "venue": "Institutional Repositories DataBase (IRDB)",
+   "authors": "俊夫 菅沼, 菅沼, 俊夫",
+   "url": "https://openalex.org/W131105985",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Performance driven data cache prefetching in a dynamic software optimization system",
    "function": "exemplifies",
    "split": "passing",
@@ -4262,6 +4605,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "YETI: a graduallY extensible trace interpreter",
+   "function": "exemplifies",
+   "split": "passing",
+   "year": 2007,
+   "venue": "International Conference on Virtual Execution Environments",
+   "authors": "Mathew Zaleski, Angela Demke Brown, Kevin Stoodley",
+   "url": "https://doi.org/10.1145/1254810.1254823",
+   "cited_by": 3,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A Cross-Architectural Interface for Code Cache Manipulation",
@@ -4621,6 +4977,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Machine Learning in Security Vulnerability Research",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2025,
+   "venue": "CUB Ph.D. Dissertations (Corvinus University of Budapest)",
+   "authors": "Gábor Selján",
+   "url": "https://doi.org/10.14267/phd.2025042",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Runtime-Adaptable Selective Performance Instrumentation",
    "function": "detailed-citation",
    "split": "detailed",
@@ -4645,6 +5014,22 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Beware of Unknown Areas to Notify Adversaries: Detecting Dynamic Binary Instrumentation Runtimes with Low-Level Memory Scanning",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2021,
+   "venue": "Lecture notes in networks and systems",
+   "authors": "Federico Palmaro, Luisa Franchina",
+   "url": "https://doi.org/10.1007/978-3-030-80129-8_66",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Co-designing OpenMP Features Using OMPT and Simulation Tools",
@@ -4723,6 +5108,22 @@
    "evidence": "contexts"
   },
   {
+   "title": "Living on the edge: rapid-toggling probes with cross-modification on x86",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2016,
+   "venue": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+   "authors": "Buddhika Chamith, Bo Joel Svensson, Luke Dalessandro et al.",
+   "url": "https://doi.org/10.1145/2908080.2908084",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "secondary": [
+    "exemplifies"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Collecting and representing parallel programs with high performance instrumentation",
    "function": "detailed-citation",
    "split": "detailed",
@@ -4798,6 +5199,22 @@
     "supports-claim"
    ],
    "evidence": "contexts"
+  },
+  {
+   "title": "Speeding up dynamic compilation: concurrent and parallel dynamic compilation",
+   "function": "detailed-citation",
+   "split": "detailed",
+   "year": 2013,
+   "venue": "ERA",
+   "authors": "Igor Böhm",
+   "url": "https://openalex.org/W563611100",
+   "cited_by": 0,
+   "centrality": "engaged",
+   "confidence": "high",
+   "secondary": [
+    "positions"
+   ],
+   "evidence": "fulltext"
   },
   {
    "title": "Técnicas de formação de regiões para projetos de máquinas virtuais eficientes",
@@ -5303,6 +5720,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Applying System Call Filtering to Real-World Binaries (Experience Paper)",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Proceedings of the ACM on software engineering.",
+   "authors": "Soumyakant Priyadarshan, Seyedhamed Ghavamnia",
+   "url": "https://doi.org/10.1145/3832213",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "FabricPerf: Measuring NIC-less Scale-Up Network through GPU Communication Kernel Profiling",
    "function": "passing-citation",
    "split": "passing",
@@ -5338,6 +5768,45 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "No Bit Left Behind: Using Brute-Force Lifting to Achieve Fully Static Binary Recompilation",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Tianjiao Huang, Po‐An Chen, Nick Baron et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.16423",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "SkelOT: Reusing AOT Compilation Across EVM Contract Families",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "arXiv",
+   "authors": "Sipeng Xie, Qianhong Wu, Minghang Li et al.",
+   "url": "https://doi.org/10.48550/arxiv.2609.24404",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "VOLE-Field: Deterministic Multimodal Field-State Representation, Inverse Compilation, Entropy-Native Persistence, and Late Materialization — Broad Prior-Art Technical Disclosure and Research Architecture",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2026,
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "authors": "Riaan De Beer",
+   "url": "https://doi.org/10.5281/zenodo.22805772",
+   "cited_by": 1,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
   },
   {
    "title": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
@@ -5392,6 +5861,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "Enhancing Binary Analysis Tooling",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2025,
+   "authors": "Wai Kin Wong",
+   "url": "https://doi.org/10.14711/thesis-hdl152684",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Towards Sound Reassembly of Modern x86-64 Binaries",
    "function": "passing-citation",
    "split": "passing",
@@ -5442,6 +5923,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "Hardware-Software Co-design for Reliable and Efficient Heterogeneous Systems",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2024,
+   "venue": "Deep Blue (University of Michigan)",
+   "authors": "Gefei Zuo",
+   "url": "https://doi.org/10.7302/23832",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "LAST: An Efficient In-place Static Binary Translator for RISC Architectures",
@@ -5561,6 +6055,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "De la collecte de trace à la prédiction du comportement d'applications parallèles",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2022,
+   "venue": "theses.fr (ABES)",
+   "authors": "Alexis Colin",
+   "url": "https://doi.org/10.70675/929a91d3za03az48b8z9a1cza1caab63d0f5",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
    "title": "DeepDi: Learning a Relational Graph Convolutional Network Model on Instructions for Fast and Accurate Disassembly",
    "function": "passing-citation",
    "split": "passing",
@@ -5663,6 +6170,19 @@
    "centrality": "peripheral",
    "confidence": "medium",
    "evidence": "contexts"
+  },
+  {
+   "title": "Contribution to automatic performance analysis of parallel applications",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2021,
+   "venue": "HAL",
+   "authors": "François Trahay",
+   "url": "https://openalex.org/W4392497523",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Execution reconstruction: harnessing failure reoccurrences for failure reproduction",
@@ -6037,6 +6557,32 @@
    "evidence": "abstract"
   },
   {
+   "title": "Just-in-Time Compilation Techniques for Hardware/Software Co-Designed Processors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "eScholarship (California Digital Library)",
+   "authors": "Marcelo Silva Cintra",
+   "url": "https://openalex.org/W2526528385",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
+  },
+  {
+   "title": "Performance simulation methodologies for hardware/software co-designed processors",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2015,
+   "venue": "UPCommons institutional repository (Universitat Politècnica de Catalunya)",
+   "authors": "Aleksandar Branković",
+   "url": "https://doi.org/10.5821/dissertation-2117-95655",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "medium",
+   "evidence": "fulltext"
+  },
+  {
    "title": "Pin++: an object-oriented framework for writing pintools",
    "function": "passing-citation",
    "split": "passing",
@@ -6354,6 +6900,19 @@
    "evidence": "contexts"
   },
   {
+   "title": "Asynchronous adaptive optimisation for generic data‐parallel array programming",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2011,
+   "venue": "Concurrency and Computation Practice and Experience",
+   "authors": "Clemens Grelck, Tim van Deurzen, Stephan Herhut et al.",
+   "url": "https://doi.org/10.1002/cpe.1842",
+   "cited_by": 11,
+   "centrality": "peripheral",
+   "confidence": "low",
+   "evidence": "abstract"
+  },
+  {
    "title": "Code cache management based on working set in dynamic binary translator",
    "function": "passing-citation",
    "split": "passing",
@@ -6549,6 +7108,18 @@
    "evidence": "contexts"
   },
   {
+   "title": "UvA-DARE ( Digital Academic Repository ) An adaptive compilation framework for generic data-parallel array programming",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2010,
+   "authors": "C. Grelck, Tim van Deurzen, S. Herhut et al.",
+   "url": "https://www.semanticscholar.org/paper/59bbf93e0824cc732bb7f5c4082f26b4c428649e",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "contexts"
+  },
+  {
    "title": "An Optimization Approach for QEMU",
    "function": "passing-citation",
    "split": "passing",
@@ -6726,6 +7297,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "デバッガのためのプログラム実行制御・監視環境の設計と実装 (本文)",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2007,
+   "venue": "KeiO Associated Repository of Academic Resources (Keio University)",
+   "authors": "Toshihiko Koju, 俊彦 孝壽",
+   "url": "https://openalex.org/W7220879150",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "A dynamic binary instrumentation engine for the ARM architecture",
@@ -6936,6 +7520,19 @@
    "centrality": "peripheral",
    "confidence": "high",
    "evidence": "contexts"
+  },
+  {
+   "title": "AN APPROACH FOR FINE-GRAINED PROFILING OF PARALLEL APPLICATIONS",
+   "function": "passing-citation",
+   "split": "passing",
+   "year": 2004,
+   "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+   "authors": "Amol S Deshmukh",
+   "url": "https://openalex.org/W2741061892",
+   "cited_by": 0,
+   "centrality": "peripheral",
+   "confidence": "high",
+   "evidence": "fulltext"
   },
   {
    "title": "Low-Complexity Dynamic Translation in VDebug",
@@ -7219,6 +7816,16 @@
    "evidence": "abstract"
   },
   {
+   "title": "Observable dynamic compilation",
+   "function": "unknown",
+   "split": null,
+   "year": 2017,
+   "authors": "Yudi Zheng",
+   "url": "https://openalex.org/W2733737587",
+   "cited_by": 1,
+   "evidence": "abstract"
+  },
+  {
    "title": "Runtime Optimization of Binary Through Vectorization Transformations. (Optimisation de binaire à l'exécution par la vectorisation)",
    "function": "unknown",
    "split": null,
@@ -7367,6 +7974,20 @@
    "evidence": "fulltext"
   },
   {
+   "title": "Gestion dynamique locale de la variabilité et de la consommation dans les architectures MPSoCs",
+   "function": "unknown",
+   "split": null,
+   "year": 2013,
+   "venue": "theses.fr (ABES)",
+   "authors": "Lionel Vincent",
+   "url": "https://doi.org/10.70675/132981a5zee33z4f2bz9c77z1551287cb68f",
+   "cited_by": 1,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "fulltext"
+  },
+  {
    "title": "Performance Optimization Strategies for Transactional Memory Applications",
    "function": "unknown",
    "split": null,
@@ -7481,6 +8102,20 @@
    "authors": "Jason Mars",
    "url": "https://doi.org/10.18130/v30n5r",
    "cited_by": 2,
+   "flags": [
+    "polluted-contexts"
+   ],
+   "evidence": "abstract"
+  },
+  {
+   "title": "TIREX : une représentation textuelle intermédiaire pour un environnement d'exécution virtuel, échanger des informations du compilateur et d'analyse du programme",
+   "function": "unknown",
+   "split": null,
+   "year": 2012,
+   "venue": "theses.fr (ABES)",
+   "authors": "Artur Pietrek",
+   "url": "https://doi.org/10.70675/3145dcedz8e49z4c6fza637z0a10342b0950",
+   "cited_by": 0,
    "flags": [
     "polluted-contexts"
    ],
@@ -7725,6 +8360,28 @@
    "evidence": "contexts"
   },
   {
+   "title": "Comparative Analysis of CPU Emulation Techniques for Embedded and IoT Systems: A Performance Evaluation of Translation and Interpretation-Based Simulation in the Renode Framework",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "Lecture notes in networks and systems",
+   "authors": "Rafiuddin Syed",
+   "url": "https://doi.org/10.1007/978-3-032-35078-7_33",
+   "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Dynamic Features for Robust Malware Detection: A Systematic Review, Taxonomy, and Practical Analysis Framework",
+   "function": "unclassified",
+   "split": null,
+   "year": 2026,
+   "venue": "SSRN Electronic Journal",
+   "authors": "Monday Onoja, Peter Anthony, Zekeri Adams et al.",
+   "url": "https://doi.org/10.2139/ssrn.6202682",
+   "cited_by": 1,
+   "evidence": "title_only"
+  },
+  {
    "title": "FlexInstru: A flexible instrumentation framework for tracing long-running native workloads",
    "function": "unclassified",
    "split": null,
@@ -7744,6 +8401,17 @@
    "authors": "Yilei Zhang, Haoyu Liao, Zekun Wang et al.",
    "url": "https://doi.org/10.2139/ssrn.4619728",
    "cited_by": 0,
+   "evidence": "title_only"
+  },
+  {
+   "title": "Simplex: Repurposing Intel Memory Protection Extensions for Secure Storage",
+   "function": "unclassified",
+   "split": null,
+   "year": 2022,
+   "venue": "Lecture notes in computer science",
+   "authors": "Matthew Cole, Aravind Prakash",
+   "url": "https://doi.org/10.1007/978-3-031-22295-5_12",
+   "cited_by": 1,
    "evidence": "title_only"
   },
   {
