@@ -749,7 +749,8 @@ ul.person.alumni-cols { float: none; columns: 3; column-gap: 36px; max-width: 10
 /* the selected COMMIT paper (a black square) gets a red outline */
 .lin-wrap rect.nd.sel { stroke: #d0021b !important; stroke-width: 3.5 !important; opacity: 1 !important; }
 .lin-wrap circle.nd.sel { stroke: #15202b !important; stroke-width: 2.5 !important; opacity: 1 !important; }
-.lin-tip { position: fixed; pointer-events: none; max-width: 430px; background: #fff; border: 1px solid #d9dee4; border-radius: 6px;
+/* slightly see-through, so the lines and dots under the description still show */
+.lin-tip { position: fixed; pointer-events: none; max-width: 430px; background: rgba(255, 255, 255, .8); border: 1px solid #d9dee4; border-radius: 6px;
   box-shadow: 0 4px 18px rgba(0,0,0,.12); padding: 10px 12px; font-size: 13px; line-height: 1.4; display: none; z-index: 1100; text-align: left; }
 .lin-tip b { font-size: 14px; } .lin-tip .m { color: #7b8794; } .lin-tip .r { margin-top: 6px; }
 .lin-tip q { display: block; color: #4a5866; font-style: italic; margin-top: 6px; }
