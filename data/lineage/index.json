@@ -1,55 +1,55 @@
 {
  "schema": 1,
  "generated": "2026-10-12",
- "method": "Generation 1 is this site's citation classification of each COMMIT paper (extends / uses as a tool / adopts the idea), after a re-check that relabelled 349 citations with quoted evidence. Later generations were traced through Semantic Scholar and admitted only with a quoted sentence showing the dependence, or when the paper's own title or abstract names the line's technique and a judge confirms it builds on it. COMMIT papers are drawn in the COMMIT lane. Later generations are lower bounds.",
+ "method": "Generation 1 is this site's citation classification of each COMMIT paper (extends / uses as a tool / adopts the idea), after a re-check that relabelled 349 citations with quoted evidence. Later generations were traced through Semantic Scholar and admitted only with a quoted sentence showing the dependence, or when the paper's own title or abstract names the line's technique and a judge confirms it builds on it. COMMIT papers are drawn in the COMMIT lane. Later generations are lower bounds. Generation 1 was brought in step with the citation refresh of 2026-11-27; the papers added then have not been traced further, so nothing is yet recorded as building on them.",
  "lines": [
   {
    "slug": "halide",
    "title": "Halide lineage",
-   "count": 523,
+   "count": 572,
    "generations": 4,
    "roots": 25,
-   "outside": 507
+   "outside": 556
   },
   {
    "slug": "autotuning",
    "title": "PetaBricks and OpenTuner lineage",
-   "count": 245,
+   "count": 267,
    "generations": 4,
    "roots": 18,
-   "outside": 230
+   "outside": 252
   },
   {
    "slug": "slp",
    "title": "Superword-level parallelism (SLP) lineage",
-   "count": 146,
+   "count": 149,
    "generations": 3,
    "roots": 13,
-   "outside": 144
+   "outside": 147
   },
   {
    "slug": "raw",
    "title": "Raw lineage",
-   "count": 201,
+   "count": 215,
    "generations": 2,
    "roots": 38,
-   "outside": 187
+   "outside": 201
   },
   {
    "slug": "suif",
    "title": "SUIF lineage",
-   "count": 669,
+   "count": 699,
    "generations": 3,
    "roots": 32,
-   "outside": 647
+   "outside": 677
   },
   {
    "slug": "dynamorio",
    "title": "DynamoRIO and Program Shepherding lineage",
-   "count": 256,
+   "count": 321,
    "generations": 5,
    "roots": 25,
-   "outside": 252
+   "outside": 317
   },
   {
    "slug": "metaopt",
@@ -62,50 +62,50 @@
   {
    "slug": "streamit",
    "title": "StreamIt lineage",
-   "count": 233,
+   "count": 242,
    "generations": 3,
    "roots": 37,
-   "outside": 222
+   "outside": 231
   },
   {
    "slug": "taco-finch",
    "title": "TACO and Finch lineage",
-   "count": 136,
+   "count": 151,
    "generations": 2,
    "roots": 24,
-   "outside": 128
+   "outside": 143
   },
   {
    "slug": "dmtcp",
    "title": "DMTCP lineage",
-   "count": 111,
+   "count": 123,
    "generations": 2,
    "roots": 1,
-   "outside": 111
+   "outside": 123
   },
   {
    "slug": "bitwise",
    "title": "Bitwidth analysis lineage",
-   "count": 90,
+   "count": 91,
    "generations": 2,
    "roots": 3,
-   "outside": 89
+   "outside": 90
   },
   {
    "slug": "graphit",
    "title": "GraphIt lineage",
-   "count": 35,
+   "count": 42,
    "generations": 1,
    "roots": 10,
-   "outside": 30
+   "outside": 37
   },
   {
    "slug": "aikido-kendo",
    "title": "Kendo and Aikido lineage",
-   "count": 41,
+   "count": 43,
    "generations": 2,
    "roots": 1,
-   "outside": 41
+   "outside": 43
   },
   {
    "slug": "clearview",
@@ -118,18 +118,18 @@
   {
    "slug": "tiramisu",
    "title": "Tiramisu lineage",
-   "count": 19,
+   "count": 24,
    "generations": 1,
    "roots": 7,
-   "outside": 17
+   "outside": 22
   },
   {
    "slug": "commopt",
    "title": "Distributed-memory compilation lineage",
-   "count": 72,
+   "count": 80,
    "generations": 3,
    "roots": 5,
-   "outside": 72
+   "outside": 80
   },
   {
    "slug": "microfluidics",
@@ -139,5 +139,7 @@
    "roots": 5,
    "outside": 40
   }
- ]
+ ],
+ "generation1": "2026-11-27",
+ "citations_commit": "7581d4a2e9bb507e1cea0d49e1915784f229adc5"
 }
